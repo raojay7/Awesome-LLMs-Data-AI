@@ -36,21 +36,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
   - [5. Tools](#5-tools)
   - [6. Blogs](#6-blogs)
 
-### pretrain datasets
 
-- GneissWeb： Recipe for producing a state-of-the-art LLM pre-training dataset having 10+ Trillion tokens, derived from 
-FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
-- DCLM-baseline: DCLM-baseline is a 4T token / 3B document pretraining dataset that achieves strong performance on language model benchmarks. https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0
-- Dolma Dataset: an open dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials. https://huggingface.co/datasets/allenai/dolma
-- Zyda-2: a 5 Trillion Token High-Quality Dataset with NVIDIA NeMo Curator combining a variety of data sources obtained through different processing pipelines leads to more diverse data (including dclm, fineweb-edu2, dolma-CC and Zyda-1) https://www.zyphra.com/post/building-zyda-2
-- Fineweb-edu: consists of 1.3T tokens and 5.4T tokens (FineWeb-Edu-score-2) of educational web pages filtered from  FineWeb dataset. https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
-- Chinese Fineweb Edu Dataset V2.1 is an enhanced version of the V2 dataset, designed specifically for natural language processing (NLP) tasks in the education sector.  https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1 
-- Multimodal c4: An open, billion-scale corpus of images interleaved with text
-- CCpdf: Building a High Quality Corpus for Visually Rich Documents from Web Crawl Data
-- The RefinedWeb dataset for Falcon LLM: outperforming curated corpora with web data, and web data only
-- Extracting representative subset from extensive text data for training pre-trained language models
-- A Pretrainer's Guide to Training Data: Measuring the Effects of Data Age, Domain Coverage, Quality, & Toxicity
-- Can Data Diversity Enhance Learning Generalization? 
 ### Scaling Laws
 - Training compute-optimal large language models
 - Scaling Language Models Methods, Analysis & Insights from Training Gopher
@@ -58,49 +44,19 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
 - Performance Law of Large Language Models
 - Entropy law: The story behind data compression and llm performance
 
-### data selection
 
-#### survey 
-- A survey on data selection for language models
-- A survey on Data selection for llm instruction tuning
-- The art of data selection: A survey on Data Selection for Fine-tuning large language models
-#### method 
-- Multi-agent collaborative data selection for efficient llm pretraining
-- LIMO: less is more for reasoning
-- DataMan: data manager for pre-training large language model
-- Qurating: Selecting high-quality data for training language model
-- DELE: data efficient LLM evaluation
-- DSDM: model-aware dataset selection with datamodels
-- Rethinking Data Selection at Scale: Random Selection is Almost All You Need (Analysis of the million-level instruction selection algorithm)
-  
-### data mixing
-- DoReMi Optimizing Data Mixtures Speeds Up Language Model Pretraining
-- LESS: Selecting Influential Data for Targeted Instruction Tuning
-- How far can camels go? exploring the state of instruction tuning on open resources
 
 ### data process
 - D4: Improving LLM Pretraining via Document De-Duplication and Diversification
 
 
-### instruction data synthesis
-- Self-Instruct: Aligning Language Models with Self-Generated Instructions (Generalization of basic instructions)
-- WizardLM: Empowering Large Language Models to Follow Complex Instructions(Diversification and generalization of instructions)
-- MAmmoTH2: Scaling Instructions from the Web (Instruction generation based on L0 data)
-
-### Long CoT
-- Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (system 2)
-
-### RL
-- SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training (SFT & RL Action Analysis)
-- All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
-#### RL core
-- Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)
-- REFT: Reasoning with REinforced Fine-Tuning (RFT)
-- DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO)
-  
-
 ## 1. Surveys
 
+### data selection
+- A survey on data selection for language models
+- A survey on Data selection for llm instruction tuning
+- The art of data selection: A survey on Data Selection for Fine-tuning large language models
+### generation
 - [**Best Practices and Lessons Learned on Synthetic Data for Language Models**](https://arxiv.org/abs/2404.07503) *Ruibo Liu, Jerry Wei, Fangyu Liu, Chenglei Si, Yanzhe Zhang, Jinmeng Rao, Steven Zheng, Daiyi Peng, Diyi Yang, Denny Zhou, Andrew M. Dai.* COLM 2024.
 - [**On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey**](https://arxiv.org/abs/2406.15126) *Lin Long, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang.* Arxiv 2024.
 - [**Large Language Models for Data Annotation: A Survey**](https://arxiv.org/abs/2402.13446) *Zhen Tan, Dawei Li, Song Wang, Alimohammad Beigi, Bohan Jiang, Amrita Bhattacharjee, Mansooreh Karami, Jundong Li, Lu Cheng, Huan Liu.* Arxiv 2024.
@@ -136,7 +92,21 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
 
 - [**CodecLM: Aligning Language Models with Tailored Synthetic Data**](https://arxiv.org/abs/2404.05875) *Zifeng Wang, Chun-Liang Li, Vincent Perot, Long T. Le, Jin Miao, Zizhao Zhang, Chen-Yu Lee, Tomas Pfister.* Findings of NAACL 2024.
 - [**WizardLM: Empowering Large Language Models to Follow Complex Instructions**](https://arxiv.org/abs/2304.12244) *Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng, Pu Zhao, Jiazhan Feng, Chongyang Tao, Daxin Jiang.* Arxiv 2023.
+- MAmmoTH2: Scaling Instructions from the Web (Instruction generation based on L0 data)
+### 2.3 selection 
+- Multi-agent collaborative data selection for efficient llm pretraining
+- LIMO: less is more for reasoning
+- DataMan: data manager for pre-training large language model
+- Qurating: Selecting high-quality data for training language model
+- DELE: data efficient LLM evaluation
+- DSDM: model-aware dataset selection with datamodels
+- Rethinking Data Selection at Scale: Random Selection is Almost All You Need (Analysis of the million-level instruction selection algorithm)
 
+### 2.4 data mixing
+- DoReMi Optimizing Data Mixtures Speeds Up Language Model Pretraining
+- LESS: Selecting Influential Data for Targeted Instruction Tuning
+- How far can camels go? exploring the state of instruction tuning on open resources
+  
 ## 3. Application Areas
 
 ### 3.1. Mathematical Reasoning
@@ -172,13 +142,23 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
 - [**Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs**](https://arxiv.org/abs/2402.08005) *V´ıctor Gallego.* Arxiv 2024.
 - [**Self-play with Execution Feedback: Improving Instruction-following Capabilities of Large Language Models**](https://arxiv.org/abs/2406.13542) *Guanting Dong, Keming Lu, Chengpeng Li, Tingyu Xia, Bowen Yu, Chang Zhou, Jingren Zhou* Arxiv 2024.
 - [**Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts**](https://arxiv.org/abs/2402.16822) *Mikayel Samvelyan, Sharath Chandra Raparthy, Andrei Lupu, Eric Hambro, Aram H. Markosyan, Manish Bhatt, Yuning Mao, Minqi Jiang, Jack Parker-Holder, Jakob Foerster, Tim Rocktäschel, Roberta Raileanu.* NeurIPS 2024.
-
+- Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)
+- REFT: Reasoning with REinforced Fine-Tuning (RFT)
+- DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO)
+- SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training (SFT & RL Action Analysis)
+- All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
 ### 3.5. Reward Modeling
 - [**West-of-N: Synthetic Preference Generation for Improved Reward Modeling**](https://arxiv.org/abs/2401.12086) *Alizée Pace, Jonathan Mallinson, Eric Malmi, Sebastian Krause, Aliaksei Severyn.* Arxiv 2024.
+
 
 ### 3.6. Long Context
 - [**Make Your LLM Fully Utilize the Context.**](https://arxiv.org/abs/2404.16811) *Shengnan An, Zexiong Ma, Zeqi Lin, Nanning Zheng, Jian-Guang Lou.* Arxiv 2024.
 - [**From Artificial Needles to Real Haystacks: Improving Retrieval Capabilities in LLMs by Finetuning on Synthetic Data**](https://arxiv.org/abs/2406.19292) *Zheyang Xiong, Vasilis Papageorgiou, Kangwook Lee, Dimitris Papailiopoulos*. Arxiv 2024.
+- Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (system 2)
+
+
+
+
 
 ### 3.7. Weak-to-Strong
 
@@ -213,6 +193,21 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
 - [**Code Alpaca: An Instruction-following LLaMA Model trained on code generation instructions**](https://github.com/sahil280114/codealpaca) *Sahil Chaudhary*. GitHub 2023.
 - [**SynthPAI: A Synthetic Dataset for Personal Attribute Inference**](https://arxiv.org/abs/2406.07217) *Hanna Yukhymenko, Robin Staab, Mark Vero, Martin Vechev.* NeurIPS D&B 2024.
 
+### 4.1 pretrain datasets
+
+- GneissWeb： Recipe for producing a state-of-the-art LLM pre-training dataset having 10+ Trillion tokens, derived from 
+FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
+- DCLM-baseline: DCLM-baseline is a 4T token / 3B document pretraining dataset that achieves strong performance on language model benchmarks. https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0
+- Dolma Dataset: an open dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials. https://huggingface.co/datasets/allenai/dolma
+- Zyda-2: a 5 Trillion Token High-Quality Dataset with NVIDIA NeMo Curator combining a variety of data sources obtained through different processing pipelines leads to more diverse data (including dclm, fineweb-edu2, dolma-CC and Zyda-1) https://www.zyphra.com/post/building-zyda-2
+- Fineweb-edu: consists of 1.3T tokens and 5.4T tokens (FineWeb-Edu-score-2) of educational web pages filtered from  FineWeb dataset. https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
+- Chinese Fineweb Edu Dataset V2.1 is an enhanced version of the V2 dataset, designed specifically for natural language processing (NLP) tasks in the education sector.  https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1 
+- Multimodal c4: An open, billion-scale corpus of images interleaved with text
+- CCpdf: Building a High Quality Corpus for Visually Rich Documents from Web Crawl Data
+- The RefinedWeb dataset for Falcon LLM: outperforming curated corpora with web data, and web data only
+- Extracting representative subset from extensive text data for training pre-trained language models
+- A Pretrainer's Guide to Training Data: Measuring the Effects of Data Age, Domain Coverage, Quality, & Toxicity
+- Can Data Diversity Enhance Learning Generalization? 
 ## 5. Tools
 
 - [**DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows**](https://arxiv.org/abs/2402.10379) *Ajay Patel, Colin Raffel, Chris Callison-Burch.* ACL 2024.
