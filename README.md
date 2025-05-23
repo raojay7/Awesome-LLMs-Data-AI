@@ -60,17 +60,19 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
 
 ### data selection
 
+#### survey 
+- A survey on data selection for language models
+- A survey on Data selection for llm instruction tuning
+- The art of data selection: A survey on Data Selection for Fine-tuning large language models
+#### method 
 - Multi-agent collaborative data selection for efficient llm pretraining
 - LIMO: less is more for reasoning
 - DataMan: data manager for pre-training large language model
 - Qurating: Selecting high-quality data for training language model
 - DELE: data efficient LLM evaluation
-- A survey on data selection for language models
 - DSDM: model-aware dataset selection with datamodels
-- A survey on Data selection for llm instruction tuning
-- The art of data selection: A survey on Data Selection for Fine-tuning large language models
 - Rethinking Data Selection at Scale: Random Selection is Almost All You Need (Analysis of the million-level instruction selection algorithm)
-- 
+  
 ### data mixing
 - DoReMi Optimizing Data Mixtures Speeds Up Language Model Pretraining
 - LESS: Selecting Influential Data for Targeted Instruction Tuning
@@ -95,7 +97,7 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
 - Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)
 - REFT: Reasoning with REinforced Fine-Tuning (RFT)
 - DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO)
-- 
+  
 
 ## 1. Surveys
 
