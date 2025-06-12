@@ -59,6 +59,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
 - StatsMerging: Statistics-Guided Model Merging via Task-Specific Teacher Distillation
 - Quality, Diversity, and Complexity in Synthetic Data
+- Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives
 
 ## 1. Surveys
 
