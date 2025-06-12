@@ -58,6 +58,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - Predictive Data Selection: The Data That Predicts Is the Data That Teaches
 - Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
 - StatsMerging: Statistics-Guided Model Merging via Task-Specific Teacher Distillation
+- Quality, Diversity, and Complexity in Synthetic Data
 
 ## 1. Surveys
 
