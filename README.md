@@ -50,6 +50,14 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 ### data process
 - D4: Improving LLM Pretraining via Document De-Duplication and Diversification
 
+### Pretrain
+关注质量和多样性
+- Doremi: Optimizing data mixtures speeds up language model pretraining
+- SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
+- QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
+- Predictive Data Selection: The Data That Predicts Is the Data That Teaches
+- Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
+- StatsMerging: Statistics-Guided Model Merging via Task-Specific Teacher Distillation
 
 ## 1. Surveys
 
