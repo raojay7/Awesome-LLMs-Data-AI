@@ -60,6 +60,10 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - StatsMerging: Statistics-Guided Model Merging via Task-Specific Teacher Distillation
 - Quality, Diversity, and Complexity in Synthetic Data
 - Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives
+### Pretrain+Data Selection
+- HKUST Predictive Data Selection: The Data That Predicts Is the Data That Teaches
+- 字节 QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
+- 美团 SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
 
 ## 1. Surveys
 
