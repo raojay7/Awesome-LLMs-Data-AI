@@ -65,6 +65,11 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - 字节 QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
 - 美团 SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
 
+### 从0开始合成数据
+- Absolute Zero: Reinforced Self-play Reasoning with Zero Data
+- Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement
+- Synthetic Data RL: Task Definition Is All You Need
+
 ## 1. Surveys
 
 ### data selection
