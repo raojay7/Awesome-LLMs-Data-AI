@@ -64,6 +64,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - HKUST Predictive Data Selection: The Data That Predicts Is the Data That Teaches
 - 字节 QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
 - 美团 SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
+- Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
 
 ### 从0开始合成数据
 - Absolute Zero: Reinforced Self-play Reasoning with Zero Data
