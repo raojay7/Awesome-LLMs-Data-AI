@@ -90,7 +90,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - Data Augmentation using LLMs: Data Perspectives, Learning Paradigms and Challenges
 - An Empirical Survey of Data Augmentation for Limited Data Learning in NLP
 - AI Alignment: A Comprehensive Survey
-
+- Quality, Diversity, and Complexity in Synthetic Data SURVEYING THE EFFECTS OF QUALITY, DIVERSITY, AND COMPLEXITY IN SYNTHETIC DATA FROM LARGE LANGUAGE MODELS
 ## 2. Methods
 
 ### 2.1. Techniques
