@@ -1,3 +1,12 @@
+迭代训练＋权重衰减
+
+
+
+指标评估提升
+
+
+
+大模型打分
 
 Wang, S., Jin, X., Wang, Z., Wang, J., Zhang, J., Li, K., Wen, Z., Li, Z., He, C., Hu, X., Zhang, L., 2025. Data Whisperer: Efficient Data Selection for Task-Specific LLM Fine-Tuning via Few-Shot In-Context Learning. https://doi.org/10.48550/arXiv.2505.12212
   
