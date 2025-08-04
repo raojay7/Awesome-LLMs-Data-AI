@@ -46,7 +46,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
     - [4.10. Factuality](#410-factuality)
   - [5. Datasets](#5-datasets)
   - [6. Tools](#6-tools)
-  - [7.  Measure metric](#7-Measure metric)
+  - [7.  Measure metric](7-measure-metric)
   - [8. Blogs](#8-blogs)
 
 
