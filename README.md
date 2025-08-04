@@ -1,5 +1,5 @@
 # Awesome-LLMs-Data-AI
-# Synthetic Data of LLMs, by LLMs, for LLMs
+# A survey on Data-centric AI
 
 <div align="center">
 
@@ -9,26 +9,20 @@
 
 </div>
 
-This repo includes papers, tools, and blogs about Synthetic Data of LLMs, by LLMs, for LLMs.
+This repo includes papers, tools, and blogs about the survey on Data-centric AI of LLMs.
 
 Thanks for all the great contributors on GitHub!🔥⚡🔥
 
 
 
-
-
-
-
-
-
 ## Contents
 
-- [Synthetic Data of LLMs, by LLMs, for LLMs](#synthetic-data-of-llms-by-llms-for-llms)
+- [A survey on Data-centric AI](#a-survey-on-data-centric-ai)
   - [Contents](#contents)
     - [1. Surveys](#1-surveys)
   - [2. Methods](#2-methods)
-    - [2.1. for generation](#21-techniques)
-    - [2.2. for filter](#22-instruction-generation-with-high-qualitycomplexity)
+    - [2.1. for generation](#21-for-generation)
+    - [2.2. for filter](#22-for-filter)
   - [3. Stages](#3-stages)
     - [3.1. pretrain](#31-pretrain)
     - [3.2. sft](#32-sft)
@@ -46,7 +40,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
     - [4.10. Factuality](#410-factuality)
   - [5. Datasets](#5-datasets)
   - [6. Tools](#6-tools)
-  - [7.  Measure metric](7-measure-metric)
+  - [7. Measure metric](7-measure-metric)
   - [8. Blogs](#8-blogs)
 
 
@@ -59,8 +53,6 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 
 
 
-### data process
-- D4: Improving LLM Pretraining via Document De-Duplication and Diversification
 
 ### Pretrain
 关注质量和多样性
@@ -107,7 +99,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - A Survey of Post-Training Scaling in Large Language Models
 ## 2. Methods
 
-### 2.1. Techniques
+### 2.1. for generation
 Data-generation method overview
 
 - Sampling-based
@@ -149,7 +141,7 @@ Data-generation method overview
 - [**Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing**](https://arxiv.org/abs/2406.08464) *Zhangchen Xu, Fengqing Jiang, Luyao Niu, Yuntian Deng, Radha Poovendran, Yejin Choi, Bill Yuchen Lin* Arxiv 2024.
 - [**On the Diversity of Synthetic Data and its Impact on Training Large Language Models**](https://arxiv.org/abs/2410.15226)  *Hao Chen, Abdul Waheed, Xiang Li, Yidong Wang, Jindong Wang, Bhiksha Raj, Marah I. Abdin* Arxiv 2024.
 
-### 2.2. Instruction Generation with High Quality/Complexity
+### 2.2. for filter
 Approaches to data filtering
 - Diversity filtering
   - surface-level heuristics 
@@ -181,24 +173,28 @@ Approaches to data filtering
 
 ## 3. Stages
 How to use these data (stage from pretrain to rl)
-- pretrain
+### 3.1 pretrain
   - highlight
     - Rephrase existing text
     - Verbalize knowledge bases using LMs
+#### data process
+- D4: Improving LLM Pretraining via Document De-Duplication and Diversification
+
     - Generate text without using LMs (e.g. formal languages) 
   - Pretraining
     - formatting
     - Symbolic generation
   - Continued Pretraining 
-    - domain adaptation 
-- SFT
+    - domain adaptation
+
+### 3.2 SFT
   - highlight
     - Control the style of the model’s output
     - Specialize behavior for a particular use-case
     - Feed new information to the model
   - Distillation
   - Self-Guide
-- RL
+### 3.3 RL
   - highlight
     - Learn from minimal supervision
     - Learn from negative examples (e.g. harmful behavior)
