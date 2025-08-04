@@ -44,36 +44,6 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
   - [8. Blogs](#8-blogs)
 
 
-### Scaling Laws
-- Training compute-optimal large language models
-- Scaling Language Models Methods, Analysis & Insights from Training Gopher
-- Scaling Laws for Neural Language Models
-- Performance Law of Large Language Models
-- Entropy law: The story behind data compression and llm performance
-
-
-
-
-### Pretrain
-关注质量和多样性
-- Doremi: Optimizing data mixtures speeds up language model pretraining
-- SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
-- QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
-- Predictive Data Selection: The Data That Predicts Is the Data That Teaches
-- Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
-- StatsMerging: Statistics-Guided Model Merging via Task-Specific Teacher Distillation
-- Quality, Diversity, and Complexity in Synthetic Data
-- Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives
-### Pretrain+Data Selection
-- HKUST Predictive Data Selection: The Data That Predicts Is the Data That Teaches
-- 字节 QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
-- 美团 SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
-- Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
-
-### 从0开始合成数据
-- Absolute Zero: Reinforced Self-play Reasoning with Zero Data
-- Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement
-- Synthetic Data RL: Task Definition Is All You Need
 
 ## 1. Surveys
 
@@ -101,45 +71,62 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 
 ### 2.1. for generation
 Data-generation method overview
+#### 2.1.1 highlight
+#### 2.1.2 Sampling-based
+##### KD
+##### sequence-level KD
+##### task data from LMs
+- [**TarGEN: Targeted Data Generation with Large Language Models**](https://arxiv.org/abs/2310.17876) *Himanshu Gupta, Kevin Scaria, Ujjwala Anantheswaran, Shreyas Verma, Mihir Parmar, Saurabh Arjun Sawant, Chitta Baral, Swaroop Mishra.* COLM 2024.
+- [**Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation**](https://arxiv.org/abs/2402.18334) *Nihal V. Nayak, Yiyang Nan, Avi Trost, Stephen H. Bach* ACL Findings 2024.
 
-- Sampling-based
-  - KD
-  - sequence-level KD
-  - task data from LMs
-  - from scratch(new task, e.g., self-instruct)
-- generation Back-translation
-  - MT
-  - application to MATH
-- Transformation of existing data (task Related datasets or documents)
-  - knowledge graph
-  - Extract instruction data from the web
-  - Rephrasing documents for pretraining
-- Human-Al collaboration 
-  - focus on error
-  - reward modeling
-  - ... 
-- Symbolic generation
-  - Symbolic (MATH)
-  
-- [**STaR: Bootstrapping Reasoning With Reasoning**](https://arxiv.org/abs/2203.14465) *Eric Zelikman, Yuhuai Wu, Jesse Mu, Noah D. Goodman.* NeurIPS 2022.
-- [**Symbolic Knowledge Distillation: from General Language Models to Commonsense Models**](https://arxiv.org/abs/2110.07178) *Peter West, Chandra Bhagavatula, Jack Hessel, Jena D. Hwang, Liwei Jiang, Ronan Le Bras, Ximing Lu, Sean Welleck, Yejin Choi.* NAACL 2022.
-- [**Generating Training Data with Language Models: Towards Zero-Shot Language Understanding**](https://arxiv.org/abs/2202.04538) *Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han.* NeurIPS 2022.
-- [**ZeroGen: Efficient Zero-shot Learning via Dataset Generation**](https://arxiv.org/abs/2202.07922) *Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong.* EMNLP 2022.
-- [**Large Language Models Can Self-Improve**](https://aclanthology.org/2023.emnlp-main.67/) *Jiaxin Huang, Shixiang Gu, Le Hou, Yuexin Wu, Xuezhi Wang, Hongkun Yu, Jiawei Han.* EMNLP 2023.
-- [**CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society**](https://arxiv.org/abs/2303.17760) *Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, Bernard Ghanem.* NeurIPS 2023.
-- [**Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models**](https://arxiv.org/abs/2401.01335) *Zixiang Chen, Yihe Deng, Huizhuo Yuan, Kaixuan Ji, Quanquan Gu.* ICML 2024.
-- [**Self-Rewarding Language Models.**](https://arxiv.org/abs/2401.10020) *Weizhe Yuan, Richard Yuanzhe Pang, Kyunghyun Cho, Xian Li, Sainbayar Sukhbaatar, Jing Xu, Jason Weston.* Arxiv 2024.
+##### from scratch(new task, e.g., self-instruct)从0开始合成数据
+- Absolute Zero: Reinforced Self-play Reasoning with Zero Data
+- Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement
+- Synthetic Data RL: Task Definition Is All You Need
 - [**Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models**](https://arxiv.org/abs/2402.13064) *Haoran Li, Qingxiu Dong, Zhengyang Tang, Chaojun Wang, Xingxing Zhang, Haoyang Huang, Shaohan Huang, Xiaolong Huang, Zeqiang Huang, Dongdong Zhang, Yuxian Gu, Xin Cheng, Xun Wang, Si-Qing Chen, Li Dong, Wei Lu, Zhifang Sui, Benyou Wang, Wai Lam, Furu Wei.* Arxiv 2024.
 - [**Self-instruct: Aligning language models with self-generated instructions**](https://arxiv.org/abs/2212.10560) *Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi.* ACL 2023.
-- [**Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling**](https://arxiv.org/abs/2401.16380) *Pratyush Maini, Skyler Seto, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly.* ACL 2024. 
-- [**TarGEN: Targeted Data Generation with Large Language Models**](https://arxiv.org/abs/2310.17876) *Himanshu Gupta, Kevin Scaria, Ujjwala Anantheswaran, Shreyas Verma, Mihir Parmar, Saurabh Arjun Sawant, Chitta Baral, Swaroop Mishra.* COLM 2024.
-- [**Automatic Instruction Evolving for Large Language Models**](https://arxiv.org/abs/2406.00770) *Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen.* Arxiv 2024.
-- [**Scaling Synthetic Data Creation with 1,000,000,000 Personas**](https://arxiv.org/abs/2406.20094) *Xin Chan, Xiaoyang Wang, Dian Yu, Haitao Mi, Dong Yu.* Arxiv 2024.
-- [**Self-playing Adversarial Language Game Enhances LLM Reasoning**](https://arxiv.org/abs/2404.10642) *Pengyu Cheng, Tianhao Hu, Han Xu, Zhisong Zhang, Yong Dai, Lei Han, Nan Du* Arxiv 2024.
-- [**Source2Synth: Synthetic Data Generation and Curation Grounded in Real Data Sources**](https://arxiv.org/abs/2409.08239) *Alisia Lupidi, Carlos Gemmell, Nicola Cancedda, Jane Dwivedi-Yu, Jason Weston, Jakob Foerster, Roberta Raileanu, Maria Lomeli* Arxiv 2024.
-- [**Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation**](https://arxiv.org/abs/2402.18334) *Nihal V. Nayak, Yiyang Nan, Avi Trost, Stephen H. Bach* ACL Findings 2024.
+
+####  2.1.3 generation Back-translation
+  - MT
+  - application to MATH
+####  2.1.4 Transformation of existing data (task Related datasets or documents)
+##### knowledge graph
+##### Extract instruction data from the web
 - [**Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing**](https://arxiv.org/abs/2406.08464) *Zhangchen Xu, Fengqing Jiang, Luyao Niu, Yuntian Deng, Radha Poovendran, Yejin Choi, Bill Yuchen Lin* Arxiv 2024.
 - [**On the Diversity of Synthetic Data and its Impact on Training Large Language Models**](https://arxiv.org/abs/2410.15226)  *Hao Chen, Abdul Waheed, Xiang Li, Yidong Wang, Jindong Wang, Bhiksha Raj, Marah I. Abdin* Arxiv 2024.
+##### Rephrasing documents for pretraining
+- [**Scaling Synthetic Data Creation with 1,000,000,000 Personas**](https://arxiv.org/abs/2406.20094) *Xin Chan, Xiaoyang Wang, Dian Yu, Haitao Mi, Dong Yu.* NeurIPS 2024.
+- [**Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling**](https://arxiv.org/abs/2401.16380) *Pratyush Maini, Skyler Seto, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly.* ACL 2024.
+- [**Source2Synth: Synthetic Data Generation and Curation Grounded in Real Data Sources**](https://arxiv.org/abs/2409.08239) *Alisia Lupidi, Carlos Gemmell, Nicola Cancedda, Jane Dwivedi-Yu, Jason Weston, Jakob Foerster, Roberta Raileanu, Maria Lomeli* Arxiv 2024.
+#### 2.1.5 Human-Al collaboration 
+##### self-generation
+  - [**STaR: Bootstrapping Reasoning With Reasoning**](https://arxiv.org/abs/2203.14465) *Eric Zelikman, Yuhuai Wu, Jesse Mu, Noah D. Goodman.* NeurIPS 2022.
+  - [**Symbolic Knowledge Distillation: from General Language Models to Commonsense Models**](https://arxiv.org/abs/2110.07178) *Peter West, Chandra Bhagavatula, Jack Hessel, Jena D. Hwang, Liwei Jiang, Ronan Le Bras, Ximing Lu, Sean Welleck, Yejin Choi.* NAACL 2022.
+  - [**Generating Training Data with Language Models: Towards Zero-Shot Language Understanding**](https://arxiv.org/abs/2202.04538) *Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han.* NeurIPS 2022.
+  - [**ZeroGen: Efficient Zero-shot Learning via Dataset Generation**](https://arxiv.org/abs/2202.07922) *Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong.* EMNLP 2022.
+  - [**Large Language Models Can Self-Improve**](https://aclanthology.org/2023.emnlp-main.67/) *Jiaxin Huang, Shixiang Gu, Le Hou, Yuexin Wu, Xuezhi Wang, Hongkun Yu, Jiawei Han.* EMNLP 2023.
+  - [**CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society**](https://arxiv.org/abs/2303.17760) *Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, Bernard Ghanem.* NeurIPS 2023.
+  - [**Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models**](https://arxiv.org/abs/2401.01335) *Zixiang Chen, Yihe Deng, Huizhuo Yuan, Kaixuan Ji, Quanquan Gu.* ICML 2024.
+  - [**Self-Rewarding Language Models.**](https://arxiv.org/abs/2401.10020) *Weizhe Yuan, Richard Yuanzhe Pang, Kyunghyun Cho, Xian Li, Sainbayar Sukhbaatar, Jing Xu, Jason Weston.* Arxiv 2024.
+  - [**Automatic Instruction Evolving for Large Language Models**](https://arxiv.org/abs/2406.00770) *Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen.* Arxiv 2024.
+  - [**Self-playing Adversarial Language Game Enhances LLM Reasoning**](https://arxiv.org/abs/2404.10642) *Pengyu Cheng, Tianhao Hu, Han Xu, Zhisong Zhang, Yong Dai, Lei Han, Nan Du* Arxiv 2024.
+
+##### focus on error
+##### reward modeling
+  
+ 
+#### 2.1.6 Symbolic generation
+  - Symbolic (MATH)
+
+#### Scaling Laws
+- Training compute-optimal large language models
+- Scaling Language Models Methods, Analysis & Insights from Training Gopher
+- Scaling Laws for Neural Language Models
+- Performance Law of Large Language Models
+- Entropy law: The story behind data compression and llm performance
+
+
+
 
 ### 2.2. for filter
 Approaches to data filtering
@@ -174,9 +161,24 @@ Approaches to data filtering
 ## 3. Stages
 How to use these data (stage from pretrain to rl)
 ### 3.1 pretrain
-  - highlight
-    - Rephrase existing text
-    - Verbalize knowledge bases using LMs
+#### 3.1.1 highlight
+#### 3.1.2 Rephrase existing text
+#### 3.1.3 Verbalize knowledge bases using LMs
+#### 3.1.4 mix  
+关注质量和多样性
+- Doremi: Optimizing data mixtures speeds up language model pretraining
+- SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
+- QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
+- Predictive Data Selection: The Data That Predicts Is the Data That Teaches
+- Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
+- StatsMerging: Statistics-Guided Model Merging via Task-Specific Teacher Distillation
+- Quality, Diversity, and Complexity in Synthetic Data
+- Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives
+#### 3.1.5 selection
+- HKUST Predictive Data Selection: The Data That Predicts Is the Data That Teaches
+- 字节 QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
+- 美团 SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
+- Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
 #### data process
 - D4: Improving LLM Pretraining via Document De-Duplication and Diversification
 
