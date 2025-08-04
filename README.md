@@ -50,6 +50,44 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 <img width="1079" height="476" alt="image" src="https://github.com/user-attachments/assets/a21a2597-f4b7-49f3-9255-ab0204d63e6f" />
 <img width="1794" height="861" alt="image" src="https://github.com/user-attachments/assets/2ef0571b-b1cf-48eb-8fbe-60cd52007a66" />
 
+
+# How to use these data (stage from pretrain to rl)
+- pretrain
+  - highlight
+    - Rephrase existing text
+    - Verbalize knowledge bases using LMs
+    - Generate text without using LMs (e.g. formal languages) 
+  - Pretraining
+    - formatting
+    - Symbolic generation
+  - Continued Pretraining 
+    - domain adaptation 
+- SFT
+  - highlight
+    - Control the style of the model’s output
+    - Specialize behavior for a particular use-case
+    - Feed new information to the model
+  - Distillation
+  - Self-Guide
+- RL
+  - highlight
+    - Learn from minimal supervision
+    - Learn from negative examples (e.g. harmful behavior)
+    - Adapt models to their own token distribution rather than text written by others (“exposure bias”) 
+  - Synthetic Feedback (Algorithms adapt to data)
+    - LLM-as-a-judge (Prometheus)
+    - preference learning
+    - Flexible Criteria
+    - evaluation
+      - Agreement with human preferences
+      - Agreement with generic benchmarks
+      - Effectiveness in RL pipelines (task performance)
+# Applications
+- Reasoning
+- Code Generation
+- Tool use and Agents
+- Multilingual and Multimodal
+
 ## Contents
 
 - [Synthetic Data of LLMs, by LLMs, for LLMs](#synthetic-data-of-llms-by-llms-for-llms)
