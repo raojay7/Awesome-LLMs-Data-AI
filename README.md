@@ -92,6 +92,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - AI Alignment: A Comprehensive Survey
 - Quality, Diversity, and Complexity in Synthetic Data SURVEYING THE EFFECTS OF QUALITY, DIVERSITY, AND COMPLEXITY IN SYNTHETIC DATA FROM LARGE LANGUAGE MODELS
 - A Survey of Multimodal Large Language Model from A Data-centric Perspective
+- A Survey of Post-Training Scaling in Large Language Models
 ## 2. Methods
 
 ### 2.1. Techniques
