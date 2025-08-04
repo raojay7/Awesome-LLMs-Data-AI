@@ -14,10 +14,39 @@ This repo includes papers, tools, and blogs about Synthetic Data of LLMs, by LLM
 Thanks for all the great contributors on GitHub!🔥⚡🔥
 
 
-method overview
-<img width="1337" height="733" alt="image" src="https://github.com/user-attachments/assets/54dd4256-c748-467c-ba15-377ebb712c3f" />
+# Data-generation method overview
 
-measure metric 
+- Sampling-based
+  - KD
+  - sequence-level KD
+  - task data from LMs
+  - from scratch(new task, e.g., self-instruct)
+- generation Back-translation
+  - MT
+  - application to MATH
+- Transformation of existing data (task Related datasets or documents)
+  - knowledge graph
+  - Extract instruction data from the web
+  - Rephrasing documents for pretraining
+- Human-Al collaboration 
+  - focus on error
+  - reward modeling
+  - ... 
+- Symbolic generation
+  - Symbolic (MATH)
+    
+# Approaches to data filtering
+- Diversity filtering
+  - surface-level heuristics 
+    - Rouge-L (Self-Instruct, Impossible Distillation))
+    - Embedding similarity (QDIT, DiverseEvol, DEITA)
+    - Semantic tags (instag)
+  -  loss gradients [https://nvlabs.github.io/prismatic-synthesis/]
+- Quality filtering
+  -  reward models
+  -  Correctness (final answer verification) 
+- Correctness filtering
+# Measure metric 
 <img width="1079" height="476" alt="image" src="https://github.com/user-attachments/assets/a21a2597-f4b7-49f3-9255-ab0204d63e6f" />
 <img width="1794" height="861" alt="image" src="https://github.com/user-attachments/assets/2ef0571b-b1cf-48eb-8fbe-60cd52007a66" />
 
