@@ -13,6 +13,14 @@ This repo includes papers, tools, and blogs about Synthetic Data of LLMs, by LLM
 
 Thanks for all the great contributors on GitHub!🔥⚡🔥
 
+
+method overview
+<img width="1337" height="733" alt="image" src="https://github.com/user-attachments/assets/54dd4256-c748-467c-ba15-377ebb712c3f" />
+
+measure metric 
+<img width="1079" height="476" alt="image" src="https://github.com/user-attachments/assets/a21a2597-f4b7-49f3-9255-ab0204d63e6f" />
+<img width="1794" height="861" alt="image" src="https://github.com/user-attachments/assets/2ef0571b-b1cf-48eb-8fbe-60cd52007a66" />
+
 ## Contents
 
 - [Synthetic Data of LLMs, by LLMs, for LLMs](#synthetic-data-of-llms-by-llms-for-llms)
