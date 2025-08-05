@@ -13,35 +13,36 @@ This repo includes papers, tools, and blogs about the survey on Data-centric AI 
 
 Thanks for all the great contributors on GitHub!🔥⚡🔥
 
-
+- To Do
+- [x] 每个人完成各自标记的文献总结，要求，通过找到自己的名字，如（WZY）来完成各自的部分：
+- [ ] 1. 一句话概况idea
+- [ ] 2. 各自子标题下归类总结一类paper做了什么
+- [ ] 3. 通过已有文献关键词，和之前给的seed paper（都是主题相关的）尽可能调研近3年已有的paper （比较出名的，比如顶会或者引用高）
+- [ ] 4. 确定这篇论文的出版物，如ACL
+- [ ] 5. 把这部分内容在各自的md文件更新
 
 ## Contents
 
 - [A survey on Data-centric AI](#a-survey-on-data-centric-ai)
   - [Contents](#contents)
-    - [1. Surveys](#1-surveys)
+  - [1. Surveys](#1-surveys)
   - [2. Methods](#2-methods)
     - [2.1. for generation](#21-for-generation)
     - [2.2. for filter](#22-for-filter)
   - [3. Stages](#3-stages)
     - [3.1. pretrain](#31-pretrain)
     - [3.2. sft](#32-sft)
-    - [3.3. RL](#32-rl)     
+    - [3.3. RL](#33-rl)     
   - [4. Application Areas](#4-application-areas)
     - [4.1. Mathematical Reasoning](#41-mathematical-reasoning)
     - [4.2. Code Generation](#42-code-generation)
-    - [4.3. Text-to-SQL](#43-text-to-sql)
-    - [4.4. Alignment](#44-alignment)
-    - [4.5. Reward Modeling](#45-reward-modeling)
-    - [4.6. Long Context](#46-long-context)
-    - [4.7. Weak-to-Strong](#47-weak-to-strong)
-    - [4.8. Agent and Tool Use](#48-agent-and-tool-use)
-    - [4.9. Vision and Language](#49-vision-and-language)
-    - [4.10. Factuality](#410-factuality)
+    - [4.3. Long Context](#43-long-context)
+    - [4.4. Agent and Tool Use](#44-agent-and-tool-use)
+    - [4.5. Vision and Language](#45-vision-and-language)
+    - [4.6. Safety](#46-safety)
   - [5. Datasets](#5-datasets)
-  - [6. Tools](#6-tools)
-  - [7. Measure metric](7-measure-metric)
-  - [8. Blogs](#8-blogs)
+  - [6. Measure metric](6-measure-metric)
+  - [7. Blogs](#7-blogs)
 
 
 
@@ -69,28 +70,31 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - A Survey of Post-Training Scaling in Large Language Models
 ## 2. Methods
 
-### 2.1. for generation
+### 2.1. for generation 
 Data-generation method overview
 #### 2.1.1 highlight
 #### 2.1.2 Sampling-based
-##### KD
-##### sequence-level KD
-##### task data from LMs
+##### KD (YHT)
+##### sequence-level KD (YHT)
+- [**Impossible Distillation for Paraphrasing and Summarization: How to Make High-quality Lemonade out of Small, Low-quality Models**](https://arxiv.org/abs/2305.16635) *Jaehun Jung, Peter West, Liwei Jiang, Faeze Brahman, Ximing Lu, Jillian Fisher, Taylor Sorensen, Yejin Choi.* NAACL 2024.
+
+##### task data from LMs (DYHP)
 - [**TarGEN: Targeted Data Generation with Large Language Models**](https://arxiv.org/abs/2310.17876) *Himanshu Gupta, Kevin Scaria, Ujjwala Anantheswaran, Shreyas Verma, Mihir Parmar, Saurabh Arjun Sawant, Chitta Baral, Swaroop Mishra.* COLM 2024.
 - [**Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation**](https://arxiv.org/abs/2402.18334) *Nihal V. Nayak, Yiyang Nan, Avi Trost, Stephen H. Bach* ACL Findings 2024.
 
-##### from scratch(new task, e.g., self-instruct)从0开始合成数据
+##### from scratch(new task, e.g., self-instruct)从0开始合成数据 (DYHP)
 - Absolute Zero: Reinforced Self-play Reasoning with Zero Data
 - Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement
 - Synthetic Data RL: Task Definition Is All You Need
 - [**Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models**](https://arxiv.org/abs/2402.13064) *Haoran Li, Qingxiu Dong, Zhengyang Tang, Chaojun Wang, Xingxing Zhang, Haoyang Huang, Shaohan Huang, Xiaolong Huang, Zeqiang Huang, Dongdong Zhang, Yuxian Gu, Xin Cheng, Xun Wang, Si-Qing Chen, Li Dong, Wei Lu, Zhifang Sui, Benyou Wang, Wai Lam, Furu Wei.* Arxiv 2024.
 - [**Self-instruct: Aligning language models with self-generated instructions**](https://arxiv.org/abs/2212.10560) *Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi.* ACL 2023.
-
-####  2.1.3 generation Back-translation
+- [**WizardLM: Empowering Large Language Models to Follow Complex Instructions**](https://arxiv.org/abs/2304.12244) *Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng, Pu Zhao, Jiazhan Feng, Chongyang Tao, Daxin Jiang.* ICLR 2024.
+  
+####  2.1.3 generation Back-translation (SJJ)
   - MT
   - application to MATH
-####  2.1.4 Transformation of existing data (task Related datasets or documents)
-##### knowledge graph
+####  2.1.4 Transformation of existing data (task Related datasets or documents) (WZY)
+##### Knowledge Graph
 ##### Extract instruction data from the web
 - [**Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing**](https://arxiv.org/abs/2406.08464) *Zhangchen Xu, Fengqing Jiang, Luyao Niu, Yuntian Deng, Radha Poovendran, Yejin Choi, Bill Yuchen Lin* Arxiv 2024.
 - [**On the Diversity of Synthetic Data and its Impact on Training Large Language Models**](https://arxiv.org/abs/2410.15226)  *Hao Chen, Abdul Waheed, Xiang Li, Yidong Wang, Jindong Wang, Bhiksha Raj, Marah I. Abdin* Arxiv 2024.
@@ -99,7 +103,7 @@ Data-generation method overview
 - [**Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling**](https://arxiv.org/abs/2401.16380) *Pratyush Maini, Skyler Seto, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly.* ACL 2024.
 - [**Source2Synth: Synthetic Data Generation and Curation Grounded in Real Data Sources**](https://arxiv.org/abs/2409.08239) *Alisia Lupidi, Carlos Gemmell, Nicola Cancedda, Jane Dwivedi-Yu, Jason Weston, Jakob Foerster, Roberta Raileanu, Maria Lomeli* Arxiv 2024.
 #### 2.1.5 Human-Al collaboration 
-##### self-generation
+##### self-generation (MHS)
   - [**STaR: Bootstrapping Reasoning With Reasoning**](https://arxiv.org/abs/2203.14465) *Eric Zelikman, Yuhuai Wu, Jesse Mu, Noah D. Goodman.* NeurIPS 2022.
   - [**Symbolic Knowledge Distillation: from General Language Models to Commonsense Models**](https://arxiv.org/abs/2110.07178) *Peter West, Chandra Bhagavatula, Jack Hessel, Jena D. Hwang, Liwei Jiang, Ronan Le Bras, Ximing Lu, Sean Welleck, Yejin Choi.* NAACL 2022.
   - [**Generating Training Data with Language Models: Towards Zero-Shot Language Understanding**](https://arxiv.org/abs/2202.04538) *Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han.* NeurIPS 2022.
@@ -111,14 +115,14 @@ Data-generation method overview
   - [**Automatic Instruction Evolving for Large Language Models**](https://arxiv.org/abs/2406.00770) *Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen.* Arxiv 2024.
   - [**Self-playing Adversarial Language Game Enhances LLM Reasoning**](https://arxiv.org/abs/2404.10642) *Pengyu Cheng, Tianhao Hu, Han Xu, Zhisong Zhang, Yong Dai, Lei Han, Nan Du* Arxiv 2024.
 
-##### focus on error
-##### reward modeling
+##### Focus on Error (WZY)
+##### reward modeling (YZH)
   
  
-#### 2.1.6 Symbolic generation
-  - Symbolic (MATH)
+#### 2.1.6 Symbolic generation 
+  - Symbolic (MATH) (SJJ)
 
-#### Scaling Laws
+#### 2.1.7 Scaling Laws 
 - Training compute-optimal large language models
 - Scaling Language Models Methods, Analysis & Insights from Training Gopher
 - Scaling Laws for Neural Language Models
@@ -127,8 +131,8 @@ Data-generation method overview
 
 
 
-
-### 2.2. for filter
+### 2.2. for filter 
+(WSH ALL)
 Approaches to data filtering
 - Diversity filtering
   - surface-level heuristics 
@@ -140,8 +144,8 @@ Approaches to data filtering
   -  reward models
   -  Correctness (final answer verification) 
 - Correctness filtering
-- [**CodecLM: Aligning Language Models with Tailored Synthetic Data**](https://arxiv.org/abs/2404.05875) *Zifeng Wang, Chun-Liang Li, Vincent Perot, Long T. Le, Jin Miao, Zizhao Zhang, Chen-Yu Lee, Tomas Pfister.* Findings of NAACL 2024.
-- [**WizardLM: Empowering Large Language Models to Follow Complex Instructions**](https://arxiv.org/abs/2304.12244) *Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng, Pu Zhao, Jiazhan Feng, Chongyang Tao, Daxin Jiang.* Arxiv 2023.
+
+
 - MAmmoTH2: Scaling Instructions from the Web (Instruction generation based on L0 data)
 ### 2.3 selection 
 - Multi-agent collaborative data selection for efficient llm pretraining
@@ -160,7 +164,8 @@ Approaches to data filtering
 
 ## 3. Stages
 How to use these data (stage from pretrain to rl)
-### 3.1 pretrain
+### 3.1 pretrain 
+(SJJ调研预训练相关方法)
 #### 3.1.1 highlight
 #### 3.1.2 Rephrase existing text
 #### 3.1.3 Verbalize knowledge bases using LMs
@@ -181,7 +186,6 @@ How to use these data (stage from pretrain to rl)
 - Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
 #### data process
 - D4: Improving LLM Pretraining via Document De-Duplication and Diversification
-
     - Generate text without using LMs (e.g. formal languages) 
   - Pretraining
     - formatting
@@ -189,19 +193,19 @@ How to use these data (stage from pretrain to rl)
   - Continued Pretraining 
     - domain adaptation
 
-### 3.2 SFT
+### 3.2 SFT 
   - highlight
     - Control the style of the model’s output
     - Specialize behavior for a particular use-case
     - Feed new information to the model
-  - Distillation
-  - Self-Guide
-### 3.3 RL
+  - Distillation (YHT)
+  - Self-Guide (WZY)
+### 3.3 RL 
   - highlight
     - Learn from minimal supervision
     - Learn from negative examples (e.g. harmful behavior)
     - Adapt models to their own token distribution rather than text written by others (“exposure bias”) 
-  - Synthetic Feedback (Algorithms adapt to data)
+  - Synthetic Feedback (Algorithms adapt to data) (YZH)
     - LLM-as-a-judge (Prometheus)
     - preference learning
     - Flexible Criteria
@@ -209,6 +213,18 @@ How to use these data (stage from pretrain to rl)
       - Agreement with human preferences
       - Agreement with generic benchmarks
       - Effectiveness in RL pipelines (task performance)
+- [**Constitutional AI: Harmlessness from AI Feedback**](https://arxiv.org/abs/2212.08073) *Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, Jared Mueller, Jeffrey Ladish, Joshua Landau, Kamal Ndousse, Kamile Lukosuite, Liane Lovitt, Michael Sellitto, Nelson Elhage, Nicholas Schiefer, Noemi Mercado, Nova DasSarma, Robert Lasenby, Robin Larson, Sam Ringer, Scott Johnston, Shauna Kravec, Sheer El Showk, Stanislav Fort, Tamera Lanham, Timothy Telleen-Lawton, Tom Conerly, Tom Henighan, Tristan Hume, Samuel R. Bowman, Zac Hatfield-Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, Jared Kaplan.* Arxiv 2022.
+- [**Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision**](https://arxiv.org/abs/2305.03047) *Zhiqing Sun, Yikang Shen, Qinhong Zhou, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan.* NeurIPS 2023.
+- [**SALMON: Self-Alignment with Instructable Reward Models**](https://arxiv.org/abs/2310.05910) *Zhiqing Sun, Yikang Shen, Hongxin Zhang, Qinhong Zhou, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan.* ICLR 2024.
+- [**Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs**](https://arxiv.org/abs/2402.08005) *V´ıctor Gallego.* Arxiv 2024.
+- [**Self-play with Execution Feedback: Improving Instruction-following Capabilities of Large Language Models**](https://arxiv.org/abs/2406.13542) *Guanting Dong, Keming Lu, Chengpeng Li, Tingyu Xia, Bowen Yu, Chang Zhou, Jingren Zhou* ICLR 2025.
+- [**Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts**](https://arxiv.org/abs/2402.16822) *Mikayel Samvelyan, Sharath Chandra Raparthy, Andrei Lupu, Eric Hambro, Aram H. Markosyan, Manish Bhatt, Yuning Mao, Minqi Jiang, Jack Parker-Holder, Jakob Foerster, Tim Rocktäschel, Roberta Raileanu.* NeurIPS 2024.
+- Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)
+- REFT: Reasoning with REinforced Fine-Tuning (RFT)
+- DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO)
+- SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training (SFT & RL Action Analysis)
+- All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
+- [**West-of-N: Synthetic Preference Generation for Improved Reward Modeling**](https://arxiv.org/abs/2401.12086) *Alizée Pace, Jonathan Mallinson, Eric Malmi, Sebastian Krause, Aliaksei Severyn.* Arxiv 2024.
 ## 4. Application Areas
   
 ### 4.1. Mathematical Reasoning
@@ -219,6 +235,7 @@ How to use these data (stage from pretrain to rl)
 - [**Distilling LLMs' Decomposition Abilities into Compact Language Models**](https://arxiv.org/abs/2402.01812) *Denis Tarasov, Kumar Shridhar.* AutoRL@ICML 2024.
 
 ### 4.2. Code Generation
+- [**CodecLM: Aligning Language Models with Tailored Synthetic Data**](https://arxiv.org/abs/2404.05875) *Zifeng Wang, Chun-Liang Li, Vincent Perot, Long T. Le, Jin Miao, Zizhao Zhang, Chen-Yu Lee, Tomas Pfister.* Findings of NAACL 2024.
 - [**CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning**](https://arxiv.org/abs/2207.01780) *Hung Le, Yue Wang, Akhilesh Deepak Gotmare, Silvio Savarese, Steven C.H. Hoi.*  NeurIPS 2022.
 - [**Language Models Can Teach Themselves to Program Better**](https://arxiv.org/abs/2207.14502) *Patrick Haluptzok, Matthew Bowers, Adam Tauman Kalai.* ICLR 2023.
 - [**InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback**](https://arxiv.org/abs/2306.14898) *John Yang, Akshara Prabhakar, Karthik Narasimhan, Shunyu Yao.* Arxiv 2023.
@@ -233,45 +250,29 @@ How to use these data (stage from pretrain to rl)
 - [**How Do Your Code LLMs Perform? Empowering Code Instruction Tuning with High-Quality Data**](https://www.arxiv.org/abs/2409.03810) *Yejie Wang, Keqing He, Dayuan Fu, Zhuoma Gongque, Heyang Xu, Yanxu Chen, Zhexu Wang, Yujia Fu, Guanting Dong, Muxi Diao, Jingang Wang, Mengdi Zhang, Xunliang Cai, Weiran Xu.* Arxiv 2024.
 - [**SelfCodeAlign: Self-Alignment for Code Generation**](https://arxiv.org/abs/2410.24198) *Yuxiang Wei, Federico Cassano, Jiawei Liu, Yifeng Ding, Naman Jain, Zachary Mueller, Harm de Vries, Leandro von Werra, Arjun Guha, Lingming Zhang.* Arxiv 2024.
 
-### 4.3. Text-to-SQL
-- [**Synthesizing Text-to-SQL Data from Weak and Strong LLMs**](https://arxiv.org/abs/2408.03256) *Jiaxi Yang, Binyuan Hui, Min Yang, Jian Yang, Junyang Lin, Chang Zhou.* ACL 2024.
-
-### 4.4. Alignment
-
-- [**Constitutional AI: Harmlessness from AI Feedback**](https://arxiv.org/abs/2212.08073) *Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, Jared Mueller, Jeffrey Ladish, Joshua Landau, Kamal Ndousse, Kamile Lukosuite, Liane Lovitt, Michael Sellitto, Nelson Elhage, Nicholas Schiefer, Noemi Mercado, Nova DasSarma, Robert Lasenby, Robin Larson, Sam Ringer, Scott Johnston, Shauna Kravec, Sheer El Showk, Stanislav Fort, Tamera Lanham, Timothy Telleen-Lawton, Tom Conerly, Tom Henighan, Tristan Hume, Samuel R. Bowman, Zac Hatfield-Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, Jared Kaplan.* Arxiv 2022.
-- [**Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision**](https://arxiv.org/abs/2305.03047) *Zhiqing Sun, Yikang Shen, Qinhong Zhou, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan.* NeurIPS 2023.
-- [**SALMON: Self-Alignment with Instructable Reward Models**](https://arxiv.org/abs/2310.05910) *Zhiqing Sun, Yikang Shen, Hongxin Zhang, Qinhong Zhou, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan.* ICLR 2024.
-- [**Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs**](https://arxiv.org/abs/2402.08005) *V´ıctor Gallego.* Arxiv 2024.
-- [**Self-play with Execution Feedback: Improving Instruction-following Capabilities of Large Language Models**](https://arxiv.org/abs/2406.13542) *Guanting Dong, Keming Lu, Chengpeng Li, Tingyu Xia, Bowen Yu, Chang Zhou, Jingren Zhou* ICLR 2025.
-- [**Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts**](https://arxiv.org/abs/2402.16822) *Mikayel Samvelyan, Sharath Chandra Raparthy, Andrei Lupu, Eric Hambro, Aram H. Markosyan, Manish Bhatt, Yuning Mao, Minqi Jiang, Jack Parker-Holder, Jakob Foerster, Tim Rocktäschel, Roberta Raileanu.* NeurIPS 2024.
-- Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)
-- REFT: Reasoning with REinforced Fine-Tuning (RFT)
-- DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO)
-- SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training (SFT & RL Action Analysis)
-- All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
-### 4.5. Reward Modeling
-- [**West-of-N: Synthetic Preference Generation for Improved Reward Modeling**](https://arxiv.org/abs/2401.12086) *Alizée Pace, Jonathan Mallinson, Eric Malmi, Sebastian Krause, Aliaksei Severyn.* Arxiv 2024.
 
 
-### 4.6. Long Context
+### 4.3. Long Context
 - [**Make Your LLM Fully Utilize the Context.**](https://arxiv.org/abs/2404.16811) *Shengnan An, Zexiong Ma, Zeqi Lin, Nanning Zheng, Jian-Guang Lou.* Arxiv 2024.
 - [**From Artificial Needles to Real Haystacks: Improving Retrieval Capabilities in LLMs by Finetuning on Synthetic Data**](https://arxiv.org/abs/2406.19292) *Zheyang Xiong, Vasilis Papageorgiou, Kangwook Lee, Dimitris Papailiopoulos*. Arxiv 2024.
 - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (system 2)
 
 
-### 4.7. Weak-to-Strong
 
-- [**Impossible Distillation for Paraphrasing and Summarization: How to Make High-quality Lemonade out of Small, Low-quality Models**](https://arxiv.org/abs/2305.16635) *Jaehun Jung, Peter West, Liwei Jiang, Faeze Brahman, Ximing Lu, Jillian Fisher, Taylor Sorensen, Yejin Choi.* NAACL 2024.
-
-### 4.8. Agent and Tool Use
-
+### 4.4. Agent and Tool Use
+(MHS)
 - [**Toolformer: Language Models Can Teach Themselves to Use Tools**](https://arxiv.org/abs/2302.04761) *Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, Thomas Scialom.* NeurIPS 2023.
 - [**GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction**](https://arxiv.org/abs/2305.18752) *Rui Yang, Lin Song, Yanwei Li, Sijie Zhao, Yixiao Ge, Xiu Li, Ying Shan.* Arxiv 2024.
 - [**Gorilla: Large Language Model Connected with Massive APIs**](https://arxiv.org/abs/2305.15334) *Shishir G. Patil, Tianjun Zhang, Xin Wang, Joseph E. Gonzalez.* Arxiv 2023.
 - [**ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases**](https://arxiv.org/abs/2306.05301) *Qiaoyu Tang, Ziliang Deng, Hongyu Lin, Xianpei Han, Qiao Liang, Boxi Cao, Le Sun.* Arxiv 2023.
 - [**Voyager: An Open-Ended Embodied Agent with Large Language Models**](https://arxiv.org/abs/2305.16291) *Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi Fan, Anima Anandkumar.* Arxiv 2023.
+- [**DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows**](https://arxiv.org/abs/2402.10379) *Ajay Patel, Colin Raffel, Chris Callison-Burch.* ACL 2024.
+- [**AgentInstruct: Toward Generative Teaching with Agentic Flows**](https://arxiv.org/abs/2407.03502) *Arindam Mitra, Luciano Del Corro, Guoqing Zheng, Shweti Mahajan, Dany Rouhana, Andres Codas, Yadong Lu, Wei-ge Chen, Olga Vrousgos, Corby Rosset, Fillipe Silva, Hamed Khanpour, Yash Lara, Ahmed Awadallah.* Arxiv 2024.
+- [**Distilabel: An AI Feedback (AIF) Framework for Building Datasets with and for LLMs**](https://github.com/argilla-io/distilabel) *Álvaro Bartolomé Del Canto, Gabriel Martín Blázquez, Agustín Piqueres Lajarín and Daniel Vila Suero.* GitHub 2024.
+- [**Fuxion: Synthetic Data Generation and Normalization Functions using Langchain + LLMs**](https://github.com/tobiadefami/fuxion)
 
-### 4.9. Vision and Language
+
+### 4.5. Vision and Language
 
 - [**Visual Instruction Tuning**](https://arxiv.org/abs/2304.08485) *Haotian Liu, Chunyuan Li, Qingyang Wu, Yong Jae Lee.* NeurIPS 2023.
 - [**MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models**](https://arxiv.org/abs/2304.10592) *Deyao Zhu, Jun Chen, Xiaoqian Shen, Xiang Li, Mohamed Elhoseiny.* ICLR 2024.
@@ -280,8 +281,8 @@ How to use these data (stage from pretrain to rl)
 - [**Enhancing Large Vision Language Models with Self-Training on Image Comprehension**](https://arxiv.org/abs/2405.19716) *Yihe Deng, Pan Lu, Fan Yin, Ziniu Hu, Sheng Shen, James Zou, Kai-Wei Chang, Wei Wang.* Arxiv 2024.
 - [**LLaVA-OneVision: Easy Visual Task Transfer**](https://arxiv.org/abs/2408.03326) *Bo Li, Yuanhan Zhang, Dong Guo, Renrui Zhang, Feng Li, Hao Zhang, Kaichen Zhang, Yanwei Li, Ziwei Liu, Chunyuan Li* Arxiv 2024.
 
-### 4.10. Factuality
-
+### 4.6. Safety
+(SJJ)
 - [**Fine-tuning Language Models for Factuality**](https://arxiv.org/abs/2311.08401) *Katherine Tian, Eric Mitchell, Huaxiu Yao, Christopher D. Manning, Chelsea Finn.* Arxiv 2023.
 - [**MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents**](https://arxiv.org/abs/2404.10774) *Liyan Tang, Philippe Laban, Greg Durrett.* Arxiv 2024.
 
@@ -307,20 +308,12 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
 - Extracting representative subset from extensive text data for training pre-trained language models
 - A Pretrainer's Guide to Training Data: Measuring the Effects of Data Age, Domain Coverage, Quality, & Toxicity
 - Can Data Diversity Enhance Learning Generalization? 
-## 6. Tools
-
-- [**DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows**](https://arxiv.org/abs/2402.10379) *Ajay Patel, Colin Raffel, Chris Callison-Burch.* ACL 2024.
-- [**AgentInstruct: Toward Generative Teaching with Agentic Flows**](https://arxiv.org/abs/2407.03502) *Arindam Mitra, Luciano Del Corro, Guoqing Zheng, Shweti Mahajan, Dany Rouhana, Andres Codas, Yadong Lu, Wei-ge Chen, Olga Vrousgos, Corby Rosset, Fillipe Silva, Hamed Khanpour, Yash Lara, Ahmed Awadallah.* Arxiv 2024.
-- [**Distilabel: An AI Feedback (AIF) Framework for Building Datasets with and for LLMs**](https://github.com/argilla-io/distilabel) *Álvaro Bartolomé Del Canto, Gabriel Martín Blázquez, Agustín Piqueres Lajarín and Daniel Vila Suero.* GitHub 2024.
-- [**Fuxion: Synthetic Data Generation and Normalization Functions using Langchain + LLMs**](https://github.com/tobiadefami/fuxion)
-
-
-## 7. Measure metric
-- xxx
+## 6. Measure metric 
+- (MHS)
 <img width="1079" height="476" alt="image" src="https://github.com/user-attachments/assets/a21a2597-f4b7-49f3-9255-ab0204d63e6f" />
 <img width="1794" height="861" alt="image" src="https://github.com/user-attachments/assets/2ef0571b-b1cf-48eb-8fbe-60cd52007a66" />
 
-## 8. Blogs
+## 7. Blogs
 
 - [**Synthetic dataset generation techniques: Self-Instruct**](https://huggingface.co/blog/davanstrien/self-instruct) *Daniel van Strien.* 2024
 - [**LLM-Driven Synthetic Data Generation, Curation & Evaluation**](https://cobusgreyling.medium.com/llm-driven-synthetic-data-generation-curation-evaluation-33731e33b525) *Cobus Greyling.* 2024
