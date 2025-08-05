@@ -8,12 +8,12 @@ Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Fe
 
 评估时优化
 ---
-###LLM作为验证器替代奖励模型
+### LLM作为验证器替代奖励模型
 
 
 模型优化
 ===
-Process-based Self-Rewarding Language Models, Shimao Zhang, Xiao Liu, Xin Zhang, Junxiao Liu, Zheheng Luo, Shujian Huang, Yeyun Gong, https://arxiv.org/abs/2503.03746
+Process-based Self-Rewarding Language Models, Shimao Zhang, Xiao Liu, Xin Zhang, Junxiao Liu, Zheheng Luo, Shujian Huang, Yeyun Gong, https://arxiv.org/abs/2503.03746, 基于过程的自奖励模型将自奖励算法的粒度扩展到步骤级，使模型能够评估自己每一个步骤推理步骤的好坏并自己生成奖励信号通过不断迭代优化自己的输出
 
 
 
