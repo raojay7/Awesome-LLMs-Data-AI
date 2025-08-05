@@ -105,6 +105,7 @@ Data-generation method overview
   - application to MATH
 ####  2.1.4 Transformation of existing data (task Related datasets or documents) (WZY)
 ##### Knowledge Graph
+Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement. ACL 2025.
 ##### Extract instruction data from the web
 - MAmmoTH2: Scaling Instructions from the Web (Instruction generation based on L0 data)
 - [**On the Diversity of Synthetic Data and its Impact on Training Large Language Models**](https://arxiv.org/abs/2410.15226)  *Hao Chen, Abdul Waheed, Xiang Li, Yidong Wang, Jindong Wang, Bhiksha Raj, Marah I. Abdin* Arxiv 2024.
