@@ -21,6 +21,9 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [ ] 4. 确定这篇论文的出版物，如ACL
 - [ ] 5. 把这部分内容在各自的md文件更新
 
+2. Methods-> How to get data?
+3. Stages-> How to use?
+4. Application Areas-> Where to use?
 ## Contents
 
 - [A Survey on Data-centric AI](#a-survey-on-data-centric-ai)
@@ -228,7 +231,7 @@ How to use these data (stage from pretrain to rl)?
 - All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
 - [**West-of-N: Synthetic Preference Generation for Improved Reward Modeling**](https://arxiv.org/abs/2401.12086) *Alizée Pace, Jonathan Mallinson, Eric Malmi, Sebastian Krause, Aliaksei Severyn.* Arxiv 2024.
 ## 4. Application Areas
-  
+Where to use?
 ### 4.1. Mathematical Reasoning 
 (YHT)
 - [**MuggleMath: Assessing the Impact of Query and Response Augmentation on Math Reasoning**](https://arxiv.org/abs/2310.05506v3) *Chengpeng Li, Zheng Yuan, Hongyi Yuan, Guanting Dong, Keming Lu, Jiancan Wu, Chuanqi Tan, Xiang Wang, Chang Zhou.* ACL 2024.
