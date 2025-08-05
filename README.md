@@ -126,6 +126,7 @@ Data-generation method overview
   - [**Self-playing Adversarial Language Game Enhances LLM Reasoning**](https://arxiv.org/abs/2404.10642) *Pengyu Cheng, Tianhao Hu, Han Xu, Zhisong Zhang, Yong Dai, Lei Han, Nan Du* Arxiv 2024.
 
 ##### Focus on Error (WZY)
+- APT: Improving Specialist LLM Performance with Weakness Case Acquisition and Iterative Preference Training. Findings of ACL 2025.
 ##### reward modeling (YZH)
   
  
@@ -138,7 +139,7 @@ Data-generation method overview
 - Scaling Laws for Neural Language Models
 - Performance Law of Large Language Models
 - Entropy law: The story behind data compression and llm performance
-
+- Revisiting Scaling Laws for Language Models: The Role of Data Quality and Training Strategies. ACL 2025.
 
 
 ### 2.2. for Filter 
