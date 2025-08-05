@@ -1,5 +1,5 @@
 # Awesome-LLMs-Data-AI
-# A survey on Data-centric AI
+# A Survey on Data-centric AI
 
 <div align="center">
 
@@ -23,12 +23,12 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 
 ## Contents
 
-- [A survey on Data-centric AI](#a-survey-on-data-centric-ai)
+- [A Survey on Data-centric AI](#a-survey-on-data-centric-ai)
   - [Contents](#contents)
   - [1. Surveys](#1-surveys)
   - [2. Methods](#2-methods)
-    - [2.1. for generation](#21-for-generation)
-    - [2.2. for filter](#22-for-filter)
+    - [2.1. for Generation](#21-for-generation)
+    - [2.2. for Filter](#22-for-filter)
   - [3. Stages](#3-stages)
     - [3.1. pretrain](#31-pretrain)
     - [3.2. sft](#32-sft)
@@ -70,7 +70,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - A Survey of Post-Training Scaling in Large Language Models
 ## 2. Methods
 
-### 2.1. for generation 
+### 2.1. for Generation 
 Data-generation method overview
 #### 2.1.1 highlight
 #### 2.1.2 Sampling-based
@@ -131,7 +131,7 @@ Data-generation method overview
 
 
 
-### 2.2. for filter 
+### 2.2. for Filter 
 (WSH ALL)
 Approaches to data filtering
 - Diversity filtering
@@ -164,7 +164,7 @@ Approaches to data filtering
 
 ## 3. Stages
 How to use these data (stage from pretrain to rl)
-### 3.1 pretrain 
+### 3.1 Pretrain 
 (SJJ调研预训练相关方法)
 #### 3.1.1 highlight
 #### 3.1.2 Rephrase existing text
@@ -193,7 +193,7 @@ How to use these data (stage from pretrain to rl)
   - Continued Pretraining 
     - domain adaptation
 
-### 3.2 SFT 
+### 3.2 SFT
   - highlight
     - Control the style of the model’s output
     - Specialize behavior for a particular use-case
