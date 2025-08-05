@@ -166,7 +166,7 @@ Measure metric
 - DELE: data efficient LLM evaluation
 - DSDM: model-aware dataset selection with datamodels
 - Rethinking Data Selection at Scale: Random Selection is Almost All You Need (Analysis of the million-level instruction selection algorithm)
-
+- Evaluating Language Models as Synthetic Data Generators. ACL 2025.
 
 
 ## 3. Stages
@@ -238,6 +238,8 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
 - CommonIT: Commonality-Aware Instruction Tuning for Large Language Models via Data Partitions 
 #### 3.2.3 Construction
   - Distillation (YHT)
+    - COT
+      - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. NeurIPS 2022.
   - Self-Guide (WZY)
 ### 3.3 RL
 #### 3.2.1 highlight
