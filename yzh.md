@@ -37,5 +37,7 @@ Process-based Self-Rewarding Language Models, Shimao Zhang, Xiao Liu, Xin Zhang,
 
 基于过程的自奖励模型将自奖励算法的粒度扩展到步骤级，使模型能够评估自己每一个步骤推理步骤的好坏并自己生成奖励信号通过不断迭代优化自己的输出，同时在偏好优化阶段采用DPO，优化了旧方法只打分的局限性，让模型通过比较不同输出来评判好坏，因为相比打分，模型更擅长作比较。
 
+MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration, Zhitao He, Sandeep Polisetty, Zhiyuan Fan, Yuchen Huang, Shujin Wu, Yi R. Fung, ACL 2025, https://arxiv.org/abs/2505.23224v3
 
+本文提出了一种新的微调框架，通过推理步骤置信度校准来推进 MLLM 的知识边界意识，让MLLM知道对自己输出的每一句话表明置信度。在SFT阶段通过聚合Length-normalized log probability（模型生成这句话的概率平均值（概率越高，信心越高）），Mean token entropy（生成每个词时的“犹豫程度”平均值（越犹豫，信心越低）），TokenSAR（考虑每个词对整句话重要性的加权对数概率（重要词概率高，信心高）），CLIPScore（生成的句子和输入图片的相关性（相关性越高，信心越高））四种指标来生成自己的置信度指标，以对训练数据进行标注，将其分为5个置信度等级，对应不同的MLLM置信度语句池。在强化学习阶段，定义了三个奖励信号，知识准确性奖励（确保模型回答的内容本身是正确的（置信度表达再准，内容错了也没用）），期望校准奖励（让模型表达的置信度能准确反映这句话实际的对错。惩罚过度自信（说很确定但错了）和缺乏自信（说不确定但对了）），置信自校准奖励（让模型表达的置信度与它内部计算的真实信心 (Internal Confidence) 保持一致。鼓励模型“心口如一”。），采用ppo进行优化。
 
