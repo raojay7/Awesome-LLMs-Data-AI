@@ -9,18 +9,20 @@
 
 </div>
 
-This repo includes papers, tools, and blogs about the survey on Data-centric AI of LLMs.
+This repo includes papers and blogs about the survey on Data-centric AI of LLMs.
 
 Thanks for all the great contributors on GitHub!🔥⚡🔥
 
 - To Do
 - [x] 每个人完成各自标记的文献总结，要求，通过找到自己的名字，如（WZY）来完成各自的部分：
-- [ ] 1. 一句话概况idea
-- [ ] 2. 各自子标题下归类总结一类paper做了什么
+- [ ] 1. 一句话概况各个paper的idea，形成 paper名及idea概况的 Map（第一个映射）
+- [ ] 2. 各自子标题下归类总结一类paper做了什么，形成类别及paper名的 Map（第二个映射）
 - [ ] 3. 通过已有文献关键词，数据合成教程和之前给的seed paper（都是主题相关的）尽可能调研近3年已有的paper （比较出名的，比如顶会或者引用高）
-- [ ] 4. 确定这篇论文的出版物，如ACL
+- [ ] 4. 确定这篇论文的出版物，如： [**Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision**](https://arxiv.org/abs/2305.03047) *Zhiqing Sun, Yikang Shen, Qinhong Zhou, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan.* NeurIPS 2023.
 - [ ] 5. 把这部分内容在各自的md文件更新
 
+survey 总体结构
+1. Surveys-> related work
 2. Methods-> How to get data?
 3. Stages-> How to use?
 4. Application Areas-> Where to use?
@@ -43,19 +45,16 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
     - [4.4. Agent and Tool Use](#44-agent-and-tool-use)
     - [4.5. Vision and Language](#45-vision-and-language)
     - [4.6. Safety](#46-safety)
-  - [5. Datasets](#5-datasets)
-  - [6. Measure metric](6-measure-metric)
-  - [7. Blogs](#7-blogs)
 
 
 
 ## 1. Surveys
 
-### data selection
+### Data Selection
 - A survey on data selection for language models
 - A survey on Data selection for llm instruction tuning
 - The art of data selection: A survey on Data Selection for Fine-tuning large language models
-### generation
+### Generation
 - [**Best Practices and Lessons Learned on Synthetic Data for Language Models**](https://arxiv.org/abs/2404.07503) *Ruibo Liu, Jerry Wei, Fangyu Liu, Chenglei Si, Yanzhe Zhang, Jinmeng Rao, Steven Zheng, Daiyi Peng, Diyi Yang, Denny Zhou, Andrew M. Dai.* COLM 2024.
 - [**On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey**](https://arxiv.org/abs/2406.15126) *Lin Long, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang.* Arxiv 2024.
 - [**Large Language Models for Data Annotation: A Survey**](https://arxiv.org/abs/2402.13446) *Zhen Tan, Dawei Li, Song Wang, Alimohammad Beigi, Bohan Jiang, Amrita Bhattacharjee, Mansooreh Karami, Jundong Li, Lu Cheng, Huan Liu.* Arxiv 2024.
@@ -71,6 +70,13 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - Quality, Diversity, and Complexity in Synthetic Data SURVEYING THE EFFECTS OF QUALITY, DIVERSITY, AND COMPLEXITY IN SYNTHETIC DATA FROM LARGE LANGUAGE MODELS
 - A Survey of Multimodal Large Language Model from A Data-centric Perspective
 - A Survey of Post-Training Scaling in Large Language Models
+
+### Blogs
+
+- [**Synthetic dataset generation techniques: Self-Instruct**](https://huggingface.co/blog/davanstrien/self-instruct) *Daniel van Strien.* 2024
+- [**LLM-Driven Synthetic Data Generation, Curation & Evaluation**](https://cobusgreyling.medium.com/llm-driven-synthetic-data-generation-curation-evaluation-33731e33b525) *Cobus Greyling.* 2024
+- [**The Rise of Agentic Data Generation**](https://huggingface.co/blog/mlabonne/agentic-datagen) *Maxime Labonne.* 2024
+- https://blog.csdn.net/qq_43688587/article/details/148533722 
 ## 2. Methods
 How to get data?
 ### 2.1. for Generation 
@@ -99,6 +105,7 @@ Data-generation method overview
 ####  2.1.4 Transformation of existing data (task Related datasets or documents) (WZY)
 ##### Knowledge Graph
 ##### Extract instruction data from the web
+- MAmmoTH2: Scaling Instructions from the Web (Instruction generation based on L0 data)
 - [**Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing**](https://arxiv.org/abs/2406.08464) *Zhangchen Xu, Fengqing Jiang, Luyao Niu, Yuntian Deng, Radha Poovendran, Yejin Choi, Bill Yuchen Lin* Arxiv 2024.
 - [**On the Diversity of Synthetic Data and its Impact on Training Large Language Models**](https://arxiv.org/abs/2410.15226)  *Hao Chen, Abdul Waheed, Xiang Li, Yidong Wang, Jindong Wang, Bhiksha Raj, Marah I. Abdin* Arxiv 2024.
 ##### Rephrasing documents for pretraining
@@ -135,22 +142,22 @@ Data-generation method overview
 
 
 ### 2.2. for Filter 
-(WSH ALL)
 Approaches to data filtering
-- Diversity filtering
+Measure metric 
+(WSH ALL)
+<img width="1079" height="476" alt="image" src="https://github.com/user-attachments/assets/a21a2597-f4b7-49f3-9255-ab0204d63e6f" />
+<img width="1794" height="861" alt="image" src="https://github.com/user-attachments/assets/2ef0571b-b1cf-48eb-8fbe-60cd52007a66" />
+#### 2.2.1 Diversity filtering
   - surface-level heuristics 
     - Rouge-L (Self-Instruct, Impossible Distillation))
     - Embedding similarity (QDIT, DiverseEvol, DEITA)
     - Semantic tags (instag)
   -  loss gradients [https://nvlabs.github.io/prismatic-synthesis/]
-- Quality filtering
+#### 2.2.2 Quality filtering
   -  reward models
   -  Correctness (final answer verification) 
-- Correctness filtering
 
-
-- MAmmoTH2: Scaling Instructions from the Web (Instruction generation based on L0 data)
-#### 2.2.1 selection 
+#### 2.2.3 Multi filtering
 - Multi-agent collaborative data selection for efficient llm pretraining
 - LIMO: less is more for reasoning
 - DataMan: data manager for pre-training large language model
@@ -159,10 +166,6 @@ Approaches to data filtering
 - DSDM: model-aware dataset selection with datamodels
 - Rethinking Data Selection at Scale: Random Selection is Almost All You Need (Analysis of the million-level instruction selection algorithm)
 
-#### 2.2.2 data mixing
-- DoReMi Optimizing Data Mixtures Speeds Up Language Model Pretraining
-- LESS: Selecting Influential Data for Targeted Instruction Tuning
-- How far can camels go? exploring the state of instruction tuning on open resources
 
 
 ## 3. Stages
@@ -170,11 +173,19 @@ How to use these data (stage from pretrain to rl)?
 **for Training**
 
 ### 3.1 Pretrain 
-(SJJ调研预训练相关方法)
+(SJJ调研预训练相关方法和现有预训练数据集)
+
+
 #### 3.1.1 highlight
-#### 3.1.2 Rephrase existing text
-#### 3.1.3 Verbalize knowledge bases using LMs
-#### 3.1.4 mix  
+#### 3.1.2 Training Methods
+data process
+- D4: Improving LLM Pretraining via Document De-Duplication and Diversification
+
+mix
+- DoReMi Optimizing Data Mixtures Speeds Up Language Model Pretraining
+- LESS: Selecting Influential Data for Targeted Instruction Tuning
+- How far can camels go? exploring the state of instruction tuning on open resources
+  
 关注质量和多样性
 - Doremi: Optimizing data mixtures speeds up language model pretraining
 - SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
@@ -184,33 +195,61 @@ How to use these data (stage from pretrain to rl)?
 - StatsMerging: Statistics-Guided Model Merging via Task-Specific Teacher Distillation
 - Quality, Diversity, and Complexity in Synthetic Data
 - Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives
-#### 3.1.5 selection
+selection
 - HKUST Predictive Data Selection: The Data That Predicts Is the Data That Teaches
 - 字节 QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
 - 美团 SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
 - Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
-#### data process
-- D4: Improving LLM Pretraining via Document De-Duplication and Diversification
-    - Generate text without using LMs (e.g. formal languages) 
-  - Pretraining
+#### 3.1.3 Construction
+(SJJ)
+1. existing datasets
+- GneissWeb： Recipe for producing a state-of-the-art LLM pre-training dataset having 10+ Trillion tokens, derived from 
+FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
+- DCLM-baseline: DCLM-baseline is a 4T token / 3B document pretraining dataset that achieves strong performance on language model benchmarks. https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0
+- Dolma Dataset: an open dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials. https://huggingface.co/datasets/allenai/dolma
+- Zyda-2: a 5 Trillion Token High-Quality Dataset with NVIDIA NeMo Curator combining a variety of data sources obtained through different processing pipelines leads to more diverse data (including dclm, fineweb-edu2, dolma-CC and Zyda-1) https://www.zyphra.com/post/building-zyda-2
+- Fineweb-edu: consists of 1.3T tokens and 5.4T tokens (FineWeb-Edu-score-2) of educational web pages filtered from  FineWeb dataset. https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
+- Chinese Fineweb Edu Dataset V2.1 is an enhanced version of the V2 dataset, designed specifically for natural language processing (NLP) tasks in the education sector.  https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1 
+- Multimodal c4: An open, billion-scale corpus of images interleaved with text
+- CCpdf: Building a High Quality Corpus for Visually Rich Documents from Web Crawl Data
+- The RefinedWeb dataset for Falcon LLM: outperforming curated corpora with web data, and web data only
+- Extracting representative subset from extensive text data for training pre-trained language models
+- A Pretrainer's Guide to Training Data: Measuring the Effects of Data Age, Domain Coverage, Quality, & Toxicity
+- Can Data Diversity Enhance Learning Generalization?
+  
+2. Rephrase existing text
+
+
+3. Verbalize knowledge bases using LMs
+ - Generate text without using LMs (e.g. formal languages) 
     - formatting
     - Symbolic generation
   - Continued Pretraining 
     - domain adaptation
 
 ### 3.2 SFT
-  - highlight
+#### 3.2.1 highlight
     - Control the style of the model’s output
     - Specialize behavior for a particular use-case
     - Feed new information to the model
+#### 3.2.2 Training Methods
+- REFT: Reasoning with REinforced Fine-Tuning (RFT)
+- CommonIT: Commonality-Aware Instruction Tuning for Large Language Models via Data Partitions 
+#### 3.2.3 Construction
   - Distillation (YHT)
   - Self-Guide (WZY)
-### 3.3 RL 
-  - highlight
+### 3.3 RL
+#### 3.2.1 highlight
     - Learn from minimal supervision
     - Learn from negative examples (e.g. harmful behavior)
     - Adapt models to their own token distribution rather than text written by others (“exposure bias”) 
-  - Synthetic Feedback (Algorithms adapt to data) (YZH)
+#### 3.2.2 Training Methods
+KTO DPO PPO等
+- Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)
+- DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO)
+- SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training (SFT & RL Action Analysis)
+- All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
+   - Synthetic Feedback (Algorithms adapt to data) (YZH)
     - LLM-as-a-judge (Prometheus)
     - preference learning
     - Flexible Criteria
@@ -218,17 +257,15 @@ How to use these data (stage from pretrain to rl)?
       - Agreement with human preferences
       - Agreement with generic benchmarks
       - Effectiveness in RL pipelines (task performance)
+#### 3.2.3 Construction
 - [**Constitutional AI: Harmlessness from AI Feedback**](https://arxiv.org/abs/2212.08073) *Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, Jared Mueller, Jeffrey Ladish, Joshua Landau, Kamal Ndousse, Kamile Lukosuite, Liane Lovitt, Michael Sellitto, Nelson Elhage, Nicholas Schiefer, Noemi Mercado, Nova DasSarma, Robert Lasenby, Robin Larson, Sam Ringer, Scott Johnston, Shauna Kravec, Sheer El Showk, Stanislav Fort, Tamera Lanham, Timothy Telleen-Lawton, Tom Conerly, Tom Henighan, Tristan Hume, Samuel R. Bowman, Zac Hatfield-Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, Jared Kaplan.* Arxiv 2022.
 - [**Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision**](https://arxiv.org/abs/2305.03047) *Zhiqing Sun, Yikang Shen, Qinhong Zhou, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan.* NeurIPS 2023.
 - [**SALMON: Self-Alignment with Instructable Reward Models**](https://arxiv.org/abs/2310.05910) *Zhiqing Sun, Yikang Shen, Hongxin Zhang, Qinhong Zhou, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan.* ICLR 2024.
 - [**Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs**](https://arxiv.org/abs/2402.08005) *V´ıctor Gallego.* Arxiv 2024.
 - [**Self-play with Execution Feedback: Improving Instruction-following Capabilities of Large Language Models**](https://arxiv.org/abs/2406.13542) *Guanting Dong, Keming Lu, Chengpeng Li, Tingyu Xia, Bowen Yu, Chang Zhou, Jingren Zhou* ICLR 2025.
 - [**Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts**](https://arxiv.org/abs/2402.16822) *Mikayel Samvelyan, Sharath Chandra Raparthy, Andrei Lupu, Eric Hambro, Aram H. Markosyan, Manish Bhatt, Yuning Mao, Minqi Jiang, Jack Parker-Holder, Jakob Foerster, Tim Rocktäschel, Roberta Raileanu.* NeurIPS 2024.
-- Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)
-- REFT: Reasoning with REinforced Fine-Tuning (RFT)
-- DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO)
-- SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training (SFT & RL Action Analysis)
-- All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
+
+
 - [**West-of-N: Synthetic Preference Generation for Improved Reward Modeling**](https://arxiv.org/abs/2401.12086) *Alizée Pace, Jonathan Mallinson, Eric Malmi, Sebastian Krause, Aliaksei Severyn.* Arxiv 2024.
 ## 4. Application Areas
 Where to use?
@@ -256,6 +293,11 @@ Where to use?
 - [**AutoCoder: Enhancing Code Large Language Model with AIEV-Instruct**](https://arxiv.org/abs/2405.14906) *Bin Lei, Yuchen Li, Qiuwu Chen.* Arxiv 2024.
 - [**How Do Your Code LLMs Perform? Empowering Code Instruction Tuning with High-Quality Data**](https://www.arxiv.org/abs/2409.03810) *Yejie Wang, Keqing He, Dayuan Fu, Zhuoma Gongque, Heyang Xu, Yanxu Chen, Zhexu Wang, Yujia Fu, Guanting Dong, Muxi Diao, Jingang Wang, Mengdi Zhang, Xunliang Cai, Weiran Xu.* Arxiv 2024.
 - [**SelfCodeAlign: Self-Alignment for Code Generation**](https://arxiv.org/abs/2410.24198) *Yuxiang Wei, Federico Cassano, Jiawei Liu, Yifeng Ding, Naman Jain, Zachary Mueller, Harm de Vries, Leandro von Werra, Arjun Guha, Lingming Zhang.* Arxiv 2024.
+#### 4.2.1 Datasets
+- [**Synthetic-Text-To-SQL: A synthetic dataset for training language models to generate SQL queries from natural language prompts**](https://huggingface.co/datasets/gretelai/synthetic-text-to-sql) *Meyer, Yev and Emadi, Marjan and Nathawani, Dhruv and Ramaswamy, Lipika and Boyd, Kendrick and Van Segbroeck, Maarten and Grossman, Matthew and Mlocek, Piotr and Newberry, Drew.* Huggingface 2024.
+- [**Open Artificial Knowledge**](https://huggingface.co/datasets/tabularisai/oak) *Vadim Borisov, Richard Schreiber.* ICML Workshop 2024.
+- [**Code Alpaca: An Instruction-following LLaMA Model trained on code generation instructions**](https://github.com/sahil280114/codealpaca) *Sahil Chaudhary*. GitHub 2023.
+- [**SynthPAI: A Synthetic Dataset for Personal Attribute Inference**](https://arxiv.org/abs/2406.07217) *Hanna Yukhymenko, Robin Staab, Mark Vero, Martin Vechev.* NeurIPS D&B 2024.
 
 
 
@@ -293,35 +335,5 @@ Where to use?
 - [**Fine-tuning Language Models for Factuality**](https://arxiv.org/abs/2311.08401) *Katherine Tian, Eric Mitchell, Huaxiu Yao, Christopher D. Manning, Chelsea Finn.* Arxiv 2023.
 - [**MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents**](https://arxiv.org/abs/2404.10774) *Liyan Tang, Philippe Laban, Greg Durrett.* Arxiv 2024.
 
-## 5. Datasets
-- [**Synthetic-Text-To-SQL: A synthetic dataset for training language models to generate SQL queries from natural language prompts**](https://huggingface.co/datasets/gretelai/synthetic-text-to-sql) *Meyer, Yev and Emadi, Marjan and Nathawani, Dhruv and Ramaswamy, Lipika and Boyd, Kendrick and Van Segbroeck, Maarten and Grossman, Matthew and Mlocek, Piotr and Newberry, Drew.* Huggingface 2024.
-- [**Open Artificial Knowledge**](https://huggingface.co/datasets/tabularisai/oak) *Vadim Borisov, Richard Schreiber.* ICML Workshop 2024.
-- [**Code Alpaca: An Instruction-following LLaMA Model trained on code generation instructions**](https://github.com/sahil280114/codealpaca) *Sahil Chaudhary*. GitHub 2023.
-- [**SynthPAI: A Synthetic Dataset for Personal Attribute Inference**](https://arxiv.org/abs/2406.07217) *Hanna Yukhymenko, Robin Staab, Mark Vero, Martin Vechev.* NeurIPS D&B 2024.
 
-### 5.1 pretrain datasets
-(SJJ)
-- GneissWeb： Recipe for producing a state-of-the-art LLM pre-training dataset having 10+ Trillion tokens, derived from 
-FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
-- DCLM-baseline: DCLM-baseline is a 4T token / 3B document pretraining dataset that achieves strong performance on language model benchmarks. https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0
-- Dolma Dataset: an open dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials. https://huggingface.co/datasets/allenai/dolma
-- Zyda-2: a 5 Trillion Token High-Quality Dataset with NVIDIA NeMo Curator combining a variety of data sources obtained through different processing pipelines leads to more diverse data (including dclm, fineweb-edu2, dolma-CC and Zyda-1) https://www.zyphra.com/post/building-zyda-2
-- Fineweb-edu: consists of 1.3T tokens and 5.4T tokens (FineWeb-Edu-score-2) of educational web pages filtered from  FineWeb dataset. https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
-- Chinese Fineweb Edu Dataset V2.1 is an enhanced version of the V2 dataset, designed specifically for natural language processing (NLP) tasks in the education sector.  https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1 
-- Multimodal c4: An open, billion-scale corpus of images interleaved with text
-- CCpdf: Building a High Quality Corpus for Visually Rich Documents from Web Crawl Data
-- The RefinedWeb dataset for Falcon LLM: outperforming curated corpora with web data, and web data only
-- Extracting representative subset from extensive text data for training pre-trained language models
-- A Pretrainer's Guide to Training Data: Measuring the Effects of Data Age, Domain Coverage, Quality, & Toxicity
-- Can Data Diversity Enhance Learning Generalization? 
-## 6. Measure metric 
-- (MHS)
-<img width="1079" height="476" alt="image" src="https://github.com/user-attachments/assets/a21a2597-f4b7-49f3-9255-ab0204d63e6f" />
-<img width="1794" height="861" alt="image" src="https://github.com/user-attachments/assets/2ef0571b-b1cf-48eb-8fbe-60cd52007a66" />
 
-## 7. Blogs
-
-- [**Synthetic dataset generation techniques: Self-Instruct**](https://huggingface.co/blog/davanstrien/self-instruct) *Daniel van Strien.* 2024
-- [**LLM-Driven Synthetic Data Generation, Curation & Evaluation**](https://cobusgreyling.medium.com/llm-driven-synthetic-data-generation-curation-evaluation-33731e33b525) *Cobus Greyling.* 2024
-- [**The Rise of Agentic Data Generation**](https://huggingface.co/blog/mlabonne/agentic-datagen) *Maxime Labonne.* 2024
-- https://blog.csdn.net/qq_43688587/article/details/148533722 
