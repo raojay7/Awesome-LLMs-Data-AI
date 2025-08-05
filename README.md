@@ -41,10 +41,11 @@ survey 总体结构
   - [4. Application Areas](#4-application-areas)
     - [4.1. Mathematical Reasoning](#41-mathematical-reasoning)
     - [4.2. Code Generation](#42-code-generation)
-    - [4.3. Long Context](#43-long-context)
-    - [4.4. Agent and Tool Use](#44-agent-and-tool-use)
-    - [4.5. Vision and Language](#45-vision-and-language)
-    - [4.6. Safety](#46-safety)
+    - [4.3. Safety and Alignment](#43-safety-and-alignment)
+    - [4.4. Long Context](#44-long-context)
+    - [4.5. Agent and Tool Use](#45-agent-and-tool-use)
+    - [4.6. Vision and Language](#46-vision-and-language)
+
 
 
 
@@ -298,16 +299,22 @@ Where to use?
 - [**Code Alpaca: An Instruction-following LLaMA Model trained on code generation instructions**](https://github.com/sahil280114/codealpaca) *Sahil Chaudhary*. GitHub 2023.
 - [**SynthPAI: A Synthetic Dataset for Personal Attribute Inference**](https://arxiv.org/abs/2406.07217) *Hanna Yukhymenko, Robin Staab, Mark Vero, Martin Vechev.* NeurIPS D&B 2024.
 
+### 4.3. Safety and Alignment
+(SJJ)
+- [**Fine-tuning Language Models for Factuality**](https://arxiv.org/abs/2311.08401) *Katherine Tian, Eric Mitchell, Huaxiu Yao, Christopher D. Manning, Chelsea Finn.* Arxiv 2023.
+- [**MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents**](https://arxiv.org/abs/2404.10774) *Liyan Tang, Philippe Laban, Greg Durrett.* Arxiv 2024.
 
 
-### 4.3. Long Context
+
+
+### 4.4. Long Context
 - [**Make Your LLM Fully Utilize the Context.**](https://arxiv.org/abs/2404.16811) *Shengnan An, Zexiong Ma, Zeqi Lin, Nanning Zheng, Jian-Guang Lou.* Arxiv 2024.
 - [**From Artificial Needles to Real Haystacks: Improving Retrieval Capabilities in LLMs by Finetuning on Synthetic Data**](https://arxiv.org/abs/2406.19292) *Zheyang Xiong, Vasilis Papageorgiou, Kangwook Lee, Dimitris Papailiopoulos*. Arxiv 2024.
 - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (system 2)
 - KIMI
 
 
-### 4.4. Agent and Tool Use
+### 4.5. Agent and Tool Use
 (MHS)
 - [**Toolformer: Language Models Can Teach Themselves to Use Tools**](https://arxiv.org/abs/2302.04761) *Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, Thomas Scialom.* NeurIPS 2023.
 - [**GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction**](https://arxiv.org/abs/2305.18752) *Rui Yang, Lin Song, Yanwei Li, Sijie Zhao, Yixiao Ge, Xiu Li, Ying Shan.* Arxiv 2024.
@@ -320,7 +327,7 @@ Where to use?
 - [**Fuxion: Synthetic Data Generation and Normalization Functions using Langchain + LLMs**](https://github.com/tobiadefami/fuxion)
 
 
-### 4.5. Vision and Language
+### 4.6. Vision and Language
 
 - [**Visual Instruction Tuning**](https://arxiv.org/abs/2304.08485) *Haotian Liu, Chunyuan Li, Qingyang Wu, Yong Jae Lee.* NeurIPS 2023.
 - [**MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models**](https://arxiv.org/abs/2304.10592) *Deyao Zhu, Jun Chen, Xiaoqian Shen, Xiang Li, Mohamed Elhoseiny.* ICLR 2024.
@@ -328,11 +335,5 @@ Where to use?
 - [**G-LLaVA: Solving Geometric Problem with Multi-Modal Large Language Model**](https://arxiv.org/abs/2312.11370) *Jiahui Gao, Renjie Pi, Jipeng Zhang, Jiacheng Ye, Wanjun Zhong, Yufei Wang, Lanqing Hong, Jianhua Han, Hang Xu, Zhenguo Li, Lingpeng Kong.* Arxiv 2023.
 - [**Enhancing Large Vision Language Models with Self-Training on Image Comprehension**](https://arxiv.org/abs/2405.19716) *Yihe Deng, Pan Lu, Fan Yin, Ziniu Hu, Sheng Shen, James Zou, Kai-Wei Chang, Wei Wang.* Arxiv 2024.
 - [**LLaVA-OneVision: Easy Visual Task Transfer**](https://arxiv.org/abs/2408.03326) *Bo Li, Yuanhan Zhang, Dong Guo, Renrui Zhang, Feng Li, Hao Zhang, Kaichen Zhang, Yanwei Li, Ziwei Liu, Chunyuan Li* Arxiv 2024.
-
-### 4.6. Safety
-(SJJ)
-- [**Fine-tuning Language Models for Factuality**](https://arxiv.org/abs/2311.08401) *Katherine Tian, Eric Mitchell, Huaxiu Yao, Christopher D. Manning, Chelsea Finn.* Arxiv 2023.
-- [**MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents**](https://arxiv.org/abs/2404.10774) *Liyan Tang, Philippe Laban, Greg Durrett.* Arxiv 2024.
-
 
 
