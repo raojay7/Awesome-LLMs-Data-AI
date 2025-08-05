@@ -69,7 +69,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - A Survey of Multimodal Large Language Model from A Data-centric Perspective
 - A Survey of Post-Training Scaling in Large Language Models
 ## 2. Methods
-
+How to get data?
 ### 2.1. for Generation 
 Data-generation method overview
 #### 2.1.1 highlight
@@ -147,7 +147,7 @@ Approaches to data filtering
 
 
 - MAmmoTH2: Scaling Instructions from the Web (Instruction generation based on L0 data)
-### 2.3 selection 
+#### 2.2.1 selection 
 - Multi-agent collaborative data selection for efficient llm pretraining
 - LIMO: less is more for reasoning
 - DataMan: data manager for pre-training large language model
@@ -156,14 +156,16 @@ Approaches to data filtering
 - DSDM: model-aware dataset selection with datamodels
 - Rethinking Data Selection at Scale: Random Selection is Almost All You Need (Analysis of the million-level instruction selection algorithm)
 
-### 2.4 data mixing
+#### 2.2.2 data mixing
 - DoReMi Optimizing Data Mixtures Speeds Up Language Model Pretraining
 - LESS: Selecting Influential Data for Targeted Instruction Tuning
 - How far can camels go? exploring the state of instruction tuning on open resources
 
 
 ## 3. Stages
-How to use these data (stage from pretrain to rl)
+How to use these data (stage from pretrain to rl)?
+**for Training**
+
 ### 3.1 Pretrain 
 (SJJ调研预训练相关方法)
 #### 3.1.1 highlight
