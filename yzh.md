@@ -8,6 +8,7 @@ Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Fe
 
 评估时优化
 ---
+###LLM作为验证器替代奖励模型
 
 
 模型优化
