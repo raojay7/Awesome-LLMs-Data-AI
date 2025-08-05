@@ -201,6 +201,7 @@ selection
 - 字节 QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
 - 美团 SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
 - Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
+- Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration. ACL 2025.
 #### 3.1.3 Construction
 (SJJ)
 1. existing datasets
