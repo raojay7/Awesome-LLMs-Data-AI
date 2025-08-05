@@ -13,6 +13,9 @@ Scalable Best-of-N Selection for Large Language Models via Self-Certainty, Zhewe
 
 Language Models Prefer What They Know: Relative Confidence Estimation via Confidence Preferences, Vaishnavi Shrivastava, Ananya Kumar, Percy Liang, https://www.arxiv.org/abs/2502.01126, 语言模型应该提供可靠的置信度估计，论文提出相对置信度估计的一种方法，通过对比不同问题与回答来选出更优答案，与现有流行的两种绝对置信度估计比较，得出相对置信度估计优于绝对置信度估计，同时探讨了一些方法如思路链对相对置信度估计的影响
 ### LLM作为验证器替代奖励模型
+Generative Verifiers: Reward Modeling as Next-Token Prediction, Lunjun Zhang, Arian Hosseini, Hritik Bansal, Mehran Kazemi, Aviral Kumar, Rishabh Agarwal, ICLR2025, https://arxiv.org/abs/2408.15240, 基于LLM的验证器通常作为判别模型训练，未利用LLMs的文本生成能力。而简单使用现成LLM作为评判者（LLM-as-a-Judge）的方法在推理任务中表现也不佳。因此本文提出生成验证器，利用LLM的文本生成能力来进行验证，优化Best-of-N方法。核心机制： GenRM 使用LLM最基础、最自然的训练目标——下一个词预测 (Next-Token Prediction) 来执行验证任务。如何表示正确性？ 关键创新在于它不预测一个独立的数值分数。相反，它将解决方案的正确性本身视为一个需要预测的“词元” (Token)。同时，本文给出了直接验证方法，集成了奖励模型和监督微调（通过两种数据微调模型，属于模型优化方面）的方法以及思维链验证方法。
+Multi-Agent Verification: Scaling Test-Time Compute with Multiple Verifiers, Shalev Lifshitz, Sheila A. McIlraith, Yilun Du, https://arxiv.org/abs/2502.20379, 多验证器提出采用不同验证器
+
 
 
 模型优化
