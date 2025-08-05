@@ -6,6 +6,10 @@ Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Fe
 
 TPO提出了一种在模型使用过程中（即推理时） 实时优化输出以满足偏好的方法，核心特点是无需更新模型参数。通过LLM对于模型生成的输出进行评价，区分好输出和坏输出，再根据二者差异提出修改建议，使LLM refine自己的回答，即通过修改LLM上下文优化输出，但不改变模型参数。
 
+Efficient Reasoning Models: A Survey, Sicheng Feng, Gongfan Fang, Xinyin Ma, Xinchao Wang, https://arxiv.org/abs/2504.10903v1
+
+本调查旨在全面概述有效推理的最新进展。它将现有工作分为三个关键方向：（1）较短——将冗长的 CoT 压缩为简洁而有效的推理链;（2）更小——通过知识蒸馏、其他模型压缩技术、强化学习等技术，开发具有强大推理能力的紧凑型语言模型;（3）更快——设计高效的解码策略以加速推理(Test-time策略)。
+
 
 
 评估时优化
