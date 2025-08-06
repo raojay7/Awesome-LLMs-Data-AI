@@ -124,7 +124,8 @@
 
    PolyMath是一个多语言数学推理基准测试，涵盖18种语言和4个从易到难的难度级别。我们的基准确保了难度的全面性、语言多样性和高质量的翻译，使其成为推理LLMS时代极具辨别力的多语言数学基准。
 
-4. [Scaling Synthetic Logical Reasoning Datasets with Context-Sensitive Declarative Grammars](https://arxiv.org/abs/2406.11035)
+4. [Scaling Synthetic Logical Reasoning Datasets with Context-Sensitive Declarative Grammars](https://arxiv.org/abs/2406.11035)*Sina Bagheri Nezhad , Ameeta Agrawal。 arxiv2025*
 
    提出了一个更简单、更通用的声明式框架，具有灵活的上下文相关规则，绑定多种语言（特别是简体英语和 TPTP 定理证明语言）。我们通过选择多达 32 个前提和一个假设来构建一阶逻辑问题。
+
 
