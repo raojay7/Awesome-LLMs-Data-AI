@@ -1,5 +1,6 @@
-## 2.1.5 Human-Al collaboration
-### reward modeling
+## Human-Al collaboration ： reward modeling
+
+## Synthetic Feedback (Algorithms adapt to data)
 
 
 
