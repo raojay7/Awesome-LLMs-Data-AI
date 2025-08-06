@@ -1,4 +1,6 @@
-# 2.1.5 Human-Al collaboration
+## 2.1.5 Human-Al collaboration
+### reward modeling
+
 
 
 Test-time策略
