@@ -2,7 +2,8 @@
 
 ## Synthetic Feedback (Algorithms adapt to data)
 
-
+MMBoundary： Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration， Zhitao He， Sandeep Polisetty， Zhiyuan Fan， Yuchen Huang， Shujin Wu， Yi R. Fung， ACL 2025， https://arxiv.org/abs/2505.23224v3
+通过强化学习的奖励信号确保模型回答的内容本身是正确的、让模型表达的置信度能准确反映这句话实际的对错以及让模型表达的置信度与它内部计算的真实信心保持一致
 
 Test-time策略
 ===
