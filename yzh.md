@@ -41,7 +41,7 @@ Multi-Agent Verification: Scaling Test-Time Compute with Multiple Verifiers, Sha
 
 
 
-## 模型优化
+# 模型优化
 
 Process-based Self-Rewarding Language Models, Shimao Zhang, Xiao Liu, Xin Zhang, Junxiao Liu, Zheheng Luo, Shujian Huang, Yeyun Gong, https://arxiv.org/abs/2503.03746
 
