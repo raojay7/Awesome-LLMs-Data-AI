@@ -1,5 +1,7 @@
 ## Human-Al collaboration ： reward modeling
 
+ GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning,  Jian Zhao1,3*, Runze Liu1,2*†, Kaiyan Zhang1, Zhimu Zhou3, Junqi Gao4, Dong Li4, Jiafei Lyu1, Zhouyi Qian4, Biqing Qi2‡, Xiu Li1‡ and Bowen Zhou1,2‡, https://arxiv.org/pdf/2504.00891
+
 ## Synthetic Feedback (Algorithms adapt to data)
 
 MMBoundary： Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration， Zhitao He， Sandeep Polisetty， Zhiyuan Fan， Yuchen Huang， Shujin Wu， Yi R. Fung， ACL 2025， https://arxiv.org/abs/2505.23224v3
