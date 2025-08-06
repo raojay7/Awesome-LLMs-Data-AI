@@ -1,4 +1,4 @@
-## 综述
+## 综述--关于大模型在数据合成、符号推理等方面的综述性论文。
 
 1. [Towards Reasoning in Large Language Models: A Survey](https://arxiv.org/abs/2212.10403)
 
@@ -20,15 +20,15 @@
 
    系统收录了 2020–2024 年间关于符号推理的 1,428 篇文献，最终精选 167 篇进行深入分析。
 
-## 推理数据合成
+## 推理数据合成--关于如何合成符号数据的论文
 
 1. [Neuro‑Symbolic Data Generation for Math Reasoning (NeurIPS 2024)](https://arxiv.org/abs/2412.04857)
 
-   提出一种 **神经符号混合**（neuro‑symbolic）框架，用于自动合成数学推理训练数据。该方法仔细地改变现有的数学问题，确保新生成的问题的多样性和有效性。这是通过神经符号数据生成框架实现的，该框架结合了LLMS的直观非形式化优势、数学求解器的精确符号推理以及高度不规则符号空间中的投影马尔可夫链蒙特卡洛采样。
+   提出一种 神经符号混合（neuro‑symbolic）框架，用于自动合成数学推理训练数据。该方法仔细地改变现有的数学问题，确保新生成的问题的多样性和有效性。这是通过神经符号数据生成框架实现的，该框架结合了LLMS的直观非形式化优势、数学求解器的精确符号推理以及高度不规则符号空间中的投影马尔可夫链蒙特卡洛采样。
 
    
 
-## 隐私保护
+## 隐私保护--关于对大模型合成数据进行去敏感化数据合成
 
 1. [SafeSynthDP: Leveraging Large Language Models for Privacy-Preserving Synthetic Data Generation Using Differential Privacy](https://arxiv.org/abs/2412.20641)
 
@@ -50,7 +50,7 @@
 
    虽不直接处理隐私问题，但该论文提出了 SymGen 框架，在 LLM 输出中嵌入**符号引用**（symbolic references），便于追溯生成内容与原始数据之间的对应关系，有助于验证与可控性，是符号化生成与安全控制结合的一个方向。SymGen 提示 LLM 将其常规输出文本与对某些条件数据（例如，JSON 格式的表）中存在的字段的显式符号引用交错。引用可用于显示生成中不同跨度文本的出处，从而减少手动验证所需的工作量。
 
-## 符号推理思维链框架方法
+## 符号推理思维链框架方法--关于利用大语言模型如何构建符号推理框架的论文
 
 1. [ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs](https://arxiv.org/abs/2506.15211)
 
@@ -110,7 +110,7 @@
 
     提出了一种新颖的方法——多语言逆向指令（Multilingual Reverse Instructions, MURI）。该方法能够在不需要人工标注者或预先存在的多语言模型的情况下，为低资源语言生成高质量的指令微调数据集。MURI 利用逆向指令和一个翻译pipeline，从低资源语言中现有的人类书写文本中生成指令-输出对。
 
-## 多语言推理
+## 多语言推理--大语言模型在多语言方向进行推理的论文
 
 1. [NeuroSymbolic Augmented Reasoning (NSAR)](https://arxiv.org/abs/2506.02483)
 
@@ -127,3 +127,4 @@
 4. [Scaling Synthetic Logical Reasoning Datasets with Context-Sensitive Declarative Grammars](https://arxiv.org/abs/2406.11035)
 
    提出了一个更简单、更通用的声明式框架，具有灵活的上下文相关规则，绑定多种语言（特别是简体英语和 TPTP 定理证明语言）。我们通过选择多达 32 个前提和一个假设来构建一阶逻辑问题。
+
