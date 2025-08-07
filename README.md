@@ -147,8 +147,6 @@ Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinemen
 Approaches to data filtering
 Measure metric 
 (WSH ALL)
-<img width="1079" height="476" alt="image" src="https://github.com/user-attachments/assets/a21a2597-f4b7-49f3-9255-ab0204d63e6f" />
-<img width="1794" height="861" alt="image" src="https://github.com/user-attachments/assets/2ef0571b-b1cf-48eb-8fbe-60cd52007a66" />
 #### 2.2.1 Diversity filtering
   - surface-level heuristics 
     - Rouge-L (Self-Instruct, Impossible Distillation))
@@ -156,7 +154,7 @@ Measure metric
     - Semantic tags (instag)
   -  loss gradients [https://nvlabs.github.io/prismatic-synthesis/]
 #### 2.2.2 Quality filtering
-  -  reward models
+  -  reward models (LLMs)
   -  Correctness (final answer verification) 
 
 #### 2.2.3 Multi filtering
