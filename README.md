@@ -28,7 +28,7 @@ survey 总体结构
 4. Application Areas-> Where to use?
 ## Contents
 
-- [A Survey on Data-centric AI](#a-survey-on-data-centric-ai)
+- [A Survey on Data-centric LLMs](#a-survey-on-data-centric-llms)
   - [Contents](#contents)
   - [1. Surveys](#1-surveys)
   - [2. Methods](#2-methods)
