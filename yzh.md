@@ -14,6 +14,8 @@ Bag of Tricks for Inference-time Computation of LLM Reasoning, Fan Liu, Wenshuo 
 
 s1: Simple test-time scaling, Niklas Muennighoff, Zitong Yang, Weijia Shi, Xiang Lisa Li, Li Fei-Fei, Hannaneh Hajishirzi, Luke Zettlemoyer, Percy Liang, Emmanuel Candès, Tatsunori Hashimoto, https://arxiv.org/abs/2508.01543
 
+Is That Your Final Answer? Test-Time Scaling Improves Selective Question Answering, William Jurayj, Jeffrey Cheng, Benjamin Van Durme, ACL 2025, https://arxiv.org/abs/2502.13962
+
 ### 解码时优化
 Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Feedback, Yafu Li, Xuyang Hu, Xiaoye Qu, Linjie Li, Yu Cheng, ICML2025， https://arxiv.org/abs/2501.12895v1 
 
