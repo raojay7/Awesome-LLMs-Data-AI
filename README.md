@@ -158,7 +158,7 @@ Measure metric
   -  Correctness (final answer verification) 
 
 #### 2.2.3 Multi filtering
-- Multi-agent collaborative data selection for efficient llm pretraining. ICML 2025.
+- Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration. ACL 2025.
 - LIMO: less is more for reasoning
 - DataMan: data manager for pre-training large language model
 - Qurating: Selecting high-quality data for training language model
