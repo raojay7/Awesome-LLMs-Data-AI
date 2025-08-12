@@ -276,6 +276,16 @@ KTO DPO PPO等
 Where to use?
 ### 4.1. Mathematical Reasoning 
 (YHT)
+- [**MAWPS: A Math Word Problem Repository**](https://aclanthology.org/N16-1136.pdf) *Rik Koncel-Kedziorski, Subhro Roy, Aida Amini,Nate Kushman,Hannaneh Hajishirzi* NAACL 2016.
+- [**Program Induction by Rationale Generation:Learning to Solve and Explain Algebraic Word Problems**](https://arxiv.org/pdf/1705.04146) *Wang Ling, Dani Yogatama, Chris Dyer, Phil Blunsom* IJCAI 2017.
+- [**Training Verifiers to Solve Math Word Problems**](https://arxiv.org/pdf/2110.14168) *Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, John Schulman* NeurIPS 2021.
+- [**Measuring Mathematical Problem Solving With the MATH Dataset**](https://arxiv.org/pdf/2103.03874) *Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, Jacob Steinhardt* NeurIPS 2021.
+- [**Are NLP Models really able to Solve Simple Math Word Problems?**](https://arxiv.org/pdf/2103.07191) *Arkil Patel, Satwik Bhattamishra, Navin Goyal* NeurIPS 2021.
+- [**DeepMath-103K: A Large-Scale, Challenging, Decontaminated, and Verifiable Mathematical Dataset for Advancing Reasoning**](https://arxiv.org/pdf/2504.11456) *Zhiwei He, Tian Liang, Jiahao Xu, Qiuzhi Liu, Xingyu Chen, Yue Wang, Linfeng Song, Dian Yu, Zhenwen Liang, Wenxuan Wang, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong Yu*. Preprint 2025
+- [**MegaMath: Pushing the Limits of Open Math Corpora**](https://arxiv.org/abs/2504.02807) *Zhiwei He, Tian Liang, Jiahao Xu, Qiuzhi Liu, Xingyu Chen, Yue Wang, Linfeng Song, Dian Yu, Zhenwen Liang, Wenxuan Wang, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong YuFan Zhou, Zengzhi Wang, Nikhil Ranjan, Zhoujun Cheng, Liping Tang, Guowei He, Zhengzhong Liu, Eric P. Xing*. Preprint 2025
+- [**OpenWebMath: An Open Dataset of High-Quality Mathematical Web Text**](https://openreview.net/pdf?id=jKHmjlpViu) *Keiran Paster, Marco Dos Santos, Zhangir Azerbayev, Jimmy Ba* ICLR 2024.
+- [**MV-MATH: Evaluating Multimodal Math Reasoning in Multi-Visual Contexts**](https://arxiv.org/pdf/2502.20808) *Peijie Wang, Zhong-Zhi Li, Fei Yin, Dekang Ran, Cheng-Lin Liu* CVPR 2025.
+- [**MathOdyssey: Benchmarking Mathematical Problem-Solving Skills in Large Language Models Using Odyssey Math Data**](https://arxiv.org/pdf/2406.18321) *Meng Fang, Xiangpeng Wan, Fei Lu, Fei Xing, Kai Zou* Preprint 2024. 
 - [**MuggleMath: Assessing the Impact of Query and Response Augmentation on Math Reasoning**](https://arxiv.org/abs/2310.05506v3) *Chengpeng Li, Zheng Yuan, Hongyi Yuan, Guanting Dong, Keming Lu, Jiancan Wu, Chuanqi Tan, Xiang Wang, Chang Zhou.* ACL 2024.
 - [**MathGenie: Generating Synthetic Data with Question Back-translation for Enhancing Mathematical Reasoning of LLMs**](https://arxiv.org/abs/2402.16352) *Zimu Lu, Aojun Zhou, Houxing Ren, Ke Wang, Weikang Shi, Junting Pan, Mingjie Zhan, Hongsheng Li.* ACL 2024.
 - [**MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models**](https://arxiv.org/abs/2309.12284) *Longhui Yu, Weisen Jiang, Han Shi, Jincheng Yu, Zhengying Liu, Yu Zhang, James T. Kwok, Zhenguo Li, Adrian Weller, Weiyang Liu.* ICLR 2024.
