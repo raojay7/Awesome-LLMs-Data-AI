@@ -299,6 +299,16 @@ Where to use?
 ### 4.2. Code Generation
 
 (YHT)
+- [**Mapping Language to Code in Programmatic Context**](https://arxiv.org/pdf/1808.09588) *Srinivasan Iyer, Ioannis Konstas, Alvin Cheung, Luke Zettlemoyer* EMNLP 2018.
+- [**Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task**](https://arxiv.org/pdf/1809.08887) *Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Zifan Li, James Ma, Irene Li, Qingning Yao, Shanelle Roman, Zilin Zhang, Dragomir Radev* EMNLP 2018.
+- [**CodeBERT: A Pre-Trained Model for Programming and Natural Languages**](https://arxiv.org/pdf/2002.08155) *Zhangyin Feng, Daya Guo, Duyu Tang, Nan Duan, Xiaocheng Feng, Ming Gong, Linjun Shou, Bing Qin, Ting Liu, Daxin Jiang, Ming Zhou* EMNLP 2020.
+- [**Measuring Coding Challenge Competence With APPS**](https://arxiv.org/abs/2105.09938) *Dan Hendrycks, Steven Basart, Saurav Kadavath, Mantas Mazeika, Akul Arora, Ethan Guo, Collin Burns, Samir Puranik, Horace He, Dawn Song, Jacob Steinhardt* NeurIPS 2021
+- [**Evaluating Large Language Models Trained on Code**](https://arxiv.org/abs/2107.03374) *Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe Petroski Such, Dave Cummings, Matthias Plappert, Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, William Hebgen Guss, Alex Nichol, Alex Paino, Nikolas Tezak, Jie Tang, Igor Babuschkin, Suchir Balaji, Shantanu Jain, William Saunders, Christopher Hesse, Andrew N. Carr, Jan Leike, Josh Achiam, Vedant Misra, Evan Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, Wojciech Zaremba* Preprint 2021
+- [**Program Synthesis with Large Language Models**](https://arxiv.org/abs/2108.07732) *Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, Charles Sutton* Preprint 2021
+- [**CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis**](https://arxiv.org/abs/2203.13474) *Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio Savarese, Caiming Xiong* ICLR 2023
+- [**CoderEval: A Benchmark of Pragmatic Code Generation with Generative Pre-trained Models**](https://arxiv.org/abs/2302.00288) *Hao Yu, Bo Shen, Dezhi Ran, Jiaxin Zhang, Qi Zhang, Yuchi Ma, Guangtai Liang, Ying Li, Qianxiang Wang, Tao Xie* ICSE 2024
+- [**DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation**](https://arxiv.org/abs/2211.11501) *Yuhang Lai, Chengxi Li, Yiming Wang, Tianyi Zhang, Ruiqi Zhong, Luke Zettlemoyer, Scott Wen-tau Yih, Daniel Fried, Sida Wang, Tao Yu* ICML 2023
+- [**RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems**](https://arxiv.org/abs/2306.03091) *Tianyang Liu, Canwen Xu, Julian McAuley* ICLR 2024
 #### 4.2.1 Datasets
 highlight
 ```
