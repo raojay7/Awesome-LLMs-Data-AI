@@ -94,7 +94,7 @@ Data-generation method overview
 
 ##### from scratch(new task, e.g., self-instruct)从0开始合成数据 (DYHP)
 - Absolute Zero: Reinforced Self-play Reasoning with Zero Data
-- Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement
+- Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement. Findings of ACL 2025
 - Synthetic Data RL: Task Definition Is All You Need
 - [**Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models**](https://arxiv.org/abs/2402.13064) *Haoran Li, Qingxiu Dong, Zhengyang Tang, Chaojun Wang, Xingxing Zhang, Haoyang Huang, Shaohan Huang, Xiaolong Huang, Zeqiang Huang, Dongdong Zhang, Yuxian Gu, Xin Cheng, Xun Wang, Si-Qing Chen, Li Dong, Wei Lu, Zhifang Sui, Benyou Wang, Wai Lam, Furu Wei.* Arxiv 2024.
 - [**Self-instruct: Aligning language models with self-generated instructions**](https://arxiv.org/abs/2212.10560) *Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi.* ACL 2023.
@@ -158,7 +158,7 @@ Measure metric
   -  Correctness (final answer verification) 
 
 #### 2.2.3 Multi filtering
-- Multi-agent collaborative data selection for efficient llm pretraining
+- Multi-agent collaborative data selection for efficient llm pretraining. Arxiv 2025.
 - LIMO: less is more for reasoning
 - DataMan: data manager for pre-training large language model
 - Qurating: Selecting high-quality data for training language model
