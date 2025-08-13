@@ -1,6 +1,22 @@
 ## Human-Al collaboration ： reward modeling
 
- GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning,  Jian Zhao1,3*, Runze Liu1,2*†, Kaiyan Zhang1, Zhimu Zhou3, Junqi Gao4, Dong Li4, Jiafei Lyu1, Zhouyi Qian4, Biqing Qi2‡, Xiu Li1‡ and Bowen Zhou1,2‡, https://arxiv.org/pdf/2504.00891
+GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning,  Jian Zhao, Runze Liu, Kaiyan Zhang, Zhimu Zhou, Junqi Gao, Dong Li, Jiafei Lyu, Zhouyi Qian, Biqing Qi, Xiu Li and Bowen Zhou, https://arxiv.org/pdf/2504.00891
+
+The Lessons of Developing Process Reward Models in Mathematical Reasoning, Zhenru Zhang, Chujie Zheng, Yangzhen Wu, Beichen Zhang, Runji Lin, Bowen Yu, Dayiheng Liu, Jingren Zhou, Junyang Lin, https://arxiv.org/abs/2501.07301
+
+Bootstrapping Language Models with DPO Implicit Rewards, Changyu Chen, Zichen Liu, Chao Du, Tianyu Pang, Qian Liu, Arunesh Sinha, Pradeep Varakantham, Min Lin, ICLR 2025, https://arxiv.org/abs/2406.09760
+
+VisualPRM: An Effective Process Reward Model for Multimodal Reasoning, Weiyun Wang, Zhangwei Gao, Lianjie Chen, Zhe Chen, Jinguo Zhu, Xiangyu Zhao, Yangzhou Liu, Yue Cao, Shenglong Ye, Xizhou Zhu, Lewei Lu, Haodong Duan, Yu Qiao, Jifeng Dai, Wenhai Wang, https://arxiv.org/abs/2503.10291
+
+Inference-Time Scaling for Generalist Reward Modeling, Zijun Liu, Peiyi Wang, Runxin Xu, Shirong Ma, Chong Ruan, Peng Li, Yang Liu, Yu Wu, https://arxiv.org/abs/2504.02495
+
+Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning, Amrith Setlur, Chirag Nagpal, Adam Fisch, Xinyang Geng, Jacob Eisenstein, Rishabh Agarwal, Alekh Agarwal, Jonathan Berant, Aviral Kumar, https://arxiv.org/abs/2410.08146
+
+Process Reinforcement through Implicit Rewards, Ganqu Cui, Lifan Yuan, Zefan Wang, Hanbin Wang, Wendi Li, Bingxiang He, Yuchen Fan, Tianyu Yu, Qixin Xu, Weize Chen, Jiarui Yuan, Huayu Chen, Kaiyan Zhang, Xingtai Lv, Shuo Wang, Yuan Yao, Xu Han, Hao Peng, Yu Cheng, Zhiyuan Liu, Maosong Sun, Bowen Zhou, Ning Ding, https://arxiv.org/abs/2502.01456
+
+RM-R1: Reward Modeling as Reasoning, Xiusi Chen, Gaotang Li, Ziqi Wang, Bowen Jin, Cheng Qian, Yu Wang, Hongru Wang, Yu Zhang, Denghui Zhang, Tong Zhang, Hanghang Tong, Heng Ji, https://arxiv.org/abs/2505.02387
+
+RewardAnything: Generalizable Principle-Following Reward Models, Zhuohao Yu, Jiali Zeng, Weizheng Gu, Yidong Wang, Jindong Wang, Fandong Meng, Jie Zhou, Yue Zhang, Shikun Zhang, Wei Ye, https://arxiv.org/abs/2506.03637v1
 
 ## Synthetic Feedback (Algorithms adapt to data)
 
@@ -15,6 +31,12 @@ Bag of Tricks for Inference-time Computation of LLM Reasoning, Fan Liu, Wenshuo 
 s1: Simple test-time scaling, Niklas Muennighoff, Zitong Yang, Weijia Shi, Xiang Lisa Li, Li Fei-Fei, Hannaneh Hajishirzi, Luke Zettlemoyer, Percy Liang, Emmanuel Candès, Tatsunori Hashimoto, https://arxiv.org/abs/2508.01543
 
 Is That Your Final Answer? Test-Time Scaling Improves Selective Question Answering, William Jurayj, Jeffrey Cheng, Benjamin Van Durme, ACL 2025, https://arxiv.org/abs/2502.13962
+
+Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning, Ganqu Cui, Lifan Yuan, Zefan Wang, Hanbin Wang, Wendi Li, Bingxiang He, Yuchen Fan, Tianyu Yu, Qixin Xu, Weize Chen, Jiarui Yuan, Huayu Chen, Kaiyan Zhang, Xingtai Lv, Shuo Wang, Yuan Yao, Xu Han, Hao Peng, Yu Cheng, Zhiyuan Liu, Maosong Sun, Bowen Zhou, Ning Ding, https://arxiv.org/abs/2502.01456
+
+Scaling Test-Time Compute Without Verification or RL is Suboptimal, Amrith Setlur, Nived Rajaraman, Sergey Levine, Aviral Kumar, https://arxiv.org/abs/2502.12118
+
+Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models, Qiguang Chen, Libo Qin, Jinhao Liu, Dengyun Peng, Jiannan Guan, Peng Wang, Mengkang Hu, Yuhang Zhou, Te Gao, Wanxiang Che, https://arxiv.org/abs/2503.09567
 
 ### 解码时优化
 Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Feedback, Yafu Li, Xuyang Hu, Xiaoye Qu, Linjie Li, Yu Cheng, ICML2025， https://arxiv.org/abs/2501.12895v1 
@@ -58,4 +80,6 @@ Process-based Self-Rewarding Language Models, Shimao Zhang, Xiao Liu, Xin Zhang,
 MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration, Zhitao He, Sandeep Polisetty, Zhiyuan Fan, Yuchen Huang, Shujin Wu, Yi R. Fung, ACL 2025, https://arxiv.org/abs/2505.23224v3
 
 本文提出了一种新的微调框架，通过推理步骤置信度校准来推进 MLLM 的知识边界意识，让MLLM知道对自己输出的每一句话表明置信度。在SFT阶段通过聚合Length-normalized log probability（模型生成这句话的概率平均值（概率越高，信心越高）），Mean token entropy（生成每个词时的“犹豫程度”平均值（越犹豫，信心越低）），TokenSAR（考虑每个词对整句话重要性的加权对数概率（重要词概率高，信心高）），CLIPScore（生成的句子和输入图片的相关性（相关性越高，信心越高））四种指标来生成自己的置信度指标，以对训练数据进行标注，将其分为5个置信度等级，对应不同的MLLM置信度语句池。在强化学习阶段，定义了三个奖励信号，知识准确性奖励（确保模型回答的内容本身是正确的（置信度表达再准，内容错了也没用）），期望校准奖励（让模型表达的置信度能准确反映这句话实际的对错。惩罚过度自信（说很确定但错了）和缺乏自信（说不确定但对了）），置信自校准奖励（让模型表达的置信度与它内部计算的真实信心 (Internal Confidence) 保持一致。鼓励模型“心口如一”。），采用ppo进行优化。
+
+RL Tango: Reinforcing Generator and Verifier Together for Language Reasoning, Kaiwen Zha, Zhengqi Gao, Maohao Shen, Zhang-Wei Hong, Duane S. Boning, Dina Katabi, https://arxiv.org/abs/2505.15034
 
