@@ -293,7 +293,6 @@ Where to use?
 - [**Distilling LLMs' Decomposition Abilities into Compact Language Models**](https://arxiv.org/abs/2402.01812) *Denis Tarasov, Kumar Shridhar.* AutoRL@ICML 2024.
 - MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning. ICLR 2024.
 - OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset. NeurIPS 2024.
-- MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models. ICLR 2024.
 - OpenMathInstruct-2: Accelerating AI for Math with Massive Open-Source Instruction Data. Arxiv 2025.
 - OpenThoughts: Data Recipes for Reasoning Models. Arxiv 2025.
 ### 4.2. Code Generation
