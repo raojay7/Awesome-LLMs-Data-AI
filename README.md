@@ -166,7 +166,7 @@ Measure metric
 - DSDM: model-aware dataset selection with datamodels
 - Rethinking Data Selection at Scale: Random Selection is Almost All You Need (Analysis of the million-level instruction selection algorithm)
 - Evaluating Language Models as Synthetic Data Generators. ACL 2025.
-
+- DATAMAN: DATA MANAGER FOR PRE-TRAINING LARGE LANGUAGE MODELS. ICLR 2025.
 
 ## 3. Stages
 How to use these data (stage from pretrain to rl)?
