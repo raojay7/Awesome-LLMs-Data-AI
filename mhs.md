@@ -28,13 +28,20 @@
 这类方法的核心在于对指令本身进行优化和创造。它们从一个初始的、可能很简单的指令集出发，通过类似生物进化的变异和选择过程，自动地生成更复杂、更多样、更高质量的新指令，从而构建出强大的指令微调数据集。
 
 - [**Automatic Instruction Evolving for Large Language Models**](https://arxiv.org/abs/2406.00770) *Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen.* EMNLP 2024.<br>借鉴进化计算的思想，自动地将简单、低质量的指令进化成更复杂、高质量的指令。通过多轮的指令生成、变异、筛选和模型再训练，可以自动地创造出一个多样且高质量的指令数据集。
-
+*****
+- [**Tag-Evol: Achieving Efficient Instruction Evolving via Tag Injection**](https://arxiv.org/pdf/2406.00770) *Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen.* Findings of ACL 2025.<br>提出了 Tag-Evol 框架，用 LLM 先对种子数据打上细粒度知识标签，再在重写指令时按预算把若干标签注入，通过知识标签信息注入来实现高效且多样化的指令演化。
 ## 多智能体
 这类方法利用多个智能体之间的交互来生成数据。
 
 - [**CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society**](https://arxiv.org/abs/2303.17760) *Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, Bernard Ghanem.* NeurIPS 2023.<br>提出了一个新颖的沟通式智能体框架，让一个AI用户和一个AI助手通过角色扮演进行对话来完成任务，从而大规模地生成能反映合作行为和指令遵循能力的对话数据。
 
+*****
 
+- [**MetaSynth: Meta-Prompting-Driven Agentic Scaffolds for Diverse Synthetic Data Generation**](https://aclanthology.org/2025.findings-acl.962/) *Haris Riaz, Sourav Sanjukta Bhabesh, Vinayak Arannil, Miguel Ballesteros, Graham Horwood.* Findings of ACL 2025.<br>用一个元语言模型充当中心，动态编排多个专家代理依次完成种子扩展-文档/指令生成-多样性校验-重写的闭环迭代，从而持续产出彼此区分且领域相关的合成数据。
+
+- [**Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation**](https://aclanthology.org/2025.acl-long.1136.pdf) *Shuo Tang, Xianghe Pang, Zexi Liu, Bohan Tang, Rui Ye, Tian Jin, Xiaowen Dong, Yanfeng Wang, Siheng Chen.* ACL 2025.<br>提出了MATRIX，一个多智能体模拟器，其使用基于真实人类配置文件的智能体，赋予它们目标和生活目标，来模拟人类生活场景，并基于MATRIX生成的场景来生成高度真实和可控的合成指令数据。
+
+- [**A Strategic Coordination Framework of Small LLMs Matches Large LLMs in Data Synthesis**](https://aclanthology.org/2025.acl-long.566/) *Xin Gao, Qizhi Pei, Zinan Tang, Yu Li, Honglin Lin, Jiang Wu, Lijun Wu, Conghui He.* ACL 2025.<br>提出一个名为GRA的协作框架来解决如何利用多个小型语言模型协作达到与大型语言模型相当的数据质量的问题。GRA框架通过协调三个专门的角色来运作：生成器、评审者和仲裁者。生成器负责产生初始样本，评审者对样本的质量进行评估，仲裁者则解决评审者之间的冲突并最终确定输出。此外，GRA还包含一个后处理模块，用于通过嵌入去重和元数据丰富来进一步优化结果。
 
 ## 自生成奖励与偏好
 这类方法让LLM自己充当裁判或奖励模型，来为生成的内容打分或提供偏好判断。
@@ -52,6 +59,10 @@
 ****
 - [**SELF-GUIDE: Better Task-Specific Instruction Following via Self-Synthetic Finetuning**](https://arxiv.org/abs/2407.12874) *Chenyang Zhao, Xueying Jia, Vijay Viswanathan, Tongshuang Wu, Graham Neubig.* COLM 2024.<br>让LLM用极少人类示例自合成大量任务专属训练数据，通过温度调节、噪声/长度规则过滤两轮质检，筛掉低质量样本，再用这些数据微调自身，从而无需外部标注或更强模型即可显著提升特定任务的指令遵循能力。
 
+- [**Constitutional AI: Harmlessness from AI Feedback**](https://arxiv.org/abs/2212.08073) *Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, et al.* Arxiv 2022.<br>提出Constitutional AI对齐策略，通过预先制定一组原则让模型依据这些AI宪法自我监督，从而无需人工逐条标注有害内容。分为两个阶段，在监督微调阶段，让模型从初始模型输出中生成自我批判和修正的响应并据此微调模型；随后在强化学习阶段，让模型自身比较两种输出优劣生成偏好数据来训练奖励模型，并使用该奖励信号进行策略优化。
+
+- [**Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk**](https://aclanthology.org/2024.findings-acl.566.pdf) *Dennis Ulmer, Elman Mansimov, Kaixiang Lin, Justin Sun, Xibin Gao, Yi Zhang.* Findings of ACL 2024.<br>通过两个LLM分别代表客户端和代理模型，通过给客户端和代理模型提供角色描述、行为指令和对话历史，让它们在指定的角色中进行对话，并引入过滤步骤，保留质量较高的对话作为训练数据。
+
 # Agent and Tool Use
 核心是生成高质量的训练数据，教会大型语言模型如何像一个智能体（Agent）一样，通过调用外部工具（如APIs、代码解释器、数据库）来完成超越其自身固有能力的复杂任务。
 ## 构建工具/API使用的指令数据集
@@ -65,6 +76,11 @@
 
 - [**ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases**](https://arxiv.org/abs/2306.05301) *Qiaoyu Tang, Ziliang Deng, Hongyu Lin, Xianpei Han, Qiao Liang, Boxi Cao, Le Sun.* Arxiv 2023.<br>从互联网上收集潜在有价值的工具的简要介绍，并让LLM生成文档，通过多智能体交互（用户代理、助手代理和工具执行代理）构建了一个包含工具使用场景的指令微调数据集，以增强模型的泛化工具学习能力。
 
+****
+- [**API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs**](https://arxiv.org/abs/2304.08244) *Minghao Li, Yingxiu Zhao, Bowen Yu, Feifan Song, Hangyu Li, Haiyang Yu, Zhoujun Li, Fei Huang, Yongbin Li.* EMNLP 2023.<br>论文创建了一个名为API-Bank的基准测试，它专门设计用于评估工具增强型LLM，并给提出了一种名为 Multi-agent 的数据合成方法，通过让多个 LLM 协作生成 domain、API、用户提问、API 调用及其响应，从而自动构建符合设计原则的大规模对话数据。
+
+- [**ToolGrad: Efficient Tool-use Dataset Generation with Textual "Gradients"**](https://arxiv.org/abs/2508.04086) *Zhongyi Zhou, Kohei Uehara, Haoyu Zhang, Jingtao Zhou, Lin Gu, Ruofei Du, Zheng Xu, Tatsuya Harada.* Arxiv 2025.<br>论文提出了一个名为 ToolGrad 的框架，核心思想是逆转传统方法的流程：先生成有效的工具使用链，再合成对应的用户查询，而不是先生成用户查询再寻找工具使用解决方案。
+
 ## 生成复杂智能体流程的数据
 这类工作超越了简单的单步工具调用，专注于生成包含多步推理、规划、执行和自我修正的复杂工作流（Agentic Flows）数据。
 
@@ -74,12 +90,15 @@
 
 - [**AgentTuning: Enabling Generalized Agent Abilities for LLMs**](https://arxiv.org/abs/2310.12823) *Aohan Zeng, Mingdao Liu, Rui Lu, Bowen Wang, Xiao Liu, Yuxiao Dong, Jie Tang.* Findings of ACL 2024.<br>该工作认为Agent能力也应通过指令微调来获得。构建了一个轻量但高质量的、涵盖6个不同Agent任务的数据集AgentInstruct，通过设计统一的agent训练集和负样本策略进行能力分解调优，增强模型在新环境中的泛化能力。
 
+****
+- [**Re-ReST: Reflection-Reinforced Self-Training for Language Agents**](https://aclanthology.org/2024.emnlp-main.861.pdf) *Zi-Yi Dou, Cheng-Fu Yang, Xueqing Wu, Kai-Wei Chang, Nanyun Peng.* EMNLP 2024.<br>通过引入反思模型把自我训练中agent自我生成的低质量样本，利用环境反馈（如单元测试结果）修正为高质量样本，从而低成本地扩充训练集。
 
+- [**ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent**](https://arxiv.org/abs/2312.10003) *Renat Aksitov, Sobhan Miryoosefi, Zonglin Li, Daliang Li, Sheila Babayan, Kavya Kopparapu, Zachary Fisher, Ruiqi Guo, Sushant Prakash, Pranesh Srinivasan, Manzil Zaheer, Felix Yu, Sanjiv Kumar.* ICLR 2024.<br>论文将 ReAct 推理流程拆解为多个可微调的步骤轨迹，并在固定问题集上循环执行 ReST 式自我改进，通过轨迹生成，并用 LLM as a judge 反馈进行持续的自我改进和自我蒸馏。
 
 ## 与环境交互的具身智能
 这类工作将LLM作为大脑，驱动一个智能体在有状态的环境（如游戏、操作系统）中进行探索和学习。数据来源于智能体与环境的真实交互过程。
 
-- [**Voyager: An Open-Ended Embodied Agent with Large Language Models**](https://arxiv.org/abs/2305.16291) *Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi Fan, Anima Anandkumar.* TMLR 2024.<br>展示了首个由LLM驱动、能在Minecraft中进行终身开放式探索的具身智能体。Voyager不依赖任何预设的训练数据，而是通过与环境互动来自主生成任务、编写代码来执行任务，并将成功的代码存入可复用的技能库，从而持续不断地生成和积累自己的训练数据。
+- [**Voyager: An Open-Ended Embodied Agent with Large Language Models**](https://arxiv.org/abs/2305.16291) *Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi Fan, Aniderma Anandkumar.* TMLR 2024.<br>展示了首个由LLM驱动、能在Minecraft中进行终身开放式探索的具身智能体。Voyager不依赖任何预设的训练数据，而是通过与环境互动来自主生成任务、编写代码来执行任务，并将成功的代码存入可复用的技能库，从而持续不断地生成和积累自己的训练数据。
 
 - [**Efficient Agent Training for Computer Use**](https://arxiv.org/abs/2505.13909) *Yanheng He, Jiahe Jin, Pengfei Liu.* Arxiv 2025.<br> 专注于如何高效训练能操作电脑图形用户界面（GUI）的智能体，通过模仿学习和课程学习等方法，以少量人工鼠标键盘轨迹为起点并用LLM扩充多样化操作决策，训练电脑使用代理高效完成任务。
 
@@ -94,3 +113,8 @@
 
 - [**DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows**](https://arxiv.org/abs/2402.10379) *Ajay Patel, Colin Raffel, Chris Callison-Burch.* ACL 2024.<br>提供了一个开源Python库，旨在简化和标准化合成数据的生成过程。它允许用户通过模块化的方式组合各种LLM调用、提示策略和后处理步骤，从而快速创建、迭代和分享可复现的数据生成工作流。
 
+## 其他
+****
+- [**From Exploration to Mastery: Enabling LLMs to Master Tools via Self-Driven Interactions**](https://arxiv.org/abs/2410.08197) *Changle Qu, Sunhao Dai, Xiaochi Wei, Hengyi Cai, Shuaiqiang Wang, Dawei Yin, Jun Xu, Ji-Rong Wen.* ICLR 2025. <br>提出了一个名为DRAFT的框架，通过自我驱动的交互来解决LLMs在理解和有效使用外部工具时所面临的挑战。分为Explorer-Analyzer-Rewriter三个模块，Explorer根据文档生成探索实例并获得工具执行结果，Analyzer分析Explorer的数据并提出文档的改进建议，Rewriter根据建议对文档进行改进。通过迭代改进工具文档，最终把改进后的文档直接塞进 prompt，靠in-context learning 去调用工具。
+
+- [**Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models**](https://aclanthology.org/2024.findings-acl.557.pdf) *Zehui Chen, Kuikun Liu, Qiuchen Wang, Wenwei Zhang, Jiangning Liu, Dahua Lin, Kai Chen, Feng Zhao.* Findings of ACL 2024. <br>Agent-FLAN核心是对agent训练语料库的细致分解和重新设计，其提出格式对齐-能力分解-负面样本三步法：将代理语料还原为自然对话格式，按推理/检索/理解/指令遵循拆解并动态平衡，再引入负样本显式抑制幻觉。
