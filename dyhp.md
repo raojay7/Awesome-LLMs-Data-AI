@@ -1,3 +1,7 @@
+data generation
+
+# task data from LMs
+
 ## TarGEN: Targeted Data Generation with Large Language Models
 
 ### Idea
@@ -15,3 +19,52 @@ TarGEN 是一个 **多步驱动、无需种子样本** 的高质量合成数据�
    整个过程不依赖已有示例，完全基于任务说明和 prompt 完成。
 
 例如，对于文本蕴含任务（RTE），TarGEN 会生成一个前提句子（premise）作为 seed，并根据目标标签生成一个结论句子（hypothesis），使其满足 "蕴含" 或 "不蕴含" 的语义关系。
+
+
+## Learning to Generate Instruction Tuning Datasets for
+
+### Idea
+
+用 Bonito 将 领域未标注文本 + 任务类型 自动生成高质量的 指令-答案数据，替代人工标注来做指令微调，从而让大模型在新领域任务上实现 零样本适应，并且避免自监督预训练导致的指令遗忘问题。
+
+
+# from scratch
+
+## Absolute Zero: Reinforced Self-play Reasoning with Zero Data
+
+### Idea
+
+Absolute Zero 提出一种“零数据自进化”的推理模型训练方法，不依赖任何人工构建的题库或标注数据，让同一个模型在自博弈框架中自己出题、自己解题，并用代码执行器验证正确性作为奖励信号，通过强化学习不断提升推理能力。
+
+关键点：
+
+统一模型双角色：同时担任任务提出者（生成可验证推理题）和解答者（解决这些题）。
+
+三类推理任务：基于代码 (程序, 输入, 输出) 设计演绎、溯因、归纳三种核心推理模式。
+
+环境可验证奖励：利用代码执行器自动判断题目合法性和答案正确性，给出稳定的学习信号。
+
+自适应难度：优先生成对当前模型“适中难度”的题，促进高效学习。
+
+完全零人工数据：训练中不依赖人类提供的题目或答案，性能仍超越依赖大规模人工数据的同类方法。
+
+
+## Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement. Findings of ACL 2025
+
+### Idea
+
+Absolute Zero 提出一种“零数据自进化”的推理模型训练方法，不依赖任何人工构建的题库或标注数据，让同一个模型在自博弈框架中自己出题、自己解题，并用代码执行器验证正确性作为奖励信号，通过强化学习不断提升推理能力。
+
+关键点：
+
+统一模型双角色：同时担任任务提出者（生成可验证推理题）和解答者（解决这些题）。
+
+三类推理任务：基于代码 (程序, 输入, 输出) 设计演绎、溯因、归纳三种核心推理模式。
+
+环境可验证奖励：利用代码执行器自动判断题目合法性和答案正确性，给出稳定的学习信号。
+
+自适应难度：优先生成对当前模型“适中难度”的题，促进高效学习。
+
+完全零人工数据：训练中不依赖人类提供的题目或答案，性能仍超越依赖大规模人工数据的同类方法。
+
+
