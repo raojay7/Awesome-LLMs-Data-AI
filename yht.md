@@ -30,5 +30,10 @@
 - [**MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts**](https://arxiv.org/abs/2310.02255) *Pan Lu, Hritik Bansal, Tony Xia, Jiacheng Liu, Chunyuan Li, Hannaneh Hajishirzi, Hao Cheng, Kai-Wei Chang, Michel Galley, Jianfeng Gao*ICLR 2024.
 - [**UniGeo: Unifying Geometry Logical Reasoning via Reformulating Mathematical Expression**](https://arxiv.org/abs/2212.02746) *Jiaqi Chen, Tong Li, Jinghui Qin, Pan Lu, Liang Lin, Chongyu Chen, Xiaodan Liang*EMNLP 2022.
 
-
+# 代码生成
+- [**CodeSearchNet Challenge: Evaluating the State of Semantic Code Search**](https://arxiv.org/abs/1909.09436) *Hamel Husain, Ho-Hsiang Wu, Tiferet Gazit, Miltiadis Allamanis, Marc Brockschmidt*Preprint 2019.
+- [**CodeS: Natural Language to Code Repository via Multi-Layer Sketch**](https://arxiv.org/html/2403.16443) *	Daoguang Zan, Ailun Yu, Wei Liu, Dong Chen, Bo Shen, Wei Li, Yafen Yao, Yongshun Gong, Xiaolin Chen, Bei Guan, Zhiguang Yang, Yongji Wang, Qianxiang Wang, Lizhen Cui*Preprint 2024.
+- [**CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion**](https://arxiv.org/abs/2310.11248) *Yangruibo Ding, Zijian Wang, Wasi Uddin Ahmad, Hantian Ding, Ming Tan, Nihal Jain, Murali Krishna Ramanathan, Ramesh Nallapati, Parminder Bhatia, Dan Roth, Bing Xiang*NeurIPS 2023.
+- [**EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories**](https://arxiv.org/abs/2404.00599) *Jia Li, Ge Li, Xuanming Zhang, Yihong Dong, Zhi Jin*Preprint 2024.
+- [**RepoFusion: Training Code Models to Understand Your Repository**](https://arxiv.org/abs/2306.10998) *Disha Shrivastava, Denis Kocetkov, Harm de Vries, Dzmitry Bahdanau, Torsten Scholak*Preprint 2023.
 
