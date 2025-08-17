@@ -64,3 +64,42 @@ Absolute Zero 提出一种“零数据自进化”的推理模型训练方法，
 每个树根节点包含问题及上轮的 structured 信息，分支节点是正确和错误的回答。
 
 学生通过 T-DPO 学到的不仅是 哪个答案是正确的，而且是 为什么某些答案更优，也就是吸收正确推理路径，同时避免重复错误推理。
+
+
+## Synthetic Data RL: Task Definition Is All You Need
+### Idea
+
+从任务定义（包括任务描述、输入输出格式）出发，提取关键词，检索相关外部知识（如 Wikipedia、StackExchange）。
+
+使用一个更强的 instructor LLM（如 GPT-4o）基于这些知识生成高质量的合成数据（Q-A 对）。
+
+完全不需要人工标注，只要一份任务定义即可。
+
+在 GSM8K、MATH、MedQA、CQA、CFA 等任务上，表现超过了指令微调 (instruction-tuned) 和其他合成数据方法，甚至接近或超过使用全量人工数据的 RL。
+
+
+## Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models
+### Idea
+
+不依赖种子数据，完全从0开始
+先由 LLM（GPT-4）和少量人工校验构建 人类知识与能力的分类树（taxonomy），覆盖各个学科和技能领域，最终得到覆盖广泛、难度多样的 指令调优数据。
+
+
+## Self-instruct: Aligning language models with self-generated instructions
+### Idea
+需要少量的seed tasks（175个）
+根据instructio生成input first/ output first两类数据后加入task pool 自举式的扩充种子数据池（自己迭代）
+
+## Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing
+### Idea
+对齐后的 LLM（如 Llama-3-Instruct）在输入“仅有 pre-query 模板（用户输入开头标记）”时，会因为自回归特性自动生成一条高质量、多样化的“用户问题/指令”。
+不依赖人工构造或少量种子问题，而是直接利用 LLM 内隐学到的“指令分布”。
+利用这个特点，可以自动的生成instruction，并生成回答，构造训练数据；
+
+## WizardLM: Empowering Large Language Models to Follow Complex Instructions 
+### Idea
+提出 Evol-Instruct，将简单指令逐步演化为更复杂的指令：加约束、增加推理步骤、细化概念、复杂化输入等
+从一小部分初始指令出发；
+通过 ChatGPT 等大模型多轮迭代演化，生成海量不同难度的指令及对应答案；
+将这些数据用来微调开源 LLaMA 模型，得到 WizardLM。
+
