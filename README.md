@@ -153,7 +153,7 @@ Measure metric
     - Rouge-L (Self-Instruct, Impossible Distillation))
     - Embedding similarity (QDIT, DiverseEvol, DEITA)
     - Semantic tags (instag)
-  -  loss gradients [https://nvlabs.github.io/prismatic-synthesis/]
+  -  loss gradients [https://nvlabs.github.io/prismatic-synthesis/] LESS: Selecting Influential Data for Targeted Instruction Tuning
 #### 2.2.2 Quality filtering
   -  reward models (LLMs)
   -  Correctness (final answer verification) 
@@ -181,7 +181,6 @@ data process
 
 mix 关注质量和多样性
 - DoReMi Optimizing Data Mixtures Speeds Up Language Model Pretraining
-- LESS: Selecting Influential Data for Targeted Instruction Tuning
 - SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
 - QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
 - Predictive Data Selection: The Data That Predicts Is the Data That Teaches
