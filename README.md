@@ -223,7 +223,10 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
     - Specialize behavior for a particular use-case
     - Feed new information to the model
 #### 3.2.2 Training Methods
+- NEFTune: Noisy Embeddings Improve Instruction Finetuning
 - REFT: Reasoning with REinforced Fine-Tuning (RFT)
+- Threshold Filtering Packing for Supervised Fine-Tuning: Training Related Samples within Packs
+- Packing Analysis: Packing Is More Appropriate for Large Models or Datasets in Supervised Fine-tuning
 - CommonIT: Commonality-Aware Instruction Tuning for Large Language Models via Data Partitions 
 #### 3.2.3 Construction
   - Distillation (YHT)
