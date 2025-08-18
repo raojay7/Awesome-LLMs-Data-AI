@@ -15,6 +15,9 @@
 
 # 数学推理
 ## Evaluation Dataset
+- [**MAWPS: A Math Word Problem Repository**](https://aclanthology.org/N16-1136.pdf) *Rik Koncel-Kedziorski, Subhro Roy, Aida Amini,Nate Kushman,Hannaneh Hajishirzi* NAACL 2016.
+- [**Program Induction by Rationale Generation:Learning to Solve and Explain Algebraic Word Problems**](https://arxiv.org/pdf/1705.04146) *Wang Ling, Dani Yogatama, Chris Dyer, Phil Blunsom* IJCAI 2017.
+- [**Training Verifiers to Solve Math Word Problems**](https://arxiv.org/pdf/2110.14168) *Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, John Schulman* NeurIPS 2021.
 - [**Measuring Mathematical Problem Solving With the MATH Dataset**](https://arxiv.org/abs/2103.03874) *Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, Jacob Steinhardt*NeurIPS Dataset and Benchmark 2021.
 - [**MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics**](https://arxiv.org/abs/2109.00110) *Kunhao Zheng, Jesse Michael Han, Stanislas Polut*ICLR 2022.
 - [**Lila: A Unified Benchmark for Mathematical Reasoning**](https://arxiv.org/abs/2210.17517v2) *Swaroop Mishra, Matthew Finlayson, Pan Lu, Leonard Tang, Sean Welleck, Chitta Baral, Tanmay Rajpurohit, Oyvind Tafjord, Ashish Sabharwal, Peter Clark, Ashwin Kalyana*EMNLP 2022.
@@ -27,13 +30,16 @@
 - [**AIME24**](https://huggingface.co/datasets/Maxwell-Jia/AIME_2024) 该数据集包含来自 2024 年美国数学邀请赛 (American Invitational Mathematics Examination, AIME) 的题目。AIME 是一项以其极具挑战性的数学问题而闻名的、享有盛誉的高中数学竞赛。
 - [**MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts**](https://arxiv.org/abs/2310.02255) *Pan Lu, Hritik Bansal, Tony Xia, Jiacheng Liu, Chunyuan Li, Hannaneh Hajishirzi, Hao Cheng, Kai-Wei Chang, Michel Galley, Jianfeng Gao*ICLR 2024.
 - [**MathPile: A Billion-Token-Scale Pretraining Corpus for Math**](https://arxiv.org/abs/2312.17120) *Zengzhi Wang, Xuefeng Li, Rui Xia, Pengfei Liu* NeurIPS 2024.
+- [**DeepMath-103K: A Large-Scale, Challenging, Decontaminated, and Verifiable Mathematical Dataset for Advancing Reasoning**](https://arxiv.org/pdf/2504.11456) *Zhiwei He, Tian Liang, Jiahao Xu, Qiuzhi Liu, Xingyu Chen, Yue Wang, Linfeng Song, Dian Yu, Zhenwen Liang, Wenxuan Wang, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong Yu*. Preprint 2025
+- [**MegaMath: Pushing the Limits of Open Math Corpora**](https://arxiv.org/abs/2504.02807) *Zhiwei He, Tian Liang, Jiahao Xu, Qiuzhi Liu, Xingyu Chen, Yue Wang, Linfeng Song, Dian Yu, Zhenwen Liang, Wenxuan Wang, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong YuFan Zhou, Zengzhi Wang, Nikhil Ranjan, Zhoujun Cheng, Liping Tang, Guowei He, Zhengzhong Liu, Eric P. Xing*. Preprint 2025
 ## Synthetic Dataset
+- [**Are NLP Models really able to Solve Simple Math Word Problems?**](https://arxiv.org/pdf/2103.07191) *Arkil Patel, Satwik Bhattamishra, Navin Goyal* NeurIPS 2021.
 - [**ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning**](https://arxiv.org/abs/2203.10244) *Ahmed Masry, Do Xuan Long, Jia Qing Tan, Shafiq R. Joty, Enamul Hoque*ACL(finding) 2022.（数据集中既有人类编写问题，也有根据人类编写的图标摘要生成的问题）
 - [**Llemma: An Open Language Model For Mathematics**](https://arxiv.org/abs/2310.10631) *Zhangir Azerbayev, Hailey Schoelkopf, Keiran Paster, Marco Dos Santos, Stephen Marcus McAleer, Albert Q. Jiang, Jia Deng, Stella Biderman, Sean Welleck* ICLR 2024.
 - [**MAMMOTH: BUILDING MATH GENERALIST MODELS THROUGH HYBRID INSTRUCTION TUNING**](https://arxiv.org/abs/2309.05653) *Xiang Yue, Xingwei Qu, Ge Zhang, Yao Fu, Wenhao Huang, Huan Sun, Yu Su, Wenhu Chen*ICLR 2024.
 - [**RMath: A Logic Reasoning-Focused Datasets Toward Mathematical Multistep Reasoning Tasks**](https://ojs.aaai.org/index.php/AAAI/article/view/34585) *Ziyi Hu, Jun Liu, Zhongzhi Liu, Yuzhong Liu, Zheng Xie, Yiping Song* AAAI 2025.
-
-
+- [**DeepMath-103K: A Large-Scale, Challenging, Decontaminated, and Verifiable Mathematical Dataset for Advancing Reasoning**](https://arxiv.org/pdf/2504.11456) *Zhiwei He, Tian Liang, Jiahao Xu, Qiuzhi Liu, Xingyu Chen, Yue Wang, Linfeng Song, Dian Yu, Zhenwen Liang, Wenxuan Wang, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong Yu*. Preprint 2025（有合成数据补充）
+- [**MegaMath: Pushing the Limits of Open Math Corpora**](https://arxiv.org/abs/2504.02807) *Zhiwei He, Tian Liang, Jiahao Xu, Qiuzhi Liu, Xingyu Chen, Yue Wang, Linfeng Song, Dian Yu, Zhenwen Liang, Wenxuan Wang, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong YuFan Zhou, Zengzhi Wang, Nikhil Ranjan, Zhoujun Cheng, Liping Tang, Guowei He, Zhengzhong Liu, Eric P. Xing*. Preprint 2025（有合成数据补充）
 
 
 # 代码生成
