@@ -71,7 +71,8 @@ survey 总体结构
 - Quality, Diversity, and Complexity in Synthetic Data SURVEYING THE EFFECTS OF QUALITY, DIVERSITY, AND COMPLEXITY IN SYNTHETIC DATA FROM LARGE LANGUAGE MODELS
 - A Survey of Multimodal Large Language Model from A Data-centric Perspective
 - A Survey of Post-Training Scaling in Large Language Models
-
+- Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives
+selection
 ### Blogs
 
 - [**Synthetic dataset generation techniques: Self-Instruct**](https://huggingface.co/blog/davanstrien/self-instruct) *Daniel van Strien.* 2024
@@ -178,21 +179,15 @@ How to use these data (stage from pretrain to rl)?
 data process
 - D4: Improving LLM Pretraining via Document De-Duplication and Diversification
 
-mix
+mix 关注质量和多样性
 - DoReMi Optimizing Data Mixtures Speeds Up Language Model Pretraining
 - LESS: Selecting Influential Data for Targeted Instruction Tuning
-- How far can camels go? exploring the state of instruction tuning on open resources
-  
-关注质量和多样性
-- Doremi: Optimizing data mixtures speeds up language model pretraining
 - SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
 - QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
 - Predictive Data Selection: The Data That Predicts Is the Data That Teaches
 - Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
 - StatsMerging: Statistics-Guided Model Merging via Task-Specific Teacher Distillation
 - Quality, Diversity, and Complexity in Synthetic Data
-- Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives
-selection
 - HKUST Predictive Data Selection: The Data That Predicts Is the Data That Teaches
 - 字节 QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
 - 美团 SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
