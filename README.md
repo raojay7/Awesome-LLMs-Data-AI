@@ -181,8 +181,6 @@ data process
 
 mix 关注质量和多样性
 - DoReMi Optimizing Data Mixtures Speeds Up Language Model Pretraining
-- SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
-- QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
 - Predictive Data Selection: The Data That Predicts Is the Data That Teaches
 - Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
 - StatsMerging: Statistics-Guided Model Merging via Task-Specific Teacher Distillation
