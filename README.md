@@ -173,9 +173,6 @@ How to use these data (stage from pretrain to rl)?
 **for Training**
 
 ### 3.1 Pretrain 
-(SJJ调研预训练相关方法和现有预训练数据集)
-
-
 #### 3.1.1 highlight
 #### 3.1.2 Training Methods
 data process
