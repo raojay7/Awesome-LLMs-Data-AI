@@ -15,9 +15,9 @@
 
 # 数学推理
 ## Evaluation Dataset
-- [**MAWPS: A Math Word Problem Repository**](https://aclanthology.org/N16-1136.pdf) *Rik Koncel-Kedziorski, Subhro Roy, Aida Amini,Nate Kushman,Hannaneh Hajishirzi* NAACL 2016.
-- [**Program Induction by Rationale Generation:Learning to Solve and Explain Algebraic Word Problems**](https://arxiv.org/pdf/1705.04146) *Wang Ling, Dani Yogatama, Chris Dyer, Phil Blunsom* IJCAI 2017.
-- [**Training Verifiers to Solve Math Word Problems**](https://arxiv.org/pdf/2110.14168) *Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, John Schulman* NeurIPS 2021.
+- MAWPS [**MAWPS: A Math Word Problem Repository**](https://aclanthology.org/N16-1136.pdf) *Rik Koncel-Kedziorski, Subhro Roy, Aida Amini,Nate Kushman,Hannaneh Hajishirzi* NAACL 2016.
+- AQUA-RAT [**Program Induction by Rationale Generation:Learning to Solve and Explain Algebraic Word Problems**](https://arxiv.org/pdf/1705.04146) *Wang Ling, Dani Yogatama, Chris Dyer, Phil Blunsom* IJCAI 2017.
+- GSM8K [**Training Verifiers to Solve Math Word Problems**](https://arxiv.org/pdf/2110.14168) *Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, John Schulman* NeurIPS 2021.
 - [**Measuring Mathematical Problem Solving With the MATH Dataset**](https://arxiv.org/abs/2103.03874) *Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, Jacob Steinhardt*NeurIPS Dataset and Benchmark 2021.
 - [**MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics**](https://arxiv.org/abs/2109.00110) *Kunhao Zheng, Jesse Michael Han, Stanislas Polut*ICLR 2022.
 - [**Lila: A Unified Benchmark for Mathematical Reasoning**](https://arxiv.org/abs/2210.17517v2) *Swaroop Mishra, Matthew Finlayson, Pan Lu, Leonard Tang, Sean Welleck, Chitta Baral, Tanmay Rajpurohit, Oyvind Tafjord, Ashish Sabharwal, Peter Clark, Ashwin Kalyana*EMNLP 2022.
