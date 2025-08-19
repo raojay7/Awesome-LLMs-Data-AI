@@ -217,7 +217,7 @@
 2. [ARB: Advanced Reasoning Benchmark for Large Language Models](https://arxiv.org/abs/2307.13692)  *arXiv 2023*  
    设计 ARB，聚焦高难度数学、物理、生物、化学与法律领域的综合推理任务，评测 GPT-4、Claude 等，发现模型在挑战性任务上的表现普遍低于 50%，并引入 rubric-based 评价体系评估中间推理步骤。
 
-3. [R-Bench: Graduate-level Multi-disciplinary Benchmarks for LLM & MLLM Complex Reasoning Evaluation](https://arxiv.org/abs/2505.02018)  *ICML 2025   
+3. [R-Bench: Graduate-level Multi-disciplinary Benchmarks for LLM & MLLM Complex Reasoning Evaluation](https://arxiv.org/abs/2505.02018)  *ICML 2025*   
    发布 R-Bench，一套包含英语-中文、跨学科的研究生水平推理题库（共 1,094 语言题 + 665 多模态题），覆盖 108／83 个学科，模型在多模态评测上最高仅得 53.2%。
 
 4. [OneEval: Benchmarking LLM Knowledge-intensive Reasoning over Diverse Knowledge Bases](https://arxiv.org/abs/2506.12577)  *arXiv 2025*  
@@ -226,8 +226,7 @@
 5. [MR-GSM8K: A Meta-Reasoning Benchmark for Large Language Model Evaluation](https://arxiv.org/abs/2312.17080)  *arXiv 2023*  
    建立 MR-GSM8K，考察模型在数学题目中不仅判断答案是否正确，还要指出首个错误步骤及错误原因，揭示大模型在综合推理能力方面的短板。
 
-6. [ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning](https://arxiv.org/abs/2401.05604) *(via description)*  
-   *技术报告 / benchmark*  
+6. [ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning](https://arxiv.org/abs/2401.05604) *ARXIV2025*
    提出 ZebraLogic，基于逻辑网格谜题（CSP 形式）构建可控难度的评估环境，揭示随着问题复杂性增加，模型准确率急剧下降，即所谓的“复杂性诅咒”。
 
 7. [DiagGSM8K (Challenge LLMs to Reason About Reasoning)](https://arxiv.org/abs/2312.17080)  *arXiv 2023*  
@@ -239,3 +238,4 @@
 9. [StrucText-Eval: Evaluating Large Language Model's Reasoning Ability in Structure-Rich Text](https://arxiv.org/abs/2406.10621)*ACL 2025*
 
    提出了一种自动评估数据生成方法，用于评估LLMS对富结构文本的推理能力，以对此进行探索。支持 8 种结构化语言和 29 个任务，通过可控的嵌套和结构宽度生成复杂度可调的数据。
+
