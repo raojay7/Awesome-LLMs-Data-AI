@@ -182,7 +182,7 @@
    提出一种自举方法：模型先自生成带有推理步骤的解答，再基于正确解答反向训练自身，从而不断迭代提升推理能力。实验表明在算术、逻辑推理任务中，合成推理链能够大幅提高准确率。
 
 2. [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://aclanthology.org/2023.acl-long.754.pdf)  *ACL 2023*  
-   提出 **Self-Instruct 框架**：利用模型自身生成指令-输入-输出三元组，并经过自动过滤与去重，构造大规模合成指令数据集进行微调。该方法显著减少人工标注依赖，推动了指令微调的发展。
+   提出Self-Instruct 框架：利用模型自身生成指令-输入-输出三元组，并经过自动过滤与去重，构造大规模合成指令数据集进行微调。该方法显著减少人工标注依赖，推动了指令微调的发展。
 
 3. [RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://arxiv.org/abs/2309.00267)*ICLR 2024*  
 
@@ -205,13 +205,14 @@
    提出在对话形式下生成 Chain-of-Thought，并将其蒸馏到较小的对话模型，显著提升了常识推理能力与对话一致性，展示了合成对话推理链的价值。
 
 9. [On-Policy Distillation of Language Models](https://iclr.cc/media/iclr-2024/Slides/19484)  *ICLR 2024*  
-   提出 **在策略蒸馏** 方法：学生模型先生成轨迹，教师模型再对这些合成数据提供评分或分布，学生最小化差异。避免了单纯依赖离线数据，提高了生成式推理任务中的泛化。
+   提出 在策略蒸馏 方法：学生模型先生成轨迹，教师模型再对这些合成数据提供评分或分布，学生最小化差异。避免了单纯依赖离线数据，提高了生成式推理任务中的泛化。
 
 10. [NoRa: Chain-of-Thought Reasoning with Noisy Rationales](https://neurips.cc/virtual/2024/poster/95956)  *NeurIPS 2024*  
     系统研究了噪声推理链对模型训练的影响，并提出稳健化方法，有效过滤和利用低质量合成CoT数据，为大规模自动生成推理链提供了质量控制机制。
 
 11. [Iter-CoT: Iterative Bootstrapping in Chain-of-Thoughts Prompting](https://aclanthology.org/2024.findings-naacl.257)  *Findings of NAACL 2024*  
     提出迭代自举方法：模型不断生成推理示例，并通过难度控制与自纠错机制筛选更优样本，逐步扩展高质量的推理数据集，提升了推理蒸馏的稳定性。
+
 
 
 
