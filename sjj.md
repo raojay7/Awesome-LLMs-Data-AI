@@ -80,15 +80,13 @@
 
    系统研究如何利用LLM生成差分隐私的合成数据，并用这些数据训练下游模型。论文比较了不同DP机制与合成策略，发现私合成数据在部分任务能接近真数据效果。该工作为DP合成的实证研究提供了全面基准。  
 
-10.  [KnowledgeSG: Privacy-Preserving Synthetic Text Generation with Knowledge Distillation from Server](https://aclanthology.org/2024.emnlp-main.438/) *EMNLP 2024* 
-
+10.  [KnowledgeSG: Privacy-Preserving Synthetic Text Generation with Knowledge Distillation from Server](https://aclanthology.org/2024.emnlp-main.438/) *EMNLP 2024*
     提出KnowledgeSG框架，将客户端侧的DP训练与服务器侧的知识蒸馏结合。这样既能保护用户隐私，又能提升合成数据的可用性。实验显示在医疗、金融等敏感领域下游任务中优于传统DP生成方法。 
-
-11. [Evaluating Differentially Private Synthetic Data Generation for NLP](https://aclanthology.org/2024.findings-emnlp.894.pdf) *EMNLP 2024 Findings* 
+12. [Evaluating Differentially Private Synthetic Data Generation for NLP](https://aclanthology.org/2024.findings-emnlp.894.pdf) *EMNLP 2024 Findings* 
 
     系统性评估了多种差分隐私文本合成方法在NLP任务中的表现。研究指出现有方法在高风险场景下存在显著效用损失，并提出改进的评测指标。为未来私合成研究提供了风险警示和改进方向。  
 
-12. [Privacy-Preserving Synthetic Data Generation for Recommendation Systems (UPC-SDG)](https://arxiv.org/abs/2209.13133) *SIGIR 2022* 
+13. [Privacy-Preserving Synthetic Data Generation for Recommendation Systems (UPC-SDG)](https://arxiv.org/abs/2209.13133) *SIGIR 2022* 
 
     提出UPC-SDG框架，允许用户在合成数据中设定隐私保护级别。方法兼顾了推荐系统中的数据效用与差分隐私约束，并在真实推荐数据集上取得良好效果。为用户侧可控的私有合成开辟了新方向。
 
@@ -212,5 +210,6 @@
 
 11. [Iter-CoT: Iterative Bootstrapping in Chain-of-Thoughts Prompting](https://aclanthology.org/2024.findings-naacl.257)  *Findings of NAACL 2024*  
     提出迭代自举方法：模型不断生成推理示例，并通过难度控制与自纠错机制筛选更优样本，逐步扩展高质量的推理数据集，提升了推理蒸馏的稳定性。
+
 
 
