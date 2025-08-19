@@ -46,6 +46,7 @@
 - [**MAMMOTH: BUILDING MATH GENERALIST MODELS THROUGH HYBRID INSTRUCTION TUNING**](https://arxiv.org/abs/2309.05653) *Xiang Yue, Xingwei Qu, Ge Zhang, Yao Fu, Wenhao Huang, Huan Sun, Yu Su, Wenhu Chen*ICLR 2024.
 - [**MuggleMath: Assessing the Impact of Query and Response Augmentation on Math Reasoning**](https://arxiv.org/abs/2310.05506v3) *Chengpeng Li, Zheng Yuan, Hongyi Yuan, Guanting Dong, Keming Lu, Jiancan Wu, Chuanqi Tan, Xiang Wang, Chang Zhou.* ACL 2024.（根据种子，生成了部分数据，进行了数据增强）
 - [**MathGenie: Generating Synthetic Data with Question Back-translation for Enhancing Mathematical Reasoning of LLMs**](https://arxiv.org/abs/2402.16352) *Zimu Lu, Aojun Zhou, Houxing Ren, Ke Wang, Weikang Shi, Junting Pan, Mingjie Zhan, Hongsheng Li.* ACL 2024.（根据种子，生成了部分数据，进行了数据增强）
+- Ashvini Jindal. 2023. Arithmo-mistral-7b: Mathematical reasoning model. Hugging Face.
 - [**MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models**](https://arxiv.org/abs/2309.12284) *Longhui Yu, Weisen Jiang, Han Shi, Jincheng Yu, Zhengying Liu, Yu Zhang, James T. Kwok, Zhenguo Li, Adrian Weller, Weiyang Liu.* ICLR 2024.（根据种子，生成了部分数据，进行了数据增强）
 - [**Augmenting Math Word Problems via Iterative Question Composing**](https://arxiv.org/abs/2401.09003) *Haoxiong Liu, Yifan Zhang, Yifan Luo, Andrew Chi-Chih Yao.* DPFM@ICLR 2024.（根据种子，生成了部分数据，进行了数据增强）
 - OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset. NeurIPS 2024.（种子数据+生成数据）
