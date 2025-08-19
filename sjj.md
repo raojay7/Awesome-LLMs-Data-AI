@@ -20,15 +20,29 @@
 
    系统收录了 2020–2024 年间关于符号推理的 1,428 篇文献，最终精选 167 篇进行深入分析。
 
+6. [Preserving Privacy in Large Language Models: A Survey on Current Threats and Solutions](https://arxiv.org/abs/2408.05212) *arxiv 2024* 
+
+   系统综述了大语言模型的隐私风险与保护方法，涵盖成员推理攻击、训练数据泄露、差分隐私训练与私合成数据生成等。文章从攻击、防护、数据删除三个维度进行分类。为研究者提供了全面的知识图谱和未来方向。  
+
+7. [Privacy-Preserving Large Language Models: Mechanisms and Applications](https://arxiv.org/html/2412.06113v1) *arxiv 2024* 
+
+   总结LLM隐私保护机制，包括差分隐私、联邦学习、加密推理和私有数据合成等。重点讨论如何在医疗、法律等应用中实际部署私合成数据方案。提供了实证隐私测试方法和实际应用案例。  
+
 ## 推理数据合成--关于如何合成符号数据的论文
 
 1. [Neuro‑Symbolic Data Generation for Math Reasoning (NeurIPS 2024)](https://arxiv.org/abs/2412.04857)
 
    提出一种 神经符号混合（neuro‑symbolic）框架，用于自动合成数学推理训练数据。该方法仔细地改变现有的数学问题，确保新生成的问题的多样性和有效性。这是通过神经符号数据生成框架实现的，该框架结合了LLMS的直观非形式化优势、数学求解器的精确符号推理以及高度不规则符号空间中的投影马尔可夫链蒙特卡洛采样。
 
+2. [Generating Data for Symbolic Language with Large Language Models (SymGen)](https://aclanthology.org/2023.emnlp-main.523.pdf) *EMNLP 2023*
+
+    提出SymGen框架，用大语言模型生成符号语言（如逻辑表达式、代码）数据，并结合一致性校验提升质量。实验表明合成数据能显著增强小模型在语义解析和逻辑推理上的表现。该方法展示了LLM在符号任务数据合成上的潜力。
+
    
 
 ## 隐私保护--关于对大模型合成数据进行去敏感化数据合成
+
+*以差分隐私为主流，通过加入噪声数据来保护隐私信息。*
 
 1. [SafeSynthDP: Leveraging Large Language Models for Privacy-Preserving Synthetic Data Generation Using Differential Privacy](https://arxiv.org/abs/2412.20641)
 
@@ -50,7 +64,39 @@
 
    虽不直接处理隐私问题，但该论文提出了 SymGen 框架，在 LLM 输出中嵌入**符号引用**（symbolic references），便于追溯生成内容与原始数据之间的对应关系，有助于验证与可控性，是符号化生成与安全控制结合的一个方向。SymGen 提示 LLM 将其常规输出文本与对某些条件数据（例如，JSON 格式的表）中存在的字段的显式符号引用交错。引用可用于显示生成中不同跨度文本的出处，从而减少手动验证所需的工作量。
 
+6. [Generative Private Synthetic Data via Foundation Model APIs 2: Text](https://icml.cc/virtual/2024/poster/34291) *ICML 2024* 
+
+   提出Aug-PE方法，仅通过调用LLM API而非私有微调即可生成差分隐私保证的合成文本。该方法在不需要访问专有模型参数的情况下实现了正式的DP理论保证，并在多个NLP任务中接近甚至超过DP-SGD微调效果。适用于机构只能API级调用大模型的隐私敏感场景。 
+
+7.  [Private Text Generation by Seeding Large Language Model Prompts](https://openreview.net/pdf?id=rw25QGrkNy) *NeurIPS 2024* 
+
+   提出DP-KPS方法，将敏感文本嵌入为差分隐私保护的关键词，再作为提示词种子驱动LLM生成。这样避免了直接暴露私有语料，同时保持较高的下游任务性能。该框架特别适合医疗、金融等场景中的安全语料合成。  
+
+8.  [SeqPATE: Differentially Private Text Generation via PATE](https://proceedings.neurips.cc/paper_files/paper/2022/file/480045ad846b44bf31441c1f1d9dd768-Supplemental-Conference.pdf) *NeurIPS 2022* 
+
+   将教师-学生式的PATE框架扩展到序列文本生成。通过多个教师模型投票并加入噪声，保证生成文本满足差分隐私约束。实验表明在NLP任务中能有效平衡隐私与效用
+
+9.  [Harnessing Large-Language Models to Generate Private Synthetic Text](https://openreview.net/forum?id=TOE6N8dp4w) *ICLR 2024* 
+
+   系统研究如何利用LLM生成差分隐私的合成数据，并用这些数据训练下游模型。论文比较了不同DP机制与合成策略，发现私合成数据在部分任务能接近真数据效果。该工作为DP合成的实证研究提供了全面基准。  
+
+10.  [KnowledgeSG: Privacy-Preserving Synthetic Text Generation with Knowledge Distillation from Server](https://aclanthology.org/2024.emnlp-main.438/) *EMNLP 2024* 
+
+    提出KnowledgeSG框架，将客户端侧的DP训练与服务器侧的知识蒸馏结合。这样既能保护用户隐私，又能提升合成数据的可用性。实验显示在医疗、金融等敏感领域下游任务中优于传统DP生成方法。 
+
+11. [Evaluating Differentially Private Synthetic Data Generation for NLP](https://aclanthology.org/2024.findings-emnlp.894.pdf) *EMNLP 2024 Findings* 
+
+    系统性评估了多种差分隐私文本合成方法在NLP任务中的表现。研究指出现有方法在高风险场景下存在显著效用损失，并提出改进的评测指标。为未来私合成研究提供了风险警示和改进方向。  
+
+12. [Privacy-Preserving Synthetic Data Generation for Recommendation Systems (UPC-SDG)](https://arxiv.org/abs/2209.13133) *SIGIR 2022* 
+
+    提出UPC-SDG框架，允许用户在合成数据中设定隐私保护级别。方法兼顾了推荐系统中的数据效用与差分隐私约束，并在真实推荐数据集上取得良好效果。为用户侧可控的私有合成开辟了新方向。
+
+    
+
 ## 符号推理思维链框架方法--关于利用大语言模型如何构建符号推理框架的论文
+
+*核心点在于如何验证大模型的推理，利用外部工具或者设计一种有效的思维链来验证推理过程，然后迭代优化*
 
 1. [ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs](https://arxiv.org/abs/2506.15211)
 
@@ -106,11 +152,9 @@
 
      iQUEST是一个问题引导的 KBQA 框架，它将复杂的查询迭代分解为更简单的子问题，确保结构化和集中的推理轨迹。
 
-13. [MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions](https://arxiv.org/abs/2409.12958)
-
-    提出了一种新颖的方法——多语言逆向指令（Multilingual Reverse Instructions, MURI）。该方法能够在不需要人工标注者或预先存在的多语言模型的情况下，为低资源语言生成高质量的指令微调数据集。MURI 利用逆向指令和一个翻译pipeline，从低资源语言中现有的人类书写文本中生成指令-输出对。
-
 ## 多语言推理--大语言模型在多语言方向进行推理的论文
+
+*将语言的内容逻辑抽象出来再进行有效推理*
 
 1. [NeuroSymbolic Augmented Reasoning (NSAR)](https://arxiv.org/abs/2506.02483)
 
@@ -128,4 +172,44 @@
 
    提出了一个更简单、更通用的声明式框架，具有灵活的上下文相关规则，绑定多种语言（特别是简体英语和 TPTP 定理证明语言）。我们通过选择多达 32 个前提和一个假设来构建一阶逻辑问题。
 
+5. [MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions](https://arxiv.org/abs/2409.12958)
+
+   提出了一种新颖的方法——多语言逆向指令（Multilingual Reverse Instructions, MURI）。该方法能够在不需要人工标注者或预先存在的多语言模型的情况下，为低资源语言生成高质量的指令微调数据集。MURI 利用逆向指令和一个翻译pipeline，从低资源语言中现有的人类书写文本中生成指令-输出对。
+
+## 思维链推理方法--聚焦用模型自生成数据（指令、推理过程、偏好/反馈、树搜索轨迹等）来提升推理能力
+
+1. [STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465)  *NeurIPS 2022*  
+   提出一种自举方法：模型先自生成带有推理步骤的解答，再基于正确解答反向训练自身，从而不断迭代提升推理能力。实验表明在算术、逻辑推理任务中，合成推理链能够大幅提高准确率。
+
+2. [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://aclanthology.org/2023.acl-long.754.pdf)  *ACL 2023*  
+   提出 **Self-Instruct 框架**：利用模型自身生成指令-输入-输出三元组，并经过自动过滤与去重，构造大规模合成指令数据集进行微调。该方法显著减少人工标注依赖，推动了指令微调的发展。
+
+3. [RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://arxiv.org/abs/2309.00267)*ICLR 2024*  
+
+   探讨如何利用教师大模型生成的偏好反馈替代人工标注，提出 **RLAIF** 框架。实验表明，纯 AI 合成的偏好数据在摘要与开放对话任务上接近甚至超过 RLHF 效果，证明了大规模可扩展性。
+
+4. [https://arxiv.org/abs/2212.08073](https://arxiv.org/pdf/2212.08073)  *NeurIPS 2023*  
+
+   提出 **宪法式 AI 对齐方法**：通过“宪法原则”指导模型自评与自修正，自动合成安全偏好数据，再进行监督微调和RL阶段，减少了人工介入，显著提升了模型的安全性与合规性。
+
+5. [Chain-of-Preference Optimization (CPO)](https://proceedings.neurips.cc/paper_files/paper/2024/file/00d80722b756de0166523a87805dd00f-Paper-Conference.pdf)  *NeurIPS 2024*  
+   提出 **CPO**：基于 Tree-of-Thought 搜索生成多条推理路径，并构造步骤级偏好信号，引导模型学习更优的推理链，解决了传统偏好对齐方法无法利用中间推理步骤的不足。
+
+6. [Chain-of-Thought Reasoning Without Prompting](https://proceedings.neurips.cc/paper_files/paper/2024/hash/7a8e7fd295aa04eac4b470ae27f8785c-Abstract-Conference.html)  *NeurIPS 2024*  
+   探索无需显式提示就能触发模型内部推理链的机制，通过采样与解码策略挖掘潜在推理分支，并生成高置信度的合成推理样本，进一步提升了蒸馏与再训练效果。
+
+7. [Knowledge-Augmented Reasoning Distillation](https://neurips.cc/virtual/2023/poster/70015)  *NeurIPS 2023*  
+   提出一种知识增强推理蒸馏方法：结合教师模型的推理链与外部知识信号，对小模型进行多层次蒸馏，在知识密集型推理任务中表现显著提升。
+
+8. [Dialogue Chain-of-Thought Distillation for Commonsense Reasoning](https://aclanthology.org/2023.emnlp-main.342)  *EMNLP 2023*  
+   提出在对话形式下生成 Chain-of-Thought，并将其蒸馏到较小的对话模型，显著提升了常识推理能力与对话一致性，展示了合成对话推理链的价值。
+
+9. [On-Policy Distillation of Language Models](https://iclr.cc/media/iclr-2024/Slides/19484)  *ICLR 2024*  
+   提出 **在策略蒸馏** 方法：学生模型先生成轨迹，教师模型再对这些合成数据提供评分或分布，学生最小化差异。避免了单纯依赖离线数据，提高了生成式推理任务中的泛化。
+
+10. [NoRa: Chain-of-Thought Reasoning with Noisy Rationales](https://neurips.cc/virtual/2024/poster/95956)  *NeurIPS 2024*  
+    系统研究了噪声推理链对模型训练的影响，并提出稳健化方法，有效过滤和利用低质量合成CoT数据，为大规模自动生成推理链提供了质量控制机制。
+
+11. [Iter-CoT: Iterative Bootstrapping in Chain-of-Thoughts Prompting](https://aclanthology.org/2024.findings-naacl.257)  *Findings of NAACL 2024*  
+    提出迭代自举方法：模型不断生成推理示例，并通过难度控制与自纠错机制筛选更优样本，逐步扩展高质量的推理数据集，提升了推理蒸馏的稳定性。
 
