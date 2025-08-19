@@ -36,7 +36,11 @@
 
 2. [Generating Data for Symbolic Language with Large Language Models (SymGen)](https://aclanthology.org/2023.emnlp-main.523.pdf) *EMNLP 2023*
 
-    提出SymGen框架，用大语言模型生成符号语言（如逻辑表达式、代码）数据，并结合一致性校验提升质量。实验表明合成数据能显著增强小模型在语义解析和逻辑推理上的表现。该方法展示了LLM在符号任务数据合成上的潜力。
+   提出SymGen框架，用大语言模型生成符号语言（如逻辑表达式、代码）数据，并结合一致性校验提升质量。实验表明合成数据能显著增强小模型在语义解析和逻辑推理上的表现。该方法展示了LLM在符号任务数据合成上的潜力。
+
+3. [LogicPro: Improving Complex Logical Reasoning via Program-Guided Learning](https://arxiv.org/abs/2409.12929)
+
+   提出了一种名为 LogicPro 的新数据合成方法，该方法利用 LeetCode 风格的算法 Problems 及其对应的Program 解决方案，以文本格式合成复杂的 Logic 推理数据。
 
    
 
@@ -68,19 +72,19 @@
 
    提出Aug-PE方法，仅通过调用LLM API而非私有微调即可生成差分隐私保证的合成文本。该方法在不需要访问专有模型参数的情况下实现了正式的DP理论保证，并在多个NLP任务中接近甚至超过DP-SGD微调效果。适用于机构只能API级调用大模型的隐私敏感场景。 
 
-7.  [Private Text Generation by Seeding Large Language Model Prompts](https://openreview.net/pdf?id=rw25QGrkNy) *NeurIPS 2024* 
+7. [Private Text Generation by Seeding Large Language Model Prompts](https://openreview.net/pdf?id=rw25QGrkNy) *NeurIPS 2024* 
 
    提出DP-KPS方法，将敏感文本嵌入为差分隐私保护的关键词，再作为提示词种子驱动LLM生成。这样避免了直接暴露私有语料，同时保持较高的下游任务性能。该框架特别适合医疗、金融等场景中的安全语料合成。  
 
-8.  [SeqPATE: Differentially Private Text Generation via PATE](https://proceedings.neurips.cc/paper_files/paper/2022/file/480045ad846b44bf31441c1f1d9dd768-Supplemental-Conference.pdf) *NeurIPS 2022* 
+8. [SeqPATE: Differentially Private Text Generation via PATE](https://proceedings.neurips.cc/paper_files/paper/2022/file/480045ad846b44bf31441c1f1d9dd768-Supplemental-Conference.pdf) *NeurIPS 2022* 
 
    将教师-学生式的PATE框架扩展到序列文本生成。通过多个教师模型投票并加入噪声，保证生成文本满足差分隐私约束。实验表明在NLP任务中能有效平衡隐私与效用
 
-9.  [Harnessing Large-Language Models to Generate Private Synthetic Text](https://openreview.net/forum?id=TOE6N8dp4w) *ICLR 2024* 
+9. [Harnessing Large-Language Models to Generate Private Synthetic Text](https://openreview.net/forum?id=TOE6N8dp4w) *ICLR 2024* 
 
    系统研究如何利用LLM生成差分隐私的合成数据，并用这些数据训练下游模型。论文比较了不同DP机制与合成策略，发现私合成数据在部分任务能接近真数据效果。该工作为DP合成的实证研究提供了全面基准。  
 
-10.  [KnowledgeSG: Privacy-Preserving Synthetic Text Generation with Knowledge Distillation from Server](https://aclanthology.org/2024.emnlp-main.438/) *EMNLP 2024*
+10. [KnowledgeSG: Privacy-Preserving Synthetic Text Generation with Knowledge Distillation from Server](https://aclanthology.org/2024.emnlp-main.438/) *EMNLP 2024*
 
 提出KnowledgeSG框架，将客户端侧的DP训练与服务器侧的知识蒸馏结合。这样既能保护用户隐私，又能提升合成数据的可用性。实验显示在医疗、金融等敏感领域下游任务中优于传统DP生成方法。
 
@@ -140,15 +144,7 @@
 
    SymbolicThought是一个人机交互框架，它将基于 LLM 的提取与符号推理相结合。该系统构建可编辑的字符关系图，使用七种类型的逻辑约束对其进行细化，并通过交互式界面实现实时验证和冲突解决。
 
-10. [StrucText-Eval: Evaluating Large Language Model's Reasoning Ability in Structure-Rich Text](https://arxiv.org/abs/2406.10621)
-
-    提出了一种自动评估数据生成方法，用于评估LLMS对富结构文本的推理能力，以对此进行探索。支持 8 种结构化语言和 29 个任务，通过可控的嵌套和结构宽度生成复杂度可调的数据。
-
-11. [LogicPro: Improving Complex Logical Reasoning via Program-Guided Learning](https://arxiv.org/abs/2409.12929)
-
-    提出了一种名为 LogicPro 的新数据合成方法，该方法利用 LeetCode 风格的算法 Problems 及其对应的Program 解决方案，以文本格式合成复杂的 Logic 推理数据。
-
-12. [iQUEST: An Iterative Question-Guided Framework for Knowledge Base Question Answering](https://arxiv.org/abs/2506.01784)
+10. [iQUEST: An Iterative Question-Guided Framework for Knowledge Base Question Answering](https://arxiv.org/abs/2506.01784)
 
      iQUEST是一个问题引导的 KBQA 框架，它将复杂的查询迭代分解为更简单的子问题，确保结构化和集中的推理轨迹。
 
@@ -213,7 +209,33 @@
 11. [Iter-CoT: Iterative Bootstrapping in Chain-of-Thoughts Prompting](https://aclanthology.org/2024.findings-naacl.257)  *Findings of NAACL 2024*  
     提出迭代自举方法：模型不断生成推理示例，并通过难度控制与自纠错机制筛选更优样本，逐步扩展高质量的推理数据集，提升了推理蒸馏的稳定性。
 
+## 大模型推理测评
 
+1. [GLoRE: Evaluating Logical Reasoning of Large Language Models](https://arxiv.org/abs/2310.09107)  *arXiv 2023*  
+   提出 GLoRE，一个由 12 个数据集构成的逻辑推理评估基准，覆盖多种推理类型；结果显示 GPT-4 显著优于 ChatGPT，但开源 LLM 还需提升，还提出了 self-consistency probing 和 fine-tuning 方法提升性能。
 
+2. [ARB: Advanced Reasoning Benchmark for Large Language Models](https://arxiv.org/abs/2307.13692)  *arXiv 2023*  
+   设计 ARB，聚焦高难度数学、物理、生物、化学与法律领域的综合推理任务，评测 GPT-4、Claude 等，发现模型在挑战性任务上的表现普遍低于 50%，并引入 rubric-based 评价体系评估中间推理步骤。
 
+3. [R-Bench: Graduate-level Multi-disciplinary Benchmarks for LLM & MLLM Complex Reasoning Evaluation](https://arxiv.org/abs/2505.02018)  *ICML 2025   
+   发布 R-Bench，一套包含英语-中文、跨学科的研究生水平推理题库（共 1,094 语言题 + 665 多模态题），覆盖 108／83 个学科，模型在多模态评测上最高仅得 53.2%。
 
+4. [OneEval: Benchmarking LLM Knowledge-intensive Reasoning over Diverse Knowledge Bases](https://arxiv.org/abs/2506.12577)  *arXiv 2025*  
+   推出 OneEval，用于评测 LLM 在多种结构化知识形式（文本、知识图谱、代码、形式逻辑）下的推理能力，涵盖五大领域，Hard 集合的最高准确率仅达 32.2%。
+
+5. [MR-GSM8K: A Meta-Reasoning Benchmark for Large Language Model Evaluation](https://arxiv.org/abs/2312.17080)  *arXiv 2023*  
+   建立 MR-GSM8K，考察模型在数学题目中不仅判断答案是否正确，还要指出首个错误步骤及错误原因，揭示大模型在综合推理能力方面的短板。
+
+6. [ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning](https://arxiv.org/abs/2401.05604) *(via description)*  
+   *技术报告 / benchmark*  
+   提出 ZebraLogic，基于逻辑网格谜题（CSP 形式）构建可控难度的评估环境，揭示随着问题复杂性增加，模型准确率急剧下降，即所谓的“复杂性诅咒”。
+
+7. [DiagGSM8K (Challenge LLMs to Reason About Reasoning)](https://arxiv.org/abs/2312.17080)  *arXiv 2023*  
+   引入元推理评估范式，通过 DiagGSM8K 检验模型的推理能力及理解深度，强调当前基准（如 GSM8K）已饱和，无法区分 GPT-4 与 GPT-3.5 的差距。
+
+8. [REBUS: A Robust Evaluation Benchmark of Understanding Symbols](https://arxiv.org/abs/2401.05604)  *arXiv 2024*  
+   REBUS 用图像形式的文字谜题（rebus puzzles）评测多模态 LLM 理解谜题、图像推理与多步骤推理能力，当前最好模型准确率仅为 24%，展示显著改进空间。
+
+9. [StrucText-Eval: Evaluating Large Language Model's Reasoning Ability in Structure-Rich Text](https://arxiv.org/abs/2406.10621)*ACL 2025*
+
+   提出了一种自动评估数据生成方法，用于评估LLMS对富结构文本的推理能力，以对此进行探索。支持 8 种结构化语言和 29 个任务，通过可控的嵌套和结构宽度生成复杂度可调的数据。
