@@ -62,7 +62,7 @@
 
 5. [Towards Verifiable Text Generation with Symbolic References](https://arxiv.org/abs/2311.09188)
 
-   虽不直接处理隐私问题，但该论文提出了 SymGen 框架，在 LLM 输出中嵌入**符号引用**（symbolic references），便于追溯生成内容与原始数据之间的对应关系，有助于验证与可控性，是符号化生成与安全控制结合的一个方向。SymGen 提示 LLM 将其常规输出文本与对某些条件数据（例如，JSON 格式的表）中存在的字段的显式符号引用交错。引用可用于显示生成中不同跨度文本的出处，从而减少手动验证所需的工作量。
+   虽不直接处理隐私问题，但该论文提出了 SymGen 框架，在 LLM 输出中嵌入符号引用，便于追溯生成内容与原始数据之间的对应关系，有助于验证与可控性，是符号化生成与安全控制结合的一个方向。SymGen 提示 LLM 将其常规输出文本与对某些条件数据（例如，JSON 格式的表）中存在的字段的显式符号引用交错。引用可用于显示生成中不同跨度文本的出处，从而减少手动验证所需的工作量。
 
 6. [Generative Private Synthetic Data via Foundation Model APIs 2: Text](https://icml.cc/virtual/2024/poster/34291) *ICML 2024* 
 
@@ -212,4 +212,5 @@
 
 11. [Iter-CoT: Iterative Bootstrapping in Chain-of-Thoughts Prompting](https://aclanthology.org/2024.findings-naacl.257)  *Findings of NAACL 2024*  
     提出迭代自举方法：模型不断生成推理示例，并通过难度控制与自纠错机制筛选更优样本，逐步扩展高质量的推理数据集，提升了推理蒸馏的稳定性。
+
 
