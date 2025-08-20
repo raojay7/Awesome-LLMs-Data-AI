@@ -35,6 +35,8 @@
 
 - [Scalable Best-of-N Selection for Large Language Models via Self-Certainty](https://arxiv.org/abs/2502.18581), Zhewei Kang, Xuandong Zhao, Dawn Song：本文提出了一种名为自确定性的新的置信度指标，通过LLM输出时本身固有的概率分布来估计回答的质量，分布越集中，LLM对其的信心越高，反之越低
 
+- [Self-Rewarding Language Models](https://arxiv.org/abs/2401.10020), Weizhe Yuan, Richard Yuanzhe Pang, Kyunghyun Cho, Xian Li, Sainbayar Sukhbaatar, Jing Xu, Jason Weston：提出了一种自奖励语言模型的训练框架，通过迭代式DPO和LLM-as-a-Judge机制，实现了指令跟随和奖励建模能力的双向提升。
+
 - [Process-based Self-Rewarding Language Models](https://arxiv.org/abs/2503.03746), Shimao Zhang, Xiao Liu, Xin Zhang, Junxiao Liu, Zheheng Luo, Shujian Huang, Yeyun Gong：基于过程的自奖励模型将自奖励算法的粒度扩展到步骤级，使模型能够评估自己每一个步骤推理步骤的好坏并自己生成奖励信号通过不断迭代优化自己的输出，同时在偏好优化阶段采用DPO，优化了旧方法只打分的局限性，让模型通过比较不同输出来评判好坏。
 
 - [Bootstrapping Language Models with DPO Implicit Rewards](https://arxiv.org/abs/2406.09760), Changyu Chen, Zichen Liu, Chao Du, Tianyu Pang, Qian Liu, Arunesh Sinha, Pradeep Varakantham, Min Lin, ICLR 2025：模型在经过DPO训练后内生了一套评判标准（隐式奖励模型），通过优化该评判标准提出DICE方法，让模型利用这一套标准在不需要额外反馈的条件下来提升自己
