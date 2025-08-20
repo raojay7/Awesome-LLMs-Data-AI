@@ -160,14 +160,12 @@ Measure metric
 
 #### 2.2.3 Multi filtering
 - Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration. ACL 2025.
-- LIMO: less is more for reasoning
-- DataMan: data manager for pre-training large language model
 - Qurating: Selecting high-quality data for training language model
 - DELE: data efficient LLM evaluation
 - DSDM: model-aware dataset selection with datamodels
 - Rethinking Data Selection at Scale: Random Selection is Almost All You Need (Analysis of the million-level instruction selection algorithm)
 - Evaluating Language Models as Synthetic Data Generators. ACL 2025.
-- DATAMAN: DATA MANAGER FOR PRE-TRAINING LARGE LANGUAGE MODELS. ICLR 2025.
+- DataMan: data manager for pre-training large language model. ICLR 2025.
 
 ## 3. Stages
 How to use these data (stage from pretrain to rl)?
