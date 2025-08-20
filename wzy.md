@@ -6,7 +6,7 @@
 - **[SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning](https://arxiv.org/abs/2506.08989) Xiao Liang, Zhong-Zhi Li, Yeyun Gong, Yang Wang, Hengyuan Zhang, Yelong Shen, Ying Nian Wu, Weizhu Chen**：在 RL 训练中识别模型反复失败的样本，提取核心概念并合成针对性新题，逐步克服模型弱点。
 
 ## 错误类型驱动弱点分类
-- **[Error Classification of Large Language Models on Math Word Problems: A Dynamically Adaptive Framework](https://arxiv.org/abs/2501.15581) Yuhong Sun, Zhangyue Yin, Xuanjing Huang, Xipeng Qiu, Hui Zhao**：构建约 30 万真实数学错误样本数据集，引入动态错误分类与 Error-Aware Prompting，引导模型规避常见推理错误。
+- **[Error Classification of Large Language Models on Math Word Problems: A Dynamically Adaptive Framework](https://arxiv.org/abs/2501.15581) Yuhong Sun, Zhangyue Yin, Xuanjing Huang, Xipeng Qiu, Hui Zhao**：2025. 构建约 30 万真实数学错误样本数据集，引入动态错误分类与 Error-Aware Prompting，引导模型规避常见推理错误。
 - **[Reinforcement Learning on Incorrect Synthetic Data via Advantage-Weighted Reward Shaping for Mathematical Reasoning](https://arxiv.org/abs/2406.14532) Amrith Setlur, Saurabh Garg, Xinyang Geng, Naman Garg, Virginia Smith, Aviral Kumar**：利用负样本和逐步信用分配优化推理关键步骤，实现等效于扩大 8 倍正样本的数学推理效率提升。
 - **[Error Typing for Smarter Rewards: Improving Process Reward Models with Error-Aware Hierarchical Supervision (PathFinder-PRM)](https://arxiv.org/abs/2505.19706) Tej Deep Pala, Panshul Sharma, Amir Zadeh, Chuan Li, Soujanya Poria**：在过程奖励模型中引入错误类型检测，将数学与一致性错误分离识别，提升多步骤推理过程的奖励精度。
 - **[Self-Error-Instruct: Generalizing from Errors for LLMs Mathematical Reasoning](https://arxiv.org/abs/2505.22591) Erxin Yu, Jing Li, Ming Liao, Qi Zhu, Boyang Xue, Minghui Xu, Baojun Wang, Lanqing Hong, Fei Mi, Lifeng Shang**：以错误类型为单位聚类 bad cases，并据此生成具泛化性的训练数据，提升数学推理的错误纠正能力。
