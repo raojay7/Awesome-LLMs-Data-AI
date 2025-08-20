@@ -12,7 +12,7 @@
 - **[Self-Error-Instruct: Generalizing from Errors for LLMs Mathematical Reasoning](https://arxiv.org/abs/2505.22591) Erxin Yu, Jing Li, Ming Liao, Qi Zhu, Boyang Xue, Minghui Xu, Baojun Wang, Lanqing Hong, Fei Mi, Lifeng Shang**：以错误类型为单位聚类 bad cases，并据此生成具泛化性的训练数据，提升数学推理的错误纠正能力。
 - **[Evaluating Mathematical Reasoning of Large Language Models: A Focus on Error Identification and Correction](https://arxiv.org/abs/2406.00755) Xiaoyuan Li, Wenjie Wang, Moxin Li, Junrong Guo, Yang Zhang, Fuli Feng**：从阅卷者视角设计四个细粒度错误相关任务（错误存在检测、首错步骤定位、错误类型分类、错误修正），构建包含九类常见错误的数学推理测试集，系统评估模型在不同错误类型和提示下的鲁棒性。
 - **[LEMMA: Learning from Errors for MatheMatical Advancement in LLMs](https://arxiv.org/abs/2503.17439) Zhuoshi Pan, Yu Li, Honglin Lin, Qizhi Pei, Zinan Tang, Wei Wu, Chenlin Ming, H. Vicky Zhao, Conghui He, Lijun Wu**：提出从错误中学习的数学推理增强框架，通过教师模型有针对性地制造错误并生成反思-修正数据，结合修正并继续和重启解题两种策略训练模型，实现更强的自主纠错能力。
-
+- ** [Subtle Errors in Reasoning: Preference Learning via Error-injected Self-editing](https://aclanthology.org/2025.acl-long.1506/)*Kaishuai Xu, Tiezheng Yu, Wenjun Hou, Yi Cheng, Chak Tou Leong, Liangyou Li, Xin Jiang, Lifeng Shang, Qun Liu, Wenjie Li* ACL 2025.
 ## 幻觉与上下文忠实性
 - **[Teaching with Lies: Curriculum DPO on Synthetic Negatives for Hallucination Detection](https://arxiv.org/abs/2505.17558) Shrey Pandit, Ashwin Vinod, Liu Leqi, Ying Ding**：引入人工构造的高质量幻觉样本作为负样本，并通过课程式 DPO 逐步提升模型的幻觉检测能力。
 - **[CANOE: Training Large Language Models to Maintain Contextual Faithfulness via Synthetic Tasks and Reinforcement Learning](https://huggingface.co/papers/2505.16483) Shuzheng Si,Haozhe Zhao,Cheng Gao,Yuzhuo Bai,Zhitong Wang,Bofei Gao,Kangyang Luo,Wenhao Li,Yufei Huang,Gang Chen,Fanchao Qi,Minjia Zhang,Baobao Chang,Maosong Sun**：基于知识三元组自动合成多类型 QA 任务，并通过 Dual-GRPO 优化长短文本的上下文忠实性。
