@@ -1,24 +1,47 @@
 ## Human-Al collaboration ： reward modeling
 
-GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning,  Jian Zhao, Runze Liu, Kaiyan Zhang, Zhimu Zhou, Junqi Gao, Dong Li, Jiafei Lyu, Zhouyi Qian, Biqing Qi, Xiu Li and Bowen Zhou, https://arxiv.org/pdf/2504.00891
+### 判别式奖励模型
 
-论文提出生成式过程奖励模型，在对步骤打分之前会先生产分析，再进行验证，最后才对结果进行打分
+The Lessons of Developing Process Reward Models in Mathematical Reasoning, Zhenru Zhang, Chujie Zheng, Yangzhen Wu, Beichen Zhang, Runji Lin, Bowen Yu, Dayiheng Liu, Jingren Zhou, Junyang Lin
 
-The Lessons of Developing Process Reward Models in Mathematical Reasoning, Zhenru Zhang, Chujie Zheng, Yangzhen Wu, Beichen Zhang, Runji Lin, Bowen Yu, Dayiheng Liu, Jingren Zhou, Junyang Lin, https://arxiv.org/abs/2501.07301
+揭漏了目前主流的蒙特卡洛估计数据标注方法和BON方法的局限性，提出了共识过滤机制（MC和LLM-as-Judge双保险）以及双轨评估机制（答案级评估+步骤级评估），优化了过程奖励模型，在BoN评估和逐步错误识别任务中显著提高了模型性能和数据效率
 
-揭漏了目前主流的蒙特卡洛估计数据标注方法和BON方法的局限性，提出了共识过滤机制（MC和LLM-as-Judge双保险）以及双轨评估机制（答案级评估+步骤级评估），优化了过程奖励模型
+VisualPRM: An Effective Process Reward Model for Multimodal Reasoning, Weiyun Wang, Zhangwei Gao, Lianjie Chen, Zhe Chen, Jinguo Zhu, Xiangyu Zhao, Yangzhou Liu, Yue Cao, Shenglong Ye, Xizhou Zhu, Lewei Lu, Haodong Duan, Yu Qiao, Jifeng Dai, Wenhai Wang
 
-VisualPRM: An Effective Process Reward Model for Multimodal Reasoning, Weiyun Wang, Zhangwei Gao, Lianjie Chen, Zhe Chen, Jinguo Zhu, Xiangyu Zhao, Yangzhou Liu, Yue Cao, Shenglong Ye, Xizhou Zhu, Lewei Lu, Haodong Duan, Yu Qiao, Jifeng Dai, Wenhai Wang, https://arxiv.org/abs/2503.10291
+提出了多模态过程奖励模型VisualPRM，通过Best-of-N的评估策略可以显著提高MLLM的推理性能
 
-Inference-Time Scaling for Generalist Reward Modeling, Zijun Liu, Peiyi Wang, Runxin Xu, Shirong Ma, Chong Ruan, Peng Li, Yang Liu, Yu Wu, https://arxiv.org/abs/2504.02495
+Inference-Time Scaling for Generalist Reward Modeling, Zijun Liu, Peiyi Wang, Runxin Xu, Shirong Ma, Chong Ruan, Peng Li, Yang Liu, Yu Wu
 
-Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning, Amrith Setlur, Chirag Nagpal, Adam Fisch, Xinyang Geng, Jacob Eisenstein, Rishabh Agarwal, Alekh Agarwal, Jonathan Berant, Aviral Kumar, https://arxiv.org/abs/2410.08146
+提出通用奖励模型，通过SPCT方法训练出DeepSeek-GRM，且该通用奖励模型在推理时扩展有更好的性能，为LMM提供更准确的奖励信号
 
-Process Reinforcement through Implicit Rewards, Ganqu Cui, Lifan Yuan, Zefan Wang, Hanbin Wang, Wendi Li, Bingxiang He, Yuchen Fan, Tianyu Yu, Qixin Xu, Weize Chen, Jiarui Yuan, Huayu Chen, Kaiyan Zhang, Xingtai Lv, Shuo Wang, Yuan Yao, Xu Han, Hao Peng, Yu Cheng, Zhiyuan Liu, Maosong Sun, Bowen Zhou, Ning Ding, https://arxiv.org/abs/2502.01456
+### 生成式奖励模型
 
-RM-R1: Reward Modeling as Reasoning, Xiusi Chen, Gaotang Li, Ziqi Wang, Bowen Jin, Cheng Qian, Yu Wang, Hongru Wang, Yu Zhang, Denghui Zhang, Tong Zhang, Hanghang Tong, Heng Ji, https://arxiv.org/abs/2505.02387
+GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning,  Jian Zhao, Runze Liu, Kaiyan Zhang, Zhimu Zhou, Junqi Gao, Dong Li, Jiafei Lyu, Zhouyi Qian, Biqing Qi, Xiu Li and Bowen Zhou
 
-RewardAnything: Generalizable Principle-Following Reward Models, Zhuohao Yu, Jiali Zeng, Weizheng Gu, Yidong Wang, Jindong Wang, Fandong Meng, Jie Zhou, Yue Zhang, Shikun Zhang, Wei Ye, https://arxiv.org/abs/2506.03637v1
+提出生成式过程奖励模型，在对步骤打分之前会先生产分析，再进行验证，最后才对结果进行打分，性能明显优于常规PRM，在数学推理任务取得较大提升
+
+Generative Verifiers: Reward Modeling as Next-Token Prediction, Lunjun Zhang, Arian Hosseini, Hritik Bansal, Mehran Kazemi, Aviral Kumar, Rishabh Agarwal, ICLR202
+
+提出生成验证器，利用LLM的文本生成能力来进行验证，优化Best-of-N方法，在算法和数学领域取得了显著的提升。
+
+RM-R1: Reward Modeling as Reasoning, Xiusi Chen, Gaotang Li, Ziqi Wang, Bowen Jin, Cheng Qian, Yu Wang, Hongru Wang, Yu Zhang, Denghui Zhang, Tong Zhang, Hanghang Tong, Heng Ji
+
+提出了新的生成奖励模型，即推理奖励模型，将奖励建模制定为推理任务，能够有效生成明确的评分标准和基本原理链，产生更加一致和有效的奖励信号
+
+RewardAnything: Generalizable Principle-Following Reward Models, Zhuohao Yu, Jiali Zeng, Weizheng Gu, Yidong Wang, Jindong Wang, Fandong Meng, Jie Zhou, Yue Zhang, Shikun Zhang, Wei Ye
+
+提出原则遵循奖励模型RewardAnything，从隐式偏好学习转向显式原则遵循，可通过自然语言直接控制RM行为，无需收集新数据或重新训练RM
+
+### 隐式奖励模型
+
+Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning, Amrith Setlur, Chirag Nagpal, Adam Fisch, Xinyang Geng, Jacob Eisenstein, Rishabh Agarwal, Alekh Agarwal, Jonathan Berant, Aviral Kumar
+
+优化了过程奖励，提出了过程优势验证器PAV方法，即通过奖励进展而非单纯的正确性，以优势函数作为过程奖励，显著提高了计算效率和准确性
+
+Process Reinforcement through Implicit Rewards, Ganqu Cui, Lifan Yuan, Zefan Wang, Hanbin Wang, Wendi Li, Bingxiang He, Yuchen Fan, Tianyu Yu, Qixin Xu, Weize Chen, Jiarui Yuan, Huayu Chen, Kaiyan Zhang, Xingtai Lv, Shuo Wang, Yuan Yao, Xu Han, Hao Peng, Yu Cheng, Zhiyuan Liu, Maosong Sun, Bowen Zhou, Ning Ding
+
+提出PRIME框架，在过程奖励模型的基础上提出隐式过程奖励模型，支持奖励模型在线更新，在数学和推理任务中取得显著成果
+
 
 ## Synthetic Feedback (Algorithms adapt to data)
 
