@@ -150,9 +150,15 @@ Measure metric
 (WSH ALL)
 #### 2.2.1 Diversity filtering
   - surface-level heuristics 
-    - Rouge-L (Self-Instruct, Impossible Distillation))
-    - Embedding similarity (QDIT, DiverseEvol, DEITA)
-    - Semantic tags (instag)
+    - Rouge-L
+      - [**Self-instruct: Aligning language models with self-generated instructions**](https://arxiv.org/abs/2212.10560) *Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi.* ACL 2023.
+      - [Impossible Distillation for Paraphrasing and Summarization: How to Make High-quality Lemonade out of Small, Low-quality Model](https://aclanthology.org/2024.naacl-long.250/)*Jaehun Jung, Peter West, Liwei Jiang, Faeze Brahman, Ximing Lu, Jillian Fisher, Taylor Sorensen, Yejin Choi* NAACL 2024.
+    - Embedding similarity 
+      - [QDIT: Data Diversity Matters for Robust Instruction Tuning](https://aclanthology.org/2024.findings-emnlp.195/) *Alexander Bukharin, Shiyang Li, Zhengyang Wang, Jingfeng Yang, Bing Yin, Xian Li, Chao Zhang, Tuo Zhao, Haoming Jiang* EMNLP Findings 2024.
+        - [DiverseEvol: Self-Evolved Diverse Data Sampling for Efficient Instruction Tuning] Arxiv 2023.
+      - [DEITA: What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning] ICLR 2024.
+    - Semantic tags
+      - #InsTag: Instruction Tagging for Analyzing Supervised Fine-tuning of Large Language Models. ICLR 2024.
   -  loss gradients [https://nvlabs.github.io/prismatic-synthesis/] LESS: Selecting Influential Data for Targeted Instruction Tuning
 #### 2.2.2 Quality filtering
   -  reward models (LLMs)
@@ -164,6 +170,7 @@ Measure metric
 - DELE: data efficient LLM evaluation
 - DSDM: model-aware dataset selection with datamodels
 - Rethinking Data Selection at Scale: Random Selection is Almost All You Need (Analysis of the million-level instruction selection algorithm)
+- SelectIT
 - Evaluating Language Models as Synthetic Data Generators. ACL 2025.
 - DataMan: data manager for pre-training large language model. ICLR 2025.
 
