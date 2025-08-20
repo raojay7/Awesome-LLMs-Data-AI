@@ -192,7 +192,7 @@ mix 关注质量和多样性
 - Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration. ACL 2025.
 #### 3.1.3 Construction
 (SJJ)
-1. existing datasets
+1. existing datasets (new to old)
 - GneissWeb： Recipe for producing a state-of-the-art LLM pre-training dataset having 10+ Trillion tokens, derived from 
 FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
 - DCLM-baseline: DCLM-baseline is a 4T token / 3B document pretraining dataset that achieves strong performance on language model benchmarks. https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0
