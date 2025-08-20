@@ -41,7 +41,7 @@
 - [**MV-MATH: Evaluating Multimodal Math Reasoning in Multi-Visual Contexts**](https://arxiv.org/pdf/2502.20808) *Peijie Wang, Zhong-Zhi Li, Fei Yin, Dekang Ran, Cheng-Lin Liu* CVPR 2025.
 
 ## Synthetic Dataset
-- [**Are NLP Models really able to Solve Simple Math Word Problems?**](https://arxiv.org/pdf/2103.07191) *Arkil Patel, Satwik Bhattamishra, Navin Goyal* NeurIPS 2021.
+- [**Are NLP Models really able to Solve Simple Math Word Problems?**](https://arxiv.org/pdf/2103.07191) *Arkil Patel, Satwik Bhattamishra, Navin Goyal* NAACL 2021.
 - [**Llemma: An Open Language Model For Mathematics**](https://arxiv.org/abs/2310.10631) *Zhangir Azerbayev, Hailey Schoelkopf, Keiran Paster, Marco Dos Santos, Stephen Marcus McAleer, Albert Q. Jiang, Jia Deng, Stella Biderman, Sean Welleck* ICLR 2024.
 - [**MAMMOTH: BUILDING MATH GENERALIST MODELS THROUGH HYBRID INSTRUCTION TUNING**](https://arxiv.org/abs/2309.05653) *Xiang Yue, Xingwei Qu, Ge Zhang, Yao Fu, Wenhao Huang, Huan Sun, Yu Su, Wenhu Chen*ICLR 2024.
 - [**MuggleMath: Assessing the Impact of Query and Response Augmentation on Math Reasoning**](https://arxiv.org/abs/2310.05506v3) *Chengpeng Li, Zheng Yuan, Hongyi Yuan, Guanting Dong, Keming Lu, Jiancan Wu, Chuanqi Tan, Xiang Wang, Chang Zhou.* ACL 2024.（根据种子，生成了部分数据，进行了数据增强）
