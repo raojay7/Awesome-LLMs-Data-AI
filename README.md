@@ -100,7 +100,7 @@ Data-generation method overview
 - [**Bonito: Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation**](https://arxiv.org/abs/2402.18334) *Nihal V. Nayak, Yiyang Nan, Avi Trost, Stephen H. Bach* ACL Findings 2024.
 ####  2.1.3 generation Back-translation (SJJ)
   - MT
-  - application to MATH
+  - Reasoning
 ####  2.1.4 Transformation of existing data (task Related datasets or documents) (WZY)
 ##### Knowledge Graph
 Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement. ACL 2025.
@@ -125,9 +125,7 @@ Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinemen
   - [**Self-playing Adversarial Language Game Enhances LLM Reasoning**](https://arxiv.org/abs/2404.10642) *Pengyu Cheng, Tianhao Hu, Han Xu, Zhisong Zhang, Yong Dai, Lei Han, Nan Du* Arxiv 2024.
 
 ##### Focus on Error (WZY)
-- APT: Improving Specialist LLM Performance with Weakness Case Acquisition and Iterative Preference Training. Findings of ACL 2025.
-##### reward modeling (YZH)
-  
+- APT: Improving Specialist LLM Performance with Weakness Case Acquisition and Iterative Preference Training. Findings of ACL 2025.  
  
 #### 2.1.6 Symbolic generation 
   - Symbolic (MATH) (SJJ)
