@@ -244,7 +244,7 @@ KTO DPO PPO等
 - DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO)
 - SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training (SFT & RL Action Analysis)
 - All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
-   - Synthetic Feedback (Algorithms adapt to data) (YZH)
+   - Synthetic Feedback (Algorithms adapt to data)
     - LLM-as-a-judge (Prometheus)
     - preference learning
     - Flexible Criteria
