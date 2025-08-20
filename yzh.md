@@ -2,68 +2,46 @@
 
 ### 判别式奖励模型
 
-The Lessons of Developing Process Reward Models in Mathematical Reasoning, Zhenru Zhang, Chujie Zheng, Yangzhen Wu, Beichen Zhang, Runji Lin, Bowen Yu, Dayiheng Liu, Jingren Zhou, Junyang Lin
+*The Lessons of Developing Process Reward Models in Mathematical Reasoning, Zhenru Zhang, Chujie Zheng, Yangzhen Wu, Beichen Zhang, Runji Lin, Bowen Yu, Dayiheng Liu, Jingren Zhou, Junyang Lin：揭漏了目前主流的蒙特卡洛估计数据标注方法和BON方法的局限性，提出了共识过滤机制（MC和LLM-as-Judge双保险）以及双轨评估机制（答案级评估+步骤级评估），优化了过程奖励模型，在BoN评估和逐步错误识别任务中显著提高了模型性能和数据效率
 
-揭漏了目前主流的蒙特卡洛估计数据标注方法和BON方法的局限性，提出了共识过滤机制（MC和LLM-as-Judge双保险）以及双轨评估机制（答案级评估+步骤级评估），优化了过程奖励模型，在BoN评估和逐步错误识别任务中显著提高了模型性能和数据效率
+*VisualPRM: An Effective Process Reward Model for Multimodal Reasoning, Weiyun Wang, Zhangwei Gao, Lianjie Chen, Zhe Chen, Jinguo Zhu, Xiangyu Zhao, Yangzhou Liu, Yue Cao, Shenglong Ye, Xizhou Zhu, Lewei Lu, Haodong Duan, Yu Qiao, Jifeng Dai, Wenhai Wang：提出了多模态过程奖励模型VisualPRM，通过Best-of-N的评估策略可以显著提高MLLM的推理性能
 
-VisualPRM: An Effective Process Reward Model for Multimodal Reasoning, Weiyun Wang, Zhangwei Gao, Lianjie Chen, Zhe Chen, Jinguo Zhu, Xiangyu Zhao, Yangzhou Liu, Yue Cao, Shenglong Ye, Xizhou Zhu, Lewei Lu, Haodong Duan, Yu Qiao, Jifeng Dai, Wenhai Wang
+*Inference-Time Scaling for Generalist Reward Modeling, Zijun Liu, Peiyi Wang, Runxin Xu, Shirong Ma, Chong Ruan, Peng Li, Yang Liu, Yu Wu：提出通用奖励模型，通过SPCT方法训练出DeepSeek-GRM，且该通用奖励模型在推理时扩展有更好的性能，为LMM提供更准确的奖励信号
 
-提出了多模态过程奖励模型VisualPRM，通过Best-of-N的评估策略可以显著提高MLLM的推理性能
-
-Inference-Time Scaling for Generalist Reward Modeling, Zijun Liu, Peiyi Wang, Runxin Xu, Shirong Ma, Chong Ruan, Peng Li, Yang Liu, Yu Wu
-
-提出通用奖励模型，通过SPCT方法训练出DeepSeek-GRM，且该通用奖励模型在推理时扩展有更好的性能，为LMM提供更准确的奖励信号
+*TLCR: Token-Level Continuous Reward for Fine-grained Reinforcement Learning from Human Feedback, Eunseop Yoon， Hee Suk Yoon， SooHwan Eom， Gunsoo Han， Daniel Wontae Nam， Daejin Jo， Kyoung-Woon On， Mark A. Hasegawa-Johnson， Sungwoong Kim， Chang D. Yoo, ACL2024：提出TLCR奖励模型，为细粒度的PLHF提供Token级的连续奖励
 
 ### 生成式奖励模型
 
-GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning,  Jian Zhao, Runze Liu, Kaiyan Zhang, Zhimu Zhou, Junqi Gao, Dong Li, Jiafei Lyu, Zhouyi Qian, Biqing Qi, Xiu Li and Bowen Zhou
+*GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning,  Jian Zhao, Runze Liu, Kaiyan Zhang, Zhimu Zhou, Junqi Gao, Dong Li, Jiafei Lyu, Zhouyi Qian, Biqing Qi, Xiu Li and Bowen Zhou：提出生成式过程奖励模型，在对步骤打分之前会先生产分析，再进行验证，最后才对结果进行打分，性能明显优于常规PRM，在数学推理任务取得较大提升
 
-提出生成式过程奖励模型，在对步骤打分之前会先生产分析，再进行验证，最后才对结果进行打分，性能明显优于常规PRM，在数学推理任务取得较大提升
+*Generative Verifiers: Reward Modeling as Next-Token Prediction, Lunjun Zhang, Arian Hosseini, Hritik Bansal, Mehran Kazemi, Aviral Kumar, Rishabh Agarwal, ICLR202：提出生成验证器，利用LLM的文本生成能力来进行验证，优化Best-of-N方法，在算法和数学领域取得了显著的提升。
 
-Generative Verifiers: Reward Modeling as Next-Token Prediction, Lunjun Zhang, Arian Hosseini, Hritik Bansal, Mehran Kazemi, Aviral Kumar, Rishabh Agarwal, ICLR202
+*RM-R1: Reward Modeling as Reasoning, Xiusi Chen, Gaotang Li, Ziqi Wang, Bowen Jin, Cheng Qian, Yu Wang, Hongru Wang, Yu Zhang, Denghui Zhang, Tong Zhang, Hanghang Tong, Heng Ji：提出了新的生成奖励模型，即推理奖励模型，将奖励建模制定为推理任务，能够有效生成明确的评分标准和基本原理链，产生更加一致和有效的奖励信号
 
-提出生成验证器，利用LLM的文本生成能力来进行验证，优化Best-of-N方法，在算法和数学领域取得了显著的提升。
-
-RM-R1: Reward Modeling as Reasoning, Xiusi Chen, Gaotang Li, Ziqi Wang, Bowen Jin, Cheng Qian, Yu Wang, Hongru Wang, Yu Zhang, Denghui Zhang, Tong Zhang, Hanghang Tong, Heng Ji
-
-提出了新的生成奖励模型，即推理奖励模型，将奖励建模制定为推理任务，能够有效生成明确的评分标准和基本原理链，产生更加一致和有效的奖励信号
-
-RewardAnything: Generalizable Principle-Following Reward Models, Zhuohao Yu, Jiali Zeng, Weizheng Gu, Yidong Wang, Jindong Wang, Fandong Meng, Jie Zhou, Yue Zhang, Shikun Zhang, Wei Ye
-
-提出原则遵循奖励模型RewardAnything，从隐式偏好学习转向显式原则遵循，可通过自然语言直接控制RM行为，无需收集新数据或重新训练RM
+*RewardAnything: Generalizable Principle-Following Reward Models, Zhuohao Yu, Jiali Zeng, Weizheng Gu, Yidong Wang, Jindong Wang, Fandong Meng, Jie Zhou, Yue Zhang, Shikun Zhang, Wei Ye：提出原则遵循奖励模型RewardAnything，从隐式偏好学习转向显式原则遵循，可通过自然语言直接控制RM行为，无需收集新数据或重新训练RM
 
 ### 隐式奖励模型
 
-Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning, Amrith Setlur, Chirag Nagpal, Adam Fisch, Xinyang Geng, Jacob Eisenstein, Rishabh Agarwal, Alekh Agarwal, Jonathan Berant, Aviral Kumar
+*Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning, Amrith Setlur, Chirag Nagpal, Adam Fisch, Xinyang Geng, Jacob Eisenstein, Rishabh Agarwal, Alekh Agarwal, Jonathan Berant, Aviral Kumar：优化了过程奖励，提出了过程优势验证器PAV方法，即通过奖励进展而非单纯的正确性，以优势函数作为过程奖励，显著提高了计算效率和准确性
 
-优化了过程奖励，提出了过程优势验证器PAV方法，即通过奖励进展而非单纯的正确性，以优势函数作为过程奖励，显著提高了计算效率和准确性
-
-Process Reinforcement through Implicit Rewards, Ganqu Cui, Lifan Yuan, Zefan Wang, Hanbin Wang, Wendi Li, Bingxiang He, Yuchen Fan, Tianyu Yu, Qixin Xu, Weize Chen, Jiarui Yuan, Huayu Chen, Kaiyan Zhang, Xingtai Lv, Shuo Wang, Yuan Yao, Xu Han, Hao Peng, Yu Cheng, Zhiyuan Liu, Maosong Sun, Bowen Zhou, Ning Ding
-
-提出PRIME框架，在过程奖励模型的基础上提出隐式过程奖励模型，支持奖励模型在线更新，在数学和推理任务中取得显著成果
+*Process Reinforcement through Implicit Rewards, Ganqu Cui, Lifan Yuan, Zefan Wang, Hanbin Wang, Wendi Li, Bingxiang He, Yuchen Fan, Tianyu Yu, Qixin Xu, Weize Chen, Jiarui Yuan, Huayu Chen, Kaiyan Zhang, Xingtai Lv, Shuo Wang, Yuan Yao, Xu Han, Hao Peng, Yu Cheng, Zhiyuan Liu, Maosong Sun, Bowen Zhou, Ning Ding：提出PRIME框架，在过程奖励模型的基础上提出隐式过程奖励模型，支持奖励模型在线更新，在数学和推理任务中取得显著成果
 
 
 ## Synthetic Feedback (Algorithms adapt to data)
 
-Confidence Is All You Need: Few-Shot RL Fine-Tuning of Language Models, Pengyi Li, Matvey Skripkin, Alexander Zubrey, Andrey Kuznetsov, Ivan Oseledets, https://arxiv.org/abs/2506.06395
+*Confidence Is All You Need: Few-Shot RL Fine-Tuning of Language Models, Pengyi Li, Matvey Skripkin, Alexander Zubrey, Andrey Kuznetsov, Ivan Oseledets, https://arxiv.org/abs/2506.06395：利用模型自身的信心构建奖励信号，以此来进行强化学习，消除了对标签、奖励模型等的依赖
 
-利用模型自身的信心构建奖励信号，以此来进行强化学习，消除了对标签、奖励模型等的依赖
+*Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Feedback, Yafu Li, Xuyang Hu, Xiaoye Qu, Linjie Li, Yu Cheng, ICML2025， https://arxiv.org/abs/2501.12895v1 ：TPO提出了一种在模型使用过程中（即推理时）实时优化输出以满足偏好的方法，核心特点是无需更新模型参数。通过LLM对于模型生成的输出进行评价，区分好输出和坏输出，再根据二者差异提出修改建议，使LLM refine自己的回答，即通过修改LLM上下文优化输出，但不改变模型参数。
 
-Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Feedback, Yafu Li, Xuyang Hu, Xiaoye Qu, Linjie Li, Yu Cheng, ICML2025， https://arxiv.org/abs/2501.12895v1 
+*Scalable Best-of-N Selection for Large Language Models via Self-Certainty, Zhewei Kang, Xuandong Zhao, Dawn Song, https://arxiv.org/abs/2502.18581：本文提出了一种名为自确定性的新的置信度指标，通过LLM输出时本身固有的概率分布来估计回答的质量，分布越集中，LLM对其的信心越高，反之越低
 
-TPO提出了一种在模型使用过程中（即推理时） 实时优化输出以满足偏好的方法，核心特点是无需更新模型参数。通过LLM对于模型生成的输出进行评价，区分好输出和坏输出，再根据二者差异提出修改建议，使LLM refine自己的回答，即通过修改LLM上下文优化输出，但不改变模型参数。
+*Process-based Self-Rewarding Language Models, Shimao Zhang, Xiao Liu, Xin Zhang, Junxiao Liu, Zheheng Luo, Shujian Huang, Yeyun Gong, https://arxiv.org/abs/2503.03746：基于过程的自奖励模型将自奖励算法的粒度扩展到步骤级，使模型能够评估自己每一个步骤推理步骤的好坏并自己生成奖励信号通过不断迭代优化自己的输出，同时在偏好优化阶段采用DPO，优化了旧方法只打分的局限性，让模型通过比较不同输出来评判好坏。
 
-Scalable Best-of-N Selection for Large Language Models via Self-Certainty, Zhewei Kang, Xuandong Zhao, Dawn Song, https://arxiv.org/abs/2502.18581
+*Bootstrapping Language Models with DPO Implicit Rewards, Changyu Chen, Zichen Liu, Chao Du, Tianyu Pang, Qian Liu, Arunesh Sinha, Pradeep Varakantham, Min Lin, ICLR 2025, https://arxiv.org/abs/2406.09760：：模型在经过DPO训练后内生了一套评判标准（隐式奖励模型），通过优化该评判标准提出DICE方法，让模型利用这一套标准在不需要额外反馈的条件下来提升自己
 
-本文提出了一种名为自确定性的新的置信度指标来替代奖励模型，通过LLM输出时本身固有的概率分布来估计回答的质量，分布越集中，LLM对其的信心越高，反之越低，本文将这种分布通过统计学方法量化为置信度分数，同时给出了结合Borda投票和自确定性的一种更优的评估方法。同时相比于平均token熵，其更具拓展性，不会受到生成文本长度限制。且能与思维链协同，适用于开放任务领域。
 
-Process-based Self-Rewarding Language Models, Shimao Zhang, Xiao Liu, Xin Zhang, Junxiao Liu, Zheheng Luo, Shujian Huang, Yeyun Gong, https://arxiv.org/abs/2503.03746
 
-基于过程的自奖励模型将自奖励算法的粒度扩展到步骤级，使模型能够评估自己每一个步骤推理步骤的好坏并自己生成奖励信号通过不断迭代优化自己的输出，同时在偏好优化阶段采用DPO，优化了旧方法只打分的局限性，让模型通过比较不同输出来评判好坏，因为相比打分，模型更擅长作比较。
 
-Bootstrapping Language Models with DPO Implicit Rewards, Changyu Chen, Zichen Liu, Chao Du, Tianyu Pang, Qian Liu, Arunesh Sinha, Pradeep Varakantham, Min Lin, ICLR 2025, https://arxiv.org/abs/2406.09760
-
-模型在经过DPO训练后内生了一套评判标准（隐式奖励模型），通过优化该评判标准提出DICE方法，让模型利用这一套标准在不需要额外反馈的条件下来提升自己
 
 # 数据策略提升
 ## Test-time策略
