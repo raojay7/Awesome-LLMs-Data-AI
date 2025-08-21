@@ -65,19 +65,48 @@
 
 # Agent and Tool Use
 核心是生成高质量的训练数据，教会大型语言模型如何像一个智能体（Agent）一样，通过调用外部工具（如APIs、代码解释器、数据库）来完成超越其自身固有能力的复杂任务。
-## 构建工具/API使用的指令数据集
+## Evaluation Dataset
+- [**API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs**](https://arxiv.org/abs/2304.08244) *Minghao Li, Yingxiu Zhao, Bowen Yu, Feifan Song, Hangyu Li, Haiyang Yu, Zhoujun Li, Fei Huang, Yongbin Li.* EMNLP 2023.<br>论文创建了一个名为API-Bank的基准测试，它专门设计用于评估工具增强型LLM，API-Bank包括一个可运行的评估系统，由73个API工具组成，并对314个工具使用对话进行了注释，包含753个API调用，以评估现有LLMs在规划、检索和调用APIs方面的能力。
+
+- [**WebArena: A Realistic Web Environment for Building Autonomous Agents**](https://arxiv.org/abs/2307.13854) *Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig.* NeurIPS 2023.<br> 提出了WebArena，一个为开发和测试自主智能代理而设计的高度真实且可复现的网络环境。它包含四个常见领域的完全功能网站，以及工具和外部知识库，以支持类似人类的任务解决过程。论文还发布了一套包含812个测试示例的基准测试任务，专注于评估任务完成的功能性正确性。
+
+- [**ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs**](https://arxiv.org/abs/2307.16789) *Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, Yankai Lin, Xin Cong, Xiangru Tang, Bill Qian, Sihan Zhao, Lauren Hong, Runchu Tian, Ruobing Xie, Jie Zhou, Mark Gerstein, Dahai Li, Zhiyuan Liu, Maosong Sun.* ICLR 2024.<br>从RapidAPI Hub收集了大量真实世界的APIs，并让ChatGPT生成涉及这些APIs的多样化指令，包括单工具和多工具场景以及解决方案路径，从而构建了一个迄今为止最大、最多样的工具使用数据集ToolBench，涵盖了16000多个真实世界的API，并提出了一种深度优先搜索的决策树方法来评估工具调用的多步骤执行路径。
+
+- [**StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models**](https://aclanthology.org/2024.findings-acl.664.pdf) *Zhicheng Guo, Sijie Cheng, Hao Wang, Shihao Liang, Yujia Qin, Peng Li, Zhiyuan Liu, Maosong Sun, Yang Liu.* Findings of ACL 2024.<br>StableToolBench的主要目的是评估LLMs在工具学习任务中的性能，特别是模型如何使用外部工具来解决复杂问题。该数据集通过虚拟API服务器和稳定的评估系统，确保评估过程的稳定性和结果的可重复性，同时保持任务的现实感，并引入了新的评估指标（如 Solvable Pass Rate 和 Solvable Win Rate）来专门用于评估模型在可解任务上的表现。
+
+- [**AgentBench: Evaluating LLMs as Agents**](https://arxiv.org/abs/2308.03688) *Xiao Liu, Hao Yu, Hanchen Zhang, Yifan Xu, Xuanyu Lei, Hanyu Lai, Yu Gu, Hangliang Ding, Kaiwen Men, Kejuan Yang, Shudan Zhang, Xiang Deng, Aohan Zeng, Zhengxiao Du, Chenhui Zhang, Sheng Shen, Tianjun Zhang, Yu Su, Huan Sun, Minlie Huang, Yuxiao Dong, Jie Tang.* ICLR 2024.<br>提出了AGENTBENCH，这是一个多维度的、不断发展的基准测试，来评估LLMs作为智能代理在交互环境中处理复杂任务的能力。研究者们构建了一个包含8个不同环境的基准测试，涵盖代码、游戏和网络交互等多种场景，用以评估LLMs在执行指令、编码、知识获取、逻辑推理和常识理解等方面的能力。
+
+- [**GAIA: a benchmark for General AI Assistants**](https://arxiv.org/abs/2311.12983) *Grégoire Mialon, Clémentine Fourrier, Craig Swift, Thomas Wolf, Yann LeCun, Thomas Scialom.* ICLR 2024.<br>GAIA通过设计一系列真实世界的问题，要求AI助手具备推理、多模态处理、网页浏览和工具使用等基本能力，这些问题对人类来说概念上简单，但对大多数先进的AI系统来说具有挑战性。问题根据解决所需的步骤数量和工具种类分为三个难度级别，从简单的Level 1到复杂的Level 3，并通过模型给出的答案与ground truth对比进行自动化评估。
+
+- [**MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use**](https://arxiv.org/abs/2310.03128) *Yue Huang, Jiawen Shi, Yuan Li, Chenrui Fan, Siyuan Wu, Qihui Zhang, Yixin Liu, Pan Zhou, Yao Wan, Neil Zhenqiang Gong, Lichao Sun.* ICLR 2024.<br>提出了一个名为METATOOL的基准测试，用来评估LLMs是否具有工具使用意识以及能否正确选择工具，其创建了一个包含21,127个用户查询的TOOLE数据集，涵盖单工具和多工具场景，并设计了四个子任务来从不同角度评估工具选择能力。
+
+
+- [**ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities**](https://aclanthology.org/2025.findings-naacl.65.pdf) *Jiarui Lu, Thomas Holleis, Yizhe Zhang, Bernhard Aumayer
+Feng Nan, Felix Bai, Shuang Ma, Shen Ma, Mengyu Li,
+Guoli Yin, Zirui Wang, Ruoming Pang.* Findings of NAACL 2025.<br>提出了一个名为TOOLSANDBOX的评估基准，旨在全面评估LLMs在使用工具来解决现实世界挑战时的能力。它通过引入状态化工具执行、对话性评估和互动性评估，克服了现有基准测试的局限性。ToolSandbox包含1032个精心设计的测试案例，涵盖多种复杂场景，如状态依赖、规范化和信息不足等，揭示了即使是性能最好的模型也面临挑战。
+
+- [**DABstep: Data Agent Benchmark for Multi-step Reasoning**](https://arxiv.org/abs/2506.23719) *Alex Egg, Martin Iglesias Goyanes, Friso Kingma, Andreu Mora, Leandro von Werra, Thomas Wolf.* Arxiv 2025.<br>提出了DABstep，这是一个用于评估agent在现实多步数据分析任务上的新基准测试。DABstep包含超过450个真实世界的数据分析任务，这些任务直接来源于Adyen的金融分析平台，其要求agent结合基于代码的数据处理和对异构文档的上下文推理，测试数据操作、跨多个来源交叉引用和精确结果报告的能力。DABstep提供了事实性答案格式和自动正确性检查，以实现大规模的客观评分。
+
+- [**FamilyTool: A Multi-hop Personalized Tool Use Benchmark**](https://arxiv.org/abs/2504.06766) *Yuxin Wang, Yiran Guo, Yining Zheng, Zhangyue Yin, Shuo Chen, Jie Yang, Jiajun Chen, Yuan Li, Xuanjing Huang, Xipeng Qiu.* Arxiv 2025.<br>提出了一个名为FamilyTool的多跳个性化工具使用基准测试，其基于一个家庭知识图谱，模拟了需要多跳推理和归纳知识适应的动态环境中的个性化工具使用场景。此外，文章还提出了KGETool，这是一个简单的知识图谱增强的评估流程，用于系统地评估LLMs在这些场景中的工具使用能力。
+
+- [**T1: A Tool-Oriented Conversational Dataset for Multi-Turn Agentic Planning**](https://arxiv.org/abs/2505.16986) *Amartya Chakraborty, Paresh Dashore, Nadia Bathaee, Anmol Jain, Anirban Das, Shi-Xiong Zhang, Sambit Sahu, Milind Naphade, Genta Indra Winata.* Arxiv 2025.<br>介绍了T1，一个用于评估多轮对话中工具使用和规划能力的多领域对话数据集。它包含13.5k对话，涵盖九个领域（包括单领域和多领域设置），并引入缓存机制以支持工具调用结果的重用。
+
+- [**The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models**](https://openreview.net/pdf?id=2GmDdhBdDk) *Shishir G Patil
+, Huanzhi Mao, Fanjia Yan, Charlie Cheng-Jie Ji, Vishnu Suresh, Ion Stoica, Joseph E. Gonzalez.* ICML 2025.<br>介绍了BFCL，这是一个用于评估LLM在多种真实场景下调用外部函数能力的综合基准测试。BFCL通过结合专家策划和用户贡献的函数及提示，评估模型在串行和并行函数调用、多种编程语言以及多步代理设置中的能力，使用抽象语法树评估方法实现可扩展性。
+
+- [**The Behavior Gap: Evaluating Zero-shot LLM Agents in Complex Task-Oriented Dialogs**](https://aclanthology.org/2025.findings-acl.1205.pdf) *Avinash Baidya, Kamalika Das, Xiang Gao.* Findings of ACL 2025.<br>提出了一种评估框架，用于量化LLM智能体与人类专家在复杂任务导向型对话系统中的行为差距。该框架通过对话行为、工具使用和知识利用三个维度进行评估，并采用教师强制方法进行控制评估，以避免用户模拟器引入的额外差异。
+
+## Synthetic Dataset
+### 构建工具/API使用的指令数据集
 - [**Toolformer: Language Models Can Teach Themselves to Use Tools**](https://arxiv.org/abs/2302.04761) *Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, Thomas Scialom.* NeurIPS 2023.<br>提出一种让LLM自学习使用工具的方法，通过在文本中采样潜在的API调用位置，执行并验证结果后，将成功的调用作为新样本来微调模型自身。
 
 - [**Gorilla: Large Language Model Connected with Massive APIs**](https://arxiv.org/abs/2305.15334) *Shishir G. Patil, Tianjun Zhang, Xin Wang, Joseph E. Gonzalez.*  NeurIPS 2024.<br>通过API文档使用LLM构建API指令数据集，并引入检索器感知的训练方法，让Gorilla能够在API文档更新时保持其输出的准确性和相关性，显著提升了模型调用API的准确性。
 
 - [**GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction**](https://arxiv.org/abs/2305.18752) *Rui Yang, Lin Song, Yanwei Li, Sijie Zhao, Yixiao Ge, Xiu Li, Ying Shan.* NeurIPS 2025.<br>提出一种自动化生成工具使用指令数据的方法，通过向ChatGPT提供多模态上下文（包括图像内容和工具描述）来生成工具相关的指令数据集。这些指令数据集包含了如何使用各种工具的指导。
 
-- [**ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs**](https://arxiv.org/abs/2307.16789) *Yujia Qin, Shihao Liang, Yining Ye, Kunlun Zhu, Lan Yan, Yaxi Lu, Yankai Lin, Xin Cong, Xiangru Tang, Bill Qian, Sihan Zhao, Lauren Hong, Runchu Tian, Ruobing Xie, Jie Zhou, Mark Gerstein, Dahai Li, Zhiyuan Liu, Maosong Sun.* ICLR 2024.<br>从RapidAPI Hub收集了大量真实世界的APIs，并让ChatGPT生成涉及这些APIs的多样化指令，包括单工具和多工具场景以及解决方案路径，从而构建了一个迄今为止最大、最多样的工具使用数据集ToolBench，涵盖了16000多个真实世界的API，并提出了一种深度优先搜索的决策树方法来评估工具调用的多步骤执行路径。
-
 - [**ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases**](https://arxiv.org/abs/2306.05301) *Qiaoyu Tang, Ziliang Deng, Hongyu Lin, Xianpei Han, Qiao Liang, Boxi Cao, Le Sun.* Arxiv 2023.<br>从互联网上收集潜在有价值的工具的简要介绍，并让LLM生成文档，通过多智能体交互（用户代理、助手代理和工具执行代理）构建了一个包含工具使用场景的指令微调数据集，以增强模型的泛化工具学习能力。
 
 ****
-- [**API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs**](https://arxiv.org/abs/2304.08244) *Minghao Li, Yingxiu Zhao, Bowen Yu, Feifan Song, Hangyu Li, Haiyang Yu, Zhoujun Li, Fei Huang, Yongbin Li.* EMNLP 2023.<br>论文创建了一个名为API-Bank的基准测试，它专门设计用于评估工具增强型LLM，并给提出了一种名为 Multi-agent 的数据合成方法，通过让多个 LLM 协作生成 domain、API、用户提问、API 调用及其响应，从而自动构建符合设计原则的大规模对话数据。
 
 - [**ToolGrad: Efficient Tool-use Dataset Generation with Textual "Gradients"**](https://arxiv.org/abs/2508.04086) *Zhongyi Zhou, Kohei Uehara, Haoyu Zhang, Jingtao Zhou, Lin Gu, Ruofei Du, Zheng Xu, Tatsuya Harada.* Arxiv 2025.<br>论文提出了一个名为 ToolGrad 的框架，核心思想是逆转传统方法的流程：先生成有效的工具使用链，再合成对应的用户查询，而不是先生成用户查询再寻找工具使用解决方案。
 
