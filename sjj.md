@@ -156,7 +156,7 @@
 
    *将语言的内容逻辑抽象出来再进行有效推理*
 
-   1. [NeuroSymbolic Augmented Reasoning (NSAR)](https://arxiv.org/abs/2506.02483)
+   1. [Enhancing Large Language Models with Neurosymbolic Reasoning for Multilingual Tasks](https://arxiv.org/abs/2506.02483)
 
       大型语言模型 通常难以在相关信息分散在大量文档中的长上下文场景中执行多目标推理。为了应对这一挑战，引入了神经符号增强推理 （NSAR），它结合了推理过程中神经推理和符号推理的优势。NSAR 从文本中显式提取符号事实并生成可执行的 Python 代码来处理复杂的推理步骤。
 
@@ -261,5 +261,6 @@
 
    2. [Synthetic Data Vault (SDV)](https://sdv.dev) *MIT / Open Source Project*  
       提供成熟的合成数据生成和管理生态系统，包含多种生成器（GAN, VAE, Copula）及隐私测试工具，可用于生成和评估 tabular 数据集。
+
 
 
