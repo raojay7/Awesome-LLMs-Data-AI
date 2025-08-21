@@ -10,6 +10,8 @@
 
 - [TLCR: Token-Level Continuous Reward for Fine-grained Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2407.16574), Eunseop Yoon， Hee Suk Yoon， SooHwan Eom， Gunsoo Han， Daniel Wontae Nam， Daejin Jo， Kyoung-Woon On， Mark A. Hasegawa-Johnson， Sungwoong Kim， Chang D. Yoo, ACL2024：提出TLCR奖励模型，为细粒度的PLHF提供Token级的连续奖励
 
+- [Tool-Augmented Reward Modeling](https://arxiv.org/abs/2310.01045), Lei Li, Yekun Chai, Shuohuan Wang, Yu Sun, Hao Tian, Ningyu Zhang, Hua Wu, ICLR 2024：提出了Themis新方法通过引入外部工具来增强奖励模型的能力，以解决传统RM局限性
+
 ### 生成式奖励模型
 
 - [GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning](https://arxiv.org/abs/2504.00891),  Jian Zhao, Runze Liu, Kaiyan Zhang, Zhimu Zhou, Junqi Gao, Dong Li, Jiafei Lyu, Zhouyi Qian, Biqing Qi, Xiu Li and Bowen Zhou：提出生成式过程奖励模型，在对步骤打分之前会先生产分析，再进行验证，最后才对结果进行打分，性能明显优于常规PRM，在数学推理任务取得较大提升
@@ -28,6 +30,18 @@
 
 
 ## Synthetic Feedback (Algorithms adapt to data)
+
+- [Aligning Large Language Models through Synthetic Feedback](https://arxiv.org/abs/2305.13735), Sungdong Kim, Sanghwan Bae, Jamin Shin, Soyoung Kang, Donghyun Kwak, Kang Min Yoo, Minjoon Seo, EMNLP 2023：提出了合成反馈驱动的对齐框架，利用合成反馈构建奖励模型和训练数据，不依赖人类标注和私有模型
+
+- [RLAIF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://openreview.net/forum?id=AAxIs3D2ZZ), Harrison Lee, Samrat Phatale, Hassan Mansoor, Kellie Ren Lu, Thomas Mesnard, Johan Ferret, Colton Bishop, Ethan Hall, Victor Carbune, Abhinav Rastogi, ICLR 2024：提出RLAIF方法，利用AI反馈替代人类反馈，使用现成的大语言模型生成偏好标签，替代人类标注
+
+- [Aligning Large Language Models with Human Preferences through Representation Engineering](https://arxiv.org/abs/2312.15997), Wenhao Liu, Xiaohua Wang, Muling Wu, Tianlong Li, Changze Lv, Zixuan Ling, Jianhao Zhu, Cenyuan Zhang, Xiaoqing Zheng, Xuanjing Huang：提出RLHF新方法，通过表示工程对齐大语言模型与人类偏好
+
+- [RL4F: Generating Natural Language Feedback with Reinforcement Learning for Repairing Model Outputs](https://arxiv.org/abs/2305.08844), Afra Feyza Akyürek, Ekin Akyürek, Aman Madaan, Ashwin Kalyan, Peter Clark, Derry Wijaya, Niket Tandon, ACL 2023：提出了RLAF的反馈生成框架，通过强化学习训练小型批评生成器，来对大模型输出进行反馈，提高输出质量
+
+- [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560), Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi, ACL 2023：提出了 Self-Instruct 方法，旨在通过语言模型自我生成指令数据来提升其遵循指令的能力，从而减少对人工标注数据的依赖。
+
+- [SALMON: Self-Alignment with Principle-Following Reward Models](https://openreview.net/forum?id=K4JVCGODXA), Zhiqing Sun, Yikang Shen, Hongxin Zhang, Qinhong Zhou, Zhenfang Chen, David D. Cox, Yiming Yang, Chuang Gan：提出了 SALMON 方法，旨在通过可指导的奖励模型实现语言模型的自我对齐，显著减少对人类标注数据的依赖
 
 - [Confidence Is All You Need: Few-Shot RL Fine-Tuning of Language Models](https://arxiv.org/abs/2506.06395), Pengyi Li, Matvey Skripkin, Alexander Zubrey, Andrey Kuznetsov, Ivan Oseledets：利用模型自身的信心构建奖励信号，以此来进行强化学习，消除了对标签、奖励模型等的依赖
 
