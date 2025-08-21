@@ -188,7 +188,7 @@
 
       探讨如何利用教师大模型生成的偏好反馈替代人工标注，提出 **RLAIF** 框架。实验表明，纯 AI 合成的偏好数据在摘要与开放对话任务上接近甚至超过 RLHF 效果，证明了大规模可扩展性。
 
-   4. [https://arxiv.org/abs/2212.08073](https://arxiv.org/pdf/2212.08073)  *NeurIPS 2023*  
+   4. [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/pdf/2212.08073)  *NeurIPS 2023*  
 
       提出 **宪法式 AI 对齐方法**：通过“宪法原则”指导模型自评与自修正，自动合成安全偏好数据，再进行监督微调和RL阶段，减少了人工介入，显著提升了模型的安全性与合规性。
 
@@ -261,4 +261,5 @@
 
    2. [Synthetic Data Vault (SDV)](https://sdv.dev) *MIT / Open Source Project*  
       提供成熟的合成数据生成和管理生态系统，包含多种生成器（GAN, VAE, Copula）及隐私测试工具，可用于生成和评估 tabular 数据集。
+
 
