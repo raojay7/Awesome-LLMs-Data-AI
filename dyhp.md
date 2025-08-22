@@ -21,7 +21,7 @@ TarGEN 是一个 **多步驱动、无需种子样本** 的高质量合成数据�
 例如，对于文本蕴含任务（RTE），TarGEN 会生成一个前提句子（premise）作为 seed，并根据目标标签生成一个结论句子（hypothesis），使其满足 "蕴含" 或 "不蕴含" 的语义关系。
 
 
-## Learning to Generate Instruction Tuning Datasets for
+## [Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation](https://arxiv.org/abs/2402.18334)
 
 ### Idea
 
@@ -30,7 +30,7 @@ TarGEN 是一个 **多步驱动、无需种子样本** 的高质量合成数据�
 
 # from scratch
 
-## Absolute Zero: Reinforced Self-play Reasoning with Zero Data
+## [Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335)
 
 ### Idea
 
@@ -49,7 +49,7 @@ Absolute Zero 提出一种“零数据自进化”的推理模型训练方法，
 完全零人工数据：训练中不依赖人类提供的题目或答案，性能仍超越依赖大规模人工数据的同类方法。
 
 
-## Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement. Findings of ACL 2025
+## [Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement](https://arxiv.org/abs/2506.03541#:~:text=In%20this%20paper%2C%20we%20present%20a%20novel%20Debate,error%20analysis%2C%20corrective%20strategies%29%20to%20guide%20student%20models.). Findings of ACL 2025
 
 ### Idea
 
@@ -66,7 +66,7 @@ Absolute Zero 提出一种“零数据自进化”的推理模型训练方法，
 学生通过 T-DPO 学到的不仅是 哪个答案是正确的，而且是 为什么某些答案更优，也就是吸收正确推理路径，同时避免重复错误推理。
 
 
-## Synthetic Data RL: Task Definition Is All You Need
+## [Synthetic Data RL: Task Definition Is All You Need](https://arxiv.org/abs/2505.17063)
 ### Idea
 
 从任务定义（包括任务描述、输入输出格式）出发，提取关键词，检索相关外部知识（如 Wikipedia、StackExchange）。
@@ -78,25 +78,25 @@ Absolute Zero 提出一种“零数据自进化”的推理模型训练方法，
 在 GSM8K、MATH、MedQA、CQA、CFA 等任务上，表现超过了指令微调 (instruction-tuned) 和其他合成数据方法，甚至接近或超过使用全量人工数据的 RL。
 
 
-## Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models
+## [Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models](https://arxiv.org/abs/2402.13064)
 ### Idea
 
 不依赖种子数据，完全从0开始
 先由 LLM（GPT-4）和少量人工校验构建 人类知识与能力的分类树（taxonomy），覆盖各个学科和技能领域，最终得到覆盖广泛、难度多样的 指令调优数据。
 
 
-## Self-instruct: Aligning language models with self-generated instructions
+## [Self-instruct: Aligning language models with self-generated instructions](https://arxiv.org/abs/2212.10560)
 ### Idea
 需要少量的seed tasks（175个）
 根据instructio生成input first/ output first两类数据后加入task pool 自举式的扩充种子数据池（自己迭代）
 
-## Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing
+## [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2406.08464)
 ### Idea
 对齐后的 LLM（如 Llama-3-Instruct）在输入“仅有 pre-query 模板（用户输入开头标记）”时，会因为自回归特性自动生成一条高质量、多样化的“用户问题/指令”。
 不依赖人工构造或少量种子问题，而是直接利用 LLM 内隐学到的“指令分布”。
 利用这个特点，可以自动的生成instruction，并生成回答，构造训练数据；
 
-## WizardLM: Empowering Large Language Models to Follow Complex Instructions 
+## [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244)
 ### Idea
 提出 Evol-Instruct，将简单指令逐步演化为更复杂的指令：加约束、增加推理步骤、细化概念、复杂化输入等
 从一小部分初始指令出发；
