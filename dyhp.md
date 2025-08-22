@@ -105,13 +105,10 @@ Absolute Zero 提出一种“零数据自进化”的推理模型训练方法，
 ## [Diverse and Effective Synthetic Data Generation for Adaptable Zero-Shot Dialogue State Tracking](https://aclanthology.org/2024.findings-emnlp.731/)
 [SELF-ALIGNMENT WITH INSTRUCTION BACKTRANSLATION]
 ## [Let’s Synthesize Step by Step: Iterative Dataset Synthesis with Large Language Models by Extrapolating Errors from Small Models](https://aclanthology.org/2023.findings-emnlp.791/)
-CodecLM: Aligning Language Models with Tailored Synthetic Data
+## [CodecLM: Aligning Language Models with Tailored Synthetic Data](https://arxiv.org/abs/2404.05875)
 
 Scaling Synthetic Data Creation with 1,000,000,000 Personas
+## [Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation]（https://arxiv.org/html/2402.18334v3）
+## [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://arxiv.org/abs/2501.12273)
 
-Condor: Enhance LLM Alignment with Knowledge-Driven
-Data Synthesis and Refinement
-
-SAND-Math: Using LLMs to Generate Novel,
-Difficult and Useful Mathematics Questions
-and Answers
+## [SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers](https://arxiv.org/abs/2507.20527)
