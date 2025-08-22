@@ -31,15 +31,20 @@
 
 ## Synthetic Feedback (Algorithms adapt to data)
 
+
+### 合成反馈替代人类标注
+
 - [Aligning Large Language Models through Synthetic Feedback](https://arxiv.org/abs/2305.13735), Sungdong Kim, Sanghwan Bae, Jamin Shin, Soyoung Kang, Donghyun Kwak, Kang Min Yoo, Minjoon Seo, EMNLP 2023：提出了合成反馈驱动的对齐框架，利用合成反馈构建奖励模型和训练数据，不依赖人类标注和私有模型
 
 - [RLAIF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://openreview.net/forum?id=AAxIs3D2ZZ), Harrison Lee, Samrat Phatale, Hassan Mansoor, Kellie Ren Lu, Thomas Mesnard, Johan Ferret, Colton Bishop, Ethan Hall, Victor Carbune, Abhinav Rastogi, ICLR 2024：提出RLAIF方法，利用AI反馈替代人类反馈，使用现成的大语言模型生成偏好标签，替代人类标注
 
-- [Aligning Large Language Models with Human Preferences through Representation Engineering](https://arxiv.org/abs/2312.15997), Wenhao Liu, Xiaohua Wang, Muling Wu, Tianlong Li, Changze Lv, Zixuan Ling, Jianhao Zhu, Cenyuan Zhang, Xiaoqing Zheng, Xuanjing Huang：提出RLHF新方法，通过表示工程对齐大语言模型与人类偏好
+- [Self-Taught Evaluators](https://arxiv.org/abs/2408.02666), Tianlu Wang, Ilia Kulikov, Olga Golovneva, Ping Yu, Weizhe Yuan, Jane Dwivedi-Yu, Richard Yuanzhe Pang, Maryam Fazel-Zarandi, Jason Weston, Xian Li：提出了一种完全不需要人工标注偏好数据的完全自监督的评估器训练方法，通过迭代合成数据生成和自训练，显著提升了LLM作为评估器的性能
 
 - [RL4F: Generating Natural Language Feedback with Reinforcement Learning for Repairing Model Outputs](https://arxiv.org/abs/2305.08844), Afra Feyza Akyürek, Ekin Akyürek, Aman Madaan, Ashwin Kalyan, Peter Clark, Derry Wijaya, Niket Tandon, ACL 2023：提出了RLAF的反馈生成框架，通过强化学习训练小型批评生成器，来对大模型输出进行反馈，提高输出质量
 
 - [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560), Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi, ACL 2023：提出了 Self-Instruct 方法，旨在通过语言模型自我生成指令数据来提升其遵循指令的能力，从而减少对人工标注数据的依赖。
+
+### 减少对人类标注数据的依赖
 
 - [SALMON: Self-Alignment with Principle-Following Reward Models](https://openreview.net/forum?id=K4JVCGODXA), Zhiqing Sun, Yikang Shen, Hongxin Zhang, Qinhong Zhou, Zhenfang Chen, David D. Cox, Yiming Yang, Chuang Gan：提出了 SALMON 方法，旨在通过可指导的奖励模型实现语言模型的自我对齐，显著减少对人类标注数据的依赖
 
@@ -55,8 +60,9 @@
 
 - [Bootstrapping Language Models with DPO Implicit Rewards](https://arxiv.org/abs/2406.09760), Changyu Chen, Zichen Liu, Chao Du, Tianyu Pang, Qian Liu, Arunesh Sinha, Pradeep Varakantham, Min Lin, ICLR 2025：模型在经过DPO训练后内生了一套评判标准（隐式奖励模型），通过优化该评判标准提出DICE方法，让模型利用这一套标准在不需要额外反馈的条件下来提升自己
 
+### 其他方法对齐人类偏好
 
-
+- [Aligning Large Language Models with Human Preferences through Representation Engineering](https://arxiv.org/abs/2312.15997), Wenhao Liu, Xiaohua Wang, Muling Wu, Tianlong Li, Changze Lv, Zixuan Ling, Jianhao Zhu, Cenyuan Zhang, Xiaoqing Zheng, Xuanjing Huang：提出RLHF新方法，通过表示工程对齐大语言模型与人类偏好
 
 
 # 数据策略提升
