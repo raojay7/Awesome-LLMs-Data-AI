@@ -2,7 +2,7 @@ data generation
 
 # task data from LMs
 
-## TarGEN: Targeted Data Generation with Large Language Models
+## [TarGEN: Targeted Data Generation with Large Language Models](https://arxiv.org/abs/2310.17876)
 
 ### Idea
 
