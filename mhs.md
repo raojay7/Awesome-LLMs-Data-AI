@@ -98,42 +98,47 @@ Guoli Yin, Zirui Wang, Ruoming Pang.* Findings of NAACL 2025.<br>提出了一个
 
 ## Synthetic Dataset
 ### 构建工具/API使用的指令数据集
+- [**ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases**](https://arxiv.org/abs/2306.05301) *Qiaoyu Tang, Ziliang Deng, Hongyu Lin, Xianpei Han, Qiao Liang, Boxi Cao, Le Sun.* Arxiv 2023.<br>从互联网上收集潜在有价值的工具的简要介绍，并让LLM生成文档，通过多智能体交互（用户代理、助手代理和工具执行代理）构建了一个包含工具使用场景的指令微调数据集，以增强模型的泛化工具学习能力。
+
 - [**Toolformer: Language Models Can Teach Themselves to Use Tools**](https://arxiv.org/abs/2302.04761) *Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, Thomas Scialom.* NeurIPS 2023.<br>提出一种让LLM自学习使用工具的方法，通过在文本中采样潜在的API调用位置，执行并验证结果后，将成功的调用作为新样本来微调模型自身。
 
 - [**Gorilla: Large Language Model Connected with Massive APIs**](https://arxiv.org/abs/2305.15334) *Shishir G. Patil, Tianjun Zhang, Xin Wang, Joseph E. Gonzalez.*  NeurIPS 2024.<br>通过API文档使用LLM构建API指令数据集，并引入检索器感知的训练方法，让Gorilla能够在API文档更新时保持其输出的准确性和相关性，显著提升了模型调用API的准确性。
 
-- [**GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction**](https://arxiv.org/abs/2305.18752) *Rui Yang, Lin Song, Yanwei Li, Sijie Zhao, Yixiao Ge, Xiu Li, Ying Shan.* NeurIPS 2025.<br>提出一种自动化生成工具使用指令数据的方法，通过向ChatGPT提供多模态上下文（包括图像内容和工具描述）来生成工具相关的指令数据集。这些指令数据集包含了如何使用各种工具的指导。
+- [**APIGen: Automated Pipeline for Generating Verifiable and Diverse Function-Calling Datasets"**](https://arxiv.org/abs/2406.18518) *Zuxin Liu, Thai Hoang, Jianguo Zhang, Ming Zhu, Tian Lan, Shirley Kokane, Juntao Tan, Weiran Yao, Zhiwei Liu, Yihao Feng, Rithesh Murthy, Liangwei Yang, Silvio Savarese, Juan Carlos Niebles, Huan Wang, Shelby Heinecke, Caiming Xiong.* Arxiv 2024.<br>通过从API库中采样API和示例问答对，并利用LLM根据多样化的提示模板生成相关的问答对，从而创建合成数据集。生成的数据经过严格的多阶段验证，包括格式检查、实际函数执行和语义验证，以确保数据的质量和可靠性。
 
-- [**ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases**](https://arxiv.org/abs/2306.05301) *Qiaoyu Tang, Ziliang Deng, Hongyu Lin, Xianpei Han, Qiao Liang, Boxi Cao, Le Sun.* Arxiv 2023.<br>从互联网上收集潜在有价值的工具的简要介绍，并让LLM生成文档，通过多智能体交互（用户代理、助手代理和工具执行代理）构建了一个包含工具使用场景的指令微调数据集，以增强模型的泛化工具学习能力。
-
-****
+- [**GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction**](https://arxiv.org/abs/2305.18752) *Rui Yang, Lin Song, Yanwei Li, Sijie Zhao, Yixiao Ge, Xiu Li, Ying Shan.* NeurIPS 2023.<br>提出一种自动化生成工具使用指令数据的方法，通过向ChatGPT提供多模态上下文（包括图像内容和工具描述）来生成工具相关的指令数据集。这些指令数据集包含了如何使用各种工具的指导。
 
 - [**ToolGrad: Efficient Tool-use Dataset Generation with Textual "Gradients"**](https://arxiv.org/abs/2508.04086) *Zhongyi Zhou, Kohei Uehara, Haoyu Zhang, Jingtao Zhou, Lin Gu, Ruofei Du, Zheng Xu, Tatsuya Harada.* Arxiv 2025.<br>论文提出了一个名为 ToolGrad 的框架，核心思想是逆转传统方法的流程：先生成有效的工具使用链，再合成对应的用户查询，而不是先生成用户查询再寻找工具使用解决方案。
 
-## 生成复杂智能体流程的数据
+- [**Enhancing LLM Tool Use with High-quality Instruction Data from Knowledge Graph**](https://arxiv.org/abs/2506.21071) *Jingwei Wang, Zai Zhang, Hao Qian, Chunjing Gan, Binbin Hu, Ziqi Liu, Zhiqiang Zhang, Jun Zhou, Bin Shi, Bo Dong.* Arxiv 2025.<br>提出了一种利用知识图谱生成高质量指令数据的方法，以增强LLM的工具使用能力。该方法通过将知识图谱中的关系类型抽象为API，并使用一阶逻辑（FOL）查询从知识图谱中采样复杂的子图，生成自然语言查询和相应的解决方案路径。这些查询和解决方案路径被转换为对话格式，形成指令数据集KG2Tool。
+### 多轮agent对话合成
+
+- [**APIGen-MT: Agentic PIpeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay**](https://arxiv.org/abs/2504.03601) *Akshara Prabhakar, Zuxin Liu, Ming Zhu, Jianguo Zhang, Tulika Awalgaonkar, Shiyu Wang, Zhiwei Liu, Haolin Chen, Thai Hoang, Juan Carlos Niebles, Shelby Heinecke, Weiran Yao, Huan Wang, Silvio Savarese, Caiming Xiong.* Arxiv 2025.<br>提出了一种两阶段的数据合成方法来生成高质量的多轮人机交互数据。在第一阶段，通过上下文准备、基于LLM的数据生成器、格式和执行检查、评审委员会以及反馈生成和改进等步骤，生成详细的任务蓝图，包括用户意图、可验证的地面真实动作和预期的最终输出。在第二阶段，基于第一阶段生成的蓝图，通过模拟人机交互来生成完整的多轮交互轨迹，包括对话轮次、代理动作和环境响应，并通过验证确保轨迹的正确性和合理性。
+
+- [**Magnet: Multi-turn tool-use data synthesis and distillation via graph translation**](https://aclanthology.org/2025.acl-long.1566.pdf) *Fan Yin, Zifeng Wang, I-Hung Hsu, Jun Yan, Ke Jiang, Yanfei Chen, Jindong Gu, Long T. Le, Kai-Wei Chang, Chen-Yu Lee, Hamid Palangi, Tomas Pfister.* ACL 2025.<br>提出了名为Magnet的数据合成方法，其通过构建局部依赖图来组织函数间的依赖关系，并利用随机游走生成初始函数签名路径。在此基础上，运用插入、合并和分割三种节点操作来增强路径，以覆盖多轮交互中的复杂场景。最后，通过教师模型生成正向轨迹，并构造负向轨迹，为模型训练提供高质量的对比学习样本。
+
+### 生成复杂智能体流程的数据
 这类工作超越了简单的单步工具调用，专注于生成包含多步推理、规划、执行和自我修正的复杂工作流（Agentic Flows）数据。
 
-- [**ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving**](https://arxiv.org/abs/2309.17452) *Zhibin Gou, Zhihong Shao, Yeyun Gong, Yelong Shen, Yujiu Yang, Minlie Huang, Nan Duan, Weizhu Chen.* ICLR 2024.<br>训练了一个能同时生成解题步骤和调用计算工具（如代码解释器）的数学推理智能体，通过输出-反馈循环的训练方式，使其学会在解题过程中无缝地结合自然语言推理和精确计算。
+- [**ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving**](https://arxiv.org/abs/2309.17452) *Zhibin Gou, Zhihong Shao, Yeyun Gong, Yelong Shen, Yujiu Yang, Minlie Huang, Nan Duan, Weizhu Chen.* ICLR 2024.<br>提出了TORA，通过无缝结合自然语言推理和外部工具的使用来解决复杂数学问题。其通过设计交互式工具使用轨迹，利用模仿学习训练模型以生成高质量的推理轨迹，以及通过输出空间塑形技术进一步优化模型的推理行为，从而提升模型在数学问题求解中的性能和灵活性。为了生成这些交互式工具使用轨迹。论文利用GPT-4合成了高质量的标注数据，这些数据不仅包含自然语言推理步骤，还包含程序代码和工具执行的输出，为模型训练提供了丰富的样本。
 
-- [**AgentInstruct: Toward Generative Teaching with Agentic Flows**](https://arxiv.org/abs/2407.03502) *Arindam Mitra, Luciano Del Corro, Guoqing Zheng, Shweti Mahajan, Dany Rouhana, Andres Codas, Yadong Lu, Wei-ge Chen, Olga Vrousgos, Corby Rosset, Fillipe Silva, Hamed Khanpour, Yash Lara, Ahmed Awadallah.* Arxiv 2024.<br>提出了一种新的数据生成范式，即生成智能体流程（Agentic Flows）而非简单的问答对，这些流程数据包含了任务分解、多工具协同、结果验证和自我修正等一系列步骤。通过让一个教师LLM生成智能体流程数据来完成一个复杂任务，并将这个完整的执行轨迹作为高质量的指令数据。
+- [**AgentInstruct: Toward Generative Teaching with Agentic Flows**](https://arxiv.org/abs/2407.03502) *Arindam Mitra, Luciano Del Corro, Guoqing Zheng, Shweti Mahajan, Dany Rouhana, Andres Codas, Yadong Lu, Wei-ge Chen, Olga Vrousgos, Corby Rosset, Fillipe Silva, Hamed Khanpour, Yash Lara, Ahmed Awadallah.* Arxiv 2024.<br>提出了一种新的数据生成范式，即生成智能体流程（Agentic Flows）而非简单的问答对，这些流程数据包含了任务分解、多工具协同、结果验证和自我修正等一系列步骤。其提出了一种生成性教学（Generative Teaching）的思想，通过使用原始数据源（如文本文档和代码文件）作为种子，自动创建大量多样化且高质量的合成数据。这些数据通过内容转换流程、种子指令生成流程和指令细化流程生成，覆盖多种技能，用于教授模型新技能或行为，从而提高模型性能。
 
-- [**AgentTuning: Enabling Generalized Agent Abilities for LLMs**](https://arxiv.org/abs/2310.12823) *Aohan Zeng, Mingdao Liu, Rui Lu, Bowen Wang, Xiao Liu, Yuxiao Dong, Jie Tang.* Findings of ACL 2024.<br>该工作认为Agent能力也应通过指令微调来获得。构建了一个轻量但高质量的、涵盖6个不同Agent任务的数据集AgentInstruct，通过设计统一的agent训练集和负样本策略进行能力分解调优，增强模型在新环境中的泛化能力。
+- [**AgentTuning: Enabling Generalized Agent Abilities for LLMs**](https://arxiv.org/abs/2310.12823) *Aohan Zeng, Mingdao Liu, Rui Lu, Bowen Wang, Xiao Liu, Yuxiao Dong, Jie Tang.* Findings of ACL 2024.<br>通过任务衍生和自我指令的方法构建了AgentInstruct数据集，涵盖了六个不同代理任务的高质量交互轨迹。这些轨迹通过GPT-4与环境的交互生成，并根据奖励分数进行过滤以确保数据质量。最后，结合一般领域的开源指令，通过混合指令调整策略对LLMs进行微调，以提升其代理能力并保持通用性能。
 
 ****
 - [**Re-ReST: Reflection-Reinforced Self-Training for Language Agents**](https://aclanthology.org/2024.emnlp-main.861.pdf) *Zi-Yi Dou, Cheng-Fu Yang, Xueqing Wu, Kai-Wei Chang, Nanyun Peng.* EMNLP 2024.<br>通过引入反思模型把自我训练中agent自我生成的低质量样本，利用环境反馈（如单元测试结果）修正为高质量样本，从而低成本地扩充训练集。
 
 - [**ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent**](https://arxiv.org/abs/2312.10003) *Renat Aksitov, Sobhan Miryoosefi, Zonglin Li, Daliang Li, Sheila Babayan, Kavya Kopparapu, Zachary Fisher, Ruiqi Guo, Sushant Prakash, Pranesh Srinivasan, Manzil Zaheer, Felix Yu, Sanjiv Kumar.* ICLR 2024.<br>论文将 ReAct 推理流程拆解为多个可微调的步骤轨迹，并在固定问题集上循环执行 ReST 式自我改进，通过轨迹生成，并用 LLM as a judge 反馈进行持续的自我改进和自我蒸馏。
 
-## 与环境交互的具身智能
-这类工作将LLM作为大脑，驱动一个智能体在有状态的环境（如游戏、操作系统）中进行探索和学习。数据来源于智能体与环境的真实交互过程。
+### 与环境交互的智能体
+这类工作将LLM作为大脑，驱动一个智能体在有状态的环境中进行探索和学习。数据来源于智能体与环境的真实交互过程。
 
-- [**Voyager: An Open-Ended Embodied Agent with Large Language Models**](https://arxiv.org/abs/2305.16291) *Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi Fan, Aniderma Anandkumar.* TMLR 2024.<br>展示了首个由LLM驱动、能在Minecraft中进行终身开放式探索的具身智能体。Voyager不依赖任何预设的训练数据，而是通过与环境互动来自主生成任务、编写代码来执行任务，并将成功的代码存入可复用的技能库，从而持续不断地生成和积累自己的训练数据。
+- [**Executable Code Actions Elicit Better LLM Agents**](https://arxiv.org/abs/2402.01030) *Xingyao Wang, Yangyi Chen, Lifan Yuan, Yizhe Zhang, Yunzhu Li, Hao Peng, Heng Ji.* ICML 2024.<br>通过筛选和改造现有数据集（如HotpotQA、APPS、MATH、WikiTableQuestions和ALFWorld），生成了包含7k多轮交互轨迹的CodeActInstruct数据集。该方法将单轮问题转化为多轮交互问题，并选择性保留那些模型最初出错但后续修正的轨迹，以增强LLM代理的自我改进能力。
 
-- [**Efficient Agent Training for Computer Use**](https://arxiv.org/abs/2505.13909) *Yanheng He, Jiahe Jin, Pengfei Liu.* Arxiv 2025.<br> 专注于如何高效训练能操作电脑图形用户界面（GUI）的智能体，通过模仿学习和课程学习等方法，以少量人工鼠标键盘轨迹为起点并用LLM扩充多样化操作决策，训练电脑使用代理高效完成任务。
+- [**Efficient Agent Training for Computer Use**](https://arxiv.org/abs/2505.13909) *Yanheng He, Jiahe Jin, Pengfei Liu.* Arxiv 2025.<br> 专注于如何高效训练能操作电脑图形用户界面（GUI）的智能体，通过模仿学习和课程学习等方法，以少量人工鼠标键盘轨迹为起点，利用先进的推理模型（如Claude 3.7 Sonnet）在每个真实人类轨迹步骤的基础上，生成多样化的行动决策及其对应的思考过程，从而训练电脑使用代理高效完成任务。
 
-- [**Executable Code Actions Elicit Better LLM Agents**](https://arxiv.org/abs/2402.01030) *Xingyao Wang, Yangyi Chen, Lifan Yuan, Yizhe Zhang, Yunzhu Li, Hao Peng, Heng Ji.* ICML 2024.<br>论证了相比于文本，使用可执行代码作为LLM智能体的动作空间能带来更好的性能，因为代码具有明确的语法和执行反馈，可以减少幻觉并简化动作空间。
-
-## 数据生成框架与工作流
+### 数据生成框架与工作流
 这类工作不直接提供数据集，而是提供一个元工具或框架，让研究人员和开发者可以更轻松、更可复现地构建自己的合成数据生成流水线。
 
 - [**Distilabel: An AI Feedback (AIF) Framework for Building Datasets with and for LLMs**](https://github.com/argilla-io/distilabel) *Álvaro Bartolomé Del Canto, Gabriel Martín Blázquez, Agustín Piqueres Lajarín and Daniel Vila Suero.* GitHub 2024.<br>是一个专注于AI反馈（AIF）的开源框架，旨在取代昂贵的人类反馈。它提供了构建数据集的完整流水线，让开发者可以使用强大的教师LLM（如GPT-4）来为学生LLM的输出打分、排序或提供反馈，从而高效地生成用于对齐任务的偏好数据集。
@@ -142,8 +147,3 @@ Guoli Yin, Zirui Wang, Ruoming Pang.* Findings of NAACL 2025.<br>提出了一个
 
 - [**DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows**](https://arxiv.org/abs/2402.10379) *Ajay Patel, Colin Raffel, Chris Callison-Burch.* ACL 2024.<br>提供了一个开源Python库，旨在简化和标准化合成数据的生成过程。它允许用户通过模块化的方式组合各种LLM调用、提示策略和后处理步骤，从而快速创建、迭代和分享可复现的数据生成工作流。
 
-## 其他
-****
-- [**From Exploration to Mastery: Enabling LLMs to Master Tools via Self-Driven Interactions**](https://arxiv.org/abs/2410.08197) *Changle Qu, Sunhao Dai, Xiaochi Wei, Hengyi Cai, Shuaiqiang Wang, Dawei Yin, Jun Xu, Ji-Rong Wen.* ICLR 2025. <br>提出了一个名为DRAFT的框架，通过自我驱动的交互来解决LLMs在理解和有效使用外部工具时所面临的挑战。分为Explorer-Analyzer-Rewriter三个模块，Explorer根据文档生成探索实例并获得工具执行结果，Analyzer分析Explorer的数据并提出文档的改进建议，Rewriter根据建议对文档进行改进。通过迭代改进工具文档，最终把改进后的文档直接塞进 prompt，靠in-context learning 去调用工具。
-
-- [**Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models**](https://aclanthology.org/2024.findings-acl.557.pdf) *Zehui Chen, Kuikun Liu, Qiuchen Wang, Wenwei Zhang, Jiangning Liu, Dahua Lin, Kai Chen, Feng Zhao.* Findings of ACL 2024. <br>Agent-FLAN核心是对agent训练语料库的细致分解和重新设计，其提出格式对齐-能力分解-负面样本三步法：将代理语料还原为自然对话格式，按推理/检索/理解/指令遵循拆解并动态平衡，再引入负样本显式抑制幻觉。
