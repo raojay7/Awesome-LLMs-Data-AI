@@ -103,11 +103,10 @@ Absolute Zero 提出一种“零数据自进化”的推理模型训练方法，
 通过 ChatGPT 等大模型多轮迭代演化，生成海量不同难度的指令及对应答案；
 将这些数据用来微调开源 LLaMA 模型，得到 WizardLM。
 ## [Diverse and Effective Synthetic Data Generation for Adaptable Zero-Shot Dialogue State Tracking](https://aclanthology.org/2024.findings-emnlp.731/)
-[SELF-ALIGNMENT WITH INSTRUCTION BACKTRANSLATION]
+## [SELF-ALIGNMENT WITH INSTRUCTION BACKTRANSLATION](https://arxiv.org/abs/2308.06259))
 ## [Let’s Synthesize Step by Step: Iterative Dataset Synthesis with Large Language Models by Extrapolating Errors from Small Models](https://aclanthology.org/2023.findings-emnlp.791/)
 ## [CodecLM: Aligning Language Models with Tailored Synthetic Data](https://arxiv.org/abs/2404.05875)
 
-Scaling Synthetic Data Creation with 1,000,000,000 Personas
 ## [Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation]（https://arxiv.org/html/2402.18334v3）
 ## [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://arxiv.org/abs/2501.12273)
 
