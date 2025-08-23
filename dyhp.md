@@ -116,5 +116,7 @@ Absolute Zero 提出一种“零数据自进化”的推理模型训练方法，
 让模型学会将未标注的语料转变为特定任务的指令微调数据集
 首先在现有的指令微调上加入任务类型标签 添加后训练模型 就学会 给定一个文本 一个任务类型 生成一条I-R样本 就可以在领域内的未标注文本进行Instruction-tuning数据的生成；
 ## [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://arxiv.org/abs/2501.12273)
+通过知识树 确定领域标签的覆盖 结合任务类型 和难度 生成I tuning
 
+再利用自我反思对回答进行自我批评和改进；
 ## [SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers](https://arxiv.org/abs/2507.20527)
