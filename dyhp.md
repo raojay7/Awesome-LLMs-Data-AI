@@ -106,12 +106,15 @@ Absolute Zero 提出一种“零数据自进化”的推理模型训练方法，
 不需要种子数据 / 场景生成 对每个场景列出可能的信息 然后根据信息进行提问
 ## [SELF-ALIGNMENT WITH INSTRUCTION BACKTRANSLATION](https://arxiv.org/abs/2308.06259)
 自迭代的 不需要种子数据
-## [Let’s Synthesize Step by Step: Iterative Dataset Synthesis with Large Language Models by Extrapolating Errors from Small Models]
+## [Let’s Synthesize Step by Step: Iterative Dataset Synthesis with Large Language Models by Extrapolating Errors from Small Models](https://aclanthology.org/2023.findings-emnlp.791/)
 错误外推 / 利用犯错误的数据 重新生成相似的犯错的题目 重新混进原来的合成数据进行训练
-(https://aclanthology.org/2023.findings-emnlp.791/)
+
 ## [CodecLM: Aligning Language Models with Tailored Synthetic Data](https://arxiv.org/abs/2404.05875)
 
 ## [Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation](https://arxiv.org/html/2402.18334v3)
+
+让模型学会将未标注的语料转变为特定任务的指令微调数据集
+首先在现有的指令微调上加入任务类型标签 添加后训练模型 就学会 给定一个文本 一个任务类型 生成一条I-R样本 就可以在领域内的未标注文本进行Instruction-tuning数据的生成；
 ## [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://arxiv.org/abs/2501.12273)
 
 ## [SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers](https://arxiv.org/abs/2507.20527)
