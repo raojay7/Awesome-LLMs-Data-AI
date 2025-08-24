@@ -256,11 +256,12 @@
 
    ### dataset
 
-   1. [Tab-MIA: A Benchmark Dataset for Membership Inference Attacks on Tabular Data](https://arxiv.org/abs/2502.12345) *arXiv 2025*  
+   1. [Tab-MIA: A Benchmark Dataset for Membership Inference Attacks on Tabular Data](https://arxiv.org/abs/2507.17259) *arXiv 2025*  
       提供首个面向表格数据和 LLM 的 membership inference attack benchmark dataset，可直接用于测试合成数据对隐私攻击的抵御能力。
 
    2. [Synthetic Data Vault (SDV)](https://sdv.dev) *MIT / Open Source Project*  
       提供成熟的合成数据生成和管理生态系统，包含多种生成器（GAN, VAE, Copula）及隐私测试工具，可用于生成和评估 tabular 数据集。
+
 
 
 
