@@ -1,7 +1,8 @@
 # self-generation
 核心思想是利用大型语言模型自身的能力，通过迭代、演化或自我反馈等机制，来创造新的、高质量的训练数据，从而减少对人类标注的依赖，并实现模型能力的自我提升。
-## 自我迭代与博弈
-这类方法的核心是通过一个迭代循环来提升模型能力。模型首先生成问题的解决方案，然后通过某种方式（自我评估或对抗）来验证或筛选出高质量的生成结果，并用这些高质量结果对自身进行微调，从而在下一轮迭代中表现得更好
+## 自我迭代与持续学习
+该方法的核心思想是构建一个“生成-评估-过滤-微调”的闭环，让模型在迭代中持续地自我进化。模型首先基于少量高质量的种子数据生成新的指令、问题或推理过程，然后利用自身或启发式规则对新数据进行筛选，保留优质部分用于微调自身。这个过程不断重复，使得模型在每一轮迭代后都能生成更高质量的数据，从而形成一个正向的、自我增强的学习循环。
+
 - [**STaR: Bootstrapping Reasoning With Reasoning**](https://arxiv.org/abs/2203.14465) *Eric Zelikman, Yuhuai Wu, Jesse Mu, Noah D. Goodman.* NeurIPS 2022.<br>每一轮迭代输入问题，让模型生成推理过程，如果答案错误则重新生成推理，最终利用所有成功的推理过程来微调自身，从而用推理能力来引导推理能力的提升。
 
 - [**Large Language Models Can Self-Improve**](https://aclanthology.org/2023.emnlp-main.67/) *Jiaxin Huang, Shixiang Gu, Le Hou, Yuexin Wu, Xuezhi Wang, Hongkun Yu, Jiawei Han.* EMNLP 2023.<br>提出了一个自我提升框架，即让LLM作为学生回答问题，再作为老师对自己的回答提供反馈和示范，然后综合这些反馈来微调自己。
@@ -24,20 +25,26 @@
 
 - [**Symbolic Knowledge Distillation: from General Language Models to Commonsense Models**](https://arxiv.org/abs/2110.07178) *Peter West, Chandra Bhagavatula, Jack Hessel, Jena D. Hwang, Liwei Jiang, Ronan Le Bras, Ximing Lu, Sean Welleck, Yejin Choi.* NAACL 2022.<br>提出了一种更高级的数据蒸馏方式。它不仅仅是蒸馏出最终的（输入，输出）对，而是让教师模型生成中间的符号知识（如常识推理步骤），然后将这些富含逻辑和知识的中间步骤作为训练数据的一部分，来训练学生模型，从而更有效地蒸馏出常识知识
 
+*****
+
+- [**Orca 2: Teaching Small Language Models How to Reason**](https://arxiv.org/abs/2311.11045) *Arindam Mitra, Luciano Del Corro, Shweti Mahajan, Andres Codas, Clarisse Simoes, Sahaj Agarwal, Xuxi Chen, Anastasia Razdaibiedina, Erik Jones, Kriti Aggarwal, Hamid Palangi, Guoqing Zheng, Corby Rosset, Hamed Khanpour, Ahmed Awadallah.* Arxiv 2023.<br>教师模型被精心设计的系统提示所引导，为各种复杂任务生成详尽的、分步的解释和解决方案。这些富含逻辑、推理和上下文信息的解释轨迹构成了高质量的合成训练数据集。学生模型随后在这个数据集上进行微调，其目标不仅仅是模仿教师的最终答案，更是学习其解决问题的思维过程。
+
 ## 指令演化
 这类方法的核心在于对指令本身进行优化和创造。它们从一个初始的、可能很简单的指令集出发，通过类似生物进化的变异和选择过程，自动地生成更复杂、更多样、更高质量的新指令，从而构建出强大的指令微调数据集。
+
+- [**WizardLM: Empowering Large Language Models to Follow Complex Instructions**](https://arxiv.org/abs/2304.12244) *Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng, Pu Zhao, Jiazhan Feng, Chongyang Tao, Qingwei Lin, Daxin Jiang.* Arxiv 2023.<br>提出了Evol-Instruct指令演化的方法，通过人工撰写的策略提示词，将简单的初始指令逐步演化出更复杂和多样化的指令数据。该方法结合了深入演化（增加指令复杂性）和广度演化（生成新的指令类型），并通过淘汰演化机制过滤掉低质量的指令，最终生成高质量的指令数据用于模型微调。
 
 - [**Automatic Instruction Evolving for Large Language Models**](https://arxiv.org/abs/2406.00770) *Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen.* EMNLP 2024.<br>借鉴进化计算的思想，自动地将简单、低质量的指令进化成更复杂、高质量的指令。通过多轮的指令生成、变异、筛选和模型再训练，可以自动地创造出一个多样且高质量的指令数据集。
 *****
 - [**Tag-Evol: Achieving Efficient Instruction Evolving via Tag Injection**](https://arxiv.org/pdf/2406.00770) *Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen.* Findings of ACL 2025.<br>提出了 Tag-Evol 框架，用 LLM 先对种子数据打上细粒度知识标签，再在重写指令时按预算把若干标签注入，通过知识标签信息注入来实现高效且多样化的指令演化。
+
 ## 多智能体
 这类方法利用多个智能体之间的交互来生成数据。
 
 - [**CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society**](https://arxiv.org/abs/2303.17760) *Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, Bernard Ghanem.* NeurIPS 2023.<br>提出了一个新颖的沟通式智能体框架，让一个AI用户和一个AI助手通过角色扮演进行对话来完成任务，从而大规模地生成能反映合作行为和指令遵循能力的对话数据。
 
 *****
-
-- [**MetaSynth: Meta-Prompting-Driven Agentic Scaffolds for Diverse Synthetic Data Generation**](https://aclanthology.org/2025.findings-acl.962/) *Haris Riaz, Sourav Sanjukta Bhabesh, Vinayak Arannil, Miguel Ballesteros, Graham Horwood.* Findings of ACL 2025.<br>用一个元语言模型充当中心，动态编排多个专家代理依次完成种子扩展-文档/指令生成-多样性校验-重写的闭环迭代，从而持续产出彼此区分且领域相关的合成数据。
+- [**Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk**](https://aclanthology.org/2024.findings-acl.566.pdf) *Dennis Ulmer, Elman Mansimov, Kaixiang Lin, Justin Sun, Xibin Gao, Yi Zhang.* Findings of ACL 2024.<br>通过两个LLM分别代表客户端和代理模型，通过给客户端和代理模型提供角色描述、行为指令和对话历史，让它们在指定的角色中进行对话，并引入过滤步骤，保留质量较高的对话作为训练数据。
 
 - [**Synthesizing Post-Training Data for LLMs through Multi-Agent Simulation**](https://aclanthology.org/2025.acl-long.1136.pdf) *Shuo Tang, Xianghe Pang, Zexi Liu, Bohan Tang, Rui Ye, Tian Jin, Xiaowen Dong, Yanfeng Wang, Siheng Chen.* ACL 2025.<br>提出了MATRIX，一个多智能体模拟器，其使用基于真实人类配置文件的智能体，赋予它们目标和生活目标，来模拟人类生活场景，并基于MATRIX生成的场景来生成高度真实和可控的合成指令数据。
 
@@ -46,22 +53,31 @@
 ## 自生成奖励与偏好
 这类方法让LLM自己充当裁判或奖励模型，来为生成的内容打分或提供偏好判断。
 
+- [**Constitutional AI: Harmlessness from AI Feedback**](https://arxiv.org/abs/2212.08073) *Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, et al.* Arxiv 2022.<br>提出Constitutional AI对齐策略，通过人工预先制定一组原则让模型依据这些AI宪法自我监督，从而无需人工逐条标注有害内容。分为两个阶段，在监督微调阶段，让模型从初始模型输出中生成自我批判和修正的响应并据此微调模型；随后在强化学习阶段，让模型自身比较两种输出优劣生成偏好数据来训练奖励模型，并使用该奖励信号进行策略优化。
+
 - [**Self-Rewarding Language Models.**](https://arxiv.org/abs/2401.10020) *Weizhe Yuan, Richard Yuanzhe Pang, Kyunghyun Cho, Xian Li, Sainbayar Sukhbaatar, Jing Xu, Jason Weston.* ICML 2024.<br>提出一个训练框架，其中LLM在作为奖励模型为自己生成的多个响应进行打分后，再利用这些自我生成的奖励通过DPO等算法进行微调，实现了自给自足的对齐学习。
 
 ****
+- [**Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge**](https://arxiv.org/abs/2407.19594) *Tianhao Wu, Weizhe Yuan, Olga Golovneva, Jing Xu, Yuandong Tian, Jiantao Jiao, Jason Weston, Sainbayar Sukhbaatar.* Arxiv 2024.<br>让LLM扮演三个角色：生成回答的actor、为回答打分的judge和评估judge打分的meta-judge。模型通过自我打分和评估来生成偏好数据，自我迭代训练过程，不断生成新的训练数据并进行优化。
+
 - [**Spread Preference Annotation: Direct Preference Judgment for Efficient LLM Alignment**](https://arxiv.org/abs/2406.04412v2) *Dongyoung Kim, Kimin Lee, Jinwoo Shin, Jaehyung Kim.* ICLR 2025.<br>用极少量人工偏好数据作为种子，通过迭自采样-自打分-自精炼三步，直接利用当前模型 logits 生成偏好标签并去噪，再用 DPO 微调，持续扩散人类偏好先验，实现低成本高效对齐。
 
 - [**Self-Boosting Large Language Models with Synthetic Preference Data**](https://arxiv.org/abs/2410.06961) *Qingxiu Dong, Li Dong, Xingxing Zhang, Zhifang Sui, Furu Wei.* ICLR 2025.<br>提出了一个Self-Boosting框架，用少量种子数据SFT模型自身作为提示生成器，在每一轮迭代中，提示生成器根据随机关键词产出合成prompt，用上一轮模型生成拒绝回答，再由响应改进器（同一模型经 SFT 区别学习 seed-answer 与当前输出的差异）改写成偏好回答，构成合成偏好对，在合成数据上重新训练模型，重复迭代。
 
-- [**Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge**](https://arxiv.org/abs/2407.19594) *Tianhao Wu, Weizhe Yuan, Olga Golovneva, Jing Xu, Yuandong Tian, Jiantao Jiao, Jason Weston, Sainbayar Sukhbaatar.* Arxiv 2024.<br>让LLM扮演三个角色：生成回答的actor、为回答打分的judge和评估judge打分的meta-judge。模型通过自我打分和评估来生成偏好数据，自我迭代训练过程，不断生成新的训练数据并进行优化。
+- [**An Uncertainty-Driven Adaptive Self-Alignment Framework for Large Language Models**](https://arxiv.org/abs/2507.17477) *Haoran Sun, Zekun Zhang, Shaoning Zeng.* Arxiv 2025.<br>提出了UDASA框架，其通过为每个输入生成多个响应，并从语义、事实和价值观对齐三个维度量化这些响应的不确定性，实现了自我对齐。基于不确定性差异，UDASA 自动构建偏好对，并将训练样本分为保守、中等和探索三个阶段，逐步优化模型。
 
 ## 其他
 ****
+
+- [**Self-instruct: Aligning language models with self-generated instructions**](https://arxiv.org/abs/2212.10560) *Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi.* ACL 2023.<br>从一个小型的人类种子任务集开始，迭代生成新的任务指令和对应的输入输出实例，然后通过过滤低质量或重复的生成内容，最终使用生成的数据对原始模型进行微调，从而显著提高模型在遵循指令方面的性能。
+
 - [**SELF-GUIDE: Better Task-Specific Instruction Following via Self-Synthetic Finetuning**](https://arxiv.org/abs/2407.12874) *Chenyang Zhao, Xueying Jia, Vijay Viswanathan, Tongshuang Wu, Graham Neubig.* COLM 2024.<br>让LLM用极少人类示例自合成大量任务专属训练数据，通过温度调节、噪声/长度规则过滤两轮质检，筛掉低质量样本，再用这些数据微调自身，从而无需外部标注或更强模型即可显著提升特定任务的指令遵循能力。
 
-- [**Constitutional AI: Harmlessness from AI Feedback**](https://arxiv.org/abs/2212.08073) *Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, et al.* Arxiv 2022.<br>提出Constitutional AI对齐策略，通过预先制定一组原则让模型依据这些AI宪法自我监督，从而无需人工逐条标注有害内容。分为两个阶段，在监督微调阶段，让模型从初始模型输出中生成自我批判和修正的响应并据此微调模型；随后在强化学习阶段，让模型自身比较两种输出优劣生成偏好数据来训练奖励模型，并使用该奖励信号进行策略优化。
+- [**CodecLM: Aligning Language Models with Tailored Synthetic Data**](https://aclanthology.org/2024.findings-naacl.235.pdf) *Zifeng Wang, Chun-Liang Li, Vincent Perot, Long T. Le, Jin Miao, Zizhao Zhang, Chen-Yu Lee, Tomas Pfister.* Findings of NAACL 2024.<br>CodecLM通过利用LLM作为编解码器，将种子指令编码为元数据，再解码生成定制化指令。它引入Self-Rubrics根据元数据生成评估标准和改进动作，提升指令复杂性；同时采用Contrastive Filtering筛选最有效的指令-响应对，优化数据质量，从而提高LLM在特定任务上的指令跟随能力。
 
-- [**Bootstrapping LLM-based Task-Oriented Dialogue Agents via Self-Talk**](https://aclanthology.org/2024.findings-acl.566.pdf) *Dennis Ulmer, Elman Mansimov, Kaixiang Lin, Justin Sun, Xibin Gao, Yi Zhang.* Findings of ACL 2024.<br>通过两个LLM分别代表客户端和代理模型，通过给客户端和代理模型提供角色描述、行为指令和对话历史，让它们在指定的角色中进行对话，并引入过滤步骤，保留质量较高的对话作为训练数据。
+- [**CoT-Self-Instruct: Building high-quality synthetic prompts for reasoning and non-reasoning tasks**](https://arxiv.org/abs/2507.23751) *Ping Yu, Jack Lanchantin, Tianlu Wang, Weizhe Yuan, Olga Golovneva, Ilia Kulikov, Sainbayar Sukhbaatar, Jason Weston, Jing Xu.* Arxiv 2025.<br>让LLMs基于给定的种子任务进行思维链推理和规划），生成新的合成指令。随后，利用自动化的筛选方法（如 Answer-Consistency 和 Rejecting Instruction Preferences, RIP）对生成的数据进行筛选，以确保数据质量。
+
+- [**DataGen: Unified Synthetic Dataset Generation via Large Language Models**](https://arxiv.org/abs/2406.18966) *Yue Huang, Siyuan Wu, Chujie Gao, Dongping Chen, Qihui Zhang, Yao Wan, Tianyi Zhou, Xiangliang Zhang, Jianfeng Gao, Chaowei Xiao, Lichao Sun.* ICLR 2025.<br>提出DataGen，一个利用LLM统一生成多种类型高质量数据集的框架。DataGen通过创新机制提升生成数据的多样性和准确性：利用属性引导和组校验确保生成数据具备丰富多样的风格；采用代码执行来验证标签准确、结合检索增强保证事实正确；并允许用户指定约束以定制生成过程。
 
 # Agent and Tool Use
 核心是生成高质量的训练数据，教会大型语言模型如何像一个智能体（Agent）一样，通过调用外部工具（如APIs、代码解释器、数据库）来完成超越其自身固有能力的复杂任务。
