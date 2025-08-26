@@ -85,8 +85,11 @@ How to get data?
 Data-generation method overview
 #### 2.1.1 highlight
 #### 2.1.2 Sampling-based
-##### sequence-level KD (YHT)
+##### KD 
+- white
+- black
 - [**Impossible Distillation for Paraphrasing and Summarization: How to Make High-quality Lemonade out of Small, Low-quality Models**](https://arxiv.org/abs/2305.16635) *Jaehun Jung, Peter West, Liwei Jiang, Faeze Brahman, Ximing Lu, Jillian Fisher, Taylor Sorensen, Yejin Choi.* NAACL 2024.
+- Alice: Proactive Learning with Teacher's Demonstrations for Weak-to-Strong Generalization Inference-Time Scaling for Generalist Reward Modeling. Arxiv 2025.
 
 ##### from scratch(new task, e.g., self-instruct)从0开始合成数据 (DYHP)
 - Absolute Zero: Reinforced Self-play Reasoning with Zero Data
