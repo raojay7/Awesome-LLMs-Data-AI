@@ -103,7 +103,8 @@ Data-generation method overview
 - [**Bonito: Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation**](https://arxiv.org/abs/2402.18334) *Nihal V. Nayak, Yiyang Nan, Avi Trost, Stephen H. Bach* ACL Findings 2024.
 ####  2.1.3 generation Back-translation (SJJ)
   - MT
-  - Reasoning
+  - Alignment
+    Self-Alignment with Instruction Backtranslation
 ####  2.1.4 Transformation of existing data (task Related datasets or documents) (WZY)
 ##### Knowledge Graph
 Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement. ACL 2025.
