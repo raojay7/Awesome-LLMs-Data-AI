@@ -98,7 +98,8 @@ Data-generation method overview
     Self-Alignment with Instruction Backtranslation
 ####  2.1.4 Transformation of existing data (task Related datasets or documents) (WZY)
 ##### Knowledge Graph
-Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement. ACL 2025.
+- [SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization](https://aclanthology.org/2023.emnlp-main.799/)*Hyunwoo Kim, Jack Hessel, Liwei Jiang, Peter West, Ximing Lu, Youngjae Yu, Pei Zhou, Ronan Bras, Malihe Alikhani, Gunhee Kim, Maarten Sap, Yejin Choi* EMNLP 2023.
+- Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement. ACL 2025.
 
 
 ##### Rephrasing documents 
