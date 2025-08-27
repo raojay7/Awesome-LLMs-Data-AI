@@ -130,7 +130,18 @@ scaling
   - [**Self-playing Adversarial Language Game Enhances LLM Reasoning**](https://arxiv.org/abs/2404.10642) *Pengyu Cheng, Tianhao Hu, Han Xu, Zhisong Zhang, Yong Dai, Lei Han, Nan Du* Arxiv 2024.
 
 ##### Focus on Error (WZY)
-- APT: Improving Specialist LLM Performance with Weakness Case Acquisition and Iterative Preference Training. Findings of ACL 2025.  
+  - [**CEM: A Data-Efficient Method for Large Language Models to Continue Evolving From Mistakes**](https://arxiv.org/abs/2404.08707) *Haokun Zhao, Haixia Han, Jie Shi, Chengyu Du, Jiaqing Liang, Yanghua Xiao* Arxiv 2024.
+  - [**Let’s Synthesize Step by Step: Iterative Dataset Synthesis with Large Language Models by Extrapolating Errors from Small Models**](https://aclanthology.org/2023.findings-emnlp.791/) *Ruida Wang, Wangchunshu Zhou, Mrinmaya Sachan* EMNLP Findings 2023.
+  - [**AutoDetect: Towards a Unified Framework for Automated Weakness Detection in Large Language Models**](https://aclanthology.org/2024.findings-emnlp.397/) *Jiale Cheng, Yida Lu, Xiaotao Gu, Pei Ke, Xiao Liu, Yuxiao Dong, Hongning Wang, Jie Tang, Minlie Huang* EMNLP Findings 2024.
+  - [**APT: Improving Specialist LLM Performance with Weakness Case Acquisition and Iterative Preference Training**](https://aclanthology.org/2025.findings-acl.1079/) *Jun Rao, Zepeng Lin, Xuebo Liu, Xiaopeng Ke, Lian Lian, Dong Jin, Shengjun Cheng, Jun Yu, Min Zhang* ACL Findings 2025.
+  - [**CDS: Data Synthesis Method Guided by Cognitive Diagnosis Theory**](https://aclanthology.org/2025.findings-acl.439/) *Haokun Zhao, Jinyi Han, Jiaqing Liang, Yanghua Xiao, Xiaojun Meng, Jiansheng Wei* ACL Findings 2025.
+  - [**SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning**](https://arxiv.org/abs/2506.08989) *Xiao Liang, Zhong-Zhi Li, Yeyun Gong, Yang Wang, Hengyuan Zhang, Yelong Shen, Ying Nian Wu, Weizhu Chen* Arxiv 2025.
+  - [**Error Classification of Large Language Models on Math Word Problems: A Dynamically Adaptive Framework**](https://arxiv.org/abs/2501.15581) *Yuhong Sun, Zhangyue Yin, Xuanjing Huang, Xipeng Qiu, Hui Zhao* Arxiv 2025.
+  - [**Evaluating Mathematical Reasoning of Large Language Models: A Focus on Error Identification and Correction**](https://aclanthology.org/2024.findings-acl.673/) *Xiaoyuan Li, Wenjie Wang, Moxin Li, Junrong Guo, Yang Zhang, Fuli Feng* ACL Findings 2024.
+  - [**RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold**](https://openreview.net/forum?id=9m87e9Keq1) *Amrith Setlur, Saurabh Garg, Xinyang Geng, Naman Garg, Virginia Smith, Aviral Kumar* NeurIPS 2024 poster.
+  - [**Self-Error-Instruct: Generalizing from Errors for LLMs Mathematical Reasoning**](https://aclanthology.org/2025.acl-long.417/) *Erxin Yu, Jing Li, Ming Liao, Qi Zhu, Boyang Xue, Minghui Xu, Baojun Wang, Lanqing Hong, Fei Mi, Lifeng Shang* ACL 2025.
+  - [**LEMMA: Learning from Errors for MatheMatical Advancement in LLMs**](https://aclanthology.org/2025.findings-acl.605/) *Zhuoshi Pan, Yu Li, Honglin Lin, Qizhi Pei, Zinan Tang, Wei Wu, Chenlin Ming, H. Vicky Zhao, Conghui He, Lijun Wu* ACL Findings 2025.
+  - [**Subtle Errors in Reasoning: Preference Learning via Error-injected Self-editing**](https://aclanthology.org/2025.acl-long.1506/) *Kaishuai Xu, Tiezheng Yu, Wenjun Hou, Yi Cheng, Chak Tou Leong, Liangyou Li, Xin Jiang, Lifeng Shang, Qun Liu, Wenjie Li* ACL 2025.
  
 #### 2.1.6 Symbolic generation 
   - Symbolic (MATH) (SJJ)
