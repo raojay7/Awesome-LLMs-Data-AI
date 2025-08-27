@@ -103,6 +103,9 @@ Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinemen
 - MAmmoTH2: Scaling Instructions from the Web (Instruction generation based on L0 data)
 - [**On the Diversity of Synthetic Data and its Impact on Training Large Language Models**](https://arxiv.org/abs/2410.15226)  *Hao Chen, Abdul Waheed, Xiang Li, Yidong Wang, Jindong Wang, Bhiksha Raj, Marah I. Abdin* Arxiv 2024.
 ##### Rephrasing documents for pretraining
+rag
+- [**Better Synthetic Data by Retrieving and Transforming Existing Datasets**](https://aclanthology.org/2024.findings-acl.385/) *Saumya Gandhi, Ritu Gala, Vijay Viswanathan, Tongshuang Wu, Graham Neubig* ACL(Findings) 2024.
+- CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation. TACL 2025.
 - [**Scaling Synthetic Data Creation with 1,000,000,000 Personas**](https://arxiv.org/abs/2406.20094) *Xin Chan, Xiaoyang Wang, Dian Yu, Haitao Mi, Dong Yu.* NeurIPS 2024.
 - [**Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling**](https://arxiv.org/abs/2401.16380) *Pratyush Maini, Skyler Seto, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly.* ACL 2024.
 - [**Source2Synth: Synthetic Data Generation and Curation Grounded in Real Data Sources**](https://arxiv.org/abs/2409.08239) *Alisia Lupidi, Carlos Gemmell, Nicola Cancedda, Jane Dwivedi-Yu, Jason Weston, Jakob Foerster, Roberta Raileanu, Maria Lomeli* Arxiv 2024.
