@@ -258,10 +258,32 @@
 
    1. [Tab-MIA: A Benchmark Dataset for Membership Inference Attacks on Tabular Data](https://arxiv.org/abs/2507.17259) *arXiv 2025*  
       提供首个面向表格数据和 LLM 的 membership inference attack benchmark dataset，可直接用于测试合成数据对隐私攻击的抵御能力。
-
    2. [Synthetic Data Vault (SDV)](https://sdv.dev) *MIT / Open Source Project*  
       提供成熟的合成数据生成和管理生态系统，包含多种生成器（GAN, VAE, Copula）及隐私测试工具，可用于生成和评估 tabular 数据集。
 
+   ## 回译技术
 
+   ###  Machine Translation–相关方法
 
+   1. [Self-Alignment with Instruction Backtranslation (Humpback)](https://arxiv.org/abs/2308.06259) *ICLR 2024 (oral)*  
+
+      提出“instruction backtranslation”方法：模型使用少量 seed (instruction, output) 对微调自身作为 “backward 模型”，再自动从网页文本中“self-augment”生成 instruction（x）–output（y）对，接着“self-curate”筛选高质量样本，迭代微调，显著提升 Alpaca leaderboard 表现，展现了高效的自我对齐能力。:contentReference[oaicite:0]{index=0}
+
+   2. [Better Alignment with Instruction Back-and-Forth Translation](https://arxiv.org/abs/2408.04614) *ACLFindings 2024*  
+
+      扩展 back-translation 方法，增加 response 重写环节：首先生成 instruction，再对原始响应进行 LLM 重写以提升质量，构建 (instruction, rewritten response) 对后微调模型；实验显示，此流程超越 Humpback、ShareGPT、Alpaca-GPT4 等常见数据集，在 AlpacaEval 上表现更优。:contentReference[oaicite:1]{index=1}
+
+   ###  Alignment–相关方法
+
+   1. [LongForm: Effective Instruction Tuning with Reverse Instructions](https://arxiv.org/abs/2304.08460) *EMNLP Findings 2024*  
+
+      提出“reverse instructions”机制：从现有人类文本（如 C4、Wikipedia）中抽取段落，再由 LLM 生成对应的 instruction–output 对，构建 LongForm-C 数据集，用于微调模型，显著提升长文本生成与理解能力，模型性能超过 FLAN-T5、Alpaca 等强基线。
+
+   2. [Safer-Instruct: Aligning Language Models with Automated Preference Data via Instruction Induction](https://aclanthology.org/2024.naacl-long.422/) *ACL 2024*  
+
+      提出“reverse instruction tuning”或“instruction induction”：反向训练模型 \(P(x|y)\)，即给定响应 y，让模型生成 instruction x；结合 GPT-4 做安全性过滤和偏好评分，构建偏好数据集，提高下游对话的“无害性”与对齐效果。
+
+   3. [CYCLE-INSTRUCT: Fully Seed-Free Instruction Tuning via Dual Self-Training and Cycle Consistency](https://arxiv.org/abs/2508.16100)*arxiv 2025*
+
+      提出一种无需种子数据的 instruction tuning 方法。两个模型（回答生成器 & question generator）在原始文本上循环自监督学习，实现“自生成 instruction 和 response”，完成对齐目标。
 
