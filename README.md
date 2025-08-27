@@ -105,6 +105,7 @@ Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinemen
 ##### Rephrasing documents for pretraining
 rag
 - [**Better Synthetic Data by Retrieving and Transforming Existing Datasets**](https://aclanthology.org/2024.findings-acl.385/) *Saumya Gandhi, Ritu Gala, Vijay Viswanathan, Tongshuang Wu, Graham Neubig* ACL(Findings) 2024.
+- [**Reformatted Alignment**](https://aclanthology.org/2024.findings-emnlp.32/) *Run-Ze Fan, Xuefeng Li, Haoyang Zou, Junlong Li, Shwai He, Ethan Chern, Jiewen Hu, Pengfei Liu* EMNLP(Findings) 2024.
 - CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation. TACL 2025.
 - [**Scaling Synthetic Data Creation with 1,000,000,000 Personas**](https://arxiv.org/abs/2406.20094) *Xin Chan, Xiaoyang Wang, Dian Yu, Haitao Mi, Dong Yu.* NeurIPS 2024.
 - [**Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling**](https://arxiv.org/abs/2401.16380) *Pratyush Maini, Skyler Seto, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly.* ACL 2024.
