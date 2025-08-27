@@ -13,15 +13,6 @@ This repo includes papers and blogs about the survey on Data-centric AI of LLMs.
 
 Thanks for all the great contributors on GitHub!🔥⚡🔥
 
-- To Do
-- [x] 每个人完成各自标记的文献总结，要求，通过找到自己的名字，如（WZY）来完成各自的部分：
-- [ ] 1. 一句话概况各个paper的idea，形成 paper名及idea概况的 Map（第一个映射）
-- [ ] 2. 各自子标题下归类总结一类paper做了什么，形成类别及paper名的 Map（第二个映射）
-- [ ] 3. 通过已有文献关键词，数据合成教程和之前给的seed paper（都是主题相关的）尽可能调研近3年已有的paper （比较出名的，比如顶会或者引用高）
-- [ ] 4. 确定这篇论文的出版物，如： [**Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision**](https://arxiv.org/abs/2305.03047) *Zhiqing Sun, Yikang Shen, Qinhong Zhou, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan.* NeurIPS 2023.
-- [ ] 5. 把这部分内容在各自的md文件更新
-
-survey 总体结构
 1. Surveys-> related work
 2. Methods-> How to get data?
 3. Stages-> How to use?
