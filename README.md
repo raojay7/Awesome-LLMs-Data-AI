@@ -171,6 +171,7 @@ Measure metric
     - Semantic tags
       - #InsTag: Instruction Tagging for Analyzing Supervised Fine-tuning of Large Language Models. ICLR 2024.
   -  loss gradients [https://nvlabs.github.io/prismatic-synthesis/] LESS: Selecting Influential Data for Targeted Instruction Tuning
+  -  Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection. ACL 2025.
 #### 2.2.2 Quality filtering
   -  reward models (LLMs)
   -  Correctness (final answer verification) 
