@@ -172,10 +172,19 @@ Measure metric
       - #InsTag: Instruction Tagging for Analyzing Supervised Fine-tuning of Large Language Models. ICLR 2024.
   - loss gradients [https://nvlabs.github.io/prismatic-synthesis/]
     - [LESS: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/abs/2402.04333) Mengzhou Xia, Sadhika Malladi, Suchin Gururangan, Sanjeev Arora, Danqi Chen. ICML 2024.
-    - Mates: Model-aware data selection for efficient pretraining with data influence models. NeurlPS 2024.
+    - Mates: Model-aware data selection for efficient pretraining with data influence models. NeurIPS 2024.
   -  Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection. ACL 2025.
 #### 2.2.2 Quality filtering （yzh）
-  -  reward models (LLMs) 
+  -  reward models (LLMs)
+     -  Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models. EMNLP 2024.
+     -  AlpaGasus: Training A Better Alpaca with Fewer Data.
+     -  Rethinking the Instruction Quality: LIFT is What You Need.
+  -  metrics
+     -  GREATS: Online Selection of High-Quality Data for LLM Training in Every Iteration. NeurIPS 2024.
+     -  Maybe only 0.5 data is needed: A pre￾liminary exploration of low training data instruction tuning.
+     -  From Quantity to Quality: Boosting LLM Performance with Self-Guided Data Selection for Instruction Tuning.
+     -  DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.
+     -  STaR: Bootstrapping Reasoning With Reasoning. NeurIPS 2022.
   -  Correctness (final answer verification) 
 
 #### 2.2.3 Multi filtering
