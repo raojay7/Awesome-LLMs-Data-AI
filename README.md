@@ -172,8 +172,8 @@ Measure metric
       - #InsTag: Instruction Tagging for Analyzing Supervised Fine-tuning of Large Language Models. ICLR 2024.
   -  loss gradients [https://nvlabs.github.io/prismatic-synthesis/] LESS: Selecting Influential Data for Targeted Instruction Tuning
   -  Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection. ACL 2025.
-#### 2.2.2 Quality filtering
-  -  reward models (LLMs)
+#### 2.2.2 Quality filtering （yzh）
+  -  reward models (LLMs) 
   -  Correctness (final answer verification) 
 
 #### 2.2.3 Multi filtering
@@ -255,7 +255,7 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
     - Learn from minimal supervision
     - Learn from negative examples (e.g. harmful behavior)
     - Adapt models to their own token distribution rather than text written by others (“exposure bias”) 
-#### 3.2.2 Training Methods
+#### 3.2.2 Training Methods （yzh）
 KTO DPO PPO等
 - Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)
 - DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO)
