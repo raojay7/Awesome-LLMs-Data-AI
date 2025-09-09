@@ -98,24 +98,24 @@ Data-generation method overview
     Self-Alignment with Instruction Backtranslation
 ####  2.1.4 Transformation of existing data (task Related datasets or documents) (WZY)
 ##### Knowledge Graph
-- [SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization](https://aclanthology.org/2023.emnlp-main.799/)*Hyunwoo Kim, Jack Hessel, Liwei Jiang, Peter West, Ximing Lu, Youngjae Yu, Pei Zhou, Ronan Bras, Malihe Alikhani, Gunhee Kim, Maarten Sap, Yejin Choi* EMNLP 2023.
-- Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement. ACL 2025.
-
+- [**SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization**](https://aclanthology.org/2023.emnlp-main.799/)*Hyunwoo Kim, Jack Hessel, Liwei Jiang, Peter West, Ximing Lu, Youngjae Yu, Pei Zhou, Ronan Bras, Malihe Alikhani, Gunhee Kim, Maarten Sap, Yejin Choi* EMNLP 2023.
+- [**Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement**](https://aclanthology.org/2025.acl-long.1091/)*Maosongcao Maosongcao, Taolin Zhang, Mo Li, Chuyu Zhang, Yunxin Liu, Conghui He, Haodong Duan, Songyang Zhang, Kai Chen* ACL 2025.
 
 ##### Rephrasing documents 
-rag
-- [**Better Synthetic Data by Retrieving and Transforming Existing Datasets**](https://aclanthology.org/2024.findings-acl.385/) *Saumya Gandhi, Ritu Gala, Vijay Viswanathan, Tongshuang Wu, Graham Neubig* ACL(Findings) 2024.
-- [**Reformatted Alignment**](https://aclanthology.org/2024.findings-emnlp.32/) *Run-Ze Fan, Xuefeng Li, Haoyang Zou, Junlong Li, Shwai He, Ethan Chern, Jiewen Hu, Pengfei Liu* EMNLP(Findings) 2024.
-- CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation. TACL 2025.
 
 scaling
 
-- MAmmoTH2: Scaling Instructions from the Web (Instruction generation based on L0 data). NeurIPS 2024.
-- [**Scaling Synthetic Data Creation with 1,000,000,000 Personas**](https://arxiv.org/abs/2406.20094) *Xin Chan, Xiaoyang Wang, Dian Yu, Haitao Mi, Dong Yu.* NeurIPS 2024.
-- [**Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling**](https://arxiv.org/abs/2401.16380) *Pratyush Maini, Skyler Seto, He Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly.* ACL 2024.
-  
+- [**MAmmoTH2: Scaling Instructions from the Web**](https://arxiv.org/abs/2405.03548) *Xiang Yue, Tuney Zheng, Ge Zhang, Wenhu Chen* NeurIPS 2024.
+- [**Scaling Synthetic Data Creation with 1,000,000,000 Personas**](https://arxiv.org/abs/2406.20094) *Tao Ge, Xin Chan, Xiaoyang Wang, Dian Yu, Haitao Mi, Dong Yu.* NeurIPS 2024.
+- [**Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling**](https://aclanthology.org/2024.acl-long.757/) *Pratyush Maini, Skyler Seto, Richard Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly* ACL 2024.
 - [**On the Diversity of Synthetic Data and its Impact on Training Large Language Models**](https://arxiv.org/abs/2410.15226)  *Hao Chen, Abdul Waheed, Xiang Li, Yidong Wang, Jindong Wang, Bhiksha Raj, Marah I. Abdin* Arxiv 2024.
 - [**Source2Synth: Synthetic Data Generation and Curation Grounded in Real Data Sources**](https://arxiv.org/abs/2409.08239) *Alisia Lupidi, Carlos Gemmell, Nicola Cancedda, Jane Dwivedi-Yu, Jason Weston, Jakob Foerster, Roberta Raileanu, Maria Lomeli* Arxiv 2024.
+
+rag
+
+- [**Better Synthetic Data by Retrieving and Transforming Existing Datasets**](https://aclanthology.org/2024.findings-acl.385/) *Saumya Gandhi, Ritu Gala, Vijay Viswanathan, Tongshuang Wu, Graham Neubig* ACL(Findings) 2024.
+- [**Reformatted Alignment**](https://aclanthology.org/2024.findings-emnlp.32/) *Run-Ze Fan, Xuefeng Li, Haoyang Zou, Junlong Li, Shwai He, Ethan Chern, Jiewen Hu, Pengfei Liu* EMNLP(Findings) 2024.
+- [**CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation**](https://arxiv.org/abs/2409.02098) *Ingo Ziegler, Abdullatif Köksal, Desmond Elliott, Hinrich Schütze*. TACL 2025.
 #### 2.1.5 Human-Al collaboration 
 ##### self-generation (MHS)
   - [**STaR: Bootstrapping Reasoning With Reasoning**](https://arxiv.org/abs/2203.14465) *Eric Zelikman, Yuhuai Wu, Jesse Mu, Noah D. Goodman.* NeurIPS 2022.
