@@ -170,7 +170,9 @@ Measure metric
       - [DEITA: What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning] ICLR 2024.
     - Semantic tags
       - #InsTag: Instruction Tagging for Analyzing Supervised Fine-tuning of Large Language Models. ICLR 2024.
-  -  loss gradients [https://nvlabs.github.io/prismatic-synthesis/] LESS: Selecting Influential Data for Targeted Instruction Tuning
+  -  loss gradients [https://nvlabs.github.io/prismatic-synthesis/]
+    -  [LESS: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/abs/2402.04333) Mengzhou Xia, Sadhika Malladi, Suchin Gururangan, Sanjeev Arora, Danqi Chen. ICML 2024.
+    -  Mates: Model-aware data selection for efficient pre￾training with data influence models. NeurlPS 2024.
   -  Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection. ACL 2025.
 #### 2.2.2 Quality filtering （yzh）
   -  reward models (LLMs) 
