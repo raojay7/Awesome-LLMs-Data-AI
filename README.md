@@ -181,7 +181,7 @@ Measure metric
      -  Rethinking the Instruction Quality: LIFT is What You Need.
   -  metrics
      -  GREATS: Online Selection of High-Quality Data for LLM Training in Every Iteration. NeurIPS 2024.
-     -  Maybe only 0.5 data is needed: A pre￾liminary exploration of low training data instruction tuning.
+     -  Maybe only 0.5 data is needed: A preliminary exploration of low training data instruction tuning.
      -  From Quantity to Quality: Boosting LLM Performance with Self-Guided Data Selection for Instruction Tuning.
      -  DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.
      -  STaR: Bootstrapping Reasoning With Reasoning. NeurIPS 2022.
