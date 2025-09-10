@@ -101,9 +101,14 @@ Data-generation method overview
 - [**TarGEN: Targeted Data Generation with Large Language Models**](https://arxiv.org/abs/2310.17876) *Himanshu Gupta, Kevin Scaria, Ujjwala Anantheswaran, Shreyas Verma, Mihir Parmar, Saurabh Arjun Sawant, Chitta Baral, Swaroop Mishra.* COLM 2024.
 - [**Bonito: Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation**](https://arxiv.org/abs/2402.18334) *Nihal V. Nayak, Yiyang Nan, Avi Trost, Stephen H. Bach* ACL Findings 2024.
 ####  2.1.3 generation Back-translation (SJJ)
-  - MT
-  - Alignment
-    Self-Alignment with Instruction Backtranslation
+##### MT
+- [**Self-Alignment with Instruction Backtranslation**](https://arxiv.org/abs/2308.06259) *Xian Li, Ping Yu, Chunting Zhou, Timo Schick, Omer Levy, Luke Zettlemoyer, Jason Weston, Mike Lewis.* ICLR 2024.
+- [**Better Alignment with Instruction Back-and-Forth Translation**](https://aclanthology.org/2024.findings-emnlp.777/) *Thao Nguyen, Jeffrey Li, Sewoong Oh, Ludwig Schmidt, Jason Weston, Luke Zettlemoyer, Xian Li.* EMNLP 2024.
+##### Alignment
+- Self-Alignment with Instruction Backtranslation
+- [**LongForm: Effective Instruction Tuning with Reverse Instructions**](https://arxiv.org/abs/2304.08460) *Abdullatif Köksal, Timo Schick, Anna Korhonen, Hinrich Schütze.* EMNLP 2024.
+- [**Safer-Instruct: Aligning Language Models with Automated Preference Data**](https://arxiv.org/abs/2311.08685) *Taiwei Shi, Kai Chen, Jieyu Zhao.* NAACL 2024.
+- [**CYCLE-INSTRUCT: Fully Seed-Free Instruction Tuning via Dual Self-Training and Cycle Consistency**](https://arxiv.org/abs/2508.16100) *Zhanming Shen, Hao Chen, Yulei Tang, Shaolin Zhu, Wentao Ye, Xiaomeng Hu, Haobo Wang, Gang Chen, Junbo Zhao.* EMNLP 2025.
 ####  2.1.4 Transformation of existing data (task Related datasets or documents) (WZY)
 ##### Knowledge Graph
 - [**SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization**](https://aclanthology.org/2023.emnlp-main.799/)*Hyunwoo Kim, Jack Hessel, Liwei Jiang, Peter West, Ximing Lu, Youngjae Yu, Pei Zhou, Ronan Bras, Malihe Alikhani, Gunhee Kim, Maarten Sap, Yejin Choi* EMNLP 2023.
