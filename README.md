@@ -137,6 +137,7 @@ rag
   - [**Self-Rewarding Language Models.**](https://arxiv.org/abs/2401.10020) *Weizhe Yuan, Richard Yuanzhe Pang, Kyunghyun Cho, Xian Li, Sainbayar Sukhbaatar, Jing Xu, Jason Weston.* Arxiv 2024.
   - [**Automatic Instruction Evolving for Large Language Models**](https://arxiv.org/abs/2406.00770) *Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen.* Arxiv 2024.
   - [**Self-playing Adversarial Language Game Enhances LLM Reasoning**](https://arxiv.org/abs/2404.10642) *Pengyu Cheng, Tianhao Hu, Han Xu, Zhisong Zhang, Yong Dai, Lei Han, Nan Du* Arxiv 2024.
+  - [**SEER: Self-Aligned Evidence Extraction for Retrieval-Augmented Generation**](https://arxiv.org/abs/2410.11315). *Xinping Zhao, Dongfang Li, Yan Zhong, Boren Hu, Yibin Chen, Baotian Hu, Min Zhang.* EMNLP 2024.
 
 ##### Focus on Error (WZY)
   - [**CEM: A Data-Efficient Method for Large Language Models to Continue Evolving From Mistakes**](https://arxiv.org/abs/2404.08707) *Haokun Zhao, Haixia Han, Jie Shi, Chengyu Du, Jiaqing Liang, Yanghua Xiao.* Arxiv 2024.
