@@ -91,7 +91,6 @@ Data-generation method overview
 
 ##### from scratch(new task, e.g., self-instruct)从0开始合成数据 (DYHP)
 - Absolute Zero: Reinforced Self-play Reasoning with Zero Data
-- Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement. Findings of ACL 2025
 - Synthetic Data RL: Task Definition Is All You Need
 - Condor: Enhance llm alignment with knowledge-driven data synthesis and refinement
 - [**Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models**](https://arxiv.org/abs/2402.13064) *Haoran Li, Qingxiu Dong, Zhengyang Tang, Chaojun Wang, Xingxing Zhang, Haoyang Huang, Shaohan Huang, Xiaolong Huang, Zeqiang Huang, Dongdong Zhang, Yuxian Gu, Xin Cheng, Xun Wang, Si-Qing Chen, Li Dong, Wei Lu, Zhifang Sui, Benyou Wang, Wai Lam, Furu Wei.* Arxiv 2024.
@@ -137,7 +136,15 @@ rag
   - [**Self-Rewarding Language Models.**](https://arxiv.org/abs/2401.10020) *Weizhe Yuan, Richard Yuanzhe Pang, Kyunghyun Cho, Xian Li, Sainbayar Sukhbaatar, Jing Xu, Jason Weston.* Arxiv 2024.
   - [**Automatic Instruction Evolving for Large Language Models**](https://arxiv.org/abs/2406.00770) *Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen.* Arxiv 2024.
   - [**Self-playing Adversarial Language Game Enhances LLM Reasoning**](https://arxiv.org/abs/2404.10642) *Pengyu Cheng, Tianhao Hu, Han Xu, Zhisong Zhang, Yong Dai, Lei Han, Nan Du* Arxiv 2024.
-  - [**SEER: Self-Aligned Evidence Extraction for Retrieval-Augmented Generation**](https://arxiv.org/abs/2410.11315). *Xinping Zhao, Dongfang Li, Yan Zhong, Boren Hu, Yibin Chen, Baotian Hu, Min Zhang.* EMNLP 2024.
+  - [**SEER: Self-Aligned Evidence Extraction for Retrieval-Augmented Generation**](https://arxiv.org/abs/2410.11315) *Xinping Zhao, Dongfang Li, Yan Zhong, Boren Hu, Yibin Chen, Baotian Hu, Min Zhang.* EMNLP 2024.
+  - [**ChatGLM-Math: Improving Math Problem-Solving in Large Language Models with a Self-Critique Pipeline**](https://arxiv.org/abs/2404.02893) *Yifan Xu, Xiao Liu, Xinghan Liu, Zhenyu Hou, Yueyan Li, Xiaohan Zhang, Zihan Wang, Aohan Zeng, Zhengxiao Du, Wenyi Zhao, Jie Tang, Yuxiao Dong.* EMNLP 2024.
+  - [**SALMON: Self-Alignment with Instructable Reward Models**](https://arxiv.org/abs/2310.05910) *Zhiqing Sun, Yikang Shen, Hongxin Zhang, Qinhong Zhou, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan.* ICLR 2024.
+  - [**Principle-driven self￾alignment of language models from scratch with min￾imal human supervision**](https://openreview.net/forum?id=p40XRfBX96) *Zhiqing Sun, Yikang Shen, Qinhong Zhou, Hongxin Zhang, Zhenfang Chen, David Daniel Cox, Yiming Yang, and Chuang Gan.* NeurIPS 2023.
+  - [**Self-Refine Instruction-Tuning for Aligning Reasoning in Language Models**](https://arxiv.org/abs/2405.00402) *Leonardo Ranaldi, Andrè Freitas.* EMNLP 2024.
+  - [**Self-critiquing models for assisting human evaluators**](https://arxiv.org/abs/2206.05802) *William Saunders, Catherine Yeh, Jeff Wu, Steven Bills, Long Ouyang, Jonathan Ward, Jan Leike.* Arxiv 2022.
+  - [**Self-play with Execution Feedback: Improving Instruction-following Capabilities of Large Language Models**](https://arxiv.org/abs/2406.13542) *Guanting Dong, Keming Lu, Chengpeng Li, Tingyu Xia, Bowen Yu, Chang Zhou, Jingren Zhou.* ICLR 2025.
+  - [**Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement**](https://arxiv.org/abs/2506.03541) *Xiaofeng Zhou, Heyan Huang, Lizi Liao.* ACL 2025.
+  - [**SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers**](https://arxiv.org/abs/2507.20527) *Chaitanya Manem, Pratik Prabhanjan Brahma, Prakamya Mishra, Zicheng Liu, Emad Barsoum.* Arxiv 2025.
 
 ##### Focus on Error (WZY)
   - [**CEM: A Data-Efficient Method for Large Language Models to Continue Evolving From Mistakes**](https://arxiv.org/abs/2404.08707) *Haokun Zhao, Haixia Han, Jie Shi, Chengyu Du, Jiaqing Liang, Yanghua Xiao.* Arxiv 2024.
