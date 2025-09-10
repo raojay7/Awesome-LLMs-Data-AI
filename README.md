@@ -80,7 +80,14 @@ Data-generation method overview
 - white
 - black
 - [**Impossible Distillation for Paraphrasing and Summarization: How to Make High-quality Lemonade out of Small, Low-quality Models**](https://arxiv.org/abs/2305.16635) *Jaehun Jung, Peter West, Liwei Jiang, Faeze Brahman, Ximing Lu, Jillian Fisher, Taylor Sorensen, Yejin Choi.* NAACL 2024.
-- Alice: Proactive Learning with Teacher's Demonstrations for Weak-to-Strong Generalization Inference-Time Scaling for Generalist Reward Modeling. Arxiv 2025.
+- [Alice: Proactive Learning with Teacher's Demonstrations for Weak-to-Strong Generalization Inference-Time Scaling for Generalist Reward Modeling](https://arxiv.org/abs/2504.07316). Arxiv 2025.
+- [Minillm: Knowledge distillation of large language models](https://arxiv.org/abs/2306.08543). ICLR 2024.
+- [Gkd: Generalized knowledge distillation for auto-regressive sequence models](https://arxiv.org/abs/2306.13649). ICLR 2024.
+- [Exploring and Enhancing the Transfer of Distribution in Knowledge Distillation for Autoregressive Language Models](https://arxiv.org/abs/2409.12512).
+- [Sequencelevel knowledge distillation](https://aclanthology.org/D16-1139.pdf).
+- [Distilling step-by-step! outperforming larger language models with less training data and smaller model sizes](https://arxiv.org/abs/2305.02301). ACL 2023.
+- [Large language models are reasoning teachers](https://arxiv.org/abs/2212.10071). ACL 2023.
+- [Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning](https://arxiv.org/abs/2402.13669). ACL 2024.
 
 ##### from scratch(new task, e.g., self-instruct)从0开始合成数据 (DYHP)
 - Absolute Zero: Reinforced Self-play Reasoning with Zero Data
