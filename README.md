@@ -1,5 +1,5 @@
 # Awesome-LLMs-Data-AI
-# A Survey on Data-centric LLMs: From Creation to Application.
+# A Survey on Data-Centric LLMs Lifecycle
 
 <div align="center">
 
