@@ -317,9 +317,15 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
     - Learn from negative examples (e.g. harmful behavior)
     - Adapt models to their own token distribution rather than text written by others (“exposure bias”) 
 #### 3.2.2 Training Methods （yzh）
-KTO DPO PPO等
+KTO DPO PPO等 
+- Proximal policy optimization algorithms (PPO)
 - Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)
+  - Smaug: Fixing failure modes of preference optimisation with dpo-positive
+- ORPO: Monolithic preference optimization without reference model (ORPO)
+- SimPO: Simple preference optimization with a reference-free reward (SimPO)
+- Model alignment as prospect theoretic optimization (KTO)
 - DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO)
+- Reinforce++: An efficient rlhf algorithm with robustness to both prompt and reward models
 - SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training (SFT & RL Action Analysis)
 - All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
    - Synthetic Feedback (Algorithms adapt to data)
