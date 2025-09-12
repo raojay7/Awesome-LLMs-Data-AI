@@ -168,6 +168,19 @@ rag
 #### 2.1.6 Symbolic generation 
   - Symbolic (MATH) (SJJ)
 
+##### Reasoning Process
+- [**Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning**](https://arxiv.org/abs/2305.12295) *Liangming Pan, Alon Albalak, Xinyi Wang, William Yang Wang.* EMNLP 2023.
+- [**Large Language Models Are Neurosymbolic Reasoners**](https://ojs.aaai.org/index.php/AAAI/article/view/29754) *Meng Fang, Shilong Deng, Yudi Zhang, Zijing Shi, Ling Chen, Mykola Pechenizkiy, Jun Wang.* AAAI 2024.
+- [**Symbolic regression with a learned concept library**](https://proceedings.neurips.cc/paper_files/paper/2024/hash/4ec3ddc465c6d650c9c419fb91f1c00a-Abstract-Conference.html) *Arya Grayeli, Atharva Sehgal, Omar Costilla-Reyes, Miles Cranmer, Swarat Chaudhuri.* NeurIPS 2024.
+- [**Faithful Logical Reasoning via Symbolic Chain-of-Thought**](https://arxiv.org/abs/2405.18357) *Jundong Xu, Hao Fei, Liangming Pan, Qian Liu, Mong-Li Lee, Wynne Hsu.* ACL 2024.
+- [**ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs**](https://arxiv.org/abs/2506.15211) *Feng He, Zijun Chen, Xinnian Liang, Tingting Ma, Yunqi Qiu, Shuangzhi Wu, Junchi Yan.* Arxiv 2025.
+- [**Aristotle: Mastering Logical Reasoning with A Logic-Complete Decompose-Search-Resolve Framework**](https://arxiv.org/abs/2412.16953) *Jundong Xu, Hao Fei, Meng Luo, Qian Liu, Liangming Pan, William Yang Wang, Preslav Nakov, Mong-Li Lee, Wynne Hsu.* Arxiv 2024.
+- [**Com$^2$: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models**](https://arxiv.org/abs/2506.07064) *Kai Xiong, Xiao Ding, Yixin Cao, Yuxiong Yan, Li Du, Yufei Zhang, Jinglong Gao, Jiaqian Liu, Bing Qin, Ting Liu.* ACL 2025.
+- [**Sound and Complete Neurosymbolic Reasoning with LLM-Grounded Interpretations**](https://arxiv.org/abs/2507.09751) *Bradley P. Allen, Prateek Chhikara, Thomas Macaulay Ferguson, Filip Ilievski, Paul Groth.* NeSy 2025.
+- [**SymbolicThought: Integrating Language Models and Symbolic Reasoning for Consistent and Interpretable Human Relationship Understanding**](https://arxiv.org/abs/2507.04189) *Runcong Zhao, Qinglin Zhu, Hainiu Xu, Bin Liang, Lin Gui, Yulan He.* Arxiv 2025.
+
+##### Multilingual 
+
 #### 2.1.7 Scaling Laws 
 - Training compute-optimal large language models
 - Scaling Language Models Methods, Analysis & Insights from Training Gopher
