@@ -181,6 +181,11 @@ rag
 
 ##### Multilingual 
 
+- [**MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions**](https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.18/132911) *Abdullatif Köksal, Marion Thaler, Ayyoob Imani, Ahmet Üstün, Anna Korhonen, Hinrich Schütze.* TACL 2025.
+- [**Scaling Synthetic Logical Reasoning Datasets with Context-Sensitive Declarative Grammars**](https://arxiv.org/abs/2406.11035) *Damien Sileo.* Arxiv 2024.
+- [**AdaMCoT: Rethinking Cross-Lingual Factual Reasoning through Adaptive Multilingual Chain-of-Thought**](https://arxiv.org/abs/2501.16154) *Weihua Zheng, Xin Huang, Zhengyuan Liu, Tarun Kumar Vangani, Bowei Zou, Xiyan Tao, Yuhao Wu, Ai Ti Aw, Nancy F. Chen, Roy Ka-Wei Lee.* Arxiv 2025.
+- [**Enhancing Large Language Models with Neurosymbolic Reasoning for Multilingual Tasks**](https://arxiv.org/abs/2506.02483) *Sina Bagheri Nezhad, Ameeta Agrawal.* NeSy 2025.
+
 #### 2.1.7 Scaling Laws 
 - Training compute-optimal large language models
 - Scaling Language Models Methods, Analysis & Insights from Training Gopher
