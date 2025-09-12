@@ -293,6 +293,8 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
     - Feed new information to the model
 #### 3.2.2 Training Methods
 - NEFTune: Noisy Embeddings Improve Instruction Finetuning
+- RAFT: Reward ranked finetuning for generative foundation model alignment
+- Deepseek-coder-v2: Breaking the barrier of closed-source models in code intelligence
 - REFT: Reasoning with REinforced Fine-Tuning (RFT)
 - Threshold Filtering Packing for Supervised Fine-Tuning: Training Related Samples within Packs
 - Packing Analysis: Packing Is More Appropriate for Large Models or Datasets in Supervised Fine-tuning
@@ -302,6 +304,13 @@ FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
     - COT
       - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. NeurIPS 2022.
   - Self-Guide (WZY)
+  - Finetuned language models are zero-shot learners
+  - Super-NaturalInstructions: Generalization via declarative instructions on 1600+ NLP tasks
+  - Scaling instruction-finetuned language models
+  - Flan-moe: Scaling instruction-finetuned language models with sparse mixture of experts
+  - One embedder, any task: Instruction-finetuned text embeddings
+  - How far can camels go? exploring the state of instruction tuning on open resources
+  - Tulu 3: Pushing frontiers in open language model post-training
 ### 3.3 RL
 #### 3.2.1 highlight
     - Learn from minimal supervision
