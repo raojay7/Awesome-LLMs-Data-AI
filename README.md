@@ -212,7 +212,7 @@ selection
 
 #### 4.2.2 Data Transformation
 - [SODA: Million-Scale Dialogue Distillation with Social Commonsense Contextualization](https://aclanthology.org/2023.emnlp-main.799/). EMNLP 2023.
-- [MAmmoTH2: Scaling Instructions from the Web](https://arxiv.org/abs/2310.06562). NeurIPS 2024.
+- [MAmmoTH2: Scaling Instructions from the Web](https://arxiv.org/abs/2405.03548). NeurIPS 2024.
 - [Tree-KG: An Expandable Knowledge Graph Construction Framework for Knowledge-Intensive Domains](https://aclanthology.org/2025.acl-long.907/). ACL 2025.
 - [Personas: Scaling Synthetic Data Creation with 1,000,000,000 Personas](https://arxiv.org/abs/2406.20094). arXiv 2024.
 - [Reformatted Alignment](https://aclanthology.org/2024.findings-emnlp.32/). EMNLP 2024 Findings.
@@ -222,16 +222,16 @@ selection
 - [LongForm: Effective Instruction Tuning with Reverse Instructions](https://aclanthology.org/2024.findings-emnlp.414/). EMNLP 2024 Findings.
 - [Back-and-Forth Translation: Better Alignment with Instruction Back-and-Forth Translation](https://aclanthology.org/2024.findings-emnlp.777/). EMNLP 2024 Findings.
 - [Safer-Instruct: Aligning Language Models with Automated Preference Data](https://aclanthology.org/2024.naacl-long.422/). NAACL 2024.
-- [Cycle-Instruct: Fully Seed-Free Instruction Tuning via Dual Self-Training and Cycle Consistency](https://arxiv.org/abs/2505.19139). ACL 2025.
+- [Cycle-Instruct: Fully Seed-Free Instruction Tuning via Dual Self-Training and Cycle Consistency](https://aclanthology.org/2025.emnlp-main.258/). EMNLP 2025.
 
 #### 4.2.4 Human-AI Collaboration
-- [SELF-ALIGN: Principle-Driven Self-Alignment of Language Models from Scratch](https://arxiv.org/abs/2210.11991). NeurIPS 2023.
+- [SELF-ALIGN: Principle-Driven Self-Alignment of Language Models from Scratch](https://arxiv.org/abs/2305.03047). NeurIPS 2023.
 - [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651). NeurIPS 2023.
 - [SPIN: Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335). ICML 2024.
 - [Self-Critiquing Models for Assisting Human Evaluators](https://arxiv.org/abs/2206.05802). arXiv 2022.
-- [AutoIF: Self-Play with Execution Feedback Improves Instruction-Following](https://arxiv.org/abs/2405.12995). ICLR 2025.
+- [AutoIF: Self-Play with Execution Feedback Improves Instruction-Following](https://arxiv.org/abs/2406.13542). ICLR 2025.
 - [APT: Improving Specialist LLM Performance with Weakness Case Acquisition and Iterative Preference Training](https://aclanthology.org/2025.findings-acl.1079/). ACL 2025 Findings.
-- [SwS: Self-Aware Weakness-Driven Problem Synthesis in Reinforcement Learning for LLM Reasoning](https://arxiv.org/abs/2503.21782). ICLR 2025.
+- [SwS: Self-Aware Weakness-Driven Problem Synthesis in Reinforcement Learning for LLM Reasoning](https://arxiv.org/abs/2506.08989). ICLR 2025.
 - [Self-Error-Instruct: Generalizing from Errors for LLMs Mathematical Reasoning](https://aclanthology.org/2025.acl-long.417/). ACL 2025.
 - [LEMMA: Learning from Errors for Mathematical Advancement in LLMs](https://aclanthology.org/2025.findings-acl.605/). ACL 2025 Findings.
 - [RISE: Subtle Errors in Reasoning — Preference Learning via Error-Injected Self-Editing](https://aclanthology.org/2025.acl-long.1506/). ACL 2025.
