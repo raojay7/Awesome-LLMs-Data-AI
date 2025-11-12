@@ -58,53 +58,10 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
       - [5.4.1 Consistency](#541-consistency)
       - [5.4.2 RAG](#542-rag)
       - [5.4.3 Decoding](#543-decoding)
-  - [6. Future Trends]
-    - [6.1 Dataset]
-      - [6.1.1 Domain-Specific Data Scarcity](#611-domain-specific-data-scarcity)
-        - [Craft Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation](https://arxiv.org/abs/2404.07991). TACL 2025.
-
-      - [6.1.2 Cross-Domain Data Reutilization](#612-cross-domain-data-reutilization)
-        - [Synthetic Continued Pretraining](https://arxiv.org/abs/2409.07459). ICLR 2025.
-
-      - [6.1.3 Data Sensitivity and Privacy](#613-data-sensitivity-and-privacy)
-        - [Differentially Private Synthetic Data via Foundation Model APIs 2: Text](https://arxiv.org/abs/2403.01749). ICML 2024.
-    - [6.2 Creation]
-      - [6.2.1 Data Agent Pipelines](#621-data-agent-pipelines)
-        - [DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows](https://aclanthology.org/2024.acl-long.208/). ACL 2024.
-
-      - [6.2.2 Multi-source Synthesis](#622-multi-source-synthesis)
-        - [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://aclanthology.org/2025.acl-long.1091/). ACL 2025.
-
-      - [6.2.3 Data Flywheel](#623-data-flywheel)
-        - [Recycle-The-Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models](https://arxiv.org/abs/2408.09812). ACL 2025 Findings.
-
-      - [6.2.4 User Collaboration](#624-user-collaboration)
-        - [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2401.12968). ICLR 2025.
-
-      - [6.2.5 Cross-modal Knowledge Utilization](#625-cross-modal-knowledge-utilization)
-        - [TextHarmony: A Unified Architecture for Multimodal LLMs Integrating Vision, Language and Diffusion](https://arxiv.org/abs/2407.12773). NeurIPS 2024.
-
-      - [6.2.6 Data Efficiency](#626-data-efficiency)
-        - [Less: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/abs/2402.04333). ICML 2024.
-
-      - [6.2.7 Length Control](#627-length-control)
-        - [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2310.18558). TMLR 2025.
-
-      - [6.2.8 Model-Aware Filter](#628-model-aware-filter)
-        - [SeaPO: Strategic Error Amplification for Robust Preference Optimization](https://arxiv.org/abs/2409.12512). EMNLP 2025 Findings.
-    - [6.3 Strategy]
-      - [6.3.1 Unified Post-Training](#631-unified-post-training)
-        - [SRFT: A Single-Stage Method with Supervised and Reinforcement Fine-Tuning for Reasoning](https://arxiv.org/abs/2506.19767). arXiv 2025.
-
-      - [6.3.2 Cross-Stage Data Reutilization](#632-cross-stage-data-reutilization)
-        - [Physics of Language Models: Part 3.1, Knowledge Storage and Extraction](https://arxiv.org/abs/2310.06889). arXiv 2024.
-
-      - [6.3.3 Test-Time Strategy](#633-test-time-strategy)
-        - [CarBoN: Calibrated Best-of-N Sampling Improves Test-Time Reasoning](https://arxiv.org/abs/2505.15707). ACL 2025.
-
-      - [6.3.4 Data Unlearning](#634-data-unlearning)
-        - [Large Language Model Unlearning](https://arxiv.org/abs/2310.10058). NeurIPS 2024.
-
+  - [6. Future Trends](#6-future-trends)
+    - [6.1 Dataset](#61-dataset)
+    - [6.2 Creation](#62-creation)
+    - [6.3 Strategy](#63-strategy)
 ## 1. Surveys
 
 ### Data Selection
@@ -384,4 +341,48 @@ selection
 - [CAD: Context-Aware Decoding Reduces Hallucinations in Large Multilingual Machine Translation Models](https://aclanthology.org/2024.eacl-long.155/). EACL 2024.
 - [ROSE: Reverse Prompt Contrastive Decoding Boosts Safety of Instruction-Tuned LLMs](https://aclanthology.org/2024.findings-acl.814/). ACL 2024 Findings.
 ### 5.5 Summary
+## 6. Future Trends
+### 6.1 Dataset
+#### 6.1.1 Domain-Specific Data Scarcity
+- [Craft Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation](https://arxiv.org/abs/2404.07991). TACL 2025.
 
+#### 6.1.2 Cross-Domain Data Reutilization
+- [Synthetic Continued Pretraining](https://arxiv.org/abs/2409.07459). ICLR 2025.
+
+#### 6.1.3 Data Sensitivity and Privacy]
+- [Differentially Private Synthetic Data via Foundation Model APIs 2: Text](https://arxiv.org/abs/2403.01749). ICML 2024.
+### 6.2 Creation
+#### 6.2.1 Data Agent Pipelines
+- [DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows](https://aclanthology.org/2024.acl-long.208/). ACL 2024.
+
+#### 6.2.2 Multi-source Synthesis
+- [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://aclanthology.org/2025.acl-long.1091/). ACL 2025.
+
+#### 6.2.3 Data Flywheel
+- [Recycle-The-Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models](https://arxiv.org/abs/2408.09812). ACL 2025 Findings.
+
+#### 6.2.4 User Collaboration
+- [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2401.12968). ICLR 2025.
+
+#### 6.2.5 Cross-modal Knowledge Utilization
+- [TextHarmony: A Unified Architecture for Multimodal LLMs Integrating Vision, Language and Diffusion](https://arxiv.org/abs/2407.12773). NeurIPS 2024.
+
+#### 6.2.6 Data Efficiency
+- [Less: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/abs/2402.04333). ICML 2024.
+
+#### 6.2.7 Length Control
+- [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2310.18558). TMLR 2025.
+
+#### 6.2.8 Model-Aware Filter](#628-model-aware-filter
+- [SeaPO: Strategic Error Amplification for Robust Preference Optimization](https://arxiv.org/abs/2409.12512). EMNLP 2025 Findings.
+### 6.3 Strategy
+#### 6.3.1 Unified Post-Training
+- [SRFT: A Single-Stage Method with Supervised and Reinforcement Fine-Tuning for Reasoning](https://arxiv.org/abs/2506.19767). arXiv 2025.
+
+#### 6.3.2 Cross-Stage Data Reutilization
+- [Physics of Language Models: Part 3.1, Knowledge Storage and Extraction](https://arxiv.org/abs/2310.06889). arXiv 2024.
+
+#### 6.3.3 Test-Time Strategy
+- [CarBoN: Calibrated Best-of-N Sampling Improves Test-Time Reasoning](https://arxiv.org/abs/2505.15707). ACL 2025.
+#### 6.3.4 Data Unlearning
+- [Large Language Model Unlearning](https://arxiv.org/abs/2310.10058). NeurIPS 2024.
