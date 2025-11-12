@@ -121,17 +121,16 @@ selection
 - [GSM8K: Training Verifiers to Solve Math Word Problems](https://arxiv.org/abs/2110.14168). NeurIPS 2021.
 - [MATH: Measuring Mathematical Problem Solving with the MATH Dataset](https://arxiv.org/abs/2103.03874). NeurIPS 2021 Datasets & Benchmarks.
 - [OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems](https://aclanthology.org/2024.acl-long.211/). ACL 2024.
-- [College Math: A Benchmark for Higher-Grade Mathematical Reasoning](https://arxiv.org/abs/2404.01239). arXiv 2024.
 - [AMC 23: AIMO Validation AMC Dataset on Hugging Face](https://huggingface.co/datasets/AI-MO/aimo-validation-amc). 2023.
 - [AIME 24: AIMO Validation AIME Dataset on Hugging Face](https://huggingface.co/datasets/AI-MO/aimo-validation-aime). 2024.
 - [MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models](https://arxiv.org/abs/2309.12284). ICLR 2024.
 - [MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning](https://arxiv.org/abs/2309.05653). ICLR 2024.
 - [LILA: A Unified Benchmark for Mathematical Reasoning](https://aclanthology.org/2022.emnlp-main.392/). EMNLP 2022.
-- [Arithmo2: Arithmo-Mistral-7B Mathematical Reasoning Model](https://huggingface.co/ashvini/Arithmo-Mistral-7B). Hugging Face 2023.
+- [Arithmo2: Arithmo-Mistral-7B Mathematical Reasoning Model](https://huggingface.co/akjindal53244/Arithmo-Mistral-7B). Hugging Face 2023.
 - [MathGenie: Generating Synthetic Data with Question Back-Translation for Enhancing Mathematical Reasoning of LLMs](https://aclanthology.org/2024.acl-long.151/). ACL 2024.
-- [OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset](https://arxiv.org/abs/2402.10180). NeurIPS 2024 Datasets & Benchmarks.
+- [OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset](https://arxiv.org/abs/2402.10176). NeurIPS 2024 Datasets & Benchmarks.
 - [LIMO: Less Is More for Reasoning](https://arxiv.org/abs/2502.03387). CoLM 2025.
-- [S1: Simple Test-Time Scaling](https://arxiv.org/abs/2408.13296). NeurIPS 2024.
+- [S1: Simple Test-Time Scaling](https://arxiv.org/abs/2501.19393). Arixv 2025.
 - [HumanEval: Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374). ICML 2021.
 - [MBPP: Program Synthesis with Large Language Models](https://arxiv.org/abs/2108.07732). arXiv 2021.
 - [MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation](https://arxiv.org/abs/2208.08227). ACL 2022.
@@ -141,8 +140,8 @@ selection
 - [WaveCoder: Widespread and Versatile Enhancement for Code Large Language Models by Instruction Tuning](https://aclanthology.org/2024.acl-long.280/). ACL 2024.
 - [Magicoder: Empowering Code Generation with OSS-Instruct](https://arxiv.org/abs/2312.02120). ICML 2024.
 - [BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions](https://arxiv.org/abs/2406.15877). ICLR 2025.
-- [McEval: Massively Multilingual Code Evaluation](https://arxiv.org/abs/2502.14799). ICLR 2025.
-- [CodeEditorBench: Evaluating Code Editing Capability of Large Language Models](https://arxiv.org/abs/2505.17975). ICLR 2025.
+- [McEval: Massively Multilingual Code Evaluation](https://arxiv.org/abs/2411.02310). Arxiv 2025.
+- [CodeEditorBench: Evaluating Code Editing Capability of Large Language Models](https://arxiv.org/abs/2404.03543). ICLR Workshop 2025.
 
 #### 3.2.2 Safety and Alignment
 - [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://aclanthology.org/2022.acl-long.229/). ACL 2022.
