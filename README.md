@@ -148,12 +148,12 @@ selection
 - [AlpacaEval: An Automatic Evaluator of Instruction-Following Models](https://arxiv.org/abs/2305.14387). arXiv 2023.
 - [MT-Bench: Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685). NeurIPS 2023.
 - [XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models](https://aclanthology.org/2024.naacl-long.301/). NAACL 2024.
-- [WildGuardTest: WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs](https://arxiv.org/abs/2401.10956). NeurIPS 2024.
-- [JailbreakTrigger: JailbreakTrigger: A Standardized Evaluation Framework for Automated Red Teaming](https://arxiv.org/abs/2402.11766). ICML 2024.
-- [DoAnythingNow: "Do Anything Now": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models](https://arxiv.org/abs/2408.04684). CCS 2024.
-- [WildJailbreak: WildTeaming at Scale: From In-The-Wild Jailbreaks to (Adversarially) Safer Language Models](https://arxiv.org/abs/2406.18368). NeurIPS 2024.
+- [WildGuardTest: WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs](https://arxiv.org/abs/2406.18495). NeurIPS 2024.
+- [JailbreakTrigger: JailbreakTrigger: A Standardized Evaluation Framework for Automated Red Teaming](https://arxiv.org/abs/2402.04249). ICML 2024.
+- [DoAnythingNow: "Do Anything Now": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models](https://arxiv.org/abs/2308.03825). CCS 2024.
+- [WildJailbreak: WildTeaming at Scale: From In-The-Wild Jailbreaks to (Adversarially) Safer Language Models](https://arxiv.org/abs/2406.18510). NeurIPS 2024.
 - [ArenaHard: From Live Data to High-Quality Benchmarks — The Arena-Hard Pipeline](https://arxiv.org/abs/2406.11939). arXiv 2024.
-- [HarmBench: A Standardized Evaluation Framework for Automated Red Teaming](https://arxiv.org/abs/2402.11766). ICML 2024.
+- [HarmBench: A Standardized Evaluation Framework for Automated Red Teaming](https://arxiv.org/abs/2402.04249). ICML 2024.
 - [HARMONIC: Harnessing LLMs for Tabular Data Synthesis and Privacy Protection](https://arxiv.org/abs/2408.02927). NeurIPS 2024.
 - [Enhancing Leakage Attacks on Searchable Symmetric Encryption Using LLM-Based Synthetic Data Generation](https://arxiv.org/abs/2504.20414). arXiv 2025.
 - [Model Prompts: Private Text Generation by Seeding Large Language Model Prompts](https://arxiv.org/abs/2502.13193). arXiv 2025.
