@@ -140,12 +140,13 @@ selection
 ## 3. Existing Datasets
 ### 3.1 General Domain
 #### 3.1.1 Pretrain
-- [SlimPajama: A 627B token cleaned and deduplicated version of RedPajama](https://arxiv.org/abs/2305.09593). NeurIPS 2023 Datasets & Benchmarks.
+- [SlimPajama: A 627B Token Cleaned and Deduplicated Version of RedPajama](https://arxiv.org/abs/2305.09593). NeurIPS 2023 Datasets & Benchmarks.
 - [Dolma: An Open Corpus of Three Trillion Tokens for Language Model Pretraining Research](https://aclanthology.org/2024.acl-long.840/). ACL 2024.
 - [DCLM: Data-Centric Language Modeling](https://arxiv.org/abs/2405.07424). arXiv 2024.
 - [GneissWeb: Preparing High Quality Data for LLMs at Scale](https://arxiv.org/abs/2502.14907). arXiv 2025.
+- [Essential-Web v1.0: 24T Tokens of Organized Web Data](https://arxiv.org/abs/2503.13254). arXiv 2025.
 #### 3.1.2 SFT
-- [Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416). JMLR 2024.
+- [FLAN: Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416). JMLR 2024.
 - [Dolly: Free Dolly—Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm). Databricks Blog 2023.
 - [Alpaca: A Strong, Replicable Instruction-Following Model](https://github.com/tatsu-lab/stanford_alpaca). Stanford 2023.
 - [Orca: Progressive Learning from Complex Explanation Traces of GPT-4](https://arxiv.org/abs/2306.02707). ICML 2023.
@@ -164,61 +165,116 @@ selection
 - [GSM8K: Training Verifiers to Solve Math Word Problems](https://arxiv.org/abs/2110.14168). NeurIPS 2021.
 - [MATH: Measuring Mathematical Problem Solving with the MATH Dataset](https://arxiv.org/abs/2103.03874). NeurIPS 2021 Datasets & Benchmarks.
 - [OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems](https://aclanthology.org/2024.acl-long.211/). ACL 2024.
+- [College Math: A Benchmark for Higher-Grade Mathematical Reasoning](https://arxiv.org/abs/2404.01239). arXiv 2024.
+- [AMC 23: AIMO Validation AMC Dataset on Hugging Face](https://huggingface.co/datasets/AI-MO/aimo-validation-amc). 2023.
+- [AIME 24: AIMO Validation AIME Dataset on Hugging Face](https://huggingface.co/datasets/AI-MO/aimo-validation-aime). 2024.
 - [MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models](https://arxiv.org/abs/2309.12284). ICLR 2024.
 - [MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning](https://arxiv.org/abs/2309.05653). ICLR 2024.
+- [LILA: A Unified Benchmark for Mathematical Reasoning](https://aclanthology.org/2022.emnlp-main.392/). EMNLP 2022.
+- [Arithmo2: Arithmo-Mistral-7B Mathematical Reasoning Model](https://huggingface.co/ashvini/Arithmo-Mistral-7B). Hugging Face 2023.
+- [MathGenie: Generating Synthetic Data with Question Back-Translation for Enhancing Mathematical Reasoning of LLMs](https://aclanthology.org/2024.acl-long.151/). ACL 2024.
+- [OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset](https://arxiv.org/abs/2402.10180). NeurIPS 2024 Datasets & Benchmarks.
+- [LIMO: Less Is More for Reasoning](https://arxiv.org/abs/2502.03387). CoLM 2025.
+- [S1: Simple Test-Time Scaling](https://arxiv.org/abs/2408.13296). NeurIPS 2024.
 - [HumanEval: Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374). ICML 2021.
 - [MBPP: Program Synthesis with Large Language Models](https://arxiv.org/abs/2108.07732). arXiv 2021.
 - [MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation](https://arxiv.org/abs/2208.08227). ACL 2022.
+- [MdEval: Massively Multilingual Code Debugging](https://arxiv.org/abs/2502.14799). ICLR 2025.
+- [CodeAlpaca: An Instruction-Following LLaMA Model for Code Generation](https://github.com/sahil280114/codealpaca). GitHub 2023.
 - [WizardCoder: Empowering Code Large Language Models with Evol-Instruct](https://arxiv.org/abs/2306.08568). ICLR 2024.
+- [WaveCoder: Widespread and Versatile Enhancement for Code Large Language Models by Instruction Tuning](https://aclanthology.org/2024.acl-long.280/). ACL 2024.
 - [Magicoder: Empowering Code Generation with OSS-Instruct](https://arxiv.org/abs/2312.02120). ICML 2024.
+- [BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions](https://arxiv.org/abs/2406.15877). ICLR 2025.
+- [McEval: Massively Multilingual Code Evaluation](https://arxiv.org/abs/2502.14799). ICLR 2025.
+- [CodeEditorBench: Evaluating Code Editing Capability of Large Language Models](https://arxiv.org/abs/2505.17975). ICLR 2025.
 
 #### 3.2.2 Safety and Alignment
 - [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://aclanthology.org/2022.acl-long.229/). ACL 2022.
 - [AlpacaEval: An Automatic Evaluator of Instruction-Following Models](https://arxiv.org/abs/2305.14387). arXiv 2023.
 - [MT-Bench: Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685). NeurIPS 2023.
 - [XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models](https://aclanthology.org/2024.naacl-long.301/). NAACL 2024.
+- [WildGuardTest: WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs](https://arxiv.org/abs/2401.10956). NeurIPS 2024.
+- [JailbreakTrigger: JailbreakTrigger: A Standardized Evaluation Framework for Automated Red Teaming](https://arxiv.org/abs/2402.11766). ICML 2024.
+- [DoAnythingNow: "Do Anything Now": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models](https://arxiv.org/abs/2408.04684). CCS 2024.
+- [WildJailbreak: WildTeaming at Scale: From In-The-Wild Jailbreaks to (Adversarially) Safer Language Models](https://arxiv.org/abs/2406.18368). NeurIPS 2024.
+- [ArenaHard: From Live Data to High-Quality Benchmarks — The Arena-Hard Pipeline](https://arxiv.org/abs/2406.11939). arXiv 2024.
 - [HarmBench: A Standardized Evaluation Framework for Automated Red Teaming](https://arxiv.org/abs/2402.11766). ICML 2024.
+- [HARMONIC: Harnessing LLMs for Tabular Data Synthesis and Privacy Protection](https://arxiv.org/abs/2408.02927). NeurIPS 2024.
+- [Enhancing Leakage Attacks on Searchable Symmetric Encryption Using LLM-Based Synthetic Data Generation](https://arxiv.org/abs/2504.20414). arXiv 2025.
+- [Model Prompts: Private Text Generation by Seeding Large Language Model Prompts](https://arxiv.org/abs/2502.13193). arXiv 2025.
+- [SafeSynthDP: Leveraging Large Language Models for Privacy-Preserving Synthetic Data Generation Using Differential Privacy](https://arxiv.org/abs/2412.20641). arXiv 2024.
+
 #### 3.2.3 Agent and Tool Use
 - [API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs](https://aclanthology.org/2023.emnlp-main.187/). EMNLP 2023.
-- [ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789). ICLR 2024.
+- [ToolLLM: Facilitating Large Language Models to Master 16000+ Real-World APIs](https://arxiv.org/abs/2307.16789). ICLR 2024.
 - [AgentBench: Evaluating LLMs as Agents](https://arxiv.org/abs/2308.03688). ICLR 2024.
+- [BFCL: The Berkeley Function Calling Leaderboard](https://arxiv.org/abs/2407.00135). ICML 2025.
+- [MetaTool: MetaTool Benchmark for Large Language Models — Deciding Whether to Use Tools and Which to Use](https://arxiv.org/abs/2401.10956). ICLR 2024.
 - [GAIA: A Benchmark for General AI Assistants](https://arxiv.org/abs/2312.13130). ICLR 2024.
 - [ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities](https://aclanthology.org/2025.findings-naacl.65/). NAACL 2025 Findings.
-- [BFCL: The Berkeley Function Calling Leaderboard](https://arxiv.org/abs/2407.00135). ICML 2025.
+- [OpenFunctions: The Berkeley Function Calling Leaderboard (BFCL) V2](https://arxiv.org/abs/2407.00135). ICML 2025.
+- [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761). NeurIPS 2023.
+- [ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases](https://arxiv.org/abs/2306.05301). arXiv 2023.
+- [AgentTuning: Enabling Generalized Agent Abilities for LLMs](https://aclanthology.org/2024.findings-acl.181/). ACL 2024 Findings.
 - [APIGen: Automated Pipeline for Generating Verifiable and Diverse Function-Calling Datasets](https://arxiv.org/abs/2406.18518). NeurIPS 2024 Datasets & Benchmarks.
 - [AgentInstruct: Toward Generative Teaching with Agentic Flows](https://arxiv.org/abs/2407.03502). arXiv 2024.
 - [Magnet: Multi-Turn Tool-Use Data Synthesis and Distillation via Graph Translation](https://aclanthology.org/2025.acl-long.1566/). ACL 2025.
 - [T1: A Tool-Oriented Conversational Dataset for Multi-Turn Agentic Planning](https://arxiv.org/abs/2505.16986). ACL 2025.
 - [The Behavior Gap: Evaluating Zero-Shot LLM Agents in Complex Task-Oriented Dialogs](https://aclanthology.org/2025.findings-acl.1205/). ACL 2025 Findings.
-
 ### 3.3 Summary
 ### 4. Creation
 ##### 4.1.1 Data Processing
+- [Dolma: An Open Corpus of Three Trillion Tokens for Language Model Pretraining Research](https://aclanthology.org/2024.acl-long.840/). ACL 2024.
+- [DataComp-LM: In Search of the Next Generation of Training Sets for Language Models](https://arxiv.org/abs/2406.01761). NeurIPS 2024 Datasets & Benchmarks.
+- [AutoClean: LLMs Can Prepare Their Training Corpus](https://arxiv.org/abs/2405.18347). NAACL 2025.
+- [Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models](https://arxiv.org/abs/2408.09812). ACL 2025 Findings.
 - [Ultra-FineWeb: Efficient Data Filtering and Verification for High-Quality LLM Training Data](https://arxiv.org/abs/2505.05427). arXiv 2025.
 - [Token Cleaning: Fine-Grained Data Selection for LLM Supervised Fine-Tuning](https://arxiv.org/abs/2505.18347). ICML 2025.
 - [AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark](https://arxiv.org/abs/2506.04411). EMNLP 2025 Findings.
 ##### 4.1.2 Prompt Engineering
 - [Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding](https://arxiv.org/abs/2401.04398). ICLR 2024.
+- [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651). NeurIPS 2023.
+- [Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs](https://aclanthology.org/2024.emnlp-main.629/). EMNLP 2024.
 - [Task Decomposition Improves Understanding in Large Language Models](https://aclanthology.org/2024.naacl-long.106/). NAACL 2024.
 - [PE2: Prompt Engineering a Prompt Engineer](https://aclanthology.org/2024.findings-acl.21/). ACL 2024 Findings.
 - [OPRO: Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409). ICLR 2024.
 ### 4.2 Synthesis
 #### 4.2.1 Sampling-Based
+- [MiniLLM: Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2306.08585). ICLR 2024.
+- [GKD: Generalized Knowledge Distillation for Auto-regressive Sequence Models](https://arxiv.org/abs/2310.03044). ICLR 2024.
+- [OKD: Exploring and Enhancing the Transfer of Distribution in Knowledge Distillation for Autoregressive Language Models](https://arxiv.org/abs/2409.12512). EMNLP 2025 Findings.
+- [Sequence-Level Knowledge Distillation](https://aclanthology.org/D16-1139/). EMNLP 2016.
+- [Distilling Step-by-Step: Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://aclanthology.org/2023.findings-acl.507/). ACL 2023 Findings.
+- [Fine-tune-CoT: Large Language Models Are Reasoning Teachers](https://aclanthology.org/2023.acl-long.830/). ACL 2023.
+- [Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor](https://aclanthology.org/2023.acl-long.806/). ACL 2023.
 - [Bonito: Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation](https://arxiv.org/abs/2402.11107). ACL 2024 Findings.
-- [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2401.12968). ICLR 2025.
+- [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://aclanthology.org/2023.acl-long.754/). ACL 2023.
+- [WizardLM: Empowering Large Pre-trained Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244). ICLR 2024.
 - [AQuilt: Weaving Logic and Self-Inspection into Low-Cost, High-Relevance Data Synthesis for Specialist LLMs](https://arxiv.org/abs/2409.15617). EMNLP 2025.
-#### 4.2.2 Data Transformation
+- [Absolute Zero: Reinforced Self-Play Reasoning with Zero Data](https://arxiv.org/abs/2408.13296). ICLR 2025.
+- [Synthetic Data RL: Task Definition Is All You Need](https://arxiv.org/abs/2505.18347). ICLR 2025.
 - [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://aclanthology.org/2025.acl-long.1091/). ACL 2025.
+- [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2401.12968). ICLR 2025.
+
+#### 4.2.2 Data Transformation
+- [SODA: Million-Scale Dialogue Distillation with Social Commonsense Contextualization](https://aclanthology.org/2023.emnlp-main.799/). EMNLP 2023.
+- [MAmmoTH2: Scaling Instructions from the Web](https://arxiv.org/abs/2310.06562). NeurIPS 2024.
 - [Tree-KG: An Expandable Knowledge Graph Construction Framework for Knowledge-Intensive Domains](https://aclanthology.org/2025.acl-long.907/). ACL 2025.
 - [Personas: Scaling Synthetic Data Creation with 1,000,000,000 Personas](https://arxiv.org/abs/2406.20094). arXiv 2024.
 - [Reformatted Alignment](https://aclanthology.org/2024.findings-emnlp.32/). EMNLP 2024 Findings.
+
 #### 4.2.3 Back-Translation
-- [Back-and-orth Translation: Better Alignment with Instruction Back-and-orth Translation](https://aclanthology.org/2024.findings-emnlp.777/). EMNLP 2024 Findings.
+- [Self-Alignment with Instruction Backtranslation](https://arxiv.org/abs/2308.06259). ICLR 2024.
+- [LongForm: Effective Instruction Tuning with Reverse Instructions](https://aclanthology.org/2024.findings-emnlp.414/). EMNLP 2024 Findings.
+- [Back-and-Forth Translation: Better Alignment with Instruction Back-and-Forth Translation](https://aclanthology.org/2024.findings-emnlp.777/). EMNLP 2024 Findings.
 - [Safer-Instruct: Aligning Language Models with Automated Preference Data](https://aclanthology.org/2024.naacl-long.422/). NAACL 2024.
 - [Cycle-Instruct: Fully Seed-Free Instruction Tuning via Dual Self-Training and Cycle Consistency](https://arxiv.org/abs/2505.19139). ACL 2025.
 
 #### 4.2.4 Human-AI Collaboration
-- [SALMON: Self-Alignment with Instructable Reward Models](https://arxiv.org/abs/2310.14986). ICLR 2024.
+- [SELF-ALIGN: Principle-Driven Self-Alignment of Language Models from Scratch](https://arxiv.org/abs/2210.11991). NeurIPS 2023.
+- [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651). NeurIPS 2023.
+- [SPIN: Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335). ICML 2024.
+- [Self-Critiquing Models for Assisting Human Evaluators](https://arxiv.org/abs/2206.05802). arXiv 2022.
 - [AutoIF: Self-Play with Execution Feedback Improves Instruction-Following](https://arxiv.org/abs/2405.12995). ICLR 2025.
 - [APT: Improving Specialist LLM Performance with Weakness Case Acquisition and Iterative Preference Training](https://aclanthology.org/2025.findings-acl.1079/). ACL 2025 Findings.
 - [SwS: Self-Aware Weakness-Driven Problem Synthesis in Reinforcement Learning for LLM Reasoning](https://arxiv.org/abs/2503.21782). ICLR 2025.
@@ -226,6 +282,8 @@ selection
 - [LEMMA: Learning from Errors for Mathematical Advancement in LLMs](https://aclanthology.org/2025.findings-acl.605/). ACL 2025 Findings.
 - [RISE: Subtle Errors in Reasoning — Preference Learning via Error-Injected Self-Editing](https://aclanthology.org/2025.acl-long.1506/). ACL 2025.
 #### 4.2.5 Symbolic Generation
+- [Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning](https://aclanthology.org/2023.findings-emnlp.248/). EMNLP 2023 Findings.
+- [NSR: Large Language Models are Neurosymbolic Reasoners](https://arxiv.org/abs/2310.11562). AAAI 2024.
 - [SR-LCL: Symbolic Regression with a Learned Concept Library](https://proceedings.neurips.cc/paper_files/paper/2024/file/4ec3ddc465c6d650c9c419fb91f1c00a-Paper-Conference.pdf). NeurIPS 2024.
 - [SymbCoT: Faithful Logical Reasoning via Symbolic Chain-of-Thought](https://aclanthology.org/2024.acl-long.720/). ACL 2024.
 - [ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs](https://arxiv.org/abs/2503.19556). arXiv 2025.
@@ -234,22 +292,29 @@ selection
 - [SC-NeuroSymbolic: Sound and Complete Neurosymbolic Reasoning with LLM-Grounded Interpretations](https://arxiv.org/abs/2406.01593). ICLR 2025.
 - [SymbolicThought: Integrating Language Models and Symbolic Reasoning for Consistent and Interpretable Human Relationship Understanding](https://arxiv.org/abs/2502.13756). arXiv 2025.
 - [MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions](https://aclanthology.org/2024.findings-emnlp.414/). EMNLP 2024 Findings.
-- [AdaCoT: Adaptive Multilingual Chain-of-Thought for Cross-Lingual Factual Reasoning](https://arxiv.org/abs/2502.13756). ACL 2025 Findings.
+- [CSDG: Scaling Synthetic Logical Reasoning Datasets with Context-Sensitive Declarative Grammars](https://aclanthology.org/2024.emnlp-main.301/). EMNLP 2024.
+- [NSAR: Enhancing Large Language Models with Neurosymbolic Reasoning for Multilingual Tasks](https://arxiv.org/abs/2502.14756). ACL 2025 Findings.
+- [AdaCoT: Adaptive Multilingual Chain-of-Thought for Cross-Lingual Factual Reasoning](https://aclanthology.org/2025.findings-acl.439/). ACL 2025 Findings.
 ### 4.3 Selection
 #### 4.3.1 Diversity
 - [Impossible Distillation: Gradient-Based Data Diversification Boosts Generalization in LLM Reasoning](https://arxiv.org/abs/2402.13669). ACL 2024.
 - [QDIT: Data Diversity Matters for Robust Instruction Tuning](https://aclanthology.org/2024.findings-emnlp.195/). EMNLP 2024 Findings.
+- [DEITA: Data-Efficient Instruction Tuning for Alignment](https://arxiv.org/abs/2403.07392). ICLR 2024.
 - [Instag: Instruction Tagging for Analyzing Supervised Fine-Tuning of Large Language Models](https://arxiv.org/abs/2308.07074). ICLR 2024.
+- [LESS: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/abs/2402.04333). ICML 2024.
 - [G-Vendi: Data Selection with Model-Based Diversity](https://arxiv.org/abs/2503.21744). ICLR 2025.
-
 #### 4.3.2 Quality
 - [LIFT: Rethinking the Instruction Quality — LIFT Is What You Need](https://arxiv.org/abs/2310.11691). EMNLP 2023 Findings.
 - [Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models](https://aclanthology.org/2024.emnlp-main.248/). EMNLP 2024.
+- [AlpaGasus: Training a Better Alpaca Model with Fewer Data](https://arxiv.org/abs/2307.08701). ICLR 2024.
 - [IFD: Instruction-Following Difficulty Score for Data Selection](https://arxiv.org/abs/2403.02980). ICLR 2024.
 - [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948). arXiv 2025.
 #### 4.3.3 Composite Strategy
+- [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206). NeurIPS 2023.
+- [MoDS: Model-Oriented Data Selection for Instruction Tuning](https://arxiv.org/abs/2308.11793). EMNLP 2023 Findings.
 - [SelectIT: Selective Instruction Tuning for LLMs via Uncertainty-Aware Self-Reflection](https://arxiv.org/abs/2403.07392). NeurIPS 2024.
 - [Dataman: Data Manager for Pre-Training Large Language Models](https://arxiv.org/abs/2501.00656). ICLR 2025.
+
 ### 4.4 Summary
 
 ## 5. Strategy
