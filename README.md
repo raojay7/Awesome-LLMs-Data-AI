@@ -240,13 +240,13 @@ selection
 - [RISE: Subtle Errors in Reasoning — Preference Learning via Error-Injected Self-Editing](https://aclanthology.org/2025.acl-long.1506/). ACL 2025.
 #### 4.2.5 Symbolic Generation
 - [Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning](https://aclanthology.org/2023.findings-emnlp.248/). EMNLP 2023 Findings.
-- [NSR: Large Language Models are Neurosymbolic Reasoners](https://arxiv.org/abs/2310.11562). AAAI 2024.
+- [NSR: Large Language Models are Neurosymbolic Reasoners](https://ojs.aaai.org/index.php/AAAI/article/view/29754). AAAI 2024.
 - [SR-LCL: Symbolic Regression with a Learned Concept Library](https://proceedings.neurips.cc/paper_files/paper/2024/file/4ec3ddc465c6d650c9c419fb91f1c00a-Paper-Conference.pdf). NeurIPS 2024.
 - [SymbCoT: Faithful Logical Reasoning via Symbolic Chain-of-Thought](https://aclanthology.org/2024.acl-long.720/). ACL 2024.
-- [ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs](https://arxiv.org/abs/2503.19556). arXiv 2025.
+- [ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs](https://arxiv.org/abs/2506.15211). arXiv 2025.
 - [Aristotle: Mastering Logical Reasoning with a Logic-Complete Decompose-Search-Resolve Framework](https://aclanthology.org/2025.acl-long.153/). ACL 2025.
 - [Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models](https://aclanthology.org/2025.acl-long.785/). ACL 2025.
-- [SC-NeuroSymbolic: Sound and Complete Neurosymbolic Reasoning with LLM-Grounded Interpretations](https://arxiv.org/abs/2406.01593). ICLR 2025.
+- [SC-NeuroSymbolic: Sound and Complete Neurosymbolic Reasoning with LLM-Grounded Interpretations](https://arxiv.org/pdf/2507.09751). PMLR 2025.
 - [SymbolicThought: Integrating Language Models and Symbolic Reasoning for Consistent and Interpretable Human Relationship Understanding](https://arxiv.org/abs/2502.13756). arXiv 2025.
 - [MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions](https://aclanthology.org/2024.findings-emnlp.414/). EMNLP 2024 Findings.
 - [CSDG: Scaling Synthetic Logical Reasoning Datasets with Context-Sensitive Declarative Grammars](https://aclanthology.org/2024.emnlp-main.301/). EMNLP 2024.
