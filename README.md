@@ -28,6 +28,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
       - [3.2.1 Reasoning and Code](#321-reasoning-and-code)
       - [3.2.2 Safety and Alignment](#322-safety-and-alignment)
       - [3.2.3 Agent and Tool Use](#323-agent-and-tool-use)
+    - [3.3 Summary](#33-summary)
   - [4. Creation](#4-creation)
       - 4.1 Annotation
         - [4.1.1 Data Processing](#411-data-processing)      
@@ -42,6 +43,68 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
         - [4.3.1 Diversity](#431-diversity)
         - [4.3.2 Quality](#432-quality)
         - [4.3.3 Composite Strategy](#433-composite-strategy)
+      - [4.4 Summary](#44-summary)
+  - [5. Strategy](#5-strategy)
+    - [5.1 Effectiveness](#51-effectiveness)
+      - [5.1.1 Sample Construction](#511-sample-construction)
+      - [5.1.2 Sample Mixing](#512-sample-mixing)
+    - [5.2 Efficiency](#52-efficiency)
+      - [5.2.1 Mid Training](#521-mid-training)
+      - [5.2.2 Multi-Stage Training](#522-multi-stage-training)
+    - [5.3 Integration](#53-integration)
+      - [5.3.1 Constrain](#531-constrain)
+      - [5.3.2 Cognitive Alignment](#532-cognitive-alignment)
+    - [5.4 Truthfulness](#54-truthfulness)
+      - [5.4.1 Consistency](#541-consistency)
+      - [5.4.2 RAG](#542-rag)
+      - [5.4.3 Decoding](#543-decoding)
+  - [6. Future Trends]
+    - [6.1 Dataset]
+      - [6.1.1 Domain-Specific Data Scarcity](#611-domain-specific-data-scarcity)
+        - [Craft Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation](https://arxiv.org/abs/2404.07991). TACL 2025.
+
+      - [6.1.2 Cross-Domain Data Reutilization](#612-cross-domain-data-reutilization)
+        - [Synthetic Continued Pretraining](https://arxiv.org/abs/2409.07459). ICLR 2025.
+
+      - [6.1.3 Data Sensitivity and Privacy](#613-data-sensitivity-and-privacy)
+        - [Differentially Private Synthetic Data via Foundation Model APIs 2: Text](https://arxiv.org/abs/2403.01749). ICML 2024.
+    - [6.2 Creation]
+      - [6.2.1 Data Agent Pipelines](#621-data-agent-pipelines)
+        - [DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows](https://aclanthology.org/2024.acl-long.208/). ACL 2024.
+
+      - [6.2.2 Multi-source Synthesis](#622-multi-source-synthesis)
+        - [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://aclanthology.org/2025.acl-long.1091/). ACL 2025.
+
+      - [6.2.3 Data Flywheel](#623-data-flywheel)
+        - [Recycle-The-Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models](https://arxiv.org/abs/2408.09812). ACL 2025 Findings.
+
+      - [6.2.4 User Collaboration](#624-user-collaboration)
+        - [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2401.12968). ICLR 2025.
+
+      - [6.2.5 Cross-modal Knowledge Utilization](#625-cross-modal-knowledge-utilization)
+        - [TextHarmony: A Unified Architecture for Multimodal LLMs Integrating Vision, Language and Diffusion](https://arxiv.org/abs/2407.12773). NeurIPS 2024.
+
+      - [6.2.6 Data Efficiency](#626-data-efficiency)
+        - [Less: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/abs/2402.04333). ICML 2024.
+
+      - [6.2.7 Length Control](#627-length-control)
+        - [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2310.18558). TMLR 2025.
+
+      - [6.2.8 Model-Aware Filter](#628-model-aware-filter)
+        - [SeaPO: Strategic Error Amplification for Robust Preference Optimization](https://arxiv.org/abs/2409.12512). EMNLP 2025 Findings.
+    - [6.3 Strategy]
+      - [6.3.1 Unified Post-Training](#631-unified-post-training)
+        - [SRFT: A Single-Stage Method with Supervised and Reinforcement Fine-Tuning for Reasoning](https://arxiv.org/abs/2506.19767). arXiv 2025.
+
+      - [6.3.2 Cross-Stage Data Reutilization](#632-cross-stage-data-reutilization)
+        - [Physics of Language Models: Part 3.1, Knowledge Storage and Extraction](https://arxiv.org/abs/2310.06889). arXiv 2024.
+
+      - [6.3.3 Test-Time Strategy](#633-test-time-strategy)
+        - [CarBoN: Calibrated Best-of-N Sampling Improves Test-Time Reasoning](https://arxiv.org/abs/2505.15707). ACL 2025.
+
+      - [6.3.4 Data Unlearning](#634-data-unlearning)
+        - [Large Language Model Unlearning](https://arxiv.org/abs/2310.10058). NeurIPS 2024.
+
 ## 1. Surveys
 
 ### Data Selection
@@ -127,8 +190,9 @@ selection
 - [Magnet: Multi-Turn Tool-Use Data Synthesis and Distillation via Graph Translation](https://aclanthology.org/2025.acl-long.1566/). ACL 2025.
 - [T1: A Tool-Oriented Conversational Dataset for Multi-Turn Agentic Planning](https://arxiv.org/abs/2505.16986). ACL 2025.
 - [The Behavior Gap: Evaluating Zero-Shot LLM Agents in Complex Task-Oriented Dialogs](https://aclanthology.org/2025.findings-acl.1205/). ACL 2025 Findings.
-### Summary
 
+### 3.3 Summary
+### 4. Creation
 ##### 4.1.1 Data Processing
 - [Ultra-FineWeb: Efficient Data Filtering and Verification for High-Quality LLM Training Data](https://arxiv.org/abs/2505.05427). arXiv 2025.
 - [Token Cleaning: Fine-Grained Data Selection for LLM Supervised Fine-Tuning](https://arxiv.org/abs/2505.18347). ICML 2025.
@@ -139,21 +203,21 @@ selection
 - [PE2: Prompt Engineering a Prompt Engineer](https://aclanthology.org/2024.findings-acl.21/). ACL 2024 Findings.
 - [OPRO: Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409). ICLR 2024.
 ### 4.2 Synthesis
-##### 4.2.1 Sampling-Based
+#### 4.2.1 Sampling-Based
 - [Bonito: Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation](https://arxiv.org/abs/2402.11107). ACL 2024 Findings.
 - [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2401.12968). ICLR 2025.
 - [AQuilt: Weaving Logic and Self-Inspection into Low-Cost, High-Relevance Data Synthesis for Specialist LLMs](https://arxiv.org/abs/2409.15617). EMNLP 2025.
-##### 4.2.2 Data Transformation
+#### 4.2.2 Data Transformation
 - [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://aclanthology.org/2025.acl-long.1091/). ACL 2025.
 - [Tree-KG: An Expandable Knowledge Graph Construction Framework for Knowledge-Intensive Domains](https://aclanthology.org/2025.acl-long.907/). ACL 2025.
 - [Personas: Scaling Synthetic Data Creation with 1,000,000,000 Personas](https://arxiv.org/abs/2406.20094). arXiv 2024.
 - [Reformatted Alignment](https://aclanthology.org/2024.findings-emnlp.32/). EMNLP 2024 Findings.
-##### 4.2.3 Back-Translation
+#### 4.2.3 Back-Translation
 - [Back-and-orth Translation: Better Alignment with Instruction Back-and-orth Translation](https://aclanthology.org/2024.findings-emnlp.777/). EMNLP 2024 Findings.
 - [Safer-Instruct: Aligning Language Models with Automated Preference Data](https://aclanthology.org/2024.naacl-long.422/). NAACL 2024.
 - [Cycle-Instruct: Fully Seed-Free Instruction Tuning via Dual Self-Training and Cycle Consistency](https://arxiv.org/abs/2505.19139). ACL 2025.
 
-##### 4.2.4 Human-AI Collaboration
+#### 4.2.4 Human-AI Collaboration
 - [SALMON: Self-Alignment with Instructable Reward Models](https://arxiv.org/abs/2310.14986). ICLR 2024.
 - [AutoIF: Self-Play with Execution Feedback Improves Instruction-Following](https://arxiv.org/abs/2405.12995). ICLR 2025.
 - [APT: Improving Specialist LLM Performance with Weakness Case Acquisition and Iterative Preference Training](https://aclanthology.org/2025.findings-acl.1079/). ACL 2025 Findings.
@@ -161,7 +225,7 @@ selection
 - [Self-Error-Instruct: Generalizing from Errors for LLMs Mathematical Reasoning](https://aclanthology.org/2025.acl-long.417/). ACL 2025.
 - [LEMMA: Learning from Errors for Mathematical Advancement in LLMs](https://aclanthology.org/2025.findings-acl.605/). ACL 2025 Findings.
 - [RISE: Subtle Errors in Reasoning — Preference Learning via Error-Injected Self-Editing](https://aclanthology.org/2025.acl-long.1506/). ACL 2025.
-##### 4.2.5 Symbolic Generation
+#### 4.2.5 Symbolic Generation
 - [SR-LCL: Symbolic Regression with a Learned Concept Library](https://proceedings.neurips.cc/paper_files/paper/2024/file/4ec3ddc465c6d650c9c419fb91f1c00a-Paper-Conference.pdf). NeurIPS 2024.
 - [SymbCoT: Faithful Logical Reasoning via Symbolic Chain-of-Thought](https://aclanthology.org/2024.acl-long.720/). ACL 2024.
 - [ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs](https://arxiv.org/abs/2503.19556). arXiv 2025.
@@ -171,3 +235,65 @@ selection
 - [SymbolicThought: Integrating Language Models and Symbolic Reasoning for Consistent and Interpretable Human Relationship Understanding](https://arxiv.org/abs/2502.13756). arXiv 2025.
 - [MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions](https://aclanthology.org/2024.findings-emnlp.414/). EMNLP 2024 Findings.
 - [AdaCoT: Adaptive Multilingual Chain-of-Thought for Cross-Lingual Factual Reasoning](https://arxiv.org/abs/2502.13756). ACL 2025 Findings.
+### 4.3 Selection
+#### 4.3.1 Diversity
+- [Impossible Distillation: Gradient-Based Data Diversification Boosts Generalization in LLM Reasoning](https://arxiv.org/abs/2402.13669). ACL 2024.
+- [QDIT: Data Diversity Matters for Robust Instruction Tuning](https://aclanthology.org/2024.findings-emnlp.195/). EMNLP 2024 Findings.
+- [Instag: Instruction Tagging for Analyzing Supervised Fine-Tuning of Large Language Models](https://arxiv.org/abs/2308.07074). ICLR 2024.
+- [G-Vendi: Data Selection with Model-Based Diversity](https://arxiv.org/abs/2503.21744). ICLR 2025.
+
+#### 4.3.2 Quality
+- [LIFT: Rethinking the Instruction Quality — LIFT Is What You Need](https://arxiv.org/abs/2310.11691). EMNLP 2023 Findings.
+- [Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models](https://aclanthology.org/2024.emnlp-main.248/). EMNLP 2024.
+- [IFD: Instruction-Following Difficulty Score for Data Selection](https://arxiv.org/abs/2403.02980). ICLR 2024.
+- [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948). arXiv 2025.
+#### 4.3.3 Composite Strategy
+- [SelectIT: Selective Instruction Tuning for LLMs via Uncertainty-Aware Self-Reflection](https://arxiv.org/abs/2403.07392). NeurIPS 2024.
+- [Dataman: Data Manager for Pre-Training Large Language Models](https://arxiv.org/abs/2501.00656). ICLR 2025.
+### 4.4 Summary
+
+## 5. Strategy
+### 5.1 Effectiveness
+#### 5.1.1 Sample Construction
+- [CommonIT: Commonality-Aware Instruction Tuning for Large Language Models via Data Partitions](https://aclanthology.org/2024.emnlp-main.561/). EMNLP 2024.
+- [Persona-Plug: LLMs + Persona-Plug = Personalized LLMs](https://aclanthology.org/2025.acl-long.461/). ACL 2025.
+#### 5.1.2 Sample Mixing
+- [D4: Improving LLM Pretraining via Document De-Duplication and Diversification](https://arxiv.org/abs/2305.10429). NeurIPS 2023 Datasets & Benchmarks.
+- [QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining](https://arxiv.org/abs/2502.13756). ICLR 2025.
+- [Qwen2.5-Coder Technical Report](https://arxiv.org/abs/2409.12186). arXiv 2024.
+- [Baichuan-M2: Scaling Medical Capability with Large Verifier System](https://arxiv.org/abs/2501.12236). arXiv 2025.
+
+### 5.2 Efficiency
+#### 5.2.1 Mid Training
+- [GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models](https://arxiv.org/abs/2508.06471). arXiv 2025.
+- [OctoThinker: Mid-Training Incentivizes Reinforcement Learning Scaling](https://arxiv.org/abs/2505.15707). ICLR 2025.
+- [RA3: Sequential Variational Lower Bound Optimization via RL](https://arxiv.org/abs/2502.14799). ICLR 2025.
+
+#### 5.2.2 Multi-Stage Training
+- [InsCL: A Data-Efficient Continual Learning Paradigm for Fine-Tuning Large Language Models with Instructions](https://aclanthology.org/2024.naacl-long.37/). NAACL 2024.
+- [DMT: Dynamic Multi-Task Training for Large Language Models](https://arxiv.org/abs/2403.07816). ICLR 2024.
+- [SDFT: Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning](https://aclanthology.org/2024.acl-long.58/). ACL 2024.
+- [Exploring Forgetting in Large Language Model Pre-Training](https://aclanthology.org/2025.acl-long.105/). ACL 2025.
+  
+### 5.3 Integration
+#### 5.3.1 Constrain
+- [Function Vectors: Unlocking the Power of Function Vectors for Characterizing and Mitigating Catastrophic Forgetting](https://arxiv.org/abs/2409.17400). ICLR 2025.
+- [Spurious Forgetting in Continual Learning of Language Models](https://arxiv.org/abs/2406.05224). ICLR 2025.
+
+#### 5.3.2 Cognitive Alignment
+- [Cognitive Behaviors That Enable Self-Improving Reasoners](https://openreview.net/forum?id=QGJ9ttXLTy). CoLM 2025.
+
+### 5.4 Truthfulness
+#### 5.4.1 Consistency
+- [Generative Verifiers: Reward Modeling as Next-Token Prediction](https://arxiv.org/abs/2408.09098). ICML 2025.
+- [MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration](https://arxiv.org/abs/2406.08490). ACL 2025.
+- [Self-Certainty: Scalable Best-of-N Selection for Large Language Models via Self-Certainty](https://arxiv.org/abs/2502.14756). ICLR 2025.
+
+#### 5.4.2 RAG
+- [SEER: Self-Aligned Evidence Extraction for Retrieval-Augmented Generation](https://aclanthology.org/2024.emnlp-main.178/). EMNLP 2024.
+- [Rowen: Adaptive Retrieval-Augmented Generation for Hallucination Mitigation in LLMs](https://arxiv.org/abs/2504.09959). ACL 2025.
+#### 5.4.3 Decoding
+- [ROSE: Reverse Prompt Contrastive Decoding Boosts Safety of Instruction-Tuned LLMs](https://aclanthology.org/2024.findings-acl.814/). ACL 2024 Findings.
+
+### 5.5 Summary
+
