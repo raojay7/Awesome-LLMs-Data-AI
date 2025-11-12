@@ -320,45 +320,68 @@ selection
 ## 5. Strategy
 ### 5.1 Effectiveness
 #### 5.1.1 Sample Construction
+- [Packing Analysis: Packing Is More Appropriate for Large Models or Datasets in Supervised Fine-Tuning](https://aclanthology.org/2025.findings-acl.256/). ACL 2025 Findings.
+- [System Prompt: Aligning to Thousands of Preferences via System Message Generalization](https://arxiv.org/abs/2410.12800). NeurIPS 2024.
 - [CommonIT: Commonality-Aware Instruction Tuning for Large Language Models via Data Partitions](https://aclanthology.org/2024.emnlp-main.561/). EMNLP 2024.
 - [Persona-Plug: LLMs + Persona-Plug = Personalized LLMs](https://aclanthology.org/2025.acl-long.461/). ACL 2025.
+- [RFT: Rejection Sampling Fine-Tuning](https://arxiv.org/abs/2309.08586). arXiv 2023.
+- [SeaPO: Strategic Error Amplification for Robust Preference Optimization](https://arxiv.org/abs/2409.12512). EMNLP 2025 Findings.
 #### 5.1.2 Sample Mixing
 - [D4: Improving LLM Pretraining via Document De-Duplication and Diversification](https://arxiv.org/abs/2305.10429). NeurIPS 2023 Datasets & Benchmarks.
+- [DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining](https://arxiv.org/abs/2305.10429). NeurIPS 2023.
 - [QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining](https://arxiv.org/abs/2502.13756). ICLR 2025.
+- [SampleMix: A Sample-Wise Pre-Training Data Mixing Strategy by Coordinating Data Quality and Diversity](https://arxiv.org/abs/2503.01506). ICLR 2025.
+- [Predictive Data Selection: The Data That Predicts Is the Data That Teaches](https://arxiv.org/abs/2503.21744). ICML 2025.
+- [Qwen2.5-Math Technical Report](https://arxiv.org/abs/2409.12186). arXiv 2024.
 - [Qwen2.5-Coder Technical Report](https://arxiv.org/abs/2409.12186). arXiv 2024.
 - [Baichuan-M2: Scaling Medical Capability with Large Verifier System](https://arxiv.org/abs/2501.12236). arXiv 2025.
 
 ### 5.2 Efficiency
 #### 5.2.1 Mid Training
+- [Physics of Language Models: Part 3.1, Knowledge Storage and Extraction](https://arxiv.org/abs/2310.06889). arXiv 2024.
+- [Phi-4 Technical Report](https://arxiv.org/abs/2412.08905). arXiv 2024.
+- [Instruction Pre-Training: Language Models Are Supervised Multitask Learners](https://aclanthology.org/2024.emnlp-main.148/). EMNLP 2024.
+- [MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies](https://arxiv.org/abs/2404.06395). arXiv 2024.
 - [GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models](https://arxiv.org/abs/2508.06471). arXiv 2025.
 - [OctoThinker: Mid-Training Incentivizes Reinforcement Learning Scaling](https://arxiv.org/abs/2505.15707). ICLR 2025.
-- [RA3: Sequential Variational Lower Bound Optimization via RL](https://arxiv.org/abs/2502.14799). ICLR 2025.
-
+- [RA3: Learning to Reason as Action Abstractions with Scalable Mid-Training RL](https://arxiv.org/abs/2505.17975). ICLR 2025.
 #### 5.2.2 Multi-Stage Training
+- [Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599). arXiv 2025.
+- [Does the Order Matter? Curriculum Learning Over Languages](https://aclanthology.org/2024.lrec-main.464/). LREC-COLING 2024.
+- [Dump: Automated Distribution-Level Curriculum Learning for RL-based LLM Post-Training](https://arxiv.org/abs/2410.19163). ICLR 2025.
 - [InsCL: A Data-Efficient Continual Learning Paradigm for Fine-Tuning Large Language Models with Instructions](https://aclanthology.org/2024.naacl-long.37/). NAACL 2024.
 - [DMT: Dynamic Multi-Task Training for Large Language Models](https://arxiv.org/abs/2403.07816). ICLR 2024.
 - [SDFT: Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning](https://aclanthology.org/2024.acl-long.58/). ACL 2024.
 - [Exploring Forgetting in Large Language Model Pre-Training](https://aclanthology.org/2025.acl-long.105/). ACL 2025.
-  
+
 ### 5.3 Integration
 #### 5.3.1 Constrain
+- [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://arxiv.org/abs/2405.14734). NeurIPS 2024.
+- [KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/abs/2402.01306). ICML 2024.
+- [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948). arXiv 2025.
 - [Function Vectors: Unlocking the Power of Function Vectors for Characterizing and Mitigating Catastrophic Forgetting](https://arxiv.org/abs/2409.17400). ICLR 2025.
 - [Spurious Forgetting in Continual Learning of Language Models](https://arxiv.org/abs/2406.05224). ICLR 2025.
-
 #### 5.3.2 Cognitive Alignment
+- [CDS: Data Synthesis Method Guided by Cognitive Diagnosis Theory](https://aclanthology.org/2025.findings-acl.439/). ACL 2025 Findings.
+- [CDT: A Comprehensive Capability Framework for Large Language Models Across Cognition, Domain, and Task](https://arxiv.org/abs/2502.14799). EMNLP 2025 Findings.
 - [Cognitive Behaviors That Enable Self-Improving Reasoners](https://openreview.net/forum?id=QGJ9ttXLTy). CoLM 2025.
 
 ### 5.4 Truthfulness
 #### 5.4.1 Consistency
+- [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171). ICLR 2023.
+- [Universal Self-Consistency for Large Language Model Generation](https://arxiv.org/abs/2311.17311). ICLR 2024.
+- [Multiagent Debate: Improving Factuality and Reasoning in Language Models](https://arxiv.org/abs/2403.01214). ICML 2024.
 - [Generative Verifiers: Reward Modeling as Next-Token Prediction](https://arxiv.org/abs/2408.09098). ICML 2025.
 - [MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration](https://arxiv.org/abs/2406.08490). ACL 2025.
 - [Self-Certainty: Scalable Best-of-N Selection for Large Language Models via Self-Certainty](https://arxiv.org/abs/2502.14756). ICLR 2025.
-
 #### 5.4.2 RAG
+- [RAG-HAT: A Hallucination-Aware Tuning Pipeline for LLM in Retrieval-Augmented Generation](https://aclanthology.org/2024.emnlp-industry.113/). EMNLP 2024 Industry Track.
+- [TRAQ: Trustworthy Retrieval-Augmented Question Answering via Conformal Prediction](https://aclanthology.org/2024.naacl-long.210/). NAACL 2024.
 - [SEER: Self-Aligned Evidence Extraction for Retrieval-Augmented Generation](https://aclanthology.org/2024.emnlp-main.178/). EMNLP 2024.
 - [Rowen: Adaptive Retrieval-Augmented Generation for Hallucination Mitigation in LLMs](https://arxiv.org/abs/2504.09959). ACL 2025.
 #### 5.4.3 Decoding
+- [DOLA: Decoding by Contrasting Layers Improves Factuality in Large Language Models](https://arxiv.org/abs/2402.11159). ICLR 2024.
+- [CAD: Context-Aware Decoding Reduces Hallucinations in Large Multilingual Machine Translation Models](https://aclanthology.org/2024.eacl-long.155/). EACL 2024.
 - [ROSE: Reverse Prompt Contrastive Decoding Boosts Safety of Instruction-Tuned LLMs](https://aclanthology.org/2024.findings-acl.814/). ACL 2024 Findings.
-
 ### 5.5 Summary
 
