@@ -251,23 +251,23 @@ selection
 - [AdaCoT: Adaptive Multilingual Chain-of-Thought for Cross-Lingual Factual Reasoning](https://arxiv.org/pdf/2501.16154). ACL 2025 Findings.
 ### 4.3 Selection
 #### 4.3.1 Diversity
-- [Impossible Distillation: Gradient-Based Data Diversification Boosts Generalization in LLM Reasoning](https://arxiv.org/abs/2402.13669). ACL 2024.
+- [Impossible Distillation for Paraphrasing and Summarization: How to Make High-quality Lemonade out of Small, Low-quality Model](https://aclanthology.org/2024.naacl-long.250/). NAACL 2024.
 - [QDIT: Data Diversity Matters for Robust Instruction Tuning](https://aclanthology.org/2024.findings-emnlp.195/). EMNLP 2024 Findings.
-- [DEITA: Data-Efficient Instruction Tuning for Alignment](https://arxiv.org/abs/2403.07392). ICLR 2024.
+- [DEITA: Data-Efficient Instruction Tuning for Alignment](https://arxiv.org/pdf/2312.15685). ICLR 2024.
 - [Instag: Instruction Tagging for Analyzing Supervised Fine-Tuning of Large Language Models](https://arxiv.org/abs/2308.07074). ICLR 2024.
 - [LESS: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/abs/2402.04333). ICML 2024.
-- [G-Vendi: Data Selection with Model-Based Diversity](https://arxiv.org/abs/2503.21744). ICLR 2025.
+- [Prismatic synthesis: Gradient-based data diversification boosts generalization in llm reasoning](https://arxiv.org/abs/2505.20161). ICLR 2025.
 #### 4.3.2 Quality
-- [LIFT: Rethinking the Instruction Quality — LIFT Is What You Need](https://arxiv.org/abs/2310.11691). EMNLP 2023 Findings.
+- [LIFT: Rethinking the Instruction Quality — LIFT Is What You Need](https://arxiv.org/abs/2312.11508). EMNLP 2023 Findings.
 - [Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models](https://aclanthology.org/2024.emnlp-main.248/). EMNLP 2024.
 - [AlpaGasus: Training a Better Alpaca Model with Fewer Data](https://arxiv.org/abs/2307.08701). ICLR 2024.
-- [IFD: Instruction-Following Difficulty Score for Data Selection](https://arxiv.org/abs/2403.02980). ICLR 2024.
+- [IFD: Instruction-Following Difficulty Score for Data Selection](https://arxiv.org/html/2308.12032v4). NAACL 2024.
 - [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948). arXiv 2025.
 #### 4.3.3 Composite Strategy
 - [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206). NeurIPS 2023.
-- [MoDS: Model-Oriented Data Selection for Instruction Tuning](https://arxiv.org/abs/2308.11793). EMNLP 2023 Findings.
-- [SelectIT: Selective Instruction Tuning for LLMs via Uncertainty-Aware Self-Reflection](https://arxiv.org/abs/2403.07392). NeurIPS 2024.
-- [Dataman: Data Manager for Pre-Training Large Language Models](https://arxiv.org/abs/2501.00656). ICLR 2025.
+- [MoDS: Model-Oriented Data Selection for Instruction Tuning](https://arxiv.org/abs/2311.15653). Arxiv 2023.
+- [SelectIT: Selective Instruction Tuning for LLMs via Uncertainty-Aware Self-Reflection](https://arxiv.org/abs/2402.16705). NeurIPS 2024.
+- [Dataman: Data Manager for Pre-Training Large Language Models](https://arxiv.org/abs/2502.19363). ICLR 2025.
 
 ### 4.4 Summary
 
