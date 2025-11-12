@@ -204,9 +204,9 @@ selection
 - [Bonito: Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation](https://arxiv.org/abs/2402.11107). ACL 2024 Findings.
 - [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://aclanthology.org/2023.acl-long.754/). ACL 2023.
 - [WizardLM: Empowering Large Pre-trained Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244). ICLR 2024.
-- [AQuilt: Weaving Logic and Self-Inspection into Low-Cost, High-Relevance Data Synthesis for Specialist LLMs](https://arxiv.org/abs/2409.15617). EMNLP 2025.
-- [Absolute Zero: Reinforced Self-Play Reasoning with Zero Data](https://arxiv.org/abs/2408.13296). ICLR 2025.
-- [Synthetic Data RL: Task Definition Is All You Need](https://arxiv.org/abs/2505.18347). Arxiv 2025.
+- [AQuilt: Weaving Logic and Self-Inspection into Low-Cost, High-Relevance Data Synthesis for Specialist LLMs](https://aclanthology.org/2025.emnlp-main.293/). EMNLP 2025.
+- [Absolute Zero: Reinforced Self-Play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335). ICLR 2025.
+- [Synthetic Data RL: Task Definition Is All You Need](https://arxiv.org/abs/2505.17063). Arxiv 2025.
 - [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://aclanthology.org/2025.acl-long.1091/). ACL 2025.
 - [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/pdf/2406.08464). ICLR 2025.
 
