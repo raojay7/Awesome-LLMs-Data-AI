@@ -324,29 +324,29 @@ selection
 #### 5.4.1 Consistency
 - [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171). ICLR 2023.
 - [Universal Self-Consistency for Large Language Model Generation](https://arxiv.org/abs/2311.17311). ICLR 2024.
-- [Multiagent Debate: Improving Factuality and Reasoning in Language Models](https://arxiv.org/abs/2403.01214). ICML 2024.
-- [Generative Verifiers: Reward Modeling as Next-Token Prediction](https://arxiv.org/abs/2408.09098). ICML 2025.
-- [MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration](https://arxiv.org/abs/2406.08490). ACL 2025.
-- [Self-Certainty: Scalable Best-of-N Selection for Large Language Models via Self-Certainty](https://arxiv.org/abs/2502.14756). ICLR 2025.
+- [Multiagent Debate: Improving Factuality and Reasoning in Language Models](https://arxiv.org/abs/2305.14325). ICML 2024.
+- [Generative Verifiers: Reward Modeling as Next-Token Prediction](https://arxiv.org/abs/2408.15240). ICLR 2025.
+- [MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration](https://aclanthology.org/2025.acl-long.802.pdf). ACL 2025.
+- [Self-Certainty: Scalable Best-of-N Selection for Large Language Models via Self-Certainty](https://arxiv.org/abs/2502.18581). NeurIPS 2025.
 #### 5.4.2 RAG
 - [RAG-HAT: A Hallucination-Aware Tuning Pipeline for LLM in Retrieval-Augmented Generation](https://aclanthology.org/2024.emnlp-industry.113/). EMNLP 2024 Industry Track.
 - [TRAQ: Trustworthy Retrieval-Augmented Question Answering via Conformal Prediction](https://aclanthology.org/2024.naacl-long.210/). NAACL 2024.
 - [SEER: Self-Aligned Evidence Extraction for Retrieval-Augmented Generation](https://aclanthology.org/2024.emnlp-main.178/). EMNLP 2024.
-- [Rowen: Adaptive Retrieval-Augmented Generation for Hallucination Mitigation in LLMs](https://arxiv.org/abs/2504.09959). ACL 2025.
+- [Rowen: Adaptive Retrieval-Augmented Generation for Hallucination Mitigation in LLMs](https://arxiv.org/abs/2402.10612). SIGIR 2025.
 #### 5.4.3 Decoding
-- [DOLA: Decoding by Contrasting Layers Improves Factuality in Large Language Models](https://arxiv.org/abs/2402.11159). ICLR 2024.
+- [DOLA: Decoding by Contrasting Layers Improves Factuality in Large Language Models](https://arxiv.org/pdf/2309.03883). ICLR 2024.
 - [CAD: Context-Aware Decoding Reduces Hallucinations in Large Multilingual Machine Translation Models](https://aclanthology.org/2024.eacl-long.155/). EACL 2024.
 - [ROSE: Reverse Prompt Contrastive Decoding Boosts Safety of Instruction-Tuned LLMs](https://aclanthology.org/2024.findings-acl.814/). ACL 2024 Findings.
 ### 5.5 Summary
 ## 6. Future Trends
 ### 6.1 Dataset
 #### 6.1.1 Domain-Specific Data Scarcity
-- [Craft Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation](https://arxiv.org/abs/2404.07991). TACL 2025.
+- [Craft Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation](https://arxiv.org/abs/2409.02098). TACL 2025.
 
 #### 6.1.2 Cross-Domain Data Reutilization
-- [Synthetic Continued Pretraining](https://arxiv.org/abs/2409.07459). ICLR 2025.
+- [Synthetic Continued Pretraining](https://arxiv.org/abs/2409.07431). ICLR 2025.
 
-#### 6.1.3 Data Sensitivity and Privacy]
+#### 6.1.3 Data Sensitivity and Privacy
 - [Differentially Private Synthetic Data via Foundation Model APIs 2: Text](https://arxiv.org/abs/2403.01749). ICML 2024.
 ### 6.2 Creation
 #### 6.2.1 Data Agent Pipelines
@@ -356,30 +356,30 @@ selection
 - [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://aclanthology.org/2025.acl-long.1091/). ACL 2025.
 
 #### 6.2.3 Data Flywheel
-- [Recycle-The-Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models](https://arxiv.org/abs/2408.09812). ACL 2025 Findings.
+- [Recycle-The-Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models](https://arxiv.org/abs/2506.04689). COLM 2025.
 
 #### 6.2.4 User Collaboration
-- [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2401.12968). ICLR 2025.
+- [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2406.08464). ICLR 2025.
 
 #### 6.2.5 Cross-modal Knowledge Utilization
-- [TextHarmony: A Unified Architecture for Multimodal LLMs Integrating Vision, Language and Diffusion](https://arxiv.org/abs/2407.12773). NeurIPS 2024.
+- [TextHarmony: A Unified Architecture for Multimodal LLMs Integrating Vision, Language and Diffusion](https://arxiv.org/abs/2407.16364). NeurIPS 2024.
 
 #### 6.2.6 Data Efficiency
 - [Less: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/abs/2402.04333). ICML 2024.
 
 #### 6.2.7 Length Control
-- [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2310.18558). TMLR 2025.
+- [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2503.16419). TMLR 2025.
 
-#### 6.2.8 Model-Aware Filter](#628-model-aware-filter
+#### 6.2.8 Model-Aware Filter
 - [SeaPO: Strategic Error Amplification for Robust Preference Optimization](https://aclanthology.org/2025.findings-emnlp.898/). EMNLP 2025 Findings.
 ### 6.3 Strategy
 #### 6.3.1 Unified Post-Training
-- [SRFT: A Single-Stage Method with Supervised and Reinforcement Fine-Tuning for Reasoning](https://arxiv.org/abs/2506.19767). arXiv 2025.
+- [SRFT: A Single-Stage Method with Supervised and Reinforcement Fine-Tuning for Reasoning](https://arxiv.org/abs/2506.19767). ArXiv 2025.
 
 #### 6.3.2 Cross-Stage Data Reutilization
-- [Physics of Language Models: Part 3.1, Knowledge Storage and Extraction](https://arxiv.org/abs/2310.06889). arXiv 2024.
+- [Physics of Language Models: Part 3.1, Knowledge Storage and Extraction](https://arxiv.org/abs/2309.14316). ArXiv 2024.
 
 #### 6.3.3 Test-Time Strategy
-- [CarBoN: Calibrated Best-of-N Sampling Improves Test-Time Reasoning](https://arxiv.org/abs/2505.15707). ACL 2025.
+- [CarBoN: Calibrated Best-of-N Sampling Improves Test-Time Reasoning](https://www.arxiv.org/abs/2510.15674). ArXiv 2025.
 #### 6.3.4 Data Unlearning
-- [Large Language Model Unlearning](https://arxiv.org/abs/2310.10058). NeurIPS 2024.
+- [Large Language Model Unlearning](https://arxiv.org/abs/2310.10683). NeurIPS 2024.
