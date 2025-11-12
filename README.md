@@ -247,11 +247,11 @@ selection
 - [Aristotle: Mastering Logical Reasoning with a Logic-Complete Decompose-Search-Resolve Framework](https://aclanthology.org/2025.acl-long.153/). ACL 2025.
 - [Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models](https://aclanthology.org/2025.acl-long.785/). ACL 2025.
 - [SC-NeuroSymbolic: Sound and Complete Neurosymbolic Reasoning with LLM-Grounded Interpretations](https://arxiv.org/pdf/2507.09751). PMLR 2025.
-- [SymbolicThought: Integrating Language Models and Symbolic Reasoning for Consistent and Interpretable Human Relationship Understanding](https://arxiv.org/abs/2502.13756). arXiv 2025.
-- [MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions](https://aclanthology.org/2024.findings-emnlp.414/). EMNLP 2024 Findings.
+- [SymbolicThought: Integrating Language Models and Symbolic Reasoning for Consistent and Interpretable Human Relationship Understanding](https://arxiv.org/abs/2507.04189). arXiv 2025.
+- [MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions](https://arxiv.org/pdf/2409.12958). EMNLP 2024 Findings.
 - [CSDG: Scaling Synthetic Logical Reasoning Datasets with Context-Sensitive Declarative Grammars](https://aclanthology.org/2024.emnlp-main.301/). EMNLP 2024.
-- [NSAR: Enhancing Large Language Models with Neurosymbolic Reasoning for Multilingual Tasks](https://arxiv.org/abs/2502.14756). ACL 2025 Findings.
-- [AdaCoT: Adaptive Multilingual Chain-of-Thought for Cross-Lingual Factual Reasoning](https://aclanthology.org/2025.findings-acl.439/). ACL 2025 Findings.
+- [NSAR: Enhancing Large Language Models with Neurosymbolic Reasoning for Multilingual Tasks](https://arxiv.org/pdf/2506.02483). Arxiv 2025.
+- [AdaCoT: Adaptive Multilingual Chain-of-Thought for Cross-Lingual Factual Reasoning](https://arxiv.org/pdf/2501.16154). ACL 2025 Findings.
 ### 4.3 Selection
 #### 4.3.1 Diversity
 - [Impossible Distillation: Gradient-Based Data Diversification Boosts Generalization in LLM Reasoning](https://arxiv.org/abs/2402.13669). ACL 2024.
