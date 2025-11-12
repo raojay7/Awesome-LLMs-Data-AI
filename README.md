@@ -180,17 +180,16 @@ selection
 ### 4. Creation
 ##### 4.1.1 Data Processing
 - [Dolma: An Open Corpus of Three Trillion Tokens for Language Model Pretraining Research](https://aclanthology.org/2024.acl-long.840/). ACL 2024.
-- [DataComp-LM: In Search of the Next Generation of Training Sets for Language Models](https://arxiv.org/abs/2406.01761). NeurIPS 2024 Datasets & Benchmarks.
-- [AutoClean: LLMs Can Prepare Their Training Corpus](https://arxiv.org/abs/2405.18347). NAACL 2025.
-- [Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models](https://arxiv.org/abs/2408.09812). ACL 2025 Findings.
+- [DataComp-LM: In Search of the Next Generation of Training Sets for Language Models](https://arxiv.org/abs/2406.11794). NeurIPS 2024 Datasets & Benchmarks.
+- [AutoClean: LLMs Can Prepare Their Training Corpus](https://aclanthology.org/2025.naacl-demo.9/). NAACL 2025.
+- [Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models](https://arxiv.org/abs/2506.04689). COLM 2025.
 - [Ultra-FineWeb: Efficient Data Filtering and Verification for High-Quality LLM Training Data](https://arxiv.org/abs/2505.05427). arXiv 2025.
-- [Token Cleaning: Fine-Grained Data Selection for LLM Supervised Fine-Tuning](https://arxiv.org/abs/2505.18347). ICML 2025.
-- [AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark](https://arxiv.org/abs/2506.04411). EMNLP 2025 Findings.
+- [Token Cleaning: Fine-Grained Data Selection for LLM Supervised Fine-Tuning](https://openreview.net/forum?id=tXkOUS3vLS). ICML 2025.
+- [AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark](https://aclanthology.org/2025.findings-emnlp.410/). EMNLP 2025 Findings.
 ##### 4.1.2 Prompt Engineering
 - [Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding](https://arxiv.org/abs/2401.04398). ICLR 2024.
 - [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651). NeurIPS 2023.
 - [Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs](https://aclanthology.org/2024.emnlp-main.629/). EMNLP 2024.
-- [Task Decomposition Improves Understanding in Large Language Models](https://aclanthology.org/2024.naacl-long.106/). NAACL 2024.
 - [PE2: Prompt Engineering a Prompt Engineer](https://aclanthology.org/2024.findings-acl.21/). ACL 2024 Findings.
 - [OPRO: Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409). ICLR 2024.
 ### 4.2 Synthesis
