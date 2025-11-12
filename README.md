@@ -282,7 +282,7 @@ selection
 - [CommonIT: Commonality-Aware Instruction Tuning for Large Language Models via Data Partitions](https://aclanthology.org/2024.emnlp-main.561/). EMNLP 2024.
 - [Persona-Plug: LLMs + Persona-Plug = Personalized LLMs](https://aclanthology.org/2025.acl-long.461/). ACL 2025.
 - [RFT: Rejection Sampling Fine-Tuning](https://arxiv.org/abs/2309.08586). arXiv 2023.
-- [SeaPO: Strategic Error Amplification for Robust Preference Optimization](https://arxiv.org/abs/2409.12512). EMNLP 2025 Findings.
+- [SeaPO: Strategic Error Amplification for Robust Preference Optimization](https://aclanthology.org/2025.findings-emnlp.898/). EMNLP 2025 Findings.
 #### 5.1.2 Sample Mixing
 - [D4: Improving LLM Pretraining via Document De-Duplication and Diversification](https://arxiv.org/abs/2305.10429). NeurIPS 2023 Datasets & Benchmarks.
 - [DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining](https://arxiv.org/abs/2305.10429). NeurIPS 2023.
@@ -374,7 +374,7 @@ selection
 - [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2310.18558). TMLR 2025.
 
 #### 6.2.8 Model-Aware Filter](#628-model-aware-filter
-- [SeaPO: Strategic Error Amplification for Robust Preference Optimization](https://arxiv.org/abs/2409.12512). EMNLP 2025 Findings.
+- [SeaPO: Strategic Error Amplification for Robust Preference Optimization](https://aclanthology.org/2025.findings-emnlp.898/). EMNLP 2025 Findings.
 ### 6.3 Strategy
 #### 6.3.1 Unified Post-Training
 - [SRFT: A Single-Stage Method with Supervised and Reinforcement Fine-Tuning for Reasoning](https://arxiv.org/abs/2506.19767). arXiv 2025.
