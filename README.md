@@ -97,11 +97,10 @@ selection
 ## 3. Existing Datasets
 ### 3.1 General Domain
 #### 3.1.1 Pretrain
-- [SlimPajama: A 627B Token Cleaned and Deduplicated Version of RedPajama](https://arxiv.org/abs/2305.09593). NeurIPS 2023 Datasets & Benchmarks.
+- [SlimPajama: A 627B Token Cleaned and Deduplicated Version of RedPajama](https://arxiv.org/abs/2411.12372). NeurIPS 2024 Datasets & Benchmarks.
 - [Dolma: An Open Corpus of Three Trillion Tokens for Language Model Pretraining Research](https://aclanthology.org/2024.acl-long.840/). ACL 2024.
-- [DCLM: Data-Centric Language Modeling](https://arxiv.org/abs/2405.07424). arXiv 2024.
 - [GneissWeb: Preparing High Quality Data for LLMs at Scale](https://arxiv.org/abs/2502.14907). arXiv 2025.
-- [Essential-Web v1.0: 24T Tokens of Organized Web Data](https://arxiv.org/abs/2503.13254). arXiv 2025.
+- [Essential-Web v1.0: 24T Tokens of Organized Web Data](https://arxiv.org/abs/2506.14111). arXiv 2025.
 #### 3.1.2 SFT
 - [FLAN: Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416). JMLR 2024.
 - [Dolly: Free Dolly—Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm). Databricks Blog 2023.
