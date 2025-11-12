@@ -163,11 +163,11 @@ selection
 - [API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs](https://aclanthology.org/2023.emnlp-main.187/). EMNLP 2023.
 - [ToolLLM: Facilitating Large Language Models to Master 16000+ Real-World APIs](https://arxiv.org/abs/2307.16789). ICLR 2024.
 - [AgentBench: Evaluating LLMs as Agents](https://arxiv.org/abs/2308.03688). ICLR 2024.
-- [BFCL: The Berkeley Function Calling Leaderboard](https://arxiv.org/abs/2407.00135). ICML 2025.
-- [MetaTool: MetaTool Benchmark for Large Language Models — Deciding Whether to Use Tools and Which to Use](https://arxiv.org/abs/2401.10956). ICLR 2024.
-- [GAIA: A Benchmark for General AI Assistants](https://arxiv.org/abs/2312.13130). ICLR 2024.
+- [BFCL: The Berkeley Function Calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html). ICML 2025.
+- [MetaTool: MetaTool Benchmark for Large Language Models — Deciding Whether to Use Tools and Which to Use](https://arxiv.org/abs/2310.03128). ICLR 2024.
+- [GAIA: A Benchmark for General AI Assistants](https://arxiv.org/abs/2311.12983). ICLR 2024.
 - [ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities](https://aclanthology.org/2025.findings-naacl.65/). NAACL 2025 Findings.
-- [OpenFunctions: The Berkeley Function Calling Leaderboard (BFCL) V2](https://arxiv.org/abs/2407.00135). ICML 2025.
+- [OpenFunctions: The Berkeley Function Calling Leaderboard (BFCL) V2](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html). NeurIPS 2024.
 - [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761). NeurIPS 2023.
 - [ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases](https://arxiv.org/abs/2306.05301). arXiv 2023.
 - [AgentTuning: Enabling Generalized Agent Abilities for LLMs](https://aclanthology.org/2024.findings-acl.181/). ACL 2024 Findings.
