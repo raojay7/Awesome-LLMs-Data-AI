@@ -206,9 +206,9 @@ selection
 - [WizardLM: Empowering Large Pre-trained Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244). ICLR 2024.
 - [AQuilt: Weaving Logic and Self-Inspection into Low-Cost, High-Relevance Data Synthesis for Specialist LLMs](https://arxiv.org/abs/2409.15617). EMNLP 2025.
 - [Absolute Zero: Reinforced Self-Play Reasoning with Zero Data](https://arxiv.org/abs/2408.13296). ICLR 2025.
-- [Synthetic Data RL: Task Definition Is All You Need](https://arxiv.org/abs/2505.18347). ICLR 2025.
+- [Synthetic Data RL: Task Definition Is All You Need](https://arxiv.org/abs/2505.18347). Arxiv 2025.
 - [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://aclanthology.org/2025.acl-long.1091/). ACL 2025.
-- [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2401.12968). ICLR 2025.
+- [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/pdf/2406.08464). ICLR 2025.
 
 #### 4.2.2 Data Transformation
 - [SODA: Million-Scale Dialogue Distillation with Social Commonsense Contextualization](https://aclanthology.org/2023.emnlp-main.799/). EMNLP 2023.
