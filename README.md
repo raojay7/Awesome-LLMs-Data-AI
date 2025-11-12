@@ -13,33 +13,35 @@ This repo includes papers and blogs about the survey on Data-centric AI of LLMs.
 
 Thanks for all the great contributors on GitHub!🔥⚡🔥
 
-1. Surveys-> related work
-2. Methods-> How to get data?
-3. Stages-> How to use?
-4. Application Areas-> Where to use?
 ## Contents
 
-- [A Survey on Data-centric LLMs](#a-survey-on-data-centric-llms)
+- [A Survey on Data-Centric LLMs Lifecycle](#a-survey-on-data-centric-llms-lifecycle)
   - [Contents](#contents)
   - [1. Surveys](#1-surveys)
-  - [2. Methods](#2-methods)
-    - [2.1. for Generation](#21-for-generation)
-    - [2.2. for Filter](#22-for-filter)
-  - [3. Stages](#3-stages)
-    - [3.1. pretrain](#31-pretrain)
-    - [3.2. sft](#32-sft)
-    - [3.3. RL](#33-rl)     
-  - [4. Application Areas](#4-application-areas)
-    - [4.1. Mathematical Reasoning](#41-mathematical-reasoning)
-    - [4.2. Code Generation](#42-code-generation)
-    - [4.3. Safety and Alignment](#43-safety-and-alignment)
-    - [4.4. Long Context](#44-long-context)
-    - [4.5. Agent and Tool Use](#45-agent-and-tool-use)
-    - [4.6. Vision and Language](#46-vision-and-language)
-
-
-
-
+  - [2. Taxonomy](#2-taxonomy)
+  - [3. Existing Datasets](#3-existing-datasets)
+    - 3.1 General Domain
+      - [3.1.1 Pretrain](#311-pretrain)
+      - [3.1.2 SFT](#312-sft)
+      - [3.1.3 RL](#313-rl)
+    - 3.2 Specific Domain
+      - [3.2.1 Reasoning and Code](#321-reasoning-and-code)
+      - [3.2.2 Safety and Alignment](#322-safety-and-alignment)
+      - [3.2.3 Agent and Tool Use](#323-agent-and-tool-use)
+  - [4. Creation](#4-creation)
+      - 4.1 Annotation
+        - [4.1.1 Data Processing](#411-data-processing)      
+        - [4.1.2 Prompt Engineering](#412-prompt-engineering)
+      - 4.2 Synthesis
+        - [4.2.1 Sampling-Based](#421-sampling-based)
+        - [4.2.2 Data Transformation](#422-data-transformation)
+        - [4.2.3 Back-Translation](#423-back-translation)
+        - [4.2.4 Human-AI Collaboration](#424-human-ai-collaboration)
+        - [4.2.5 Symbolic Generation](#425-symbolic-generation)
+      - 4.3 Selection
+        - [4.3.1 Diversity](#431-diversity)
+        - [4.3.2 Quality](#432-quality)
+        - [4.3.3 Composite Strategy](#433-composite-strategy)
 ## 1. Surveys
 
 ### Data Selection
@@ -70,384 +72,102 @@ selection
 - [**LLM-Driven Synthetic Data Generation, Curation & Evaluation**](https://cobusgreyling.medium.com/llm-driven-synthetic-data-generation-curation-evaluation-33731e33b525) *Cobus Greyling.* 2024
 - [**The Rise of Agentic Data Generation**](https://huggingface.co/blog/mlabonne/agentic-datagen) *Maxime Labonne.* 2024
 - https://blog.csdn.net/qq_43688587/article/details/148533722 
-## 2. Methods
-How to get data?
-### 2.1. for Generation 
-Data-generation method overview
-#### 2.1.1 highlight
-#### 2.1.2 Sampling-based
-##### KD 
-- white
-- black
-- [**Impossible Distillation for Paraphrasing and Summarization: How to Make High-quality Lemonade out of Small, Low-quality Models**](https://arxiv.org/abs/2305.16635) *Jaehun Jung, Peter West, Liwei Jiang, Faeze Brahman, Ximing Lu, Jillian Fisher, Taylor Sorensen, Yejin Choi.* NAACL 2024.
-- [Alice: Proactive Learning with Teacher's Demonstrations for Weak-to-Strong Generalization Inference-Time Scaling for Generalist Reward Modeling](https://arxiv.org/abs/2504.07316). Arxiv 2025.
-- [Minillm: Knowledge distillation of large language models](https://arxiv.org/abs/2306.08543). ICLR 2024.
-- [Gkd: Generalized knowledge distillation for auto-regressive sequence models](https://arxiv.org/abs/2306.13649). ICLR 2024.
-- [Exploring and Enhancing the Transfer of Distribution in Knowledge Distillation for Autoregressive Language Models](https://arxiv.org/abs/2409.12512).
-- [Sequencelevel knowledge distillation](https://aclanthology.org/D16-1139.pdf).
-- [Distilling step-by-step! outperforming larger language models with less training data and smaller model sizes](https://arxiv.org/abs/2305.02301). ACL 2023.
-- [Large language models are reasoning teachers](https://arxiv.org/abs/2212.10071). ACL 2023.
-- [Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning](https://arxiv.org/abs/2402.13669). ACL 2024.
+## 2. Taxonomy
 
-##### from scratch(new task, e.g., self-instruct)从0开始合成数据 (DYHP)
-- Absolute Zero: Reinforced Self-play Reasoning with Zero Data
-- Synthetic Data RL: Task Definition Is All You Need
-- Condor: Enhance llm alignment with knowledge-driven data synthesis and refinement
-- [**Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models**](https://arxiv.org/abs/2402.13064) *Haoran Li, Qingxiu Dong, Zhengyang Tang, Chaojun Wang, Xingxing Zhang, Haoyang Huang, Shaohan Huang, Xiaolong Huang, Zeqiang Huang, Dongdong Zhang, Yuxian Gu, Xin Cheng, Xun Wang, Si-Qing Chen, Li Dong, Wei Lu, Zhifang Sui, Benyou Wang, Wai Lam, Furu Wei.* Arxiv 2024.
-- [**Self-instruct: Aligning language models with self-generated instructions**](https://arxiv.org/abs/2212.10560) *Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi.* ACL 2023.
-- [**WizardLM: Empowering Large Language Models to Follow Complex Instructions**](https://arxiv.org/abs/2304.12244) *Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng, Pu Zhao, Jiazhan Feng, Chongyang Tao, Daxin Jiang.* ICLR 2024.
-- [**Diverse and effective synthetic data generation for adaptable zero-shot dialogue state tracking**](https://arxiv.org/abs/2405.12468).
-- [**Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing**](https://arxiv.org/abs/2406.08464) *Zhangchen Xu, Fengqing Jiang, Luyao Niu, Yuntian Deng, Radha Poovendran, Yejin Choi, Bill Yuchen Lin* NeurIPS 2024.
-- [**TarGEN: Targeted Data Generation with Large Language Models**](https://arxiv.org/abs/2310.17876) *Himanshu Gupta, Kevin Scaria, Ujjwala Anantheswaran, Shreyas Verma, Mihir Parmar, Saurabh Arjun Sawant, Chitta Baral, Swaroop Mishra.* COLM 2024.
-- [**Bonito: Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation**](https://arxiv.org/abs/2402.18334) *Nihal V. Nayak, Yiyang Nan, Avi Trost, Stephen H. Bach* ACL Findings 2024.
-####  2.1.3 generation Back-translation (SJJ)
-##### MT
-- [**Self-Alignment with Instruction Backtranslation**](https://arxiv.org/abs/2308.06259) *Xian Li, Ping Yu, Chunting Zhou, Timo Schick, Omer Levy, Luke Zettlemoyer, Jason Weston, Mike Lewis.* ICLR 2024.
-- [**Better Alignment with Instruction Back-and-Forth Translation**](https://aclanthology.org/2024.findings-emnlp.777/) *Thao Nguyen, Jeffrey Li, Sewoong Oh, Ludwig Schmidt, Jason Weston, Luke Zettlemoyer, Xian Li.* EMNLP 2024.
-##### Alignment
-- Self-Alignment with Instruction Backtranslation
-- [**LongForm: Effective Instruction Tuning with Reverse Instructions**](https://arxiv.org/abs/2304.08460) *Abdullatif Köksal, Timo Schick, Anna Korhonen, Hinrich Schütze.* EMNLP 2024.
-- [**Safer-Instruct: Aligning Language Models with Automated Preference Data**](https://arxiv.org/abs/2311.08685) *Taiwei Shi, Kai Chen, Jieyu Zhao.* NAACL 2024.
-- [**CYCLE-INSTRUCT: Fully Seed-Free Instruction Tuning via Dual Self-Training and Cycle Consistency**](https://arxiv.org/abs/2508.16100) *Zhanming Shen, Hao Chen, Yulei Tang, Shaolin Zhu, Wentao Ye, Xiaomeng Hu, Haobo Wang, Gang Chen, Junbo Zhao.* EMNLP 2025.
-####  2.1.4 Transformation of existing data (task Related datasets or documents) (WZY)
-##### Knowledge Graph
-- [**SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization**](https://aclanthology.org/2023.emnlp-main.799/)*Hyunwoo Kim, Jack Hessel, Liwei Jiang, Peter West, Ximing Lu, Youngjae Yu, Pei Zhou, Ronan Bras, Malihe Alikhani, Gunhee Kim, Maarten Sap, Yejin Choi* EMNLP 2023.
-- [**Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement**](https://aclanthology.org/2025.acl-long.1091/)*Maosongcao Maosongcao, Taolin Zhang, Mo Li, Chuyu Zhang, Yunxin Liu, Conghui He, Haodong Duan, Songyang Zhang, Kai Chen* ACL 2025.
+## 3. Existing Datasets
+### 3.1 General Domain
+#### 3.1.1 Pretrain
+- [SlimPajama: A 627B token cleaned and deduplicated version of RedPajama](https://arxiv.org/abs/2305.09593). NeurIPS 2023 Datasets & Benchmarks.
+- [Dolma: An Open Corpus of Three Trillion Tokens for Language Model Pretraining Research](https://aclanthology.org/2024.acl-long.840/). ACL 2024.
+- [DCLM: Data-Centric Language Modeling](https://arxiv.org/abs/2405.07424). arXiv 2024.
+- [GneissWeb: Preparing High Quality Data for LLMs at Scale](https://arxiv.org/abs/2502.14907). arXiv 2025.
+#### 3.1.2 SFT
+- [Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416). JMLR 2024.
+- [Dolly: Free Dolly—Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm). Databricks Blog 2023.
+- [Alpaca: A Strong, Replicable Instruction-Following Model](https://github.com/tatsu-lab/stanford_alpaca). Stanford 2023.
+- [Orca: Progressive Learning from Complex Explanation Traces of GPT-4](https://arxiv.org/abs/2306.02707). ICML 2023.
+- [Tülu: How Far Can Camels Go?](https://arxiv.org/abs/2306.04751). NeurIPS 2023.
+- [Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data](https://aclanthology.org/2023.emnlp-main.385/). EMNLP 2023.
+#### 3.1.3 RL
+- [InstructGPT: Training Language Models to Follow Instructions with Human Feedback](https://arxiv.org/abs/2203.02155). NeurIPS 2022.
+- [RLAIF: Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073). NeurIPS 2022.
+- [UltraFeedback: Boosting Language Models with High-Quality Feedback](https://arxiv.org/abs/2310.01377). ICML 2024.
+- [Tulu 3: Pushing Frontiers in Open Language Model Post-Training](https://arxiv.org/abs/2411.15124). arXiv 2024.
+- [ORM/PRM: Let's Verify Step by Step](https://arxiv.org/abs/2305.20050). ICLR 2024.
 
-##### Rephrasing documents 
-
-scaling
-
-- [**MAmmoTH2: Scaling Instructions from the Web**](https://arxiv.org/abs/2405.03548) *Xiang Yue, Tuney Zheng, Ge Zhang, Wenhu Chen* NeurIPS 2024.
-- [**Scaling Synthetic Data Creation with 1,000,000,000 Personas**](https://arxiv.org/abs/2406.20094) *Tao Ge, Xin Chan, Xiaoyang Wang, Dian Yu, Haitao Mi, Dong Yu.* NeurIPS 2024.
-- [**Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling**](https://aclanthology.org/2024.acl-long.757/) *Pratyush Maini, Skyler Seto, Richard Bai, David Grangier, Yizhe Zhang, Navdeep Jaitly* ACL 2024.
-- [**On the Diversity of Synthetic Data and its Impact on Training Large Language Models**](https://arxiv.org/abs/2410.15226)  *Hao Chen, Abdul Waheed, Xiang Li, Yidong Wang, Jindong Wang, Bhiksha Raj, Marah I. Abdin* Arxiv 2024.
-- [**Source2Synth: Synthetic Data Generation and Curation Grounded in Real Data Sources**](https://arxiv.org/abs/2409.08239) *Alisia Lupidi, Carlos Gemmell, Nicola Cancedda, Jane Dwivedi-Yu, Jason Weston, Jakob Foerster, Roberta Raileanu, Maria Lomeli* Arxiv 2024.
-
-rag
-
-- [**Better Synthetic Data by Retrieving and Transforming Existing Datasets**](https://aclanthology.org/2024.findings-acl.385/) *Saumya Gandhi, Ritu Gala, Vijay Viswanathan, Tongshuang Wu, Graham Neubig* ACL(Findings) 2024.
-- [**Reformatted Alignment**](https://aclanthology.org/2024.findings-emnlp.32/) *Run-Ze Fan, Xuefeng Li, Haoyang Zou, Junlong Li, Shwai He, Ethan Chern, Jiewen Hu, Pengfei Liu* EMNLP(Findings) 2024.
-- [**CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation**](https://arxiv.org/abs/2409.02098) *Ingo Ziegler, Abdullatif Köksal, Desmond Elliott, Hinrich Schütze*. TACL 2025.
-#### 2.1.5 Human-Al collaboration 
-##### self-generation (MHS)
-  - [**STaR: Bootstrapping Reasoning With Reasoning**](https://arxiv.org/abs/2203.14465) *Eric Zelikman, Yuhuai Wu, Jesse Mu, Noah D. Goodman.* NeurIPS 2022.
-  - [**Symbolic Knowledge Distillation: from General Language Models to Commonsense Models**](https://arxiv.org/abs/2110.07178) *Peter West, Chandra Bhagavatula, Jack Hessel, Jena D. Hwang, Liwei Jiang, Ronan Le Bras, Ximing Lu, Sean Welleck, Yejin Choi.* NAACL 2022.
-  - [**Generating Training Data with Language Models: Towards Zero-Shot Language Understanding**](https://arxiv.org/abs/2202.04538) *Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han.* NeurIPS 2022.
-  - [**ZeroGen: Efficient Zero-shot Learning via Dataset Generation**](https://arxiv.org/abs/2202.07922) *Jiacheng Ye, Jiahui Gao, Qintong Li, Hang Xu, Jiangtao Feng, Zhiyong Wu, Tao Yu, Lingpeng Kong.* EMNLP 2022.
-  - [**Large Language Models Can Self-Improve**](https://aclanthology.org/2023.emnlp-main.67/) *Jiaxin Huang, Shixiang Gu, Le Hou, Yuexin Wu, Xuezhi Wang, Hongkun Yu, Jiawei Han.* EMNLP 2023.
-  - [**CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society**](https://arxiv.org/abs/2303.17760) *Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, Bernard Ghanem.* NeurIPS 2023.
-  - [**Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models**](https://arxiv.org/abs/2401.01335) *Zixiang Chen, Yihe Deng, Huizhuo Yuan, Kaixuan Ji, Quanquan Gu.* ICML 2024.
-  - [**Self-Rewarding Language Models.**](https://arxiv.org/abs/2401.10020) *Weizhe Yuan, Richard Yuanzhe Pang, Kyunghyun Cho, Xian Li, Sainbayar Sukhbaatar, Jing Xu, Jason Weston.* Arxiv 2024.
-  - [**Automatic Instruction Evolving for Large Language Models**](https://arxiv.org/abs/2406.00770) *Weihao Zeng, Can Xu, Yingxiu Zhao, Jian-Guang Lou, Weizhu Chen.* Arxiv 2024.
-  - [**Self-playing Adversarial Language Game Enhances LLM Reasoning**](https://arxiv.org/abs/2404.10642) *Pengyu Cheng, Tianhao Hu, Han Xu, Zhisong Zhang, Yong Dai, Lei Han, Nan Du* Arxiv 2024.
-  - [**SEER: Self-Aligned Evidence Extraction for Retrieval-Augmented Generation**](https://arxiv.org/abs/2410.11315) *Xinping Zhao, Dongfang Li, Yan Zhong, Boren Hu, Yibin Chen, Baotian Hu, Min Zhang.* EMNLP 2024.
-  - [**ChatGLM-Math: Improving Math Problem-Solving in Large Language Models with a Self-Critique Pipeline**](https://arxiv.org/abs/2404.02893) *Yifan Xu, Xiao Liu, Xinghan Liu, Zhenyu Hou, Yueyan Li, Xiaohan Zhang, Zihan Wang, Aohan Zeng, Zhengxiao Du, Wenyi Zhao, Jie Tang, Yuxiao Dong.* EMNLP 2024.
-  - [**SALMON: Self-Alignment with Instructable Reward Models**](https://arxiv.org/abs/2310.05910) *Zhiqing Sun, Yikang Shen, Hongxin Zhang, Qinhong Zhou, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan.* ICLR 2024.
-  - [**Principle-driven self-alignment of language models from scratch with min￾imal human supervision**](https://openreview.net/forum?id=p40XRfBX96) *Zhiqing Sun, Yikang Shen, Qinhong Zhou, Hongxin Zhang, Zhenfang Chen, David Daniel Cox, Yiming Yang, and Chuang Gan.* NeurIPS 2023.
-  - [**Self-Refine Instruction-Tuning for Aligning Reasoning in Language Models**](https://arxiv.org/abs/2405.00402) *Leonardo Ranaldi, Andrè Freitas.* EMNLP 2024.
-  - [**Self-critiquing models for assisting human evaluators**](https://arxiv.org/abs/2206.05802) *William Saunders, Catherine Yeh, Jeff Wu, Steven Bills, Long Ouyang, Jonathan Ward, Jan Leike.* Arxiv 2022.
-  - [**Self-play with Execution Feedback: Improving Instruction-following Capabilities of Large Language Models**](https://arxiv.org/abs/2406.13542) *Guanting Dong, Keming Lu, Chengpeng Li, Tingyu Xia, Bowen Yu, Chang Zhou, Jingren Zhou.* ICLR 2025.
-  - [**Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement**](https://arxiv.org/abs/2506.03541) *Xiaofeng Zhou, Heyan Huang, Lizi Liao.* ACL 2025.
-  - [**SAND-Math: Using LLMs to Generate Novel, Difficult and Useful Mathematics Questions and Answers**](https://arxiv.org/abs/2507.20527) *Chaitanya Manem, Pratik Prabhanjan Brahma, Prakamya Mishra, Zicheng Liu, Emad Barsoum.* Arxiv 2025.
-
-##### Focus on Error (WZY)
-  - [**CEM: A Data-Efficient Method for Large Language Models to Continue Evolving From Mistakes**](https://arxiv.org/abs/2404.08707) *Haokun Zhao, Haixia Han, Jie Shi, Chengyu Du, Jiaqing Liang, Yanghua Xiao.* Arxiv 2024.
-  - [**Let’s Synthesize Step by Step: Iterative Dataset Synthesis with Large Language Models by Extrapolating Errors from Small Models**](https://aclanthology.org/2023.findings-emnlp.791/) *Ruida Wang, Wangchunshu Zhou, Mrinmaya Sachan.* EMNLP Findings 2023.
-  - [**AutoDetect: Towards a Unified Framework for Automated Weakness Detection in Large Language Models**](https://aclanthology.org/2024.findings-emnlp.397/) *Jiale Cheng, Yida Lu, Xiaotao Gu, Pei Ke, Xiao Liu, Yuxiao Dong, Hongning Wang, Jie Tang, Minlie Huang.* EMNLP Findings 2024.
-  - [**APT: Improving Specialist LLM Performance with Weakness Case Acquisition and Iterative Preference Training**](https://aclanthology.org/2025.findings-acl.1079/) *Jun Rao, Zepeng Lin, Xuebo Liu, Xiaopeng Ke, Lian Lian, Dong Jin, Shengjun Cheng, Jun Yu, Min Zhang.* ACL Findings 2025.
-  - [**CDS: Data Synthesis Method Guided by Cognitive Diagnosis Theory**](https://aclanthology.org/2025.findings-acl.439/) *Haokun Zhao, Jinyi Han, Jiaqing Liang, Yanghua Xiao, Xiaojun Meng, Jiansheng Wei.* ACL Findings 2025.
-  - [**SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning**](https://arxiv.org/abs/2506.08989) *Xiao Liang, Zhong-Zhi Li, Yeyun Gong, Yang Wang, Hengyuan Zhang, Yelong Shen, Ying Nian Wu, Weizhu Chen.* Arxiv 2025.
-  - [**Error Classification of Large Language Models on Math Word Problems: A Dynamically Adaptive Framework**](https://arxiv.org/abs/2501.15581) *Yuhong Sun, Zhangyue Yin, Xuanjing Huang, Xipeng Qiu, Hui Zhao.* Arxiv 2025.
-  - [**Evaluating Mathematical Reasoning of Large Language Models: A Focus on Error Identification and Correction**](https://aclanthology.org/2024.findings-acl.673/) *Xiaoyuan Li, Wenjie Wang, Moxin Li, Junrong Guo, Yang Zhang, Fuli Feng.* ACL Findings 2024.
-  - [**RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold**](https://openreview.net/forum?id=9m87e9Keq1) *Amrith Setlur, Saurabh Garg, Xinyang Geng, Naman Garg, Virginia Smith, Aviral Kumar.* NeurIPS 2024 poster.
-  - [**Self-Error-Instruct: Generalizing from Errors for LLMs Mathematical Reasoning**](https://aclanthology.org/2025.acl-long.417/) *Erxin Yu, Jing Li, Ming Liao, Qi Zhu, Boyang Xue, Minghui Xu, Baojun Wang, Lanqing Hong, Fei Mi, Lifeng Shang.* ACL 2025.
-  - [**LEMMA: Learning from Errors for MatheMatical Advancement in LLMs**](https://aclanthology.org/2025.findings-acl.605/) *Zhuoshi Pan, Yu Li, Honglin Lin, Qizhi Pei, Zinan Tang, Wei Wu, Chenlin Ming, H. Vicky Zhao, Conghui He, Lijun Wu.* ACL Findings 2025.
-  - [**Subtle Errors in Reasoning: Preference Learning via Error-injected Self-editing**](https://aclanthology.org/2025.acl-long.1506/) *Kaishuai Xu, Tiezheng Yu, Wenjun Hou, Yi Cheng, Chak Tou Leong, Liangyou Li, Xin Jiang, Lifeng Shang, Qun Liu, Wenjie Li.* ACL 2025.
- 
-#### 2.1.6 Symbolic generation 
-  - Symbolic (MATH) (SJJ)
-
-##### Reasoning Process
-- [**Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning**](https://arxiv.org/abs/2305.12295) *Liangming Pan, Alon Albalak, Xinyi Wang, William Yang Wang.* EMNLP 2023.
-- [**Large Language Models Are Neurosymbolic Reasoners**](https://ojs.aaai.org/index.php/AAAI/article/view/29754) *Meng Fang, Shilong Deng, Yudi Zhang, Zijing Shi, Ling Chen, Mykola Pechenizkiy, Jun Wang.* AAAI 2024.
-- [**Symbolic regression with a learned concept library**](https://proceedings.neurips.cc/paper_files/paper/2024/hash/4ec3ddc465c6d650c9c419fb91f1c00a-Abstract-Conference.html) *Arya Grayeli, Atharva Sehgal, Omar Costilla-Reyes, Miles Cranmer, Swarat Chaudhuri.* NeurIPS 2024.
-- [**Faithful Logical Reasoning via Symbolic Chain-of-Thought**](https://arxiv.org/abs/2405.18357) *Jundong Xu, Hao Fei, Liangming Pan, Qian Liu, Mong-Li Lee, Wynne Hsu.* ACL 2024.
-- [**ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs**](https://arxiv.org/abs/2506.15211) *Feng He, Zijun Chen, Xinnian Liang, Tingting Ma, Yunqi Qiu, Shuangzhi Wu, Junchi Yan.* Arxiv 2025.
-- [**Aristotle: Mastering Logical Reasoning with A Logic-Complete Decompose-Search-Resolve Framework**](https://arxiv.org/abs/2412.16953) *Jundong Xu, Hao Fei, Meng Luo, Qian Liu, Liangming Pan, William Yang Wang, Preslav Nakov, Mong-Li Lee, Wynne Hsu.* Arxiv 2024.
-- [**Com²: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models**](https://arxiv.org/abs/2506.07064) *Kai Xiong, Xiao Ding, Yixin Cao, Yuxiong Yan, Li Du, Yufei Zhang, Jinglong Gao, Jiaqian Liu, Bing Qin, Ting Liu.* ACL 2025.
-- [**Sound and Complete Neurosymbolic Reasoning with LLM-Grounded Interpretations**](https://arxiv.org/abs/2507.09751) *Bradley P. Allen, Prateek Chhikara, Thomas Macaulay Ferguson, Filip Ilievski, Paul Groth.* NeSy 2025.
-- [**SymbolicThought: Integrating Language Models and Symbolic Reasoning for Consistent and Interpretable Human Relationship Understanding**](https://arxiv.org/abs/2507.04189) *Runcong Zhao, Qinglin Zhu, Hainiu Xu, Bin Liang, Lin Gui, Yulan He.* Arxiv 2025.
-
-##### Multilingual 
-
-- [**MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions**](https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.18/132911) *Abdullatif Köksal, Marion Thaler, Ayyoob Imani, Ahmet Üstün, Anna Korhonen, Hinrich Schütze.* TACL 2025.
-- [**Scaling Synthetic Logical Reasoning Datasets with Context-Sensitive Declarative Grammars**](https://arxiv.org/abs/2406.11035) *Damien Sileo.* Arxiv 2024.
-- [**AdaMCoT: Rethinking Cross-Lingual Factual Reasoning through Adaptive Multilingual Chain-of-Thought**](https://arxiv.org/abs/2501.16154) *Weihua Zheng, Xin Huang, Zhengyuan Liu, Tarun Kumar Vangani, Bowei Zou, Xiyan Tao, Yuhao Wu, Ai Ti Aw, Nancy F. Chen, Roy Ka-Wei Lee.* Arxiv 2025.
-- [**Enhancing Large Language Models with Neurosymbolic Reasoning for Multilingual Tasks**](https://arxiv.org/abs/2506.02483) *Sina Bagheri Nezhad, Ameeta Agrawal.* NeSy 2025.
-
-#### 2.1.7 Scaling Laws 
-- Training compute-optimal large language models
-- Scaling Language Models Methods, Analysis & Insights from Training Gopher
-- Scaling Laws for Neural Language Models
-- Performance Law of Large Language Models
-- Entropy law: The story behind data compression and llm performance
-- Revisiting Scaling Laws for Language Models: The Role of Data Quality and Training Strategies. ACL 2025.
-
-
-### 2.2. for Filter 
-Approaches to data filtering
-Measure metric 
-(WSH ALL)
-#### 2.2.1 Diversity filtering
-  - surface-level heuristics 
-    - Rouge-L
-      - [**Self-instruct: Aligning language models with self-generated instructions**](https://arxiv.org/abs/2212.10560) *Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, Hannaneh Hajishirzi.* ACL 2023.
-      - [Impossible Distillation for Paraphrasing and Summarization: How to Make High-quality Lemonade out of Small, Low-quality Model](https://aclanthology.org/2024.naacl-long.250/)*Jaehun Jung, Peter West, Liwei Jiang, Faeze Brahman, Ximing Lu, Jillian Fisher, Taylor Sorensen, Yejin Choi* NAACL 2024.
-    - Embedding similarity 
-      - [QDIT: Data Diversity Matters for Robust Instruction Tuning](https://aclanthology.org/2024.findings-emnlp.195/) *Alexander Bukharin, Shiyang Li, Zhengyang Wang, Jingfeng Yang, Bing Yin, Xian Li, Chao Zhang, Tuo Zhao, Haoming Jiang* EMNLP Findings 2024.
-        - [DiverseEvol: Self-Evolved Diverse Data Sampling for Efficient Instruction Tuning] Arxiv 2023.
-      - [DEITA: What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning] ICLR 2024.
-    - Semantic tags
-      - #InsTag: Instruction Tagging for Analyzing Supervised Fine-tuning of Large Language Models. ICLR 2024.
-  - loss gradients [https://nvlabs.github.io/prismatic-synthesis/]
-    - Prismatic Synthesis: Gradient-based Data Diversification Boosts Generalization in LLM Reasoning.
-    - [LESS: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/abs/2402.04333) Mengzhou Xia, Sadhika Malladi, Suchin Gururangan, Sanjeev Arora, Danqi Chen. ICML 2024.
-    - Mates: Model-aware data selection for efficient pretraining with data influence models. NeurIPS 2024.
-  -  Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection. ACL 2025.
-#### 2.2.2 Quality filtering （yzh）
-  -  reward models (LLMs)
-     -  Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models. EMNLP 2024.
-     -  AlpaGasus: Training A Better Alpaca with Fewer Data.
-     -  Rethinking the Instruction Quality: LIFT is What You Need.
-  -  metrics
-     -  GREATS: Online Selection of High-Quality Data for LLM Training in Every Iteration. NeurIPS 2024.
-     -  Maybe only 0.5 data is needed: A preliminary exploration of low training data instruction tuning.
-     -  From Quantity to Quality: Boosting LLM Performance with Self-Guided Data Selection for Instruction Tuning.
-     -  DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.
-     -  STaR: Bootstrapping Reasoning With Reasoning. NeurIPS 2022.
-  -  Correctness (final answer verification) 
-
-#### 2.2.3 Multi filtering
-- Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration. ACL 2025.
-- Qurating: Selecting high-quality data for training language model
-- DELE: data efficient LLM evaluation
-- DSDM: model-aware dataset selection with datamodels
-- Rethinking Data Selection at Scale: Random Selection is Almost All You Need (Analysis of the million-level instruction selection algorithm)
-- SelectIT
-- Evaluating Language Models as Synthetic Data Generators. ACL 2025.
-- DataMan: data manager for pre-training large language model. ICLR 2025.
-
-## 3. Stages
-How to use these data (stage from pretrain to rl)?
-**for Training**
-
-### 3.1 Pretrain 
-#### 3.1.1 highlight
-#### 3.1.2 Training Methods
-data process
-- D4: Improving LLM Pretraining via Document De-Duplication and Diversification
-
-mix 关注质量和多样性
-- DoReMi Optimizing Data Mixtures Speeds Up Language Model Pretraining
-- Predictive Data Selection: The Data That Predicts Is the Data That Teaches
-- Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
-- StatsMerging: Statistics-Guided Model Merging via Task-Specific Teacher Distillation
-- Quality, Diversity, and Complexity in Synthetic Data
-- HKUST Predictive Data Selection: The Data That Predicts Is the Data That Teaches
-- 字节 QuaDMix: Quality-Diversity Balanced Data Selection for Efficient LLM Pretraining
-- 美团 SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity
-- Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models
-- Efficient Pretraining Data Selection for Language Models via Multi-Actor Collaboration. ACL 2025.
-#### 3.1.3 Construction
-(SJJ)
-1. existing datasets (new to old)
-- GneissWeb： Recipe for producing a state-of-the-art LLM pre-training dataset having 10+ Trillion tokens, derived from 
-FineWeb V1.1.0： https://huggingface.co/datasets/ibm-granite/GneissWeb
-- DCLM-baseline: DCLM-baseline is a 4T token / 3B document pretraining dataset that achieves strong performance on language model benchmarks. https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0
-- Dolma Dataset: an open dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials. https://huggingface.co/datasets/allenai/dolma
-- Zyda-2: a 5 Trillion Token High-Quality Dataset with NVIDIA NeMo Curator combining a variety of data sources obtained through different processing pipelines leads to more diverse data (including dclm, fineweb-edu2, dolma-CC and Zyda-1) https://www.zyphra.com/post/building-zyda-2
-- Fineweb-edu: consists of 1.3T tokens and 5.4T tokens (FineWeb-Edu-score-2) of educational web pages filtered from  FineWeb dataset. https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu
-- Chinese Fineweb Edu Dataset V2.1 is an enhanced version of the V2 dataset, designed specifically for natural language processing (NLP) tasks in the education sector.  https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1 
-- Multimodal c4: An open, billion-scale corpus of images interleaved with text
-- CCpdf: Building a High Quality Corpus for Visually Rich Documents from Web Crawl Data
-- The RefinedWeb dataset for Falcon LLM: outperforming curated corpora with web data, and web data only
-- Extracting representative subset from extensive text data for training pre-trained language models
-- A Pretrainer's Guide to Training Data: Measuring the Effects of Data Age, Domain Coverage, Quality, & Toxicity
-- Can Data Diversity Enhance Learning Generalization?
   
-2. Rephrase existing text
+### 3.2 Specific Domain
+#### 3.2.1 Reasoning and Code
+- [GSM8K: Training Verifiers to Solve Math Word Problems](https://arxiv.org/abs/2110.14168). NeurIPS 2021.
+- [MATH: Measuring Mathematical Problem Solving with the MATH Dataset](https://arxiv.org/abs/2103.03874). NeurIPS 2021 Datasets & Benchmarks.
+- [OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems](https://aclanthology.org/2024.acl-long.211/). ACL 2024.
+- [MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models](https://arxiv.org/abs/2309.12284). ICLR 2024.
+- [MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning](https://arxiv.org/abs/2309.05653). ICLR 2024.
+- [HumanEval: Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374). ICML 2021.
+- [MBPP: Program Synthesis with Large Language Models](https://arxiv.org/abs/2108.07732). arXiv 2021.
+- [MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation](https://arxiv.org/abs/2208.08227). ACL 2022.
+- [WizardCoder: Empowering Code Large Language Models with Evol-Instruct](https://arxiv.org/abs/2306.08568). ICLR 2024.
+- [Magicoder: Empowering Code Generation with OSS-Instruct](https://arxiv.org/abs/2312.02120). ICML 2024.
 
+#### 3.2.2 Safety and Alignment
+- [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://aclanthology.org/2022.acl-long.229/). ACL 2022.
+- [AlpacaEval: An Automatic Evaluator of Instruction-Following Models](https://arxiv.org/abs/2305.14387). arXiv 2023.
+- [MT-Bench: Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685). NeurIPS 2023.
+- [XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models](https://aclanthology.org/2024.naacl-long.301/). NAACL 2024.
+- [HarmBench: A Standardized Evaluation Framework for Automated Red Teaming](https://arxiv.org/abs/2402.11766). ICML 2024.
+#### 3.2.3 Agent and Tool Use
+- [API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs](https://aclanthology.org/2023.emnlp-main.187/). EMNLP 2023.
+- [ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789). ICLR 2024.
+- [AgentBench: Evaluating LLMs as Agents](https://arxiv.org/abs/2308.03688). ICLR 2024.
+- [GAIA: A Benchmark for General AI Assistants](https://arxiv.org/abs/2312.13130). ICLR 2024.
+- [ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities](https://aclanthology.org/2025.findings-naacl.65/). NAACL 2025 Findings.
+- [BFCL: The Berkeley Function Calling Leaderboard](https://arxiv.org/abs/2407.00135). ICML 2025.
+- [APIGen: Automated Pipeline for Generating Verifiable and Diverse Function-Calling Datasets](https://arxiv.org/abs/2406.18518). NeurIPS 2024 Datasets & Benchmarks.
+- [AgentInstruct: Toward Generative Teaching with Agentic Flows](https://arxiv.org/abs/2407.03502). arXiv 2024.
+- [Magnet: Multi-Turn Tool-Use Data Synthesis and Distillation via Graph Translation](https://aclanthology.org/2025.acl-long.1566/). ACL 2025.
+- [T1: A Tool-Oriented Conversational Dataset for Multi-Turn Agentic Planning](https://arxiv.org/abs/2505.16986). ACL 2025.
+- [The Behavior Gap: Evaluating Zero-Shot LLM Agents in Complex Task-Oriented Dialogs](https://aclanthology.org/2025.findings-acl.1205/). ACL 2025 Findings.
+### Summary
 
-3. Verbalize knowledge bases using LMs
- - Generate text without using LMs (e.g. formal languages) 
-    - formatting
-    - Symbolic generation
-  - Continued Pretraining 
-    - domain adaptation
+##### 4.1.1 Data Processing
+- [Ultra-FineWeb: Efficient Data Filtering and Verification for High-Quality LLM Training Data](https://arxiv.org/abs/2505.05427). arXiv 2025.
+- [Token Cleaning: Fine-Grained Data Selection for LLM Supervised Fine-Tuning](https://arxiv.org/abs/2505.18347). ICML 2025.
+- [AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark](https://arxiv.org/abs/2506.04411). EMNLP 2025 Findings.
+##### 4.1.2 Prompt Engineering
+- [Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding](https://arxiv.org/abs/2401.04398). ICLR 2024.
+- [Task Decomposition Improves Understanding in Large Language Models](https://aclanthology.org/2024.naacl-long.106/). NAACL 2024.
+- [PE2: Prompt Engineering a Prompt Engineer](https://aclanthology.org/2024.findings-acl.21/). ACL 2024 Findings.
+- [OPRO: Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409). ICLR 2024.
+### 4.2 Synthesis
+##### 4.2.1 Sampling-Based
+- [Bonito: Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation](https://arxiv.org/abs/2402.11107). ACL 2024 Findings.
+- [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2401.12968). ICLR 2025.
+- [AQuilt: Weaving Logic and Self-Inspection into Low-Cost, High-Relevance Data Synthesis for Specialist LLMs](https://arxiv.org/abs/2409.15617). EMNLP 2025.
+##### 4.2.2 Data Transformation
+- [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://aclanthology.org/2025.acl-long.1091/). ACL 2025.
+- [Tree-KG: An Expandable Knowledge Graph Construction Framework for Knowledge-Intensive Domains](https://aclanthology.org/2025.acl-long.907/). ACL 2025.
+- [Personas: Scaling Synthetic Data Creation with 1,000,000,000 Personas](https://arxiv.org/abs/2406.20094). arXiv 2024.
+- [Reformatted Alignment](https://aclanthology.org/2024.findings-emnlp.32/). EMNLP 2024 Findings.
+##### 4.2.3 Back-Translation
+- [Back-and-orth Translation: Better Alignment with Instruction Back-and-orth Translation](https://aclanthology.org/2024.findings-emnlp.777/). EMNLP 2024 Findings.
+- [Safer-Instruct: Aligning Language Models with Automated Preference Data](https://aclanthology.org/2024.naacl-long.422/). NAACL 2024.
+- [Cycle-Instruct: Fully Seed-Free Instruction Tuning via Dual Self-Training and Cycle Consistency](https://arxiv.org/abs/2505.19139). ACL 2025.
 
-### 3.2 SFT
-#### 3.2.1 highlight
-    - Control the style of the model’s output
-    - Specialize behavior for a particular use-case
-    - Feed new information to the model
-#### 3.2.2 Training Methods
-- NEFTune: Noisy Embeddings Improve Instruction Finetuning
-- RAFT: Reward ranked finetuning for generative foundation model alignment
-- Deepseek-coder-v2: Breaking the barrier of closed-source models in code intelligence
-- REFT: Reasoning with REinforced Fine-Tuning (RFT)
-- Threshold Filtering Packing for Supervised Fine-Tuning: Training Related Samples within Packs
-- Packing Analysis: Packing Is More Appropriate for Large Models or Datasets in Supervised Fine-tuning
-- CommonIT: Commonality-Aware Instruction Tuning for Large Language Models via Data Partitions 
-#### 3.2.3 Construction
-  - Distillation (YHT)
-    - COT
-      - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. NeurIPS 2022.
-  - Self-Guide (WZY)
-  - Finetuned language models are zero-shot learners
-  - Super-NaturalInstructions: Generalization via declarative instructions on 1600+ NLP tasks
-  - Scaling instruction-finetuned language models
-  - Flan-moe: Scaling instruction-finetuned language models with sparse mixture of experts
-  - One embedder, any task: Instruction-finetuned text embeddings
-  - How far can camels go? exploring the state of instruction tuning on open resources
-  - Tulu 3: Pushing frontiers in open language model post-training
-### 3.3 RL
-#### 3.2.1 highlight
-    - Learn from minimal supervision
-    - Learn from negative examples (e.g. harmful behavior)
-    - Adapt models to their own token distribution rather than text written by others (“exposure bias”) 
-#### 3.2.2 Training Methods （yzh）
-KTO DPO PPO等 
-- Proximal policy optimization algorithms (PPO)
-- Direct Preference Optimization: Your Language Model is Secretly a Reward Model (DPO)
-  - Smaug: Fixing failure modes of preference optimisation with dpo-positive
-- ORPO: Monolithic preference optimization without reference model (ORPO)
-- SimPO: Simple preference optimization with a reference-free reward (SimPO)
-- Model alignment as prospect theoretic optimization (KTO)
-- DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (GRPO)
-- Reinforce++: An efficient rlhf algorithm with robustness to both prompt and reward models
-- SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training (SFT & RL Action Analysis)
-- All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
-   - Synthetic Feedback (Algorithms adapt to data)
-    - LLM-as-a-judge (Prometheus)
-    - preference learning
-    - Flexible Criteria
-    - evaluation
-      - Agreement with human preferences
-      - Agreement with generic benchmarks
-      - Effectiveness in RL pipelines (task performance)
-
-- DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. Arxiv 2025.
-#### 3.2.3 Construction
-- [**Constitutional AI: Harmlessness from AI Feedback**](https://arxiv.org/abs/2212.08073) *Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain, Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, Jared Mueller, Jeffrey Ladish, Joshua Landau, Kamal Ndousse, Kamile Lukosuite, Liane Lovitt, Michael Sellitto, Nelson Elhage, Nicholas Schiefer, Noemi Mercado, Nova DasSarma, Robert Lasenby, Robin Larson, Sam Ringer, Scott Johnston, Shauna Kravec, Sheer El Showk, Stanislav Fort, Tamera Lanham, Timothy Telleen-Lawton, Tom Conerly, Tom Henighan, Tristan Hume, Samuel R. Bowman, Zac Hatfield-Dodds, Ben Mann, Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, Jared Kaplan.* Arxiv 2022.
-- [**UltraFeedback: Boosting lan￾guage models with high-quality feedback**](https://dl.acm.org/doi/10.5555/3692070.3692454) *Ganqu Cui, Lifan Yuan, Ning Ding, Guanming Yao, Wei Zhu, Yuan Ni, Guotong Xie, Zhiyuan Liu, Maosong Sun.* ICML 2024.
-- [**Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision**](https://arxiv.org/abs/2305.03047) *Zhiqing Sun, Yikang Shen, Qinhong Zhou, Hongxin Zhang, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan.* NeurIPS 2023.
-- [**SALMON: Self-Alignment with Instructable Reward Models**](https://arxiv.org/abs/2310.05910) *Zhiqing Sun, Yikang Shen, Hongxin Zhang, Qinhong Zhou, Zhenfang Chen, David Cox, Yiming Yang, Chuang Gan.* ICLR 2024.
-- [**Refined Direct Preference Optimization with Synthetic Data for Behavioral Alignment of LLMs**](https://arxiv.org/abs/2402.08005) *V´ıctor Gallego.* Arxiv 2024.
-- [**Self-play fine-tuning con￾verts weak language models to strong language models**](https://openreview.net/forum?id=O4cHTxW9BS) *Zixiang Chen, Yihe Deng, Huizhuo Yuan, Kaixuan Ji, Quanquan Gu.* ICML 2024.
-- [**Self-play with Execution Feedback: Improving Instruction-following Capabilities of Large Language Models**](https://arxiv.org/abs/2406.13542) *Guanting Dong, Keming Lu, Chengpeng Li, Tingyu Xia, Bowen Yu, Chang Zhou, Jingren Zhou* ICLR 2025.
-- [**Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts**](https://arxiv.org/abs/2402.16822) *Mikayel Samvelyan, Sharath Chandra Raparthy, Andrei Lupu, Eric Hambro, Aram H. Markosyan, Manish Bhatt, Yuning Mao, Minqi Jiang, Jack Parker-Holder, Jakob Foerster, Tim Rocktäschel, Roberta Raileanu.* NeurIPS 2024.
-- [**West-of-N: Synthetic Preference Generation for Improved Reward Modeling**](https://arxiv.org/abs/2401.12086) *Alizée Pace, Jonathan Mallinson, Eric Malmi, Sebastian Krause, Aliaksei Severyn.* workshop 2024.
-## 4. Application Areas
-Where to use?
-### 4.1. Mathematical Reasoning 
-- [**MAWPS: A Math Word Problem Repository**](https://aclanthology.org/N16-1136.pdf) *Rik Koncel-Kedziorski, Subhro Roy, Aida Amini,Nate Kushman,Hannaneh Hajishirzi* NAACL 2016.
-- [**Program Induction by Rationale Generation:Learning to Solve and Explain Algebraic Word Problems**](https://arxiv.org/pdf/1705.04146) *Wang Ling, Dani Yogatama, Chris Dyer, Phil Blunsom* IJCAI 2017.
-- [**Training Verifiers to Solve Math Word Problems**](https://arxiv.org/pdf/2110.14168) *Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, John Schulman* NeurIPS 2021.
-- [**Measuring Mathematical Problem Solving With the MATH Dataset**](https://arxiv.org/pdf/2103.03874) *Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, Jacob Steinhardt* NeurIPS 2021.
-- [**Are NLP Models really able to Solve Simple Math Word Problems?**](https://arxiv.org/pdf/2103.07191) *Arkil Patel, Satwik Bhattamishra, Navin Goyal* NeurIPS 2021.
-- [**DeepMath-103K: A Large-Scale, Challenging, Decontaminated, and Verifiable Mathematical Dataset for Advancing Reasoning**](https://arxiv.org/pdf/2504.11456) *Zhiwei He, Tian Liang, Jiahao Xu, Qiuzhi Liu, Xingyu Chen, Yue Wang, Linfeng Song, Dian Yu, Zhenwen Liang, Wenxuan Wang, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong Yu*. Preprint 2025
-- [**MegaMath: Pushing the Limits of Open Math Corpora**](https://arxiv.org/abs/2504.02807) *Zhiwei He, Tian Liang, Jiahao Xu, Qiuzhi Liu, Xingyu Chen, Yue Wang, Linfeng Song, Dian Yu, Zhenwen Liang, Wenxuan Wang, Zhuosheng Zhang, Rui Wang, Zhaopeng Tu, Haitao Mi, Dong YuFan Zhou, Zengzhi Wang, Nikhil Ranjan, Zhoujun Cheng, Liping Tang, Guowei He, Zhengzhong Liu, Eric P. Xing*. Preprint 2025
-- [**OpenWebMath: An Open Dataset of High-Quality Mathematical Web Text**](https://openreview.net/pdf?id=jKHmjlpViu) *Keiran Paster, Marco Dos Santos, Zhangir Azerbayev, Jimmy Ba* ICLR 2024.
-- [**MV-MATH: Evaluating Multimodal Math Reasoning in Multi-Visual Contexts**](https://arxiv.org/pdf/2502.20808) *Peijie Wang, Zhong-Zhi Li, Fei Yin, Dekang Ran, Cheng-Lin Liu* CVPR 2025.
-- [**MathOdyssey: Benchmarking Mathematical Problem-Solving Skills in Large Language Models Using Odyssey Math Data**](https://arxiv.org/pdf/2406.18321) *Meng Fang, Xiangpeng Wan, Fei Lu, Fei Xing, Kai Zou* Preprint 2024. 
-- [**MuggleMath: Assessing the Impact of Query and Response Augmentation on Math Reasoning**](https://arxiv.org/abs/2310.05506v3) *Chengpeng Li, Zheng Yuan, Hongyi Yuan, Guanting Dong, Keming Lu, Jiancan Wu, Chuanqi Tan, Xiang Wang, Chang Zhou.* ACL 2024.
-- [**MathGenie: Generating Synthetic Data with Question Back-translation for Enhancing Mathematical Reasoning of LLMs**](https://arxiv.org/abs/2402.16352) *Zimu Lu, Aojun Zhou, Houxing Ren, Ke Wang, Weikang Shi, Junting Pan, Mingjie Zhan, Hongsheng Li.* ACL 2024.
-- [**MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models**](https://arxiv.org/abs/2309.12284) *Longhui Yu, Weisen Jiang, Han Shi, Jincheng Yu, Zhengying Liu, Yu Zhang, James T. Kwok, Zhenguo Li, Adrian Weller, Weiyang Liu.* ICLR 2024.
-- [**Augmenting Math Word Problems via Iterative Question Composing**](https://arxiv.org/abs/2401.09003) *Haoxiong Liu, Yifan Zhang, Yifan Luo, Andrew Chi-Chih Yao.* DPFM@ICLR 2024.
-- [**Distilling LLMs' Decomposition Abilities into Compact Language Models**](https://arxiv.org/abs/2402.01812) *Denis Tarasov, Kumar Shridhar.* AutoRL@ICML 2024.
-- MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning. ICLR 2024.
-- OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset. NeurIPS 2024.
-- OpenMathInstruct-2: Accelerating AI for Math with Massive Open-Source Instruction Data. Arxiv 2025.
-- OpenThoughts: Data Recipes for Reasoning Models. Arxiv 2025.
-### 4.2. Code Generation
-
-#### 4.2.1 Datasets
-highlight
-```
-Code instruction data is typically generated by prompting LLMs to create similar coding problems based on seed examples or to produce code instructions from source code.
-````
-- [**Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task**](https://arxiv.org/pdf/1809.08887) *Tao Yu, Rui Zhang, Kai Yang, Michihiro Yasunaga, Dongxu Wang, Zifan Li, James Ma, Irene Li, Qingning Yao, Shanelle Roman, Zilin Zhang, Dragomir Radev* EMNLP 2018.
-- [**Measuring Coding Challenge Competence With APPS**](https://arxiv.org/abs/2105.09938) *Dan Hendrycks, Steven Basart, Saurav Kadavath, Mantas Mazeika, Akul Arora, Ethan Guo, Collin Burns, Samir Puranik, Horace He, Dawn Song, Jacob Steinhardt* NeurIPS 2021
-- [**DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation**](https://arxiv.org/abs/2211.11501) *Yuhang Lai, Chengxi Li, Yiming Wang, Tianyi Zhang, Ruiqi Zhong, Luke Zettlemoyer, Scott Wen-tau Yih, Daniel Fried, Sida Wang, Tao Yu* ICML 2023
-- [**RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems**](https://arxiv.org/abs/2306.03091) *Tianyang Liu, Canwen Xu, Julian McAuley* ICLR 2024
-- [**Code Alpaca: An Instruction-following LLaMA Model trained on code generation instructions**](https://github.com/sahil280114/codealpaca) *Sahil Chaudhary*. GitHub 2023.
-- [**SynthPAI: A Synthetic Dataset for Personal Attribute Inference**](https://arxiv.org/abs/2406.07217) *Hanna Yukhymenko, Robin Staab, Mark Vero, Martin Vechev.* NeurIPS D&B 2024.
-- [**WizardCoder: Empowering Code Large Language Models with Evol-Instruct**](https://arxiv.org/abs/2306.08568) *Ziyang Luo, Can Xu, Pu Zhao, Qingfeng Sun, Xiubo Geng, Wenxiang Hu, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang.* ICLR 2024.
-- [**WaveCoder: Widespread And Versatile Enhancement For Code Large Language Models By Instruction Tuning**](https://arxiv.org/abs/2312.14187) *Zhaojian Yu, Xin Zhang, Ning Shang, Yangyu Huang, Can Xu, Yishujie Zhao, Wenxiang Hu, Qiufeng Yin.* ACL 2024.
-- [**Magicoder: Empowering Code Generation with OSS-Instruct**](https://arxiv.org/abs/2312.02120) *Yuxiang Wei, Zhe Wang, Jiawei Liu, Yifeng Ding, Lingming Zhang.* ICML 2024.
-#### 4.2.2 Methods
-- [**Mapping Language to Code in Programmatic Context**](https://arxiv.org/pdf/1808.09588) *Srinivasan Iyer, Ioannis Konstas, Alvin Cheung, Luke Zettlemoyer* EMNLP 2018.
-- [**CodeBERT: A Pre-Trained Model for Programming and Natural Languages**](https://arxiv.org/pdf/2002.08155) *Zhangyin Feng, Daya Guo, Duyu Tang, Nan Duan, Xiaocheng Feng, Ming Gong, Linjun Shou, Bing Qin, Ting Liu, Daxin Jiang, Ming Zhou* EMNLP 2020.
-- [**Evaluating Large Language Models Trained on Code**](https://arxiv.org/abs/2107.03374) *Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde de Oliveira Pinto, Jared Kaplan, Harri Edwards, Yuri Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe Petroski Such, Dave Cummings, Matthias Plappert, Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, William Hebgen Guss, Alex Nichol, Alex Paino, Nikolas Tezak, Jie Tang, Igor Babuschkin, Suchir Balaji, Shantanu Jain, William Saunders, Christopher Hesse, Andrew N. Carr, Jan Leike, Josh Achiam, Vedant Misra, Evan Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, Wojciech Zaremba* Preprint 2021
-- [**Program Synthesis with Large Language Models**](https://arxiv.org/abs/2108.07732) *Jacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David Dohan, Ellen Jiang, Carrie Cai, Michael Terry, Quoc Le, Charles Sutton* Preprint 2021
-- [**CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis**](https://arxiv.org/abs/2203.13474) *Erik Nijkamp, Bo Pang, Hiroaki Hayashi, Lifu Tu, Huan Wang, Yingbo Zhou, Silvio Savarese, Caiming Xiong* ICLR 2023
-- [**CoderEval: A Benchmark of Pragmatic Code Generation with Generative Pre-trained Models**](https://arxiv.org/abs/2302.00288) *Hao Yu, Bo Shen, Dezhi Ran, Jiaxin Zhang, Qi Zhang, Yuchi Ma, Guangtai Liang, Ying Li, Qianxiang Wang, Tao Xie* ICSE 2024
-- [**CodecLM: Aligning Language Models with Tailored Synthetic Data**](https://arxiv.org/abs/2404.05875) *Zifeng Wang, Chun-Liang Li, Vincent Perot, Long T. Le, Jin Miao, Zizhao Zhang, Chen-Yu Lee, Tomas Pfister.* Findings of NAACL 2024.
-- [**CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning**](https://arxiv.org/abs/2207.01780) *Hung Le, Yue Wang, Akhilesh Deepak Gotmare, Silvio Savarese, Steven C.H. Hoi.*  NeurIPS 2022.
-- [**Language Models Can Teach Themselves to Program Better**](https://arxiv.org/abs/2207.14502) *Patrick Haluptzok, Matthew Bowers, Adam Tauman Kalai.* ICLR 2023.
-- [**InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback**](https://arxiv.org/abs/2306.14898) *John Yang, Akshara Prabhakar, Karthik Narasimhan, Shunyu Yao.* Arxiv 2023.
-- [**Genetic Instruct: Scaling up Synthetic Generation of Coding Instructions for Large Language Models**](https://arxiv.org/abs/2407.21077) *Somshubra Majumdar, Vahid Noroozi, Sean Narenthiran, Aleksander Ficek, Jagadeesh Balam, Boris Ginsburg.* Arxiv 2024.
-- [**Learning Performance-Improving Code Edits**](https://arxiv.org/abs/2302.07867) *Alexander Shypula, Aman Madaan, Yimeng Zeng, Uri Alon, Jacob Gardner, Milad Hashemi, Graham Neubig, Parthasarathy Ranganathan, Osbert Bastani, Amir Yazdanbakhsh.* ICLR 2024.
-- [**InverseCoder: Unleashing the Power of Instruction-Tuned Code LLMs with Inverse-Instruct**](https://arxiv.org/abs/2407.05700) *Yutong Wu, Di Huang, Wenxuan Shi, Wei Wang, Lingzhe Gao, Shihao Liu, Ziyuan Nan, Kaizhao Yuan, Rui Zhang, Xishan Zhang, Zidong Du, Qi Guo, Yewen Pu, Dawei Yin, Xing Hu, Yunji Chen.* Arxiv 2024.
-- [**OpenCodeInterpreter: Integrating Code Generation with Execution and Refinement**](https://arxiv.org/abs/2402.14658) *Tianyu Zheng, Ge Zhang, Tianhao Shen, Xueling Liu, Bill Yuchen Lin, Jie Fu, Wenhu Chen, Xiang Yue.* Arxiv 2024.
-- [**AutoCoder: Enhancing Code Large Language Model with AIEV-Instruct**](https://arxiv.org/abs/2405.14906) *Bin Lei, Yuchen Li, Qiuwu Chen.* Arxiv 2024.
-- [**How Do Your Code LLMs Perform? Empowering Code Instruction Tuning with High-Quality Data**](https://www.arxiv.org/abs/2409.03810) *Yejie Wang, Keqing He, Dayuan Fu, Zhuoma Gongque, Heyang Xu, Yanxu Chen, Zhexu Wang, Yujia Fu, Guanting Dong, Muxi Diao, Jingang Wang, Mengdi Zhang, Xunliang Cai, Weiran Xu.* Arxiv 2024.
-- [**SelfCodeAlign: Self-Alignment for Code Generation**](https://arxiv.org/abs/2410.24198) *Yuxiang Wei, Federico Cassano, Jiawei Liu, Yifeng Ding, Naman Jain, Zachary Mueller, Harm de Vries, Leandro von Werra, Arjun Guha, Lingming Zhang.* Arxiv 2024.
-- OpenCodeInterpreter: Integrating Code Generation with Execution and Refinement. Findings of ACL 2024.
-- CodeEvo: Interaction-Driven Synthesis of Code-centric Data through Hybrid and Iterative Feedback. Arxiv 2025.
-### 4.3. Safety and Alignment
-(SJJ)
-- [**Fine-tuning Language Models for Factuality**](https://arxiv.org/abs/2311.08401) *Katherine Tian, Eric Mitchell, Huaxiu Yao, Christopher D. Manning, Chelsea Finn.* Arxiv 2023.
-- [**MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents**](https://arxiv.org/abs/2404.10774) *Liyan Tang, Philippe Laban, Greg Durrett.* Arxiv 2024.
-
-
-### 4.4. Long Context
-- [**Make Your LLM Fully Utilize the Context.**](https://arxiv.org/abs/2404.16811) *Shengnan An, Zexiong Ma, Zeqi Lin, Nanning Zheng, Jian-Guang Lou.* Arxiv 2024.
-- [**From Artificial Needles to Real Haystacks: Improving Retrieval Capabilities in LLMs by Finetuning on Synthetic Data**](https://arxiv.org/abs/2406.19292) *Zheyang Xiong, Vasilis Papageorgiou, Kangwook Lee, Dimitris Papailiopoulos*. Arxiv 2024.
-- [**Open Artificial Knowledge**](https://huggingface.co/datasets/tabularisai/oak) *Vadim Borisov, Richard Schreiber.* ICML Workshop 2024.
-- Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (system 2)
-- KIMI
-
-
-### 4.5. Agent and Tool Use
-(MHS)
-- [**Toolformer: Language Models Can Teach Themselves to Use Tools**](https://arxiv.org/abs/2302.04761) *Timo Schick, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, Thomas Scialom.* NeurIPS 2023.
-- [**Gorilla: Large Language Model Connected with Massive APIs**](https://arxiv.org/abs/2305.15334) *Shishir G. Patil, Tianjun Zhang, Xin Wang, Joseph E. Gonzalez.*  NeurIPS 2024.
-- [**GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction**](https://arxiv.org/abs/2305.18752) *Rui Yang, Lin Song, Yanwei Li, Sijie Zhao, Yixiao Ge, Xiu Li, Ying Shan.* Arxiv 2024.
-- ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs. ICLR 2024.
-- ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving. ICLR 2024.
-- [**ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases**](https://arxiv.org/abs/2306.05301) *Qiaoyu Tang, Ziliang Deng, Hongyu Lin, Xianpei Han, Qiao Liang, Boxi Cao, Le Sun.* Arxiv 2023.
-- [**Voyager: An Open-Ended Embodied Agent with Large Language Models**](https://arxiv.org/abs/2305.16291) *Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu, Linxi Fan, Anima Anandkumar.* Arxiv 2023.
-- [**DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows**](https://arxiv.org/abs/2402.10379) *Ajay Patel, Colin Raffel, Chris Callison-Burch.* ACL 2024.
-
-- [**AgentInstruct: Toward Generative Teaching with Agentic Flows**](https://arxiv.org/abs/2407.03502) *Arindam Mitra, Luciano Del Corro, Guoqing Zheng, Shweti Mahajan, Dany Rouhana, Andres Codas, Yadong Lu, Wei-ge Chen, Olga Vrousgos, Corby Rosset, Fillipe Silva, Hamed Khanpour, Yash Lara, Ahmed Awadallah.* Arxiv 2024. 微软，从document生成指令
-- AgentTuning: Enabling Generalized Agent Abilities for LLMs. Findings of ACL 2024. 合成agent能力相关的数据
-- Executable Code Actions Elicit Better LLM Agents. ICML 2024.
-- Efficient Agent Training for Computer Use. Arxiv 2025.
-- [**Distilabel: An AI Feedback (AIF) Framework for Building Datasets with and for LLMs**](https://github.com/argilla-io/distilabel) *Álvaro Bartolomé Del Canto, Gabriel Martín Blázquez, Agustín Piqueres Lajarín and Daniel Vila Suero.* GitHub 2024.
-- [**Fuxion: Synthetic Data Generation and Normalization Functions using Langchain + LLMs**](https://github.com/tobiadefami/fuxion)
-
-- COEVOL: Constructing Better Responses for Instruction Finetuning through Multi-Agent Cooperation. EMNLP 2024
-
-### 4.6. Vision and Language
-YHT 参考教程，简单列即可
-- [**Visual Instruction Tuning**](https://arxiv.org/abs/2304.08485) *Haotian Liu, Chunyuan Li, Qingyang Wu, Yong Jae Lee.* NeurIPS 2023.
-- [**MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models**](https://arxiv.org/abs/2304.10592) *Deyao Zhu, Jun Chen, Xiaoqian Shen, Xiang Li, Mohamed Elhoseiny.* ICLR 2024.
-- [**Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond**](https://arxiv.org/abs/2308.12966) *Jinze Bai, Shuai Bai, Shusheng Yang, Shijie Wang, Sinan Tan, Peng Wang, Junyang Lin, Chang Zhou, Jingren Zhou.* Arxiv 2023.
-- [**G-LLaVA: Solving Geometric Problem with Multi-Modal Large Language Model**](https://arxiv.org/abs/2312.11370) *Jiahui Gao, Renjie Pi, Jipeng Zhang, Jiacheng Ye, Wanjun Zhong, Yufei Wang, Lanqing Hong, Jianhua Han, Hang Xu, Zhenguo Li, Lingpeng Kong.* Arxiv 2023.
-- [**Enhancing Large Vision Language Models with Self-Training on Image Comprehension**](https://arxiv.org/abs/2405.19716) *Yihe Deng, Pan Lu, Fan Yin, Ziniu Hu, Sheng Shen, James Zou, Kai-Wei Chang, Wei Wang.* Arxiv 2024.
-- [**LLaVA-OneVision: Easy Visual Task Transfer**](https://arxiv.org/abs/2408.03326) *Bo Li, Yuanhan Zhang, Dong Guo, Renrui Zhang, Feng Li, Hao Zhang, Kaichen Zhang, Yanwei Li, Ziwei Liu, Chunyuan Li* Arxiv 2024.
-- Augmented Vision-Language Models: A Systematic Review. 
-
-
+##### 4.2.4 Human-AI Collaboration
+- [SALMON: Self-Alignment with Instructable Reward Models](https://arxiv.org/abs/2310.14986). ICLR 2024.
+- [AutoIF: Self-Play with Execution Feedback Improves Instruction-Following](https://arxiv.org/abs/2405.12995). ICLR 2025.
+- [APT: Improving Specialist LLM Performance with Weakness Case Acquisition and Iterative Preference Training](https://aclanthology.org/2025.findings-acl.1079/). ACL 2025 Findings.
+- [SwS: Self-Aware Weakness-Driven Problem Synthesis in Reinforcement Learning for LLM Reasoning](https://arxiv.org/abs/2503.21782). ICLR 2025.
+- [Self-Error-Instruct: Generalizing from Errors for LLMs Mathematical Reasoning](https://aclanthology.org/2025.acl-long.417/). ACL 2025.
+- [LEMMA: Learning from Errors for Mathematical Advancement in LLMs](https://aclanthology.org/2025.findings-acl.605/). ACL 2025 Findings.
+- [RISE: Subtle Errors in Reasoning — Preference Learning via Error-Injected Self-Editing](https://aclanthology.org/2025.acl-long.1506/). ACL 2025.
+##### 4.2.5 Symbolic Generation
+- [SR-LCL: Symbolic Regression with a Learned Concept Library](https://proceedings.neurips.cc/paper_files/paper/2024/file/4ec3ddc465c6d650c9c419fb91f1c00a-Paper-Conference.pdf). NeurIPS 2024.
+- [SymbCoT: Faithful Logical Reasoning via Symbolic Chain-of-Thought](https://aclanthology.org/2024.acl-long.720/). ACL 2024.
+- [ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs](https://arxiv.org/abs/2503.19556). arXiv 2025.
+- [Aristotle: Mastering Logical Reasoning with a Logic-Complete Decompose-Search-Resolve Framework](https://aclanthology.org/2025.acl-long.153/). ACL 2025.
+- [Com2: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models](https://aclanthology.org/2025.acl-long.785/). ACL 2025.
+- [SC-NeuroSymbolic: Sound and Complete Neurosymbolic Reasoning with LLM-Grounded Interpretations](https://arxiv.org/abs/2406.01593). ICLR 2025.
+- [SymbolicThought: Integrating Language Models and Symbolic Reasoning for Consistent and Interpretable Human Relationship Understanding](https://arxiv.org/abs/2502.13756). arXiv 2025.
+- [MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions](https://aclanthology.org/2024.findings-emnlp.414/). EMNLP 2024 Findings.
+- [AdaCoT: Adaptive Multilingual Chain-of-Thought for Cross-Lingual Factual Reasoning](https://arxiv.org/abs/2502.13756). ACL 2025 Findings.
