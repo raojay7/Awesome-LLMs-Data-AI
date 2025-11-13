@@ -69,25 +69,24 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - A survey on Data selection for llm instruction tuning
 - The art of data selection: A survey on Data Selection for Fine-tuning large language models
 ### Generation
+- [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/pdf/2303.10158) ACM Computing Surveys 2023
+- [An Empirical Survey of Data Augmentation for Limited Data Learning in NLP](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00542/115238/An-Empirical-Survey-of-Data-Augmentation-for) TACL 2023.
 - [**Best Practices and Lessons Learned on Synthetic Data for Language Models**](https://arxiv.org/abs/2404.07503) *Ruibo Liu, Jerry Wei, Fangyu Liu, Chenglei Si, Yanzhe Zhang, Jinmeng Rao, Steven Zheng, Daiyi Peng, Diyi Yang, Denny Zhou, Andrew M. Dai.* COLM 2024.
 - [**On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey**](https://arxiv.org/abs/2406.15126) *Lin Long, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang.* Arxiv 2024.
 - [**Large Language Models for Data Annotation: A Survey**](https://arxiv.org/abs/2402.13446) *Zhen Tan, Dawei Li, Song Wang, Alimohammad Beigi, Bohan Jiang, Amrita Bhattacharjee, Mansooreh Karami, Jundong Li, Lu Cheng, Huan Liu.* Arxiv 2024.
-- A Survey of LLM × DATA
-- Knowledge Distillation and Dataset Distillation of Large Language Models: Emerging Trends, Challenges, and Future Directions
-- A Survey on Data Synthesis and Augmentation for Large Language Models
-- Data-centric Artificial Intelligence: A Survey
-- Automatically Correcting Large Language Models : Surveying the Landscape of Diverse Automated Correction Strategies
-- Survey on Knowledge Distillation for Large Language Models: Methods, Evaluation, and Application
-- Data Augmentation using LLMs: Data Perspectives, Learning Paradigms and Challenges
-- An Empirical Survey of Data Augmentation for Limited Data Learning in NLP
-- AI Alignment: A Comprehensive Survey
-- Quality, Diversity, and Complexity in Synthetic Data SURVEYING THE EFFECTS OF QUALITY, DIVERSITY, AND COMPLEXITY IN SYNTHETIC DATA FROM LARGE LANGUAGE MODELS
-- A Survey of Multimodal Large Language Model from A Data-centric Perspective
-- A Survey of Post-Training Scaling in Large Language Models
-- Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives
-selection
-### Blogs
+- [A Survey on Data Synthesis and Augmentation for Large Language Models](https://arxiv.org/abs/2410.12896) Arxiv 2024.
+- [Survey on Knowledge Distillation for Large Language Models: Methods, Evaluation, and Application](https://arxiv.org/abs/2407.01885) Arxiv 2024.
+- [Data Augmentation using LLMs: Data Perspectives, Learning Paradigms and Challenges](https://arxiv.org/pdf/2403.02990) Arxiv 2024.
+- [Quality, Diversity, and Complexity in Synthetic Data SURVEYING THE EFFECTS OF QUALITY, DIVERSITY, AND COMPLEXITY IN SYNTHETIC DATA FROM LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2412.02980) Arxiv 2024.
+- [A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640) Arxiv 2024.
+- [Automatically Correcting Large Language Models : Surveying the Landscape of Diverse Automated Correction Strategies](https://aclanthology.org/2024.tacl-1.27.pdf) TACL 2024.
+- [A Survey of LLM × DATA](https://arxiv.org/abs/2505.18458) Arxiv 2025.
+- [Knowledge Distillation and Dataset Distillation of Large Language Models: Emerging Trends, Challenges, and Future Directions](https://arxiv.org/abs/2504.14772)Arxiv 2025.
+- [AI Alignment: A Comprehensive Survey](https://arxiv.org/pdf/2310.19852) Arxiv 2025.
+- [A Survey of Post-Training Scaling in Large Language Models](https://aclanthology.org/2025.acl-long.140.pdf) ACL 2025.
+- [Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives](https://arxiv.org/abs/2505.21598) Arxiv 2025.
 
+### Blogs
 - [**Synthetic dataset generation techniques: Self-Instruct**](https://huggingface.co/blog/davanstrien/self-instruct) *Daniel van Strien.* 2024
 - [**LLM-Driven Synthetic Data Generation, Curation & Evaluation**](https://cobusgreyling.medium.com/llm-driven-synthetic-data-generation-curation-evaluation-33731e33b525) *Cobus Greyling.* 2024
 - [**The Rise of Agentic Data Generation**](https://huggingface.co/blog/mlabonne/agentic-datagen) *Maxime Labonne.* 2024
