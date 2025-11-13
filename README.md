@@ -65,9 +65,8 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 ## 1. Surveys
 
 ### Data Selection
-- A survey on data selection for language models
-- A survey on Data selection for llm instruction tuning
-- The art of data selection: A survey on Data Selection for Fine-tuning large language models
+- [A survey on data selection for language models](https://arxiv.org/pdf/2402.16827) Transactions on Machine Learning Research 2024. 
+- [A survey on Data selection for llm instruction tuning](https://arxiv.org/abs/2402.05123) Journal of Artificial Intelligence Research 2025.
 ### Generation
 - [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/pdf/2303.10158) ACM Computing Surveys 2023
 - [An Empirical Survey of Data Augmentation for Limited Data Learning in NLP](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00542/115238/An-Empirical-Survey-of-Data-Augmentation-for) TACL 2023.
