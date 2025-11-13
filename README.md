@@ -1,5 +1,5 @@
 # Awesome-LLMs-Data-AI
-# A Survey on Data-Centric LLMs Lifecycle
+# A Data-Centric Perspective on the Lifecycle of Large Language Models
 
 <div align="center">
 
@@ -15,7 +15,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 
 ## Contents
 
-- [A Survey on Data-Centric LLMs Lifecycle](#a-survey-on-data-centric-llms-lifecycle)
+- [A Data-Centric Perspective on the Lifecycle of Large Language Models](#a-data-centric-perspective-on-the-lifecycle-of-large-language-models)
   - [Contents](#contents)
   - [1. Surveys](#1-surveys)
   - [2. Taxonomy](#2-taxonomy)
