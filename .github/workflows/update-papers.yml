@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       lookback_days:
-        description: "How many days of recent arXiv papers to scan"
+        description: "How many recent calendar days to scan"
         required: false
         default: "14"
         type: string
@@ -23,7 +23,6 @@ concurrency:
 jobs:
   discover-and-propose:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -40,7 +39,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Discover and classify recent papers
+      - name: Discover recent papers
         env:
           LOOKBACK_DAYS: ${{ inputs.lookback_days || '14' }}
         run: |
@@ -49,9 +48,10 @@ jobs:
             --readme README.md \
             --database data/papers.json \
             --lookback-days "${LOOKBACK_DAYS}" \
+            --dedup-scope readme+database \
             --pr-body /tmp/paper_bot_pr_body.md
 
-      - name: Check whether tracked files changed
+      - name: Check tracked changes
         id: changes
         shell: bash
         run: |
@@ -62,17 +62,15 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Create update branch and commit
+      - name: Create bot branch and commit
         if: steps.changes.outputs.changed == 'true'
         id: commit
         shell: bash
         run: |
           BRANCH="bot/literature-update-${GITHUB_RUN_ID}"
           echo "branch=${BRANCH}" >> "$GITHUB_OUTPUT"
-
           git config user.name "llm-data-literature-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git checkout -b "${BRANCH}"
           git commit -m "chore: update recent LLM data literature"
           git push origin "${BRANCH}"
