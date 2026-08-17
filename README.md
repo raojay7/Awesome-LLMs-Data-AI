@@ -12,10 +12,12 @@
 [![Literature Cut-off](https://img.shields.io/badge/Literature%20cut--off-June%202026-6f42c1)](#scope-and-update-policy)
 [![GitHub Stars](https://img.shields.io/github/stars/raojay7/Awesome-LLMs-Data-AI?style=flat)](https://github.com/raojay7/Awesome-LLMs-Data-AI/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/raojay7/Awesome-LLMs-Data-AI)](https://github.com/raojay7/Awesome-LLMs-Data-AI/commits/main)
+[![Literature Bot](https://img.shields.io/badge/Literature%20Bot-weekly%20tracking-ff8c00)](#automated-literature-tracking)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 [**Paper**](https://doi.org/10.36227/techrxiv.176620610.03288677/v1) ·
 [**Taxonomy**](#taxonomy-at-a-glance) ·
+[**Auto Tracking**](#automated-literature-tracking) ·
 [**Resource List**](#contents) ·
 [**Cross-Tier Synthesis**](#6-cross-tier-synthesis) ·
 [**Contribute**](#contributing)
@@ -88,10 +90,98 @@ The unit of analysis is the **operation rather than the paper as a whole**. A me
 
 ---
 
+## Automated Literature Tracking
+
+To keep this repository useful beyond the survey's fixed literature cut-off, we provide an **automated literature-tracking workflow** built with GitHub Actions. The bot continuously discovers recent work related to the LLM data lifecycle, filters duplicates, assigns candidates to the operation-centered taxonomy, and proposes updates through pull requests for human review.
+
+The automation is designed to **assist curation rather than replace it**: newly discovered papers are never auto-merged into the curated list.
+
+### How it works
+
+```text
+Recent arXiv papers
+        ↓
+Topic-specific query families
+        ↓
+Date / category / LLM-data relevance filtering
+        ↓
+README + historical-database deduplication
+        ↓
+Operation-centered taxonomy classification
+        ↓
+Primary tier + optional cross-tier role
+        ↓
+Generated Markdown update
+        ↓
+GitHub Pull Request
+        ↓
+Human review → merge
+```
+
+The classifier follows the same placement principle as the survey:
+
+- **Data Substrates** — data-bearing artifacts, benchmarks, trajectories, and executable environments.
+- **Data Creation and Selection** — annotation, synthesis, transformation, filtering, and model-aware selection.
+- **Data Ingestion Strategies** — organization, mixing, curriculum, replay, retrieval, search, decoding, and verification.
+
+Because the unit of analysis is the **operation rather than the paper as a whole**, the bot can also flag **cross-tier papers**. For example, a method may generate or filter supervision in Tier 2 and immediately consume that supervision during optimization in Tier 3.
+
+### Two update modes
+
+| Mode | Purpose | Output |
+|---|---|---|
+| **Weekly literature update** | Discover newly released papers on a rolling window | Updates the bot-maintained recent-paper block and opens a PR |
+| **Historical backfill** | Scan an exact date range, e.g. `2026-07-01 → 2026-08-17` | Generates an independent Markdown report under `updates/` and opens a PR |
+
+The historical mode is useful when the repository has not been updated for a period of time or when a new query family is introduced and earlier papers need to be recovered.
+
+### Repository automation
+
+The implementation lives in:
+
+```text
+.github/workflows/
+├── update-papers.yml       # scheduled / manual weekly update
+└── backfill-papers.yml     # exact-date historical scan
+
+scripts/
+└── paper_bot.py            # fetch → filter → deduplicate → classify → render
+
+config/
+└── paper_bot.yaml          # search queries, taxonomy keywords, thresholds
+
+data/
+└── papers.json             # persistent bot-curated paper history
+```
+
+The automatically maintained README block is bounded by:
+
+```md
+<!-- AUTO-LITERATURE:START -->
+...
+<!-- AUTO-LITERATURE:END -->
+```
+
+so the workflow never rewrites the manually curated core of this repository.
+
+### Curation policy
+
+Automation is intentionally conservative:
+
+1. **Discovery is automatic; acceptance is human-reviewed.**
+2. Existing README entries and previously accepted bot records are deduplicated before proposal.
+3. The workflow prefers high-recall discovery followed by stricter relevance and taxonomy filtering.
+4. Ambiguous methods may receive a primary tier plus a cross-tier label.
+5. Important accepted papers can later be moved from the automatically maintained recent-paper block into the main curated sections.
+
+This makes the repository a **living companion to the survey** while preserving the quality and interpretability of the manually curated taxonomy.
+
+---
+
 ## Scope and Update Policy
 
 - **Survey literature cut-off:** June 2026.
-- **Repository status:** living resource; relevant papers and datasets may be added beyond the paper cut-off.
+- **Repository status:** living resource; a GitHub Actions literature bot tracks new candidate papers beyond the paper cut-off, with all additions reviewed through pull requests.
 - **In scope:** work where data resources, data construction/selection, information scheduling, retrieval, verification, trajectories, or executable environments play a substantive role in LLM development or evaluation.
 - **Out of scope by default:** architecture-only or optimization-only papers where the data lifecycle is incidental.
 - **Source preference:** primary papers, official project pages, ACL Anthology, OpenReview, arXiv, or official dataset/model repositories whenever available.
@@ -138,6 +228,7 @@ Recent additions reflected in the survey/repository include:
   - [7.1 Data Resources and Governance](#71-data-resources-and-governance)
   - [7.2 Data Creation and Selection](#72-data-creation-and-selection)
   - [7.3 Data Ingestion Strategies](#73-data-ingestion-strategies)
+- [Automated Literature Tracking](#automated-literature-tracking)
 - [Citation](#citation)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
