@@ -1,67 +1,56 @@
 # Awesome-LLMs-Data-AI
-# A Data-Centric Perspective on the Lifecycle of Large Language Models
+## A Data-Centric Perspective on the Lifecycle of Large Language Models
 
 <div align="center">
 
-[![LICENSE](https://img.shields.io/github/license/wasiahmad/Awesome-LLM-Synthetic-Data-Generation)](https://github.com/wasiahmad/Awesome-LLM-Synthetic-Data-Generation/blob/main/LICENSE)
 ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
-<!-- ![license](https://img.shields.io/bower/l/bootstrap?style=plastic) -->
 
 </div>
 
-This repo includes papers and blogs about the survey on Data-centric AI of LLMs.
+This repository accompanies the survey **A Data-Centric Perspective on the Lifecycle of Large Language Models** and curates papers, datasets, benchmarks, and engineering methods from an **operation-centered view of the LLM data lifecycle**.
 
-Thanks for all the great contributors on GitHub!🔥⚡🔥
+The current survey framework is organized into three tiers:
+
+- **Data Substrates** — what information-bearing artifacts and environments are available.
+- **Data Creation and Selection** — how supervision and data artifacts are created, transformed, filtered, or selected.
+- **Data Ingestion Strategies** — how, when, how often, and under what contextual conditions available information is presented to and consumed by the model.
+
+The survey literature cut-off is **June 2026**. The repository can continue to incorporate relevant resources beyond the paper cut-off.
+
+Thanks to all contributors and authors whose work makes this resource possible. 🔥⚡🔥
 
 ## Contents
 
-- [A Data-Centric Perspective on the Lifecycle of Large Language Models](#a-data-centric-perspective-on-the-lifecycle-of-large-language-models)
-  - [Contents](#contents)
-  - [1. Surveys](#1-surveys)
-  - [2. Taxonomy](#2-taxonomy)
-  - [3. Existing Datasets](#3-existing-datasets)
-    - 3.1 General Domain
-      - [3.1.1 Pretrain](#311-pretrain)
-      - [3.1.2 SFT](#312-sft)
-      - [3.1.3 RL](#313-rl)
-    - 3.2 Specific Domain
-      - [3.2.1 Reasoning and Code](#321-reasoning-and-code)
-      - [3.2.2 Safety and Alignment](#322-safety-and-alignment)
-      - [3.2.3 Agent and Tool Use](#323-agent-and-tool-use)
-    - [3.3 Summary](#33-summary)
-  - [4. Creation](#4-creation)
-      - 4.1 Annotation
-        - [4.1.1 Data Processing](#411-data-processing)      
-        - [4.1.2 Prompt Engineering](#412-prompt-engineering)
-      - 4.2 Synthesis
-        - [4.2.1 Sampling-Based](#421-sampling-based)
-        - [4.2.2 Data Transformation](#422-data-transformation)
-        - [4.2.3 Back-Translation](#423-back-translation)
-        - [4.2.4 Human-AI Collaboration](#424-human-ai-collaboration)
-        - [4.2.5 Symbolic Generation](#425-symbolic-generation)
-      - 4.3 Selection
-        - [4.3.1 Diversity](#431-diversity)
-        - [4.3.2 Quality](#432-quality)
-        - [4.3.3 Composite Strategy](#433-composite-strategy)
-      - [4.4 Summary](#44-summary)
-  - [5. Strategy](#5-strategy)
-    - [5.1 Effectiveness](#51-effectiveness)
-      - [5.1.1 Sample Construction](#511-sample-construction)
-      - [5.1.2 Sample Mixing](#512-sample-mixing)
-    - [5.2 Efficiency](#52-efficiency)
-      - [5.2.1 Mid Training](#521-mid-training)
-      - [5.2.2 Multi-Stage Training](#522-multi-stage-training)
-    - [5.3 Integration](#53-integration)
-      - [5.3.1 Constrain](#531-constrain)
-      - [5.3.2 Cognitive Alignment](#532-cognitive-alignment)
-    - [5.4 Truthfulness](#54-truthfulness)
-      - [5.4.1 Consistency](#541-consistency)
-      - [5.4.2 RAG](#542-rag)
-      - [5.4.3 Decoding](#543-decoding)
-  - [6. Future Trends](#6-future-trends)
-    - [6.1 Dataset](#61-dataset)
-    - [6.2 Creation](#62-creation)
-    - [6.3 Strategy](#63-strategy)
+- [1. Surveys](#1-surveys)
+- [2. Taxonomy](#2-taxonomy)
+- [3. Data Substrates](#3-data-substrates)
+  - [3.1 General Domain](#31-general-domain)
+    - [3.1.1 Pretrain](#311-pretrain)
+    - [3.1.2 SFT](#312-sft)
+    - [3.1.3 RL](#313-rl)
+  - [3.2 Specific Domain](#32-specific-domain)
+    - [3.2.1 Reasoning and Code](#321-reasoning-and-code)
+    - [3.2.2 Safety and Alignment](#322-safety-and-alignment)
+    - [3.2.3 Agent and Tool Use](#323-agent-and-tool-use)
+  - [3.3 Summary](#33-summary-substrate-dynamics-and-trade-offs)
+- [4. Data Creation and Selection](#4-data-creation-and-selection)
+  - [4.1 Annotation](#41-annotation)
+  - [4.2 Synthesis](#42-synthesis)
+  - [4.3 Selection](#43-selection)
+  - [4.4 Summary](#44-summary-creation-and-selection-trade-offs)
+- [5. Data Ingestion Strategies](#5-data-ingestion-strategies)
+  - [5.1 Efficiency & Effectiveness](#51-efficiency--effectiveness)
+  - [5.2 Training Pipeline Optimization](#52-training-pipeline-optimization)
+  - [5.3 Capability Alignment Strategies](#53-capability-alignment-strategies)
+  - [5.4 Truthfulness & Consistency](#54-truthfulness--consistency)
+  - [5.5 Summary](#55-summary)
+- [6. Cross-Tier Synthesis](#6-cross-tier-synthesis)
+- [7. Future Trends](#7-future-trends)
+  - [7.1 Data Resources and Governance](#71-data-resources-and-governance)
+  - [7.2 Data Creation and Selection](#72-data-creation-and-selection)
+  - [7.3 Data Ingestion Strategies](#73-data-ingestion-strategies)
+- [Contributing](#contributing)
+
 ## 1. Surveys
 
 ### Data Selection
@@ -71,19 +60,23 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [Data-centric Artificial Intelligence: A Survey](https://arxiv.org/pdf/2303.10158) ACM Computing Surveys 2023
 - [An Empirical Survey of Data Augmentation for Limited Data Learning in NLP](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00542/115238/An-Empirical-Survey-of-Data-Augmentation-for) TACL 2023.
 - [**Best Practices and Lessons Learned on Synthetic Data for Language Models**](https://arxiv.org/abs/2404.07503) *Ruibo Liu, Jerry Wei, Fangyu Liu, Chenglei Si, Yanzhe Zhang, Jinmeng Rao, Steven Zheng, Daiyi Peng, Diyi Yang, Denny Zhou, Andrew M. Dai.* COLM 2024.
-- [**On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey**](https://arxiv.org/abs/2406.15126) *Lin Long, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang.* Arxiv 2024.
-- [**Large Language Models for Data Annotation: A Survey**](https://arxiv.org/abs/2402.13446) *Zhen Tan, Dawei Li, Song Wang, Alimohammad Beigi, Bohan Jiang, Amrita Bhattacharjee, Mansooreh Karami, Jundong Li, Lu Cheng, Huan Liu.* Arxiv 2024.
-- [A Survey on Data Synthesis and Augmentation for Large Language Models](https://arxiv.org/abs/2410.12896) Arxiv 2024.
+- [**On LLMs-Driven Synthetic Data Generation, Curation, and Evaluation: A Survey**](https://arxiv.org/abs/2406.15126) *Lin Long, Rui Wang, Ruixuan Xiao, Junbo Zhao, Xiao Ding, Gang Chen, Haobo Wang.* arXiv 2024.
+- [**Large Language Models for Data Annotation: A Survey**](https://arxiv.org/abs/2402.13446) *Zhen Tan, Dawei Li, Song Wang, Alimohammad Beigi, Bohan Jiang, Amrita Bhattacharjee, Mansooreh Karami, Jundong Li, Lu Cheng, Huan Liu.* arXiv 2024.
+- [A Survey on Data Synthesis and Augmentation for Large Language Models](https://arxiv.org/abs/2410.12896) arXiv 2024.
 - [Survey on Knowledge Distillation for Large Language Models: Methods, Evaluation, and Application](https://arxiv.org/abs/2407.01885) ACM Transactions on Intelligent Systems and Technology 2024.
-- [Data Augmentation using LLMs: Data Perspectives, Learning Paradigms and Challenges](https://arxiv.org/pdf/2403.02990) Arxiv 2024.
-- [Quality, Diversity, and Complexity in Synthetic Data SURVEYING THE EFFECTS OF QUALITY, DIVERSITY, AND COMPLEXITY IN SYNTHETIC DATA FROM LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2412.02980) Arxiv 2024.
-- [A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640) Arxiv 2024.
+- [Data Augmentation using LLMs: Data Perspectives, Learning Paradigms and Challenges](https://arxiv.org/pdf/2403.02990) arXiv 2024.
+- [Quality, Diversity, and Complexity in Synthetic Data SURVEYING THE EFFECTS OF QUALITY, DIVERSITY, AND COMPLEXITY IN SYNTHETIC DATA FROM LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2412.02980) arXiv 2024.
+- [A Survey of Multimodal Large Language Model from A Data-centric Perspective](https://arxiv.org/abs/2405.16640) arXiv 2024.
 - [Automatically Correcting Large Language Models : Surveying the Landscape of Diverse Automated Correction Strategies](https://aclanthology.org/2024.tacl-1.27.pdf) TACL 2024.
-- [A Survey of LLM × DATA](https://arxiv.org/abs/2505.18458) Arxiv 2025.
-- [Knowledge Distillation and Dataset Distillation of Large Language Models: Emerging Trends, Challenges, and Future Directions](https://arxiv.org/abs/2504.14772)Arxiv 2025.
-- [AI Alignment: A Comprehensive Survey](https://arxiv.org/pdf/2310.19852) Arxiv 2025.
+- [A Survey of LLM × DATA](https://arxiv.org/abs/2505.18458) arXiv 2025.
+- [Knowledge Distillation and Dataset Distillation of Large Language Models: Emerging Trends, Challenges, and Future Directions](https://arxiv.org/abs/2504.14772)arXiv 2025.
+- [AI Alignment: A Comprehensive Survey](https://arxiv.org/pdf/2310.19852) arXiv 2025.
 - [A Survey of Post-Training Scaling in Large Language Models](https://aclanthology.org/2025.acl-long.140.pdf) ACL 2025.
-- [Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives](https://arxiv.org/abs/2505.21598) Arxiv 2025.
+- [Rethinking Data Mixture for Large Language Models: A Comprehensive Survey and New Perspectives](https://arxiv.org/abs/2505.21598) arXiv 2025.
+
+- [Agentic Tool Use in Large Language Models](https://arxiv.org/abs/2604.00835). arXiv 2026.
+- [Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application](https://arxiv.org/abs/2606.12191). arXiv 2026.
+- [The LLM Data Auditor: A Survey on Data-Centric Metrics for Cross-Modal Large Language Models](https://arxiv.org/abs/2601.17717). arXiv 2026.
 
 ### Blogs
 - [**Synthetic dataset generation techniques: Self-Instruct**](https://huggingface.co/blog/davanstrien/self-instruct) *Daniel van Strien.* 2024
@@ -92,7 +85,20 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - https://blog.csdn.net/qq_43688587/article/details/148533722 
 ## 2. Taxonomy
 
-## 3. Existing Datasets
+We organize the LLM data lifecycle through an **operation-centered, three-tier taxonomy**. The goal is not merely to separate training stages, but to distinguish **what information-bearing objects exist, how their content or membership is changed, and how available information is presented to and consumed by the model**.
+
+| Tier | Operational question | Scope | Representative examples |
+|---|---|---|---|
+| **Tier 1: Data Substrates** | What information-bearing artifacts or environments are available? | Corpora, instruction/preference data, benchmarks, reasoning/code resources, trajectories, executable environments | Pretraining corpora, SFT/RL data, math/code benchmarks, tool-use trajectories, agent environments |
+| **Tier 2: Data Creation and Selection** | What supervision exists, and how is it created or modified? | Annotation, synthesis, transformation, filtering, diversity/quality/model-aware selection | Distillation, self-instruct, back-translation, symbolic generation, data filtering, influential-data selection |
+| **Tier 3: Data Ingestion Strategies** | How, when, how often, and under what context is information consumed? | Packing, contextual conditioning, mixture weighting, curriculum, annealing, replay, retrieval, search, decoding, verification | Sample construction, data mixing, mid-training, multi-stage curricula, RAG, test-time search |
+
+**Placement rule.** Tier 2 changes the supervision or data artifacts that exist; Tier 3 changes how available supervision or information is delivered to and consumed by the model. For example, offline data selection is primarily Tier 2, whereas dynamic data mixing is Tier 3. An agent trajectory is a Tier-1 substrate; generating or filtering trajectories is Tier 2; using them in iterative optimization or test-time interaction is Tier 3.
+
+**Cross-tier methods.** The unit of analysis is the **operation rather than the paper as a whole**. Methods such as rejection-sampling fine-tuning or error-driven preference optimization can span multiple tiers: they may generate/filter supervision in Tier 2 and immediately consume the retained supervision during optimization in Tier 3.
+
+
+## 3. Data Substrates
 ### 3.1 General Domain
 #### 3.1.1 Pretrain
 - [SlimPajama: A 627B Token Cleaned and Deduplicated Version of RedPajama](https://arxiv.org/abs/2411.12372). NeurIPS 2024 Datasets & Benchmarks.
@@ -128,7 +134,8 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [MathGenie: Generating Synthetic Data with Question Back-Translation for Enhancing Mathematical Reasoning of LLMs](https://aclanthology.org/2024.acl-long.151/). ACL 2024.
 - [OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset](https://arxiv.org/abs/2402.10176). NeurIPS 2024 Datasets & Benchmarks.
 - [LIMO: Less Is More for Reasoning](https://arxiv.org/abs/2502.03387). CoLM 2025.
-- [S1: Simple Test-Time Scaling](https://arxiv.org/abs/2501.19393). Arixv 2025.
+- [S1: Simple Test-Time Scaling](https://arxiv.org/abs/2501.19393). ArXiv 2025.
+- [ResearchMath-14K: Scaling Research-Level Mathematics via Agents](https://arxiv.org/abs/2605.28003). arXiv 2026.
 - [HumanEval: Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374). ICML 2021.
 - [MBPP: Program Synthesis with Large Language Models](https://arxiv.org/abs/2108.07732). arXiv 2021.
 - [MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural Code Generation](https://arxiv.org/abs/2208.08227). ACL 2022.
@@ -138,8 +145,12 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [WaveCoder: Widespread and Versatile Enhancement for Code Large Language Models by Instruction Tuning](https://aclanthology.org/2024.acl-long.280/). ACL 2024.
 - [Magicoder: Empowering Code Generation with OSS-Instruct](https://arxiv.org/abs/2312.02120). ICML 2024.
 - [BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions](https://arxiv.org/abs/2406.15877). ICLR 2025.
-- [McEval: Massively Multilingual Code Evaluation](https://arxiv.org/abs/2411.02310). Arxiv 2025.
+- [McEval: Massively Multilingual Code Evaluation](https://arxiv.org/abs/2411.02310). arXiv 2025.
 - [CodeEditorBench: Evaluating Code Editing Capability of Large Language Models](https://arxiv.org/abs/2404.03543). ICLR Workshop 2025.
+- [Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving](https://arxiv.org/abs/2504.02605). NeurIPS 2025.
+- [SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution](https://arxiv.org/abs/2502.18449). arXiv 2025.
+- [SWE-Chat: Coding Agent Interactions from Real Users in the Wild](https://arxiv.org/abs/2604.20779). arXiv 2026.
+- [SWE-Playground: Training Versatile Coding Agents in Synthetic Environments](https://arxiv.org/abs/2512.12216). arXiv 2025.
 
 #### 3.2.2 Safety and Alignment
 - [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://aclanthology.org/2022.acl-long.229/). ACL 2022.
@@ -174,9 +185,25 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [Magnet: Multi-Turn Tool-Use Data Synthesis and Distillation via Graph Translation](https://aclanthology.org/2025.acl-long.1566/). ACL 2025.
 - [T1: A Tool-Oriented Conversational Dataset for Multi-Turn Agentic Planning](https://arxiv.org/abs/2505.16986). ACL 2025.
 - [The Behavior Gap: Evaluating Zero-Shot LLM Agents in Complex Task-Oriented Dialogs](https://aclanthology.org/2025.findings-acl.1205/). ACL 2025 Findings.
-### 3.3 Summary
-### 4. Creation
-##### 4.1.1 Data Processing
+- [TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks](https://arxiv.org/abs/2412.14161). arXiv 2024.
+- [WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks](https://arxiv.org/abs/2504.18575). NeurIPS 2025 Datasets & Benchmarks.
+- [BUTTON: Facilitating Multi-turn Function Calling for LLMs via Compositional Instruction Tuning](https://arxiv.org/abs/2410.12952). arXiv 2024.
+- [TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments](https://arxiv.org/abs/2510.01179). arXiv 2025.
+- [FunReason-MT: Overcoming the Complexity Barrier in Multi-Turn Function Calling](https://arxiv.org/abs/2510.24645). arXiv 2025.
+- [UniToolCall: Unifying Tool-Use Representation, Data, and Evaluation for LLM Agents](https://arxiv.org/abs/2604.11557). arXiv 2026.
+- [WebWorld: A Large-Scale World Model for Web Agent Training](https://arxiv.org/abs/2602.14721). arXiv 2026.
+- [ClawGym: A Scalable Framework for Building Effective Claw Agents](https://arxiv.org/abs/2604.26904). arXiv 2026.
+- [Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence](https://arxiv.org/abs/2604.18292). arXiv 2026.
+- [Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction](https://arxiv.org/abs/2512.04987). arXiv 2025.
+- [ClawEnvKit: Automatic Environment Generation for Claw-Like Agents](https://arxiv.org/abs/2604.18543). arXiv 2026.
+- [AgentFrontier: Expanding the Capability Frontier of LLM Agents with ZPD-Guided Data Synthesis](https://arxiv.org/abs/2510.24695). arXiv 2025.
+### 3.3 Summary: Substrate Dynamics and Trade-offs
+
+The substrate view highlights a shift from **raw scale toward curated information density**, and—especially for agents—from **stored text/trajectories toward executable environments** that can generate tasks, observations, failures, recovery paths, and verification signals on demand.
+
+## 4. Data Creation and Selection
+### 4.1 Annotation
+#### 4.1.1 Data Processing
 - [Dolma: An Open Corpus of Three Trillion Tokens for Language Model Pretraining Research](https://aclanthology.org/2024.acl-long.840/). ACL 2024.
 - [DataComp-LM: In Search of the Next Generation of Training Sets for Language Models](https://arxiv.org/abs/2406.11794). NeurIPS 2024 Datasets & Benchmarks.
 - [AutoClean: LLMs Can Prepare Their Training Corpus](https://aclanthology.org/2025.naacl-demo.9/). NAACL 2025.
@@ -184,7 +211,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [Ultra-FineWeb: Efficient Data Filtering and Verification for High-Quality LLM Training Data](https://arxiv.org/abs/2505.05427). arXiv 2025.
 - [Token Cleaning: Fine-Grained Data Selection for LLM Supervised Fine-Tuning](https://openreview.net/forum?id=tXkOUS3vLS). ICML 2025.
 - [AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark](https://aclanthology.org/2025.findings-emnlp.410/). EMNLP 2025 Findings.
-##### 4.1.2 Prompt Engineering
+#### 4.1.2 Prompt Engineering
 - [Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding](https://arxiv.org/abs/2401.04398). ICLR 2024.
 - [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651). NeurIPS 2023.
 - [Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs](https://aclanthology.org/2024.emnlp-main.629/). EMNLP 2024.
@@ -204,7 +231,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [WizardLM: Empowering Large Pre-trained Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244). ICLR 2024.
 - [AQuilt: Weaving Logic and Self-Inspection into Low-Cost, High-Relevance Data Synthesis for Specialist LLMs](https://aclanthology.org/2025.emnlp-main.293/). EMNLP 2025.
 - [Absolute Zero: Reinforced Self-Play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335). ICLR 2025.
-- [Synthetic Data RL: Task Definition Is All You Need](https://arxiv.org/abs/2505.17063). Arxiv 2025.
+- [Synthetic Data RL: Task Definition Is All You Need](https://arxiv.org/abs/2505.17063). arXiv 2025.
 - [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://aclanthology.org/2025.acl-long.1091/). ACL 2025.
 - [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/pdf/2406.08464). ICLR 2025.
 
@@ -245,7 +272,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [SymbolicThought: Integrating Language Models and Symbolic Reasoning for Consistent and Interpretable Human Relationship Understanding](https://arxiv.org/abs/2507.04189). arXiv 2025.
 - [MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions](https://arxiv.org/pdf/2409.12958). EMNLP 2024 Findings.
 - [CSDG: Scaling Synthetic Logical Reasoning Datasets with Context-Sensitive Declarative Grammars](https://aclanthology.org/2024.emnlp-main.301/). EMNLP 2024.
-- [NSAR: Enhancing Large Language Models with Neurosymbolic Reasoning for Multilingual Tasks](https://arxiv.org/pdf/2506.02483). Arxiv 2025.
+- [NSAR: Enhancing Large Language Models with Neurosymbolic Reasoning for Multilingual Tasks](https://arxiv.org/pdf/2506.02483). arXiv 2025.
 - [AdaCoT: Adaptive Multilingual Chain-of-Thought for Cross-Lingual Factual Reasoning](https://arxiv.org/pdf/2501.16154). ACL 2025 Findings.
 ### 4.3 Selection
 #### 4.3.1 Diversity
@@ -263,15 +290,20 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948). arXiv 2025.
 #### 4.3.3 Composite Strategy
 - [LIMA: Less Is More for Alignment](https://arxiv.org/abs/2305.11206). NeurIPS 2023.
-- [MoDS: Model-Oriented Data Selection for Instruction Tuning](https://arxiv.org/abs/2311.15653). Arxiv 2023.
+- [MoDS: Model-Oriented Data Selection for Instruction Tuning](https://arxiv.org/abs/2311.15653). arXiv 2023.
 - [SelectIT: Selective Instruction Tuning for LLMs via Uncertainty-Aware Self-Reflection](https://arxiv.org/abs/2402.16705). NeurIPS 2024.
 - [Dataman: Data Manager for Pre-Training Large Language Models](https://arxiv.org/abs/2502.19363). ICLR 2025.
 
-### 4.4 Summary
+### 4.4 Summary: Creation and Selection Trade-offs
 
-## 5. Strategy
-### 5.1 Effectiveness
+Across creation and selection methods, the survey highlights three recurring transitions: **teacher distillation → autonomous/self-play generation**, **static quality filtering → model-conditional utility**, and **stored examples → verifier-grounded or environment-generated supervision**. Selection and synthesis increasingly interact through closed loops rather than remaining independent preprocessing stages.
+
+
+## 5. Data Ingestion Strategies
+### 5.1 Efficiency & Effectiveness
 #### 5.1.1 Sample Construction
+> **Cross-tier note:** this section focuses on the *ingestion/optimization-time role* of sample construction. Methods that generate persistent new supervision (e.g., rejection sampling or targeted error injection) also have a Tier-2 creation component.
+
 - [Packing Analysis: Packing Is More Appropriate for Large Models or Datasets in Supervised Fine-Tuning](https://aclanthology.org/2025.findings-acl.256/). ACL 2025 Findings.
 - [Aligning to Thousands of Preferences via System Message Generalization](https://arxiv.org/abs/2405.17977). NeurIPS 2024.
 - [CommonIT: Commonality-Aware Instruction Tuning for Large Language Models via Data Partitions](https://aclanthology.org/2024.emnlp-main.561/). EMNLP 2024.
@@ -288,7 +320,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [Qwen2.5-Coder Technical Report](https://arxiv.org/abs/2409.12186). arXiv 2024.
 - [Baichuan-M2: Scaling Medical Capability with Large Verifier System](https://arxiv.org/abs/2509.02208). arXiv 2025.
 
-### 5.2 Efficiency
+### 5.2 Training Pipeline Optimization
 #### 5.2.1 Mid Training
 - [Physics of Language Models: Part 3.1, Knowledge Storage and Extraction](https://arxiv.org/abs/2309.14316). arXiv 2024.
 - [Phi-4 Technical Report](https://arxiv.org/abs/2412.08905). arXiv 2024.
@@ -306,8 +338,8 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [SDFT: Self-Distillation Bridges Distribution Gap in Language Model Fine-Tuning](https://aclanthology.org/2024.acl-long.58/). ACL 2024.
 - [Exploring Forgetting in Large Language Model Pre-Training](https://aclanthology.org/2025.acl-long.105/). ACL 2025.
 
-### 5.3 Integration
-#### 5.3.1 Constrain
+### 5.3 Capability Alignment Strategies
+#### 5.3.1 Constraint
 - [SimPO: Simple Preference Optimization with a Reference-Free Reward](https://arxiv.org/abs/2405.14734). NeurIPS 2024.
 - [KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/abs/2402.01306). ICML 2024.
 - [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948). arXiv 2025.
@@ -318,7 +350,7 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [CDT: A Comprehensive Capability Framework for Large Language Models Across Cognition, Domain, and Task](https://aclanthology.org/2025.findings-emnlp.199/). EMNLP 2025 Findings.
 - [Cognitive Behaviors That Enable Self-Improving Reasoners](https://openreview.net/forum?id=QGJ9ttXLTy). CoLM 2025.
 
-### 5.4 Truthfulness
+### 5.4 Truthfulness & Consistency
 #### 5.4.1 Consistency
 - [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171). ICLR 2023.
 - [Universal Self-Consistency for Large Language Model Generation](https://arxiv.org/abs/2311.17311). ICLR 2024.
@@ -336,48 +368,79 @@ Thanks for all the great contributors on GitHub!🔥⚡🔥
 - [CAD: Context-Aware Decoding Reduces Hallucinations in Large Multilingual Machine Translation Models](https://aclanthology.org/2024.eacl-long.155/). EACL 2024.
 - [ROSE: Reverse Prompt Contrastive Decoding Boosts Safety of Instruction-Tuned LLMs](https://aclanthology.org/2024.findings-acl.814/). ACL 2024 Findings.
 ### 5.5 Summary
-## 6. Future Trends
-### 6.1 Dataset
-#### 6.1.1 Domain-Specific Data Scarcity
-- [Craft Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation](https://arxiv.org/abs/2409.02098). TACL 2025.
 
-#### 6.1.2 Cross-Domain Data Reutilization
+Data ingestion spans both **training-time scheduling** and **runtime information use**. Training-time methods determine how supervision is organized, weighted, ordered, replayed, or conditionally presented; runtime methods determine when self-generated or external evidence is retrieved, searched, decoded, or verified.
+
+## 6. Cross-Tier Synthesis
+
+The lifecycle view exposes several recurring transitions that are less visible when datasets, synthesis, selection, training schedules, and agent systems are studied separately:
+
+1. **Static data quality → model-conditional utility.** Data usefulness increasingly depends on the target model's current loss, confidence, errors, capability state, and learnability frontier.
+2. **Instance-level annotation → system-level specification and verification.** As synthesis becomes more autonomous, human effort shifts toward task specification, verifier design, environment construction, governance, and exception handling.
+3. **Stored artifacts → executable data-producing environments.** Agentic data increasingly includes environments that generate tasks, actions, observations, failures, recovery trajectories, and reward signals on demand.
+4. **Offline data preparation → adaptive runtime information acquisition.** Retrieval, search, verification, and test-time compute extend data optimization beyond parameter training.
+
+These trends motivate treating data engineering as the joint design of **artifacts, transformations, and adaptive information-use policies**.
+
+## 7. Future Trends
+
+### 7.1 Data Resources and Governance
+
+#### 7.1.1 Domain-Specific Data Scarcity
+- [CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation](https://arxiv.org/abs/2409.02098). TACL 2025.
+- [ResearchMath-14K: Scaling Research-Level Mathematics via Agents](https://arxiv.org/abs/2605.28003). arXiv 2026.
+
+#### 7.1.2 Cross-Domain Data Reutilization
 - [Synthetic Continued Pretraining](https://arxiv.org/abs/2409.07431). ICLR 2025.
 
-#### 6.1.3 Data Sensitivity and Privacy
+#### 7.1.3 Data Sensitivity and Privacy
 - [Differentially Private Synthetic Data via Foundation Model APIs 2: Text](https://arxiv.org/abs/2403.01749). ICML 2024.
-### 6.2 Creation
-#### 6.2.1 Data Agent Pipelines
+- [WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks](https://arxiv.org/abs/2504.18575). NeurIPS 2025 Datasets & Benchmarks.
+
+### 7.2 Data Creation and Selection
+
+#### 7.2.1 Agentic Data Pipelines and Closed-Loop Flywheels
 - [DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows](https://aclanthology.org/2024.acl-long.208/). ACL 2024.
+- [Recycling the Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models](https://arxiv.org/abs/2506.04689). COLM 2025.
+- [AgentFrontier: Expanding the Capability Frontier of LLM Agents with ZPD-Guided Data Synthesis](https://arxiv.org/abs/2510.24695). arXiv 2025.
+- [Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction](https://arxiv.org/abs/2512.04987). arXiv 2025.
 
-#### 6.2.2 Multi-source Synthesis
+#### 7.2.2 Multi-source Synthesis
 - [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://aclanthology.org/2025.acl-long.1091/). ACL 2025.
+- [CRAFT Your Dataset: Task-Specific Synthetic Dataset Generation Through Corpus Retrieval and Augmentation](https://arxiv.org/abs/2409.02098). TACL 2025.
 
-#### 6.2.3 Data Flywheel
-- [Recycle-The-Web: A Method to Enhance Pre-training Data Quality and Quantity for Language Models](https://arxiv.org/abs/2506.04689). COLM 2025.
-
-#### 6.2.4 User Collaboration
+#### 7.2.3 User Collaboration
 - [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/abs/2406.08464). ICLR 2025.
 
-#### 6.2.5 Cross-modal Knowledge Utilization
+#### 7.2.4 Cross-modal Knowledge Utilization
 - [TextHarmony: A Unified Architecture for Multimodal LLMs Integrating Vision, Language and Diffusion](https://arxiv.org/abs/2407.16364). NeurIPS 2024.
 
-#### 6.2.6 Data Efficiency
-- [Less: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/abs/2402.04333). ICML 2024.
+#### 7.2.5 Data Efficiency
+- [LESS: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/abs/2402.04333). ICML 2024.
 
-#### 6.2.7 Length Control
+#### 7.2.6 Length-Aware Data Synthesis and Selection
 - [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/abs/2503.16419). TMLR 2025.
 
-#### 6.2.8 Model-Aware Filter
+#### 7.2.7 Model-Aware Filtering
 - [SeaPO: Strategic Error Amplification for Robust Preference Optimization](https://aclanthology.org/2025.findings-emnlp.898/). EMNLP 2025 Findings.
-### 6.3 Strategy
-#### 6.3.1 Unified Post-Training
-- [SRFT: A Single-Stage Method with Supervised and Reinforcement Fine-Tuning for Reasoning](https://arxiv.org/abs/2506.19767). ArXiv 2025.
+- [AgentFrontier: Expanding the Capability Frontier of LLM Agents with ZPD-Guided Data Synthesis](https://arxiv.org/abs/2510.24695). arXiv 2025.
 
-#### 6.3.2 Cross-Stage Data Reutilization
-- [Physics of Language Models: Part 3.1, Knowledge Storage and Extraction](https://arxiv.org/abs/2309.14316). ArXiv 2024.
+### 7.3 Data Ingestion Strategies
 
-#### 6.3.3 Test-Time Strategy
-- [CarBoN: Calibrated Best-of-N Sampling Improves Test-Time Reasoning](https://www.arxiv.org/abs/2510.15674). ArXiv 2025.
-#### 6.3.4 Data Unlearning
+#### 7.3.1 Unified Post-Training
+- [SRFT: A Single-Stage Method with Supervised and Reinforcement Fine-Tuning for Reasoning](https://arxiv.org/abs/2506.19767). arXiv 2025.
+
+#### 7.3.2 Cross-Stage Data Reutilization
+- [Physics of Language Models: Part 3.1, Knowledge Storage and Extraction](https://arxiv.org/abs/2309.14316). arXiv 2024.
+
+#### 7.3.3 Data Unlearning
 - [Large Language Model Unlearning](https://arxiv.org/abs/2310.10683). NeurIPS 2024.
+
+#### 7.3.4 Test-Time Strategy
+- [CarBoN: Calibrated Best-of-N Sampling Improves Test-Time Reasoning](https://arxiv.org/abs/2510.15674). arXiv 2025.
+- [Self-Certainty: Scalable Best-of-N Selection for Large Language Models via Self-Certainty](https://arxiv.org/abs/2502.18581). NeurIPS 2025.
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request if you would like to add a paper, dataset, benchmark, or correction. When adding a resource, please place it according to the **operation it performs** rather than only the training stage or application domain.
+
