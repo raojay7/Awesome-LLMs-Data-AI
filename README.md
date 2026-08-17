@@ -1,23 +1,112 @@
-# Awesome-LLMs-Data-AI
-## A Data-Centric Perspective on the Lifecycle of Large Language Models
-
 <div align="center">
 
-![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
+# Awesome-LLMs-Data-AI
+
+### A Data-Centric Perspective on the Lifecycle of Large Language Models
+
+**A curated, operation-centered map of LLM data across the full lifecycle — from data substrates, to data creation and selection, to training- and inference-time information use.**
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Paper](https://img.shields.io/badge/Paper-TechRxiv-1f6feb)](https://doi.org/10.36227/techrxiv.176620610.03288677/v1)
+[![Survey References](https://img.shields.io/badge/Survey%20references-300%2B-0a7)](#1-surveys)
+[![Literature Cut-off](https://img.shields.io/badge/Literature%20cut--off-June%202026-6f42c1)](#scope-and-update-policy)
+[![GitHub Stars](https://img.shields.io/github/stars/raojay7/Awesome-LLMs-Data-AI?style=flat)](https://github.com/raojay7/Awesome-LLMs-Data-AI/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/raojay7/Awesome-LLMs-Data-AI)](https://github.com/raojay7/Awesome-LLMs-Data-AI/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+
+[**Paper**](https://doi.org/10.36227/techrxiv.176620610.03288677/v1) ·
+[**Taxonomy**](#taxonomy-at-a-glance) ·
+[**Resource List**](#contents) ·
+[**Cross-Tier Synthesis**](#6-cross-tier-synthesis) ·
+[**Contribute**](#contributing)
 
 </div>
 
-This repository accompanies the survey **A Data-Centric Perspective on the Lifecycle of Large Language Models** and curates papers, datasets, benchmarks, and engineering methods from an **operation-centered view of the LLM data lifecycle**.
+---
 
-The current survey framework is organized into three tiers:
+## Why this repository?
 
-- **Data Substrates** — what information-bearing artifacts and environments are available.
-- **Data Creation and Selection** — how supervision and data artifacts are created, transformed, filtered, or selected.
-- **Data Ingestion Strategies** — how, when, how often, and under what contextual conditions available information is presented to and consumed by the model.
+LLM development is often organized by **training stage** (pretraining, SFT, RL) or by isolated techniques (synthetic data, selection, RAG, agents). This repository instead organizes the literature around the **operation performed on information**.
 
-The survey literature cut-off is **June 2026**. The repository can continue to incorporate relevant resources beyond the paper cut-off.
+The accompanying survey asks three operational questions:
 
-Thanks to all contributors and authors whose work makes this resource possible. 🔥⚡🔥
+1. **What information-bearing artifacts or environments are available?**
+2. **How is supervision or data content created, transformed, filtered, or selected?**
+3. **How, when, and under what contextual conditions is available information consumed by the model?**
+
+This perspective makes it easier to place methods that cross conventional boundaries—for example, model-aware selection, data mixing, rejection-sampling loops, executable agent environments, retrieval, test-time search, and verification.
+
+### What you will find here
+
+| Area | Coverage |
+|---|---|
+| **Data Substrates** | Pretraining corpora, instruction/preference data, reasoning and code resources, safety data, agent trajectories, benchmarks, executable environments |
+| **Data Creation & Selection** | Annotation, processing, prompting, distillation, synthetic data, back-translation, human–AI collaboration, symbolic generation, diversity/quality/model-aware selection |
+| **Data Ingestion Strategies** | Packing, contextual conditioning, mixture weighting, curriculum, annealing, replay, multi-stage training, RAG, decoding, search, verification |
+| **Agentic Data** | Tool-use data, multi-turn trajectories, environment synthesis, executable benchmarks, feedback-driven data loops |
+| **Cross-Tier Synthesis** | Model-conditional data utility, human specification/verification, executable data-producing systems, runtime information acquisition |
+
+> **If this repository is useful for your research, consider starring it.** It helps other researchers discover the resource.
+
+---
+
+## Taxonomy at a Glance
+
+```mermaid
+flowchart LR
+    A["Tier 1 · Data Substrates<br/>What information exists?"]
+    B["Tier 2 · Data Creation & Selection<br/>What supervision is created or changed?"]
+    C["Tier 3 · Data Ingestion Strategies<br/>How and when is information consumed?"]
+    M["Target Model<br/>Capability State"]
+
+    A --> B
+    A --> C
+    B --> M
+    C --> M
+    M -. "errors · loss · confidence · interaction feedback" .-> B
+    M -. "adaptive scheduling / retrieval" .-> C
+```
+
+**Placement rule.**  
+**Tier 2 changes the supervision or data artifacts that exist; Tier 3 changes how available supervision or information is delivered to and consumed by the model.**
+
+The unit of analysis is the **operation rather than the paper as a whole**. A method can therefore span multiple tiers. For example, rejection-sampling fine-tuning may generate and filter trajectories in Tier 2, then immediately consume the retained trajectories during optimization in Tier 3.
+
+---
+
+## How to Use This Repository
+
+| If you are interested in... | Recommended entry point |
+|---|---|
+| Building or auditing a **pretraining corpus** | [Data Substrates → Pretrain](#311-pretrain), [Data Processing](#411-data-processing), [Data Selection](#43-selection), [Sample Mixing](#512-sample-mixing) |
+| Designing **instruction-tuning / alignment data** | [SFT](#312-sft), [Synthesis](#42-synthesis), [Selection](#43-selection), [Capability Alignment](#53-capability-alignment-strategies) |
+| Improving **reasoning / code data** | [Reasoning and Code](#321-reasoning-and-code), [Symbolic Generation](#425-symbolic-generation), [Model-Aware Filtering](#727-model-aware-filtering) |
+| Building **LLM agents / tool-use data** | [Agent and Tool Use](#323-agent-and-tool-use), [Agentic Data Pipelines](#721-agentic-data-pipelines-and-closed-loop-flywheels) |
+| Studying **curriculum, mixing, replay, or mid-training** | [Data Ingestion Strategies](#5-data-ingestion-strategies), [Training Pipeline Optimization](#52-training-pipeline-optimization) |
+| Studying **RAG / search / verification / test-time scaling** | [Truthfulness & Consistency](#54-truthfulness--consistency), [Test-Time Strategy](#734-test-time-strategy) |
+| Looking for the survey's main **cross-paper insights** | [Cross-Tier Synthesis](#6-cross-tier-synthesis) |
+
+---
+
+## Scope and Update Policy
+
+- **Survey literature cut-off:** June 2026.
+- **Repository status:** living resource; relevant papers and datasets may be added beyond the paper cut-off.
+- **In scope:** work where data resources, data construction/selection, information scheduling, retrieval, verification, trajectories, or executable environments play a substantive role in LLM development or evaluation.
+- **Out of scope by default:** architecture-only or optimization-only papers where the data lifecycle is incidental.
+- **Source preference:** primary papers, official project pages, ACL Anthology, OpenReview, arXiv, or official dataset/model repositories whenever available.
+
+### 2026 coverage highlights
+
+Recent additions reflected in the survey/repository include:
+
+- **Research-level reasoning data:** ResearchMath-14K.
+- **Real and executable coding-agent data:** Multi-SWE-bench, SWE-Chat, SWE-RL, SWE-Playground.
+- **Tool-agent trajectories and environments:** TOUCAN, FunReason-MT, UniToolCall, WebWorld, ClawGym.
+- **Environment/data co-evolution:** Agent-World, Nex-N1, ClawEnvKit, AgentFrontier.
+- **Recent survey context:** Agentic Tool Use in LLMs, Agentic Environment Engineering, and The LLM Data Auditor.
+
+---
 
 ## Contents
 
@@ -49,7 +138,9 @@ Thanks to all contributors and authors whose work makes this resource possible. 
   - [7.1 Data Resources and Governance](#71-data-resources-and-governance)
   - [7.2 Data Creation and Selection](#72-data-creation-and-selection)
   - [7.3 Data Ingestion Strategies](#73-data-ingestion-strategies)
+- [Citation](#citation)
 - [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
 
 ## 1. Surveys
 
@@ -440,7 +531,53 @@ These trends motivate treating data engineering as the joint design of **artifac
 - [CarBoN: Calibrated Best-of-N Sampling Improves Test-Time Reasoning](https://arxiv.org/abs/2510.15674). arXiv 2025.
 - [Self-Certainty: Scalable Best-of-N Selection for Large Language Models via Self-Certainty](https://arxiv.org/abs/2502.18581). NeurIPS 2025.
 
+
+## Citation
+
+If you use this repository or the taxonomy in your research, please cite the accompanying survey:
+
+```bibtex
+@article{rao2025datacentric,
+  title   = {A Data-Centric Perspective on the Lifecycle of Large Language Models},
+  author  = {Rao, Jun and Liu, Xuebo and Yan, Haotian and Shen, Junjie and Mo, Haosi and
+             Dong, Yanghaopeng and Yan, Zihao and Wang, Ziyi and Li, Zhilin and Meng, Xiaojun and
+             Yu, Zixiong and Deng, Liqun and Wei, Jiansheng and Wang, Yunhe and Zhang, Min},
+  journal = {TechRxiv},
+  year    = {2025},
+  doi     = {10.36227/techrxiv.176620610.03288677/v1},
+  url     = {https://doi.org/10.36227/techrxiv.176620610.03288677/v1}
+}
+```
+
+For GitHub-native citation support, we also recommend adding a `CITATION.cff` file to the repository root.
+
 ## Contributing
 
-Contributions are welcome. Please open an issue or pull request if you would like to add a paper, dataset, benchmark, or correction. When adding a resource, please place it according to the **operation it performs** rather than only the training stage or application domain.
+Contributions are welcome. Please open an issue or pull request to add a paper, dataset, benchmark, correction, or missing link.
 
+To keep the list consistent:
+
+1. **Use primary sources whenever possible** — official paper, ACL Anthology, OpenReview, arXiv, or official project page.
+2. **Place resources by operation, not only by training stage or application domain.**
+3. **Use cross-tier notes when needed.** A method may appear under the tier corresponding to the operation being discussed while retaining a secondary role elsewhere.
+4. **Avoid duplicates.** Prefer the formally published version over an arXiv duplicate when both are available.
+5. **Keep entries concise:** `Title — venue/year — link`.
+6. **For new 2026+ work, briefly explain why it changes or extends the taxonomy when the placement is non-obvious.**
+
+Suggested pull-request title:
+
+```text
+[Add] <Paper / Dataset / Benchmark Name> → <Section>
+```
+
+## Acknowledgements
+
+We thank the authors of the papers, datasets, benchmarks, and open-source resources collected here, as well as community contributors who help keep the list accurate and up to date.
+
+---
+
+<div align="center">
+
+**Data is not only what a model trains on — it is also what gets created, selected, scheduled, retrieved, verified, and regenerated throughout the model lifecycle.**
+
+</div>
