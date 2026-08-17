@@ -11,7 +11,9 @@ fetch:
   source: "arxiv"
   endpoint: "https://export.arxiv.org/api/query"
   lookback_days: 14
-  max_results_per_query: 75
+  # v2 paginates until the requested start date is reached.
+  page_size: 100
+  max_pages_per_query: 10
   request_delay_seconds: 3.2
   timeout_seconds: 60
   allowed_categories:
