@@ -1,0 +1,226 @@
+project:
+  repository: "raojay7/Awesome-LLMs-Data-AI"
+  marker_start: "<!-- AUTO-LITERATURE:START -->"
+  marker_end: "<!-- AUTO-LITERATURE:END -->"
+  insert_before_heading: "## 6. Cross-Tier Synthesis"
+  section_heading: "## Recent Automatically Discovered Papers"
+  max_readme_papers: 30
+  recent_window_days: 120
+
+fetch:
+  source: "arxiv"
+  endpoint: "https://export.arxiv.org/api/query"
+  lookback_days: 14
+  max_results_per_query: 75
+  request_delay_seconds: 3.2
+  timeout_seconds: 60
+  allowed_categories:
+    - "cs.CL"
+    - "cs.LG"
+    - "cs.AI"
+    - "cs.SE"
+    - "cs.IR"
+    - "cs.HC"
+  user_agent: "Awesome-LLMs-Data-AI literature bot (https://github.com/raojay7/Awesome-LLMs-Data-AI)"
+
+  queries:
+    substrate:
+      - '(all:"large language model" OR all:LLM) AND (all:dataset OR all:corpus OR all:benchmark)'
+      - '(all:"LLM agent" OR all:"language model agent") AND (all:trajectory OR all:environment OR all:"tool use")'
+      - '(all:"coding agent" OR all:"software agent") AND (all:dataset OR all:benchmark OR all:trajectory)'
+
+    creation_selection:
+      - '(all:"large language model" OR all:LLM) AND (all:"synthetic data" OR all:"data synthesis" OR all:"data generation")'
+      - '(all:"large language model" OR all:LLM) AND (all:"data selection" OR all:"data curation" OR all:"data filtering")'
+      - '(all:"LLM agent" OR all:"language model agent") AND (all:"trajectory synthesis" OR all:"environment synthesis" OR all:"task synthesis")'
+      - '(all:"large language model" OR all:LLM) AND (all:"self play" OR all:"rejection sampling") AND all:data'
+
+    ingestion:
+      - '(all:"large language model" OR all:LLM) AND (all:"data mixture" OR all:"data mixing" OR all:curriculum OR all:annealing OR all:replay)'
+      - '(all:"large language model" OR all:LLM) AND (all:"mid training" OR all:"multi stage training" OR all:"continued pretraining")'
+      - '(all:"large language model" OR all:LLM) AND (all:"test time" OR all:retrieval OR all:verification OR all:search)'
+      - '(all:"LLM agent" OR all:"language model agent") AND (all:"test time search" OR all:"inference time" OR all:"adaptive retrieval")'
+
+relevance:
+  must_have_any:
+    - "large language model"
+    - "large language models"
+    - "llm"
+    - "llms"
+    - "language model"
+    - "foundation model"
+    - "agent"
+    - "tool use"
+    - "tool-use"
+
+  positive_keywords:
+    "data": 1
+    "dataset": 2
+    "corpus": 2
+    "benchmark": 1
+    "synthetic data": 4
+    "data synthesis": 4
+    "data generation": 3
+    "instruction tuning": 2
+    "instruction data": 3
+    "preference data": 3
+    "data selection": 4
+    "data filtering": 3
+    "data curation": 3
+    "data mixture": 4
+    "data mixing": 4
+    "curriculum": 3
+    "annealing": 3
+    "replay": 2
+    "mid-training": 3
+    "mid training": 3
+    "retrieval": 2
+    "test-time": 3
+    "test time": 3
+    "verification": 2
+    "trajectory": 3
+    "trajectories": 3
+    "environment": 2
+    "tool use": 3
+    "tool-use": 3
+    "agentic": 2
+    "self-play": 3
+    "self play": 3
+    "rejection sampling": 3
+
+  negative_keywords:
+    "wireless network": 3
+    "molecular": 2
+    "protein": 2
+    "medical imaging": 2
+    "autonomous driving": 2
+    "robot navigation": 2
+
+  min_score: 6
+  title_duplicate_similarity: 0.94
+
+taxonomy:
+  family_tier_prior:
+    substrate: "Data Substrates"
+    creation_selection: "Data Creation and Selection"
+    ingestion: "Data Ingestion Strategies"
+
+  tiers:
+    "Data Substrates":
+      prior_weight: 3
+      subcategories:
+        "Pretraining / General Data":
+          - "pretraining corpus"
+          - "pre-training corpus"
+          - "web corpus"
+          - "training corpus"
+          - "pretraining data"
+          - "pre-training data"
+        "Instruction / Preference Data":
+          - "instruction data"
+          - "instruction tuning"
+          - "preference data"
+          - "feedback data"
+          - "alignment dataset"
+        "Reasoning and Code":
+          - "reasoning dataset"
+          - "math dataset"
+          - "code dataset"
+          - "coding benchmark"
+          - "software engineering benchmark"
+          - "repository-level"
+          - "issue resolving"
+        "Safety and Alignment":
+          - "safety benchmark"
+          - "jailbreak"
+          - "red teaming"
+          - "red-teaming"
+          - "alignment benchmark"
+        "Agent and Tool Use":
+          - "agent benchmark"
+          - "tool-use dataset"
+          - "tool use dataset"
+          - "agent trajectory"
+          - "agent trajectories"
+          - "executable environment"
+          - "tool environment"
+          - "function calling"
+
+    "Data Creation and Selection":
+      prior_weight: 3
+      subcategories:
+        "Annotation / Processing":
+          - "annotation"
+          - "data processing"
+          - "data cleaning"
+          - "deduplication"
+          - "data augmentation"
+        "Synthetic Data":
+          - "synthetic data"
+          - "data synthesis"
+          - "data generation"
+          - "instruction generation"
+          - "self-instruct"
+          - "self play"
+          - "self-play"
+          - "trajectory synthesis"
+          - "environment synthesis"
+          - "task synthesis"
+        "Transformation":
+          - "back translation"
+          - "back-translation"
+          - "paraphrase"
+          - "reformat"
+          - "knowledge graph"
+          - "persona"
+        "Data Selection":
+          - "data selection"
+          - "data filtering"
+          - "data curation"
+          - "influence"
+          - "gradient-based selection"
+          - "model-aware selection"
+          - "uncertainty-aware"
+          - "coreset"
+
+    "Data Ingestion Strategies":
+      prior_weight: 3
+      subcategories:
+        "Sample Organization / Conditioning":
+          - "packing"
+          - "system prompt"
+          - "contextual conditioning"
+          - "batch composition"
+          - "sample organization"
+        "Data Mixing":
+          - "data mixture"
+          - "data mixing"
+          - "mixture weights"
+          - "mixture optimization"
+        "Curriculum / Mid-Training / Replay":
+          - "curriculum"
+          - "annealing"
+          - "mid-training"
+          - "mid training"
+          - "replay"
+          - "multi-stage training"
+          - "multi stage training"
+        "Runtime Retrieval / Search / Verification":
+          - "retrieval augmented"
+          - "retrieval-augmented"
+          - "rag"
+          - "test-time"
+          - "test time"
+          - "inference-time"
+          - "inference time"
+          - "search"
+          - "verification"
+          - "self-consistency"
+          - "best-of-n"
+          - "decoding"
+
+render:
+  show_abstract_in_pr: true
+  abstract_chars_in_pr: 500
+  show_bot_score_in_readme: false
+  include_cross_tier_label: true
