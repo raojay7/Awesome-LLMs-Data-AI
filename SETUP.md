@@ -1,30 +1,19 @@
-# LLM Data Literature Bot — Setup & Operations
+# LLM Data Literature Bot v2 — Deployment & Usage
 
-This package turns `Awesome-LLMs-Data-AI` into a living literature list.
+v2 keeps the original weekly updater and adds an **exact-date historical backfill workflow** that produces a standalone Markdown report without touching the curated README.
 
-## What it does
+## What changed in v2
 
-1. Runs weekly on GitHub Actions, or manually via `workflow_dispatch`.
-2. Queries recent arXiv papers with topic-specific search families.
-3. Filters by recency, arXiv category, LLM/data relevance, and duplicates.
-4. Classifies candidates into your three-tier taxonomy:
-   - Data Substrates
-   - Data Creation and Selection
-   - Data Ingestion Strategies
-5. Updates a bounded `Recent Automatically Discovered Papers` block in `README.md`.
-6. Creates a Pull Request for human review. It never auto-merges.
+- `--start-date YYYY-MM-DD` and `--end-date YYYY-MM-DD` for exact inclusive date ranges.
+- `--report-only` for standalone discovery reports.
+- `--output-report updates/<range>.md` for a new file rather than a README edit.
+- Paginated arXiv retrieval, so a multi-week backfill is not limited to only the newest N results of each query.
+- `--dedup-scope readme|readme+database|none`.
+- Search statistics in the generated report.
+- A separate `.github/workflows/backfill-papers.yml` workflow.
+- The original weekly workflow remains available.
 
-The bot uses the **operation rather than the paper as a whole** as the classification unit, so cross-tier labels are supported.
-
----
-
-## 1. Copy files into the repo
-
-Copy the package contents into the root of:
-
-`raojay7/Awesome-LLMs-Data-AI`
-
-Final structure:
+## Repository layout
 
 ```text
 Awesome-LLMs-Data-AI/
@@ -36,31 +25,45 @@ Awesome-LLMs-Data-AI/
 │   └── papers.json
 ├── scripts/
 │   └── paper_bot.py
+├── updates/                         # created automatically by backfill
 └── .github/
     └── workflows/
-        └── update-papers.yml
+        ├── update-papers.yml        # weekly/live mode
+        └── backfill-papers.yml      # exact historical range → new Markdown file
 ```
 
-You do **not** need to add README markers manually. On the first successful run the bot inserts:
+## 1. Upgrade from v1
 
-```md
-<!-- AUTO-LITERATURE:START -->
-## Recent Automatically Discovered Papers
-...
-<!-- AUTO-LITERATURE:END -->
+Copy/overwrite these files in the repo root:
+
+```text
+.github/workflows/update-papers.yml
+.github/workflows/backfill-papers.yml
+scripts/paper_bot.py
+config/paper_bot.yaml
+requirements.txt
 ```
 
-before `## 6. Cross-Tier Synthesis`. Later runs only rewrite text between those markers.
+If your existing `data/papers.json` already contains records, **keep it**. You do not need to replace it with the empty v2 example. The script accepts the existing structure and will write `schema_version: 2` on the next live update.
 
----
+Then commit:
 
-## 2. One-time GitHub setting
+```bash
+git add .github/workflows/update-papers.yml \
+        .github/workflows/backfill-papers.yml \
+        scripts/paper_bot.py \
+        config/paper_bot.yaml \
+        requirements.txt
 
-Go to:
+git commit -m "feat: upgrade literature bot to v2"
+git push
+```
 
-**Repository → Settings → Actions → General → Workflow permissions**
+## 2. GitHub permission (one-time)
 
-Make sure GitHub Actions is allowed to create pull requests. The workflow requests:
+Repository → **Settings → Actions → General → Workflow permissions**.
+
+Allow GitHub Actions to create pull requests. The workflows request:
 
 ```yaml
 permissions:
@@ -68,22 +71,130 @@ permissions:
   pull-requests: write
 ```
 
-No external API key is required in this version.
+## 3. Exact local backfill: 2026-07-01 → 2026-08-17
 
----
-
-## 3. Recommended first local dry run
-
-From the repository root:
+First install dependencies:
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate
-# Windows PowerShell:
-# .\.venv\Scripts\Activate.ps1
-
+source .venv/bin/activate    # macOS/Linux
+# Windows PowerShell: .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+```
 
+### Preview only — no file writes
+
+```bash
+python scripts/paper_bot.py \
+  --config config/paper_bot.yaml \
+  --readme README.md \
+  --database data/papers.json \
+  --start-date 2026-07-01 \
+  --end-date 2026-08-17 \
+  --dedup-scope readme \
+  --dry-run
+```
+
+### Generate the standalone new file
+
+```bash
+python scripts/paper_bot.py \
+  --config config/paper_bot.yaml \
+  --readme README.md \
+  --database data/papers.json \
+  --start-date 2026-07-01 \
+  --end-date 2026-08-17 \
+  --report-only \
+  --output-report updates/2026-07-01_to_2026-08-17.md \
+  --dedup-scope readme \
+  --pr-body /tmp/paper_bot_pr_body.md
+```
+
+Result:
+
+```text
+updates/2026-07-01_to_2026-08-17.md
+```
+
+In report-only mode:
+
+- `README.md` is unchanged.
+- `data/papers.json` is unchanged.
+- Only the requested Markdown report and PR-body file are written.
+
+Inspect it:
+
+```bash
+cat updates/2026-07-01_to_2026-08-17.md
+# or
+git diff -- updates/2026-07-01_to_2026-08-17.md
+```
+
+## 4. Generate “July 1 to today” automatically
+
+Omit `--end-date`; v2 uses the current UTC date:
+
+```bash
+python scripts/paper_bot.py \
+  --config config/paper_bot.yaml \
+  --readme README.md \
+  --database data/papers.json \
+  --start-date 2026-07-01 \
+  --report-only \
+  --output-report updates/2026-07-01_to_today.md \
+  --dedup-scope readme
+```
+
+For reproducible archival filenames, explicit `--end-date` is preferable.
+
+## 5. Run the historical backfill from GitHub UI
+
+After pushing `backfill-papers.yml` to the default branch:
+
+1. Open the repository.
+2. Go to **Actions**.
+3. Select **Historical LLM Data Literature Backfill**.
+4. Click **Run workflow**.
+5. Enter:
+   - `start_date`: `2026-07-01`
+   - `end_date`: `2026-08-17` (or leave blank to use the current UTC date)
+6. Run it.
+
+The workflow creates only:
+
+```text
+updates/2026-07-01_to_2026-08-17.md
+```
+
+on a bot branch and opens a PR such as:
+
+```text
+📚 Literature Backfill: 2026-07-01 → 2026-08-17
+```
+
+Review the file, then merge if the candidate list looks useful.
+
+## 6. Why backfill uses `--dedup-scope readme`
+
+For a historical report, the question is usually:
+
+> “Which papers from this date range are not already in my current curated README?”
+
+Therefore the GitHub backfill workflow ignores the bot's internal `data/papers.json` when deciding whether a paper is new. This avoids hiding a paper merely because the bot saw it previously but it was never added to the curated README.
+
+Options:
+
+```text
+readme            deduplicate only against current README
+readme+database   deduplicate against README and bot database (weekly default)
+none              do not deduplicate against existing repo content
+```
+
+## 7. Weekly mode still works
+
+Dry run:
+
+```bash
 python scripts/paper_bot.py \
   --config config/paper_bot.yaml \
   --readme README.md \
@@ -92,30 +203,7 @@ python scripts/paper_bot.py \
   --dry-run
 ```
 
-`--dry-run` prints candidates and classifications but does not modify the README or database.
-
-For a wider first scan:
-
-```bash
-python scripts/paper_bot.py \
-  --config config/paper_bot.yaml \
-  --readme README.md \
-  --database data/papers.json \
-  --lookback-days 30 \
-  --dry-run
-```
-
----
-
-## 4. Test a real local update
-
-Create a temporary branch:
-
-```bash
-git checkout -b test-literature-bot
-```
-
-Run:
+Real local update:
 
 ```bash
 python scripts/paper_bot.py \
@@ -126,257 +214,76 @@ python scripts/paper_bot.py \
   --pr-body /tmp/paper_bot_pr_body.md
 ```
 
-Inspect:
+This mode may update `README.md` and `data/papers.json` when candidates exist.
 
-```bash
-git diff -- README.md data/papers.json
-cat /tmp/paper_bot_pr_body.md
+The scheduled GitHub workflow runs every Monday at 10:17 in `Asia/Shanghai`.
+
+## 8. Important v2 retrieval change
+
+v1 requested only one fixed-size page per query. That is acceptable for a short weekly scan but can miss older records during a long historical range.
+
+v2 uses:
+
+```yaml
+page_size: 100
+max_pages_per_query: 10
 ```
 
-If this was only a test:
+and requests pages in descending submitted-date order until it reaches a page containing papers older than the requested `start_date`.
 
-```bash
-git restore README.md data/papers.json
-git checkout -
-git branch -D test-literature-bot
+For a busy or very broad query, increase:
+
+```yaml
+max_pages_per_query: 15
 ```
 
----
+The trade-off is a longer Action run and more arXiv API requests.
 
-## 5. Commit the bot files
+## 9. If the report is too noisy
 
-```bash
-git add .github/workflows/update-papers.yml \
-        scripts/paper_bot.py \
-        config/paper_bot.yaml \
-        data/papers.json \
-        requirements.txt
+In `config/paper_bot.yaml` increase:
 
-git commit -m "feat: add automatic LLM data literature bot"
-git push
+```yaml
+relevance:
+  min_score: 6
 ```
 
-The workflow must exist on the repository default branch before it can be started manually from the GitHub Actions UI.
+to, for example:
 
----
+```yaml
+relevance:
+  min_score: 9
+```
 
-## 6. Run manually on GitHub
+Prefer refining queries/keywords before making the threshold excessively high.
 
-Open:
+## 10. If the report is too small
 
-**Repository → Actions → Weekly LLM Data Literature Bot → Run workflow**
+Try:
 
-Use:
+- adding query phrases under `fetch.queries`;
+- increasing `max_pages_per_query`;
+- reducing `min_score` slightly;
+- adding a missing keyword to the appropriate taxonomy subcategory.
 
-- `7` days: weekly catch-up
-- `14` days: recommended default
-- `30` days: first run / after a pause
-
-The pipeline is:
+## 11. Recommended operating pattern
 
 ```text
-arXiv
-  ↓
-query families
-  ↓
-date/category filter
-  ↓
-LLM/data relevance score
-  ↓
-README + papers.json deduplication
-  ↓
-three-tier taxonomy classification
-  ↓
-README auto section
-  ↓
-bot branch
-  ↓
-Pull Request
+Historical backfill
+    ↓
+standalone updates/<date-range>.md
+    ↓
+human review
+    ↓
+move important items into curated README sections
+
+Weekly bot
+    ↓
+recent auto block + papers.json
+    ↓
+PR review
+    ↓
+merge
 ```
 
-Review the PR and merge manually.
-
----
-
-## 7. Scheduled execution
-
-Default schedule in `update-papers.yml`:
-
-```yaml
-- cron: "17 10 * * 1"
-  timezone: "Asia/Shanghai"
-```
-
-This runs every Monday at 10:17 Asia/Shanghai.
-
-Every day at 09:17:
-
-```yaml
-- cron: "17 9 * * *"
-  timezone: "Asia/Shanghai"
-```
-
-Monday + Thursday at 10:17:
-
-```yaml
-- cron: "17 10 * * 1,4"
-  timezone: "Asia/Shanghai"
-```
-
----
-
-## 8. Tune topic coverage
-
-Edit `config/paper_bot.yaml`.
-
-### Add a query
-
-Example for agent memory / experience data:
-
-```yaml
-queries:
-  substrate:
-    - '(all:"LLM agent" OR all:"language model agent") AND (all:"memory" OR all:"experience trajectory")'
-```
-
-### Add taxonomy keywords
-
-Example:
-
-```yaml
-"Agent and Tool Use":
-  - "agent trajectory"
-  - "executable environment"
-  - "agent memory"
-```
-
-### Make filtering stricter
-
-Raise:
-
-```yaml
-min_score: 6
-```
-
-to `8` or `9` if PRs are noisy.
-
-If useful papers are missed, add more precise search/positive terms before simply lowering the score threshold.
-
----
-
-## 9. How classification works
-
-For relevance:
-
-```text
-query-family agreement
-+ title keyword matches (higher weight)
-+ abstract keyword matches
-- negative keywords
-= relevance score
-```
-
-For taxonomy placement:
-
-```text
-query-family prior
-+ tier/subcategory keyword matches
-= tier score
-```
-
-A candidate may look like:
-
-```json
-{
-  "primary_tier": "Data Creation and Selection",
-  "subcategory": "Synthetic Data",
-  "cross_tiers": ["Data Substrates"],
-  "tier_scores": {
-    "Data Substrates": 8,
-    "Data Creation and Selection": 11,
-    "Data Ingestion Strategies": 2
-  }
-}
-```
-
-The PR body exposes these scores so ambiguous placements are quick to review.
-
----
-
-## 10. Deduplication behavior
-
-After a PR is merged, papers are stored in `data/papers.json` and rendered in the README auto section.
-
-Future runs deduplicate against:
-
-1. arXiv IDs in the current README;
-2. arXiv IDs in `data/papers.json`;
-3. titles in the current README;
-4. fuzzy title similarity for near-duplicate versions.
-
-This catches many arXiv/conference duplicate cases, but publication-version review should remain part of the PR check.
-
----
-
-## 11. Recommended curation policy
-
-Do not treat the auto section as the permanent final taxonomy database.
-
-Recommended operating loop:
-
-```text
-Bot discovers papers
-   ↓
-Auto section + PR
-   ↓
-Human review
-   ↓
-Merge
-   ↓
-Periodically move important papers
-into the main curated sections
-```
-
-This keeps discovery fast without turning the main list into a noisy feed.
-
----
-
-## 12. Troubleshooting
-
-### Workflow cannot create a PR
-
-Check:
-
-**Settings → Actions → General → Workflow permissions**
-
-and ensure Actions can create pull requests.
-
-### arXiv temporarily returns an HTTP error
-
-The script has a custom User-Agent, sleeps 3.2 seconds between requests, and treats a single failed query as non-fatal. Rerun the workflow later if arXiv is unavailable.
-
-### Too many irrelevant papers
-
-Increase `relevance.min_score` and tighten queries.
-
-### Too few papers
-
-Increase `max_results_per_query`, extend `lookback_days`, or add topic-specific queries/keywords.
-
----
-
-## 13. Recommended next upgrade
-
-After this deterministic baseline has run stably for several weeks, add an **optional LLM judge only after the rule-based high-recall stage**:
-
-```text
-arXiv retrieval
-  ↓
-rule-based high-recall filter
-  ↓
-optional LLM relevance/taxonomy judge
-  ↓
-PR
-```
-
-Keep human PR review and avoid auto-merge.
+The generated historical file is a **candidate discovery report**, not a claim that every paper should be included in the survey.
