@@ -674,7 +674,7 @@ If you use this repository or the taxonomy in your research, please cite the acc
 @article{rao2025datacentric,
   title   = {A Data-Centric Perspective on the Lifecycle of Large Language Models},
   author  = {Rao, Jun and Liu, Xuebo and Yan, Haotian and Shen, Junjie and Mo, Haosi and
-             Dong, Yanghaopeng and Yan, Zihao and Wang, Ziyi and Li, Zhilin and Meng, Xiaojun and
+             Dong, Yanghaopeng and Yan, Zihao and Wang, Ziyi and Lin, Zepeng and Meng, Xiaojun and
              Yu, Zixiong and Deng, Liqun and Wei, Jiansheng and Wang, Yunhe and Zhang, Min},
   journal = {TechRxiv},
   year    = {2025},
