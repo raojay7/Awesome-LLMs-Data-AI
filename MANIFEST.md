@@ -5,6 +5,8 @@
 - `.github/workflows/update-repo-status.yml` — PR + Actions history → README status block
 - `scripts/paper_bot.py` — fetch/filter/deduplicate/classify/render pipeline
 - `scripts/update_repo_status.py` — GitHub REST API → PR/run statistics → Markdown block (stdlib only)
+- `scripts/render_paper_index.py` — paper database → complete grouped index (stdlib only)
+- `PAPERS.md` — auto-generated full index of every discovered paper
 - `config/paper_bot.yaml` — search queries, taxonomy keywords, thresholds
 - `data/papers.json` — persistent bot-curated paper database
 - `requirements.txt` — Python dependencies

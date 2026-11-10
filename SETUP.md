@@ -25,7 +25,8 @@ Awesome-LLMs-Data-AI/
 │   └── papers.json
 ├── scripts/
 │   ├── paper_bot.py
-│   └── update_repo_status.py         # stdlib-only PR/Actions status generator
+│   ├── update_repo_status.py         # stdlib-only PR/Actions status generator
+│   └── render_paper_index.py         # paper database → PAPERS.md index
 ├── updates/                         # created automatically by backfill
 └── .github/
     └── workflows/
@@ -50,6 +51,24 @@ python scripts/update_repo_status.py --readme README.md   # writes the block
 
 Unauthenticated requests work for public repositories (60 requests/hour); set
 `GITHUB_TOKEN` for private repositories or higher limits.
+
+## Complete paper index (`PAPERS.md`)
+
+`data/papers.json` is the bot's persistent discovery database, but the README's
+recent-paper block only shows the newest `max_readme_papers` entries (currently
+60). `PAPERS.md` lists **every** unique paper in the database grouped by primary
+tier and subcategory, together with a month-by-month breakdown. It is rebuilt
+by `update-repo-status.yml` whenever the status block is refreshed:
+
+```bash
+python scripts/render_paper_index.py --database data/papers.json --output PAPERS.md
+```
+
+If weekly literature PRs pile up unmerged, their branches still contain the
+papers discovered that week. Merge those branches (or merge their
+`data/papers.json` files, deduplicated by arXiv ID) so the discoveries are
+not lost — the bot otherwise starts every run from the stale main-branch
+database and rediscovers the same papers.
 
 ## 1. Upgrade from v1
 

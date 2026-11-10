@@ -4,7 +4,7 @@ project:
   marker_end: "<!-- AUTO-LITERATURE:END -->"
   insert_before_heading: "## 6. Cross-Tier Synthesis"
   section_heading: "## Recent Automatically Discovered Papers"
-  max_readme_papers: 30
+  max_readme_papers: 60
   recent_window_days: 120
 
 fetch:

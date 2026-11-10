@@ -1,0 +1,2888 @@
+# Automatically Discovered Paper Index
+
+> Auto-generated from `data/papers.json` by `scripts/render_paper_index.py` and kept current by `update-repo-status.yml`.
+> Last refreshed: **2026-11-10 08:22 UTC**.
+
+**2,807 unique papers** · published **2026-08** – **2026-11** · grouped by the repository's primary tier and subcategory.
+
+This is a **discovery archive**: entries were proposed by the weekly literature bot, grouped by its deterministic taxonomy, and have **not** been human-reviewed. The curated reading list lives in [README.md](README.md); the newest entries also appear there in the recent-paper block.
+
+## Contents
+
+| Tier | Papers | Subcategories |
+| --- | --- | --- |
+| [Data Substrates](#data-substrates) | 1,107 | 6 |
+| [Data Creation and Selection](#data-creation-and-selection) | 182 | 5 |
+| [Data Ingestion Strategies](#data-ingestion-strategies) | 1,518 | 5 |
+
+## Papers by publication month
+
+| Month | Papers |
+| --- | --- |
+| 2026-08 | 606 |
+| 2026-09 | 885 |
+| 2026-10 | 1,139 |
+| 2026-11 | 177 |
+
+## Data Substrates
+
+### Other (850)
+
+- **[AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos](http://arxiv.org/abs/2611.09769v1)** — Zhongyi Zhang et al. (2026) · relevance 6
+- **[One Run Is Not Enough: A Monte Carlo Protocol for Evaluating LLM Reliability on Data Science Tasks](http://arxiv.org/abs/2611.09729v1)** — Wenqi Ni et al. (2026) · relevance 6
+- **[FondueQA: A Benchmark for Evaluating Parametric Compensation in Multi-Hop QA](http://arxiv.org/abs/2611.09274v1)** — Laurin Schmid et al. (2026) · relevance 6
+- **[Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use](http://arxiv.org/abs/2611.09113v1)** — Chuxue Cao et al. (2026) · relevance 17
+- **[Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation](http://arxiv.org/abs/2611.08718v1)** — Emilly Pitman de Castro et al. (2026) · relevance 7
+- **[Decision Models as Retrieval Gates Against Injection and Pollution](http://arxiv.org/abs/2611.08325v1)** — Mahdi Ghadamyari et al. (2026) · relevance 7
+- **[Hard Issue, Weak Model, or Bad Run? Rethinking Failure Prediction for Coding Agents](http://arxiv.org/abs/2611.08285v1)** — Xingyue Shi et al. (2026) · relevance 8
+- **[RIVER: Evidence-guided multi-agent retrieval for enzyme--reaction discovery](http://arxiv.org/abs/2611.07757v1)** — Yifan Chang et al. (2026) · relevance 8
+- **[Beyond Instruction Override: Benchmarking Indirect Prompt Injection with Task-Tampering Attacks](http://arxiv.org/abs/2611.07640v1)** — Rongting Zhang et al. (2026) · relevance 9
+- **[PSGAgent: Enhancing MLLMs' Dynamic Visual Perception for Panoptic Scene Graph Generation via Agentic Reasoning](http://arxiv.org/abs/2611.07408v1)** — Qingyun Liu et al. (2026) · relevance 9
+- **[EnvOpt: Automated Optimization for Agent Environments](http://arxiv.org/abs/2611.07372v1)** — Mingxuan Li et al. (2026) · relevance 7
+- **[BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories](http://arxiv.org/abs/2611.06911v1)** — Fei Lin et al. (2026) · relevance 9
+- **[MCP-Eco: A Linked Dataset of MCP Servers, Consumers, and Development Activity](http://arxiv.org/abs/2611.06897v1)** — Khalid Tounoussi et al. (2026) · relevance 7
+- **[LibriSpeech-Real-QA: A Benchmark for Streaming Question Answering](http://arxiv.org/abs/2611.06496v1)** — Zewen Zhan et al. (2026) · relevance 6
+- **[What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?](http://arxiv.org/abs/2611.06483v1)** — Kejian Zhu et al. (2026) · relevance 6
+- **[Interactive Backdoor Attacks in LLM-Based Proactive Dialogue Systems](http://arxiv.org/abs/2611.06969v1)** — Zhiyang Xia et al. (2026) · relevance 8
+- **[Multi-Resident Data Association in Smart Homes via MDP Modeling and Behavior Cloning](http://arxiv.org/abs/2611.06296v1)** — Xi Chen et al. (2026) · relevance 11
+- **[Grounding in the Dark: Text-Only Training for Zero-Shot Video Temporal Localization](http://arxiv.org/abs/2611.06149v2)** — Divyanshu Mishra et al. (2026) · relevance 7
+- **[Graph-Mediated Large Language Model Systems in the Agentic Era: Reasoning, Knowledge, Retrieval, Execution, and Coordination](http://arxiv.org/abs/2611.05953v1)** — Haihui Liu et al. (2026) · relevance 11
+- **[Pairing Expert Critique with LLM-Driven Refinement: An Iterative Approach for Curating Quality AI Evaluation Datasets](http://arxiv.org/abs/2611.05749v1)** — Honson Ling et al. (2026) · relevance 12
+- **[When to Ask, When to Answer: Strategic Clarification for Ambiguous Reference Resolution in Dialogue](http://arxiv.org/abs/2611.05517v1)** — Ibrahim Khebour et al. (2026) · relevance 6
+- **[TSFM Meets LLM: Context as Covariates](http://arxiv.org/abs/2611.05515v1)** — Hemanth Ram et al. (2026) · relevance 7
+- **[HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation](http://arxiv.org/abs/2611.05319v1)** — Zhen Tao et al. (2026) · relevance 12
+- **[OperAItor: An Agentic Framework for Fault-Tolerant Operation of Chemical Processes](http://arxiv.org/abs/2611.05179v1)** — Javal Vyas et al. (2026) · relevance 9
+- **[GM League Arena: An Interactive Long-Horizon Task Benchmark Based on Professional Sports League Management](http://arxiv.org/abs/2611.05147v1)** — Junkai Zhou et al. (2026) · relevance 6
+- **[GeoFaham: Domain-Specialized Multi-Agent Geospatial Analytics for Disaster Response](http://arxiv.org/abs/2611.04977v1)** — Muhammad Sohail Danish et al. (2026) · relevance 6
+- **[Feeling of Knowing in Large Language Models](http://arxiv.org/abs/2611.04834v1)** — Zichuan Fu et al. (2026) · relevance 7
+- **[Learning to Rank Explanations for Recommendation with Language Models](http://arxiv.org/abs/2611.04775v1)** — Ben Kabongo et al. (2026) · relevance 7
+- **[When Should an LLM Steering Edit Depend on the Input?](http://arxiv.org/abs/2611.04757v1)** — Rachael Harkness et al. (2026) · relevance 7
+- **[Validation-Gated ML Pipeline Synthesis with Expert-Grounded Self-Evolving Skills](http://arxiv.org/abs/2611.04180v1)** — Zixiao Zhao et al. (2026) · relevance 6
+- **[Language Model Augmented Decision Transformer for Multi-Task Offline Reinforcement Learning](http://arxiv.org/abs/2611.04031v1)** — Xinbo Zhao et al. (2026) · relevance 11
+- **[SLATE: A Large-Scale Benchmark for Long-Horizon API Selection in E-commerce Tool Use](http://arxiv.org/abs/2611.03982v1)** — Rongzhe Wei et al. (2026) · relevance 15
+- **[WebHarbor: Docking Real Websites for Evolving GUI Agent Environments](http://arxiv.org/abs/2611.03634v1)** — Zhaoyang Wang et al. (2026) · relevance 7
+- **[Grading the Unannotated: Insights from the WorkRB Skill Extraction Challenge at RecSys-HR 2026](http://arxiv.org/abs/2611.03525v1)** — Warre Veys et al. (2026) · relevance 6
+- **[Optimize the Harness, Not the Model: Fitting a Minimal Agent to a Self-Hostable LLM for Investigative Analysis](http://arxiv.org/abs/2611.03434v1)** — Shai Nahum Gefen et al. (2026) · relevance 6
+- **[Same Outputs, Different Scores: Auditing the Unchecked Graders of Multimodal LLM Benchmarks](http://arxiv.org/abs/2611.03377v1)** — Ahmad Jarjis Hasan et al. (2026) · relevance 6
+- **[BLPO: Beyond-Local Policy Optimization for Long-Horizon LLM Agents](http://arxiv.org/abs/2611.03005v1)** — Xuanren Chen et al. (2026) · relevance 7
+- **[PlagiaCorpus: A Bilingual, Adversarial, and Cross-Lingual Dataset for Forensic Plagiarism Detection](http://arxiv.org/abs/2611.02940v1)** — Adel Ammar et al. (2026) · relevance 13
+- **[Hindsight Credit Assignment over Trees for Agentic RL](http://arxiv.org/abs/2611.02706v1)** — Penghong Zhao et al. (2026) · relevance 11
+- **[Does the Judge See What the Evaluation Requires? Input Assurance for LLM Agent Evaluation](http://arxiv.org/abs/2611.02676v1)** — Boming Xia et al. (2026) · relevance 7
+- **[Beyond Accuracy: How Quantization Affects Coding Agents](http://arxiv.org/abs/2611.02368v1)** — Areej Mehboob et al. (2026) · relevance 7
+- **[VisCodeBench: a new benchmark dataset for Text-to-Vis reflecting real-world practice](http://arxiv.org/abs/2611.02353v1)** — Hy Nguyen et al. (2026) · relevance 9
+- **[APG: Agentic Static-Analysis Infrastructure on LLVM-IR Graph Databases](http://arxiv.org/abs/2611.02349v1)** — Zexin Zhong et al. (2026) · relevance 8
+- **[Decision Models as Policy Gates for Coding Agents: Explicit Policy Boundaries Improve Detection and Reduce False Alarms](http://arxiv.org/abs/2611.02155v1)** — James P. Beno (2026) · relevance 8
+- **[SWE-Trail: History-Guided Trajectory Collection for Coding Agent Training](http://arxiv.org/abs/2611.02074v1)** — Ziming Li et al. (2026) · relevance 14
+- **[How Green Is Your Manifesto? Scoring Environmental Positions in the 2024 EU Elections with an LLM Panel](http://arxiv.org/abs/2611.02033v1)** — Franco Corti et al. (2026) · relevance 6
+- **[Retrieval-Enhanced Cultural Evaluation for Social Media Translation Training](http://arxiv.org/abs/2611.02009v1)** — Linjuan Wu et al. (2026) · relevance 8
+- **[Is Your Long-Horizon Benchmark Really Deep? Measuring and Synthesizing Depth in Terminal Tasks](http://arxiv.org/abs/2611.01927v1)** — Yu Jiang et al. (2026) · relevance 8
+- **[TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens](http://arxiv.org/abs/2611.01926v1)** — Juseon Do et al. (2026) · relevance 7
+- **[LegoEnv: Self-Evolving Agentic Environments via Modular Recombination](http://arxiv.org/abs/2611.01834v1)** — Zhuosong Jiang et al. (2026) · relevance 12
+- **[Delivered, Not Used: Evaluating Agent Memory at Its Point of Use](http://arxiv.org/abs/2611.01718v1)** — Changran Xu et al. (2026) · relevance 9
+- **[Accounting for Irregular State Transitions through Belief Estimation in Online Medical Consultation](http://arxiv.org/abs/2611.01474v1)** — Mingzhe Lu et al. (2026) · relevance 8
+- **[Constraint Dependency Graph Retrieval for Compliance Detection on Long SKILL Documents](http://arxiv.org/abs/2611.01042v1)** — Shuaitao Zhao et al. (2026) · relevance 10
+- **[Jet-QSparse: Accelerating Agentic LLM Inference with 4-Bit Sparse Attention](http://arxiv.org/abs/2611.01022v1)** — Haozhan Tang et al. (2026) · relevance 6
+- **[Labadain-MedQA: A Tetun Medical QA Dataset for Fine-Tuning and Evaluating Large Language Models](http://arxiv.org/abs/2611.00935v2)** — Gabriel de Jesus et al. (2026) · relevance 7
+- **[EduExplain: A Benchmark for Explanation-Set Retrieval and Storyboard Construction in Educational Explanation](http://arxiv.org/abs/2611.00802v1)** — Aryan Ahmed et al. (2026) · relevance 11
+- **[Discovering Models for Experimental Quantum Systems with Agentic AI](http://arxiv.org/abs/2611.00620v1)** — Hannah C. Kleidermacher et al. (2026) · relevance 8
+- **[SpBench: An Agent-Native Framework for Cross-Engine Lakehouse Benchmarking](http://arxiv.org/abs/2611.00449v1)** — Lyndon Shi et al. (2026) · relevance 6
+- **[SecPO: Principled Adversarial Training for Prompt Injection Security](http://arxiv.org/abs/2610.41998v1)** — Sizhe Chen et al. (2026) · relevance 7
+- **[Structure-Aware Skill Retrieval and Arbitration for Optimization Modeling](http://arxiv.org/abs/2610.41909v1)** — Anran Liu et al. (2026) · relevance 7
+- **[Peeling the Matryoshka: Extracting Ontological Structure from Retrieval Embeddings](http://arxiv.org/abs/2610.41785v1)** — Eunchan Kim et al. (2026) · relevance 9
+- **[Ask on Demand: Targeted Peer Communication for Parallel Agentic Systems](http://arxiv.org/abs/2610.41378v1)** — Haofu Yang et al. (2026) · relevance 9
+- **[In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents](http://arxiv.org/abs/2610.41291v1)** — Xuning He et al. (2026) · relevance 8
+- **[Counterfactual Pairwise Augmentation Improves Small Pointwise LLM Judges](http://arxiv.org/abs/2610.41149v1)** — Mohammad Zangooei et al. (2026) · relevance 6
+- **[AIFaultBench: A Reproducible Benchmark of Real-World Faults in AI Software Systems](http://arxiv.org/abs/2610.41094v1)** — Mehil B Shah et al. (2026) · relevance 8
+- **[IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR Laws](http://arxiv.org/abs/2610.40518v1)** — M. Mohaiminul Islam et al. (2026) · relevance 8
+- **[How I Aligned Your Model: Scaling Up Multilingual Safety Training with Templates](http://arxiv.org/abs/2610.40516v1)** — Max Neuwinger et al. (2026) · relevance 6
+- **[Locating and Closing Information Gaps in Multi-Agent Systems](http://arxiv.org/abs/2610.40186v1)** — Yaxin Gong et al. (2026) · relevance 6
+- **[It Takes Two to Probe, Thousands to Retrieve: Putting Vision--Language Probes to the Retrieval Test](http://arxiv.org/abs/2610.40124v1)** — Ivana Beňová et al. (2026) · relevance 10
+- **[Mind The Gap (MTG-AD): Dataset and Fine-grained Evaluation for End-to-End Inline Audio Descriptions](http://arxiv.org/abs/2610.39955v1)** — Subhashini Venugopalan et al. (2026) · relevance 8
+- **[KARMA: Training-Free Knowledge-Atomic Harness Evolution for Industrial Advertising Agents](http://arxiv.org/abs/2610.39884v2)** — Xinhua Miao et al. (2026) · relevance 6
+- **[Training LLM Agents to Automate LLM Post-Training with RSI-Dojo](http://arxiv.org/abs/2611.03698v1)** — Shuzheng Gao et al. (2026) · relevance 12
+- **[Category-Anchored Large Language Models for Next POI Recommendation](http://arxiv.org/abs/2610.39518v1)** — Lexi Bai et al. (2026) · relevance 7
+- **[Robustness of Chatbot LLM Judgments of Presidential Actions and Hypothetical Reforms](http://arxiv.org/abs/2610.39398v2)** — Oleg Vasilyev (2026) · relevance 7
+- **[AgentDecept: Benchmarking Deceptive Behavior in Tool-Using LLM Agents under Pressure](http://arxiv.org/abs/2610.39377v1)** — Yehan Zhang et al. (2026) · relevance 11
+- **[Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps](http://arxiv.org/abs/2610.39264v1)** — Peitong Duan et al. (2026) · relevance 7
+- **[PrivacyFlow: Privacy in AI Agents through Information Flow Analysis and Consequence-Aware Risk Management](http://arxiv.org/abs/2610.40714v1)** — Robin Staab et al. (2026) · relevance 7
+- **[Author-Informed Stance Detection: A Dataset and Findings](http://arxiv.org/abs/2610.39019v1)** — Ogen Schlachet Drukerman et al. (2026) · relevance 7
+- **[Context Compaction for World Models](http://arxiv.org/abs/2610.38980v1)** — Hayder Tirmazi (2026) · relevance 6
+- **[Where You Inject Matters: The Trust Region Effect in LLM Agents](http://arxiv.org/abs/2610.38867v1)** — Chengquan Guo et al. (2026) · relevance 9
+- **[AtomTree: A Hierarchical Framework for State-Aware Embodied Instruction Following with LLMs](http://arxiv.org/abs/2610.38744v1)** — Haotian Zhai et al. (2026) · relevance 10
+- **[SCOPE: Selective Critical-Step On-Policy Self-Distillation for Agentic Reinforcement Learning](http://arxiv.org/abs/2610.38391v1)** — Qirui Liu et al. (2026) · relevance 11
+- **[Statutory Article Retrieval from Arabic Judicial Narratives: Family Law and Law of Evidence in Saudi Arabia](http://arxiv.org/abs/2610.38336v1)** — Zarah Shibli et al. (2026) · relevance 9
+- **[MUSE: Multi-Level Memory with Selective Runtime Injection for Scientific Coding Agents](http://arxiv.org/abs/2610.38332v1)** — Haoran Jin et al. (2026) · relevance 8
+- **[LLM-PowerTrace: A Dataset of Time-Resolved GPU Power Traces for AI Compute](http://arxiv.org/abs/2610.38315v1)** — Jiansheng Wang et al. (2026) · relevance 8
+- **[The Indian Financial Automated Advice Bias (IFAAB) Dataset : Auditing Socioeconomic and Demographic Disparities in LLM-Generated Financial Advice in India](http://arxiv.org/abs/2610.38239v1)** — Kriti Mahajan (2026) · relevance 8
+- **[Seq@K: Evaluating Language Models Under Sequential Feedback](http://arxiv.org/abs/2610.37859v1)** — Thomson Yen et al. (2026) · relevance 7
+- **[FeatureArc: Benchmarking Coding Agents on Evolving Features](http://arxiv.org/abs/2610.37434v1)** — Yunlong Wang et al. (2026) · relevance 6
+- **[RPSD: Retrieval-Privileged On-Policy Self-Distillation with Optimal Transport](http://arxiv.org/abs/2610.37281v1)** — Dongyue Li et al. (2026) · relevance 12
+- **[OpenGray: a benchmark for evaluating the decisions of radiotherapy planning agents](http://arxiv.org/abs/2610.37081v1)** — Humza Nusrat et al. (2026) · relevance 6
+- **[The State and Fate of Multilingual, Contextual Evaluation in the NLP World](http://arxiv.org/abs/2610.36990v1)** — Manan Uppadhyay et al. (2026) · relevance 7
+- **[AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations](http://arxiv.org/abs/2610.36980v2)** — Qiming Shi et al. (2026) · relevance 7
+- **[God Does Not Play Dice: Enforcing Batch Invariance in Agentic Kernel Generation](http://arxiv.org/abs/2610.36623v1)** — Youwei Bao et al. (2026) · relevance 6
+- **[MedConstBench: Benchmarking How Constitutions Steer LLMs in Medical Ethics](http://arxiv.org/abs/2610.36513v2)** — Yibo Yang et al. (2026) · relevance 6
+- **[CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments](http://arxiv.org/abs/2610.36484v1)** — Kianté Fernandez et al. (2026) · relevance 6
+- **[MAREval: A Multi-Agent Framework for Evaluating Natural Language Recommendation Explanations](http://arxiv.org/abs/2610.36389v1)** — Reza Yousefi Maragheh et al. (2026) · relevance 6
+- **[SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding](http://arxiv.org/abs/2610.36384v1)** — Matea Tashkovska et al. (2026) · relevance 6
+- **[BUSTA: Teaching Small Language Models to Reason About Binary Execution](http://arxiv.org/abs/2610.36288v1)** — Ritika Poddar et al. (2026) · relevance 6
+- **[FOCUS: Active Critic Learning for Long-Horizon Language Model Agents](http://arxiv.org/abs/2610.35801v1)** — Zhengping Jiang et al. (2026) · relevance 7
+- **[EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation](http://arxiv.org/abs/2610.35690v1)** — Yitao Xiao et al. (2026) · relevance 8
+- **[Hierarchical Skill Evolution for Coding Agent](http://arxiv.org/abs/2610.35616v1)** — Jun Gao et al. (2026) · relevance 7
+- **[MATCHA: A Chinese Multi-Disorder Mental Health Dataset with Cross-Lingual Analyses on Social Media](http://arxiv.org/abs/2610.35512v1)** — Bingrui Jin et al. (2026) · relevance 7
+- **[Beyond Federated Learning: Decentralized Agentic Systems for Self-Evolving Clinical Intelligence](http://arxiv.org/abs/2610.35453v1)** — Haoyuan Li et al. (2026) · relevance 11
+- **[Omni-InteractScope: Benchmarking Proactive and Agentic Interaction in Continuous Omnimodal Streams](http://arxiv.org/abs/2610.35439v1)** — Yinsong Yan et al. (2026) · relevance 7
+- **[ImgMT: Wikipedia-based Dataset For Evaluating Text-in-Image Translation](http://arxiv.org/abs/2610.35416v1)** — Šárka Uramová et al. (2026) · relevance 8
+- **[Co-Design Bench: Multimodal Collaborative Coding Evaluation for Agentic Models](http://arxiv.org/abs/2610.35138v1)** — Xilin Wei et al. (2026) · relevance 6
+- **[ClinVerse: A Realistic Multi-Agent Diagnostic Environment for Training and Evaluating Medical Agents](http://arxiv.org/abs/2610.34878v1)** — Sirry Chen et al. (2026) · relevance 11
+- **[Semantic Atoms for Scalable Text Analysis in Data Analytics in the Era of LLM-Based Agents](http://arxiv.org/abs/2610.34860v1)** — Jinxiang Xie et al. (2026) · relevance 6
+- **[Continue or Restart? The Limits of Early Failure Prediction in Coding Agents](http://arxiv.org/abs/2610.35971v1)** — Srinath Srinivasan et al. (2026) · relevance 6
+- **[STEP: Soft Trajectory Estimation of Prediction Correctness via Per-Step Probability Scoring](http://arxiv.org/abs/2610.34537v1)** — Chenyang Yu et al. (2026) · relevance 11
+- **[How Humans Learn Unfamiliar Worlds: A Think-Aloud Dataset on ARC-AGI-3](http://arxiv.org/abs/2610.34523v1)** — Shuzhi Liu et al. (2026) · relevance 13
+- **[From Human Intent to In-Orbit Action: A Self-Learning Large Language Model Agent for 6G Satellite Networks](http://arxiv.org/abs/2610.34387v1)** — Zhengqian Xu et al. (2026) · relevance 7
+- **[CoLink: Global Compression and Knowledge Linking for Multi-Turn Dialogue Modeling](http://arxiv.org/abs/2610.34335v1)** — Lian Yan et al. (2026) · relevance 7
+- **[Task Success Is Not Enough: Side-effect-Aware Evaluation of Tool-Using Language Model Agents](http://arxiv.org/abs/2610.34167v1)** — Jiaju Huang et al. (2026) · relevance 10
+- **[Reversible Pseudonymisation of Documents Sent to External LLMs: an Open Bilingual Benchmark and an Engine](http://arxiv.org/abs/2610.34012v1)** — Vladimir Beskorovainyi (2026) · relevance 6
+- **[InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants](http://arxiv.org/abs/2610.33966v1)** — Qinsi Wang et al. (2026) · relevance 7
+- **[Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents](http://arxiv.org/abs/2610.33956v1)** — Haoyu Zhao et al. (2026) · relevance 6
+- **[WebViSE: Scaling Visual Design Intelligence from the Open Web for LLM Website Generation](http://arxiv.org/abs/2610.33929v1)** — Yifei Sun et al. (2026) · relevance 7
+- **[IntentDelta: A Human-Constructed Benchmark for Evolving User Intent](http://arxiv.org/abs/2610.33806v1)** — Jieyu Zhou et al. (2026) · relevance 6
+- **[Local Entropy Fluctuations for Black-Box LLM-Generated Text Detection](http://arxiv.org/abs/2610.33767v2)** — Xinpeng Wang et al. (2026) · relevance 7
+- **[Auditing evaluation artifacts and data leakage in large language model systems for rare disease diagnosis](http://arxiv.org/abs/2610.33592v1)** — Jian Yang et al. (2026) · relevance 8
+- **[Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?](http://arxiv.org/abs/2610.33509v2)** — Yihan Yang et al. (2026) · relevance 6
+- **[MarineLife-16K: An Attribute-Rich Video-Text Dataset for Motion-Aware Marine Video Understanding](http://arxiv.org/abs/2610.33478v2)** — Quang-Trung Truong et al. (2026) · relevance 10
+- **[Responsibility Boundaries for Agentic Systems: A Comparative Evaluation of Probabilistic Agentic Programming](http://arxiv.org/abs/2610.33312v1)** — Khadim Lo et al. (2026) · relevance 8
+- **[AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science](http://arxiv.org/abs/2610.33245v1)** — Atharva Naik et al. (2026) · relevance 6
+- **[When Agents Fail: Model or Harness--Who's to Blame?](http://arxiv.org/abs/2610.32483v1)** — Shao Zhang et al. (2026) · relevance 10
+- **[Can LLM Annotators Match Human Consistency? Benchmarking Human Agreement and Optimizing Multi-Agent with Contrastive Knowledge](http://arxiv.org/abs/2610.32415v1)** — Xiaopeng Ke et al. (2026) · relevance 6
+- **[Beyond What to Say: Proactive Utterance Timing with Inner Thoughts for Werewolf Agents](http://arxiv.org/abs/2610.32107v1)** — Yoshiki Tanaka et al. (2026) · relevance 6
+- **[Knowing When to Stop: The Evidence-Action Gap in Coding Agents](http://arxiv.org/abs/2610.31895v2)** — Tianyu Chen et al. (2026) · relevance 11
+- **[Benchmarks Are Surprisingly Compaction-Friendly](http://arxiv.org/abs/2610.31778v1)** — Jeanne Salle et al. (2026) · relevance 8
+- **[Cost-Aware Abstention for LLM-Based IT Ticket Classification](http://arxiv.org/abs/2610.31657v1)** — Sachin Gupta (2026) · relevance 6
+- **[AgentPhishing: A Benchmark of LLM Email Agents Under Adaptive Attack](http://arxiv.org/abs/2610.31404v1)** — Justin Tan et al. (2026) · relevance 6
+- **[SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs](http://arxiv.org/abs/2610.31062v1)** — Arnon Mazza et al. (2026) · relevance 6
+- **[Evaluating Artificial Wisdom (AW): A Trajectory-Based Framework for Context-Sensitive Decision Regulation](http://arxiv.org/abs/2610.31012v1)** — Md. Jalil Piran (2026) · relevance 8
+- **[SecLog-Bench: A Scalable Benchmark for Cybersecurity Log Reasoning with Scaffolded Evidence](http://arxiv.org/abs/2610.31000v1)** — Yifan Wang et al. (2026) · relevance 6
+- **[ReflectPO: Reflection-Guided Policy Optimization for Long-Horizon LLM Agents](http://arxiv.org/abs/2610.30933v1)** — Rumei Li et al. (2026) · relevance 10
+- **[WikiOriginQA: Automated Construction of a QA Dataset with Knowledge Origins for Analyzing Cultural Bias](http://arxiv.org/abs/2610.30677v1)** — Kento Haneda et al. (2026) · relevance 7
+- **[Compact-Bench: Measuring What Context Compaction Costs Long-Horizon Coding Agents](http://arxiv.org/abs/2610.31710v2)** — Ruopei Sun et al. (2026) · relevance 6
+- **[PLE: Physical-Engineering's Last Exam](http://arxiv.org/abs/2610.30537v1)** — Rujun Han et al. (2026) · relevance 9
+- **[Can LLMs Improve Their Own Harness? A Controlled Study on ARC-AGI-3](http://arxiv.org/abs/2610.30499v1)** — Jens Lehmann et al. (2026) · relevance 7
+- **[From Single-Actor Environments to Multi-Actor Event Worlds: Can LLMs Be Event World Models?](http://arxiv.org/abs/2610.30488v1)** — Juntong Ni et al. (2026) · relevance 7
+- **[RoleFlow: Self-Evolving Multi-Role Agentic Collaboration via Structural Adaptation](http://arxiv.org/abs/2610.30429v1)** — Yi Ge et al. (2026) · relevance 10
+- **[Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems](http://arxiv.org/abs/2610.30418v1)** — Daniel Ruiz et al. (2026) · relevance 9
+- **[MemPlan: Memory-Conditioned PDDL Planning for Partially Observable Text Environments](http://arxiv.org/abs/2610.30379v1)** — Tengwei Song et al. (2026) · relevance 6
+- **[AQL-Lite: Enabling Efficient Knowledge Acquisition for Arabic LLMs via Data-Centric Continual Pretraining](http://arxiv.org/abs/2610.30344v1)** — Houssam Eddine Boukhalfa et al. (2026) · relevance 7
+- **[GAV: A scientific experimentation environment for PDE agents](http://arxiv.org/abs/2610.30292v1)** — Muheng Li et al. (2026) · relevance 8
+- **[LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data](http://arxiv.org/abs/2610.30132v1)** — Zhennan Wan et al. (2026) · relevance 7
+- **[Environment Duels: A Microcosm of LLM Co-Evolution](http://arxiv.org/abs/2610.30116v1)** — Shibo Jin et al. (2026) · relevance 9
+- **[From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks](http://arxiv.org/abs/2610.30051v1)** — May Espinola et al. (2026) · relevance 6
+- **[Agent Behavior Maps: Locating Agents by What They Would Do, Without Running Them](http://arxiv.org/abs/2610.30014v1)** — Shota Fujikawa et al. (2026) · relevance 9
+- **[Every Alarm Has a Cause: An Open Generator of Telecom Alarm Storms with Exact Root Causes, Bound to NORIA-O, RFC 8632 and TMF642](http://arxiv.org/abs/2610.30004v1)** — Madhulatha Mandarapu et al. (2026) · relevance 6
+- **[HiddenLens: A Multi-Layer LLM Framework for Detecting and Resolving Hidden Assumptions in Software Requirements](http://arxiv.org/abs/2610.29996v1)** — Tanu Singh et al. (2026) · relevance 6
+- **[FrontierCS 2: A Benchmark for Computer Science R&D](http://arxiv.org/abs/2610.29932v1)** — Qiuyang Mang et al. (2026) · relevance 6
+- **[Benchmarking Large Language Models for Detecting Satirical Code-Mixed Sentences](http://arxiv.org/abs/2610.29907v1)** — Răzvan-Alexandru Smădu et al. (2026) · relevance 8
+- **[Automated Materials Data and Knowledge Extraction using Machine Learning and Large Language Models](http://arxiv.org/abs/2610.29895v1)** — Aravindan Kamatchi Sundaram et al. (2026) · relevance 8
+- **[Bridging Foundational and Agentic Capabilities of LLMs](http://arxiv.org/abs/2610.29751v1)** — Wei Guo et al. (2026) · relevance 9
+- **[Understanding Tool-Mediated Interaction Failures in Agentic GUI Software: An Empirical Study](http://arxiv.org/abs/2610.31698v1)** — Yuchen Shao et al. (2026) · relevance 7
+- **[MPIDetector: Detecting Multi-modal Prompt Injection via LLM-based Reasoning](http://arxiv.org/abs/2610.30202v1)** — Yiheng Li et al. (2026) · relevance 7
+- **[TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics](http://arxiv.org/abs/2610.29477v1)** — Yegor Anichkov et al. (2026) · relevance 8
+- **[DynaWeave: Learning to Adapt through Dynamic Scenario Synthesis](http://arxiv.org/abs/2610.29443v1)** — Xuan Yang et al. (2026) · relevance 6
+- **[Right On Q: Recovering Reasoning under Quantization via Self-Generated Trajectories](http://arxiv.org/abs/2610.29378v1)** — Boyuan Zheng et al. (2026) · relevance 11
+- **[Reading the Mask: Descriptor-Grounded BI-RADS Rationale Generation for Breast MRI Segmentation](http://arxiv.org/abs/2610.29358v1)** — Hrishikesh Singh et al. (2026) · relevance 6
+- **[OSynth: A Longitudinal, Context-Sensitive Evaluation of Meeting Understanding](http://arxiv.org/abs/2610.29319v1)** — Ian Porada et al. (2026) · relevance 8
+- **[Diagnosing and Mitigating Evidence Misgrounding in Multimodal Knowledge Editing](http://arxiv.org/abs/2610.33075v1)** — Zhiwu Wang et al. (2026) · relevance 8
+- **[Approximate Solomonoff Induction: On the Robustness of Learned Universal Predictors](http://arxiv.org/abs/2610.29289v1)** — Qian Li et al. (2026) · relevance 6
+- **[ARCANA: A Benchmark for Abstraction and Analogical Reasoning](http://arxiv.org/abs/2610.29271v3)** — Ruqi Chen et al. (2026) · relevance 6
+- **[CloudIR-Bench: A Benchmark for Root Cause Analysis and Mitigation of Cloud Incidents](http://arxiv.org/abs/2610.29185v1)** — Hoang Tran et al. (2026) · relevance 6
+- **[Attention-based Classification for Indirect Prompt Injection](http://arxiv.org/abs/2610.28988v1)** — Amelia Kawasaki et al. (2026) · relevance 9
+- **[Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?](http://arxiv.org/abs/2610.28763v1)** — Ming Zhong et al. (2026) · relevance 8
+- **[Benchmarking Arabic Dialects for Math Problems](http://arxiv.org/abs/2610.28607v1)** — Noor Abo Mokh et al. (2026) · relevance 6
+- **[Cache Engineering for Agents](http://arxiv.org/abs/2610.28577v1)** — Tianyu Fu et al. (2026) · relevance 8
+- **[Adaptive Stopping of Streamed Reasoning for Language Model Agents](http://arxiv.org/abs/2610.27981v1)** — JunHyeok Oh et al. (2026) · relevance 7
+- **[MMEnterprise-Bench: Evaluating Enterprise Agents over Evolving Multimodal Records](http://arxiv.org/abs/2610.27911v1)** — Seohyun Lee et al. (2026) · relevance 6
+- **[Hallucinations of Large Language Models in Cross-Language Code Translation: Phenomena and Mitigation](http://arxiv.org/abs/2610.27868v1)** — Yali Du et al. (2026) · relevance 8
+- **[Enhancing Bug-Exposing Test Generation via Step-Level Credit Assignment and Self-Distillation from Valuable Failures](http://arxiv.org/abs/2610.27694v1)** — Wenjie Gan et al. (2026) · relevance 8
+- **[Corpus Quality Improves, Retrieval Utility Does Not: An Ablation of Preprocessing and Refinement in a Speech-to-QA Pipeline](http://arxiv.org/abs/2610.27652v1)** — Wonsup Shin et al. (2026) · relevance 11
+- **[Act on Your Behalf, Beyond Your Authorization: Benchmarking LLM Agent Authorization Alignment](http://arxiv.org/abs/2610.27548v2)** — Zhiping Zhang et al. (2026) · relevance 9
+- **[MemDev-Bench: Does Memory Help Code Agents?Benchmarking Memory Systems over Real Repository Histories](http://arxiv.org/abs/2610.27524v1)** — Guorui Chen et al. (2026) · relevance 6
+- **[Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics](http://arxiv.org/abs/2610.27327v1)** — Yuqing Yang et al. (2026) · relevance 10
+- **[RealControlBench: A Benchmark for Interpretability-Informed Fine-Grained Control of LLMs and Agents](http://arxiv.org/abs/2610.27295v1)** — Xinying Cai et al. (2026) · relevance 11
+- **[Guided Diffusion for Trustworthy Synthetic Text Generation](http://arxiv.org/abs/2610.27259v1)** — Qi Pang et al. (2026) · relevance 6
+- **[Which Agent's Skill Should Change? Group-Relative Credit Assignment for Evolving Multi-Agent Teams](http://arxiv.org/abs/2610.27227v1)** — Yanan Ma et al. (2026) · relevance 6
+- **[OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory](http://arxiv.org/abs/2610.26860v1)** — Yu Zhou et al. (2026) · relevance 13
+- **[RefCraft: Benchmarking Visual-Reference-Conditioned Agentic Generation through Web Development](http://arxiv.org/abs/2610.26826v1)** — Yuchi Wang et al. (2026) · relevance 10
+- **[RouterWorld: Scaling Conversational AI with Latency-Aware LLM Routing](http://arxiv.org/abs/2610.26511v1)** — Jinyang Li et al. (2026) · relevance 8
+- **[Autonomous intelligence for mining productivity: a multi-agent AI approach to operational value creation](http://arxiv.org/abs/2610.26369v1)** — N Guerin et al. (2026) · relevance 7
+- **[VHDLBench: Benchmarking and Fine-Tuning Large Language Models for VHDL-Based Chip Design](http://arxiv.org/abs/2610.28676v1)** — Patrik Drazic et al. (2026) · relevance 8
+- **[LeakBench: Auditing Reward Hacking through Prediction-Time Leakage in Clinical Modeling Agents](http://arxiv.org/abs/2610.26088v1)** — Xiaoyuan Bao et al. (2026) · relevance 6
+- **[Honeyed Words, Hidden Daggers: Benchmarking and Training LLMs to See Through Mock Politeness](http://arxiv.org/abs/2610.26059v1)** — Caixin Kang et al. (2026) · relevance 6
+- **[AuDQ: Auditable Data Quality through Agentic Rule Discovery](http://arxiv.org/abs/2610.26031v1)** — Jacopo Biggiogera et al. (2026) · relevance 9
+- **[FrameGRPO: Incentivizing Video Reasoning via Multi-Frame Rollouts and Temporal Credit](http://arxiv.org/abs/2610.26022v1)** — Jiaxuan Sun et al. (2026) · relevance 8
+- **[NIOCIS: Typed-Decision Next-Hop Routing with Node-Conditioned Option Spaces for Tool-Use Agents](http://arxiv.org/abs/2610.25985v1)** — Jin Han et al. (2026) · relevance 7
+- **[EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver](http://arxiv.org/abs/2610.25931v2)** — Dastin Huang et al. (2026) · relevance 7
+- **[SWE-Residual: Evaluating Starting-State Robustness of Coding Agents](http://arxiv.org/abs/2610.25899v1)** — Jinze Li et al. (2026) · relevance 7
+- **[Are Self-Evolving Agents Continual Learners?](http://arxiv.org/abs/2610.25858v1)** — Xiaoyin Chen et al. (2026) · relevance 6
+- **[FrontierRefactor: Benchmarking Multi-Scale Performance-Oriented Codebase Refactoring](http://arxiv.org/abs/2610.25834v1)** — Shijian Wang et al. (2026) · relevance 6
+- **[Editing as Language: Teaching LLM Agents a Grammar for Native Context Editing](http://arxiv.org/abs/2610.25550v1)** — Yunlong Deng et al. (2026) · relevance 12
+- **[Auditing Tool Traces in Agentic LLMs: Source Localization and Counterfactual Dependence Testing](http://arxiv.org/abs/2610.25540v1)** — Junhao Liu et al. (2026) · relevance 9
+- **[StopLoss: Teaching Agents to Predict Failure and Stop Early](http://arxiv.org/abs/2610.25525v1)** — Jiarong Liang et al. (2026) · relevance 6
+- **[DiaLong: Benchmarking Reminiscence in Long-Context Dialogues](http://arxiv.org/abs/2610.25463v2)** — Owen Bianchi et al. (2026) · relevance 7
+- **[Towards Figurative Language Understanding in Moroccan Darija: An Evaluation of Large Language Models](http://arxiv.org/abs/2610.25406v1)** — Jihad R'baiti et al. (2026) · relevance 7
+- **[From Software History to Executable Regression Tasks: A System for Evaluating Software Agents](http://arxiv.org/abs/2610.25308v1)** — Ruikai Shi et al. (2026) · relevance 6
+- **[Trackable Skill Library Lifecycle Management for Agentic Reinforcement Learning](http://arxiv.org/abs/2610.25126v1)** — Xi Zhu et al. (2026) · relevance 9
+- **[SteadyThought: Mitigating LLM Under-Thinking via Thought-Level Preference Optimization](http://arxiv.org/abs/2610.25045v1)** — Zhenyue Peng et al. (2026) · relevance 7
+- **[Over-Defense in Coding Agents Begins at Silent Forks](http://arxiv.org/abs/2610.24949v1)** — Hanjun Luo et al. (2026) · relevance 7
+- **[TrustAgent-RFF: Agentic Diagnostic Planning for Reliable RF Fingerprinting under Domain Shift](http://arxiv.org/abs/2610.24930v2)** — Chuan Liu et al. (2026) · relevance 10
+- **[Vibenix: Agentic Software Packaging and Maintenance with Nix](http://arxiv.org/abs/2610.24712v1)** — Martim Monis et al. (2026) · relevance 10
+- **[ProbePO: Sparse Probes, Redistributed Credit for Critic-Free LLM Reinforcement Learning](http://arxiv.org/abs/2610.24515v1)** — Diyi Hu et al. (2026) · relevance 6
+- **[CME-SpectrumBench: Can LLMs Analyze Condensed Matter Spectral Data?](http://arxiv.org/abs/2610.24304v1)** — Jin Gene Wong et al. (2026) · relevance 11
+- **[The Italian lawmaking process: a unified and structured dataset](http://arxiv.org/abs/2610.23741v1)** — Matilde Contestabile et al. (2026) · relevance 7
+- **[From Trajectories to Differentiated Skills: Cognitive Differentiation for Self-Improving Agents](http://arxiv.org/abs/2610.23599v1)** — Yewei Zhao et al. (2026) · relevance 13
+- **[Darwin-Claw: Environment-Adaptive Experience Consolidation for Recursively Self-Evolving Agents](http://arxiv.org/abs/2610.23574v1)** — Mingze Yin et al. (2026) · relevance 10
+- **[SkillBrowser: Selective Skill Exposure for Scalable Skill-Using Agents](http://arxiv.org/abs/2610.23554v1)** — Jin Ye et al. (2026) · relevance 8
+- **[Ignored, Not Refused: What Low Prompt-Injection Success Rates Hide in Small Tool-Using Agents](http://arxiv.org/abs/2610.23254v1)** — Farhan Zarif et al. (2026) · relevance 7
+- **[Visual Causal-chain Bookmarking: Retrieval-Weighted Credit Assignment for Reinforcement Learning from Delayed Reward](http://arxiv.org/abs/2610.24032v1)** — Prathap Selvakumar (2026) · relevance 9
+- **[Do Knowledge and Reasoning Oriented Benchmarks Induce Stable Representation Signatures in LLMs?](http://arxiv.org/abs/2610.24029v1)** — Parsa Rahimi et al. (2026) · relevance 6
+- **[Self-Evolving Agents Can Repair Failures but Struggle to Generalize from Them](http://arxiv.org/abs/2610.22984v1)** — Weixiang Zhao et al. (2026) · relevance 6
+- **[NL2SQL with Iterative Self-Refinement](http://arxiv.org/abs/2610.22968v1)** — Anjali Vemula et al. (2026) · relevance 6
+- **[Benchmarking and Enhancing Agentic Causal Discovery](http://arxiv.org/abs/2610.22846v1)** — Pingchuan Ma et al. (2026) · relevance 10
+- **[LLM-Attack Suite: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems](http://arxiv.org/abs/2610.22722v2)** — Georgios Politis et al. (2026) · relevance 6
+- **[Edit Discovery in Human-AI Interactions](http://arxiv.org/abs/2610.22661v1)** — Alireza Mirrokni et al. (2026) · relevance 6
+- **[Trajectory-Guided Steering: Mitigating Spurious Feature Bias in Clinical Classification](http://arxiv.org/abs/2610.22618v1)** — Fardin Ahsan Sakib et al. (2026) · relevance 10
+- **[Predicting Privileged Information Effectiveness for On-Policy Self-Distillation](http://arxiv.org/abs/2610.22512v1)** — Kaijian Zou et al. (2026) · relevance 7
+- **[Agentic-Priors: Using Large Language Models to Address the Cold Start Problem in Preference Elicitation](http://arxiv.org/abs/2610.21938v1)** — Bruno Arcanjo et al. (2026) · relevance 8
+- **[DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents](http://arxiv.org/abs/2610.21755v1)** — Yufeng Peng et al. (2026) · relevance 7
+- **[Rethinking the Role of Tool Graph Memory in Multi-Turn Tool Use](http://arxiv.org/abs/2610.21571v1)** — Uiji Hwang et al. (2026) · relevance 8
+- **[BiShield-TEE: On the (In-)Security of Unilateral Weight Obfuscation in On-Device TEE-Shielded LLM Partition](http://arxiv.org/abs/2610.21565v2)** — Zhiyuan Wang et al. (2026) · relevance 6
+- **[MetaExp: Learning to Self-Improve through Experience via Verifiable Cross-Task Environment Scaling](http://arxiv.org/abs/2610.21492v1)** — Renhao Li et al. (2026) · relevance 8
+- **[Tool-Augmented Large Language Models for Reliable Medical Calculation from Patient Notes](http://arxiv.org/abs/2610.21477v1)** — Yang Zhong et al. (2026) · relevance 6
+- **[Can LLMs Tell Stories Out of Order? A Corpus and Benchmark for Nonlinear Narrative Generation](http://arxiv.org/abs/2610.21468v1)** — Syed Rifat Raiyan et al. (2026) · relevance 7
+- **[JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs](http://arxiv.org/abs/2610.21412v1)** — Kunlun Zhu et al. (2026) · relevance 11
+- **[Agentic Interpretation: Harness-Governed Evidence Construction for Software Agents](http://arxiv.org/abs/2610.23996v1)** — Yifeng He et al. (2026) · relevance 8
+- **[Diviner: Agentic RCA with Human-Governed Adaptation for Large-Scale Infrastructure](http://arxiv.org/abs/2610.21281v1)** — Pradipta Ghosh et al. (2026) · relevance 13
+- **[System1-Arena: Which Decisions Can Be Left to System 1?](http://arxiv.org/abs/2610.21244v1)** — Tianyu Chen et al. (2026) · relevance 6
+- **[INCONVENIENT: A Benchmark to Assess LLM Generalization Capabilities from Convenience Samples](http://arxiv.org/abs/2610.21038v1)** — Sara Rezaeimanesh et al. (2026) · relevance 8
+- **[SCARCE: Emergent Institutions in Long-Horizon Multi-Agent Coding Systems](http://arxiv.org/abs/2610.21029v2)** — Abhinav Kumar et al. (2026) · relevance 6
+- **[Taking the PULSE of Medical Reasoning: Step-Level Retrieval Timing for Knowledge-Grounded Inference](http://arxiv.org/abs/2610.20292v1)** — Danyang Zhao et al. (2026) · relevance 10
+- **[OpenTWBench (Open Taiwan Benchmark): Taiwan-Domain Knowledge Evaluation for Large Language Models, and How the Measurement Apparatus Shapes the Score](http://arxiv.org/abs/2610.19848v1)** — Liang-Hsun Huang et al. (2026) · relevance 9
+- **[RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios](http://arxiv.org/abs/2610.19698v1)** — Chenhao Yuan et al. (2026) · relevance 10
+- **[MCAIR: Monitoring and Correcting Agent Unfaithfulness via Internal Representations](http://arxiv.org/abs/2610.19679v1)** — Yan Xu et al. (2026) · relevance 7
+- **[Model What Matters: Decision-Guided Selective World Modeling for Language Agents](http://arxiv.org/abs/2610.19642v1)** — Maolin Ran et al. (2026) · relevance 7
+- **[Progress-Aware Distillation for Mitigating Stagnation in Small Language Model Agents](http://arxiv.org/abs/2610.19439v2)** — Yuanpu Cao et al. (2026) · relevance 9
+- **[EvoProbe: Evaluation-Driven Benchmark Evolution for LLM Agents](http://arxiv.org/abs/2610.19433v1)** — Qianhong Guo et al. (2026) · relevance 7
+- **[Evaluating Agentic Capabilities Before Post-Training: An End-to-End Approach](http://arxiv.org/abs/2610.19425v1)** — Jiarui Qin et al. (2026) · relevance 14
+- **[AgentSafeEvo: Adversarial Co-Evolution for LLM Agent Safety](http://arxiv.org/abs/2610.19422v1)** — Chenxu Wang et al. (2026) · relevance 7
+- **[Beyond Corrected Actions: Training LLM Agents on Textual Critiques](http://arxiv.org/abs/2610.19367v1)** — Thomas Zeng et al. (2026) · relevance 11
+- **[TopicMerge: A Divide and Conquer Approach to Topic Modeling](http://arxiv.org/abs/2610.19323v1)** — Matthew Raffel et al. (2026) · relevance 6
+- **[FinGREAT: Evaluating LLMs on Financial Graph-guided Retrieval And Typing](http://arxiv.org/abs/2610.19240v1)** — Ashman Mehra et al. (2026) · relevance 7
+- **[NEPSEE: A Double-Annotated Benchmark for Nepali Sentiment Analysis](http://arxiv.org/abs/2610.19190v1)** — Gaurab Baral et al. (2026) · relevance 6
+- **[ListQA: A Benchmark for Evaluating List-Formatted Factual Knowledge Retrieval in Large Language Models](http://arxiv.org/abs/2610.19165v1)** — Mayank Kulkarni et al. (2026) · relevance 11
+- **[Towards a Data-Centric Understanding of Spatial Reasoning in Multimodal Large Language Models](http://arxiv.org/abs/2610.19108v1)** — Mahdieh Mallahnezhad et al. (2026) · relevance 6
+- **[Contextual Credit Policy Optimization](http://arxiv.org/abs/2610.19103v1)** — Huiwen Han et al. (2026) · relevance 7
+- **[Revisiting Generative vs. Dense Retrieval: A Static Value Prior Reverses the Gap](http://arxiv.org/abs/2610.19065v1)** — Renbo Tu et al. (2026) · relevance 9
+- **[Tracing Morphology, Semantics, and Divergence in Language Acquisition](http://arxiv.org/abs/2610.19041v1)** — Forough Shirin Abkenar et al. (2026) · relevance 7
+- **[CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat](http://arxiv.org/abs/2610.19005v2)** — Bangya Liu et al. (2026) · relevance 10
+- **[SEAR: Self-Evolving Agentic Robotics](http://arxiv.org/abs/2610.18792v1)** — Xinyi Wang et al. (2026) · relevance 9
+- **[ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning](http://arxiv.org/abs/2610.18683v1)** — Bowen Ding et al. (2026) · relevance 11
+- **[Can an Agent Learn to Predict Its Own Failure? Outcome-Grounded Confidence Calibration in LLM Agents](http://arxiv.org/abs/2610.18614v1)** — Ashutosh Hathidara (2026) · relevance 6
+- **[TextualRL: Textual Reinforcement Learning for Context Management](http://arxiv.org/abs/2610.18216v1)** — Tianyu Huai et al. (2026) · relevance 8
+- **[Training LLMs for Multi-Agent Collaboration with Verifiable Information Rewards](http://arxiv.org/abs/2610.17893v1)** — Keru Chen et al. (2026) · relevance 6
+- **[Socratic Skill Learning: Interleaving Teaching and Practice for Transferable Agent Skills](http://arxiv.org/abs/2610.17860v1)** — Letian Zhu et al. (2026) · relevance 6
+- **[Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution](http://arxiv.org/abs/2610.17816v2)** — Pengcheng Huang et al. (2026) · relevance 6
+- **[Coupled Harness--Model Evolution for Scientific Equation Discovery](http://arxiv.org/abs/2610.17740v1)** — Pengze Li et al. (2026) · relevance 12
+- **[HelpMeOut: A Neuropsychology-Grounded Benchmark for Error-Aware Monitoring of Household Task Execution](http://arxiv.org/abs/2610.17694v1)** — Haoran Wang et al. (2026) · relevance 6
+- **[Encounter-Driven City-Scale Human Mobility Generation with Large Language Models](http://arxiv.org/abs/2610.17672v1)** — Chao Li et al. (2026) · relevance 7
+- **[Can Agents Truly Forget? Explore Machine Unlearning for LLM Agents](http://arxiv.org/abs/2610.17659v1)** — Junkai Lin et al. (2026) · relevance 10
+- **[Executable Prefix Values for Locating Agent Failures](http://arxiv.org/abs/2610.17633v1)** — Bingyu Shen et al. (2026) · relevance 7
+- **[TDR: Tagalog Diacritic Restoration Dataset](http://arxiv.org/abs/2610.17597v1)** — Ivan Yuri De Leon et al. (2026) · relevance 12
+- **[Towards Green AI: Evaluating Energy Efficiency for Quantized LLM Inference](http://arxiv.org/abs/2610.17531v1)** — Petar Basta (2026) · relevance 7
+- **[UMCR: Universal Medical Concept Recognition through Guideline Integration and Agentic Linking](http://arxiv.org/abs/2610.17363v1)** — Fabrice Lamarche et al. (2026) · relevance 6
+- **[PhysCodeGym: Benchmarking Coding Agents for Physically Verifiable 4D Reconstruction](http://arxiv.org/abs/2610.17288v1)** — Shuai Shao et al. (2026) · relevance 8
+- **[ToolHACE: A Dataset for Detecting Hallucinations in Tool-Based LLM Responses](http://arxiv.org/abs/2610.17125v1)** — Nikolay Ivanov et al. (2026) · relevance 8
+- **[ANCHOR: Assessing Naturalistic Constraint Hierarchies and Ordering in Repository-Grounded Agentic Coding](http://arxiv.org/abs/2610.16859v2)** — Wenqiang Zhu et al. (2026) · relevance 15
+- **[AuthGateBench: Benchmarking LLMs as Authorization Gate](http://arxiv.org/abs/2610.16426v1)** — Zhixiong Zhuang et al. (2026) · relevance 9
+- **[EvoWeb: A Benchmark for Coding Agents on Evolving Web Applications](http://arxiv.org/abs/2610.16402v1)** — David Nukrai et al. (2026) · relevance 6
+- **[ChronoScribe: Semantic-Numerical Specialization for Instruction-Driven Time Series Forecasting](http://arxiv.org/abs/2610.16345v1)** — Yuchen Jiao et al. (2026) · relevance 10
+- **[Towards a Benchmark for Fire Safety Code Interpretation in the Hong Kong AEC Industry](http://arxiv.org/abs/2610.16127v1)** — Le Qiu et al. (2026) · relevance 6
+- **[Handoff Curves: Initial Selection, Later Handoff, and Supervision Targets in Multi-turn LLM Routing](http://arxiv.org/abs/2610.15993v1)** — Daniel Matos et al. (2026) · relevance 8
+- **[LLM Value Functions for Credit Assignment in Agentic RL](http://arxiv.org/abs/2610.15840v1)** — Kaijie Zhu et al. (2026) · relevance 9
+- **[A Persian Vision-Language-Action Dataset and Benchmark for Ambiguity- and Infeasibility-Aware Instruction-to-Plan Grounding](http://arxiv.org/abs/2610.15666v1)** — Abdollah Pourasghari et al. (2026) · relevance 16
+- **[Sequent-Prover: Training Agents for Formal, Checkable SMT-based Reasoning](http://arxiv.org/abs/2610.15258v1)** — Debargha Ganguly et al. (2026) · relevance 8
+- **[Words to World: Benchmarking LLMs in Interactive Physical Environments](http://arxiv.org/abs/2610.15228v1)** — Xinnan Dai et al. (2026) · relevance 7
+- **[UDHRBench: Benchmarking Human Rights in Large Language Models](http://arxiv.org/abs/2610.15179v1)** — Alak Raad et al. (2026) · relevance 6
+- **[Beyond Outcome Feedback: Trajectory-Quality-Guided Experience-based Learning](http://arxiv.org/abs/2610.14877v1)** — Bingjie Zhang et al. (2026) · relevance 13
+- **[ProgAgent: Learning Tool Orchestration through Programmatic Training](http://arxiv.org/abs/2610.14774v1)** — Hao Li et al. (2026) · relevance 6
+- **[Lingdan-V2: Large language models for clinically grounded reasoning in traditional Chinese medicine](http://arxiv.org/abs/2610.14705v1)** — Rui Hua et al. (2026) · relevance 6
+- **[CB-Agent: Concept-Based In-Context Learning for Sequential Action Selection](http://arxiv.org/abs/2610.14574v1)** — Qingyue Zhang et al. (2026) · relevance 7
+- **[RES-MR: Risk-Aware Reasoning for Explainable and Safe Medication Recommendation](http://arxiv.org/abs/2610.14474v1)** — Cong Wang et al. (2026) · relevance 11
+- **[Target-ESS Tempered Policy Optimization (TETPO): Smooth Variance Control via Bridge Importance Sampling](http://arxiv.org/abs/2610.14440v1)** — Shayan Mohajer Hamidi et al. (2026) · relevance 6
+- **[ACED-Bench: Evaluating How LLM Agents Acquire and Act on Causal Evidence](http://arxiv.org/abs/2610.14381v1)** — Yiwei Chen et al. (2026) · relevance 6
+- **[Evaluating LLMs as Agentic Workflow Executors in Real-World Customer Support Skills](http://arxiv.org/abs/2610.14346v2)** — Md Tahmid Rahman Laskar et al. (2026) · relevance 11
+- **[Can Language Models Play the Wikipedia Game?](http://arxiv.org/abs/2610.13948v1)** — Alexander Hickey et al. (2026) · relevance 8
+- **[Matched-Context Group Policy Optimization for LLM Agent Training](http://arxiv.org/abs/2610.13755v1)** — Chenxu Zhang et al. (2026) · relevance 7
+- **[A Baseline Assessment for the Agentic Web Technology Stack](http://arxiv.org/abs/2610.13703v1)** — Vagner Figueredo de Santana et al. (2026) · relevance 6
+- **[(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection](http://arxiv.org/abs/2610.13668v1)** — Chenyang Yang et al. (2026) · relevance 6
+- **[Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits](http://arxiv.org/abs/2610.13438v2)** — Xi Chen et al. (2026) · relevance 14
+- **[ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents](http://arxiv.org/abs/2610.13395v1)** — Chengyi Yang et al. (2026) · relevance 8
+- **[Taking Tokenization off the Host for Agentic LLM Serving](http://arxiv.org/abs/2610.13325v1)** — Mohammad Siavashi et al. (2026) · relevance 9
+- **[ClawLoop: Self-Improving Agents via Harness-Native Training Loop](http://arxiv.org/abs/2610.14118v1)** — Hansi Yang et al. (2026) · relevance 11
+- **[RoleWorld: Knowledge Transfer in World Modeling with Functional Role Abstractions](http://arxiv.org/abs/2610.13172v1)** — Boyuan Xiao et al. (2026) · relevance 7
+- **[Can Failed Trajectories Reveal Where Agents Go Wrong? Agentic Failure Attribution Without Step-Level Labels](http://arxiv.org/abs/2610.13105v1)** — Do Nguyen-Thanh et al. (2026) · relevance 14
+- **[Travel Back To Move Forward: Retrospective Exploration and Evolving for Long Horizon Agents](http://arxiv.org/abs/2610.13058v1)** — Ziang Ye et al. (2026) · relevance 7
+- **[Trajectory-Aware Policy Optimization: Closing the State Distribution Gap in Long-Horizon LLM RL](http://arxiv.org/abs/2610.13020v1)** — Zhicheng Cai et al. (2026) · relevance 11
+- **[What Should SFT Learn? Conditional Information Gain for Generalizable Post-Training](http://arxiv.org/abs/2610.12995v1)** — Yuxuan Gu et al. (2026) · relevance 6
+- **[Learning More by Training Less: Uncertainty-Guided Progressive Contraction for Efficient Reasoning Post-Training](http://arxiv.org/abs/2610.12933v1)** — Suorong Yang et al. (2026) · relevance 8
+- **[Mind the Spatial Gap: A Benchmark for Geospatial Reasoning and Constrained Spatial Editing](http://arxiv.org/abs/2610.12881v1)** — Zheng Ren et al. (2026) · relevance 6
+- **[Temporal Evidence Forests for Long-Horizon Multi-Party Conversational Memory](http://arxiv.org/abs/2610.12874v1)** — Junyou Guo et al. (2026) · relevance 6
+- **[GeoFitBench-LLM: A Benchmark for Assessing Large Language Models' Capabilities in Geospatial Data Requirements Elicitation for Geo-Analytic Tasks](http://arxiv.org/abs/2610.12669v1)** — Amirhossein Vahdat et al. (2026) · relevance 10
+- **[SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire](http://arxiv.org/abs/2610.12596v1)** — Scott C. Lowe et al. (2026) · relevance 6
+- **[BrickBench: Evaluating Agentic Brick Design](http://arxiv.org/abs/2610.12452v1)** — Peter Kulits et al. (2026) · relevance 8
+- **[Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict](http://arxiv.org/abs/2610.12360v1)** — Kaiser Sun et al. (2026) · relevance 9
+- **[Event-Centric Memory with Query-Aware Graph Augmentation for Long-Term Conversational Agents](http://arxiv.org/abs/2610.11920v1)** — Yichen Liu et al. (2026) · relevance 8
+- **[Trajectory-Guided Fault Localization for Agent Skill Evolution](http://arxiv.org/abs/2610.11858v1)** — Yu Ge et al. (2026) · relevance 10
+- **[TRACE: Diagnosing Verifier Brittleness in Agentic Evaluation](http://arxiv.org/abs/2610.11678v1)** — Radhika Gaonkar (2026) · relevance 12
+- **[Memory Type Varies: Empowering LLM Agents for Long-Term Memory with Diverse Strategies](http://arxiv.org/abs/2610.11573v1)** — Yi Wen et al. (2026) · relevance 7
+- **[Workerville: Towards an Organizational Behavior Account of Agent Safety](http://arxiv.org/abs/2610.11561v1)** — Hanjun Luo et al. (2026) · relevance 6
+- **[Safe, Persistent, and Evolving Agent Harness for Understanding Partially Observable Worlds](http://arxiv.org/abs/2610.11552v1)** — Yisen Gao et al. (2026) · relevance 7
+- **[SSCBench: Evaluating the Evidential Validity of Fault-Injection Tests for Tool-Using LLM Agents](http://arxiv.org/abs/2610.11514v1)** — Xincheng He et al. (2026) · relevance 6
+- **[Evaluating Local Language Model Agents for Reproducible Data Engineering: An Empirical Software Engineering Study of Mobility Workflows](http://arxiv.org/abs/2610.11482v1)** — Jorge García-Carrasco et al. (2026) · relevance 7
+- **[MedBenchAgent: Towards Systematic Automation of Medical VLM Benchmark Construction](http://arxiv.org/abs/2610.11312v1)** — Yulin Fu et al. (2026) · relevance 6
+- **[FloorSAV: Elucidating Spatial Audio-Visual Context with 2D Floormap for AV-LLMs](http://arxiv.org/abs/2610.11310v1)** — Kyeong-Rae Kim et al. (2026) · relevance 7
+- **[AgentHorizon: Evaluating Agentic Judges for Long-Horizon Computer-Use Tasks](http://arxiv.org/abs/2610.11050v1)** — Xing Han Lù et al. (2026) · relevance 15
+- **[Loose Lips: Understanding Privacy Leakage in Agentic Dialogue](http://arxiv.org/abs/2610.14071v1)** — Soumya Sharma et al. (2026) · relevance 6
+- **[TaoD2C-Bench: Benchmarking MLLMs for Industrial UI Code Generation Beyond Visual Fidelity](http://arxiv.org/abs/2610.10374v1)** — Chengwei Shi et al. (2026) · relevance 6
+- **[UniSkill: Learning Actor-Aligned Skill Proposals for an Evolving Policy](http://arxiv.org/abs/2610.10164v1)** — Yifei Lu et al. (2026) · relevance 7
+- **[On the Reliability of LLM-Based Vulnerability Patching Benchmarks](http://arxiv.org/abs/2610.10150v1)** — Dang K Le et al. (2026) · relevance 6
+- **[From Pixel to Coding: Evaluating the Figure Reproduction Capabilities of MLLMs](http://arxiv.org/abs/2610.10066v1)** — Zijian Chen et al. (2026) · relevance 7
+- **[LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets](http://arxiv.org/abs/2610.09872v1)** — Jun Zhao et al. (2026) · relevance 10
+- **[Agent4RE: A Self-Refining Multi-agent Framework for End-to-End Software Requirements Engineering and Benchmarking](http://arxiv.org/abs/2610.10628v1)** — Yongjian Tang et al. (2026) · relevance 8
+- **[Alice: A Large-Scale German Benchmark for Rubric-Based Multi-Dimensional Automatic Short Answer Scoring](http://arxiv.org/abs/2610.09661v1)** — Zhifan Sun et al. (2026) · relevance 9
+- **[Beyond Type-checking: Towards Holistic Evaluation of Formal Specification Generation](http://arxiv.org/abs/2610.10604v1)** — Srijith Nair et al. (2026) · relevance 6
+- **[Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files](http://arxiv.org/abs/2610.09264v1)** — Yupu Wang et al. (2026) · relevance 7
+- **[Frozen Models, Evolving Expertise: Model-Agnostic Learning from Deployment Experience for Multimodal Medical AI](http://arxiv.org/abs/2610.09146v2)** — Yexiao He et al. (2026) · relevance 6
+- **[GeoNatureAgent (GNA): A Framework and Benchmark for Pre-Production Evaluation of Tool-Using Agents on Geospatial and Environmental Tasks](http://arxiv.org/abs/2610.09112v1)** — Gabriel Diaz-Ireland et al. (2026) · relevance 7
+- **[Move Fast and Mend Things: Keeping Up with Evolving AI Harms Using Social Media Commentary](http://arxiv.org/abs/2610.09082v1)** — Jacqueline Rowe et al. (2026) · relevance 6
+- **[From High Recall to High Utility: Dataset-Adaptive Post-Processing of LLM-Generated Customer Intents](http://arxiv.org/abs/2610.09039v1)** — Mahesh Viswanathan et al. (2026) · relevance 10
+- **[Not Every Call Needs a Frontier Model: Per-Call-Site Evaluation of Small Language Models in a Deployed Agentic Home-Automation System](http://arxiv.org/abs/2610.09021v1)** — Panagiotis Kasnesis et al. (2026) · relevance 6
+- **[Sigma-Hunter: A Domain-Specific Language Model for Threat Hunting and Detection Engineering](http://arxiv.org/abs/2610.09007v1)** — Kemal Davaslioglu et al. (2026) · relevance 6
+- **[Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models](http://arxiv.org/abs/2610.08966v2)** — Xingang Guo et al. (2026) · relevance 8
+- **[On KL-Regularized Policy Optimization](http://arxiv.org/abs/2610.08963v1)** — Yifan Zhang (2026) · relevance 7
+- **[HygieneRoboBench: Benchmarking Hygiene-Aware Planning for Household Robots](http://arxiv.org/abs/2610.08642v1)** — Yurun Chen et al. (2026) · relevance 6
+- **[Foresight-over-Graph: Reasoning Beyond Local Horizons for Knowledge Base Question Answering](http://arxiv.org/abs/2610.08388v1)** — Yang Hong et al. (2026) · relevance 6
+- **[Learn2Play Bench: How Well Do LLM Agents Learn from Experience in Unfamiliar Environments?](http://arxiv.org/abs/2610.08215v2)** — Yibo Li et al. (2026) · relevance 6
+- **[Symphony for Text Generation: Benchmarking Clinical Note Generation](http://arxiv.org/abs/2610.08161v1)** — Daniel Varab et al. (2026) · relevance 6
+- **[Surviving the Router: Optimizing Skill Injections for Retrieval and Execution](http://arxiv.org/abs/2610.08098v2)** — Haneen Najjar et al. (2026) · relevance 9
+- **[POLAR: Ontology-Guided Risk Prevention for Tool-Calling LLM Agents](http://arxiv.org/abs/2610.08082v1)** — Yunju Kang et al. (2026) · relevance 6
+- **[The Labeling Problem in Hallucination Detection Benchmarks: An Empirical Evaluation](http://arxiv.org/abs/2610.08026v1)** — Jorma Valjakka et al. (2026) · relevance 6
+- **[An Empirical Study of Agent Skills' Downstream Utility](http://arxiv.org/abs/2610.08875v2)** — Yu Cheng et al. (2026) · relevance 7
+- **[ServeLearnBench: How Well Can Agents Self-Improve from Serving Experience?](http://arxiv.org/abs/2610.07792v1)** — Haizhong Zheng et al. (2026) · relevance 7
+- **[Who Is Talking to the Agent? LLMs in Multi-User 3D Virtual Environments](http://arxiv.org/abs/2610.07732v1)** — Mohammad Al-Ratrout et al. (2026) · relevance 7
+- **[MemCo: Memory-Centric Collaboration for Generalizing LLM Agents to Unseen Environments](http://arxiv.org/abs/2610.07376v1)** — Xinting Liao et al. (2026) · relevance 10
+- **[A Validated Dataset and Benchmark for Coherent Multi-Diagram SysML Models](http://arxiv.org/abs/2610.07356v1)** — Ardalan Aryashad et al. (2026) · relevance 9
+- **[Selective Critique for Cost-Aware LLM Agents in Long-Horizon Decision Making](http://arxiv.org/abs/2610.07335v1)** — Heewon Park et al. (2026) · relevance 7
+- **[Structuring MoE Expert Selection for Agentic Reinforcement Learning](http://arxiv.org/abs/2610.07332v1)** — Bolian Li et al. (2026) · relevance 12
+- **[CroissantMiner: Automated Extraction and Validation of Croissant Metadata for ML Datasets](http://arxiv.org/abs/2610.07132v1)** — Berke Arda et al. (2026) · relevance 11
+- **[PlaySuite: A Large-Scale Benchmark for Interactive Visual Intelligence](http://arxiv.org/abs/2610.07127v1)** — Dheeraj Varghese et al. (2026) · relevance 6
+- **[AMBER: Training Long-Horizon Web Agents through Append-Only Memory](http://arxiv.org/abs/2610.07118v1)** — Chinmay Savadikar et al. (2026) · relevance 10
+- **[HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention](http://arxiv.org/abs/2610.06563v1)** — Han Luo et al. (2026) · relevance 12
+- **[ANT: A Multi-Granularity Network Traffic Dataset and Benchmark for Agents Behavior Auditing](http://arxiv.org/abs/2610.06514v1)** — Fan Li et al. (2026) · relevance 9
+- **[AgentPrivArena: Evaluating and Auditing Real-world AI Agent Privacy](http://arxiv.org/abs/2610.06454v1)** — Shouju Wang et al. (2026) · relevance 11
+- **[The Assistance Dilemma: Learning to Teach via Multi-Turn Reinforcement Learning](http://arxiv.org/abs/2610.06446v1)** — Jakub Macina et al. (2026) · relevance 6
+- **[RAISED: Self-Distillation for Robustness to Prompt Injection in LLM Agents](http://arxiv.org/abs/2610.06401v2)** — Mohamed Dhouib et al. (2026) · relevance 10
+- **[Small Language Models for Smart Data Model Classification at the Edge: A Cost-Aware Hybrid Approach](http://arxiv.org/abs/2610.07093v1)** — Cristian Martella et al. (2026) · relevance 8
+- **[Towards a Unified Misuse Monitoring Benchmark](http://arxiv.org/abs/2610.07089v1)** — Aniruddh Pramod et al. (2026) · relevance 8
+- **[MS-Exam-Gen: Source-Grounded Benchmark Construction for Evaluating LLMs on Textual Multiple Sclerosis MRI Knowledge](http://arxiv.org/abs/2610.06170v1)** — Abdul Basit et al. (2026) · relevance 9
+- **[Constraint-Aware Conversational Job Recommendation in Code-Mixed Low-Resource Settings](http://arxiv.org/abs/2610.05787v1)** — Md Arman Hossain et al. (2026) · relevance 8
+- **[PACMI: Provenance-Aware Cascading Memory Invalidation for Long-Term LLM Agents](http://arxiv.org/abs/2610.05732v1)** — Yiqi Wang et al. (2026) · relevance 6
+- **[A Framework for Automated Multi-Source Satellite Data Analytics and LLM-Based Report Generation](http://arxiv.org/abs/2610.05625v1)** — Hind Yousif Alhammadi et al. (2026) · relevance 7
+- **[AutoDP-LLM: Automating Data Pre-processing for Intrusion Detection Systems using Large Language Models](http://arxiv.org/abs/2610.05369v1)** — Bao-Phong Nguyen et al. (2026) · relevance 8
+- **[templar: agentic induction and evolution of standardized radiology reporting templates from large-scale clinical corpora](http://arxiv.org/abs/2610.05247v1)** — Xiaotian Hu et al. (2026) · relevance 10
+- **[Rethinking Tool Design for Agentic RCA: A Controlled Empirical Study](http://arxiv.org/abs/2610.05009v1)** — Yu Luo et al. (2026) · relevance 10
+- **[CIPO: Counterfactual Imagination Policy Optimization for Adaptive Tool Granularity Selection](http://arxiv.org/abs/2610.04991v1)** — Yu Li et al. (2026) · relevance 8
+- **[Assembling Insights for Agentic Machine Learning Engineering Systems](http://arxiv.org/abs/2610.04927v1)** — Bihui Jin et al. (2026) · relevance 7
+- **[PyINE: A Framework for Scalable Elicitation and Oversight via Code Execution](http://arxiv.org/abs/2610.04737v1)** — Pierre-Luc St-Charles et al. (2026) · relevance 6
+- **[Towards Automatically Pruning Logging Code with Coding Agents: How Far Are We?](http://arxiv.org/abs/2610.04716v1)** — He Yang Yuan et al. (2026) · relevance 7
+- **[Can LLM Agents Automate Reinforcement Learning for Text-to-Speech?](http://arxiv.org/abs/2610.04488v1)** — Xuanjun Chen et al. (2026) · relevance 7
+- **[Causally Fair Generation with Large Language Models](http://arxiv.org/abs/2610.04444v1)** — Patrik Okanovic et al. (2026) · relevance 8
+- **[Video2World: Benchmarking Coding Agents for Interactive World Modeling from Embodied Videos](http://arxiv.org/abs/2610.04432v3)** — Jinzhou Tang et al. (2026) · relevance 6
+- **[Asking Earns Nothing: Scoring the Decision to Act in BFCL Multi-Turn](http://arxiv.org/abs/2610.04429v1)** — Yangze Liu et al. (2026) · relevance 8
+- **[COPEX: Benchmarking LLM Robustness to Adversarial Context Across Model Context Protocol Layers](http://arxiv.org/abs/2610.04378v1)** — Nahom Birhan et al. (2026) · relevance 6
+- **[Self-Reflection Fine-Tuning: Enhancing Agent Security against Prompt Injection Attacks from Failure Experience](http://arxiv.org/abs/2610.04269v1)** — Zixuan Wang et al. (2026) · relevance 7
+- **[Benchmarking Psychological Dynamics in Generative Agents](http://arxiv.org/abs/2610.04246v1)** — Sumer S. Vaid et al. (2026) · relevance 6
+- **[Asynchronous Is Nearly Free for Evolution Strategies on Long-Horizon Agentic Tasks](http://arxiv.org/abs/2610.04196v1)** — William Hoy et al. (2026) · relevance 9
+- **[Agentic Cognitive Depth: Operational Criteria for Evaluating LLM Agents](http://arxiv.org/abs/2610.04168v1)** — Nijesh Upreti et al. (2026) · relevance 9
+- **[Trajectory-Derived Confidence for Reliable, Resource-Aware Clinical Text-to-SQL Agents](http://arxiv.org/abs/2610.04156v1)** — Mincheol Daniel Song et al. (2026) · relevance 12
+- **[Agentic Resource Allocation for Batch Multi-Objective Bayesian Optimization in Autonomous Materials Discovery](http://arxiv.org/abs/2610.04134v1)** — Robert Robinson et al. (2026) · relevance 6
+- **[General Decision Models: Benchmarking and Insights Beyond Jev](http://arxiv.org/abs/2610.03935v1)** — Feiyu Duan et al. (2026) · relevance 9
+- **[GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets](http://arxiv.org/abs/2610.06910v1)** — Haoyue Yang et al. (2026) · relevance 11
+- **[From Benchmarks to Production: A Text-to-SQL System for Complex Financial Data](http://arxiv.org/abs/2610.03524v1)** — Arijit Sehanobish et al. (2026) · relevance 10
+- **[Single-Pass Uncertainty Heads for Claim-Level Hallucination Detection in Persian Medical Language Models](http://arxiv.org/abs/2610.03482v3)** — Mehrdad Ghassabi et al. (2026) · relevance 7
+- **[ReFract: Benchmarking Perspective Awareness in Language Model Agents with Text World Models](http://arxiv.org/abs/2610.03356v1)** — Hainiu Xu et al. (2026) · relevance 8
+- **[Lightweight, Rubric-Guided Trajectory Evaluation for Production AI Agents](http://arxiv.org/abs/2610.03315v1)** — Linh-An Phan et al. (2026) · relevance 12
+- **[AdaStep: Adaptive Step Credit Weighting for Agentic Reinforcement Learning](http://arxiv.org/abs/2610.03223v1)** — Xin Wang et al. (2026) · relevance 10
+- **[EvoRiskBench: An Evolving Benchmark for Runtime Security Risks in Workspace Agents](http://arxiv.org/abs/2610.03153v1)** — Shiyi Kuang et al. (2026) · relevance 8
+- **[The Geometry of Knowledge Accessibility in Large Language Models](http://arxiv.org/abs/2610.03052v1)** — Lihu Chen (2026) · relevance 7
+- **[DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users](http://arxiv.org/abs/2610.03020v1)** — Yifei Tao et al. (2026) · relevance 6
+- **[Positive-Unlabeled Learning for Agent Safety False Alarm Auditing](http://arxiv.org/abs/2610.02925v1)** — Xichen Yan et al. (2026) · relevance 8
+- **[AptMQL-Bench: From Text-to-SQL to Text-to-MQL via Access-Pattern Schema Design and Data-Preserving Migration](http://arxiv.org/abs/2610.02770v1)** — Hy Nguyen et al. (2026) · relevance 6
+- **[MEA: A Reward-Driven Multi-Agent System for Faithful Model Explanations](http://arxiv.org/abs/2610.02480v1)** — Yuyang Cheng et al. (2026) · relevance 6
+- **[Counterexample Generation via Per-Theorem Symbolic Verifiers: When Imitation Hurts and Reinforcement Repairs](http://arxiv.org/abs/2610.02444v1)** — Omar Farouk Zouak et al. (2026) · relevance 6
+- **[Are you Synthesizing or Recalling? Evaluating LLMs on Algorithmic Code Retrieval](http://arxiv.org/abs/2610.02438v1)** — Nickil Maveli et al. (2026) · relevance 10
+- **[Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents](http://arxiv.org/abs/2610.02330v1)** — Yu Li et al. (2026) · relevance 14
+- **[TRACE: Tackling Real-World Resource Assignment Problems via Agentic Heuristic Design](http://arxiv.org/abs/2610.01887v1)** — Jose A. Ayala-Romero et al. (2026) · relevance 6
+- **[AVSD-Scenes: A Dataset for Audio-Visual Description of Urban Scenes](http://arxiv.org/abs/2610.01861v1)** — Dhanunjaya Varma Devalraju et al. (2026) · relevance 13
+- **[Managing Context and Communication in Distributed Agentic UAV Swarms](http://arxiv.org/abs/2610.01569v1)** — Andrea Iannoli et al. (2026) · relevance 8
+- **[DeFA: Dependency-Guided Failure Attribution for LLM Agents](http://arxiv.org/abs/2610.01256v1)** — Bo Deng et al. (2026) · relevance 7
+- **[Evaluating the Robustness of Japanese LLMs to IME-Related and Typographical Errors](http://arxiv.org/abs/2610.01241v1)** — Ryota Mibayashi et al. (2026) · relevance 7
+- **[Federated Agent Optimization](http://arxiv.org/abs/2610.01195v1)** — Qiang Yang et al. (2026) · relevance 10
+- **[Detect, Explain, Interpret: An End-to-End Benchmark for Time Series Anomaly Detection, Explainability and Interpretability](http://arxiv.org/abs/2610.01168v1)** — Roberto Stanzione et al. (2026) · relevance 6
+- **[Network World Models as Environments for Algorithm Design on Complex Systems](http://arxiv.org/abs/2610.01048v1)** — Rishab Alagharu et al. (2026) · relevance 8
+- **[The Other Half of Workflow Portability: Evidence-Backed HPC Site Profiles with Agentic Discovery](http://arxiv.org/abs/2610.00971v1)** — Md Saiful Islam et al. (2026) · relevance 8
+- **[A Citation-Grounded Benchmark for Trustworthy Earnings Call Transcript Analysis with Large Language Models](http://arxiv.org/abs/2610.00969v1)** — Yingzhu Zhao et al. (2026) · relevance 6
+- **[Cross-Benchmark Transfer from RL on Agentic Coding Tasks](http://arxiv.org/abs/2610.00890v1)** — Sushant Mehta et al. (2026) · relevance 11
+- **[MemFit: Efficient Long-Term Agentic Memory](http://arxiv.org/abs/2610.00872v1)** — Mitchell Piehl et al. (2026) · relevance 9
+- **[SHARPO: Segment-Level Credit Assignment for Agentic Reinforcement Learning](http://arxiv.org/abs/2610.00838v2)** — Xinchen Du et al. (2026) · relevance 11
+- **[Ontology-Grounded, Reasoner-Verified Benchmarks for Evaluating LLM Reasoning in Scientific AI](http://arxiv.org/abs/2610.00682v1)** — Nishtha N. Vaidya et al. (2026) · relevance 6
+- **[How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?](http://arxiv.org/abs/2609.40303v1)** — Kirill Brilliantov et al. (2026) · relevance 7
+- **[JevSpawn: Adaptive Agentic Inference through Compositional Action Spaces](http://arxiv.org/abs/2610.00437v1)** — Haoyang Su et al. (2026) · relevance 6
+- **[From DNA Design to DNA Slimming: Auditable Agentic Discovery of a Deletion-Only Designer](http://arxiv.org/abs/2609.40143v1)** — Joel Shor (2026) · relevance 6
+- **[Code That Works, Environments That Don't: Measuring Environment Reproducibility in AI-Generated Software](http://arxiv.org/abs/2610.00425v1)** — Bhanu Prakash Vangala et al. (2026) · relevance 6
+- **[FIGS: Evaluating Multi-Turn Sycophancy Without Penalizing Empathy](http://arxiv.org/abs/2609.39863v1)** — Sidharth Pulipaka et al. (2026) · relevance 7
+- **[Trust Is Not a Score: Runtime Assurance Contracts for High-Risk AI Agents](http://arxiv.org/abs/2609.39717v1)** — Serhii Zabolotnii (2026) · relevance 6
+- **[ArchitectureIQ: On the Measure of Training Intuition](http://arxiv.org/abs/2609.39714v1)** — Zirui Ren et al. (2026) · relevance 9
+- **[A2Z GameSpec-Bench: How Faithfully Can Coding Agents Generate Games from Game Design Specifications?](http://arxiv.org/abs/2609.39564v1)** — Seonho Lee et al. (2026) · relevance 7
+- **[T2SPO: Trajectory-to-Step Policy Optimization for Agentic Reinforcement Learning](http://arxiv.org/abs/2610.00388v1)** — Bo-Wen Zhang et al. (2026) · relevance 16
+- **[Network-based Spatial Context Retrieval for Open-weight LLMs: A Faithfulness Benchmark for Grounded Geographic Reasoning](http://arxiv.org/abs/2609.39437v1)** — Joan Perez (2026) · relevance 9
+- **[From Imitation to Reward Discovery: On-Policy Warmup for Agentic RL](http://arxiv.org/abs/2609.39436v1)** — Yitong Qiao et al. (2026) · relevance 11
+- **[EngramBench: A Capability-Grounded Benchmark for Skill-Evolution Harnesses](http://arxiv.org/abs/2609.39284v1)** — Zhixuan Tan et al. (2026) · relevance 7
+- **[Rep2Skill: Representation-Guided Skill Self-Evolution for LLM Agents](http://arxiv.org/abs/2609.39149v1)** — Kaixing Zhang et al. (2026) · relevance 6
+- **[When Harnesses Lose the Signal: Causal Evaluation of Recovery in LLM Agents](http://arxiv.org/abs/2610.00372v1)** — Shuyao Xiao et al. (2026) · relevance 9
+- **[Structure vs. Chain-of-Thought: Evaluating LLM Criteria Extraction for Depression Severity](http://arxiv.org/abs/2609.39049v1)** — Xinkai Chen (2026) · relevance 6
+- **[RealWorldShop: Benchmarking and Improving Conversational Shopping Agents in Real-World E-commerce](http://arxiv.org/abs/2609.38974v1)** — Xinwei Yang et al. (2026) · relevance 6
+- **[SkillSeek: Revisiting Agent Skill Retrieval at Marketplace Scale](http://arxiv.org/abs/2609.38822v1)** — Guanqun Yang et al. (2026) · relevance 7
+- **[Explicit Trajectory Diversity for RL-Based Post-Training of LLM Agents](http://arxiv.org/abs/2609.38805v1)** — Huaiyu Fu et al. (2026) · relevance 10
+- **[GraphCert: Bootstrap Agentic Graph Reasoning with Certified Evidence Rubrics](http://arxiv.org/abs/2609.38798v1)** — Weiqi Jiang et al. (2026) · relevance 9
+- **[MetaSteer: Context-Conditioned, nonlinear Steering via Attention-Projection Adaptation](http://arxiv.org/abs/2609.38718v1)** — Mehdi Jafari et al. (2026) · relevance 12
+- **[CollabFlow: Recursive Self-Improvement of Agent Collaboration](http://arxiv.org/abs/2609.38662v1)** — Xiao Huang et al. (2026) · relevance 7
+- **[EvoSteer: Online Self-Evolving Graph Orchestration via Reference-Anchored Credit Assignment](http://arxiv.org/abs/2609.38661v1)** — Mingda Zhang et al. (2026) · relevance 10
+- **[MM-FinEval: A Multi-Task Multimodal Benchmark for Real-World Financial Forecasting](http://arxiv.org/abs/2609.38523v1)** — Dong Shu et al. (2026) · relevance 6
+- **[AgentBug-Smith: Automatically Reproducing Real-World Harness Bugs in Agentic Systems](http://arxiv.org/abs/2609.37864v1)** — Yiming Cheng et al. (2026) · relevance 6
+- **[AnthroDial: Benchmarking LLM Anthropomorphism in Autonomous Social Interaction](http://arxiv.org/abs/2609.37853v1)** — Wentao Liu et al. (2026) · relevance 8
+- **[CompOrca: Corpus-Scale Compliance Labelling of Instruction-Tuning Data](http://arxiv.org/abs/2609.37807v2)** — Philipp E. Glass et al. (2026) · relevance 9
+- **[EnterpriseBench: Benchmarking LLM Agents on Enterprise-Level Strategic Reasoning and Decision-Making](http://arxiv.org/abs/2609.37658v2)** — Min Yang et al. (2026) · relevance 6
+- **[VirusCascade: Hijacking Collaborative Reflection in LLM-Powered Recommender Agents](http://arxiv.org/abs/2609.38270v1)** — Yurong Hao et al. (2026) · relevance 6
+- **[MERGE: Multi-LLM Ensemble for Retrieval via Generative Enrichment](http://arxiv.org/abs/2609.37574v2)** — Tzu-I Ho et al. (2026) · relevance 13
+- **[SkillGym: Training Skill-Use Agents with Automatic Verifiable Environment Generation](http://arxiv.org/abs/2609.37539v1)** — Renxi Wang et al. (2026) · relevance 10
+- **[Encore: Few-Shot Agentic Discovery of Manipulation Strategies](http://arxiv.org/abs/2609.37359v1)** — Yifan Kang et al. (2026) · relevance 9
+- **[Framing the Narrative: Ideological Mimicry in Large Language Models](http://arxiv.org/abs/2609.38256v2)** — Olivia Macmillan-Scott et al. (2026) · relevance 6
+- **[CRJudgeBench: Can AI Detect Plausible but Invalid Code Reviews?](http://arxiv.org/abs/2609.37216v1)** — Yue Pan et al. (2026) · relevance 7
+- **[SkillCome: Group Contrast Skill Optimization with Dual Memory](http://arxiv.org/abs/2609.37128v1)** — Haolin Li et al. (2026) · relevance 10
+- **[VACE: Validation-Gated Alternating Co-Evolution of Agent Models and Harnesses](http://arxiv.org/abs/2609.37105v1)** — Jiexing Qi et al. (2026) · relevance 9
+- **[MatToolBench: Benchmarking Multimodal Agents in Real-World Materials Science Workflows](http://arxiv.org/abs/2609.37053v1)** — Mei Wu et al. (2026) · relevance 6
+- **[VLALight: A Vision-Language-Action Model for Traffic Signal Control](http://arxiv.org/abs/2609.36934v1)** — Pan Zhang et al. (2026) · relevance 6
+- **[Where Does Staleness Accumulate? Pool Aware Effective Staleness Control for Asynchronous RL in LLM Post-Training](http://arxiv.org/abs/2609.36830v1)** — Chenliang Li et al. (2026) · relevance 8
+- **[SIPO: Unifying Reinforcement Learning with On-Policy Self-Distillation](http://arxiv.org/abs/2609.36742v1)** — Zhenrui Yue et al. (2026) · relevance 7
+- **[PR-OPD: Privileged Representation On-policy Self-Distillation for Agentic Reinforcement Learning](http://arxiv.org/abs/2609.36642v1)** — Muyang Li et al. (2026) · relevance 8
+- **[Rethinking Reasoning Paths as Phase-Structured Trajectories](http://arxiv.org/abs/2609.36461v1)** — Zhenghao He et al. (2026) · relevance 11
+- **[From Retrieval to Reasoning: Agentic Mechanism Prediction from Cell Painting Profiles](http://arxiv.org/abs/2609.36406v1)** — Jiayuan Chen et al. (2026) · relevance 11
+- **[From Dead Code and Static Requirements to Working Engines: Software Revival with Coding Agents](http://arxiv.org/abs/2609.36161v1)** — Tianyu Liu et al. (2026) · relevance 6
+- **[GeoOutageBench: Benchmarking Ambiguity-aware, Ontology-grounded Geospatiotemporal KGQA for Multimodal Power Outage and Resilience Analysis](http://arxiv.org/abs/2609.36082v1)** — Ethan D. Frakes et al. (2026) · relevance 7
+- **[ROSS: Relearning from Self-Generated Rollouts through Selective Supervision](http://arxiv.org/abs/2609.35954v1)** — Zhiwei Zhang et al. (2026) · relevance 7
+- **[Shockingly Simple Self-retrospection Improves Agentic Models Without RL](http://arxiv.org/abs/2609.35741v1)** — Jonathan Light et al. (2026) · relevance 8
+- **[AutoRef: Harness Optimization for Agentic Multi-Reference Image Generation](http://arxiv.org/abs/2609.35530v1)** — Yuta Oshima et al. (2026) · relevance 6
+- **[An RL View of OPD: Least Square Policy Distillation for Sample-Efficient LLM Reasoning](http://arxiv.org/abs/2609.35505v1)** — Shangzhe Li et al. (2026) · relevance 6
+- **[Large Language Models for Automated Cross-Domain Machine Learning Task Type Identification: A Benchmark Dataset and Evaluation](http://arxiv.org/abs/2609.35335v1)** — Petros Tsialis et al. (2026) · relevance 9
+- **[Is there a future for models in the LLM era?](http://arxiv.org/abs/2609.35281v1)** — Marco Calamo et al. (2026) · relevance 6
+- **[Trajectory-Level Security Debt in LLM Coding Agents](http://arxiv.org/abs/2609.35199v1)** — Prateek Kumar Rajput et al. (2026) · relevance 10
+- **[GraphHCA: Closed-Form Hindsight Credit Assignment for Long-Horizon LLM Agents](http://arxiv.org/abs/2609.35084v1)** — Haodong Zhu et al. (2026) · relevance 6
+- **[Cross-Rollout Bellman Closure for Long-Horizon Agentic Reinforcement Learning](http://arxiv.org/abs/2609.35082v1)** — Yangyang Ren et al. (2026) · relevance 11
+- **[Action-Space Shaping for LLM Agents: Measuring and Mitigating Tool-Schema Bias](http://arxiv.org/abs/2609.34971v1)** — Yinhong Liu et al. (2026) · relevance 7
+- **[VehicleArena: A Realistic Urban Environment for Multi-Agent Driving](http://arxiv.org/abs/2609.35916v1)** — Jie Yang et al. (2026) · relevance 6
+- **[RSI-Router: Evolving Subtask-Level LLM Routing and Skills for Cost-Efficient Agents](http://arxiv.org/abs/2609.34712v1)** — Hao Li et al. (2026) · relevance 7
+- **[AgentPerfBench: A Benchmarking and Evaluation Suite for Inference Performance of Agentic LLMs](http://arxiv.org/abs/2609.34683v1)** — Cheuk Hang Lau et al. (2026) · relevance 10
+- **[Beyond Skill Evolution: Self-Evolving Context Management Policies for Long-Horizon Agent Harnesses](http://arxiv.org/abs/2609.34649v1)** — Weiyuan Li et al. (2026) · relevance 7
+- **[AgentWare: Automating the Lifecycle of Agentic Applications across the Edge-to-Cloud Continuum](http://arxiv.org/abs/2609.34586v1)** — Michalis Kasioulis et al. (2026) · relevance 8
+- **[PowerBench: A Benchmark for Agentic Retrieval and Reasoning in Power Systems](http://arxiv.org/abs/2609.34492v1)** — Xijing Wang et al. (2026) · relevance 22
+- **[Certified Selective Automation of LLM Agent Evaluation](http://arxiv.org/abs/2609.34320v1)** — Chengguang Gan et al. (2026) · relevance 9
+- **[Behavior-Grounded Semantic Enrichment for Financial Fraud Modeling and Reasoning](http://arxiv.org/abs/2609.34211v2)** — Linbo Shao et al. (2026) · relevance 8
+- **[TRACE: Expert-Aligned ECG Representation Learning with Rigorous Benchmarking and Real-World Validation in Acute Cardiac Care](http://arxiv.org/abs/2609.34088v1)** — Lovely Yeswanth Panchumarthi et al. (2026) · relevance 6
+- **[GenoMorph: Pathway-Grounded Genomic Disease Reasoning via Adaptive Latent Computation](http://arxiv.org/abs/2609.34079v1)** — Tanmoy Kanti Halder et al. (2026) · relevance 6
+- **[When Successful Strategies Fail: Adaptation to Environmental Novelty in Terminal Agents](http://arxiv.org/abs/2609.33870v1)** — Janvijay Singh et al. (2026) · relevance 9
+- **[QwenGyre: An Elastic Reinforcement Learning Framework for Training xLong-Horizon Agents](http://arxiv.org/abs/2609.33848v1)** — Weiqi Wang et al. (2026) · relevance 9
+- **[Auditing Agent Actions through Query-Conditioned Attribution](http://arxiv.org/abs/2609.33676v2)** — Yifan Liu et al. (2026) · relevance 6
+- **[AgentBoundary: Counterfactual Evaluation of Safety in Tool-Using LLM Agents](http://arxiv.org/abs/2609.33658v1)** — Tianzhuo Yang et al. (2026) · relevance 6
+- **[Trajectory Unlearning on LLM-based Agents](http://arxiv.org/abs/2609.33639v1)** — Yingdan Shi et al. (2026) · relevance 14
+- **[E-CONAN (Entailment, CONtradition And Neutral) Diagnostics Dataset Investigating Linguistic Phenomena in Arabic Natural Language Understanding](http://arxiv.org/abs/2609.33530v1)** — Khloud AL Jallad et al. (2026) · relevance 8
+- **[WideSWE: Can Coding Agents Coordinate Changes Across Repositories?](http://arxiv.org/abs/2609.33382v1)** — Baoyi Wang et al. (2026) · relevance 6
+- **[Long-Horizon Analog Design Bench: Benchmarking Agents on Hours-Long Analog and Mixed-Signal Circuit Design Tasks](http://arxiv.org/abs/2609.33356v1)** — Analog Design Bench Team (2026) · relevance 10
+- **[ZeroGAR: Benchmarking the Adversarial Robustness of Zero-Shot Graph Models](http://arxiv.org/abs/2609.33314v1)** — Zhongjian Zhang et al. (2026) · relevance 6
+- **[BaatCheet: A Multilingual Corpus for Dialogue Translation in Indian Languages](http://arxiv.org/abs/2609.33296v1)** — Priyanka Dasari et al. (2026) · relevance 7
+- **[Are Benchmarks Reliable? Toward Structural Diagnosis via Sample-Level Capability Boundaries](http://arxiv.org/abs/2609.33196v1)** — Haiquan Hu et al. (2026) · relevance 6
+- **[ECG-Scroll: A Long-Horizon, Streaming Benchmark and Agent Environment for Interpretation of Ambulatory Electrocardiograms](http://arxiv.org/abs/2609.33117v1)** — Haitao Li et al. (2026) · relevance 10
+- **[Theory of Scene: Breaking the Symmetry Trap in Multi-Agent LLM Coordination](http://arxiv.org/abs/2609.32939v1)** — Liangqi Yuan et al. (2026) · relevance 6
+- **[ARSM: Auto-Regressive State Machine for Agentic Reasoning Compression](http://arxiv.org/abs/2609.32852v1)** — Xiafeng Man et al. (2026) · relevance 13
+- **[OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories](http://arxiv.org/abs/2609.32810v2)** — Anqi Li et al. (2026) · relevance 9
+- **[On the Behavioral Traits of LLM Agents](http://arxiv.org/abs/2609.32776v1)** — Haokai Zhao et al. (2026) · relevance 7
+- **[Plan-to-Synthesis: Cross-City Human Mobility Generation via Semantic Latent Flow Matching](http://arxiv.org/abs/2609.32732v1)** — Zhoufu Wang et al. (2026) · relevance 10
+- **[Silent Failures in Agentic Security Evaluation: A Validated Harness for Tool-Call Mediation Under Indirect Prompt Injection](http://arxiv.org/abs/2609.32691v1)** — Animesh Shaw (2026) · relevance 13
+- **[Self-Evolving Time-Series Forecasting Agents with Episodic Memory and Online Policy Learning](http://arxiv.org/abs/2609.32689v1)** — Junyi Wang et al. (2026) · relevance 6
+- **[InterTab: Interleaved Visual-Structure Alignment for Multi-Modal Table Reasoning](http://arxiv.org/abs/2609.32660v1)** — Hanqian Li et al. (2026) · relevance 6
+- **[Business Compromise Detection with Agentic AI and LLM-driven Knowledge Discovery](http://arxiv.org/abs/2609.32643v1)** — Diego Palma et al. (2026) · relevance 7
+- **[Groupwise Agentic Grading and Advantage Redistribution for Code Agent RL](http://arxiv.org/abs/2609.32577v1)** — Jinhao Dong et al. (2026) · relevance 13
+- **[LLMAdBench: A Human Preference Benchmark for Advertising in LLM Responses](http://arxiv.org/abs/2609.32533v1)** — Rui Ai et al. (2026) · relevance 6
+- **[From Anomalies to Failures: Constructing Causal Error Graphs for Agentic Trace Diagnosis](http://arxiv.org/abs/2609.32514v1)** — Shu-Xun Yang et al. (2026) · relevance 6
+- **[ALLOT: Budgeted Hybrid-Memory Routing for Knowledge Updates in LLMs](http://arxiv.org/abs/2609.32344v1)** — Shanfeng Huang et al. (2026) · relevance 6
+- **[Enabling Timely Guidance before Skill Retrieval: Retaining Helpful Warm Tips in Agent Context](http://arxiv.org/abs/2609.32339v1)** — Feng Liang et al. (2026) · relevance 8
+- **[mu-bench: A Multilingual Utterance Transcription Benchmark](http://arxiv.org/abs/2609.32082v1)** — Andrea Li et al. (2026) · relevance 6
+- **[Before the Rollout Ends: Early Terminal Reward Prediction for Long-horizon Coding Agents](http://arxiv.org/abs/2609.31995v1)** — Jihan Yao et al. (2026) · relevance 7
+- **[Goal-Persistent Coding Agents as Scientific Performance Engineers: A Fixed-Radius Nearest-Neighbor Case Study](http://arxiv.org/abs/2609.31980v1)** — Xiangyang Ju (2026) · relevance 7
+- **[Overview of the TREC 2025 Million Large Language Models track](http://arxiv.org/abs/2609.31921v1)** — Evangelos Kanoulas et al. (2026) · relevance 8
+- **[AirLog: Store-Level Indoor Life Logging Made Easy](http://arxiv.org/abs/2609.31864v1)** — Zihui Yun et al. (2026) · relevance 10
+- **[Game Arena: Strategic LLM Evaluation in Competitive Environments](http://arxiv.org/abs/2609.31473v1)** — Bovard Doerschuk-Tiberi et al. (2026) · relevance 6
+- **[Segment-Level Agentic Topic Modeling for Improved Data Exploration and Resource Efficiency](http://arxiv.org/abs/2609.31460v1)** — Myeongjun Erik Jang et al. (2026) · relevance 9
+- **[Analyzing and Mitigating Cost-Inefficient Behaviors in Coding Agents](http://arxiv.org/abs/2609.30725v2)** — Yiran Hu et al. (2026) · relevance 6
+- **[Hyperspherical Semantic Trajectory Analysis: Mapping Technological Diffusion across Academic Preprints, Patent Signals, and Compute Scaling](http://arxiv.org/abs/2609.35845v1)** — Muhammad Sukri Bin Ramli (2026) · relevance 10
+- **[Prompt Injection Detection for Email Agents Through Attack Chain Modeling](http://arxiv.org/abs/2609.30657v1)** — Ahmad Hashmi et al. (2026) · relevance 9
+- **[Subjects, Not Authors: The Authorship Hazard in Agentic Dataspaces](http://arxiv.org/abs/2609.30614v1)** — Seungho Lee et al. (2026) · relevance 9
+- **[T-RoPE: Time-Aware Rotary Position Embedding for Sequential Recommendation](http://arxiv.org/abs/2609.30576v1)** — Yang Liu et al. (2026) · relevance 6
+- **[A Living Benchmark for Information Retrieval from Electronic Health Records](http://arxiv.org/abs/2609.30205v2)** — Jordan L. Cahoon et al. (2026) · relevance 11
+- **[GRASP: Generating, Revising, and Assessing for Strategic Planning with Agentic AI](http://arxiv.org/abs/2609.30147v1)** — Arunabh Srivastava et al. (2026) · relevance 13
+- **[When Can Agents Forget Their Reasoning? ICLR for Long-Horizon Agent Context Compression](http://arxiv.org/abs/2609.29875v1)** — Mingxuan Wang et al. (2026) · relevance 6
+- **[PUBG Ally: A Conversational Embodied Agent as an AI Teammate](http://arxiv.org/abs/2609.29837v2)** — PUBG Ally Team et al. (2026) · relevance 7
+- **[Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution](http://arxiv.org/abs/2609.29808v2)** — José Luis Pino (2026) · relevance 8
+- **[Benchmarking and Domain Adaptation of Automatic Speech Recognition (ASR) for Adolescent Health Communication in Ghanaian Languages](http://arxiv.org/abs/2609.29798v1)** — Stephen E. Moore et al. (2026) · relevance 8
+- **[Breaking the Environment Wall: A Unified Framework for Preparing and Evolving Agent-Native Environments](http://arxiv.org/abs/2609.29773v2)** — Yukai Wu et al. (2026) · relevance 9
+- **[Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact](http://arxiv.org/abs/2609.29454v1)** — Cuifeng Gao et al. (2026) · relevance 9
+- **[Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol](http://arxiv.org/abs/2609.30341v1)** — Jaime Alonso Ruiz et al. (2026) · relevance 8
+- **[Large Language Models for Programming: Actually Fixing or Reimplementing Incorrect Code?](http://arxiv.org/abs/2609.29410v1)** — Alexandru Stefan Stoica et al. (2026) · relevance 6
+- **[IndicBankBench: Evaluating Safety and Reliability of Language Model Assistants in Indian Retail Banking](http://arxiv.org/abs/2609.29167v1)** — Suvradip Paul et al. (2026) · relevance 7
+- **[A Wrong Turn Does Not Ruin the Journey: Deviation-Guided Skill Self-Evolution for LLM Agents](http://arxiv.org/abs/2609.29154v1)** — Yichun Feng et al. (2026) · relevance 10
+- **[Scope Before You Persist: Preventing Cross-Family Interference in Agent Memory](http://arxiv.org/abs/2609.29144v1)** — Yezhou Cheng et al. (2026) · relevance 6
+- **[The Tokens Remember: When Tokenization Bypasses Knowledge Editing and Unlearning](http://arxiv.org/abs/2609.29045v1)** — Manit Baser et al. (2026) · relevance 7
+- **[Back to the Definition: Estimating Step-Level Advantages via Trajectory Graphs for Agentic Reinforcement Learning](http://arxiv.org/abs/2609.28963v1)** — Xincheng Yao et al. (2026) · relevance 15
+- **[Harness Tokenomics: A Router for the Enterprise Agentic Control Plane](http://arxiv.org/abs/2609.28919v2)** — Ted Kwartler et al. (2026) · relevance 8
+- **[On the Effectiveness of Kernel-Level Evidence for Agent Security](http://arxiv.org/abs/2609.28915v1)** — Spencer King et al. (2026) · relevance 6
+- **[Beyond Surface Style: Aligning Multi-Turn User Simulators with Behavioral Consistency](http://arxiv.org/abs/2609.28690v1)** — Geng Chen et al. (2026) · relevance 8
+- **[PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety](http://arxiv.org/abs/2609.28197v1)** — Jiapeng Sun et al. (2026) · relevance 11
+- **[FLEET: From Logits Entropy to Enhanced Trajectories in Text Generation](http://arxiv.org/abs/2609.27657v1)** — Oleksii Streltsov et al. (2026) · relevance 11
+- **[Can One Adapted Model Do It All? Fine-Tuning Strategy Selection for Customer Support LLMs](http://arxiv.org/abs/2609.27262v1)** — Md Tahmid Rahman Laskar et al. (2026) · relevance 7
+- **[Discover, Falsify, Revise: Auditing Input-Use Claims from Source Code to Predictive Contribution in Agent-Discovered Cell Models](http://arxiv.org/abs/2609.27234v1)** — Mengran Li et al. (2026) · relevance 7
+- **[Giving Credit Where It's Due: Redundancy-Aware Learning for Efficient Reasoning](http://arxiv.org/abs/2609.27156v1)** — Yuqing Zhou et al. (2026) · relevance 8
+- **[Reinforcement Learning with Decomposed Subtasks](http://arxiv.org/abs/2609.27035v2)** — Mattie Terzolo et al. (2026) · relevance 11
+- **[Classifying Interpretive Canons at the Sentence Level: A Benchmark from the German Federal Constitutional Court](http://arxiv.org/abs/2609.26945v1)** — Felix Ringe (2026) · relevance 6
+- **[EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations](http://arxiv.org/abs/2609.26751v1)** — FNU Aditi (2026) · relevance 8
+- **[Discovery-Driven Integration of Disjoint Tables via Text](http://arxiv.org/abs/2609.26658v1)** — Md Ataur Rahman et al. (2026) · relevance 6
+- **[The Ongiini-Eval-OW Benchmark: A Concept Paper for the Planned Benchmarking of Machine Translation and Large Language Models on Oshindonga and Oshikwanyama](http://arxiv.org/abs/2609.31727v1)** — Sebastian Küpers (2026) · relevance 6
+- **[AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing](http://arxiv.org/abs/2609.25873v1)** — Yijia Hao et al. (2026) · relevance 6
+- **[The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks](http://arxiv.org/abs/2609.25804v2)** — Wenbo Pan et al. (2026) · relevance 8
+- **[Testing-Driven Reliability Audit of Trajectory-Based Early Outcome Prediction for LLM Agents: Target-Specific Calibration Transfer Persists Within a Single Benchmark](http://arxiv.org/abs/2609.25647v1)** — YanZe Cao (2026) · relevance 14
+- **[The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis](http://arxiv.org/abs/2609.25254v1)** — Aakash Patel et al. (2026) · relevance 7
+- **[GRUET: Quantifying Uncertainty of Agentic Reasoning-and-Acting Processes](http://arxiv.org/abs/2609.24831v1)** — Shuang Liang et al. (2026) · relevance 14
+- **[TTSE: A Two-Track Online Self-Evolution Framework](http://arxiv.org/abs/2609.24289v1)** — Ruimin Pei et al. (2026) · relevance 7
+- **[Luck Is Not Skill: When Do Paired Rollouts Help Group-Relative RL of LLM Agents?](http://arxiv.org/abs/2609.24144v1)** — Nazmus Sakib (2026) · relevance 9
+- **[Toward Human-in-the-Loop Robot Failure Recovery: Bridging Communication Gaps in Human-Robot Collaboration](http://arxiv.org/abs/2609.24055v1)** — Promise Ekpo et al. (2026) · relevance 7
+- **[MCPGen: Benchmarking LLMs on Executable MCPWorkflow Development](http://arxiv.org/abs/2609.23925v1)** — Yingxuan Yang et al. (2026) · relevance 6
+- **[Federated Multilingual Speech-LLMs: Architecture and Aggregation Strategy Benchmarking](http://arxiv.org/abs/2609.23825v1)** — Jordi Luque et al. (2026) · relevance 8
+- **[PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI](http://arxiv.org/abs/2609.23695v1)** — Mohamed Amine Ferrag et al. (2026) · relevance 12
+- **[CraftBench-UE: Deterministic Evaluation for Coding Agents in Unreal Engine](http://arxiv.org/abs/2609.23142v1)** — Shutong Wu et al. (2026) · relevance 7
+- **[Measured Joules, Learned Routes: Learning to Route for Energy-Efficient LLM Serving](http://arxiv.org/abs/2609.23085v1)** — Muhammad Abdur Rab Siddiqui et al. (2026) · relevance 7
+- **[SelfOp: An Optimization Algorithm for Self-Improving Security Agents](http://arxiv.org/abs/2609.22792v1)** — Saad Ullah et al. (2026) · relevance 6
+- **[Trustworthy Agentic AI: Failure Modes, Mitigation Strategies, and a Lifecycle Framework for Autonomous LLM Systems](http://arxiv.org/abs/2609.22712v1)** — Fayeq Jeelani Syed et al. (2026) · relevance 10
+- **[HIGenNTO: Scalable Humanoid Interaction Generation via Noise-Space Trajectory Optimization](http://arxiv.org/abs/2609.22611v1)** — Lalit Jayanti et al. (2026) · relevance 9
+- **[Do Student LLMs Inherit OOD Robustness? Invariance-Weighted Distillation for Reliable Knowledge Transfer](http://arxiv.org/abs/2609.22566v1)** — Dileesha Kannangara et al. (2026) · relevance 7
+- **[IntLawNER: A Named Entity Recognition Dataset and Benchmark in International Law](http://arxiv.org/abs/2609.22529v1)** — Genis Skura et al. (2026) · relevance 14
+- **[A Governance-Aware Large Language Model Orchestrated Agentic Digital Twin for Transmission System Operator Control Room Decision Support](http://arxiv.org/abs/2609.22476v1)** — Costas Mylonas et al. (2026) · relevance 9
+- **[Vox-Infinity: Benchmarking the Limits of Long-Context Spoken Language Models](http://arxiv.org/abs/2609.22452v1)** — Xize Cheng et al. (2026) · relevance 7
+- **[CodeMidas: Scaling Agentic Coding RL Environments from Code Itself](http://arxiv.org/abs/2609.22068v1)** — Bowen Ye et al. (2026) · relevance 18
+- **[EnterpriseVal: Quantifying the Efficacy, Reliability and Value of Generative AI in the Enterprise](http://arxiv.org/abs/2609.21841v1)** — Abbas Raza Ali et al. (2026) · relevance 8
+- **[The Spoken Wikipedia Presentation Corpus](http://arxiv.org/abs/2609.21676v1)** — Thomas Ranzenberger et al. (2026) · relevance 6
+- **[PRISM-BN: A Controlled Corpus and Benchmark for Text-to-Parameterized Bayesian Network Extraction](http://arxiv.org/abs/2609.21673v1)** — Amartya Bhattacharya et al. (2026) · relevance 7
+- **[Chinese Competitive Debating Dataset and Benchmark](http://arxiv.org/abs/2609.21637v1)** — Zongrui Yang et al. (2026) · relevance 9
+- **[Evaluating In-Context Learning and Retrieval Strategies for Devanagari Post-OCR Correction](http://arxiv.org/abs/2609.21595v1)** — Abhishek Bhandari et al. (2026) · relevance 10
+- **[OpenMAS-GCom. A Diagnostic Benchmark for Graph-enhanced Multi-Agent Systems](http://arxiv.org/abs/2609.21527v1)** — Kairui Yang et al. (2026) · relevance 6
+- **[AgentVidBench: A Multi-Hop Video Question Answering Benchmark for Evaluating MLLM Agents](http://arxiv.org/abs/2609.21386v1)** — Seoyeon An et al. (2026) · relevance 11
+- **[An Empirical Study of Harness Design for Coding Agents](http://arxiv.org/abs/2609.20804v1)** — Run-Ze Fan et al. (2026) · relevance 7
+- **[SAFARI: An Industrial Benchmark for LLM-Assisted Hazard Analysis and Risk Assessment](http://arxiv.org/abs/2609.20584v1)** — Chenxi Wu et al. (2026) · relevance 6
+- **[Think Thrice Before Reranking: Multi-perspective Evidence and Reasoning Integration for Text Reranking](http://arxiv.org/abs/2609.20131v1)** — Lijun Liu et al. (2026) · relevance 11
+- **[KoNeoBench: A Curated Evaluation Dataset for LLM Understanding of Korean Neologisms](http://arxiv.org/abs/2609.19916v1)** — Soha Lee et al. (2026) · relevance 8
+- **[Dual-Axis Policy Optimization for LLM Agents: Bayesian Feedback Attribution and Trajectory Mass Normalization](http://arxiv.org/abs/2609.19830v1)** — Yingxuan Zhuang et al. (2026) · relevance 12
+- **[Reach or Solve? Attributing Agentic RL Gains with Checkpoint Handoffs](http://arxiv.org/abs/2609.19636v1)** — Xuan Liu et al. (2026) · relevance 11
+- **[A Unified Evaluation Framework for Trustworthy Large Language Models, Agentic AI, and Multimodal Systems](http://arxiv.org/abs/2609.19524v2)** — Shaina Raza et al. (2026) · relevance 9
+- **[SCOUT: Sim-to-Real Text-Based Person Retrieval by Embedding-Space Prediction over Frozen Video Features](http://arxiv.org/abs/2609.19483v1)** — Abdarahmane Traoré et al. (2026) · relevance 9
+- **[A Benchmark Framework for Screening Automation in Systematic Reviews](http://arxiv.org/abs/2609.30298v1)** — Gauransh Kumar et al. (2026) · relevance 6
+- **[Rollback the World, Keep the Reflection: Rollback-Induced Reflection for Long-Horizon LLM Agents](http://arxiv.org/abs/2609.18304v3)** — Yi Yu et al. (2026) · relevance 7
+- **[Where Should Agents Live? Energy-Memory Characterization of Agentic AI for the Edge-Cloud Continuum](http://arxiv.org/abs/2609.18283v1)** — Carolina Fortuna et al. (2026) · relevance 8
+- **[REPAIR: Resolving Long-Tail Confusion in Scientific Retrievers via Fact-Verified Iterative Refinement](http://arxiv.org/abs/2609.18262v1)** — Yerim Oh et al. (2026) · relevance 6
+- **[TeochewBench: A Human-Reviewed Benchmark for Teochew Hanzi Translation](http://arxiv.org/abs/2609.18156v1)** — Jianan Wu (2026) · relevance 6
+- **[An Empirical Evaluation of Cost-Efficient Large Language Models on Algorithmic Programming Tasks](http://arxiv.org/abs/2609.18052v1)** — Chandimal Adikari et al. (2026) · relevance 6
+- **[Towards Detecting AI-Assisted Responses in Online Surveys](http://arxiv.org/abs/2609.17317v1)** — Qizhou Wang et al. (2026) · relevance 7
+- **[Affect-Prototype Guided Fusion for Open-Vocabulary Incomplete Multi-modal Emotion Recognition](http://arxiv.org/abs/2609.16962v1)** — Yichi Zhang et al. (2026) · relevance 7
+- **[TIAO: Token Importance-Aware Policy Optimization for Text Summarization](http://arxiv.org/abs/2609.16748v1)** — Qixiu Li et al. (2026) · relevance 7
+- **[PunGraph: Retrieval-Enhanced Phonetic-Semantic Graph Reasoning for Pun Understanding](http://arxiv.org/abs/2609.16557v1)** — Yuchen Su et al. (2026) · relevance 9
+- **[BLINDSPOT: A Benchmark for Safety and Refusal Calibration in Long-Horizon Tool-Using Agents](http://arxiv.org/abs/2609.16305v1)** — Sadia Asif et al. (2026) · relevance 17
+- **[Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States](http://arxiv.org/abs/2609.15972v1)** — Zixuan Wang et al. (2026) · relevance 6
+- **[VideoScout: Learning Agentic Active Exploration with Adaptive Reasoning Pacing for Long Video Understanding](http://arxiv.org/abs/2609.15606v1)** — Weixin Xu et al. (2026) · relevance 12
+- **[Distilling Foundation Models for Agentic What-If Reasoning:Cost, Latency, and Governance in a Hybrid LLM+SLM Architecture](http://arxiv.org/abs/2609.16091v1)** — Sourish Dey et al. (2026) · relevance 6
+- **[MUUNRiver-Bench: Diagnosing Relation-Dependent Music Retrieval with Multimodal Instructions](http://arxiv.org/abs/2609.16090v1)** — Zhancheng Guo et al. (2026) · relevance 7
+- **[ActGuard: Pre-execution Action Auditing against Indirect Prompt Injection in LLM Agents](http://arxiv.org/abs/2609.14987v1)** — Bingzheng Wang et al. (2026) · relevance 7
+- **[ANASSA: An Agentic AI Orchestration Framework for Spatial Intelligence](http://arxiv.org/abs/2609.14824v1)** — Constantinos Papantoniou et al. (2026) · relevance 8
+- **[You Don't Need To Train: Agentic Heuristic Learning Studio for Executable Human Activity Recognition](http://arxiv.org/abs/2609.16065v1)** — Siyu Yuan et al. (2026) · relevance 11
+- **[ECAS: An Edge-Controlled Agentic System for Validation-Gated Scientific Application Execution](http://arxiv.org/abs/2609.14211v1)** — Baixi Sun et al. (2026) · relevance 7
+- **[P$^3$Rec: Distilling Prior--Posterior Preference Reasoning for LLM-based Recommendation](http://arxiv.org/abs/2609.13993v3)** — Jinfei Chen et al. (2026) · relevance 7
+- **[Trustworthy Agentic AI: A Comprehensive Cybersecurity and Systems Survey on Threat Landscapes, Defense Architectures, and Open Challenges](http://arxiv.org/abs/2609.13731v1)** — Seyedakbar Mostafavi (2026) · relevance 7
+- **[Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents](http://arxiv.org/abs/2609.13543v1)** — Grace Chang Yuan et al. (2026) · relevance 7
+- **[Mixture-of-Experts Language Models Can Be Strong and Efficient Retrievers](http://arxiv.org/abs/2609.13486v1)** — Anubhav Shrestha et al. (2026) · relevance 7
+- **[Judging by the Cover: Cleaning LLM Truthfulness Benchmarks to Avoid Surface-Level Feature Leakage](http://arxiv.org/abs/2609.13003v1)** — Foad Namjoo et al. (2026) · relevance 6
+- **[DuplexDrama: A Synthesized Dialogue Dataset with Scenarios, Full-Duplex Behaviors, Expressive Speech, and Sound Events](http://arxiv.org/abs/2609.12872v1)** — Qingxiang Guo et al. (2026) · relevance 7
+- **[K-Bench: A Benchmark for LLM Unlearning in Agentic Deployments](http://arxiv.org/abs/2609.12808v2)** — Guangsheng Yu et al. (2026) · relevance 10
+- **[Earth-Agent-Pro: Towards Real-World Full-Chain Earth Observation with Agents](http://arxiv.org/abs/2609.12533v1)** — Zhutao Lv et al. (2026) · relevance 11
+- **[AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization](http://arxiv.org/abs/2609.12471v1)** — Ji Liu et al. (2026) · relevance 13
+- **[AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems](http://arxiv.org/abs/2609.12320v1)** — Zachary Johnson et al. (2026) · relevance 12
+- **[Can LLMs in Draft-Verify-Revise Pipelines Resolve Deictic Ambiguity?](http://arxiv.org/abs/2609.12162v1)** — Obinna I. Ekekezie (2026) · relevance 8
+- **[On the Impact of Anonymization on the Performance of Large Language Models](http://arxiv.org/abs/2609.11335v2)** — Tobias Deußer et al. (2026) · relevance 6
+- **[E-CONAN (Entailment, CONtradition And Neutral) Benchmarks: Arabic Textual Entailment and Natural Inference Datasets](http://arxiv.org/abs/2609.11334v1)** — Khloud AL Jallad et al. (2026) · relevance 9
+- **[Evaluating Scaffolding-Oriented Multi-Agent Large Language Model System for Clinical Interview Training](http://arxiv.org/abs/2609.10939v1)** — Luming Yang et al. (2026) · relevance 6
+- **[ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs](http://arxiv.org/abs/2609.10895v1)** — Yizhan Li et al. (2026) · relevance 6
+- **[DriftNet: A Dual-Head Trajectory Transformer for Detecting and Localizing Prompt Injection in LLM Agents](http://arxiv.org/abs/2609.10892v1)** — Asif Pinjari et al. (2026) · relevance 11
+- **[Multilingual in Name Only? Cultural and Linguistic Weaknesses of LLMs in Urdu](http://arxiv.org/abs/2609.10758v1)** — Farah Adeeba et al. (2026) · relevance 6
+- **[CMNIE: An Information Extraction Benchmark for Chinese Military News](http://arxiv.org/abs/2609.10722v1)** — Yan Yu et al. (2026) · relevance 6
+- **[Fortunate Recall: Ontology-Driven Memory Lifecycle Management for Persistent Coherence in LLMs](http://arxiv.org/abs/2609.10413v1)** — Ansuman Mullick et al. (2026) · relevance 6
+- **[OntologyAligner: Ontology-Aligned Retrieval and Hierarchy-Guided Large Language Model Reranking for Biomedical Ontology Normalization](http://arxiv.org/abs/2609.10055v1)** — Jie Song et al. (2026) · relevance 10
+- **[LogiScope-VQA: Benchmarking Vision-Language Models for Logistics Hazard Identification in Industrial Scenarios](http://arxiv.org/abs/2609.09790v1)** — Hanjing Zhou et al. (2026) · relevance 6
+- **[LexAgentHallu: A Hierarchical Benchmark for Profiling Hallucinations in Legal Agents](http://arxiv.org/abs/2609.09754v1)** — Yujin Zhou et al. (2026) · relevance 11
+- **[CityPlanner: A Sandbox Agent for Executable Urban Planning](http://arxiv.org/abs/2609.09578v1)** — Wentao Zhang et al. (2026) · relevance 10
+- **[Multi-Agent Agentic Graph Learning via Structural Signatures](http://arxiv.org/abs/2609.09565v1)** — Liang Qu et al. (2026) · relevance 12
+- **[HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects](http://arxiv.org/abs/2609.09519v1)** — Kaushik Chandana et al. (2026) · relevance 12
+- **[Procedural Graphs: Self-Evolving Execution Structures for LLM Agents](http://arxiv.org/abs/2609.09153v1)** — Yuxing Lu et al. (2026) · relevance 7
+- **[Answer-Distribution Trajectories: A Stochastic-Dynamics View of LLM Reasoning](http://arxiv.org/abs/2609.09030v1)** — Mar Gonzàlez I Català et al. (2026) · relevance 8
+- **[Bridging Network Psychometrics and Artificial Intelligence: An Ising-Potts Model with LLM-Derived Weights](http://arxiv.org/abs/2609.08797v2)** — Matthias von Davier (2026) · relevance 6
+- **[Benchmark Scores Are Pipeline-Dependent: A Reliability Audit of Cybersecurity LLM Benchmarks](http://arxiv.org/abs/2609.08765v1)** — Aymene Berriche et al. (2026) · relevance 6
+- **[Chimaera: A Mixture-of-Graph-Experts Architecture for Cross-Task and Cross-Dataset Graph Learning](http://arxiv.org/abs/2609.08709v1)** — Jonathan Frank et al. (2026) · relevance 8
+- **[Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks](http://arxiv.org/abs/2609.08404v1)** — Hongbang Yuan et al. (2026) · relevance 7
+- **[Agent ATO: Visualizing Agent Interaction Timelines from Logs](http://arxiv.org/abs/2609.08301v1)** — Takuto Kawamoto et al. (2026) · relevance 11
+- **[TTGBench: Benchmarking Topological Evolution and Semantic Drift in Text-attributed Temporal Graphs](http://arxiv.org/abs/2609.08226v1)** — Longfei Ma et al. (2026) · relevance 6
+- **[OntologyBench: Can Dense Retrieval Satisfy Structured Biomedical Constraints?](http://arxiv.org/abs/2609.08174v1)** — Xiao Yu Cindy Zhang et al. (2026) · relevance 7
+- **[Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models](http://arxiv.org/abs/2609.05381v1)** — Matthias Busch et al. (2026) · relevance 6
+- **[Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents](http://arxiv.org/abs/2609.05261v1)** — Jiazheng Sun et al. (2026) · relevance 11
+- **[TruthInsightBench: An Evidence-Grounded Benchmark for Automated Evaluation of Open-Ended Scientific Discovery Agents](http://arxiv.org/abs/2609.05079v1)** — Zhibo Yang et al. (2026) · relevance 6
+- **[CC-Mediation: Evaluating Large Language Models for Cross-Cultural Conflict Mediation](http://arxiv.org/abs/2609.04855v1)** — Suhyun Lee et al. (2026) · relevance 11
+- **[MMTClinic: Multimodal, Multilingual Time Series Question Answering and Reasoning Benchmark for Clinical Domain](http://arxiv.org/abs/2609.04842v1)** — Sourav Malakar et al. (2026) · relevance 6
+- **[Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges](http://arxiv.org/abs/2609.04778v1)** — Chenqi Li et al. (2026) · relevance 6
+- **[ConsensusBench: Benchmark of Consensus Nodes for LLM Reasoning via Outcome Reward Densifying](http://arxiv.org/abs/2609.04648v1)** — Shi-Qi Yan et al. (2026) · relevance 12
+- **[$τ^τ$-Bench: An Environment for End-To-End, Realistic Agent Construction](http://arxiv.org/abs/2609.04611v1)** — Quan Shi et al. (2026) · relevance 6
+- **[Integrating Crash Report Mining and LLMs for Bug Localization and Repair: An Industrial Report](http://arxiv.org/abs/2609.04483v1)** — Marcos Medeiros et al. (2026) · relevance 6
+- **[SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center](http://arxiv.org/abs/2609.04159v1)** — Uday Vallabhaneni et al. (2026) · relevance 6
+- **[Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation](http://arxiv.org/abs/2609.04298v1)** — Lin Shi et al. (2026) · relevance 14
+- **[IRWOZ 2.0: A Large Language Model-driven Dialogue Dataset for Industrial Robot Conversations](http://arxiv.org/abs/2609.04030v1)** — Chen Li et al. (2026) · relevance 8
+- **[Bioinfoysis Technical Report](http://arxiv.org/abs/2609.03871v1)** — Qingyang Shao et al. (2026) · relevance 8
+- **[What Do CAE Simulation Agents Really Need Beyond a Generic Harness?](http://arxiv.org/abs/2609.03718v1)** — Jiasheng Shi et al. (2026) · relevance 7
+- **[ToolDF: Tool-Integrated Reasoning for Mixed-Authenticity Audio Deepfake Detection](http://arxiv.org/abs/2609.03620v1)** — Taewoo Kim et al. (2026) · relevance 11
+- **[When Users Don't Ask: Benchmarking Context-Driven Memory Retrieval in Conversational Agents](http://arxiv.org/abs/2609.03467v1)** — Wen-Yu Chang et al. (2026) · relevance 8
+- **[Chiaroscuro for Emotions: A Contrastive Emotion Benchmark Grounded in Appraisal Theory](http://arxiv.org/abs/2609.03394v1)** — Divyesh Bommana et al. (2026) · relevance 8
+- **[Gradients Know What Outcomes Don't: Unlocking Reinforcement Learning for LLM Reasoning with Gradient-Aligned Rewards](http://arxiv.org/abs/2609.03342v1)** — Leqi Zheng et al. (2026) · relevance 6
+- **[Speculative Macro Commit for Faster Tool-Using Agents](http://arxiv.org/abs/2609.03236v1)** — Zeyu Liu et al. (2026) · relevance 6
+- **[Counterfactual Fairness Audits of Multi-Step Clinical LLM Agents Require a Measured Per-Action Instability Floor](http://arxiv.org/abs/2609.03221v2)** — Rohith Reddy Bellibatlu et al. (2026) · relevance 7
+- **[SHELF: A Synthetic Harness for Multi-Task Bibliographic Benchmarking](http://arxiv.org/abs/2609.03047v1)** — Michael J. Bommarito (2026) · relevance 7
+- **[Loom: Weaving Diagnostic Strands into Free-Text Consensus via Embedding-Space Reweighting](http://arxiv.org/abs/2609.02649v1)** — Ron Begleiter et al. (2026) · relevance 7
+- **[Diagnosing with Insights: Structured Analysis of Agent Failures via Behavioral Abstractions](http://arxiv.org/abs/2609.02371v1)** — Jiayi Bi et al. (2026) · relevance 10
+- **[SonicCaps: Large-Scale Diverse and Fine-Grained Captioning for Improved Audio-Retrieval](http://arxiv.org/abs/2609.02343v1)** — Zineb Lahrichi et al. (2026) · relevance 10
+- **[Git4Data: Database-Native Version Control for AI Agents](http://arxiv.org/abs/2609.02106v1)** — Hongshen Gou et al. (2026) · relevance 7
+- **[Act More, Decide Less: Skill-Guided Adaptive Action Chunking for Long-Horizon LLM Agents](http://arxiv.org/abs/2609.02042v1)** — Yanting Yang et al. (2026) · relevance 7
+- **[Benchmarking Language Models for Statistical Problem Formulation](http://arxiv.org/abs/2609.01982v1)** — Chen Wang et al. (2026) · relevance 6
+- **[Belief-Calibrated Optimization: An Explicit World Model for Agentic Optimization](http://arxiv.org/abs/2609.01861v1)** — Yuhan Chen et al. (2026) · relevance 11
+- **[TalkFa: A Unified Benchmark for Farsi Dialogue Generation and Understanding](http://arxiv.org/abs/2609.01810v1)** — Neda Jamshidi et al. (2026) · relevance 6
+- **[MemeCULT-1K: Benchmarking South Asian Cultural Context and Humor Understanding of Multimodal Models](http://arxiv.org/abs/2609.01772v1)** — Tawsif Tashwar Dipto et al. (2026) · relevance 6
+- **[From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification](http://arxiv.org/abs/2609.01564v1)** — Manish Gupta et al. (2026) · relevance 7
+- **[The Data Problem in Software Vulnerability Analysis: Artifacts, Quality, and Consumption](http://arxiv.org/abs/2609.01503v1)** — Yu Nong et al. (2026) · relevance 8
+- **[TRIAGE: Three-level Routing and Intelligent Agent Guidance for Efficient Execution](http://arxiv.org/abs/2609.01428v1)** — Ruocan Wei (2026) · relevance 10
+- **[Investigating Linear Probe Robustness to Linguistic Register, Medical Specialty, and Corpus Shifts in Medical QA](http://arxiv.org/abs/2609.01361v1)** — Nishant Mishra et al. (2026) · relevance 9
+- **[Some Emotions Run Deeper: Layer-wise Probing and Causal Intervention in Large Language Models](http://arxiv.org/abs/2609.01279v1)** — Tian Fang et al. (2026) · relevance 6
+- **[Making Prospective Memory SLM-Shaped: Typed Intention Stores for Small-Model Agents](http://arxiv.org/abs/2609.01272v1)** — Jinqing Zhao et al. (2026) · relevance 7
+- **[PersuaRL: Reinforcement Learning-Driven Multi-Expert Selection for Persuasive Dialogue Generation in Insurance](http://arxiv.org/abs/2609.01188v1)** — Rohan Kirti et al. (2026) · relevance 6
+- **[WorldBench: Culturally Grounded Benchmark for Multilingual Agents](http://arxiv.org/abs/2609.01056v1)** — Leonardo Ranaldi et al. (2026) · relevance 7
+- **[Inspicio: Open-Vocabulary, LLM-Based Sense Retrieval for Historical Languages](http://arxiv.org/abs/2609.00998v1)** — Michele Ciletti (2026) · relevance 9
+- **[A Dataset for Modeling Iterative Problem-Solving](http://arxiv.org/abs/2609.00940v1)** — Fagun Patel et al. (2026) · relevance 8
+- **[Reflect-SQL: A Self-Reflection Based Framework for Text-to-SQL](http://arxiv.org/abs/2609.02944v1)** — Anupreksha Jain et al. (2026) · relevance 6
+- **[VoiceLongMemEval: Do Assistants Remember How You Sounded?](http://arxiv.org/abs/2609.00570v2)** — Ramit Pahwa et al. (2026) · relevance 8
+- **[RestoreBench: Can AI Agents Restore Power Flow Convergence?](http://arxiv.org/abs/2609.00384v1)** — Riccardo Mansutti et al. (2026) · relevance 9
+- **[MUSES: A Benchmark for Prospective Intellectual-Roots Retrieval](http://arxiv.org/abs/2609.00313v1)** — Rohan Pandey et al. (2026) · relevance 10
+- **[Toward Workflow-Aware Benchmarking for Healthcare NLP Agents](http://arxiv.org/abs/2609.00296v1)** — Junyi Yao et al. (2026) · relevance 6
+- **[How Fast Do Agents Rot? An Empirical Study of Long-Horizon Degradation in LLM Agents for Production Decision-Making](http://arxiv.org/abs/2609.01660v1)** — Shubhra Mittal (2026) · relevance 10
+- **[Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation](http://arxiv.org/abs/2609.00206v1)** — Ruotong Wang et al. (2026) · relevance 8
+- **[Agentic Context Cracking: Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data](http://arxiv.org/abs/2608.31082v2)** — Milad Rezaei Hajidehi et al. (2026) · relevance 8
+- **[Reconciling Process Supervision with Outcome-Based Credit in Agentic Policy Optimization](http://arxiv.org/abs/2608.31077v1)** — Jingxiao Yang et al. (2026) · relevance 9
+- **[E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation](http://arxiv.org/abs/2608.30730v1)** — Wei Fan et al. (2026) · relevance 7
+- **[BAITBENCH: Measuring Agent Reward Hacking with Optional Shortcuts Planted in ML Tasks](http://arxiv.org/abs/2608.30724v1)** — Pradyumna Shyama Prasad et al. (2026) · relevance 7
+- **[Geometry of Divergence: Tracking Hidden-State Trajectories for Adaptive Multi-Turn Reasoning](http://arxiv.org/abs/2608.30650v1)** — Jie Liang et al. (2026) · relevance 10
+- **[Learning to Reason and Use Tools through Unsupervised Fine-Tuning in Task-Oriented Dialog Systems](http://arxiv.org/abs/2608.30426v1)** — Markel Ferro et al. (2026) · relevance 13
+- **[SemPOI-RL: Aligning LLM Semantic Reasoning for Interpretable Out-of-Town POI Sequential Generation](http://arxiv.org/abs/2608.30399v1)** — Yunqi Liu et al. (2026) · relevance 10
+- **[Auditing MCQA Benchmarks through Probability Landscapes](http://arxiv.org/abs/2608.30372v1)** — Minsoo Song et al. (2026) · relevance 6
+- **[On the Recoverability of Private Information Unlearning in Large Language Models](http://arxiv.org/abs/2608.29943v1)** — Shicheng Hu et al. (2026) · relevance 8
+- **[Evaluating a 4B open-weights local LLM for agentic DFT workflows: a literature reproducibility audit](http://arxiv.org/abs/2608.29665v1)** — Shambhu Bhandari Sharma (2026) · relevance 8
+- **[LLMODE: Aligning ODEs with LLMs via Gated Token Injection for Irregular Spatio-Temporal Forecasting](http://arxiv.org/abs/2608.29640v1)** — Di Zhang et al. (2026) · relevance 8
+- **[SUP-MIMIC: A Multi-Task Clinical Diagnosis Benchmark for Evaluating LLMs' Robustness to Contradictory Evidence](http://arxiv.org/abs/2608.29582v1)** — Yi Yu et al. (2026) · relevance 6
+- **[StageWell: A Process-Aligned Chinese Corpus for Positive-Psychology Support Dialogue](http://arxiv.org/abs/2608.29326v1)** — Yuxiong Wang et al. (2026) · relevance 6
+- **[DocIntent: Answerability-Guided Agentic Restoration for Real-World Document Visual Question Answering](http://arxiv.org/abs/2608.29037v1)** — Zihan Huang et al. (2026) · relevance 7
+- **[Agentic AI uncovers conserved cross-tissue protein co-abundance programs inaccessible to single-dataset analysis](http://arxiv.org/abs/2608.28990v1)** — Runyu Guan et al. (2026) · relevance 7
+- **[LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment](http://arxiv.org/abs/2608.28490v1)** — Jingjing Nie et al. (2026) · relevance 7
+- **[LongPIBench: A Long-Context Benchmark for Prompt Injection](http://arxiv.org/abs/2608.28411v1)** — Yupei Liu et al. (2026) · relevance 10
+- **[Finding Where the Buck Stops: An Automated Failure Attribution-Based Reflection Framework for Multi-Agent Collaboration](http://arxiv.org/abs/2608.28264v1)** — Xiaoqing Wang et al. (2026) · relevance 7
+- **[Synth-JDoc: Synthesizing a Japanese Document Image Dataset for OCR with Diverse Layouts and Embedded Images](http://arxiv.org/abs/2608.28248v1)** — Keito Sasagawa et al. (2026) · relevance 11
+- **[D-TAIA: Domain-Aware LLM Adaptation for Multi-Task Predictive Process Monitoring](http://arxiv.org/abs/2608.28236v1)** — Sjoerd van Straten et al. (2026) · relevance 7
+- **[Benchmarking large language model agent societies against human behavioural distributions](http://arxiv.org/abs/2608.28182v1)** — Raad Bin Tareaf (2026) · relevance 6
+- **[The Shape of Power: A Multilingual Framework for Social Power Reasoning in Dialogues](http://arxiv.org/abs/2608.28144v1)** — Farah Atif et al. (2026) · relevance 6
+- **[String: An Agentic OS Where Every App Is a Markdown File](http://arxiv.org/abs/2608.28027v1)** — Jookyung Song et al. (2026) · relevance 6
+- **[When Teacher Guidance Misleads: Reward-Aligned On-Policy Distillation](http://arxiv.org/abs/2608.27960v1)** — Siyuan Gan et al. (2026) · relevance 8
+- **[What Makes Agent Memory Useful for Reliable Unanswerable Question Handling?](http://arxiv.org/abs/2608.27924v1)** — Chuanyuan Tan et al. (2026) · relevance 9
+- **[PCBnet: A Dataset and Automatic Construction of SPICE Netlists from Schematic Images](http://arxiv.org/abs/2608.27923v1)** — Zhen Huang et al. (2026) · relevance 8
+- **[LandingAgent: A Reference-Annotated Dataset and Agentic Generation Framework for Landing Pages](http://arxiv.org/abs/2608.27902v1)** — Injun Baek et al. (2026) · relevance 11
+- **[FedEHR-Agents: Federated Agentic Optimization for Automated EHR Modeling](http://arxiv.org/abs/2608.27856v1)** — Jun Bai et al. (2026) · relevance 9
+- **[NormasTCU --- A Brazilian Portuguese IR Dataset and an Evaluation of LLM-as-a-Judge for Relevance Assessment](http://arxiv.org/abs/2608.27746v1)** — Leandro Carísio Fernandes et al. (2026) · relevance 10
+- **[Topic Matching in the Wild: Benchmark and Lessons from Real-World ASR Transcripts](http://arxiv.org/abs/2609.00330v1)** — Saman Rahbar et al. (2026) · relevance 6
+- **[PCFBench: A Diagnostic Benchmark for Product Carbon Footprint Estimation](http://arxiv.org/abs/2608.27716v1)** — Krishna Rao et al. (2026) · relevance 9
+- **[From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench](http://arxiv.org/abs/2608.27442v1)** — Dewu Zheng et al. (2026) · relevance 7
+- **[CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases](http://arxiv.org/abs/2608.27391v1)** — Sil Hamilton et al. (2026) · relevance 13
+- **[BALMS: Benchmarking Agentic LLMs for Longitudinal Mental Health Sensing](http://arxiv.org/abs/2608.27219v1)** — Yu Yvonne Wu et al. (2026) · relevance 13
+- **[GRAIN: Bridging Name and Narrative Shifts in Real-World Graph Reasoning through Invariance-Rewarded Agentic RL](http://arxiv.org/abs/2608.27142v1)** — Zike Yuan et al. (2026) · relevance 6
+- **[From Atomic to Agentic: Towards Interpretable Evaluation of LLMs' Agentic Mathematical Capabilities](http://arxiv.org/abs/2608.26950v1)** — Jiayi Kuang et al. (2026) · relevance 9
+- **[When Memory Takes Gradients: Collaborative Vector Memory for Agentic Recommender Systems](http://arxiv.org/abs/2608.26895v1)** — Hanchong Chen et al. (2026) · relevance 8
+- **[RuleWeaver: Benchmarking Rule-Centered Scenario Reasoning for Large Language Models](http://arxiv.org/abs/2608.26832v1)** — Bohan Yu et al. (2026) · relevance 8
+- **[Discovering Relationships in Data Lakes Using Large Language Models: An Industrial Case](http://arxiv.org/abs/2608.26750v1)** — Ahlame Diouan et al. (2026) · relevance 6
+- **[AesCanvas: A Large-Scale Dataset and Benchmark for Aesthetic Critique and Contextual Suitability](http://arxiv.org/abs/2608.26713v1)** — Xuanwei Hu et al. (2026) · relevance 9
+- **[AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling](http://arxiv.org/abs/2608.26623v1)** — Abhigya Verma et al. (2026) · relevance 7
+- **[MemToC: Benchmarking Memory-Tool Conflict Resolution in Large Language Models](http://arxiv.org/abs/2608.26295v1)** — Arseniy Varlamov et al. (2026) · relevance 6
+- **[SKILL.state: Scalable Long-Horizon Agent Skills](http://arxiv.org/abs/2608.26263v3)** — Sanket Badhe et al. (2026) · relevance 6
+- **[How Do LLM Agents Actually Get the Flag? Trace-Level Provenance for Agentic Offensive Security Evaluation](http://arxiv.org/abs/2608.26237v1)** — Kimberly Milner et al. (2026) · relevance 12
+- **[LLM Agents for Time-Series: A Survey](http://arxiv.org/abs/2608.26226v1)** — Yilong Chen et al. (2026) · relevance 9
+- **[CEDAR: Controlled and Event-Driven Demand Forecasting via Residual Decomposition](http://arxiv.org/abs/2608.25871v1)** — Junjie Meng et al. (2026) · relevance 7
+- **[ToST: A Tree-of-Thought Socratic Teaching Framework for Multi-Path Guidance and Parallel Thinking](http://arxiv.org/abs/2608.25775v1)** — Feng Ling et al. (2026) · relevance 8
+- **[Cross-Dataset Stability of Expert-Informed Skill Prompting and Fine-Tuning for Chinese Metaphor Identification](http://arxiv.org/abs/2608.25579v1)** — Yufeng Wu et al. (2026) · relevance 7
+- **[Beyond Scaling: Self-Evolving LLM Agents for Hardware Kernel Optimization via an Experience-Driven Workflow and Experience Graph Memory](http://arxiv.org/abs/2608.25570v1)** — Siyuan Chen et al. (2026) · relevance 8
+- **[CompanionHarm: A Multi-Turn Benchmark for Detecting Harms in Real-World AI Companion Conversations](http://arxiv.org/abs/2608.25377v1)** — Renwen Zhang et al. (2026) · relevance 6
+- **[MTDiag: A Multi-Turn Diagnostic Dataset Towards Clinically Meaningful LLM Evaluation](http://arxiv.org/abs/2608.25085v1)** — Pia Chouayfati et al. (2026) · relevance 8
+- **[LifePlanner: Evaluating LLM Agents for Geo-spatial Planning with Social Media Data](http://arxiv.org/abs/2608.25039v1)** — Zhen Dong et al. (2026) · relevance 10
+- **[On-policy Distillation with Verifiable Reward](http://arxiv.org/abs/2608.24696v2)** — Wenze Lin et al. (2026) · relevance 8
+- **[Agentic AI for operating scientific instruments for nanoscale characterization](http://arxiv.org/abs/2608.26198v1)** — Zahra Ayar et al. (2026) · relevance 7
+- **[EviDx: Evidence-Aware Active Diagnosis with Scaffolded LLM Agents](http://arxiv.org/abs/2608.24570v1)** — Lihang Zeng et al. (2026) · relevance 11
+- **[The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents](http://arxiv.org/abs/2608.24358v1)** — Roy Ganz et al. (2026) · relevance 13
+- **[MemUse: Moving Memory Evaluation from Direct QA to Natural Integration in Long-Term Human-AI Conversation](http://arxiv.org/abs/2608.24189v1)** — Ryuichi Sumida et al. (2026) · relevance 7
+- **[ViSculpt: Visual-Centric Agentic Geometry Editing](http://arxiv.org/abs/2608.24169v1)** — Bo Pang et al. (2026) · relevance 6
+- **[TrustDABench: Benchmarking Reliability and Robustness of LLMs for Structured Data Analysis](http://arxiv.org/abs/2608.24145v1)** — Boshen Shi et al. (2026) · relevance 7
+- **[ACE: A Self-Correcting Agentic Canvas Editor for Multi-Slide Presentation Automation](http://arxiv.org/abs/2608.24103v1)** — JooYoung Jang et al. (2026) · relevance 6
+- **[WebMCP-Phalanx: Enforcing and Characterizing Trust Boundaries for Browser-Integrated LLM Agents](http://arxiv.org/abs/2608.24017v1)** — Lin-Fa Lee et al. (2026) · relevance 7
+- **[Mitigating Exploration Bias in RL for Multi-Instruction Following](http://arxiv.org/abs/2608.23830v1)** — Mian Zhang et al. (2026) · relevance 7
+- **[SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?](http://arxiv.org/abs/2608.23564v1)** — Deyao Hong et al. (2026) · relevance 6
+- **[SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning](http://arxiv.org/abs/2608.23493v1)** — Jialong Liu et al. (2026) · relevance 8
+- **[Cross-Domain, Multi-Task Data-to-Text Generation without In-Domain Training Data](http://arxiv.org/abs/2608.23391v2)** — Yifei Song et al. (2026) · relevance 6
+- **[Future Querying: Can LLMs Serve as Implicit Medical World Models?](http://arxiv.org/abs/2608.23248v1)** — Siri Willems et al. (2026) · relevance 7
+- **[NetConfArena: An Executable Benchmark for LLM Agents in Closed-Loop Network Configuration](http://arxiv.org/abs/2608.23179v1)** — Chang Liu et al. (2026) · relevance 8
+- **[A Multi-Viewpoint Modeling Framework for Digital Twin Integration and Reuse with LLM-Assisted Compatibility Analysis](http://arxiv.org/abs/2608.23115v1)** — Nafiseh Soveizi et al. (2026) · relevance 6
+- **[Definitional Sensitivity in Media Bias Detection: A Multi-Definition Dataset and Benchmark](http://arxiv.org/abs/2608.23095v1)** — Martin Wessel et al. (2026) · relevance 9
+- **[Beyond the Harness: End-to-End Optimization of Context Artifacts for Enterprise Text-to-SQL](http://arxiv.org/abs/2608.22830v1)** — Kate Gwimm et al. (2026) · relevance 7
+- **[TRACE: A Self-Evolving Skill Bank for Consistent, Limit-Aware LLM Agents](http://arxiv.org/abs/2608.22793v1)** — Wenhao Wu et al. (2026) · relevance 16
+- **[Risk-Aware Reranking for Agentic Tool Retrieval](http://arxiv.org/abs/2608.22751v1)** — Qinfei Li et al. (2026) · relevance 13
+- **[Fusing Perceptual Vision Experts with Multimodal Large Language Models for Explainable Plant Disease Diagnosis: From Benchmark Imagery to Real-World Robotic Field Validation](http://arxiv.org/abs/2608.24934v1)** — Ranjan Sapkota et al. (2026) · relevance 6
+- **[ToolRobustBench: Stage-Wise Perturbation Evaluation and Failure Diagnosis for Tool-Calling Agents](http://arxiv.org/abs/2608.23635v1)** — YiShan Zheng et al. (2026) · relevance 7
+- **[Dual-Layer Agentic Memory with Fast Write Routing and Slow Consolidation](http://arxiv.org/abs/2608.22215v1)** — Wenzhi Li et al. (2026) · relevance 13
+- **[Semantic Reasoning Denoising: Correcting Language Model Reasoning with Semantic Operators](http://arxiv.org/abs/2608.22090v1)** — Yujiao Yang (2026) · relevance 11
+- **[Real-TurnTurk: A Multimodal Turkish Corpus for Turn-Taking Prediction](http://arxiv.org/abs/2608.22071v1)** — Ahmet Tuğrul Bayrak et al. (2026) · relevance 8
+- **[Enhancing Group Recommendation with Memory-Augmented Reasoning in LLM Agent](http://arxiv.org/abs/2608.21939v1)** — Qimeng Niu et al. (2026) · relevance 7
+- **[HiDiffTIR: Hierarchical Difficulty-Aware Policy Optimization for Multi-Turn Tool-Integrated Reasoning](http://arxiv.org/abs/2608.21863v1)** — Yucan Guo et al. (2026) · relevance 11
+- **[PUMA: A Polish Benchmark for Culturally Grounded Multimodal Understanding](http://arxiv.org/abs/2608.21853v1)** — Sławomir Dadas et al. (2026) · relevance 6
+- **[XRFix: Exploring Performance Bug Repair of Extended Reality Applications with Large Language Models](http://arxiv.org/abs/2608.21718v1)** — Jingwen Wu et al. (2026) · relevance 8
+- **[SynEHR: Joint Modeling Inter-visit Temporal Evolution and Intra-visit Clinical Structure for Longitudinal EHR Synthesis](http://arxiv.org/abs/2608.21673v1)** — Ximiao Li et al. (2026) · relevance 7
+- **[Exploring Agentic Approaches for Data Issue Detection and Repair in AI-Assisted Visualization](http://arxiv.org/abs/2608.21602v1)** — Parimal Kashireddy et al. (2026) · relevance 9
+- **[A Reproducible, License-Aware Distillation Recipe for CPUDeployable Safety Classification](http://arxiv.org/abs/2608.21570v1)** — Edson Rodrigues da Cruz Filho et al. (2026) · relevance 7
+- **[Benchmarking Patent Drafting from Inventor-Style Disclosures](http://arxiv.org/abs/2608.21249v1)** — Lekang Jiang et al. (2026) · relevance 6
+- **[Enhancing LLMs in Predictive Political QA with Semi-Structured Data](http://arxiv.org/abs/2608.21218v1)** — Yinan Liu et al. (2026) · relevance 6
+- **[Designing a Robust LLM-Based Evaluation System for Agentic AI in Drug Discovery Through Human Alignment](http://arxiv.org/abs/2608.21057v1)** — Emma Granqvist et al. (2026) · relevance 6
+- **[MigrationNarrate: A Dataset for Detection of Migration Narratives in YouTube Videos](http://arxiv.org/abs/2608.20984v1)** — Fatima Haouari et al. (2026) · relevance 8
+- **[VortexChat: An agentic framework for autonomous multi-objective integrated photonic design](http://arxiv.org/abs/2608.20688v1)** — Faqian Chong et al. (2026) · relevance 6
+- **[ARQ: Agentic CodeQL Query Refinement for C/C++ Vulnerability Detection](http://arxiv.org/abs/2608.20637v1)** — Chunyi Wang et al. (2026) · relevance 8
+- **[Weighted Memory Tree: Remembering What Matters for Long-Horizon LLM Agents](http://arxiv.org/abs/2608.20631v1)** — Quang Dao et al. (2026) · relevance 7
+- **[ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models](http://arxiv.org/abs/2608.20338v1)** — Sahil Kale et al. (2026) · relevance 6
+- **[From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation](http://arxiv.org/abs/2608.20195v1)** — Zhijun Gao et al. (2026) · relevance 6
+- **[OenoBench: A Wine-Domain Benchmark for Knowledge-Grounded Evaluation of Large Language Models](http://arxiv.org/abs/2608.20106v1)** — Nikita Khudov (2026) · relevance 6
+- **[SCoRD: Semantic-Assisted Continual Retriever-Reranker Distillation for LLM-Based Recommendation](http://arxiv.org/abs/2608.19998v1)** — Seunghyun Baek et al. (2026) · relevance 7
+- **[MaliciousSkillBench: A Comprehensive Benchmark for Malicious Agent Skill Detection](http://arxiv.org/abs/2608.19901v1)** — Yue Wang et al. (2026) · relevance 6
+- **[EnvHarness: Awakening Static Worlds for Agent Learning](http://arxiv.org/abs/2608.19880v1)** — Chengsong Huang et al. (2026) · relevance 7
+- **[MileGPO: Milestone Inference with Local Evidence for Graph-Based Policy Optimization of Long-Horizon LLM Agents](http://arxiv.org/abs/2608.19803v2)** — Bo Qian et al. (2026) · relevance 8
+- **[Training-Free LLM-Based Recommendation with Post-LLM Item Refinement Using Collaborative Signals](http://arxiv.org/abs/2608.19665v1)** — Kyungho Kim et al. (2026) · relevance 7
+- **[Hear2Act: Benchmarking When Prosody Should Change What an Assistant Does](http://arxiv.org/abs/2608.19515v2)** — Xinyi Liu et al. (2026) · relevance 6
+- **[Quantifying Event Impacts on Time Series via Multiscale Contrastive Learning](http://arxiv.org/abs/2608.19447v1)** — Yiming Sun et al. (2026) · relevance 7
+- **[Holtercare-Bench: A Multimodal Benchmark for Evaluating Long-Term Dynamic ECG Analysis](http://arxiv.org/abs/2608.19297v1)** — Yihan Xie et al. (2026) · relevance 6
+- **[What is Missing from AI Post-Training AI: An Empirical Analysis](http://arxiv.org/abs/2608.19072v1)** — Joy Jia Yin Lim et al. (2026) · relevance 6
+- **[MedUAG: Unified Understanding and Generation for Medical Multimodal Models](http://arxiv.org/abs/2608.18937v1)** — Zijie Meng et al. (2026) · relevance 7
+- **[GreekBarRetrieval: A Benchmark for Greek Statutory Retrieval](http://arxiv.org/abs/2608.18752v2)** — Ernest Beta et al. (2026) · relevance 8
+- **[A Multi-Agent Platform for Automated Enterprise Analytics and Insight Generation](http://arxiv.org/abs/2608.18740v1)** — Manoj N M et al. (2026) · relevance 6
+- **[Execution-grounded evaluation reveals hidden failures in language-model calculations for environmental science](http://arxiv.org/abs/2608.18726v1)** — Maohao Ran et al. (2026) · relevance 6
+- **[OmniHandwritingOCR: A Diagnostic Benchmark for Evaluating Multimodal LLMs in Handwritten OCR Scenarios](http://arxiv.org/abs/2608.18586v1)** — Zinuo Guo et al. (2026) · relevance 8
+- **[Compress and Forget: bitsandbytes Quantization Amplifies Proactive Interference in LLMs](http://arxiv.org/abs/2608.18578v2)** — Shayan Shahrabi-Farahani et al. (2026) · relevance 6
+- **[FinRCA-Bench: Benchmarking Evidence Retrieval and Reasoning for Financial AI Systems](http://arxiv.org/abs/2608.18534v1)** — Pratik Ghawate (2026) · relevance 8
+- **[DART-SD: Diamond-topology Aware Retrieval and Tuning for Self-Distillation of Multi-Turn Tool-Calling Agents](http://arxiv.org/abs/2608.18524v1)** — Hangrui Xu et al. (2026) · relevance 13
+- **[Task-Conditioned Least-Privilege Learning for Executable Terminal and MCP Agents](http://arxiv.org/abs/2608.18351v1)** — Alexander Tu et al. (2026) · relevance 6
+- **[Rigorous Evaluation of Large Language Models for Malaria Drug Discovery: Trade-offs in Performance, Scale, and Resource Utility](http://arxiv.org/abs/2608.20418v1)** — Marvellous O. Ajala et al. (2026) · relevance 7
+- **[Benchmarking Automated Security Patch Backporting: How Far Are We?](http://arxiv.org/abs/2608.17671v1)** — Jincheng Yang et al. (2026) · relevance 8
+- **[Incident-Data Robustness Analysis of the OWASP Top 10 for LLM Applications (2026): How a Community-Expert Ranking Holds Up Against a Large-Scale LLM Incident Corpus](http://arxiv.org/abs/2608.19266v1)** — Kyriakos "Rock" Lambros et al. (2026) · relevance 7
+- **[ArborMem: Navigating Interaction States with Memory Forests](http://arxiv.org/abs/2608.17534v1)** — Zongwei Lv et al. (2026) · relevance 11
+- **[LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents](http://arxiv.org/abs/2608.17393v1)** — Yiming Du et al. (2026) · relevance 6
+- **[PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX](http://arxiv.org/abs/2608.17379v2)** — Genghan Zhang et al. (2026) · relevance 6
+- **[Empowering Compact LLMs with Fusion of Layer-wise Exits for Recommendation](http://arxiv.org/abs/2608.17316v2)** — Xurong Liang et al. (2026) · relevance 7
+- **[PlanPO: Group Planning-Aware Policy Optimization for Multi-Turn Agentic LLMs](http://arxiv.org/abs/2608.17289v1)** — Dayang Liang et al. (2026) · relevance 12
+- **[AISA: AI Safety Assistant Framework for Continuous Improvement of Highway Construction](http://arxiv.org/abs/2608.17184v1)** — Mason Smetana et al. (2026) · relevance 10
+- **[Every Coin Has Two Sides: On the Dual Nature of Generalization in On-Policy Distillation of Large Language Models](http://arxiv.org/abs/2608.16647v1)** — Zhaoyi Li et al. (2026) · relevance 6
+- **[Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning](http://arxiv.org/abs/2608.16620v2)** — Peng Du et al. (2026) · relevance 17
+- **[HaReCAP: Habitual-action Grounding for Recursive Large Language Model Agents](http://arxiv.org/abs/2608.16447v1)** — Shen Liu et al. (2026) · relevance 6
+- **[AeroCopilotBench: A Two-Tier Benchmark for Evaluating LLM Agents as Aviation Copilots in an Interactive Virtual Cockpit Environment](http://arxiv.org/abs/2608.16349v1)** — Yuchen Yuan et al. (2026) · relevance 10
+- **[CAPO: Constraint-Aware Prompt Optimization for LLM Agents](http://arxiv.org/abs/2608.16068v1)** — Victor Ye Dong et al. (2026) · relevance 8
+- **[Walk Before You Run: The Importance of Data Exploration for Data Analysis Agents](http://arxiv.org/abs/2608.16045v1)** — Yike Yuan et al. (2026) · relevance 6
+- **[When Stories Evolve: Benchmarking LLM Storytelling Across Agent Architectures in Open-Ended World Simulations](http://arxiv.org/abs/2608.15654v1)** — Yuqi Chen et al. (2026) · relevance 6
+- **[LAPF: LLM-Agent-Based Path Finder Using the UAVScenes Dataset](http://arxiv.org/abs/2608.15175v1)** — Yousef Emami et al. (2026) · relevance 11
+- **[Anatomy of a Quantized Agent: VRAM Stability and Forecasting in Code-Synthesis Agentic Workloads](http://arxiv.org/abs/2608.15117v1)** — Anubhab Banerjee (2026) · relevance 13
+- **[Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents](http://arxiv.org/abs/2608.15071v1)** — Tianxin Wei et al. (2026) · relevance 7
+- **[TAHB: A Comprehensive Benchmark for Text-Attributed Hypergraph Learning](http://arxiv.org/abs/2608.15055v1)** — David Yoon Suk Kang et al. (2026) · relevance 6
+- **[RamseyGadgets: A Graph Construction Dataset for LLMs](http://arxiv.org/abs/2608.14999v1)** — Zohair Raza Hassan et al. (2026) · relevance 7
+- **[Evaluating Agentic Code Repair Capabilities in Distributed Systems](http://arxiv.org/abs/2608.14863v1)** — Yibo Yan et al. (2026) · relevance 6
+- **[Clearing the Fog: Towards Installing and Refining Proactive Exploration Capabilities in LLM Agents](http://arxiv.org/abs/2608.14339v1)** — Zhizhao Guan et al. (2026) · relevance 10
+- **[TimeSage-EV: A Live Benchmark for Agentic Time Series Analysis in Evolving Environments](http://arxiv.org/abs/2608.14270v1)** — Qingren Yao et al. (2026) · relevance 12
+- **[Can Language Models Understand mmWave Data? Benchmarking Large Language Models for mmWave Radar-Based Human Understanding](http://arxiv.org/abs/2608.14179v1)** — Jeongwan Shin et al. (2026) · relevance 7
+- **[Act2Intention: A Benchmark For Developing Active Mobile Agents Through Inferring User Intention from GUI Actions](http://arxiv.org/abs/2608.14132v1)** — Xiaokai Yan et al. (2026) · relevance 7
+- **[Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion](http://arxiv.org/abs/2608.13947v1)** — Hwan Chang et al. (2026) · relevance 6
+- **[Never the Number: Structural Abstention for AI Systems Whose Answers Are Consumed as Fact](http://arxiv.org/abs/2608.13926v1)** — Zhelun et al. (2026) · relevance 8
+- **[Agentic Transaction: Towards ACID-Compliant Agent Systems](http://arxiv.org/abs/2608.13900v1)** — Zhaoyan Sun et al. (2026) · relevance 12
+- **[DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data](http://arxiv.org/abs/2608.13517v2)** — Peter Schneider-Kamp et al. (2026) · relevance 6
+- **[MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification](http://arxiv.org/abs/2608.13463v1)** — Daniel Perkins et al. (2026) · relevance 7
+- **[Does Fixing Break Security? An Empirical Study of Security Degradation in Iterative LLM-Driven Infrastructure-as-Code Repair](http://arxiv.org/abs/2608.13404v2)** — Benjamin Agyekum et al. (2026) · relevance 6
+- **[Teach the Magnitude, Not the Direction: Verifier-Bounded Credit Assignment for Multi-Turn Multi-step LLM Agents](http://arxiv.org/abs/2608.13179v1)** — Zechuan Wang et al. (2026) · relevance 7
+- **[The Embedder's Dilemma: LLMs Are Better, but at What Cost?](http://arxiv.org/abs/2608.12875v1)** — Adnan El Assadi et al. (2026) · relevance 8
+- **[Practice Makes Unsafe: Skill Misevolution in Self-Improving LLM Agents](http://arxiv.org/abs/2608.12851v1)** — Xutao Mao et al. (2026) · relevance 8
+- **[CRAFT: LLM-Based Iterative Refinement for Temporal Reasoning over Clinical Narratives](http://arxiv.org/abs/2608.12779v1)** — Chengyang He et al. (2026) · relevance 6
+- **[LLMs Are Not Good Strategists, Yet Memory-Enhanced Agency Boosts Reasoning](http://arxiv.org/abs/2608.12626v1)** — Yi Wu et al. (2026) · relevance 7
+- **[Does It Render Everywhere? A Study of Cross-Environment Compatibility in MLLM-Generated Webpages](http://arxiv.org/abs/2608.12518v1)** — Ziyun Guo et al. (2026) · relevance 8
+- **[Towards Automated Domain Model Extraction from Source Code using Heuristics and Open-Source LLMs](http://arxiv.org/abs/2608.12228v1)** — Alessandra Mancas et al. (2026) · relevance 6
+- **[Poly-Dialectal Neural Machine Translation System for Bangla Regional Dialects](http://arxiv.org/abs/2608.12018v1)** — Rakib Ullah et al. (2026) · relevance 6
+- **[ExRole: From Team Trajectories to Executable Roles in Multi-Agent Language Models](http://arxiv.org/abs/2608.11949v1)** — Zhou Liu et al. (2026) · relevance 11
+- **[When the API Speaks the Wrong Language: Revisiting Post-Training for Multilingual Tool Use](http://arxiv.org/abs/2608.11715v1)** — Siddharth Chauhan et al. (2026) · relevance 8
+- **[FrontierFinance: A Challenging Benchmark for Measuring Frontier Intelligence of Finance Agents](http://arxiv.org/abs/2608.11683v1)** — Yuhao Zhang et al. (2026) · relevance 6
+- **[AgenticTwin: An Agentic LLM Framework Integrated with Digital Twin for Anomaly Detection](http://arxiv.org/abs/2608.11679v1)** — Touseef Hasan et al. (2026) · relevance 14
+- **[Continuous-Latent Predictive Modeling with Semantic Alignment for EEG-Language Foundation Models](http://arxiv.org/abs/2608.11656v1)** — Myeong-Ju Cho et al. (2026) · relevance 7
+- **[MBA: Multimodal Benchmark and Agents for Real-World Business Ideation](http://arxiv.org/abs/2608.11616v2)** — Hojun Choi et al. (2026) · relevance 8
+- **[VideoGAIA: A Benchmark for General AI Assistants on Agentic Video Understanding](http://arxiv.org/abs/2608.14718v1)** — Fan Zhang et al. (2026) · relevance 7
+- **[The Next Challenge for Agentic Cybersecurity: A Realistic, Contamination-Free Reverse Engineering Benchmark](http://arxiv.org/abs/2608.11469v1)** — Jeremy Spence et al. (2026) · relevance 8
+- **[TRACES: A Benchmark for Epistemic Reliability in Scientific Reasoning by LLMs](http://arxiv.org/abs/2608.11415v1)** — Valentin Rodionov et al. (2026) · relevance 8
+- **[Inverse Theory of Mind Modeling for Content Recommendation: From Web Browsing to Dynamic Intelligent Interfaces](http://arxiv.org/abs/2608.11354v2)** — Mengyu Chen et al. (2026) · relevance 6
+- **[ConVAWG: A Retrieval-Grounded Framework for Controlled Synthetic Dialogue Generation in Violence Against Women and Girls](http://arxiv.org/abs/2608.11200v1)** — Chen Lyu et al. (2026) · relevance 9
+- **[Evaluating Agentic Learning Harness Capabilities Without Labels via the Scaling Hypothesis](http://arxiv.org/abs/2608.13608v1)** — Aryan Luthra et al. (2026) · relevance 9
+- **[TEAMMix: Taxonomy Enrichment Augmentation and Minority-augmented Mixing Strategy for LLM-enhanced Weak-Supervised Hierarchical Text Classification](http://arxiv.org/abs/2608.11044v1)** — Jian Zhang et al. (2026) · relevance 6
+- **[FaithformBench: Benchmarking Faithfulness of Mathematical Chain-of-Thought Autoformalisation](http://arxiv.org/abs/2608.10916v1)** — Rob Cornish et al. (2026) · relevance 6
+- **[MEGA: Self-Evolving Agent Optimization Infrastructure via Wisdom Graph](http://arxiv.org/abs/2608.10504v1)** — Jung Hwan Lee et al. (2026) · relevance 8
+- **[Predicting Space Groups of Double Perovskites by LLM with Dynamic Few-Shot Learning](http://arxiv.org/abs/2608.10483v1)** — Jongwon Park et al. (2026) · relevance 7
+
+### Agent and Tool Use (108)
+
+- **[Decision Context: Persistent Behavioral Learning for AI Agents](http://arxiv.org/abs/2611.08644v1)** — Nima Vahdat et al. (2026) · relevance 7
+- **[From Twisted Facts to Rogue Agents: Can LLMs Reliably Detect Multi-Dimensional Hallucinations?](http://arxiv.org/abs/2611.08231v1)** — Hanyu Qiu et al. (2026) · relevance 6 · _cross-tier: Data Ingestion Strategies_
+- **[MCPHallu: Benchmarking Reasoning, Execution, and Memory Hallucinations in MCP Agents](http://arxiv.org/abs/2611.07689v1)** — Yizhen Jiang et al. (2026) · relevance 8
+- **[DelegateEval: Evaluating Platforms for Personal External Service Agents](http://arxiv.org/abs/2611.07508v1)** — Jichao Li et al. (2026) · relevance 6 · _cross-tier: Data Creation and Selection_
+- **[How Do AI Agents Waste Your Money?](http://arxiv.org/abs/2611.07238v1)** — Huimin Zeng et al. (2026) · relevance 8
+- **[Trace2Eval: Contextualized Evaluation of Coding Agents from Real-World Traces](http://arxiv.org/abs/2611.06506v1)** — Ji Shi et al. (2026) · relevance 11
+- **[Agents, Think Only When it Helps](http://arxiv.org/abs/2611.05709v1)** — Min-Seon Kim et al. (2026) · relevance 7
+- **[ATC: Agent Trajectory Control for Role-Contract Enforcement in Black-Box Multi-Agent Systems](http://arxiv.org/abs/2611.04321v1)** — Maisha Maliha et al. (2026) · relevance 7
+- **[Benchmark of THReD: Evaluating an LLM Agent and Its Preprocessing Tools for Turning Electronic Health Records into AI-Ready Datasets](http://arxiv.org/abs/2611.02484v1)** — Javad Mohammad Alizadeh et al. (2026) · relevance 17 · _cross-tier: Data Ingestion Strategies, Data Creation and Selection_
+- **[MAC-Bench: Benchmarking Multi-Agent Collaboration via Interconnected Tasks](http://arxiv.org/abs/2611.01728v1)** — Zerui Chen et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[Just-in-Time Skill Retrieval via Long-Horizon State Tracking](http://arxiv.org/abs/2611.01701v1)** — Xin Lin et al. (2026) · relevance 7
+- **[I-PTC: Interactive Programmatic Tool Calling for Stateful Tool-Augmented Agents](http://arxiv.org/abs/2611.01446v1)** — Huanzhi Mao et al. (2026) · relevance 7
+- **[How Much Can Tool Calls Reveal About You? Privacy Leakage from Tool-Call Traces](http://arxiv.org/abs/2610.41885v1)** — Donghang Duan et al. (2026) · relevance 6
+- **[Characterizing LLM Agent Behaviors in Module Shadowing Environments](http://arxiv.org/abs/2610.40716v1)** — Shuai Yang et al. (2026) · relevance 8
+- **[RepoTrace: Improving Requirement Tracing in Multi-Round Agent Interactions](http://arxiv.org/abs/2610.35333v1)** — Huanyu Liu et al. (2026) · relevance 6 · _cross-tier: Data Ingestion Strategies_
+- **[AT-AT: Automatic Tool Optimization from Agent Traces](http://arxiv.org/abs/2610.34679v1)** — Maya Ravichandran et al. (2026) · relevance 8
+- **[EnvLunch: The Environment as a Free Lunch for Learning to Interact](http://arxiv.org/abs/2610.33817v1)** — Wei Liu et al. (2026) · relevance 15
+- **[StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents](http://arxiv.org/abs/2610.32648v1)** — Shiwen Shan et al. (2026) · relevance 9
+- **[Large-Scale Study of GitHub Copilot Trajectories](http://arxiv.org/abs/2610.32313v1)** — Izah Sohail et al. (2026) · relevance 12
+- **[UniGuard: Multi-View Guardrail Learning for Cross-Interface Safety Generalization](http://arxiv.org/abs/2610.30742v1)** — Viet-Thanh Pham et al. (2026) · relevance 15 · _cross-tier: Data Creation and Selection_
+- **[SAPD: Learning from Agent Experience without Environment Interaction](http://arxiv.org/abs/2610.27847v1)** — Juncheng Diao et al. (2026) · relevance 9 · _cross-tier: Data Ingestion Strategies_
+- **[EGI-BENCH: An Enterprise General Intelligence Benchmark Suite](http://arxiv.org/abs/2610.27234v1)** — Zhiwei Liu et al. (2026) · relevance 12 · _cross-tier: Data Ingestion Strategies_
+- **[VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents](http://arxiv.org/abs/2610.28679v1)** — Jianing Yin et al. (2026) · relevance 14 · _cross-tier: Data Ingestion Strategies_
+- **[CXBench: A Benchmark for Process-Compliant LLM Agents in Regulated Customer-Experience Workflows](http://arxiv.org/abs/2610.25954v1)** — Boxi Yu et al. (2026) · relevance 8
+- **[Symbolic Constraint Agents: Mining Formal Tool-Call Constraints to Prevent Agent Errors](http://arxiv.org/abs/2610.25552v1)** — Jinu Lee et al. (2026) · relevance 6 · _cross-tier: Data Ingestion Strategies_
+- **[BrandEval: A Two-Track Multi-Agent Benchmark for Risk-Sensitive LLM Crisis Communication](http://arxiv.org/abs/2610.25208v1)** — Haotian Gan et al. (2026) · relevance 9
+- **[Selm: Self-Evolving Library Management for Multi-Skill Agent Optimization](http://arxiv.org/abs/2610.24630v1)** — Mengxi Hu et al. (2026) · relevance 10
+- **[Write Once, Check Many: Reusable Ledgers for Post-Hoc Policy Compliance Auditing of Agent Trajectories](http://arxiv.org/abs/2610.24483v1)** — Ashwin Nagarajan et al. (2026) · relevance 10
+- **[MetaCurate: Evolving Curation Filters for High-Quality Agentic Coding Data](http://arxiv.org/abs/2610.23134v1)** — Donghoon Kim et al. (2026) · relevance 19 · _cross-tier: Data Ingestion Strategies_
+- **[GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations](http://arxiv.org/abs/2610.22708v1)** — Nicholas Saban et al. (2026) · relevance 9
+- **[RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent](http://arxiv.org/abs/2610.21791v1)** — Huan Zhang et al. (2026) · relevance 10
+- **[ARIA: Runtime Inspection and Amendment for Multi-Agent Systems](http://arxiv.org/abs/2610.20780v1)** — Bolin Shen et al. (2026) · relevance 9 · _cross-tier: Data Ingestion Strategies_
+- **[Divergent Paths: Learning an Outcome-Predictive Representation of LLM Agent Trajectories](http://arxiv.org/abs/2610.19614v1)** — Alexander Gill et al. (2026) · relevance 15
+- **[SWEPatchTest: Evaluating Software Tests Beyond Reproduction](http://arxiv.org/abs/2610.18004v1)** — Hua Lu et al. (2026) · relevance 8
+- **[Agent-Reflex: Teaching Language Agents to Act Reflectively](http://arxiv.org/abs/2610.17953v1)** — Guanting Dong et al. (2026) · relevance 9
+- **[Instructions Are Evidence, Not Objectives: Measuring Outcome Alignment of Agents](http://arxiv.org/abs/2610.17757v1)** — Kaiming Liu et al. (2026) · relevance 7
+- **[EAU: Environment-Agent-User Co-evolution for Training User-Centric Agents](http://arxiv.org/abs/2610.16523v1)** — Min Cai et al. (2026) · relevance 9
+- **[When Agent Evaluation Becomes Unreliable: An Empirical Study of Oracle Failures and Configuration-Dependent Measurement in an LLM Agent Benchmark](http://arxiv.org/abs/2610.16067v1)** — Junjie Chen (2026) · relevance 12 · _cross-tier: Data Ingestion Strategies_
+- **[SkillFusion: Towards Reliable Multi-Skill Composition for LLM Agents](http://arxiv.org/abs/2610.15481v1)** — Enhao Huang et al. (2026) · relevance 7 · _cross-tier: Data Creation and Selection_
+- **[TurnCost: Turns, Not Observations: Cache-Aware Loop Engineering for Coding Agents](http://arxiv.org/abs/2610.15093v1)** — Pramod Kumar et al. (2026) · relevance 7
+- **[Proactive Agentic Orchestration](http://arxiv.org/abs/2610.13485v1)** — Xueyang Feng et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[SWE-Critix: Post-Training Generalist Verifiers for Assessing Coding-Agent Trajectories](http://arxiv.org/abs/2610.13356v2)** — Jiajun Hu et al. (2026) · relevance 16 · _cross-tier: Data Ingestion Strategies_
+- **[Quality, Not Just Outcome: A Structural Scoring Framework for Selecting Coding-Agent Trajectories for Supervised Fine-Tuning](http://arxiv.org/abs/2610.13152v1)** — Sida Li et al. (2026) · relevance 19 · _cross-tier: Data Creation and Selection_
+- **[TreeHCA: Hindsight-Guided Exploration and Credit Assignment for Multi-Turn LLM Agents](http://arxiv.org/abs/2610.12828v1)** — Debajoy Mukherjee et al. (2026) · relevance 8
+- **[SWEeper-Bench: Can Agents Discover Bugs in Interactive Software?](http://arxiv.org/abs/2610.14096v1)** — Yang Yao et al. (2026) · relevance 7
+- **[OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport](http://arxiv.org/abs/2610.12375v1)** — Babak Barazandeh et al. (2026) · relevance 8
+- **[When Should Agents Think? Adaptive Reasoning via Cross-Turn Estimation](http://arxiv.org/abs/2610.12061v1)** — Yiruo Cheng et al. (2026) · relevance 10 · _cross-tier: Data Ingestion Strategies_
+- **[Runnable Commit Untangling for Coding Agents](http://arxiv.org/abs/2610.11593v1)** — Jinfeng Jiang et al. (2026) · relevance 6
+- **[Loud Failures, Quiet Failures: Fault Detection and Recovery in Tool-Using Language Model Agents](http://arxiv.org/abs/2610.10062v1)** — Obada Kraishan (2026) · relevance 7
+- **[SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles](http://arxiv.org/abs/2610.09832v2)** — Yuyao Ge et al. (2026) · relevance 10
+- **[Coding-Agent Benchmarks Should Match Their Users' Task Flows](http://arxiv.org/abs/2610.09633v2)** — Igor Slinko et al. (2026) · relevance 6
+- **[From Uncertainty to Action: Learning to Steer LLM Agents](http://arxiv.org/abs/2610.09115v1)** — Hanwen Li et al. (2026) · relevance 8
+- **[CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?](http://arxiv.org/abs/2610.07557v1)** — Hang He et al. (2026) · relevance 7
+- **[Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving](http://arxiv.org/abs/2610.06597v1)** — Jiaqi Zhao et al. (2026) · relevance 9
+- **[Evaluating Inference Compute for Generative AI: A Framework for Enterprise Workloads](http://arxiv.org/abs/2610.07094v1)** — Abbas Raza Ali et al. (2026) · relevance 14 · _cross-tier: Data Ingestion Strategies_
+- **[From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation](http://arxiv.org/abs/2610.06100v1)** — Quanyu Long et al. (2026) · relevance 12 · _cross-tier: Data Ingestion Strategies_
+- **[StateWise: Diagnosing and Repairing Persistent Operational State Before Agent Actions](http://arxiv.org/abs/2610.05241v1)** — Yongyuan Peng et al. (2026) · relevance 12 · _cross-tier: Data Ingestion Strategies_
+- **[Passing the Test You Trained On: Re-evaluating Prompt-Injection Detectors for LLM Agents](http://arxiv.org/abs/2610.03448v1)** — Zhuowen Liu (2026) · relevance 6 · _cross-tier: Data Ingestion Strategies_
+- **[Agents Are Systems, Not Models: Rethinking Agentic Evaluation](http://arxiv.org/abs/2610.01618v1)** — Luis Wiedmann et al. (2026) · relevance 14
+- **[E2E-SWE: Benchmarking LLMs on Building Working Codebases from Scratch](http://arxiv.org/abs/2609.38335v1)** — Hantian Ding et al. (2026) · relevance 9 · _cross-tier: Data Ingestion Strategies_
+- **[AgentHop: A Diagnostic Benchmark for Agentic Multi-Hop Scientific Question Answering](http://arxiv.org/abs/2609.34428v1)** — Chanhee Park et al. (2026) · relevance 10 · _cross-tier: Data Ingestion Strategies_
+- **[AdaGuard: An Adaptive Guard Model with User-defined Policies](http://arxiv.org/abs/2609.34241v1)** — Yunhao Feng et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[ParaAgent: Reinforcing Parallel Acting in Open-World Tool Environments](http://arxiv.org/abs/2609.33618v1)** — Shengbin Yue et al. (2026) · relevance 9
+- **[Dense Is Not Enough: Hierarchical Supervision Allocation for Long-Horizon On-Policy Distillation](http://arxiv.org/abs/2609.33409v1)** — Yuhao Sun et al. (2026) · relevance 11 · _cross-tier: Data Ingestion Strategies_
+- **[ActiveMem: Dynamic Latent Memory Trees for Long-Horizon Agents](http://arxiv.org/abs/2609.33244v1)** — Song-Li Wu et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[LiteEvo: Automated, Cost-Efficient Harness Evolution for Generalization to Unseen Tasks](http://arxiv.org/abs/2609.33146v1)** — Euntae Choi et al. (2026) · relevance 7
+- **[AgentHabit: Characterizing Distinct Behaviors of Agents on Everyday Tasks](http://arxiv.org/abs/2609.32795v1)** — Woojung Song et al. (2026) · relevance 6 · _cross-tier: Data Ingestion Strategies_
+- **[EmailBench: A Benchmark for Evaluating LLM Agents on Enterprise Email and Productivity Tasks](http://arxiv.org/abs/2609.31906v1)** — Mukul Singh et al. (2026) · relevance 10 · _cross-tier: Data Ingestion Strategies_
+- **[DeepEdu-v1: Efficient and Scalable Agentic LLMs for Vietnamese Education](http://arxiv.org/abs/2609.31568v1)** — Quang Nguyen et al. (2026) · relevance 13 · _cross-tier: Data Ingestion Strategies_
+- **[RecToolBench: Benchmarking Recommendation-Specific Tool Orchestration under Fuzzy User Intent](http://arxiv.org/abs/2609.30717v1)** — Xiao Chen et al. (2026) · relevance 12
+- **[Verifiable Hidden Dynamics Play: Generating Agentic RL Environments from Solved Mechanisms](http://arxiv.org/abs/2609.27321v1)** — Xinjie Shen et al. (2026) · relevance 18
+- **[Trajectory-Aware Benchmark Subset Selection for Cost-Efficient Software Engineering Agent Regression Testing](http://arxiv.org/abs/2609.24928v1)** — Mahmoud Ayyad et al. (2026) · relevance 12
+- **[Beyond Outcomes: Dual-View Relational Learning for Efficient Agent Benchmarking](http://arxiv.org/abs/2609.18909v1)** — Xinshuai Guo et al. (2026) · relevance 11
+- **[Dependency-Aware Trajectory Refinement for Efficient Multi-Turn Agent Fine-Tuning](http://arxiv.org/abs/2609.18417v1)** — Zhuo Chen et al. (2026) · relevance 14 · _cross-tier: Data Ingestion Strategies_
+- **[AgentGuard: Learning Execution Guardrails from Anomalous Coding-Agent Trajectories](http://arxiv.org/abs/2609.16287v1)** — Wuyang Dai et al. (2026) · relevance 7
+- **[The Router Within: Eliciting Native Skill Routing from a Frozen LLM](http://arxiv.org/abs/2609.15982v1)** — Ruishuo Chen et al. (2026) · relevance 9
+- **[DynSTEER: Dynamic Stage-wise Trajectory Evaluation and Execution-time Review for Agents](http://arxiv.org/abs/2609.14637v2)** — Zhichao Shi et al. (2026) · relevance 13 · _cross-tier: Data Ingestion Strategies_
+- **[Same Patient, Different Order: Action-Level Reliability of Clinical LLM Agents Under Repeated Runs](http://arxiv.org/abs/2609.13582v1)** — Rohith Reddy Bellibatlu et al. (2026) · relevance 7 · _cross-tier: Data Ingestion Strategies_
+- **[Behavior Quotient Learning for Low-Rank Adaptation of LLM Agents](http://arxiv.org/abs/2609.12896v1)** — Pengyang Zhou et al. (2026) · relevance 7
+- **[The Agentic Company OS: Substrate Inversion for Sustained Enterprise Agent Deployment](http://arxiv.org/abs/2609.13334v1)** — Oliver Aleksander Larsen et al. (2026) · relevance 9
+- **[ParaRecover: A Process-Level Benchmark for Error Localization and Recovery in Parallel Tool-Use Agents](http://arxiv.org/abs/2609.12345v1)** — Bowen Guan et al. (2026) · relevance 10
+- **[BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure](http://arxiv.org/abs/2609.11028v1)** — Shenghan Zheng et al. (2026) · relevance 12
+- **[TrajMark: Ownership Attribution and Segment-Level Tamper Localization for Coding-Agent Trajectories](http://arxiv.org/abs/2609.10416v1)** — Bokang Zeng et al. (2026) · relevance 13 · _cross-tier: Data Ingestion Strategies_
+- **[Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course](http://arxiv.org/abs/2609.08832v1)** — Evelyn Duesterwald et al. (2026) · relevance 8
+- **[Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments](http://arxiv.org/abs/2609.04148v1)** — Jie Wu et al. (2026) · relevance 18
+- **[Retrieved but not ranked: surface-form bias in structural retrieval, from mathematics to agent trajectories](http://arxiv.org/abs/2609.01556v1)** — Nabira Rashid et al. (2026) · relevance 15
+- **[Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents](http://arxiv.org/abs/2608.31057v1)** — Le Chen et al. (2026) · relevance 8
+- **[HiRS-Agent: A Hierarchical Multi-Agent System for Reliable Long-Horizon Remote Sensing Task Solving](http://arxiv.org/abs/2608.30672v1)** — Boyang Mu et al. (2026) · relevance 10 · _cross-tier: Data Ingestion Strategies_
+- **[CAST: Critique-Aware Supervision for Training Reliable Long-Horizon Tool-Calling Agents](http://arxiv.org/abs/2608.30147v1)** — Amir Saeidi et al. (2026) · relevance 13 · _cross-tier: Data Ingestion Strategies_
+- **[Can LLM Agents Discover? Evaluating Creativity on ML Engineering Tasks](http://arxiv.org/abs/2608.30047v1)** — Shitanshu Bhushan et al. (2026) · relevance 6
+- **[trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories](http://arxiv.org/abs/2609.00038v1)** — Hadi Mohammadi (2026) · relevance 15
+- **[SWE-Prime: Fewer Trajectories, Better Performance](http://arxiv.org/abs/2608.27449v1)** — Dewu Zheng et al. (2026) · relevance 18 · _cross-tier: Data Creation and Selection_
+- **[TraceBench: Controlled Evaluation of LLM Agents for Time-Series Root-Cause Attribution](http://arxiv.org/abs/2608.27182v1)** — Tommaso Bendinelli et al. (2026) · relevance 7
+- **[TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development](http://arxiv.org/abs/2608.26086v2)** — Jiarui Yan et al. (2026) · relevance 10
+- **[Grounded Checklist Partial Credit for Agent Skill Trajectories](http://arxiv.org/abs/2608.27487v1)** — Suliu Qin et al. (2026) · relevance 12
+- **[IAPO: Influence-Aware Policy Optimization for Credit Assignment in Multi-Turn Service Agents](http://arxiv.org/abs/2608.24588v2)** — Bo Ren et al. (2026) · relevance 8 · _cross-tier: Data Creation and Selection_
+- **[Cost-Utility Alignment in LLM Agent Trajectories:Profiling,Attribution,Diagnosis,Adaptation,and Evaluation](http://arxiv.org/abs/2608.26195v1)** — Dan Liu et al. (2026) · relevance 15 · _cross-tier: Data Ingestion Strategies_
+- **[Learning Generalizable Behaviors for Terminal Agents](http://arxiv.org/abs/2608.22631v2)** — Yihang Yao et al. (2026) · relevance 7
+- **[When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents](http://arxiv.org/abs/2608.22339v1)** — Zihan Lin et al. (2026) · relevance 12 · _cross-tier: Data Ingestion Strategies_
+- **[Beyond Success and Failure: Length-Aware Contrastive Learning for GUI Agents](http://arxiv.org/abs/2608.21830v1)** — Chengyang Gu et al. (2026) · relevance 10
+- **[Beyond LLM-Based Reasoning: Lightweight GNNs for Agent Failure Attribution](http://arxiv.org/abs/2608.18575v1)** — Ting-Wei Li et al. (2026) · relevance 20 · _cross-tier: Data Ingestion Strategies, Data Creation and Selection_
+- **[What Makes Software Issue Resolution Tasks Difficult for Agents?](http://arxiv.org/abs/2608.18280v1)** — Ebtesam Al-Haque et al. (2026) · relevance 10
+- **[Graphectory Viewer: A Tool for Process-Centric Analysis of Agentic Software Trajectories](http://arxiv.org/abs/2608.17195v1)** — Charlie Jyu et al. (2026) · relevance 16
+- **[$R^3$-Bench: LLMs Struggle with Resource-Rational Reasoning under Shared Budgets](http://arxiv.org/abs/2608.16033v1)** — Peisong Wang et al. (2026) · relevance 10 · _cross-tier: Data Ingestion Strategies_
+- **[From Sequence to Structure: Relational Uncertainty Propagation for LLM Agents](http://arxiv.org/abs/2608.16002v2)** — Zhengzhao Ma et al. (2026) · relevance 7
+- **[Beyond Single-Turn Confidence: Trajectory-Adapted Uncertainty Quantification for LLM Agents](http://arxiv.org/abs/2608.11552v1)** — Dylan Bouchard et al. (2026) · relevance 16
+- **[Benchmarking LLM Judges for Mobile Agent Evaluation](http://arxiv.org/abs/2608.11434v1)** — Ziqiang Wang et al. (2026) · relevance 6
+- **[Beyond Pass@k: Measuring Reliability and Security of Agentic Code Generation](http://arxiv.org/abs/2608.14711v1)** — Jiajun Jiang et al. (2026) · relevance 6
+
+### Instruction / Preference Data (54)
+
+- **[Follow the Features: SAE Feature-Guided Data-Efficient Instruction-Tuning of Large Language Models](http://arxiv.org/abs/2611.04085v2)** — Ryan Swift et al. (2026) · relevance 8
+- **[Query-based Submodular Data Selection for Efficient Instruction Tuning](http://arxiv.org/abs/2611.04059v1)** — Zhenghao Zhao et al. (2026) · relevance 17 · _cross-tier: Data Creation and Selection_
+- **[Q-CamTuning: A Multimodal Large Language Model for Fine-Grained Quality Reasoning in Livestreaming Camera Tuning](http://arxiv.org/abs/2611.03007v1)** — Yanchao Bi et al. (2026) · relevance 6
+- **[PixelBench: Can LLMs Understand and Generate Images Pixel by Pixel?](http://arxiv.org/abs/2611.02540v2)** — Haoquan Zhang et al. (2026) · relevance 11
+- **[AdKnob: Ad Intensity Control and Labeling for LLM-Native Advertising](http://arxiv.org/abs/2611.00822v1)** — Woo Jae Kim et al. (2026) · relevance 7
+- **[Two Birds with One Stone: Skill-Augmented Generation via Unified Retrieval and Utilization](http://arxiv.org/abs/2610.38204v1)** — Zihan Luo et al. (2026) · relevance 9 · _cross-tier: Data Ingestion Strategies_
+- **[Follow the Gradient: Tracing Safety Degradation Back to Training Data](http://arxiv.org/abs/2610.37481v1)** — Saket Reddy et al. (2026) · relevance 8
+- **[Aligning Large Language Models for Safety in African Languages: A Case Study of Hausa](http://arxiv.org/abs/2610.37245v1)** — Valdini Douglace Lemofouet et al. (2026) · relevance 7
+- **[DocTalk: Enhancing Medical Knowledge Retrieval via Fine-tuned Large Language Models with Chain-of-Thought Reasoning for Robust Clinical Decision Support](http://arxiv.org/abs/2610.34871v1)** — Asad Gohar et al. (2026) · relevance 15 · _cross-tier: Data Creation and Selection_
+- **[SWE-VERIFIER: Selective Verification for Cost-Efficient Coding Agents](http://arxiv.org/abs/2610.30284v1)** — Kaijian Zou et al. (2026) · relevance 14 · _cross-tier: Data Ingestion Strategies_
+- **[Differentially Private Sparse Reward Estimation with Preference Feedback](http://arxiv.org/abs/2610.30099v1)** — Meng Ding et al. (2026) · relevance 6
+- **[Beyond Leaderboards: A Method for Application-Specific Capability Profiling of Large Language Models](http://arxiv.org/abs/2610.25659v1)** — Oleg Grynets et al. (2026) · relevance 6
+- **[Aligning Cultural Behaviors in Arabic Language Models via Preferences](http://arxiv.org/abs/2610.25362v1)** — Junhong Liang et al. (2026) · relevance 8
+- **[Cultural (In)Competence: Investigating Culture-Specific Stereotype Detection Capabilities of LLMs](http://arxiv.org/abs/2610.22545v1)** — Maximilian Spliethöver et al. (2026) · relevance 6
+- **[FRACTION: Fraud Explanation Generation via Agentic Graph Context Navigation](http://arxiv.org/abs/2610.18023v1)** — Cecelia Soh et al. (2026) · relevance 16
+- **[Online LLM Personalization from Pairwise Preferences Across Users](http://arxiv.org/abs/2610.17203v1)** — Romain Puech et al. (2026) · relevance 8 · _cross-tier: Data Creation and Selection_
+- **[Instruction-Conditioned Electromagnetic Spectrum Understanding via Budget-Adaptive Signal Tokenization](http://arxiv.org/abs/2610.12142v1)** — Lei Zhai et al. (2026) · relevance 7
+- **[UniData: Universal Multimodal Instruction Generation Pipeline](http://arxiv.org/abs/2610.11363v1)** — Jiaqi Tang et al. (2026) · relevance 8 · _cross-tier: Data Creation and Selection_
+- **[OTel: Open Telco AI Datasets, Benchmarks, and Models](http://arxiv.org/abs/2610.07766v4)** — Farbod Tavakkoli et al. (2026) · relevance 14 · _cross-tier: Data Ingestion Strategies_
+- **[EnGRICH: Enhancing Generative Reward Modeling with Critiques from Humans](http://arxiv.org/abs/2610.05370v2)** — Xuancheng Li et al. (2026) · relevance 6
+- **[Enhancing Biomedical Named Entity Recognition via Multiple Programming Languages Instruction Tuning and Ensemble Method](http://arxiv.org/abs/2610.02949v1)** — Songtao Li et al. (2026) · relevance 8
+- **[ReCAP: Retrieval-Guided Capability Reuse for Multimodal Continual Instruction Tuning](http://arxiv.org/abs/2609.37889v1)** — Tao Hu et al. (2026) · relevance 12 · _cross-tier: Data Ingestion Strategies_
+- **[ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs](http://arxiv.org/abs/2609.37054v2)** — Xianhui Zhang et al. (2026) · relevance 7
+- **[SeLMRoute: Probabilistic Semantic Evidence for Large Language Model Routing](http://arxiv.org/abs/2609.34736v1)** — Vasilis Perifanis et al. (2026) · relevance 7
+- **[Understanding Clinical Cognitive Dialogues Using Large Language Models](http://arxiv.org/abs/2609.34125v2)** — Vishalakshi Arumugam et al. (2026) · relevance 10
+- **[Diffusion Reward Models](http://arxiv.org/abs/2609.33803v2)** — Xiangyang Wang et al. (2026) · relevance 6
+- **[ScopeIF: Improving Scope-Aware Precise Instruction-Following in Large Language Models via Graded Reward Modeling](http://arxiv.org/abs/2609.32189v1)** — Bosi Wen et al. (2026) · relevance 10 · _cross-tier: Data Ingestion Strategies_
+- **[Improving Medical Calculation of LLMs with Embedded Coding](http://arxiv.org/abs/2609.31908v1)** — Tianshi Ming et al. (2026) · relevance 8
+- **[TemporalGraphLLM: Temporal Graph Neural Networks with Large Language Models for Dynamic Text-Attributed Graphs](http://arxiv.org/abs/2609.31881v1)** — Moran Beladev et al. (2026) · relevance 6
+- **[onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction](http://arxiv.org/abs/2609.24983v1)** — Lei Yang et al. (2026) · relevance 17 · _cross-tier: Data Creation and Selection_
+- **[Extracting Arguments, Not Just Classifying Them: Instruction-Tuned LLMs for Generative Component Detection](http://arxiv.org/abs/2609.24855v1)** — Sofiane Elguendouze et al. (2026) · relevance 7
+- **[LIMIT: Less Is More for Instruction Tuning in Text-to-SQL](http://arxiv.org/abs/2609.24186v1)** — Haoyuan Ma et al. (2026) · relevance 11 · _cross-tier: Data Creation and Selection_
+- **[Form Over Content In Gradient-Based Data Attribution Methods](http://arxiv.org/abs/2609.19589v1)** — Sunwoo Kim et al. (2026) · relevance 13 · _cross-tier: Data Creation and Selection_
+- **[CliniCIRCA: A Modular LLM Framework for Constructing Longitudinal Mental Health Patient Journeys from Raw EHR Narratives](http://arxiv.org/abs/2609.19585v1)** — Aiwei Ivy Zhang et al. (2026) · relevance 6
+- **[SKIP: a Self-knowledge-guided Step-wise Preference Learning Framework for Concise Reasoning](http://arxiv.org/abs/2609.17019v1)** — Qinhong Lin et al. (2026) · relevance 7
+- **[Style-Debiased DPO: Updating LLM Knowledge with Factuality-Aware Synthetic Preference Data](http://arxiv.org/abs/2609.16532v1)** — Takayuki Yamamoto et al. (2026) · relevance 18 · _cross-tier: Data Creation and Selection_
+- **[Coaching Qwen3 Coder 30B to Think Like a CodeClash Arena Agent](http://arxiv.org/abs/2609.16096v1)** — Ivy Ning Zhang (2026) · relevance 10
+- **[SALUTE: Benchmarking and Adapting LLMs for the Defense Domain](http://arxiv.org/abs/2609.15022v1)** — Hyeongcheol Park et al. (2026) · relevance 15 · _cross-tier: Data Ingestion Strategies_
+- **[Clustering-Based Balanced Sampling and Allocation with Data Parallelism for High-Performance Fine-Tuning](http://arxiv.org/abs/2609.12584v1)** — Hyunjin Kim et al. (2026) · relevance 7
+- **[Nuha-Speech: Building General-Purpose Arabic Speech-LLMs](http://arxiv.org/abs/2609.11892v1)** — Yingzhi Wang et al. (2026) · relevance 8
+- **[EuroAlpaca: Task-Preserving Localisation of Instruction Data for European Languages](http://arxiv.org/abs/2609.05043v1)** — Aleix Sant et al. (2026) · relevance 12
+- **[Ready to Speak: Aligning LLMs for TTS-Friendly Text Generation](http://arxiv.org/abs/2609.01246v1)** — Thibaut Thonet et al. (2026) · relevance 7
+- **[Fine-Tuning Large Language Models to Classify Pull Request-Issue Alignments: Going Beyond Prompting](http://arxiv.org/abs/2609.01087v1)** — Mustafa Yasir Altunhan et al. (2026) · relevance 6 · _cross-tier: Data Creation and Selection_
+- **[SFAD: Speculative Factuality-Aware Decoding](http://arxiv.org/abs/2609.00796v2)** — Guanqiao Chen et al. (2026) · relevance 7 · _cross-tier: Data Ingestion Strategies_
+- **[CRAFT: Fine-Tuning Pre-hoc Explainability in AI-native 6G RAN](http://arxiv.org/abs/2609.00590v1)** — Pranshav Gajjar et al. (2026) · relevance 7
+- **[Synthetic Worlds for Temporal Evaluation and Knowledge Updating in LLMs](http://arxiv.org/abs/2609.00184v2)** — Jonathan Zheng et al. (2026) · relevance 14 · _cross-tier: Data Ingestion Strategies_
+- **[Cross-Relational Preference Learning for Better LLM Instruction Following](http://arxiv.org/abs/2608.29352v1)** — Runsheng Li et al. (2026) · relevance 9 · _cross-tier: Data Ingestion Strategies_
+- **[Instruction Quality Matters: Refining Instructions for Effective Preference Learning](http://arxiv.org/abs/2608.26779v1)** — Seohyeong Lee et al. (2026) · relevance 10 · _cross-tier: Data Creation and Selection_
+- **[Answer Is Cheap, Show Me the Evidence! Augmenting Automated Vulnerability Assessment with Evidence](http://arxiv.org/abs/2608.25905v1)** — Shengyi Pan et al. (2026) · relevance 10
+- **[From Specialization to Generalization: Instruction-tuned LLMs for Robust Harmful Content Mitigation](http://arxiv.org/abs/2608.25605v1)** — Lukas Edman et al. (2026) · relevance 7
+- **[Preference Data Selection for Mitigating the Alignment Tax in Large Language Models](http://arxiv.org/abs/2608.24192v1)** — Minsu Kim et al. (2026) · relevance 20 · _cross-tier: Data Creation and Selection_
+- **[Beyond Single Object: Learning 3D Relations with Large Language Models](http://arxiv.org/abs/2608.15710v1)** — Kohsuke Ide et al. (2026) · relevance 8
+- **[OTel: Building Domain-Specialized Telecom LLM Foundations for Intelligent Networks](http://arxiv.org/abs/2608.15436v1)** — Farbod Tavakkoli et al. (2026) · relevance 10 · _cross-tier: Data Ingestion Strategies_
+- **[MoE Router-Guided Clustering for Heterogeneous Federated Instruction Tuning](http://arxiv.org/abs/2608.15311v1)** — Ankita Sharma et al. (2026) · relevance 8
+
+### Reasoning and Code (36)
+
+- **[Construct Validity of Coding Benchmarks for LLM-based Agentic Coding Tools](http://arxiv.org/abs/2611.05665v1)** — Alexander Berndt et al. (2026) · relevance 7
+- **[Launder-Bench: Can Repository-Level Agentic Code Laundering Be Detected?](http://arxiv.org/abs/2611.01966v1)** — Yuntong Hu et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[BenchMeUp: Building Software Engineering Benchmarks from Natural-Language Specifications](http://arxiv.org/abs/2610.37283v1)** — Islem Bouzenia et al. (2026) · relevance 7 · _cross-tier: Data Ingestion Strategies_
+- **[RIPPLE: Recovery Internalization through Process-Level Policy Learning and Effect-Aware Credit for Long-Horizon Agentic Coding](http://arxiv.org/abs/2610.31276v1)** — Jingxuan Xu et al. (2026) · relevance 9
+- **[Benchmarking Coding Agents for System-Level Performance Optimization](http://arxiv.org/abs/2610.29695v1)** — Yanze Zhang et al. (2026) · relevance 6
+- **[REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents](http://arxiv.org/abs/2610.27377v1)** — Xinyi Lisa Chen et al. (2026) · relevance 7
+- **[Teaching Code Agents to Ask Without Leaking Private Code](http://arxiv.org/abs/2610.24824v1)** — Wenjia Jiang et al. (2026) · relevance 7
+- **[SWE-Bench Pro V2: A Cleaner, Harder-to-Game Coding Benchmark](http://arxiv.org/abs/2610.24206v1)** — Soham Dan et al. (2026) · relevance 7
+- **[SIEVE: A Parameterized GitHub Corpus Builder for Software Engineering Research](http://arxiv.org/abs/2610.22544v1)** — Musfiqur Rahman et al. (2026) · relevance 9 · _cross-tier: Data Ingestion Strategies_
+- **[OPRD: On-Policy Reminder Distillation for Long-Horizon Coding Agents](http://arxiv.org/abs/2610.21496v2)** — Yuechen Luo et al. (2026) · relevance 7
+- **[SPROUT: Scaling Agentic Reinforcement Learning for Long-Horizon Software Engineering](http://arxiv.org/abs/2610.14405v1)** — Mengyang Liu et al. (2026) · relevance 11
+- **[CB-Orchestrator: Adaptive Workflow Optimization for LLM Agents via Contextual Bandits](http://arxiv.org/abs/2610.13064v1)** — Jiahang Sun et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[Telling FIBS: Probes Effectively Detect Sabotage and Catch Unverbalized Deception](http://arxiv.org/abs/2610.12445v3)** — Oskar J. Hollinsworth et al. (2026) · relevance 7
+- **[Before They Can Solve: Predicting Post-Training Coding-Agent Performance from Base Models](http://arxiv.org/abs/2610.10478v1)** — Tan Yu et al. (2026) · relevance 12 · _cross-tier: Data Ingestion Strategies_
+- **[TestJack: Should you trust the results in coding benchmarks? Agentic Coding Benchmarks Auditing via Evaluator Evolution](http://arxiv.org/abs/2610.10619v1)** — Shuangjie Yao et al. (2026) · relevance 9
+- **[ParanoiaEval: Benchmarking Unnecessary Defensive Work in Agentic Coding](http://arxiv.org/abs/2610.08662v3)** — Hanjun Luo et al. (2026) · relevance 7
+- **[VHDL-REPOBENCH: A Repository-Level Benchmark for Evaluating Large Language Models on VHDL Design Generation](http://arxiv.org/abs/2610.05380v1)** — Prashanth Vijayaraghavan et al. (2026) · relevance 6 · _cross-tier: Data Ingestion Strategies_
+- **[MemTrace: State-Consistent Memory for Long-Horizon Coding Agents](http://arxiv.org/abs/2610.04838v2)** — Hongming Xu et al. (2026) · relevance 7
+- **[Functionally Equivalent or Not? Graph-Grounded Differential Surrogate Execution for Code Equivalence](http://arxiv.org/abs/2610.04371v1)** — Amit Kachroo et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents](http://arxiv.org/abs/2610.02163v1)** — Xuan Zhang et al. (2026) · relevance 10
+- **[AgSpec: Pushing the Limits of Retrieval-Based Speculative Decoding in Coding Agent Pipelines](http://arxiv.org/abs/2610.01108v2)** — Sumin Lee et al. (2026) · relevance 13 · _cross-tier: Data Ingestion Strategies_
+- **[Learning When and How to Intervene: A Hindsight-Distilled Sentinel for Coding Agents](http://arxiv.org/abs/2609.39957v1)** — Jiangrui Zhao et al. (2026) · relevance 7
+- **[QuantCode Model: Specializing Language Models for Executable Algorithmic Trading Code](http://arxiv.org/abs/2609.39420v1)** — Alexey Chernysh et al. (2026) · relevance 6
+- **[XRepoSkill: Learning Transferable Skills for Software Engineering Agents](http://arxiv.org/abs/2609.36807v1)** — Yaoqi Guo et al. (2026) · relevance 8
+- **[CodeSkill: Latent Skill Abstraction for Long-Horizon Code Agents](http://arxiv.org/abs/2609.33243v1)** — Song-Li Wu et al. (2026) · relevance 7
+- **[XAgent: eXecution-guided Agentic AI for Effective Localization and Resolution of GitHub Issues](http://arxiv.org/abs/2609.09769v1)** — Hieu Huynh et al. (2026) · relevance 8
+- **[RepoNav: From Snippet Retrieval to File-Centered Repository Navigation for Code Agents](http://arxiv.org/abs/2609.08355v1)** — Hongzheng Chai et al. (2026) · relevance 7 · _cross-tier: Data Ingestion Strategies_
+- **[Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation](http://arxiv.org/abs/2609.01601v1)** — Kefeng Duan et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[XREPOTEST: Benchmarking Multilingual Repository-Level Unit Test Generation for Large Language Models](http://arxiv.org/abs/2608.25939v1)** — Dung Le Quang et al. (2026) · relevance 11 · _cross-tier: Data Ingestion Strategies_
+- **[The Von-Neumann State-Space Transformer for neural decoding](http://arxiv.org/abs/2608.25088v1)** — Morteza Sarafyazd (2026) · relevance 6 · _cross-tier: Data Ingestion Strategies_
+- **[DeepRepoQA: Code Repository Question Answering with Deep Agent Exploration](http://arxiv.org/abs/2608.24221v1)** — Weihan Peng et al. (2026) · relevance 7 · _cross-tier: Data Ingestion Strategies_
+- **[Teaching LLMs How ICU Physicians Approach Clinical Reasoning Through OMOP-Aligned Retrieval Improves Reasoning Across Clinical Domains](http://arxiv.org/abs/2608.22622v1)** — Miguel Contreras et al. (2026) · relevance 10
+- **[A Jagged Frontier: Evaluating Robustness of Code Agents to Semantics-Preserving Transformations](http://arxiv.org/abs/2608.18389v1)** — Hasan Najib Mahmud et al. (2026) · relevance 6
+- **[CoSA: Context-Aware Severity Assessment via Context Analysis with Large Language Models](http://arxiv.org/abs/2608.13928v1)** — Jinfeng Jiang et al. (2026) · relevance 9
+- **[Refine After Generation: Toward Correct and Concise Patches in LLM-based Program Repair](http://arxiv.org/abs/2608.13292v1)** — Wenqiang Luo et al. (2026) · relevance 6
+- **[The Devil Is in the Interface: Evaluating How Tool Architecture Shapes Coding Agent Behavior](http://arxiv.org/abs/2608.11386v1)** — Xiangzhe Xu et al. (2026) · relevance 9 · _cross-tier: Data Ingestion Strategies_
+
+### Safety and Alignment (33)
+
+- **[Stress Testing Chain-of-Thought Monitoring Against Covert Misalignment](http://arxiv.org/abs/2611.07586v1)** — Yao Huang et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[ANGLER: Verifier-Grounded Benchmarking with an Adaptive Attacker for Web Agents](http://arxiv.org/abs/2610.41272v1)** — Yini Huang et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[SentryBench: A Cost-Sensitive Benchmark for Adversarial Robustness of Tool-Using LLM Agents in Public-Safety Deployments](http://arxiv.org/abs/2610.34535v1)** — Md Abu Yusuf et al. (2026) · relevance 6
+- **[When Personas Become Harmful: Guiding LLMs with Global Citizenship Values Alignment](http://arxiv.org/abs/2610.33899v1)** — Siqi Shen et al. (2026) · relevance 7 · _cross-tier: Data Creation and Selection_
+- **[CAPSafe: A Benchmark for Contextual Action and Plan Safety Reasoning in Embodied Agents](http://arxiv.org/abs/2610.28381v1)** — Youmna Farag et al. (2026) · relevance 8
+- **[SoK: PIAtlas: Decomposing the Unbounded Prompt Injection Attack Space](http://arxiv.org/abs/2610.24999v1)** — Stavros Damianakis et al. (2026) · relevance 7 · _cross-tier: Data Ingestion Strategies_
+- **[Peer Pressure: Execution-Verified Co-Evolution of Attacker and Defender Populations for Code Security](http://arxiv.org/abs/2610.24896v1)** — Khushbu Pahwa et al. (2026) · relevance 6
+- **[Pair-Aware Optimization: Coordinating Exploration and Refinement for Jailbreaking LLM Agents](http://arxiv.org/abs/2610.24823v1)** — Juanyang Xu et al. (2026) · relevance 7 · _cross-tier: Data Ingestion Strategies_
+- **[AM-Bench: A Unified Taxonomy and Evaluation Suite for Agentic Misalignment](http://arxiv.org/abs/2610.24264v3)** — Eric Zhang et al. (2026) · relevance 8
+- **[PROBE: Learning to Audit Policy Compliance in Tool-Using LLM Agents](http://arxiv.org/abs/2610.22124v1)** — Kshitij Mishra et al. (2026) · relevance 7
+- **[RedDarwin: Evolving Jailbreak Skills against Frontier LLMs](http://arxiv.org/abs/2610.23726v1)** — Zhouyuan Ma et al. (2026) · relevance 6 · _cross-tier: Data Ingestion Strategies_
+- **[PatchBench: Measuring Collateral Damage in Activation Patching](http://arxiv.org/abs/2610.10276v1)** — Alexi Canesse et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[Dynamic Budget Allocation for LLM Evaluation under Hard Resource Constraints](http://arxiv.org/abs/2610.07362v1)** — Shai Feldman et al. (2026) · relevance 10
+- **[MLLMs Fail to Refuse when Using Tools Agentically](http://arxiv.org/abs/2610.03938v1)** — Rikiya Takehi et al. (2026) · relevance 9
+- **[MOMAT: Mixture of Multiple Atlases for Low-Power Jailbreak Defense of Quantized LLMs](http://arxiv.org/abs/2610.01058v1)** — Boyang Li et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[PROACT-Agent: Progressive Runtime Oversight and Active Circuit-breaking for Real-Time Safety](http://arxiv.org/abs/2609.34415v1)** — Ding Jia et al. (2026) · relevance 11
+- **[Agent Safety From Within: Detecting Harmful Trajectories from LLM Internal States](http://arxiv.org/abs/2609.33039v1)** — Difan Jiao et al. (2026) · relevance 17
+- **[Connecting the Dots in Agentic AI Security: A Cross-Dimensional Threat Taxonomy, Evaluation Maturity, and Open Challenges](http://arxiv.org/abs/2609.23894v1)** — Heewon Baek et al. (2026) · relevance 11 · _cross-tier: Data Ingestion Strategies_
+- **[MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning](http://arxiv.org/abs/2609.22724v1)** — Changyue Jiang et al. (2026) · relevance 11
+- **[Benchmarking Factual Robustness of LLMs via Multi-conversation Persuasion](http://arxiv.org/abs/2609.16777v1)** — Zhuoang Cai (2026) · relevance 9 · _cross-tier: Data Ingestion Strategies_
+- **[Harmfulness Propagation Dynamics: Layer-wise Trajectories of Adversarial Intent in Large Language Models](http://arxiv.org/abs/2609.13534v1)** — Noor Islam S. Mohammad et al. (2026) · relevance 11
+- **[SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment](http://arxiv.org/abs/2609.02786v1)** — Qinghua Mao et al. (2026) · relevance 12
+- **[Who Judges the Judges? A Chinese Safety QA Benchmark for Evaluating LLM Responses and Safety Judges](http://arxiv.org/abs/2609.01210v1)** — Rui Yang et al. (2026) · relevance 9 · _cross-tier: Data Ingestion Strategies_
+- **[Validity-Aware Jailbreak Evaluation for Large Language Models](http://arxiv.org/abs/2609.00498v1)** — Qilong Wu et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[EvoSkill Injection: Red-Teaming Autonomous Skill Generation and Evolution in Self-Evolving Agents](http://arxiv.org/abs/2608.30429v1)** — Doyun Kim et al. (2026) · relevance 9
+- **[RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution](http://arxiv.org/abs/2608.27439v1)** — Junjie Zhang et al. (2026) · relevance 16
+- **[RePolicy: Reinforcement Learning for Safety-Policy Invocation in Agent Safeguards](http://arxiv.org/abs/2608.24275v2)** — Houcheng Jiang et al. (2026) · relevance 8
+- **[No One Model Catches Every Harm: Benchmarking Content Moderation Across Safety Scenarios](http://arxiv.org/abs/2608.21775v1)** — Afshin Orojlooyjadid et al. (2026) · relevance 6
+- **[HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety](http://arxiv.org/abs/2608.17597v1)** — Yajing Bai et al. (2026) · relevance 6
+- **[TRACE: Trajectory Aware Reasoning for Multi-Turn Adversarial Conversation Evaluation](http://arxiv.org/abs/2608.15594v1)** — Md Messal Monem Miah et al. (2026) · relevance 8
+- **[Language-Specific Gaps in AI Safety Training Datasets](http://arxiv.org/abs/2608.13695v1)** — Chialuka Prisca-Mary Onuoha et al. (2026) · relevance 8
+- **[REDAgentBench: Executable Red Teaming and Faithful Measurement of LLM Agent Systems](http://arxiv.org/abs/2608.10669v1)** — Zixing Chen et al. (2026) · relevance 7 · _cross-tier: Data Ingestion Strategies_
+- **[Semantic Uncertainty-Guided Orchestration in Hierarchical Multi-Agent Systems](http://arxiv.org/abs/2608.14707v1)** — John Knowlton et al. (2026) · relevance 7 · _cross-tier: Data Ingestion Strategies, Data Creation and Selection_
+
+### Pretraining / General Data (26)
+
+- **[SNAPPerf: Software-Aware Tabular Foundation Model for Retraining-Free Performance Prediction of Configurable Systems](http://arxiv.org/abs/2611.00944v1)** — Amine Lbath et al. (2026) · relevance 7 · _cross-tier: Data Ingestion Strategies_
+- **[Agentic Backdoors via Pretraining Poisoning](http://arxiv.org/abs/2610.37741v1)** — Xinyan Hu et al. (2026) · relevance 8
+- **[Teach reality, not ethics: a drop-in continued-pretraining corpus installs coupled human-biosphere-AI welfare dispositions across model families](http://arxiv.org/abs/2610.37484v1)** — Trent R. Northen et al. (2026) · relevance 7
+- **[Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2](http://arxiv.org/abs/2610.31636v1)** — Marek Šuppa et al. (2026) · relevance 13
+- **[Parameter-Efficient Adaptation of Large Language Models to a Low-Resource Agglutinative Language: A Corpus, Datasets, and a Reproducible Benchmark for the Bashkir Language](http://arxiv.org/abs/2610.31397v1)** — Mullosharaf K. Arabov et al. (2026) · relevance 14
+- **[Our Own Jev: Typed Decisions in One Forward Pass, from an In-House Judge to Open LoRA Models](http://arxiv.org/abs/2610.29052v1)** — Yuchuan Weng et al. (2026) · relevance 6
+- **[Africa-Papers: A 10-Billion-Token Multi-Domain Academic Corpus for African Foundation Language Models](http://arxiv.org/abs/2610.28173v1)** — Mich-Seth Owusu (2026) · relevance 8
+- **[Scaling Synthetic Pre-training Data and Evaluation for Indic LLMs](http://arxiv.org/abs/2610.26006v1)** — Abhinav Khattar et al. (2026) · relevance 7
+- **[Shaer: Controlled Arabic Poetry Generation with Meter Subform and Semantic Conditioning](http://arxiv.org/abs/2610.09756v1)** — Ahmad Abbas et al. (2026) · relevance 6
+- **[Socio-Foundation: A Model for Generalizable Individual Behavior Simulation via Hierarchical Capability Distillation](http://arxiv.org/abs/2610.08967v1)** — Liang Wang et al. (2026) · relevance 9
+- **[Cross-Lingual Transferability of Training Data Extraction Attacks to Recover Memorized PII](http://arxiv.org/abs/2610.06093v1)** — Alexandru Nazare et al. (2026) · relevance 8
+- **[LUMOS: Tracing Parametric Knowledge from Training Data to Behavioral Outputs in LLMs](http://arxiv.org/abs/2610.02902v2)** — Seoyeon Ye et al. (2026) · relevance 8 · _cross-tier: Data Ingestion Strategies_
+- **[Coco: An Agentic Copilot for the Hardware--Software Co-Design Lifecycle](http://arxiv.org/abs/2610.02376v1)** — Samuel Kushnir et al. (2026) · relevance 9
+- **[ASCRIBE: Atomic and Significance-Based Reasoning for Thai Clinical SOAP Note Generation](http://arxiv.org/abs/2610.01234v1)** — Tarm Kalavantavanich et al. (2026) · relevance 12 · _cross-tier: Data Creation and Selection_
+- **[It's All Training: A Fully Synthetic Single-Stage Recipe for LLMs](http://arxiv.org/abs/2609.37891v1)** — Pierre-Carl Langlais et al. (2026) · relevance 12 · _cross-tier: Data Creation and Selection_
+- **[ReScraper: Unified Scraping and Cleaning of Web Data for Effective LLM Pretraining](http://arxiv.org/abs/2609.34287v1)** — Zichun Yu et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[TelecomGPT-R1: Unified Post-Training for Reasoning Across Heterogeneous Telecom Tasks](http://arxiv.org/abs/2609.25356v1)** — Bohao Wang et al. (2026) · relevance 12 · _cross-tier: Data Creation and Selection_
+- **[QVAC Genesis III: A Large-Scale, High-Quality Open Synthetic STEM Corpus for Efficient Language Model Pre-Training](http://arxiv.org/abs/2609.19513v2)** — Davide Vitabile et al. (2026) · relevance 13
+- **[Where Should a Document Live: Context, Representations, or Parameters?](http://arxiv.org/abs/2609.17346v1)** — Nathanaël Carraz Rakotonirina et al. (2026) · relevance 6 · _cross-tier: Data Ingestion Strategies_
+- **[From Zero to Hero: An Open LLM Ecosystem for Armenian](http://arxiv.org/abs/2609.03350v1)** — Erik Arakelyan et al. (2026) · relevance 7
+- **[Disclosure-Gated User Simulation for Companion-Agent Evaluation](http://arxiv.org/abs/2609.00982v1)** — Yao Liu et al. (2026) · relevance 6
+- **[S3C-LLM: Skill-Code Guided Agentic Language Models for Spectrum-to-Structure Elucidation](http://arxiv.org/abs/2608.30910v1)** — Xuanle Zhao et al. (2026) · relevance 11 · _cross-tier: Data Ingestion Strategies_
+- **[SPADE: Self-Play in Adaptive Synthetic Executable Environments](http://arxiv.org/abs/2608.19197v2)** — Bo Liu et al. (2026) · relevance 25
+- **[LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure](http://arxiv.org/abs/2608.13545v1)** — Fanfei Li et al. (2026) · relevance 10 · _cross-tier: Data Ingestion Strategies_
+- **[MultiModal Code-Switching: Interleaving Visual Objects into Language for Explicit Object-Level Alignment](http://arxiv.org/abs/2608.11167v1)** — Changhao Xiang et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[Calibrating Post-Training Feature Shifts for LLM Data Contamination Detection](http://arxiv.org/abs/2608.10462v1)** — Zhen Yang et al. (2026) · relevance 7
+
+
+## Data Creation and Selection
+
+### Synthetic Data (93)
+
+- **[Toward LLM Self-Play Under Data Scarcity: Effectiveness, Generalizability, and Trustworthiness](http://arxiv.org/abs/2611.08908v1)** — Zhiyin Yu et al. (2026) · relevance 12
+- **[Agent-R$^2$: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis](http://arxiv.org/abs/2611.08219v1)** — Teng Pan et al. (2026) · relevance 21
+- **[From Weeks to Hours: Fast and Principled SFT Data Generation for Reasoning LLMs](http://arxiv.org/abs/2611.00554v1)** — Hongyi Henry Jin et al. (2026) · relevance 15 · _cross-tier: Data Substrates_
+- **[LLM-guided Planar Loco-Manipulation for Quadruped Robots](http://arxiv.org/abs/2610.40248v1)** — Georges Jetti et al. (2026) · relevance 8
+- **[Two-Stage Clipping: Linear-Time Approximate and Exact Mixed-Norm Projections for Transformers](http://arxiv.org/abs/2610.38598v1)** — Michel Barlaud et al. (2026) · relevance 8
+- **[CoSTA: Co-Evolving Self-Play Timeline Agents for Complex Temporal Knowledge Graph Question Answering](http://arxiv.org/abs/2610.38450v1)** — Haikun Liu et al. (2026) · relevance 11 · _cross-tier: Data Ingestion Strategies_
+- **[Learning a Prior-Data Fitted Network for Graph Foundation Models via Structural Causal Model Priors](http://arxiv.org/abs/2610.38335v1)** — Ziwei Zhang et al. (2026) · relevance 11
+- **[LASSO: An LLM-Agent Synthesized System for SQL Validation](http://arxiv.org/abs/2610.38294v1)** — Shreyas Jadhav et al. (2026) · relevance 11
+- **[Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis](http://arxiv.org/abs/2610.37648v1)** — Andrew Szot et al. (2026) · relevance 13
+- **[Text Generation in Low-Resource Languages Using Human-Curated Vocabularies](http://arxiv.org/abs/2610.37105v1)** — Michael Christlambert Sinanta et al. (2026) · relevance 6
+- **[Developing a Speech Language Model for Basque](http://arxiv.org/abs/2610.36911v1)** — Andoni Sudupe et al. (2026) · relevance 9
+- **[RubriX: A Fast, Fine-Tunable Non-Autoregressive Rubric Judge](http://arxiv.org/abs/2610.34875v1)** — Balamurugan Paramasivam et al. (2026) · relevance 8
+- **[Neyman Orthogonal Activation Steering](http://arxiv.org/abs/2610.33217v1)** — David Arbour et al. (2026) · relevance 10
+- **[PHYRD: A Living Benchmark for Reproducing and Extending Theoretical Physics Research](http://arxiv.org/abs/2610.32575v1)** — Qituan Zhang et al. (2026) · relevance 9 · _cross-tier: Data Ingestion Strategies_
+- **[Building Presentation Intelligence for High-Quality Slide Generation](http://arxiv.org/abs/2610.30888v1)** — Yuhang Xie et al. (2026) · relevance 11
+- **[Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model](http://arxiv.org/abs/2610.29139v1)** — Jiongxiao Wang et al. (2026) · relevance 11
+- **[Evolving Self-tuning Benchmarks for Long-Horizon Tool Use](http://arxiv.org/abs/2610.27307v2)** — Hyunji Alex Nam et al. (2026) · relevance 22
+- **[FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety](http://arxiv.org/abs/2610.26066v1)** — Joseph Thomas Thacil et al. (2026) · relevance 19
+- **[TIRE: Top-Down Formula Instantiation with Reliable Execution for Physics Problem Synthesis](http://arxiv.org/abs/2610.25134v1)** — Xiaoyu Wu et al. (2026) · relevance 9
+- **[CasePlay: Self-Play Reinforcement Learning from Case Reports for Medical Reasoning](http://arxiv.org/abs/2610.24952v1)** — Hao Wang et al. (2026) · relevance 13
+- **[Boundary Detection for High-Dimensional Point Clouds](http://arxiv.org/abs/2610.23590v1)** — Abigail Hickok et al. (2026) · relevance 6
+- **[Anytime Contracts for AI Services](http://arxiv.org/abs/2610.22781v1)** — Boris Velasevic et al. (2026) · relevance 6
+- **[MSP: Modality Self-Play for Training Multimodal LLMs Without Paired Cross-Modal Data](http://arxiv.org/abs/2610.20965v1)** — Robert Moseley et al. (2026) · relevance 13
+- **[EnterpriseSynth: Zero-Execution SFT and Evaluation Data from OpenAPI Specs](http://arxiv.org/abs/2610.22412v1)** — Rashmi Thimmaraju et al. (2026) · relevance 15
+- **[From Failures to Learnable Worlds: Policy-Conditioned Environment Generation for Navigation Agents](http://arxiv.org/abs/2610.19420v1)** — Yue Zhang et al. (2026) · relevance 9
+- **[Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training](http://arxiv.org/abs/2610.26887v1)** — Hengqi Liu et al. (2026) · relevance 10 · _cross-tier: Data Substrates_
+- **[SLS-Bench: A Benchmark for Incident Log Summarization with Synthetic Observability Data](http://arxiv.org/abs/2610.16412v1)** — Valerii Iakovlev et al. (2026) · relevance 9
+- **[The Mathematical Collective Unconscious: Jungian Archetypes within the Latent Space](http://arxiv.org/abs/2610.15678v1)** — Andrew Breen (2026) · relevance 9
+- **[Vela: User Behavior as Supervision Sparks LLM Intelligence](http://arxiv.org/abs/2610.14709v1)** — Yang Xiao et al. (2026) · relevance 14
+- **[Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning](http://arxiv.org/abs/2610.12593v1)** — Wei Yang et al. (2026) · relevance 20
+- **[SynCo: Data Synthesis Co-Training for Self-Evolving LLMs via Multi-Agent Reinforcement Learning](http://arxiv.org/abs/2610.11345v1)** — Wei Yang et al. (2026) · relevance 17
+- **[Coverage, Not Difficulty, Sets How Much Synthetic Data an Activation Probe Needs](http://arxiv.org/abs/2610.10594v1)** — Ankush Checkervarty (2026) · relevance 11 · _cross-tier: Data Ingestion Strategies_
+- **[ChartBmkAgent: Harness-Governed Multi-Agent Construction of Chart QA Benchmarks from Sparse Error-Taxonomy Specifications](http://arxiv.org/abs/2610.08106v1)** — Langxi Huang et al. (2026) · relevance 8
+- **[SAGE: Semantic Anchor-Guided Evolution for Grounded Medical QA Data Synthesis](http://arxiv.org/abs/2610.08093v1)** — Chuan Li et al. (2026) · relevance 16
+- **[Improving Synthetic Data Generation for Argument Mining via Adversarial Reinforcement Learning](http://arxiv.org/abs/2610.07699v1)** — Zhijun Zhang et al. (2026) · relevance 25
+- **[Auditable Clinical Timeline Reconstruction with Provenance-Aware Evidence Graphs](http://arxiv.org/abs/2610.06177v1)** — Judith Jeyafreeda Andrew (2026) · relevance 9
+- **[Turnslide: Scalable Multi-Turn Data Synthesis by Walking a Finite-State Machine](http://arxiv.org/abs/2610.07070v1)** — Aaron Fainman et al. (2026) · relevance 16
+- **[CreateScore: Domain-Theory-Informed Bayesian Routing for LLM-Based CV Screening](http://arxiv.org/abs/2610.02972v1)** — Rupsa Roy (2026) · relevance 6
+- **[Evaluating LLM-Generated Preference Distributions](http://arxiv.org/abs/2610.01000v1)** — Fan Huang et al. (2026) · relevance 9
+- **[Training-Aware Target Coverage for Synthetic Data Selection](http://arxiv.org/abs/2610.00814v1)** — Yang Ba et al. (2026) · relevance 19
+- **[From Images to Tasks: Characterizing Multimodal LLM Interactions in the Wild](http://arxiv.org/abs/2610.00701v1)** — Jinyi Ye et al. (2026) · relevance 9
+- **[Synthetic Data Characterization via Training Dynamics](http://arxiv.org/abs/2609.39447v1)** — Irene Lago et al. (2026) · relevance 18
+- **[Synthesis Without Training: An Inference-Only Pipeline for Tabular, Temporal, and Relational Synthetic Data](http://arxiv.org/abs/2609.38414v1)** — Zilong Zhao et al. (2026) · relevance 17
+- **[Beyond Mode Collapse: Generating Diverse Synthetic Expert Conversations via Generative Flow Networks](http://arxiv.org/abs/2609.38359v1)** — Sumit Asthana et al. (2026) · relevance 9
+- **[Semantic Uncertainty Quantification Needs Factual Equivalence](http://arxiv.org/abs/2609.34967v1)** — Joseph Hoche et al. (2026) · relevance 9
+- **[Learning to Optimize through Solver-Grounded Self-Play](http://arxiv.org/abs/2609.34205v1)** — Xia Jiang et al. (2026) · relevance 15 · _cross-tier: Data Ingestion Strategies_
+- **[Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?](http://arxiv.org/abs/2609.35868v1)** — Jinhao Zhang et al. (2026) · relevance 8
+- **[Shared Autoregressive Context Can Distort Relationships in Synthetic Data](http://arxiv.org/abs/2609.32546v1)** — Thomas S. Robinson (2026) · relevance 11
+- **[Anytime-Valid LLM Leaderboards via Benchmark-weighted and Block-Factorized e-Processes](http://arxiv.org/abs/2609.32248v1)** — Hongfu Gao et al. (2026) · relevance 9
+- **[A Benchmark for LLM's Understanding of Middle School and High School Science Topics](http://arxiv.org/abs/2609.32020v1)** — Noah L. Schroeder et al. (2026) · relevance 9
+- **[Self-Play Search Distillation for Large Language Model Reasoning](http://arxiv.org/abs/2609.30936v1)** — Lorenzo Molfetta et al. (2026) · relevance 17
+- **[Tag-Aware Structured Text Translation: Towards a Systematic Understanding](http://arxiv.org/abs/2609.29131v1)** — Zhanglin Wu et al. (2026) · relevance 13
+- **[Calibration as a First-Class Criterion in LLM Evaluation](http://arxiv.org/abs/2609.26489v1)** — Mario Sanz-Guerrero et al. (2026) · relevance 13
+- **[SSP-Bench: A Hybrid Data Generation Framework for Safety, Security, and Privacy Evaluation](http://arxiv.org/abs/2609.25352v1)** — Fatih Deniz et al. (2026) · relevance 11
+- **[Fathom-Vaidya: Advancing Medical Reasoning with Rubric-Based Rewards](http://arxiv.org/abs/2609.24480v1)** — Kalash Shah et al. (2026) · relevance 10
+- **[EDGEGEN: Improving Tool-Calling Agents Beyond Happy Paths with Synthetic Edge Case Generation](http://arxiv.org/abs/2609.24115v1)** — Harshavardhan Abichandani et al. (2026) · relevance 12
+- **[DataCanvas-EDU: An Agentic Framework for Instructor-Guided Synthetic Data Generation in Business Analytics Education](http://arxiv.org/abs/2609.19617v1)** — Bang An et al. (2026) · relevance 26
+- **[Preventing Model Collapse: A Fisher-Rao Perspective on the Dynamics of Training with Synthetic Data](http://arxiv.org/abs/2609.18878v1)** — Matteo Marchi et al. (2026) · relevance 11
+- **[A Framework for Generating Valid Context-Specific Benchmarks through Expert Guidance](http://arxiv.org/abs/2609.16592v1)** — Kimberly Le Truong et al. (2026) · relevance 14
+- **[The Imitation Game: When LLMs Learn to Reason Like Programs via Code-Centric Reasoning Data Synthesis](http://arxiv.org/abs/2609.16076v1)** — Jinyang Zhang et al. (2026) · relevance 18
+- **[Beyond Distribution Matching: Semantics-Consistent Tabular Diffusion with Weak Semantic Priors](http://arxiv.org/abs/2609.16069v1)** — Yili Wang et al. (2026) · relevance 11
+- **[Synthetic Data in Marketing Research: How to Evaluate and When to Trust](http://arxiv.org/abs/2609.13995v1)** — Oded Netzer et al. (2026) · relevance 11
+- **[TimeThink: Eliciting Compositional Reasoning in Timeseries Large Language Models](http://arxiv.org/abs/2609.13457v1)** — Sudarshan Regmi et al. (2026) · relevance 8
+- **[SynthSentry: Detecting Synthetic Data Contamination in Language Model Training Data](http://arxiv.org/abs/2609.12353v1)** — Praveen Kumar Myakala et al. (2026) · relevance 14
+- **[CoSTAR: Data Synthesis-Driven Constraint-Aware COBOL Section Summarization for Legacy System Modernization](http://arxiv.org/abs/2609.11332v1)** — Hao Lin et al. (2026) · relevance 11
+- **[When Synthetic Data Hurts: On Catastrophic Forgetting in Skill Retrieval for LLM Agents](http://arxiv.org/abs/2609.10750v1)** — Syed Shariyar Murtaza et al. (2026) · relevance 18
+- **[A Three-Tier Persona Vector for Controllable User Simulation in Agentic Evaluation](http://arxiv.org/abs/2609.08592v1)** — Rahul Khedar et al. (2026) · relevance 13
+- **[LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation](http://arxiv.org/abs/2609.08288v1)** — Zijian Shen et al. (2026) · relevance 9
+- **[Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe](http://arxiv.org/abs/2609.05395v1)** — Dain Kim et al. (2026) · relevance 15
+- **[LentEx: Generalizable Latent Entity Extraction via Synthetic Data and Instruction-Tuned LLMs](http://arxiv.org/abs/2609.04511v1)** — Umesh Bodhwani et al. (2026) · relevance 21
+- **[User Feedback Provides a Unique Signal that LLMs Can not Detect](http://arxiv.org/abs/2609.02859v1)** — Shachar Don-Yehiya et al. (2026) · relevance 6
+- **[DKL: Decoupled Knowledge Learning for Instruction-Tuned Language Models](http://arxiv.org/abs/2609.02685v1)** — Kushagra Bhushan et al. (2026) · relevance 15 · _cross-tier: Data Ingestion Strategies_
+- **[A Tri-Agent Framework for Evaluating and Aligning Question Clarification Capabilities of Large Language Models](http://arxiv.org/abs/2609.02054v1)** — Yikai Zhao et al. (2026) · relevance 11
+- **[Compile, Don't Memorize: A Context Compilation Architecture (CCA) for In-Context Learning](http://arxiv.org/abs/2609.00759v1)** — Jinhu Qi et al. (2026) · relevance 10
+- **[Hidden Threat in Synthetic Data: Covert Targeted Bias Injection through Benign Text](http://arxiv.org/abs/2608.30619v1)** — Minkyung Cho et al. (2026) · relevance 14
+- **[Generating Workflow DAGs from Natural Language with Non-Reasoning LLMs](http://arxiv.org/abs/2608.30250v1)** — Anand Iyer et al. (2026) · relevance 8
+- **[Creation begins with understanding: LLMs as strategy designers for privacy-preserving tabular data synthesis](http://arxiv.org/abs/2608.29674v1)** — Jinmeng Li et al. (2026) · relevance 18
+- **[Quantifying Error Tolerance in Synthetic Data: An Atomic-level Operand vs. Operator Perturbation Study](http://arxiv.org/abs/2608.29144v1)** — Jiaxiang Liu et al. (2026) · relevance 14
+- **[Learning a Size-Weight Frontier for Synthetic-Augmented Inference](http://arxiv.org/abs/2608.28576v1)** — Chengpiao Huang et al. (2026) · relevance 6
+- **[From Documents to Reasoning: A Validated Synthetic Data Pipeline and Semantic-Aware Fine-Tuning for Financial Numerical Reasoning](http://arxiv.org/abs/2608.27919v1)** — Lokendra Birla et al. (2026) · relevance 18
+- **[DocTalkBN: A Novel Dataset of Expert Telemedicine Conversations in Bengali](http://arxiv.org/abs/2608.27110v1)** — Anik Saha et al. (2026) · relevance 15
+- **[Planting a Latent Variable in Natural-Looking Text: a More Realistic Test of Belief States in LLMs and Their Link to Concept Geometry](http://arxiv.org/abs/2608.26887v1)** — Alexandru-Iulius Jerpelea (2026) · relevance 9
+- **[VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following](http://arxiv.org/abs/2608.26013v2)** — Min Zeng et al. (2026) · relevance 17
+- **[MLLMCLIP: Feature-Level Distillation of MLLM for Robust Vision-Language Representations](http://arxiv.org/abs/2608.25575v1)** — Jongsuk Kim et al. (2026) · relevance 9
+- **[ROBE: Reversed-Order-Biased-Experts for Extracting Extreme Long-tail Events from Historical Texts](http://arxiv.org/abs/2608.24268v1)** — Stella Verkijk et al. (2026) · relevance 9
+- **[Industrial-Instruction: An End-to-End Framework for Building Instruction-Tuning and Benchmark Datasets from Industrial Technical Reports](http://arxiv.org/abs/2608.22817v1)** — Parsa Bakhtiari et al. (2026) · relevance 18
+- **[KMGen: A Skill-based Approach for Synthetic Individual Patient Data Generation](http://arxiv.org/abs/2608.22618v1)** — Jalen Jiang et al. (2026) · relevance 16
+- **[LLMs Get Smarter from Targeted Synthetic Multilingual Data](http://arxiv.org/abs/2608.15964v1)** — Ishika Agarwal et al. (2026) · relevance 6
+- **[Constraint-Aware Synthetic Tabular Data Generation via Inter-Column Constraint Discovery with LLM Agents](http://arxiv.org/abs/2608.15109v1)** — Jianxing Zhao et al. (2026) · relevance 12
+- **[Bootstrapping Niche Multilingual Code Translation via Reinforcement Learning with Execution-Based Verifiable Supervision](http://arxiv.org/abs/2608.13854v1)** — Kouki Yuki et al. (2026) · relevance 7
+- **[PatientAct: Theory-Grounded Mental Health Client Simulation](http://arxiv.org/abs/2608.12750v1)** — Sahand Sabour et al. (2026) · relevance 6
+- **[ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents](http://arxiv.org/abs/2608.11878v1)** — Yutao Mou et al. (2026) · relevance 7
+- **[CLAIM: Leading Open-domain Active Clarification of Large Language Models with Uncertainty Measurement](http://arxiv.org/abs/2608.11631v1)** — Kuangzhao Yang et al. (2026) · relevance 9
+
+### Data Selection (39)
+
+- **[Rethinking Data Selection: The Importance of Coverage over Difficulty in LLM Fine-Tuning](http://arxiv.org/abs/2611.07323v1)** — Lalchand Pandia et al. (2026) · relevance 11 · _cross-tier: Data Ingestion Strategies_
+- **[MIMIC-Note-Extract: A Large-Scale Structured Dataset Extracted from MIMIC-IV-Note Discharge Summaries](http://arxiv.org/abs/2611.04685v1)** — Kristian Schwethelm et al. (2026) · relevance 12
+- **[Quantifying out-of-distribution data severity with Wasserstein distances: benchmarking large language models for alloy property prediction](http://arxiv.org/abs/2611.03767v1)** — YuJie Liu et al. (2026) · relevance 9
+- **[Advancement or Acceleration? How Data Curation Improves LLM Training](http://arxiv.org/abs/2610.36983v1)** — Jiaxing Wang et al. (2026) · relevance 14 · _cross-tier: Data Ingestion Strategies_
+- **[Robust LLM Data Selection via Content-Invariant Gradient Attribution](http://arxiv.org/abs/2610.36755v1)** — Jia Gu et al. (2026) · relevance 18 · _cross-tier: Data Substrates_
+- **["High-Quality" Data for Early-Stage Instruction Tuning: An Empirical Study of Data Quality Metrics](http://arxiv.org/abs/2610.33969v1)** — Vladimir Necula et al. (2026) · relevance 11 · _cross-tier: Data Substrates_
+- **[Data Optimization for LLMs: A Survey](http://arxiv.org/abs/2610.33405v1)** — Ou Wu (2026) · relevance 7
+- **[SANE: Automated Scorer-Specific Metamorphic Testing for LLM Judges](http://arxiv.org/abs/2610.28886v2)** — Ethan Ludwick et al. (2026) · relevance 7
+- **[ICLHerd: Herding-Based Data Selection for LLMs with In-Context Learning as a Proxy](http://arxiv.org/abs/2610.27142v1)** — Yuqiao Wen et al. (2026) · relevance 12 · _cross-tier: Data Ingestion Strategies_
+- **[NADS: Navigator-Guided Data Selection for Mitigating Catastrophic Forgetting in Fine-Tuning](http://arxiv.org/abs/2610.25751v2)** — Jianhao Zhang et al. (2026) · relevance 15
+- **[Hidden Cartographer: Hidden State Guided Data Selection for Dual Budgeted Instruction Tuning](http://arxiv.org/abs/2610.25215v1)** — Zixuan Qin et al. (2026) · relevance 15
+- **[DeGMatch: Target-Aware Reasoning Data Selection via Deconfounded Gradient Matching](http://arxiv.org/abs/2610.24963v1)** — Changho Lee et al. (2026) · relevance 17
+- **[Text-Informed Training Data Filtering for Enhanced Virtual Flow Meter Performance](http://arxiv.org/abs/2610.19860v1)** — Kristoffer Hjelmen Nesland et al. (2026) · relevance 15
+- **[Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too](http://arxiv.org/abs/2610.18516v1)** — Mehdi Makni et al. (2026) · relevance 6
+- **[Gradient Routing Localizes and Removes Unintended Behaviors in RL](http://arxiv.org/abs/2610.17062v1)** — Jake Ward et al. (2026) · relevance 10
+- **[ZOIF: Zeroth-Order Influence Function Estimation for LLM Data Selection Using Only Forward Passes](http://arxiv.org/abs/2610.15336v1)** — Lisong He et al. (2026) · relevance 11
+- **[DataSense-Bench: The First Step Toward an AI Scientist](http://arxiv.org/abs/2610.12190v1)** — Yudi Zhang et al. (2026) · relevance 18
+- **[Adapting English Quality Classifiers for Multilingual LLM Pretraining Data Selection](http://arxiv.org/abs/2610.11585v1)** — Vinko Sabolčec et al. (2026) · relevance 17 · _cross-tier: Data Substrates_
+- **[Dataset Signatures in Human-LLM Interactions and User Modeling](http://arxiv.org/abs/2610.05534v1)** — Joseph Suh et al. (2026) · relevance 15 · _cross-tier: Data Substrates_
+- **[LESSER: Post-Training Data Selection with Output-Layer Gradients](http://arxiv.org/abs/2610.03702v1)** — Lyuxin David Zhang et al. (2026) · relevance 13
+- **[Fisher-Guided Submodular Data Selection for Continual Pre-Training of Large Language Models](http://arxiv.org/abs/2610.02593v1)** — Zhenghao Zhao et al. (2026) · relevance 18 · _cross-tier: Data Ingestion Strategies_
+- **[Scalable, Transferable Meta-network for Data Selection Requires a Different Loss (and Why the Obvious Choice is Problematic)](http://arxiv.org/abs/2610.02092v1)** — Zilin Du et al. (2026) · relevance 16 · _cross-tier: Data Substrates_
+- **[Effective Synthetic Data Curation Requires Group-Level Signals](http://arxiv.org/abs/2610.00779v1)** — Cathy Jiao et al. (2026) · relevance 20
+- **[Interpreting Reasoning of Large Language Models via Partial Information Decomposition](http://arxiv.org/abs/2610.00571v1)** — Barproda Halder et al. (2026) · relevance 15
+- **[Every Batch Is Its Own Validation Set: Leave-One-Out Gradient Matching for Online Data Selection in LLM Fine-Tuning](http://arxiv.org/abs/2610.00436v1)** — Hongyu Chen et al. (2026) · relevance 11
+- **[dattri-LLM: A Unified and Efficient Library for Training Data Attribution at LLM Scale](http://arxiv.org/abs/2609.38767v2)** — Shixuan Liu et al. (2026) · relevance 10
+- **[The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment](http://arxiv.org/abs/2609.37914v1)** — Gonçalo Paulo et al. (2026) · relevance 6
+- **[ThinQuant: Scalable Rotation Learning for Weight and Activation Quantization of LLMs](http://arxiv.org/abs/2609.36120v1)** — Mehdi Makni et al. (2026) · relevance 6
+- **[How code helps different tasks? A decompositional lens on LLM post-training](http://arxiv.org/abs/2609.33845v1)** — Zheng Yu et al. (2026) · relevance 9
+- **[Model-Aware Data Selection from In-and-Out Information Interplay](http://arxiv.org/abs/2609.33010v1)** — Yifan Wang et al. (2026) · relevance 11 · _cross-tier: Data Ingestion Strategies_
+- **[Let Training Guide Selection: Online Synthetic Data Filtering via Real-Anchored Utility](http://arxiv.org/abs/2609.29988v1)** — Yanran Wu et al. (2026) · relevance 23
+- **[Hunyuan-A13B Technical Report](http://arxiv.org/abs/2609.27284v1)** — Tencent Hunyuan Team et al. (2026) · relevance 8
+- **[Edu-QuRating: Multi-Dimensional Educational Data Curation with Distilled Pairwise Judgements](http://arxiv.org/abs/2609.09425v2)** — Oliver G. B. Garrod et al. (2026) · relevance 13
+- **[What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection](http://arxiv.org/abs/2609.05198v1)** — Zhinan Hou et al. (2026) · relevance 14
+- **[UTP-Bench: Uncertainty-aware Travel Planning Benchmark](http://arxiv.org/abs/2609.02421v1)** — Etcharla Revanth Rao et al. (2026) · relevance 8
+- **[Target-Aware Calibration Data Selection for Preserving Uncertainty in Quantized Language Models](http://arxiv.org/abs/2608.21019v1)** — Zhen Yang et al. (2026) · relevance 13
+- **[Self-prompting and cross-model consensus enable reproducible data extraction from scientific literature with large language models](http://arxiv.org/abs/2608.19025v1)** — Valentin Romanov et al. (2026) · relevance 9
+- **[Learning What to Fail On: Failure-Mode Contextual Bandits for Adversarial Data Curation](http://arxiv.org/abs/2608.18681v1)** — Roie Kazoom et al. (2026) · relevance 16 · _cross-tier: Data Ingestion Strategies_
+- **[Reasoning Jury: Multi-Model Consensus for Evaluating Reasoning Traces](http://arxiv.org/abs/2608.12585v1)** — Congchao Wang et al. (2026) · relevance 7
+
+### Transformation (26)
+
+- **[Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation](http://arxiv.org/abs/2611.08315v1)** — Ali Sarabadani et al. (2026) · relevance 6
+- **[Axis-LoRA: Probing and Adapting Embedding Models for Personal-Memory Retrieval](http://arxiv.org/abs/2611.07820v1)** — Dohoon Kim et al. (2026) · relevance 7
+- **[AgenticMobility: An Open-Source Platform for Multi-AI-Agent Mobility Dynamics](http://arxiv.org/abs/2611.01918v1)** — Jiaheng Xiao et al. (2026) · relevance 8
+- **[Decoupling Patient Personas and Clinical Workflows: A Dual-Agent Approach to Realistic Medical Dialogue Generation](http://arxiv.org/abs/2610.32443v1)** — Qiyuan Li et al. (2026) · relevance 6
+- **[PersonalQuery-Benchmark:Evaluating Retrieval Robustness to Personalized User Expression Differences](http://arxiv.org/abs/2610.32164v1)** — Wenyu Liang et al. (2026) · relevance 11
+- **[SCODEL: Shared Canonical Ontology Definitions for Food Entity Linking and Ontology-Grounded Recipe Knowledge Graphs](http://arxiv.org/abs/2610.27637v1)** — Nuhu Ibrahim et al. (2026) · relevance 7
+- **[SAFE-Mem: Secure Agentic Memory with Fine-Grained Authority and Governance-Aware Retrieval](http://arxiv.org/abs/2610.22959v2)** — Haoming Li et al. (2026) · relevance 9
+- **[HeRE: A Novel Benchmark for Hebrew Relation Extraction via LLM-Guided Denoising of Knowledge Graph Alignments](http://arxiv.org/abs/2610.22542v1)** — Ron Keinan et al. (2026) · relevance 6
+- **[Knowledge Graphs as Files: An Agent Harness Where Tool Creation and Tool Use Co-Evolve](http://arxiv.org/abs/2610.18616v2)** — Yuyang Bai et al. (2026) · relevance 14
+- **[Agent Sociodrama: Social-Dynamics-Guided Persona Recasting for LLM Agent Teams](http://arxiv.org/abs/2610.15788v1)** — Yirui Qi et al. (2026) · relevance 8
+- **[Stale, Misattributed, or Late: Where Personal Memory Fails Before Generation](http://arxiv.org/abs/2610.10265v1)** — Haonan Deng et al. (2026) · relevance 6
+- **[Wiki-Talkie: Multilingual Benchmarking of Persona-Based Agents on Real-World Discussions](http://arxiv.org/abs/2610.08513v1)** — Dennis Fucci et al. (2026) · relevance 8
+- **[Learning Robust Personalized Prompts for LLM-Driven Sequential Recommendation](http://arxiv.org/abs/2610.03923v1)** — Xiaolin Zheng et al. (2026) · relevance 6
+- **[AgBench: Agentic AI Benchmarks for Personal AI Devices](http://arxiv.org/abs/2609.38652v1)** — Yizhou Han et al. (2026) · relevance 11
+- **[Personalized State-Transition-Aware Memory for Clinical Agents](http://arxiv.org/abs/2609.38490v1)** — Maryam Haghifam et al. (2026) · relevance 8
+- **[SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents](http://arxiv.org/abs/2609.35596v2)** — Saswat Das et al. (2026) · relevance 10
+- **[Nutri-ATLAS: Embodied Agent for Tabulated Lookup and Assistance for Smarter nutrition](http://arxiv.org/abs/2609.32803v1)** — Uttej Kallakuri et al. (2026) · relevance 8
+- **[CodeGraph: Open-Taxonomy Knowledge Graph for Source Code with Wikidata Grounding](http://arxiv.org/abs/2609.29474v1)** — Federico Pennino et al. (2026) · relevance 6 · _cross-tier: Data Ingestion Strategies_
+- **[From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health](http://arxiv.org/abs/2609.25186v1)** — He Hu et al. (2026) · relevance 8
+- **[Toward Personalized Sleep Guidance from Wearable Data Using Language Models](http://arxiv.org/abs/2609.22463v1)** — Yusheng Tan et al. (2026) · relevance 8
+- **[Digital Twins for Opinion Dynamics: A Generative LLM Framework for Social Networks](http://arxiv.org/abs/2609.19913v1)** — Omran Berjawi et al. (2026) · relevance 7
+- **[PersonaPath: Towards Knowledge-Centric Personalized Learning Path Planning](http://arxiv.org/abs/2609.18861v1)** — Yu Liu et al. (2026) · relevance 6 · _cross-tier: Data Ingestion Strategies_
+- **[Item-Mean Surrogates: Why Richer Persona Data Fail to Improve LLMs as Human Surrogates](http://arxiv.org/abs/2608.29455v1)** — Daehwan Ahn et al. (2026) · relevance 6
+- **[Evaluating the Hidden Costs of Personalization in Large Language Models](http://arxiv.org/abs/2608.28833v1)** — Yumeng Wang et al. (2026) · relevance 6
+- **[PersonaForge: Realistic Multi-Turn User Simulation for Agentic Systems](http://arxiv.org/abs/2608.28378v1)** — Hanglong Lv et al. (2026) · relevance 9
+- **[ComBodied Agents: a New Paradigm of Human-Centric Agentic AI](http://arxiv.org/abs/2608.10915v2)** — Qianggang Ding et al. (2026) · relevance 11
+
+### Annotation / Processing (22)
+
+- **[VCoT-SQL: Enhancing Text-to-SQL Generation through Dual Chain-of-Thought Validation Training](http://arxiv.org/abs/2611.00815v2)** — Rui Zhang et al. (2026) · relevance 11
+- **[GraphNIAH: A Benchmark for Long-Context Reasoning over Real-World Graphs](http://arxiv.org/abs/2610.41704v1)** — Minh-Nam Tran et al. (2026) · relevance 12 · _cross-tier: Data Ingestion Strategies_
+- **[Well-Specified and Well-Tested? Assessing SWE-bench-Style Datasets with a Self-Evolving Agent](http://arxiv.org/abs/2610.39417v1)** — Zhonghao Jiang et al. (2026) · relevance 9
+- **[Evolve on Graph: Self-Evolving Knowledge Graph Reasoning without Question Annotations](http://arxiv.org/abs/2610.35598v1)** — Zongyuan Sun et al. (2026) · relevance 13
+- **[MIS-VQA: An Annotation-Driven Surgical Vision-Language Dataset for Complex Surgical Understanding](http://arxiv.org/abs/2610.34210v1)** — Mohamed Hamdy et al. (2026) · relevance 8
+- **[Formal-Informal Mathematical Alignment through and beyond Human Annotations](http://arxiv.org/abs/2610.31011v1)** — Noah Gießing et al. (2026) · relevance 9 · _cross-tier: Data Ingestion Strategies_
+- **[When Empathy Misses the Goal: A Benchmark for Goal Displacement in LLM Advice](http://arxiv.org/abs/2610.25522v1)** — Dean Ariel et al. (2026) · relevance 6
+- **[TimeCap: A Scalable Open-Source Pipeline for Captioning Wearable Health Time-Series Data](http://arxiv.org/abs/2610.21274v1)** — Max Rosenblattl et al. (2026) · relevance 11
+- **[NepPlural: A Human-Anchored Benchmark for Persona Annotation in Nepali Migration Discourse](http://arxiv.org/abs/2610.15732v1)** — Jinu Nyachhyon et al. (2026) · relevance 6 · _cross-tier: Data Substrates_
+- **[Goldsmith: Gold-Loss-Guided Definition Optimization with an Agentic Annotation Harness](http://arxiv.org/abs/2610.09489v1)** — Yihan Li et al. (2026) · relevance 7
+- **[ConvoDrift: A Multi-Turn Conversational Dataset for Modeling Stylistic Tone Evolution](http://arxiv.org/abs/2610.02873v1)** — Vihindi Kotalawala et al. (2026) · relevance 7
+- **[Learning to structure data from user-generated thematic corpora](http://arxiv.org/abs/2610.01463v1)** — Elishay Avram et al. (2026) · relevance 8
+- **[The Privacy Fallacy of Crowdsourced Fine-Tuning: Extracting Proprietary Data via Topic-Based Poisoning](http://arxiv.org/abs/2609.33985v1)** — Sae Furukawa et al. (2026) · relevance 9
+- **[Inter-Rater Reliability of LLM and Rule-Based Annotation for Inferential Narrative Features: Three Studies on a Turkish Corpus](http://arxiv.org/abs/2609.13936v1)** — Levent Bulut (2026) · relevance 8
+- **[Cross-Lingual Clinical Annotation Projection as Constrained Text Generation: A Six-Language Study](http://arxiv.org/abs/2609.11450v1)** — Álvaro Rey-Blanes et al. (2026) · relevance 6
+- **[LLMVul: A Vulnerability-Labeled Dataset of LLM-Generated C/C++ Functions from Real Production Repositories](http://arxiv.org/abs/2609.10945v1)** — Mohammad Farhad et al. (2026) · relevance 10
+- **[DE-Venus: A Data-Efficient RLVR Framework for Large Language Models](http://arxiv.org/abs/2609.03324v1)** — Shenzhi Yang et al. (2026) · relevance 11
+- **[Error-Type-Aware Loss Reweighting for Robust Named Entity Recognition with Noisy LLM Labels](http://arxiv.org/abs/2608.30827v1)** — Elena Merdjanovska et al. (2026) · relevance 8
+- **[An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction](http://arxiv.org/abs/2608.20320v1)** — Narges Ahmadi et al. (2026) · relevance 8
+- **[Aslema at NADI 2026: Data Augmentation for Intent Recognition and Slot Filling](http://arxiv.org/abs/2608.18689v2)** — Tajwaar Shafiq et al. (2026) · relevance 10
+- **[What the Reranker Sees: Multi-Aspect Page Annotation for Long-Document Multimodal Question Answering](http://arxiv.org/abs/2608.14841v1)** — Guanchen Wu et al. (2026) · relevance 7
+- **[Agentic Data Cleaning Without a Clean Reference: An Experimental Study of Capabilities and Trade-offs](http://arxiv.org/abs/2608.14765v1)** — Hadi Fadlallah (2026) · relevance 14
+
+### Other (2)
+
+- **[Agentic Data Sampling Framework for Multilingual ASR via Linguistic-Aware Error-Driven Optimization](http://arxiv.org/abs/2610.36538v1)** — Zhiheng Qian et al. (2026) · relevance 7
+- **[Rationale-Guided Policy Optimization: Learning to Reason with Adaptive Rationale Scaffolding](http://arxiv.org/abs/2610.07342v1)** — Hoang Phan et al. (2026) · relevance 8
+
+
+## Data Ingestion Strategies
+
+### Runtime Retrieval / Search / Verification (1288)
+
+- **[Assessing the Impact of Retrieval-Augmented Generation on Algorithmic Problem-Solving](http://arxiv.org/abs/2611.09791v1)** — Gabriel Souza Baggio et al. (2026) · relevance 9
+- **[MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory](http://arxiv.org/abs/2611.09721v1)** — David H. Yang et al. (2026) · relevance 9
+- **[An Effective Spoken Language Understanding Approach Leveraging Query-Adaptive Intent Detection](http://arxiv.org/abs/2611.09491v1)** — Bing-Long Kuo et al. (2026) · relevance 7
+- **[LEMMO: A Large Electromagnetic Model leveraging Pretrained LLMs for Million-Sample Signal Understanding](http://arxiv.org/abs/2611.09476v1)** — Mingkai Li et al. (2026) · relevance 7
+- **[Definitions, Label Names, or Demonstrations? Auditing What Governs LLM Annotation](http://arxiv.org/abs/2611.09457v1)** — Viraj Mishra et al. (2026) · relevance 7 · _cross-tier: Data Creation and Selection_
+- **[Typed-Centrality Grounding for Agentic GraphRAG: A Symbolic Approach for Agentic Reasoning](http://arxiv.org/abs/2611.09414v1)** — Rosario Napoli et al. (2026) · relevance 11
+- **[ROAM: Retrieval-Augmented Optimization for Feasible Multi-Day Itinerary Planning](http://arxiv.org/abs/2611.09407v1)** — Ye Zihao et al. (2026) · relevance 11
+- **[Large Language Model Consensus and Corpus-Adaptive Topic Modeling for Classifying and Mapping Patent Innovation](http://arxiv.org/abs/2611.09194v1)** — Sercan Ozcan et al. (2026) · relevance 7
+- **[AdaAlloc: Adaptive Visual Token Allocation for Long-Video Question Answering](http://arxiv.org/abs/2611.09092v1)** — Joungbin An et al. (2026) · relevance 7
+- **[Turkish Multimodal Video Fact-Checking: A New Dataset and a Comparison of Zero-Shot Agentic and Fine-Tuned Systems](http://arxiv.org/abs/2611.08651v1)** — Azra Açıl (2026) · relevance 14
+- **[Aspect-wise Pairwise Tournaments for Test-Time Selection](http://arxiv.org/abs/2611.08640v1)** — Hannah Guan et al. (2026) · relevance 9
+- **[Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling](http://arxiv.org/abs/2611.08237v1)** — Xiaojun Wu et al. (2026) · relevance 13 · _cross-tier: Data Substrates_
+- **[SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving](http://arxiv.org/abs/2611.08196v1)** — Sai Vallurupalli et al. (2026) · relevance 9
+- **[Can an LLM Actually Reason and Program about Neural Network's Weights or is it just memorization on steroids? Exploring "Weight-Space Programming"](http://arxiv.org/abs/2611.08070v1)** — Nazmus Sakib Ahmed (2026) · relevance 7
+- **[ZeroRAG: Adaptive Semantic Peer Routing for Decentralized Retrieval-Augmented Generation](http://arxiv.org/abs/2611.07928v1)** — Petru Neague et al. (2026) · relevance 6
+- **[Automated Video-to-QA Pipeline: End-to-End Question Generation and Verification Using Large Language Models](http://arxiv.org/abs/2611.07755v1)** — Jaival Chauhan et al. (2026) · relevance 15 · _cross-tier: Data Creation and Selection_
+- **[AiXapply: Fast and Reliable Full-File Code Integration with Specialized Small Models for IDE Workflows](http://arxiv.org/abs/2611.07634v1)** — Siyuan Jiang et al. (2026) · relevance 8
+- **[ACSeL: Adaptive Configuration Search for Hardware-Constrained LLM Inference](http://arxiv.org/abs/2611.07570v1)** — Bokun Wang et al. (2026) · relevance 6
+- **[MEvince: Knowledge-Constrained LLM Reasoning for Technique Identification from Malware Reports](http://arxiv.org/abs/2611.07486v1)** — Hongyu She et al. (2026) · relevance 9
+- **[CacheGraft: Enhancing Retrieval-Augmented Generation via Latent-Space Document Enrichment](http://arxiv.org/abs/2611.07393v2)** — Vihan Lakshman et al. (2026) · relevance 9
+- **[Test-Time Self-Play: Scaling without a Verifier](http://arxiv.org/abs/2611.07367v1)** — Akira Yoshiyama et al. (2026) · relevance 13
+- **[Selective Retrieval Routing for Multi-Violation Knowledge Graph Repair](http://arxiv.org/abs/2611.07342v1)** — Tung-Wei Lin et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[How Should Agents See Code? Rethinking Code Representations for Agentic Software Engineering](http://arxiv.org/abs/2611.07286v1)** — Melika Sepidband et al. (2026) · relevance 7
+- **[SeVerus: Context-Aware, Gamified Benchmarking for Rust Verification](http://arxiv.org/abs/2611.07194v1)** — Álvaro F. Silva et al. (2026) · relevance 7
+- **[SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification](http://arxiv.org/abs/2611.06876v1)** — Yulu An et al. (2026) · relevance 7
+- **[On Turn-Level Best-of-N Sampling for Scaling LLM Agents](http://arxiv.org/abs/2611.06868v1)** — Jalaj Bhandari et al. (2026) · relevance 7
+- **[Reasoning over Non-Parametric Memory in Multilingual LLMs: A Cognitive-Based Analysis of Relational Knowledge](http://arxiv.org/abs/2611.06715v1)** — Zohreh Abbasi Liasi et al. (2026) · relevance 6
+- **[Verifier-Guided Self-Consistency: Test-Time Reasoning with Imperfect Generators and Verifiers](http://arxiv.org/abs/2611.06606v1)** — Ekaterina Fadeeva et al. (2026) · relevance 18
+- **[RAGAM-AI: A Hybrid Reinforcement Learning based Agentic approach powered by Generative AI for Edge Resource Management](http://arxiv.org/abs/2611.06554v1)** — Shreya K. Chari et al. (2026) · relevance 7
+- **[SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory](http://arxiv.org/abs/2611.06445v1)** — Jizhe Zhang et al. (2026) · relevance 8
+- **[Zero-Shot Coordination among LLM Agents](http://arxiv.org/abs/2611.06409v1)** — Adrian Hayler et al. (2026) · relevance 7
+- **[LegalEvolver: Agentic Legal Judgment Prediction via Rubric-Guided Self-Evolution](http://arxiv.org/abs/2611.06381v1)** — Xinyu Yang et al. (2026) · relevance 15
+- **[Give Up to Get More: Priors, Not Policies, Govern Test-Time Compute Allocation](http://arxiv.org/abs/2611.06372v1)** — Jinhyung Bae (2026) · relevance 9
+- **[Mass Producing Training Data with Surprising Side Effects](http://arxiv.org/abs/2611.06324v1)** — Yaowen Ye et al. (2026) · relevance 6
+- **[HarnessFlow: MCTS-Guided Harness Optimization for LLM Agents](http://arxiv.org/abs/2611.06254v1)** — Zhi Hong et al. (2026) · relevance 7
+- **[AssameseLM-E2B: An Open-Weight Assamese Language Model for Efficient Consumer-Grade Deployment](http://arxiv.org/abs/2611.06170v1)** — Pragyan Phukan (2026) · relevance 7
+- **[ModalSearcher: Weaving Visual Evidence into Autonomous Cross-Modal Deep Search](http://arxiv.org/abs/2611.06131v1)** — Zhihan Yin et al. (2026) · relevance 10
+- **[Overview of the NTCIR-19 SciClaimEval Task: Cross-modal Claim Verification in Scientific Papers](http://arxiv.org/abs/2611.06090v1)** — Xanh Ho et al. (2026) · relevance 9
+- **[Clips2Story: Training-Free Video Storyboarding and Editing Using Multimodal Retrieval-Embedded Generation](http://arxiv.org/abs/2611.05992v1)** — Junnuo Wang et al. (2026) · relevance 9
+- **[SciToT: Multimodal Tip-of-the-Tongue Retrieval for Scientific Papers](http://arxiv.org/abs/2611.05829v1)** — Stan Fris et al. (2026) · relevance 10
+- **[FlyHash for LLM Agent Memory: An Empirical Validation and a New Application](http://arxiv.org/abs/2611.05791v1)** — Mohan Bheemadolu et al. (2026) · relevance 8
+- **[Octopus: One Brain, Many Branches for Latent-KV Multi-Agent Reinforcement Learning](http://arxiv.org/abs/2611.06956v1)** — Tianming Sha (2026) · relevance 11
+- **[Can Large Language Models Review the Scientific Literature? A Test Against a 102-Article Benchmark](http://arxiv.org/abs/2611.05459v1)** — Abdullah Al Kalbani et al. (2026) · relevance 6
+- **[Adversarial Speculative Reasoning Improves Long Horizon Agents](http://arxiv.org/abs/2611.05345v1)** — Hongyin Luo et al. (2026) · relevance 7 · _cross-tier: Data Substrates_
+- **[Noisy Issues, Noisy Results: Mislabeling in Information Retrieval-based Bug Localization](http://arxiv.org/abs/2611.05314v1)** — Moumita Asad et al. (2026) · relevance 10
+- **[LIBRA: Programmatic Induction of Executable Tool Libraries](http://arxiv.org/abs/2611.05445v2)** — Zekai Li et al. (2026) · relevance 12
+- **[Factorized MLLM Embeddings for Composed Image Retrieval](http://arxiv.org/abs/2611.05193v2)** — WonJun Moon et al. (2026) · relevance 7
+- **[LLMs as MDP Designers: A Dependency-Aware Agentic Framework for Automated Robot Policy Generation](http://arxiv.org/abs/2611.04974v1)** — Hong Je-Gal et al. (2026) · relevance 11
+- **[ReSI-Math: Exploring Recoverable Capability Frontiers for Efficient Reasoning Improvement](http://arxiv.org/abs/2611.04787v1)** — Yao Cui et al. (2026) · relevance 8
+- **[QueryFlow: Multi-Hop Graph Retrieval with Adaptive Query Evolution](http://arxiv.org/abs/2611.04625v1)** — Manzong Huang et al. (2026) · relevance 11
+- **[$τ$-Rec-Books: A Disclosure-Controlled Benchmark for Requirement Elicitation in Agentic Recommender Systems](http://arxiv.org/abs/2611.04459v1)** — Bharath Sivaram Narasimhan et al. (2026) · relevance 9
+- **[How Agent Skills Evolve: A Large-Scale Empirical Study of Skills on GitHub](http://arxiv.org/abs/2611.04456v1)** — Jinjun Huang et al. (2026) · relevance 7
+- **[Verifier strength does not buy discovery quality: a pre-registered two-domain test of LLM-based automated research, with post-hoc evidence pointing to proposer-pool composition](http://arxiv.org/abs/2611.04420v1)** — Peter Chen et al. (2026) · relevance 7
+- **[GlucoAgent: Personalized Glucose Forecasting from Multimodal Personal Context](http://arxiv.org/abs/2611.04126v1)** — Xingzhi Sun et al. (2026) · relevance 7 · _cross-tier: Data Creation and Selection_
+- **[An Agentic Framework for Automated Power System Studies and Grid Connection Assessment](http://arxiv.org/abs/2611.03534v1)** — MaoXun Huang et al. (2026) · relevance 12
+- **[MultiInpaintCOCO: Fine-Grained Visual Understanding in Multiple Languages](http://arxiv.org/abs/2611.03309v1)** — Andrei-Alexandru Manea et al. (2026) · relevance 8
+- **[Toward Knowledge-Centric AI: Discovering, Internalizing, and Using Explicit Knowledge Across Agents and Generations](http://arxiv.org/abs/2611.03157v1)** — Yisen Gao et al. (2026) · relevance 7
+- **[COVE: A Task-Adaptive, Code-Based Ensemble for Proactive Verification of LLM Outputs](http://arxiv.org/abs/2611.03111v1)** — Anjaney Shrivastava et al. (2026) · relevance 9
+- **[An Experimental Study of Hybrid Retrieval, NLI and Open-source LLMs for Scientific Claim Verification](http://arxiv.org/abs/2611.03093v1)** — Lakshmi Narayanan P et al. (2026) · relevance 11
+- **[Action Verification through Conjecture and Refutation for Language Model Agents](http://arxiv.org/abs/2611.02950v1)** — Minhyeon Oh et al. (2026) · relevance 7
+- **[HLSClaw: Bringing Vibe Coding to High-Level Synthesis through Skill-Based Agentic Harness](http://arxiv.org/abs/2611.02784v1)** — Jinming Ge et al. (2026) · relevance 7
+- **[Learning to Adjudicate: Verifier-Guided Multi-Agent Reasoning for E-Commerce Relevance](http://arxiv.org/abs/2611.02758v1)** — Shi Shu et al. (2026) · relevance 6
+- **[Evolving Explanations: Complexity-Adaptive Refinement of Faithful Explanations for Symbolic Regression](http://arxiv.org/abs/2611.02634v1)** — Elisabeth Mayrhuber et al. (2026) · relevance 9
+- **[They Know Where It Is, But Not What It Says: A Bilingual Hallucination Benchmark of Hadith Recall in Open LLMs](http://arxiv.org/abs/2611.02587v1)** — Dayam Nadeem et al. (2026) · relevance 8
+- **[From Language to Country to Valence: A Multilingual Audit of Stereotype Bias Across LLMs](http://arxiv.org/abs/2611.02585v1)** — Zihao Sun (2026) · relevance 6
+- **[SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding](http://arxiv.org/abs/2611.02501v1)** — Kunjun Li et al. (2026) · relevance 7
+- **[Multi-Teacher Reasoning Distillation for LLM Recommendation with Self-Exploration](http://arxiv.org/abs/2611.02457v1)** — Liangbo Ning et al. (2026) · relevance 11
+- **[As Expected? Efficient LLM Planning via Expectation-Observation Consistency Verification](http://arxiv.org/abs/2611.02438v1)** — Qingfu Zhu et al. (2026) · relevance 7
+- **[EviCast: Forecasting Retrieval Gains Through Shared Response Calibration](http://arxiv.org/abs/2611.02387v1)** — Yibo Wang et al. (2026) · relevance 9
+- **[Toward Agentic AI-Ready Workflows in Built Environment Organizations: Knowledge Structures and Interoperability Challenges](http://arxiv.org/abs/2611.02286v1)** — Ahmet Bahaddin Ersoz et al. (2026) · relevance 12
+- **[FOLLIE: Automated Reasoning over the First Dataset of Sentences with their First-Order Logical Representation for French](http://arxiv.org/abs/2611.02129v1)** — Maximos Skandalis (2026) · relevance 8
+- **[Consolidating Reasoning with Test-Time Training](http://arxiv.org/abs/2611.02104v1)** — Haotian Wu et al. (2026) · relevance 15
+- **[Query-efficient scan-and-search watermark localization](http://arxiv.org/abs/2611.02030v2)** — Liyuan Wang et al. (2026) · relevance 7
+- **[MedPsy: State-of-the-Art Small Medical Language Models for Efficient Edge Deployment](http://arxiv.org/abs/2611.02011v1)** — Davide Vitabile et al. (2026) · relevance 7
+- **[EAGR: Evidence-Guided Adaptive Graph Retrieval](http://arxiv.org/abs/2611.01910v1)** — Sonam Gupta et al. (2026) · relevance 8
+- **[Don't Guess, Ask Wisely: Benchmarking and Training Proactive Elicitation in Open-Domain LLM Conversations](http://arxiv.org/abs/2611.01878v1)** — Rongyu Zhang et al. (2026) · relevance 7
+- **[From Logs to Faults: Reference-Free Fault Localization for Retrieval-Augmented Generation Pipelines](http://arxiv.org/abs/2611.03725v1)** — Hira Naveed et al. (2026) · relevance 9
+- **[Evolving Memory, Learning to Meta-Control: Test-Time Adaptation for Experience-augmented LLM Agents](http://arxiv.org/abs/2611.01747v1)** — Zeyuan Zhao et al. (2026) · relevance 11
+- **[VeriBase: Automated Construction of Theorem Libraries for Software Verification](http://arxiv.org/abs/2611.01743v1)** — Zihao Zhang et al. (2026) · relevance 7
+- **[EMBERS: Empirically Motivated Robustness Testing of Deep Research Systems via Defect-Guided Fuzzing](http://arxiv.org/abs/2611.03723v1)** — Shuochuan Li et al. (2026) · relevance 8
+- **[Can Large Language Model Agents Learn by Watching Tutorial Videos?](http://arxiv.org/abs/2611.01460v1)** — Haoyu Zhao et al. (2026) · relevance 7
+- **[CONFIRM: Governing Scientific Reporting for Trustworthy Agentic Neuroimaging](http://arxiv.org/abs/2611.01449v2)** — Yuxiang Wei et al. (2026) · relevance 6
+- **[Learning by Doing: Autonomously Compiling and Curating Agent Skills from Verified Traces](http://arxiv.org/abs/2611.01386v1)** — Daniel Chalef et al. (2026) · relevance 7
+- **[Rethinking LLM Pruning via Test-Time Scaling](http://arxiv.org/abs/2611.01133v1)** — Mingyang Song et al. (2026) · relevance 9
+- **[Do GEO Gains Survive the Live Web? Evaluating In-the-Wild Visibility Gains of Generative Engine Optimization via LIVE-GEO](http://arxiv.org/abs/2611.01126v1)** — Runze Kong et al. (2026) · relevance 7
+- **[TVP: TV is Almost All You Need for Speculative Decoding](http://arxiv.org/abs/2611.00588v1)** — Aaryam Sharma (2026) · relevance 6
+- **[From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory](http://arxiv.org/abs/2611.00450v1)** — Changjiang Han et al. (2026) · relevance 7
+- **[LF-VideoQA: Evaluating Long-Video Understanding with Long-Form Theory-of-Mind Questions](http://arxiv.org/abs/2611.00383v1)** — Shaden Shaar et al. (2026) · relevance 10
+- **[VerusWeave: A Benchmark for Proof Repair in Concurrent Verus Programs](http://arxiv.org/abs/2611.00287v1)** — Pedro Ribeiro et al. (2026) · relevance 6
+- **[MEMENTO: Learning Context Management for Long Context Processing Agents](http://arxiv.org/abs/2611.00244v1)** — Yunfan Zhang et al. (2026) · relevance 11
+- **[RE-SciVQA: Improving Scientific VQA With Context-Relevant Retrieval and Lightweight MLLM Adaptation](http://arxiv.org/abs/2611.00242v1)** — Sheikh Tahmim Mehdi et al. (2026) · relevance 7
+- **[Latent Reasoning in Continuous Space for Unified Multimodal Models](http://arxiv.org/abs/2610.42149v1)** — Byungwoo Jeon et al. (2026) · relevance 9
+- **[Automated Keyword Generation Using LLMs in a High-Volume Data Virtualization Service](http://arxiv.org/abs/2610.41893v1)** — Saiful Khan et al. (2026) · relevance 11 · _cross-tier: Data Creation and Selection_
+- **[Reimagining Text-to-SQL: A Survey of Large Language Model Architectures and Strategies](http://arxiv.org/abs/2611.00171v1)** — Shikhar Dave et al. (2026) · relevance 10
+- **[Search When Needed, Proceed When Reliable: Metacognitive Reliability Supervision for Efficient Agentic Search](http://arxiv.org/abs/2610.41738v1)** — Minhao Sun et al. (2026) · relevance 12
+- **[PatchScout: Thematic Web Data Collection via Information Foraging](http://arxiv.org/abs/2611.00169v1)** — Michael West et al. (2026) · relevance 6
+- **[DAPS: Dependency-Aware Premise Selection for LLM Theorem Proving](http://arxiv.org/abs/2610.41536v1)** — Zixuan Chen et al. (2026) · relevance 8
+- **[Post-SQLFix: Property-Guided Repair of LLM-Generated SQL with Runtime Verification](http://arxiv.org/abs/2610.41472v1)** — Zhihao Guo et al. (2026) · relevance 7
+- **[ProSearch: Benchmarking Multi-Constraint Protocol Retrieval in Experimental Science](http://arxiv.org/abs/2610.41396v1)** — Wenliang Liang et al. (2026) · relevance 9
+- **[RECITE: Revising Eligibility Criteria Incorporating Textual Evidence](http://arxiv.org/abs/2610.41368v1)** — Russell Ro et al. (2026) · relevance 10
+- **[LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction](http://arxiv.org/abs/2610.41359v1)** — Kwan Yan et al. (2026) · relevance 7
+- **[When AI Investigators Cannot Trust Their Tools: Conflict-Aware Evidence Verification for Cyber Threat Investigation](http://arxiv.org/abs/2610.41191v1)** — Yuchen Zhang (2026) · relevance 9
+- **[TraceSpec: Understanding and Improving Speculative Decoding for LLM Agents](http://arxiv.org/abs/2610.41177v2)** — Jihao Zhao et al. (2026) · relevance 9
+- **[Context as Infrastructure: Knowledge Compilation for Retrieval in Agentic Systems with Harnesses](http://arxiv.org/abs/2610.41172v1)** — Zhichang Yu et al. (2026) · relevance 12
+- **[LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling](http://arxiv.org/abs/2610.41165v1)** — Aishan Liu et al. (2026) · relevance 7
+- **[TalentRL: Strategy-Guided Reinforcement Learning for Hierarchical Skill Routing](http://arxiv.org/abs/2610.41143v1)** — Huancheng Chen et al. (2026) · relevance 7
+- **[Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory](http://arxiv.org/abs/2610.41124v1)** — Nipun D. Pathirage et al. (2026) · relevance 7
+- **[RepGen: Reproducing Deep Learning Bugs through Context-Aware Code Generation and Verification](http://arxiv.org/abs/2610.41097v1)** — Mehil B Shah et al. (2026) · relevance 8
+- **[CIRCE Divines LLM Task Complexity from Constraint Structure](http://arxiv.org/abs/2610.41089v1)** — Chenhao Hong et al. (2026) · relevance 6
+- **[Agentic World Modeling for Agent Test-time Scaling without Environment Replica](http://arxiv.org/abs/2610.40927v1)** — Wendi Li et al. (2026) · relevance 22
+- **[Elucidating the Design Space of LM Data Attribution](http://arxiv.org/abs/2610.40655v1)** — Steven Yu et al. (2026) · relevance 9
+- **[Beyond Selected Breakthroughs: Evaluating Language Models on Randomly Sampled Mathematical Conjectures](http://arxiv.org/abs/2610.40382v1)** — Helen Jenne et al. (2026) · relevance 7
+- **[Towards Full-Text Scholarly Argument Mining using Entity-Anchored Claim Extraction](http://arxiv.org/abs/2610.40196v1)** — Bhuvanesh Verma et al. (2026) · relevance 7 · _cross-tier: Data Substrates_
+- **[Finding Is Not Returning, Returning Is Not Reconstructing: A Multi-Dimensional Evaluation of Agent Social Re-entry](http://arxiv.org/abs/2610.39781v1)** — Sheng Wan et al. (2026) · relevance 6
+- **[Practical Assessment of Agentic Systems in Acoustics](http://arxiv.org/abs/2610.39685v1)** — Arne Hildenbrand et al. (2026) · relevance 7
+- **[Efficient LLM-based Subgraph Retrieval for Multi-Hop Knowledge Base Question Answering](http://arxiv.org/abs/2610.39667v1)** — Duanyang Yuan et al. (2026) · relevance 7
+- **[From Intent to Improvement: Agentic Dataset Search for Better Model Training](http://arxiv.org/abs/2610.39608v1)** — Qiaosheng Chen et al. (2026) · relevance 15
+- **[ATLAS-Bench: An Agentic Tool-Use Benchmark for Local Area Search](http://arxiv.org/abs/2610.39438v1)** — Keyun Zhang et al. (2026) · relevance 19
+- **[MetaVul: Agentic Harness Discovery for Vulnerability Detection](http://arxiv.org/abs/2610.40721v1)** — Ira Ceka et al. (2026) · relevance 12
+- **[A Sequential Decision Framework for Evaluating LLM-Guided Search](http://arxiv.org/abs/2610.39231v1)** — Siqing Huo et al. (2026) · relevance 11
+- **[HEARSAYBENCH: Can AI Navigate from Abstract Human Rights to Lived Lives?](http://arxiv.org/abs/2610.39062v1)** — Ava Iranmanesh et al. (2026) · relevance 10
+- **[Learning Scientific Trajectories to Predict Future Biomedical Discoveries](http://arxiv.org/abs/2610.38719v1)** — Chia-Hsuan Chang et al. (2026) · relevance 12
+- **[Quantum-Inspired Pairwise Ranking Aggregation via Active LLM Feedback](http://arxiv.org/abs/2610.38683v1)** — Quan Mai et al. (2026) · relevance 8
+- **[When Support Crosses the Line: Evaluating Ethical Boundaries in LLM-Based Mental Health Support in the Chinese Context](http://arxiv.org/abs/2610.38452v2)** — Bichen Wang et al. (2026) · relevance 6
+- **[Holistic Diversity Management in LLM-Guided Evolutionary Search](http://arxiv.org/abs/2610.38407v2)** — Seockbean Song et al. (2026) · relevance 9
+- **[Agent Transfer Protocol: Server-Mediated Agent-to-Agent Communication Architecture for the Agentic Web](http://arxiv.org/abs/2610.38398v1)** — Yuqi Qiu et al. (2026) · relevance 7
+- **[Compute Has Shape: Self-Morphing the Internal Computation of Frozen LLMs](http://arxiv.org/abs/2610.38382v1)** — Junxi Wu et al. (2026) · relevance 9
+- **[Rubricon: Automated Rubric Generation and Refinement for LLM Evaluation and Training](http://arxiv.org/abs/2610.38220v1)** — Ulyana Tkachenko et al. (2026) · relevance 8
+- **[Post-Training Large Language Models with LLMON](http://arxiv.org/abs/2610.38120v1)** — Basel Shbita et al. (2026) · relevance 8 · _cross-tier: Data Substrates_
+- **[FAD-KV: Adaptive Dictionary KV Caching for Efficient Reasoning Decoding](http://arxiv.org/abs/2610.37921v1)** — Yuxuan Zhu et al. (2026) · relevance 6
+- **[ICALL-BENCH: Benchmarking LLM Interprocedural Reasoning in Binary Programs](http://arxiv.org/abs/2610.37871v1)** — Shenglong Yao et al. (2026) · relevance 9
+- **[DeFT-RAG: Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers](http://arxiv.org/abs/2610.37826v2)** — Dingyi Kang et al. (2026) · relevance 6
+- **[OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery](http://arxiv.org/abs/2610.37739v1)** — Jiarui Yao et al. (2026) · relevance 11
+- **[PerceptRL: Making Visual Perception Rewardable in MLLMs from Answers to Interactions](http://arxiv.org/abs/2610.37471v1)** — Tongkun Guan et al. (2026) · relevance 18
+- **[Uncovering Why LLMs Fail: From Internal Mechanisms to Adversarial Reasoning Trajectories](http://arxiv.org/abs/2610.37369v2)** — Zirui Ding et al. (2026) · relevance 12
+- **[Coverage Under Contradiction: A Benchmark for Negation-Aware Retrieval](http://arxiv.org/abs/2610.37162v1)** — Pasha Abrishamchian et al. (2026) · relevance 13
+- **[Beyond Similarity Search: Knowledge Graph Metadata Enrichment for Enterprise Retrieval-Augmented Generation](http://arxiv.org/abs/2610.37728v1)** — Fakabbir Amin (2026) · relevance 13
+- **[Latent Residual Reasoning for Ranking in Generative Recommendation](http://arxiv.org/abs/2610.36890v1)** — Haihan Shi et al. (2026) · relevance 6
+- **[When All Rollouts Fail: Policy-Compatible Joint Decoding for Hard-Problem Reasoning](http://arxiv.org/abs/2610.36849v1)** — Zehao Wang et al. (2026) · relevance 10
+- **[Select-TTT: Query-Conditioned Selective Fast Weight Updates for In-Place Test-Time Training](http://arxiv.org/abs/2610.36794v1)** — Yue Wu et al. (2026) · relevance 9
+- **[Can LLMs Reliably Grade Olympiad Proofs? A Study of Mathematical Verification with LLMs](http://arxiv.org/abs/2610.36767v1)** — Azim Ospanov et al. (2026) · relevance 9
+- **[Beyond the Evidence Coherence Trap: Agent-Driven Evidence Selection for Temporally Disordered Fake News Detection](http://arxiv.org/abs/2610.36764v1)** — Chi Wang et al. (2026) · relevance 7
+- **[QESChunker: A Single Objective Unifies Overlapping and Non-Overlapping Chunking for RAG](http://arxiv.org/abs/2610.36557v1)** — Yifan Zhao et al. (2026) · relevance 7
+- **[RoboAuto: Autonomous Robot Program Search through Multi-Level Physical Understanding](http://arxiv.org/abs/2610.36533v1)** — Buzhao Liu et al. (2026) · relevance 6
+- **[CoHARL: Co-Evolving Agent Policies and Executable Harnesses with Reinforcement Learning](http://arxiv.org/abs/2610.36469v1)** — Jianwen Chen et al. (2026) · relevance 7
+- **[Correction or Manipulation? Measuring Epistemic Vigilance in LLM Agents Under User Pressure](http://arxiv.org/abs/2610.36453v1)** — Nardine Basta et al. (2026) · relevance 7
+- **[Verifiable Efficiency Limits of Innate LLM Planning in Sliding Puzzles](http://arxiv.org/abs/2610.36415v1)** — Yezhou Cheng et al. (2026) · relevance 8
+- **[OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning](http://arxiv.org/abs/2610.36335v1)** — Hui Yang et al. (2026) · relevance 9
+- **[ACARE: Agent-Context-Aware Reranker for Iterative Search](http://arxiv.org/abs/2610.35840v1)** — Sahel Sharifymoghaddam et al. (2026) · relevance 8
+- **[Quantifying Claim Smoothing by LLM Research Agents](http://arxiv.org/abs/2610.35793v1)** — Tiasa Singha Roy et al. (2026) · relevance 6
+- **[Test-Time Confidence Adaptation under RL-Induced Trajectory Shift](http://arxiv.org/abs/2610.35500v1)** — Zhenzhen Ren et al. (2026) · relevance 26
+- **[ShutdownMod: Turning Any Trajectory into a Shutdown Evaluation](http://arxiv.org/abs/2610.35486v1)** — Param Biyani et al. (2026) · relevance 16 · _cross-tier: Data Substrates_
+- **[Read the Route: Attention-Steered Hypergraph Retrieval for Multi-hop RAG](http://arxiv.org/abs/2610.35412v1)** — Jiate Liu et al. (2026) · relevance 8
+- **[PolicyMediator: Multi-Regional Policy Learning through Mediation Agents with Evolving Skills in OPC Ecosystems](http://arxiv.org/abs/2610.35997v1)** — Jie Li et al. (2026) · relevance 6
+- **[CRIM: Composable and Reusable Item Memory for Efficient Personalized Retrieval](http://arxiv.org/abs/2610.35323v1)** — Haolin Li et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[Generation and Verification: Human-Agent Collaboration for Safety-Critical Automotive Software Engineering](http://arxiv.org/abs/2610.35982v1)** — Elizaveta Zinovyeva et al. (2026) · relevance 10
+- **[LongSearchEval: Evaluating Long-Horizon Web Search Capabilities of Large Language Models via a Trajectory-Aware Agent Framework with Failure-Node Localization](http://arxiv.org/abs/2610.35150v1)** — Jialiang Liu et al. (2026) · relevance 12
+- **[CalibraRL: Confidence-Calibrated Reinforcement Learning for Mitigating Hallucinations in RAG](http://arxiv.org/abs/2610.35142v1)** — Qianchi Zhang et al. (2026) · relevance 7
+- **[RAGing Against Misogyny: Improving Implicit Misogyny Explanations](http://arxiv.org/abs/2610.35094v1)** — Ivana Crescenzi et al. (2026) · relevance 7
+- **[Improving Instruction Hierarchy by Learning from Goal-Goal Conflicts](http://arxiv.org/abs/2610.35093v1)** — Sizhe Chen et al. (2026) · relevance 6
+- **[Learning to Remember: Advances in Memory Mechanisms for Large Language Models](http://arxiv.org/abs/2610.35089v1)** — Chenye Han et al. (2026) · relevance 6
+- **[PatentAgentBench: Benchmarking LLM Agents with Professional Patent Task Suites](http://arxiv.org/abs/2610.35031v1)** — Yijie Hu et al. (2026) · relevance 8
+- **[Multiscale Policy Optimization for Long-Horizon LLM Agents](http://arxiv.org/abs/2610.35013v1)** — Tao Ren et al. (2026) · relevance 7
+- **[UniGFM-RAG: Unify Graph Foundation Models and Large Language Models for End-to-End Retrieval and Reasoning](http://arxiv.org/abs/2610.34866v1)** — Zicheng Zhao et al. (2026) · relevance 10
+- **[Logic Hijacking of RAG: Single-Document Poisoning via Local Optimization](http://arxiv.org/abs/2610.34829v2)** — Hangyi Zhao et al. (2026) · relevance 9
+- **[DPE-Rec: Diversity-Preserving and Efficient Diffusion Language Model Recommendation for Bundle Construction](http://arxiv.org/abs/2610.34700v1)** — Pingchuan Ma et al. (2026) · relevance 6
+- **[Thinking-in-Bets at Test Time Reduces Sycophantic Revisions in LLM Agents](http://arxiv.org/abs/2610.34654v1)** — Nghi D. Q. Bui (2026) · relevance 9
+- **[Rethinking Verification in Agent Harnesses](http://arxiv.org/abs/2610.34577v1)** — Zhengxin Zhang et al. (2026) · relevance 10
+- **[CaliMem: Search-Efficient Data Agent via Calibrated Memory](http://arxiv.org/abs/2610.34500v1)** — Hanze Li et al. (2026) · relevance 15
+- **[What Effort Level Should I Choose? On the Economics of Reasoning Effort in LLM Agents](http://arxiv.org/abs/2610.34491v1)** — Kaiser Sun et al. (2026) · relevance 11
+- **[EvolveMAS: A Unified Self-Evolution Framework for Decentralized Multi-Agent Systems](http://arxiv.org/abs/2610.34450v1)** — Yalun Wu et al. (2026) · relevance 9
+- **[From GPU to TPU with Coding Agents: What Works, What Fails, and What It Costs?](http://arxiv.org/abs/2610.34422v2)** — Hui Sun et al. (2026) · relevance 6
+- **[ParetoRSI-Gym: Can AI Agents Improve Language Models Across Multiple Domains?](http://arxiv.org/abs/2610.34386v1)** — Haojin Wang et al. (2026) · relevance 11 · _cross-tier: Data Creation and Selection_
+- **[Distributed LLM Inference via Communication-Efficient Speculative Decoding](http://arxiv.org/abs/2610.35957v1)** — Joohyun Shin et al. (2026) · relevance 9
+- **[DRILS: Dependency-based Requirement Change Impact Analysis Using LLMs](http://arxiv.org/abs/2610.33920v1)** — Romina Etezadi et al. (2026) · relevance 6
+- **[Counterfactual Test-Time Augmentation for Shortcut Removal in Language Models](http://arxiv.org/abs/2610.33904v1)** — Katie Matton et al. (2026) · relevance 11
+- **[DIGEST: Discovery-Guided LLM Tuning for Symbolic Regression](http://arxiv.org/abs/2610.33880v1)** — Kaifeng Jin et al. (2026) · relevance 6
+- **[Software Engineering LLMs: Why We Need Them and How Software Engineering Helps Build Them](http://arxiv.org/abs/2610.33851v1)** — Amir M. Ebrahimi et al. (2026) · relevance 8 · _cross-tier: Data Substrates_
+- **[MTA-Zero: Self-Improving Multimodal Deep Search via Online QA-Solver Co-training](http://arxiv.org/abs/2610.33799v1)** — Xiangyu Peng et al. (2026) · relevance 8
+- **[TriageRAG: Failure-Aware Self-Training for Adapting Retrieval-Augmented Language Models to Specialized Domains](http://arxiv.org/abs/2610.33776v1)** — Samarth Varshney et al. (2026) · relevance 11
+- **[SkillQR: Agentic Skill Discovery for Reason-Intensive Query Rewriting](http://arxiv.org/abs/2610.33768v1)** — Kenan Jiang et al. (2026) · relevance 12
+- **[Trust Mechanisms for Offline Generative AI at the Edge: A Connectivity-Regime Framework and an Empirical Study on a Raspberry Pi 5](http://arxiv.org/abs/2610.33732v1)** — Georgios Feretzakis et al. (2026) · relevance 6
+- **[Data Governance for Generative and Agentic AI : Technology, Law, Economics, and Security](http://arxiv.org/abs/2610.33605v1)** — Narayana Darapaneni et al. (2026) · relevance 9
+- **[Towards a Learnable Retriever for Textual Graph Question Answering](http://arxiv.org/abs/2610.33511v1)** — Kaifeng Jin et al. (2026) · relevance 7
+- **[Secure and Functional Code Generation with Self-Evaluation](http://arxiv.org/abs/2610.33450v1)** — Md Afif Al Mamun et al. (2026) · relevance 6
+- **[Cross-Platform Application Migration to HarmonyOS: An Agentic Pipeline with Artifact-Derived Verification](http://arxiv.org/abs/2610.33197v1)** — Ergun Biçici et al. (2026) · relevance 11
+- **[ActionRAG: Evidence-Refining Graph Diffusion for Long-Term Memory in LLM Agents](http://arxiv.org/abs/2610.32752v1)** — Navyansh Mahla et al. (2026) · relevance 6
+- **[Ontology-Guided Knowledge Graph Construction from Structured Metadata and Climate Science Publications](http://arxiv.org/abs/2610.32725v1)** — Aayush Acharya et al. (2026) · relevance 7
+- **[From archive to resource: bringing legacy data back to life at scale with large language models](http://arxiv.org/abs/2610.32616v1)** — C. H. Vieira-Vieira et al. (2026) · relevance 7
+- **[Beyond Post-Hoc Rewards: Privileged Reasoning Exploration for Multimodal Embeddings](http://arxiv.org/abs/2610.32474v1)** — Tianyu Yang et al. (2026) · relevance 8
+- **[SCI-AGENT-EXAM: Benchmarking Agents on Scientific Research Tasks](http://arxiv.org/abs/2610.32441v1)** — Tianyun Zhong et al. (2026) · relevance 10
+- **[LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents](http://arxiv.org/abs/2610.32412v1)** — Shen Liu et al. (2026) · relevance 6
+- **[DealsFlow: An Evidence-Gated Agentic Harness for Venture Capital Deal Triage](http://arxiv.org/abs/2610.32380v1)** — Ming Ze Tang et al. (2026) · relevance 9
+- **[Solvent: Long-Horizon Reasoning for Multi-Step Retrosynthesis](http://arxiv.org/abs/2610.32308v1)** — Yifei Wang et al. (2026) · relevance 10
+- **[Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution](http://arxiv.org/abs/2610.32285v1)** — Zhiyong Cao et al. (2026) · relevance 11
+- **[MedCaseAgent: From Multimodal Clinical Evidence to Rare Disease Case Reports](http://arxiv.org/abs/2610.32258v1)** — Hongkang Chu et al. (2026) · relevance 6
+- **[Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery](http://arxiv.org/abs/2610.32195v1)** — Dongki Kim et al. (2026) · relevance 8
+- **[Evidence-Grounded SLM Behavioral Prediction Architecture for Future Assistance Use](http://arxiv.org/abs/2610.32193v1)** — Adeyemi Adeseye et al. (2026) · relevance 6
+- **[The LLENS Platform for On-Premises Large Language Model Agents in a Japanese University Hospital: Development and Evaluation Study](http://arxiv.org/abs/2610.32151v2)** — Ken Enda et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[From Noisy Retrieval to Decision Evidence: Silver Evidence Demonstrations for In-Context Learning](http://arxiv.org/abs/2610.32128v1)** — Masoud Monajatipoor et al. (2026) · relevance 12
+- **[Understanding Communication Failures in Multi-Agent LLM Systems](http://arxiv.org/abs/2610.32060v1)** — Priya Pitre et al. (2026) · relevance 12
+- **[Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?](http://arxiv.org/abs/2610.32046v1)** — Yepeng Liu et al. (2026) · relevance 7
+- **[TRACE: Data-Free Text Reconstruction Attacks against Approximate Unlearning in LLMs](http://arxiv.org/abs/2610.31995v1)** — Mengying Zhang et al. (2026) · relevance 6
+- **[Machine-Readable Operator Manuals over the ISO 11783 Network for Offline, Multilingual LLM Assistance](http://arxiv.org/abs/2610.31863v1)** — Timo Oksanen et al. (2026) · relevance 6
+- **[How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions](http://arxiv.org/abs/2610.31606v2)** — Miguel Mochizuki Silva et al. (2026) · relevance 9
+- **[Rethinking Sequence Compression with Test-time Regression](http://arxiv.org/abs/2610.31574v1)** — Sihan Yang et al. (2026) · relevance 7
+- **[On the Token Collapse Phenomenon in Textual Graph Soft Prompting](http://arxiv.org/abs/2610.31572v1)** — Andrea Giuseppe Di Francesco et al. (2026) · relevance 6
+- **[ValuSpec: Plug-and-Play Candidate Valuation before Target Verification for Tree-Based Speculative Decoding](http://arxiv.org/abs/2610.31338v1)** — Liang He et al. (2026) · relevance 10
+- **[IndoNutriQA: An Indonesian Clinical Nutrition Question Answering Benchmark](http://arxiv.org/abs/2610.31256v1)** — Tirana Noor Fatyanosa et al. (2026) · relevance 11
+- **[Diagnosing the Explicit-to-Applied Theory of Mind Gap in LLMs](http://arxiv.org/abs/2610.31060v1)** — Prajvi Saxena et al. (2026) · relevance 6
+- **[Bezier-Guided Adaptive Flow for Cross-domain Sequential Recommendation](http://arxiv.org/abs/2610.30825v1)** — Ziang Lu et al. (2026) · relevance 8
+- **[Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought](http://arxiv.org/abs/2610.30755v1)** — Zhengye Bao et al. (2026) · relevance 9
+- **[Federated Graph Retrieval-Augmented Generation](http://arxiv.org/abs/2610.30728v1)** — Xiaobao Wang et al. (2026) · relevance 7
+- **[Future of Time Series Anomaly Detection: From Historical Review to Unified Outlook](http://arxiv.org/abs/2610.30628v1)** — Zhijie Zhong et al. (2026) · relevance 8
+- **[Better Reasoning, Not Just Bigger Models: A Structure-Grounded Framework for Efficient and Reliable Inference](http://arxiv.org/abs/2610.30611v1)** — Amirhossein Aghaei et al. (2026) · relevance 6
+- **[Mining the Design Space of Multi-Agent Workflows](http://arxiv.org/abs/2610.31709v1)** — Xavier Cadet et al. (2026) · relevance 7
+- **[IFC-MCQ: Automatically Generating Multiple-Choice Benchmarks for Evaluating LLM Agents on IFC Data Retrieval](http://arxiv.org/abs/2610.30533v1)** — Rabindra Lamsal et al. (2026) · relevance 12
+- **[LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification](http://arxiv.org/abs/2610.30524v1)** — Zhipeng Cao et al. (2026) · relevance 8
+- **[What the Trace Shows and What the Label Says: Auditing Behavioral Detectors in Agent Evaluation](http://arxiv.org/abs/2610.30491v1)** — Idunnuoluwa A. Adeniji et al. (2026) · relevance 7
+- **[Why Bother Me Again? Benchmarking Personal Agent Memory for Interaction Preferences](http://arxiv.org/abs/2610.30485v1)** — Jialin Li et al. (2026) · relevance 11 · _cross-tier: Data Creation and Selection_
+- **[Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models](http://arxiv.org/abs/2610.30435v1)** — Taewhoo Lee et al. (2026) · relevance 13
+- **[Before the Ticket: Grounding HPC User Support in Documentation and Resolved Tickets with an Agentic LLM Assistant](http://arxiv.org/abs/2610.31703v1)** — Elham J. Barezi et al. (2026) · relevance 8
+- **[Astro2Method: Benchmarking LLMs on Machine Learning Method Selection in Astronomy](http://arxiv.org/abs/2610.30282v1)** — Xingzhong Fan et al. (2026) · relevance 6
+- **[Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis](http://arxiv.org/abs/2610.30072v1)** — Xinzhe Wang et al. (2026) · relevance 14
+- **[ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination](http://arxiv.org/abs/2610.29934v1)** — Nithin Sivakumaran et al. (2026) · relevance 7
+- **[Graph Topology Meets Energy-Driven Pathfinding: Preserving Contextual Consistency in Retrieval-Augmented Generation](http://arxiv.org/abs/2610.29933v1)** — Yufeng Li et al. (2026) · relevance 7
+- **[PAUSE: Search-Free Steering of Coding Agents Before Their First Source-Code Edit](http://arxiv.org/abs/2610.29870v1)** — Viral Patel et al. (2026) · relevance 7
+- **[Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents](http://arxiv.org/abs/2610.29812v1)** — Mohammed Saqlain (2026) · relevance 7
+- **[MAPS: Macro-Adaptive Parallel Reasoning for Regulating Search Momentum in Retrieval-Augmented Generation](http://arxiv.org/abs/2610.29792v1)** — Xinze Li et al. (2026) · relevance 13
+- **[Evolving with Open Worlds: Towards Recursive Self-Improvement for Future Forecasting](http://arxiv.org/abs/2610.29784v2)** — Zhipeng Chen et al. (2026) · relevance 10
+- **[Retrieval Augmented Generation Compositionality](http://arxiv.org/abs/2610.29722v1)** — Ido Levy et al. (2026) · relevance 13
+- **[Beyond the Vote: When Do LLMs Add Value to Retrieval-Based Tabular Classification?](http://arxiv.org/abs/2610.29520v1)** — Ziquan Wang et al. (2026) · relevance 9
+- **[Benchmarking and Error Analysis of Deep Search and Deep Research LLM Agents](http://arxiv.org/abs/2610.29346v1)** — Zixuan Yu et al. (2026) · relevance 6
+- **[Design and Tuning of Multi-Agent Systems Using Bayesian Evolutionary Optimization](http://arxiv.org/abs/2610.29276v1)** — Dominik Jehle et al. (2026) · relevance 6
+- **[Let Agents Design How They Search: Automatic Interface Optimization for Agentic Search](http://arxiv.org/abs/2610.29250v1)** — Sangjune An et al. (2026) · relevance 10
+- **[Reasoning-Search-Augmented LLMs: An Operational Taxonomy, Benchmark Analysis and Controlled Evidence Synthesis](http://arxiv.org/abs/2610.29189v1)** — Biswas Poudel et al. (2026) · relevance 10
+- **[ORSMT: Unleashing the Potential of Satisfiability Modulo Theories for Semantic Verification and Repair in LLM-Based Optimization](http://arxiv.org/abs/2610.29145v1)** — Rui Zhang et al. (2026) · relevance 7
+- **[Target Regeneration Shrinks the Gains of Draft-Training Objectives in Speculative Decoding](http://arxiv.org/abs/2610.29013v1)** — Jungseob Lee et al. (2026) · relevance 7
+- **[PerMIT: Securing Persistent Memory for LLM Agents via Machine-Checked Integrity Theorems and Scalable Community Trust](http://arxiv.org/abs/2610.28987v1)** — Tanqiu Jiang et al. (2026) · relevance 9
+- **[SLoSa: Small, Low-Power, and Safe Foundation Models for Robotic Task Planning](http://arxiv.org/abs/2610.28955v1)** — Weizhe Xu et al. (2026) · relevance 9
+- **[Self-Improving Agents with World Model Predictive Paths](http://arxiv.org/abs/2610.28945v1)** — Haori Lu et al. (2026) · relevance 7
+- **[D-Skill: Distilling Teacher Knowledge through Agent Skills](http://arxiv.org/abs/2610.28914v1)** — Shuo Yuan et al. (2026) · relevance 7
+- **[A Mechanistic Study of Automated Failure Attribution in LLM-based Agentic Systems](http://arxiv.org/abs/2610.28811v1)** — Wendy Zheng et al. (2026) · relevance 6
+- **[InterWebCoder: Learning Interactive Webpage Generation from Executable Tests via Reinforcement Learning](http://arxiv.org/abs/2610.28610v1)** — Jingyu Xiao et al. (2026) · relevance 12 · _cross-tier: Data Creation and Selection_
+- **[Evolving Semantic Indexes for Generative Retrieval](http://arxiv.org/abs/2610.28568v1)** — Jinming Nian et al. (2026) · relevance 9
+- **[DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems](http://arxiv.org/abs/2610.28522v1)** — Xialie Zhuang et al. (2026) · relevance 6
+- **[Rewards for Budget-Aware Multi-Turn Agents That Adapt to Arbitrary Test-Time Constraints](http://arxiv.org/abs/2610.28409v1)** — Tom A. Lamb et al. (2026) · relevance 11
+- **[FALCA: Falsification-Aware Reinforcement Learning with Hierarchical Credit Assignment for Long-Horizon Deep Search Agents](http://arxiv.org/abs/2610.28361v1)** — Zijun Dou et al. (2026) · relevance 11
+- **[DeclineCraft: A RAG Abstention Benchmark for Jointly Measuring Combined Retrieval and Parametric Knowledge](http://arxiv.org/abs/2610.28340v1)** — Atharva Thakur et al. (2026) · relevance 10
+- **[MaD-RSI: Model-as-Data for Recursive Self-Improvement of Agent Harnesses](http://arxiv.org/abs/2610.28201v1)** — Yu Cui et al. (2026) · relevance 9
+- **[Temporal Evidence-Parameter Co-Alignment for LLM Reasoning over Temporal Knowledge Graphs](http://arxiv.org/abs/2610.28176v2)** — Jiapu Wang (2026) · relevance 8 · _cross-tier: Data Creation and Selection_
+- **[TrajEvolve: Trajectory Evolution for Reinforcement Learning with Hindsight Credit Assignment](http://arxiv.org/abs/2610.28060v1)** — Yi Wen et al. (2026) · relevance 16
+- **[RANGER: Retrieval Agent for Navigating Graphs with Semantic Evaluation Rewards](http://arxiv.org/abs/2610.28010v1)** — Artem Mikhaylov et al. (2026) · relevance 11
+- **[VISH-ASR: Viterbi-Guided Selection of Hotwords for Speech-LLM Contextual ASR](http://arxiv.org/abs/2610.27867v1)** — Xiaoyu Gu et al. (2026) · relevance 7
+- **[UvA-MT's Participation in the WMT26 General Translation Shared Task](http://arxiv.org/abs/2610.27852v1)** — Di Wu et al. (2026) · relevance 6
+- **[COMPASS: Routing via Capability-Oriented Model Profiling with Adaptive Search, Selection, and Tool Use](http://arxiv.org/abs/2610.27822v1)** — Amin Rezaei et al. (2026) · relevance 11
+- **[RAG-NIMBF: A Non-Invasive, Modular Benchmarking Framework for Automated RAG Configuration Analysis](http://arxiv.org/abs/2610.27816v1)** — Niclas Hart et al. (2026) · relevance 9
+- **[RELAY: Scaling Historical Build Restoration through Rule Reuse and Agentic Repair](http://arxiv.org/abs/2610.27784v1)** — Olivier Nourry et al. (2026) · relevance 11
+- **[GRADUS: Discovering and Recovering Agent Lessons from the Environment's Latent Syllabus](http://arxiv.org/abs/2610.27781v1)** — Qing Ping et al. (2026) · relevance 14
+- **[RITE: Evaluating End-to-End Resilience to Silent Tool Errors in E-Commerce Agentic Systems](http://arxiv.org/abs/2610.27777v1)** — Wenshuo Zhang et al. (2026) · relevance 9
+- **[CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation](http://arxiv.org/abs/2610.27677v1)** — Pengying Wu et al. (2026) · relevance 6
+- **[Why Static Probes Fail: Context Determines Deception Feature Composition](http://arxiv.org/abs/2610.27577v1)** — Yao Huang et al. (2026) · relevance 8
+- **[AnomalyJev: Towards Evaluating Image Anomaly Explanations via Claim-Level Verification](http://arxiv.org/abs/2610.27565v1)** — Qizhou Wang et al. (2026) · relevance 9
+- **[More Memory, Worse Agents: Error Reproduction and Anti-Persistence in LLM Agents](http://arxiv.org/abs/2610.27406v1)** — Ruhan Wang et al. (2026) · relevance 8
+- **[DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding](http://arxiv.org/abs/2610.27379v1)** — Shreyas Kulkarni et al. (2026) · relevance 15
+- **[SHAM-Bench: A Span-level Hallucination Benchmark Across Multiple Tasks](http://arxiv.org/abs/2610.27370v1)** — Sicong Huang et al. (2026) · relevance 6
+- **[An LLM-Based Agent for Legal Compliance Assessment: Architecture, Memory, and Evaluation in a Canadian and Quebec Context](http://arxiv.org/abs/2610.27347v1)** — Soukaina Alaoui Ismaili et al. (2026) · relevance 6
+- **[Modeling Authentic Research Trajectories: A Graph View of Research Ideation](http://arxiv.org/abs/2610.27337v1)** — Ruochen Li et al. (2026) · relevance 11
+- **[EDMA: Entropy-Driven Multimodal Answering](http://arxiv.org/abs/2610.27120v1)** — Emanuele Mezzi et al. (2026) · relevance 9
+- **[EpiLens: Lightweight RAG for Epidemiological Knowledge Acquisition](http://arxiv.org/abs/2610.26730v1)** — Vincenzo Perri et al. (2026) · relevance 7
+- **[Fluent but Fallible: Benchmarking Hallucination and Factual Reliability in Large Language Models](http://arxiv.org/abs/2610.27034v1)** — Osama Shabih et al. (2026) · relevance 8
+- **[M-Plan: Comprehensive Planning For LLM Agents with Memory Arrangement](http://arxiv.org/abs/2610.27032v1)** — Ziyang Liu et al. (2026) · relevance 6
+- **[Which Model for Which Role? Cost-Efficient Pareto Recommendation for LLM Agentic Workflows](http://arxiv.org/abs/2610.26676v1)** — Qian Xie et al. (2026) · relevance 7
+- **[AllPath: Layered Verification for a Deployed, Self-Revising LLM Trading Agent under Human-Gated and Autonomous Regimes](http://arxiv.org/abs/2610.26662v1)** — Tian Zhang et al. (2026) · relevance 7
+- **[Benchmarking the Quantum Leap: Auditing LLM Evaluation for Quantum Code Generation](http://arxiv.org/abs/2610.28678v1)** — Ethan Seefried et al. (2026) · relevance 6
+- **[BOSS: Token-Budgeted Online Sampling and Selection for LLM Reasoning](http://arxiv.org/abs/2610.26383v1)** — Yupeng Chang et al. (2026) · relevance 6
+- **[FinHopper: A Progressive Multi-Hop Benchmark for Complex Financial Agents with Step-wise Evaluation](http://arxiv.org/abs/2610.26036v1)** — Yuxuan Wu et al. (2026) · relevance 11
+- **[Auditor-Assisted Summary-Channel Verification for Hosted LLM Identity Substitution](http://arxiv.org/abs/2610.25982v1)** — Ziyi Zhang et al. (2026) · relevance 6
+- **[AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments](http://arxiv.org/abs/2610.25950v1)** — Rui Wang et al. (2026) · relevance 14
+- **[Maestro: Agentic Formal Proof Development by Coordination](http://arxiv.org/abs/2610.25920v1)** — Haoyu Li et al. (2026) · relevance 9
+- **[From Finding to Fixing: How Useful is Fault Localization for Agentic Program Repair?](http://arxiv.org/abs/2610.25826v1)** — Xinyu Shi et al. (2026) · relevance 9
+- **[CoMem: Learning to Anticipate Failures from Retrieved Experience](http://arxiv.org/abs/2610.25790v1)** — Yun Shen et al. (2026) · relevance 6
+- **[Standing on the Shoulders of Giants: Enhancing LLM Agents for Automated Fact-Checking with Human Expert Skills](http://arxiv.org/abs/2610.25777v1)** — Xinwen Chen et al. (2026) · relevance 7
+- **[Cross-Pollination Retrieval: Finding Transferable Ideas Across Fields in Scientific Literature](http://arxiv.org/abs/2610.25678v1)** — Seokwon Jung et al. (2026) · relevance 10
+- **[Zephyrus-R1: Agentic Reinforcement Learning for Weather Reporting](http://arxiv.org/abs/2610.25625v1)** — Fengfei Yu et al. (2026) · relevance 16
+- **[Step-Aligned Script Generation with Verification and Recovery for Web Automation Testing](http://arxiv.org/abs/2610.25601v1)** — Hridya Dhulipala et al. (2026) · relevance 9
+- **[ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference](http://arxiv.org/abs/2610.25519v1)** — Mobina Kashaniyan et al. (2026) · relevance 11
+- **[Stepwise Reasoning Verification: Don't Generate, Classify!](http://arxiv.org/abs/2610.25441v1)** — Yifei Shi et al. (2026) · relevance 9 · _cross-tier: Data Substrates_
+- **[Outcome-Anchored Credit Reallocation for Agentic Knowledge Graph Question Answering](http://arxiv.org/abs/2610.25384v1)** — Mingyuan Li et al. (2026) · relevance 10 · _cross-tier: Data Creation and Selection_
+- **[Aligning Language Models with Indigenous Community Cosmovision through Constitutional AI](http://arxiv.org/abs/2610.25298v1)** — Silvia Fernández-Sabido et al. (2026) · relevance 6
+- **[Bridging Concepts: Multi-Agent Reasoning over Scientific Concept Graphs for High-Impact Research Prediction](http://arxiv.org/abs/2610.25281v1)** — Donggyu Yoon et al. (2026) · relevance 6
+- **[EG-GRPO: Evidence-Guided Step-level Credit Assignment for Deep Search Agents](http://arxiv.org/abs/2610.25269v1)** — Sijia Luo et al. (2026) · relevance 7
+- **[SPARC: Spoken Profile Authorship Recognition Corpus](http://arxiv.org/abs/2610.25265v1)** — Efthymios Tsaprazlis et al. (2026) · relevance 10
+- **[Calibration-Free Early Stopping for Chain-of-Thought Reasoning via E-processes](http://arxiv.org/abs/2610.25212v1)** — Dong-Jae Lee et al. (2026) · relevance 11
+- **[Acharya 2.0: An AI Tutor for Self-Learning Subjects in Hindi](http://arxiv.org/abs/2610.25192v2)** — Shantipriya Parida et al. (2026) · relevance 7
+- **[Dialogue Generation for Conversational Recommendation Using User Search Interactions and Knowledge Graphs](http://arxiv.org/abs/2610.25182v1)** — Minsung Hwang et al. (2026) · relevance 6 · _cross-tier: Data Creation and Selection_
+- **[The Bottleneck Is Retrieval, Not Reading: Diagnosing Evidence-Based Generation with RAG for Long Context Question Answering](http://arxiv.org/abs/2610.26951v1)** — Debopriyo Banerjee et al. (2026) · relevance 8
+- **[Memories That Outlive Their Reasons: Dependency-Tethered Memory for Tool-Using LLM Agents](http://arxiv.org/abs/2610.25123v2)** — Yiqi Wang et al. (2026) · relevance 9
+- **[Memory as Belief: Bayesian Evolution of Memory for Self-Evolving LLM Agents](http://arxiv.org/abs/2610.25119v1)** — Yiming Xu et al. (2026) · relevance 7
+- **[Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models](http://arxiv.org/abs/2610.25100v1)** — Rubin Wei et al. (2026) · relevance 7
+- **[Toward Agentic Retrieval-Augmented Generation for Enterprise Retail Workflows over Heterogeneous Data Sources](http://arxiv.org/abs/2610.25096v1)** — Jeonghwan Choi et al. (2026) · relevance 13
+- **[Conjugate Compilation: Self-Improving Agentic Co-Compilation for Speculative Decoding](http://arxiv.org/abs/2610.25012v1)** — Annabelle Sujun Tang et al. (2026) · relevance 7
+- **[MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning](http://arxiv.org/abs/2610.26943v1)** — Xinping Wang et al. (2026) · relevance 8
+- **[The World as Viewed by 136 Countries: An Open, Curated, Annotated, and Multilingual Dataset of 118 Million State Media Articles](http://arxiv.org/abs/2610.24990v1)** — Bryan Li et al. (2026) · relevance 10
+- **[MemPrice: Online Memory Allocation via Adaptive Pricing for Long-Horizon Agents](http://arxiv.org/abs/2610.24955v1)** — Yiming Zong et al. (2026) · relevance 8
+- **[A Cross-Domain Evaluation of Prompting Techniques for Large Language Models](http://arxiv.org/abs/2610.24913v1)** — Kevin Krazius et al. (2026) · relevance 10
+- **[CAT-RAG: Improving Secure Code Generation with Category-Aware Agentic Retrieval](http://arxiv.org/abs/2610.24907v1)** — Mahdieh Abazar et al. (2026) · relevance 9
+- **[HybridResearcher: Bridging the Structured-Unstructured Boundary for Deep Research Agents](http://arxiv.org/abs/2610.24899v2)** — Soyoung Yoon et al. (2026) · relevance 9
+- **[Do We Need the Largest LLMs for Every Clinical Decision?](http://arxiv.org/abs/2610.26937v1)** — Ali H. Lazem et al. (2026) · relevance 8
+- **[DiffuPlan: Editable Planning State for Diffusion Language Model Agents](http://arxiv.org/abs/2610.24717v1)** — Qisheng Zhou et al. (2026) · relevance 8
+- **[When Code Becomes an LLM Call: An Empirical Study of Call-Site Contracts in Agentic Systems](http://arxiv.org/abs/2610.24545v1)** — Shihao Weng et al. (2026) · relevance 7
+- **[Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization](http://arxiv.org/abs/2610.24385v2)** — Jie Mao et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[VERAS: Verification-Guided Adaptive Search for Reliable Operations Research](http://arxiv.org/abs/2610.24329v1)** — Minbo Ma et al. (2026) · relevance 10
+- **[MOSS: A Production Framework for Monitoring and Diagnosing Semantic Failures in Search and Recommendation Systems](http://arxiv.org/abs/2610.26902v1)** — Alina Nesen et al. (2026) · relevance 6
+- **[Agents' Last Doubt: Knowing When to Act and When to Step Back in Tool-Using Agents](http://arxiv.org/abs/2610.24194v1)** — Qisai Liu et al. (2026) · relevance 8
+- **[Continual Test-Time Learning with Evolution Strategies](http://arxiv.org/abs/2610.24137v1)** — Guangya Hao et al. (2026) · relevance 13
+- **[OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners](http://arxiv.org/abs/2610.24087v1)** — Peisong Wang et al. (2026) · relevance 6
+- **[Recognizing Study Lineage Is Not Enough: Over-Crediting Same-Trial Evidence in LLM-Based Medical Verification](http://arxiv.org/abs/2610.23721v1)** — Mukand Krishna et al. (2026) · relevance 6
+- **[ThetreStageAI: Multi-View Retrieval-Augmented Generation for Structured Bengali Theatre Production Planning](http://arxiv.org/abs/2610.23618v1)** — Md. Mehedi Hasan Naeem et al. (2026) · relevance 15
+- **[RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory](http://arxiv.org/abs/2610.23598v1)** — Dabin Sheng et al. (2026) · relevance 9
+- **[Verbalising Model's Computation for Chain-of-Thought Faithfulness Detection](http://arxiv.org/abs/2610.23275v1)** — Yujing Wang et al. (2026) · relevance 7
+- **[Sample, Mix, or Verify? Allocating Test-Time Compute under Imperfect Verifiers](http://arxiv.org/abs/2610.23255v1)** — Srinivasan Iyengar (2026) · relevance 11
+- **[Characterising and Analysing Retrieval-Augmented Generation Techniques](http://arxiv.org/abs/2610.23226v1)** — Emmanuel Igbekele et al. (2026) · relevance 7
+- **[Process Reward Modeling with Reliability- and Conservatism-Aware Bayesian Belief](http://arxiv.org/abs/2610.23223v1)** — Zhongjian Qiao et al. (2026) · relevance 7
+- **[Not All Test-Time Compute Is Evidence: Model-Specific Bias in LLM Reasoning](http://arxiv.org/abs/2610.23213v1)** — Ming Shen et al. (2026) · relevance 9
+- **[MAS-Bai: Linguistically Informed Adaptive Multi-Agent Translation for Bowen-Script Bai](http://arxiv.org/abs/2610.23205v1)** — Jingting Zheng et al. (2026) · relevance 6
+- **[Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning](http://arxiv.org/abs/2610.23181v1)** — Heming Zou et al. (2026) · relevance 6
+- **[Before Retrieval Begins: Safety and Tool-Use Decisions in LLM Agents](http://arxiv.org/abs/2610.23071v1)** — Aditya Nawal et al. (2026) · relevance 15
+- **[Unified Multiparadigm Fusion Intelligence for Rare Disease Diagnosis](http://arxiv.org/abs/2610.24024v1)** — Jian Yang et al. (2026) · relevance 8
+- **[Self-Evolving Coding Agents via Harness-Policy Optimization](http://arxiv.org/abs/2610.22791v1)** — Zhepei Wei et al. (2026) · relevance 8 · _cross-tier: Data Substrates_
+- **[NoveltyScope: A Multi-Agent Research Assistant for Evidence-Grounded Novelty Assessment of Scientific Papers](http://arxiv.org/abs/2610.22703v1)** — Yueran Tian et al. (2026) · relevance 6
+- **[Explore Separately, Adopt Selectively: Execution-Guided Tool Use over Large Tool Libraries](http://arxiv.org/abs/2610.22688v1)** — Anna Mazhar et al. (2026) · relevance 13
+- **[SAG2: Embedding-Free Multi-Hop Retrieval with BM25 and JEV](http://arxiv.org/abs/2610.22588v1)** — Yuchao Wu (2026) · relevance 9
+- **[AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems](http://arxiv.org/abs/2610.22511v1)** — Shreeyans Arora et al. (2026) · relevance 16
+- **[3DCodeVerse: Exploring 3D Worlds as Code](http://arxiv.org/abs/2610.22341v1)** — Yipeng Gao et al. (2026) · relevance 10
+- **[Private Retrieval Augmented Generation via Random Projection](http://arxiv.org/abs/2610.22297v1)** — Dixi Yao et al. (2026) · relevance 9
+- **[Lean4AgenticRL: Advancing Agentic RL with Verifiable Multi-level Process Rewards](http://arxiv.org/abs/2610.22448v1)** — Ruida Wang et al. (2026) · relevance 7
+- **[OntoAct: Hypothesis-Based Neuro-Symbolic Agents through Ontological Abstraction](http://arxiv.org/abs/2610.21983v1)** — Donghyeok Lee et al. (2026) · relevance 9
+- **[Aligning LLMs with Sparse Retrieval via Adaptive Sparse Supervision](http://arxiv.org/abs/2610.21877v1)** — Tongna Chen et al. (2026) · relevance 9
+- **[AgentPerturb: Evaluating LLM Agent Robustness under Controlled Interaction Perturbations](http://arxiv.org/abs/2610.21624v2)** — Yuanjian Xu et al. (2026) · relevance 14
+- **[Independent Data-Integrity Verification for LLM-Driven Functional Coverage Closure in Hardware Design](http://arxiv.org/abs/2610.21570v1)** — Venkata Krishna Kumar Vedantam (2026) · relevance 7
+- **[Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents](http://arxiv.org/abs/2610.21463v1)** — Zilin Wang et al. (2026) · relevance 14
+- **[MemCut: Every Secret Leaves a Trail in the Long-Term Memory of LLM Agents](http://arxiv.org/abs/2610.21405v1)** — Cheng Zhang et al. (2026) · relevance 6
+- **[Watts If? A Benchmark for Counterfactual Reasoning About the AI Data Center Buildout](http://arxiv.org/abs/2610.21397v1)** — Pankaj Chouhan et al. (2026) · relevance 6
+- **[Memorilla: Latent Semantic Memory for LLMs](http://arxiv.org/abs/2610.21375v1)** — Adibvafa Fallahpour et al. (2026) · relevance 10
+- **[Two Sample Sizes in Test-Time LLM Ensembling: Buffered ERM and Minimax Theory](http://arxiv.org/abs/2610.21363v1)** — Zhi Zhang et al. (2026) · relevance 11
+- **[Bias Control and Injection for Multi-Agent Aggregation](http://arxiv.org/abs/2610.21290v1)** — Sungjae Lee et al. (2026) · relevance 7
+- **[TRACER: Trajectory-Aware Tool Retrieval for LLM Agents](http://arxiv.org/abs/2610.21267v1)** — Tanish Kher et al. (2026) · relevance 14
+- **[AutoOnboarder: Autonomously Onboarding LLM Agents](http://arxiv.org/abs/2610.21218v1)** — Tanay Arora et al. (2026) · relevance 7
+- **[Beyond Retrieval Failure: Understanding Why LLMs Miss Evidence in Multi-Hop RAG](http://arxiv.org/abs/2610.21184v1)** — Jiaqi Wei et al. (2026) · relevance 8
+- **[All-in-One Memory: Process-Rewarded Reinforcement Learning for Memory Agents](http://arxiv.org/abs/2610.21147v2)** — Bingbing Wang et al. (2026) · relevance 11
+- **[Bellman-Consistent Trajectory RL for LLM Arithmetic Reasoning](http://arxiv.org/abs/2610.21060v1)** — Lianfa Li (2026) · relevance 10
+- **[INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems](http://arxiv.org/abs/2610.20776v1)** — Thuy Dung Nguyen et al. (2026) · relevance 13
+- **[Beyond LLM Judge: Mechanical Verification for Agentic Autoformalization](http://arxiv.org/abs/2610.20573v2)** — Anna Mei et al. (2026) · relevance 13
+- **[IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation](http://arxiv.org/abs/2610.20681v1)** — Gaolei He et al. (2026) · relevance 7
+- **[From Training to Escalation: Forensic Analysis and Local Recreation of RL/RLHF-Induced Privilege Escalation in AI Agents (CVE-2026-65616)](http://arxiv.org/abs/2610.20437v1)** — Alicia Colmenero-Fernández (2026) · relevance 6
+- **[HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation](http://arxiv.org/abs/2610.20191v2)** — Min Xiao et al. (2026) · relevance 11
+- **[MemDuet: Learning Dual-Process Memory for Long-Context Reasoning](http://arxiv.org/abs/2610.19928v1)** — Jiangcheng Song et al. (2026) · relevance 8
+- **[On the Limits of Representation-Based Test-Time Adaptation for Multimodal LLMs](http://arxiv.org/abs/2610.19892v1)** — Mikołaj Piórczyński et al. (2026) · relevance 8
+- **[Frustratingly Easy Majority Voting Using Length Conditioning](http://arxiv.org/abs/2610.19890v1)** — Fiorenzo Parascandolo et al. (2026) · relevance 10
+- **[One Monitor Does Not Fit All: Formalism-Agnostic Runtime Verification for Agentic AI](http://arxiv.org/abs/2610.19818v1)** — Angelo Ferrando (2026) · relevance 10
+- **[Interlock: From Local Correctness to Task Completion in Long-Horizon Agents](http://arxiv.org/abs/2610.19686v1)** — Linji Hao et al. (2026) · relevance 10 · _cross-tier: Data Creation and Selection_
+- **[$τ$-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions](http://arxiv.org/abs/2610.19560v1)** — Rishitosh Kumar Singh et al. (2026) · relevance 17
+- **[GraphRAG-LTM: A Layered Threat Modeling Framework for Attacks on Graph Retrieval-Augmented Generation](http://arxiv.org/abs/2610.19549v1)** — Yining Tang et al. (2026) · relevance 9
+- **[Retrieve What Helps, Only When It Helps: Agentic Reinforcement Learning for Selective Retrieval-Augmented Machine Translation](http://arxiv.org/abs/2610.19528v1)** — Shijun Li et al. (2026) · relevance 9
+- **[ActICL: Post-Training for Agentic Multimodal In-Context Learning](http://arxiv.org/abs/2610.19475v1)** — Yanshu Li et al. (2026) · relevance 12
+- **[BenchChecker: Assessing the Credibility of Bug-Fixing Benchmarks for LLMs](http://arxiv.org/abs/2610.19447v1)** — Di Wu et al. (2026) · relevance 7
+- **[VideoHarness-SRSI: Structured Recursive Self-Improvement for Video Understanding Harness](http://arxiv.org/abs/2610.19424v2)** — Zihao Lin et al. (2026) · relevance 8
+- **[STRATA: Self-Maintaining Structured Experience Graphs for Self-Evolving Language Agents](http://arxiv.org/abs/2610.19386v1)** — Guanhua Zhu et al. (2026) · relevance 13
+- **[Tail Competition Explains Scaling in Best-of-N Sampling for Verifiable Problems](http://arxiv.org/abs/2610.19362v1)** — Taro Yano et al. (2026) · relevance 6 · _cross-tier: Data Creation and Selection_
+- **[REPORT-OPS: Hybrid Evidence-Guided Reporting with Human-Supervised Refinement for HPC](http://arxiv.org/abs/2610.19222v1)** — Mah Kadidia Konate et al. (2026) · relevance 8
+- **[Titan-Llama: Retrofitting Pre-trained LLMs with External Neural Memory Modules](http://arxiv.org/abs/2610.19210v1)** — Sarah Pan et al. (2026) · relevance 6
+- **[HERO: Harnessing Evidence for Test-time Refinement and Prompt Optimization in Program Generation](http://arxiv.org/abs/2610.19184v2)** — Mingyu Lu et al. (2026) · relevance 12
+- **[ChunkAct: Action Chunking for Agentic Robotics](http://arxiv.org/abs/2610.18874v1)** — Bingxin Xu et al. (2026) · relevance 8
+- **[Hybrid Reasoning Agents](http://arxiv.org/abs/2610.18861v1)** — Jiaru Zou et al. (2026) · relevance 8
+- **[OmniCompass: A Holistic Benchmark for Omni-Modal Video Grounding and Understanding](http://arxiv.org/abs/2610.18829v1)** — Xuyang Liu et al. (2026) · relevance 6
+- **[Beyond the Verdict: Agentic Code Judging with Verifiable Feedback](http://arxiv.org/abs/2610.18760v1)** — Zheye Deng et al. (2026) · relevance 10
+- **[From Hindsight to Foresight: Dissecting Clinical Evidence Acquisition in Large Language Models](http://arxiv.org/abs/2610.18605v1)** — Ziyang Ling (2026) · relevance 6
+- **[Compare to Correct: Pairwise-Guided Logit Adjustment for LLM Test-Time Scaling](http://arxiv.org/abs/2610.18583v1)** — Cong Hua et al. (2026) · relevance 9
+- **[Do Factuality Methods Make LLMs More Factual? Reproducibility and Fair Comparison](http://arxiv.org/abs/2610.18415v1)** — Pratuat Amatya et al. (2026) · relevance 8
+- **[Can Agents Forget When Asked? A Benchmark for Memory Unlearning in LLM Agents](http://arxiv.org/abs/2610.18052v1)** — Bofan Xie et al. (2026) · relevance 7
+- **[SHELDON: Reasoning through Dual Search over Hypothesis and Observation Spaces](http://arxiv.org/abs/2610.18025v1)** — Harshit Joshi et al. (2026) · relevance 6
+- **[Virtual Head Attention](http://arxiv.org/abs/2610.17959v1)** — Xibo Ding et al. (2026) · relevance 6
+- **[Interaction-as-a-Judge](http://arxiv.org/abs/2610.17895v3)** — Wayne Chi et al. (2026) · relevance 7
+- **[RT-J: Large-Scale Pretraining of Relational Transformers for Context-Efficient Predictions](http://arxiv.org/abs/2610.17867v3)** — Rishabh Ranjan et al. (2026) · relevance 8
+- **[GIFT-Eval-CTX: A Benchmark For Contextual Forecasting Model Evaluation](http://arxiv.org/abs/2610.17794v1)** — Xu Liu et al. (2026) · relevance 11
+- **[Encoding Context into LLM Weights: What Makes It Context?](http://arxiv.org/abs/2610.17686v1)** — Yue Wang et al. (2026) · relevance 6
+- **[ATTUNE: Agentic Throughput Tuning for LLM Training](http://arxiv.org/abs/2610.17528v1)** — Leo Fan et al. (2026) · relevance 9
+- **[When LLM Agents See a Conflict but Still Proceed: Cross-Domain Dependencies in Network Slicing](http://arxiv.org/abs/2610.17118v1)** — Marcos Lima Romero et al. (2026) · relevance 6
+- **[WeFair: Fidelity-Aware Alignment from Human Feedback for Personalized Query Rewriting in Short-Video Search](http://arxiv.org/abs/2610.16927v1)** — Yingtao Ren et al. (2026) · relevance 6
+- **[Towards Cost-Efficient Video Dataset Construction with Large Language Models](http://arxiv.org/abs/2610.16857v1)** — Mohammed Shabot et al. (2026) · relevance 7
+- **[EHR-Bench: A Chinese Multi-Task Benchmark for Recruitment AI](http://arxiv.org/abs/2610.16689v1)** — Ruijia Yang et al. (2026) · relevance 9
+- **[From a Large-Scale Teacher to Efficient Multimodal Students for Search Relevance Prediction](http://arxiv.org/abs/2610.16569v1)** — Tomasz Gniazdowski et al. (2026) · relevance 7
+- **[ReTAC: Residual Test-Time Agentic Computation for Video Spatial Reasoning](http://arxiv.org/abs/2610.16315v1)** — Yike Wu et al. (2026) · relevance 18
+- **[Label-Centric Knowledge Retrieval for Zero-Shot Text Classification](http://arxiv.org/abs/2610.16182v1)** — Daoping Wu et al. (2026) · relevance 12
+- **[Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR](http://arxiv.org/abs/2610.16105v1)** — Daijiao Liu et al. (2026) · relevance 9
+- **[SelectTTRL: Representation-Guided Data Selection for Efficient Test-Time Reinforcement Learning](http://arxiv.org/abs/2610.16104v1)** — Yi Li et al. (2026) · relevance 22 · _cross-tier: Data Creation and Selection_
+- **[Dream2Discern: Learning from Hard Latent Variants for Runtime Failure Prediction in Multi-Agent Systems](http://arxiv.org/abs/2610.16071v1)** — Boxuan Zhang et al. (2026) · relevance 13
+- **[AutoSec-RAN: Specification-Grounded LLM Fine-Tuning for Automated Security Analysis of O-RAN](http://arxiv.org/abs/2610.15995v1)** — Anoop Mishra et al. (2026) · relevance 9
+- **[PopGen: Generating Semantically Diverse Populations for Zero-Shot Coordination](http://arxiv.org/abs/2610.15969v1)** — Paul Teiletche et al. (2026) · relevance 12
+- **[Fewer Bits, More Tries: Recovering Capability Under Memory Constraints](http://arxiv.org/abs/2610.15372v1)** — Tomer Galanti et al. (2026) · relevance 6
+- **[ANTE: Anticipate, Then Execute -- Learning Internal World Models for Coding Agents from Verified Beliefs](http://arxiv.org/abs/2610.15368v1)** — Yi Ge et al. (2026) · relevance 8
+- **[CHEAR: Confusion-Hierarchy Evidence-Aware Reasoning for Cost-Efficient Human Activity Recognition](http://arxiv.org/abs/2610.15298v1)** — Xiangqing Lu et al. (2026) · relevance 7
+- **[OntoAR-HAR: Ontology-Guided Agentic RAG with Personalized Memory for Human Activity Recognition](http://arxiv.org/abs/2610.15292v1)** — Xiangqing Lu et al. (2026) · relevance 7
+- **[DeltaNet-PC: Test-Time Memory Without Backpropagation Through Time](http://arxiv.org/abs/2610.15185v1)** — Todd Morrill et al. (2026) · relevance 8
+- **[RegExtract: A Benchmark for PFAS Regulatory Information Extraction with LLMs](http://arxiv.org/abs/2610.15103v1)** — Defne Circi et al. (2026) · relevance 9
+- **[Have You Been Convinced? A Neuro-symbolic Argumentation Reasoning Approach to Detecting Persuasiveness in ChangeMyView Discussions](http://arxiv.org/abs/2610.15091v1)** — Siddharth Bhargava et al. (2026) · relevance 9
+- **[SEEK: Agentic Knowledge Graph Retrieval for Secure Code Generation](http://arxiv.org/abs/2610.14968v1)** — Varun Gadey et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[TLA-Verus: Generating and Solving Temporal Proof Obligations with LLM Agents](http://arxiv.org/abs/2610.14923v2)** — Kseniia Strelbytska et al. (2026) · relevance 9
+- **[Training-Free BioNEL-RAG: Advancing Biomedical Entity Linking through Retrieval-Augmented Generation and Large Language Model](http://arxiv.org/abs/2610.14789v1)** — Ziyi Chen et al. (2026) · relevance 9
+- **[LYNX: Analytical Program Synthesis via Grounding and Closed-Loop Refinement](http://arxiv.org/abs/2610.14777v1)** — Ruichen Xia et al. (2026) · relevance 6
+- **[Think in Strategies, Act with Tools: Traceable Agentic Optimization for Combinatorial Problems](http://arxiv.org/abs/2610.14736v1)** — Zhongnian Li et al. (2026) · relevance 8
+- **[Relational Semantic Grounding for Test-Time Discovery](http://arxiv.org/abs/2610.14721v1)** — Tianle Liu et al. (2026) · relevance 10
+- **[PsyMemBehav: Psychology-Informed and Memory-Grounded Two-Level Identity-to-Action Reasoning for Social-Media Behavior Simulation](http://arxiv.org/abs/2610.14570v1)** — Wenji Zhang et al. (2026) · relevance 9
+- **[LongHisDoc: A Comprehensive Benchmark for Chinese Long Historical Document Understanding](http://arxiv.org/abs/2610.14531v1)** — Zeyu Shan et al. (2026) · relevance 9
+- **[Frustratingly Easy Agentic RAG via Portable Skills: A Case Study in Customer Support](http://arxiv.org/abs/2610.14428v1)** — Istok Bako et al. (2026) · relevance 11
+- **[SAT-RL: Training Language Models for Logical Reasoning with Symbolic Solvers](http://arxiv.org/abs/2610.14402v1)** — Jialiang Sun et al. (2026) · relevance 10 · _cross-tier: Data Creation and Selection_
+- **[Agentic Data Engineering for LLMs: System Design and a Controlled Empirical Study](http://arxiv.org/abs/2610.14238v1)** — Ruomeng Ding et al. (2026) · relevance 20
+- **[Harness^2: Recursive Agent Harnessing for an Open World](http://arxiv.org/abs/2610.14224v1)** — Ruiyao Xu et al. (2026) · relevance 6
+- **[Do you "see" what I "see"? A Multi-panel Visual Question Answer Dataset for Large Language Model Chart Analysis](http://arxiv.org/abs/2610.14173v1)** — Daniel J. Evans et al. (2026) · relevance 8
+- **[Tracing and Taming Hallucinated Terms via Subsequence-Association Filtering and Breadth-Aware Selection for LLM Query Expansion](http://arxiv.org/abs/2610.13810v1)** — Amit Kumar Jaiswal et al. (2026) · relevance 7
+- **[Verifiable Retrieval for Legal Reasoning through Structure-driven Knowledge Graph](http://arxiv.org/abs/2610.13695v2)** — Ibrahim Siddig et al. (2026) · relevance 7
+- **[A Critical Look at Power Sampling when Test Time Sharpening LLMs](http://arxiv.org/abs/2610.13653v1)** — Abiel Malkani Talwar et al. (2026) · relevance 7
+- **[Web$hell: A Unified Interface for Agentic Web Access](http://arxiv.org/abs/2610.13416v1)** — Sunghwan Kim et al. (2026) · relevance 10
+- **[RegulaTutor: A Theory-Informed Framework for Long-Term Personalized Learning](http://arxiv.org/abs/2610.13399v1)** — Yonggang Li et al. (2026) · relevance 6 · _cross-tier: Data Creation and Selection_
+- **[Test-Time Memory Construction](http://arxiv.org/abs/2610.13348v1)** — Zijun Wang et al. (2026) · relevance 13
+- **[AgentTune: A Unified Training Lifecycle for Tool-Using LLM Agents](http://arxiv.org/abs/2610.13335v1)** — R E Zera Marveen Lyngkhoi et al. (2026) · relevance 15 · _cross-tier: Data Substrates_
+- **[PRIME: Pre-Retrieval Index Modeling Enhancement for Structured Document Retrieval-Real](http://arxiv.org/abs/2610.13296v1)** — Cheuk Hei Chung et al. (2026) · relevance 13
+- **[Agent4Spec: An LLM-based Agentic System to Optimize API Specifications through Automated Validation and Market Analysis](http://arxiv.org/abs/2610.13273v1)** — Yongjian Tang et al. (2026) · relevance 8
+- **[PreSTO: Predictive Subtree Prefetching for Fast LLM Power Sampling](http://arxiv.org/abs/2610.13171v1)** — Nan Jiang et al. (2026) · relevance 8
+- **[Understanding Verification Vulnerabilities in Cross-chain Bridges: An Empirical Study](http://arxiv.org/abs/2610.13170v1)** — Yuying Wang et al. (2026) · relevance 9
+- **[Scaling Agentic Data for Long-Horizon Terminal Intelligence](http://arxiv.org/abs/2610.13166v1)** — Shun Zou et al. (2026) · relevance 21 · _cross-tier: Data Creation and Selection_
+- **[VIGOR: Verifiable Industrial Geometry Optimization and Repair in Scene Programs](http://arxiv.org/abs/2610.13145v1)** — Fuqiang Wang et al. (2026) · relevance 7
+- **[DRYLAB-Bench: Benchmarking the Biosecurity Risk of Agentic LLM Mutation Design](http://arxiv.org/abs/2610.13116v1)** — Yuzhen Wang et al. (2026) · relevance 10
+- **[SmartSalesBench: A Resistance-Aware Multi-Turn Benchmark for Evaluating LLM Sales Agents](http://arxiv.org/abs/2610.12975v1)** — P N Bhargav Teja et al. (2026) · relevance 6
+- **[SCCGBench: Executability-Oriented Evaluation for Real-World Web Service-Call Code Generation](http://arxiv.org/abs/2610.12920v1)** — Shuo Wang et al. (2026) · relevance 7
+- **[Meta-Reflective Evolution Effectively Improves Production AI Systems](http://arxiv.org/abs/2610.12794v1)** — Seung Won Wilson Yoo et al. (2026) · relevance 6
+- **[Embodied Zero-Shot Task Planning via Hardware-Aware LLM-VLM Integration for Grounded Robotic Manipulation](http://arxiv.org/abs/2610.14106v1)** — Lonnie Tankersley et al. (2026) · relevance 6
+- **[Faithful and Complete LLM-Assisted Automated Construction of Hierarchical Hardware Knowledge Graphs](http://arxiv.org/abs/2610.12762v1)** — Haotian Qiao et al. (2026) · relevance 6 · _cross-tier: Data Creation and Selection_
+- **[GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports](http://arxiv.org/abs/2610.12617v1)** — Veronika Solopova et al. (2026) · relevance 11
+- **[FastBench: Can Streaming VLMs Perceive High-Dynamic Real-World Streams?](http://arxiv.org/abs/2610.12427v1)** — Yuxuan Hu et al. (2026) · relevance 12
+- **[Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search](http://arxiv.org/abs/2610.12390v1)** — Ziming Dai et al. (2026) · relevance 11
+- **[A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization](http://arxiv.org/abs/2610.12183v1)** — Ming Chen et al. (2026) · relevance 10
+- **[Natural Language to First-Order Logic LLM-based Autoformalization](http://arxiv.org/abs/2610.12030v1)** — Andrea Brunello et al. (2026) · relevance 8
+- **[Agentic-TTT: Training test-time policy for test-time training](http://arxiv.org/abs/2610.12002v1)** — Jiahao Lu et al. (2026) · relevance 15
+- **[Can LLMs Fix It Without Code? Toward Automated Verification of No-Code Bug Fixes](http://arxiv.org/abs/2610.11963v1)** — Utku Boran Torun et al. (2026) · relevance 11
+- **[Forms of LLM-Integrated Applications from LLM-Chats to Autonomous AI Agent System](http://arxiv.org/abs/2610.11899v1)** — Irene Weber (2026) · relevance 11
+- **[MAP4CS: A Multi-dimensional Data Pruning Framework for Efficient Code Retriever Fine-tuning](http://arxiv.org/abs/2610.11727v1)** — Yuxuan Chen et al. (2026) · relevance 10
+- **[Error-Propagation Modeling for Failure Attribution in LLM-Based Multi-Agent Systems](http://arxiv.org/abs/2610.11600v1)** — Jiaqi Liao et al. (2026) · relevance 11
+- **[Chronos Enables Code Agents to Reason over Software Evolution](http://arxiv.org/abs/2610.11578v1)** — Xin Yin et al. (2026) · relevance 6
+- **[SignRAG: Unified Retrieval-Augmented Gloss-Free Sign Language Translation](http://arxiv.org/abs/2610.11371v1)** — Zhi Rao et al. (2026) · relevance 7
+- **[RIT-RAG: Navigating Document Corpora with Retrieval-Induced Trees](http://arxiv.org/abs/2610.11370v2)** — Meghanadh Pulivarthi et al. (2026) · relevance 9
+- **[SpatialOPSD: Self-Distilling Spatial Intelligence from Verified Coding Agent Traces](http://arxiv.org/abs/2610.11366v1)** — Rongxue Li et al. (2026) · relevance 7
+- **[From Retrieval to Reconstruction: Constructing Evolvable Cognitive Memory for Long-Term Dialogue](http://arxiv.org/abs/2610.11314v1)** — Zirui Liao et al. (2026) · relevance 7
+- **[DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice Agent Collaboration](http://arxiv.org/abs/2610.11299v1)** — Yingda Shen et al. (2026) · relevance 8
+- **[Gated Memory: Admission-Controlled Memory Formation for Conversational AI](http://arxiv.org/abs/2610.11270v1)** — Preeti Saraswat et al. (2026) · relevance 6 · _cross-tier: Data Creation and Selection_
+- **[LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models](http://arxiv.org/abs/2610.11253v1)** — Surya Shetty et al. (2026) · relevance 7
+- **[Multimodal Graph Retrieval-Augmented Sequential Recommendation via Collaborative Filtering Paths](http://arxiv.org/abs/2610.11228v1)** — Jason Marcell Setiadi et al. (2026) · relevance 9
+- **[Do LLMs Learn from Rewards in Context? : Rethinking the role of reward in In-Context RL](http://arxiv.org/abs/2610.11152v3)** — Minchan Kwon et al. (2026) · relevance 9
+- **[Improving Image-Based Nutrition Estimation Through Multimodal Food-Item Verification and Recovery](http://arxiv.org/abs/2610.11144v1)** — Jingbo Yue et al. (2026) · relevance 7
+- **[When Interfaces Speak: Data-Aware Generative UI Harness for Active Interaction](http://arxiv.org/abs/2610.11123v1)** — Xiaolong Li et al. (2026) · relevance 10
+- **[Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review](http://arxiv.org/abs/2610.11087v1)** — Rachel S. Y. Teo et al. (2026) · relevance 6
+- **[When Citations Mislead? A Claim-Level Benchmark for Legal Hallucination Detection](http://arxiv.org/abs/2610.10971v1)** — M. Mikail Demir et al. (2026) · relevance 6
+- **[StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents](http://arxiv.org/abs/2610.10942v1)** — Daksh Raghuvanshi et al. (2026) · relevance 16
+- **[RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design](http://arxiv.org/abs/2610.10858v1)** — Awani Khodkumbhe et al. (2026) · relevance 10
+- **[Amortized Off-Policy Evaluation for LLMs](http://arxiv.org/abs/2610.10848v1)** — Younwoo Choi et al. (2026) · relevance 8
+- **[RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing](http://arxiv.org/abs/2610.10507v1)** — Yilun Hao et al. (2026) · relevance 10
+- **[RunningTab: Direct Workspace Interaction with Environment-Side Tabs](http://arxiv.org/abs/2610.10444v1)** — Jinheon Baek et al. (2026) · relevance 9
+- **[Agentic AI-Assisted Modeling for Production Scheduling: Assessment in Constraint Programming](http://arxiv.org/abs/2610.10184v1)** — Ángel Sánchez-Fernández et al. (2026) · relevance 7
+- **[Beyond Outcome Rewards: Constructing and Assigning Retrieval Credit for Search Agents](http://arxiv.org/abs/2610.10179v1)** — Wenyu Huang et al. (2026) · relevance 10
+- **[Does Document Structure Help Dense Retrieval? A Placebo-Controlled Ablation of Four Mechanisms Across Two Corpora](http://arxiv.org/abs/2610.10170v1)** — Andrey Kuehlkamp et al. (2026) · relevance 6
+- **[HGP:An on-device personalized agent memory via hybrid graph storage](http://arxiv.org/abs/2610.10071v1)** — Ran Zhou et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[The Long Road to the Same Answer: Cognitive Bias Under Escalating Reasoning Budgets in Large Language Models](http://arxiv.org/abs/2610.10049v1)** — Obada Kraishan (2026) · relevance 6
+- **[RollVerify: Bridging Efficiency and Accuracy in Long-Tail Rollout Reinforcement Learning](http://arxiv.org/abs/2610.09914v1)** — Yongqiang Yao et al. (2026) · relevance 6
+- **[From Pareto to Preference: Personalized Test-Time Scaling via Amortized Agentic Policy Discovery](http://arxiv.org/abs/2610.09684v1)** — Xinglin Wang et al. (2026) · relevance 11
+- **[Cost-Efficient Theorem Proving via Agent Orchestration in Program Verification](http://arxiv.org/abs/2610.09681v1)** — Shuangjie Yao et al. (2026) · relevance 9
+- **[Code Understanding is a Bottleneck for Coding Agents](http://arxiv.org/abs/2610.10610v1)** — Nishant Balepur et al. (2026) · relevance 6
+- **[LLM-Enabled UAV Dispatch: A System-Level Survey and Taxonomy](http://arxiv.org/abs/2610.09466v1)** — Xiao Han et al. (2026) · relevance 7
+- **[Arctic Questions, Missing Answers: A Dataset and Benchmark for LLM Abstention in Arctic Science](http://arxiv.org/abs/2610.09446v1)** — Benjamin Wilcox et al. (2026) · relevance 9
+- **[Finding the Right Balance: Relevance and Diversity in LLM Retrieval](http://arxiv.org/abs/2610.09412v1)** — Guillaume Brouillette et al. (2026) · relevance 9
+- **[DUDA-Bench: Benchmarking LLM Agents on Multimodal Data-Driven Urban Diagnosis](http://arxiv.org/abs/2610.09374v1)** — Yizhi Song et al. (2026) · relevance 11
+- **[From Investigation Failures to Reliable SOC Agents: Understanding and Improving LLM-Based Alert Triage](http://arxiv.org/abs/2610.10608v1)** — Saimon Amanuel Tsegai et al. (2026) · relevance 14
+- **[sk-bench: A Native-First Benchmark for Evaluating Large Language Models in Slovak](http://arxiv.org/abs/2610.09152v1)** — Marek Šuppa et al. (2026) · relevance 10
+- **[RACER: Reflective Agent Coupling Query Interpretation and Tool-Based Retrieval for Frame Selection in Long Video Understanding](http://arxiv.org/abs/2610.08954v1)** — Yiyang Huang et al. (2026) · relevance 9
+- **[WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?](http://arxiv.org/abs/2610.08720v1)** — Siru Jiang et al. (2026) · relevance 9
+- **[Evidence-Bound Reasoning: Neuro-Semantic Verification of Biomedical AI in Glioblastoma Radiogenomics](http://arxiv.org/abs/2610.08660v1)** — Mariya Miteva et al. (2026) · relevance 7
+- **[UNREAL: Unifying Retrieval and Long-Context with a Single Model](http://arxiv.org/abs/2610.08463v1)** — Edan Kinderman et al. (2026) · relevance 8
+- **[Agentic AutoRAG: RAG Pipeline Optimization through Reasoning-Driven Agents](http://arxiv.org/abs/2610.08452v1)** — Lasse B. Strand et al. (2026) · relevance 11
+- **[zkLLMPoT: Efficient Zero Knowledge Proof of Training for Large Language Models](http://arxiv.org/abs/2610.08258v2)** — Junkai Liang et al. (2026) · relevance 9
+- **[DAEDALUS: Bootstrapping Agent Memory from Self-Generated Tasks](http://arxiv.org/abs/2610.08048v1)** — Antoine Edy et al. (2026) · relevance 13
+- **[From Delivery to Stateful Exploration: Rethinking the Index for Agentic Search](http://arxiv.org/abs/2610.07960v1)** — Deogyong Kim et al. (2026) · relevance 9
+- **[Confidence Reasoning Graphs: Structured Confidence Estimation for LLM Agents](http://arxiv.org/abs/2610.07948v1)** — Brendan King et al. (2026) · relevance 9
+- **[SIGMA: Self-Improving Alignment Generalization from a Model Spec](http://arxiv.org/abs/2610.07935v1)** — Jingyu Zhang et al. (2026) · relevance 14 · _cross-tier: Data Creation and Selection_
+- **[ShanLiangRen: A Nutrition Agent for Personalized Daily Meal Planning](http://arxiv.org/abs/2610.07886v1)** — Miao Xie et al. (2026) · relevance 6 · _cross-tier: Data Creation and Selection_
+- **[RA-MoWE: Workflow-Affinity Embeddings for Query Clustering and Agentic Workflow Generation](http://arxiv.org/abs/2610.07851v1)** — Qi Cheng et al. (2026) · relevance 12
+- **[Persistent Memory in Multi-Agent LLM Inference: What It Costs, What It Buys, and When You Can Tell](http://arxiv.org/abs/2610.07782v1)** — Hochan Son et al. (2026) · relevance 8
+- **[CredLeakBench: Evaluating Credential Leakage and Recovery in LLM Agents](http://arxiv.org/abs/2610.08871v1)** — Rafid Ahmed et al. (2026) · relevance 7
+- **[A Survey on LLM-Integrated Hardware Design Verification](http://arxiv.org/abs/2610.10580v1)** — Hao Zheng et al. (2026) · relevance 11
+- **[SkillPoison: Progressive Skill Poisoning via Successful Experiences](http://arxiv.org/abs/2610.07645v1)** — Lizhi Zhang et al. (2026) · relevance 9
+- **[DBRAG: Multi-Table Retrieval-Augmented Generation for Complex Database Queries](http://arxiv.org/abs/2610.07622v1)** — Prince Larbi Ampofo et al. (2026) · relevance 10
+- **[Unanimously Wrong: Certified Abstention from How Medical LLM Consensus Forms](http://arxiv.org/abs/2610.07570v1)** — Xiaoyang Wang et al. (2026) · relevance 11
+- **[Understanding and Mitigating Inference-Time Overreliance Using Agentic Memory](http://arxiv.org/abs/2610.07311v1)** — Luoxi Tang et al. (2026) · relevance 7
+- **[MemMux: Runtime Verification and Honest Resource Attribution for Fleets of Parallel Coding Agents](http://arxiv.org/abs/2610.07257v1)** — Sumanyu Muku (2026) · relevance 6
+- **[Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification](http://arxiv.org/abs/2610.06790v1)** — Je Yang et al. (2026) · relevance 12
+- **[OVAL: Output-Aware Local Page Bases for KV Cache Retrieval](http://arxiv.org/abs/2610.06686v1)** — Ashkan Shahbazi et al. (2026) · relevance 7
+- **[FREA: A Multi-Source Expert Benchmark for Reaction Feasibility Verification](http://arxiv.org/abs/2610.06614v1)** — Botao Yu et al. (2026) · relevance 10
+- **[Test-Time Adaptation of Reasoning Strategies with Bayesian Nonparametric Memory](http://arxiv.org/abs/2610.06516v1)** — Keshav Ramji et al. (2026) · relevance 9
+- **[Agentic schema-guided extraction of materials process knowledge from scientific literature](http://arxiv.org/abs/2610.06322v1)** — Sameer Sadruddin et al. (2026) · relevance 7
+- **[Evolving in Thought Space: Training a Small Model at Test Time Unlocks Better Discoveries](http://arxiv.org/abs/2610.06269v1)** — Chonghe Jiang et al. (2026) · relevance 10
+- **[DP-ES: Differentially Private Evolution Strategies for Prompt Optimization](http://arxiv.org/abs/2610.06236v1)** — Ziniu Liu et al. (2026) · relevance 8
+- **[AI-Decision Checkpoints for AI-Augmented Business Process Management: Framework and Educational Instantiation](http://arxiv.org/abs/2610.06207v1)** — Amin Jalali (2026) · relevance 6
+- **[CCQ: A Multi-State Child Care Quality Dataset to Support AI for Children's Health Research](http://arxiv.org/abs/2610.05863v1)** — Victor Li et al. (2026) · relevance 8
+- **[Nash Equilibrium Text: A Game-Theoretic Decoding Framework for Text Generation](http://arxiv.org/abs/2610.05817v1)** — Alireza Jafari et al. (2026) · relevance 6
+- **[Beyond Semantic Similarity: Performance and Costs of Agentic Retrieval for Complex Tasks](http://arxiv.org/abs/2610.05750v1)** — Reza Esfandiarpoor et al. (2026) · relevance 13
+- **[Errors of LLM-Assisted Literature Retrieval in Environmental Science: A Comparison Study of Abstract versus Full-text Based Prompts](http://arxiv.org/abs/2610.05690v1)** — Yanjun Chen et al. (2026) · relevance 10
+- **[AgentDoxx: Agentic Re-identification of Anonymized Text with Web Search](http://arxiv.org/abs/2610.05586v1)** — Jianing Wen et al. (2026) · relevance 13
+- **[Educating future engineers about LLMs: A scalable workshop](http://arxiv.org/abs/2610.07027v1)** — R. Zhang et al. (2026) · relevance 8
+- **[AIProver: Agentic Auto-Formalization of Mathematical Research via Certificate-Driven Evolving Harness](http://arxiv.org/abs/2610.05367v1)** — Prithwish Jana et al. (2026) · relevance 8
+- **[IRSTD-Agent: Agentic Infrared Small Target Detection via Zoom-Guided Interaction Learning](http://arxiv.org/abs/2610.05342v1)** — Jiawen Xi et al. (2026) · relevance 12
+- **[ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience](http://arxiv.org/abs/2610.05303v1)** — Haodong Lu et al. (2026) · relevance 20
+- **[Red-TTT: Test-Time Training for Automated Jailbreaking Large Language Models](http://arxiv.org/abs/2610.05282v1)** — Tongyan Hu et al. (2026) · relevance 10
+- **[SpecAgent: Empowering Program Verification with Agentic Synthesis of Formal Program Specifications](http://arxiv.org/abs/2610.05132v1)** — Lezhi Ma et al. (2026) · relevance 11
+- **[Topology-Consistent Task Planning over Cellular Workflow Complexes for LLM-based Agents](http://arxiv.org/abs/2610.07004v1)** — Sen Zhao et al. (2026) · relevance 7
+- **[Do We Still Need Gazetteers in the Era of LLMs? Chaining Retrieval with a Spatial Neuro-Symbolic Index](http://arxiv.org/abs/2610.05028v2)** — Alexis Horde-Vo et al. (2026) · relevance 7
+- **[ForkPilot: Self-Evolving Policy for Retrospective Search in Long-Horizon Agents](http://arxiv.org/abs/2610.04889v1)** — Xinyue Zeng et al. (2026) · relevance 8
+- **[CURIO: Curiosity-Driven Test-Time Learning for Open-Ended Discovery](http://arxiv.org/abs/2610.04851v1)** — Tao Feng et al. (2026) · relevance 10
+- **[Dynamic Routing as a New Dimension for Test-time Versatility of LLMs](http://arxiv.org/abs/2610.04751v1)** — Michal Štefánik et al. (2026) · relevance 8
+- **[Organising Trajectory Evidence for Language-Model Agent Assurance: Fragments, Methods, and the Residual](http://arxiv.org/abs/2610.04710v1)** — Xiaowei Huang (2026) · relevance 11
+- **[Principles that Guide, Actions that Inform: Agent Evolution via Knowledge Abstraction](http://arxiv.org/abs/2610.06964v1)** — Bowen Ye et al. (2026) · relevance 7
+- **[Understanding and Mitigating Hallucination Escape in Tool-Using LLM Agents](http://arxiv.org/abs/2610.04409v1)** — Peigui Qi et al. (2026) · relevance 6
+- **[LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures](http://arxiv.org/abs/2610.04292v1)** — Jiateng Liu et al. (2026) · relevance 10
+- **[Multimodal Dual-Encoder Retrieval for Automated ICD Coding](http://arxiv.org/abs/2610.04263v1)** — Abhinav Bohra et al. (2026) · relevance 6
+- **[Reinforcement Learning with Comparative Evidence for Social Intelligence](http://arxiv.org/abs/2610.04072v1)** — Keane Ong et al. (2026) · relevance 6
+- **[Synthesizing Physics Formulae with Transformers](http://arxiv.org/abs/2610.03947v1)** — Shuwei Wang et al. (2026) · relevance 7 · _cross-tier: Data Creation and Selection_
+- **[JOVE: Joint Execution and Verification for Resource-Aware LLM Task Graphs](http://arxiv.org/abs/2610.03296v1)** — Haoran Zhang et al. (2026) · relevance 7
+- **[Investigating the Role of Reasoning-Language Alignment in Monolingual Retrieval-Augmented Generation](http://arxiv.org/abs/2610.03136v1)** — Oliver Hauck et al. (2026) · relevance 9
+- **[MOF-VERIFY: A Failure-Aware Agentic Harness for MOF Hypothesis Verification](http://arxiv.org/abs/2610.03056v1)** — Donghyun Lee et al. (2026) · relevance 16
+- **[Sentry: Learning to Recover from LLM Agent Failures at Test Time](http://arxiv.org/abs/2610.02994v1)** — Changxiu Ji et al. (2026) · relevance 11
+- **[PLCWorld: Benchmarking LLM-Generated PLC Programs in Closed-Loop Plant Simulation](http://arxiv.org/abs/2610.02982v1)** — Yunji Kim et al. (2026) · relevance 8
+- **[A Guideline-Augmented Multi-Agent Framework for Schema-as-Code Biomedical Named Entity Recognition](http://arxiv.org/abs/2610.02970v2)** — Songtao Li et al. (2026) · relevance 7
+- **[Reasoning with Evidence, Not Merely Rationales: Verifiable Preference Proofs for LLM-Based Recommendation](http://arxiv.org/abs/2610.02968v1)** — Yu Hou et al. (2026) · relevance 7
+- **[Output Language Confusion under Multilingual Prompt Contamination](http://arxiv.org/abs/2610.02926v1)** — Riju Marwah et al. (2026) · relevance 6
+- **[PsyEvo: A Personalized Counseling Agent That Self-Evolves at Test Time](http://arxiv.org/abs/2610.02885v1)** — Yuting Yan et al. (2026) · relevance 10 · _cross-tier: Data Creation and Selection_
+- **[Test-time Calibration Learning for Large Language Model Reasoning](http://arxiv.org/abs/2610.02695v1)** — Zizhuo Zhang et al. (2026) · relevance 13
+- **[Decoupling Memory from Context: Structured Memory for Token-Efficient Test-Time Continual Learning](http://arxiv.org/abs/2610.02687v2)** — Yehya Farhat et al. (2026) · relevance 9
+- **[LEAP: Learning Efficient Action Proposals For LLM Agents](http://arxiv.org/abs/2610.02670v1)** — Zhen Xu et al. (2026) · relevance 7
+- **[Online Verification of Language Model Responses Under Cost Constraints](http://arxiv.org/abs/2610.02632v1)** — Erfan Hajihashemi et al. (2026) · relevance 10 · _cross-tier: Data Substrates_
+- **[When History Misleads: Asymmetric Margin Supervision for Instruction-Guided LLM Generative Recommendation](http://arxiv.org/abs/2610.02600v1)** — Ming Yin et al. (2026) · relevance 6
+- **[Adaptive Sparsity Optimization with Learnable Soft Top-K and Per-Term Thresholding for Efficient Retrieval](http://arxiv.org/abs/2610.02572v1)** — Wentai Xie et al. (2026) · relevance 9
+- **[Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents](http://arxiv.org/abs/2610.02425v1)** — Yekun Chai et al. (2026) · relevance 6
+- **[Inherit-MAS: Test-Time Evolution of Multi-Agent Systems through Workflow and Execution Inheritance](http://arxiv.org/abs/2610.02396v1)** — Songtao Wei et al. (2026) · relevance 9
+- **[KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards](http://arxiv.org/abs/2610.02206v1)** — Pengfei Li et al. (2026) · relevance 17
+- **[Rethinking Knowledge Retrieval for Generation: A Survey on RAG Architectures and Applications](http://arxiv.org/abs/2610.01936v2)** — Meghana Sunil et al. (2026) · relevance 6
+- **[Learning to Predict Distributions over Weight Updates for Test-Time Adaptation](http://arxiv.org/abs/2610.01934v1)** — Azal Ahmad Khan et al. (2026) · relevance 7
+- **[SkillEvoLean: Mutation-enhanced skill evolution for Lean provers](http://arxiv.org/abs/2610.01799v2)** — Kuo Zhou et al. (2026) · relevance 11
+- **[A Matryoshka Hierarchical RAG for Efficient Multi-Hop Question Answering](http://arxiv.org/abs/2610.01767v1)** — Gianluca Bonifazi et al. (2026) · relevance 7
+- **[Sharpening Tax in Post-Training](http://arxiv.org/abs/2610.01509v1)** — Changdae Oh et al. (2026) · relevance 13
+- **[Auditing Web Agent Evaluation on WebArena-Lite: Human Review of Outcomes and Trajectories](http://arxiv.org/abs/2610.01491v1)** — Chengguang Gan et al. (2026) · relevance 12
+- **[When Does a Second Model Help? Cross-Model Review in LLM Verification](http://arxiv.org/abs/2610.01471v2)** — Tae-Eun Song (2026) · relevance 7
+- **[PACE: Provenance-Aware Capability Enforcement for Tool-Using LLM Agents](http://arxiv.org/abs/2610.01349v1)** — Fengpeng Li et al. (2026) · relevance 6
+- **[HHR: Hierarchical Hash Retrieval for Efficient LLM Generation](http://arxiv.org/abs/2610.01230v1)** — Lianjun Liu et al. (2026) · relevance 7
+- **[AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation](http://arxiv.org/abs/2610.01218v1)** — Giulio Zeloni et al. (2026) · relevance 10
+- **[Dependency-Aware Reward Shaping for Agentic Reinforcement Learning](http://arxiv.org/abs/2610.01207v1)** — Ziyi Chen et al. (2026) · relevance 7
+- **[My FAULT: Self-Diagnosis as Credit Assignment in Self-Evolving Agentic Reinforcement Learning](http://arxiv.org/abs/2610.01161v1)** — Yihua Zhu et al. (2026) · relevance 9
+- **[StepCAD: Mesh-to-CAD Code Generation via LLM Policy and Geometry-Guided Search](http://arxiv.org/abs/2610.03799v1)** — Ghadi Nehme et al. (2026) · relevance 6
+- **[OrbitTAMP: Grounding Language Models for Task and Motion Planning in Spacecraft Rendezvous](http://arxiv.org/abs/2610.01093v1)** — Yuji Takubo et al. (2026) · relevance 12
+- **[Improving Math Reasoning through Value-guided Informative Search](http://arxiv.org/abs/2610.01080v1)** — Shaohuai Liu et al. (2026) · relevance 6
+- **[Beyond Final Accuracy: Auditing Communication in LLM Multi-Agent Systems](http://arxiv.org/abs/2610.01042v1)** — Shixuan Li et al. (2026) · relevance 8
+- **[VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks](http://arxiv.org/abs/2610.00972v1)** — Caiqi Zhang et al. (2026) · relevance 16
+- **[Beyond Leaderboards: Tokenomics of Agentic Small Language Model Ensembles](http://arxiv.org/abs/2610.00954v1)** — Alexei N. Skurikhin et al. (2026) · relevance 10
+- **[CANOPY: Adaptive-Granularity Evidence Compression for Multimodal RAG](http://arxiv.org/abs/2610.00923v1)** — Hyojeong Yun et al. (2026) · relevance 7
+- **[FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification](http://arxiv.org/abs/2610.00885v1)** — Naing Oo Lwin (2026) · relevance 6
+- **[SkillSpec: Consensus-Gated Agent Skill Evolution via Representation Specialization](http://arxiv.org/abs/2610.00704v1)** — Huancheng Chen et al. (2026) · relevance 8
+- **[Towards Robust Numerical Claim Verification](http://arxiv.org/abs/2610.00689v1)** — Peter Røysland Aarnes et al. (2026) · relevance 9
+- **[Incident-Arena: Getting agents to the last nine of reliability](http://arxiv.org/abs/2610.00648v1)** — Andre Fu et al. (2026) · relevance 8
+- **[Legal Research Bench: Measuring End-to-End Reliability in Long-Horizon Legal Research Agents](http://arxiv.org/abs/2610.00609v1)** — Katrina Drozdov et al. (2026) · relevance 7
+- **[Comparison of Common Crawl News & GDELT](http://arxiv.org/abs/2610.00587v1)** — Ameir El Ouadi et al. (2026) · relevance 7
+- **[Linguistic Loopholes in LLM Unlearning: From a 174-Language Benchmark to Coverage-Aware Unlearning](http://arxiv.org/abs/2609.40286v1)** — Tyler Skow et al. (2026) · relevance 6
+- **[PhantomEnvironments: Training LLM Agents in Fictional Worlds](http://arxiv.org/abs/2609.40221v1)** — Anmol Kabra et al. (2026) · relevance 10
+- **[AutoDataBench: A Data-centric Testbed for Accelerating Auto Research](http://arxiv.org/abs/2609.40097v1)** — Ruifeng Yuan et al. (2026) · relevance 16
+- **[Conversational Capture: A Trajectory-Level Framework for Evaluating Generative Engine Optimization in Multi-turn Human-Agent Interaction](http://arxiv.org/abs/2609.40069v1)** — Junwei Yu et al. (2026) · relevance 9
+- **[What Limits Recursive Reasoning Models: Optimization, Architecture and Test-Time Scaling](http://arxiv.org/abs/2609.39967v1)** — Yuliana Shakhvalieva et al. (2026) · relevance 7
+- **[Benchmarking Prompt Optimization of Large Language Models With Chess](http://arxiv.org/abs/2610.00416v1)** — Timothée Lesort et al. (2026) · relevance 7
+- **[LLM-as-a-Judge for Low-Resource Languages: Adapting Ragas and Comparative Ranking for Romanian](http://arxiv.org/abs/2610.00406v1)** — Claudiu Creanga et al. (2026) · relevance 8
+- **[Speculative Safety Honeypot: Toward Proactive Defense Against Multi-turn Agent Attacks](http://arxiv.org/abs/2609.39549v1)** — Zezhong Wang et al. (2026) · relevance 9
+- **[A Reusable Semantic Web Framework for Evidence-Grounded Fundamental Rights Impact Assessments under the EU AI Act](http://arxiv.org/abs/2609.39537v1)** — Faith Olopade et al. (2026) · relevance 6
+- **[SkillFM: Generating Skills for LLM Agents via Latent Flow Matching](http://arxiv.org/abs/2609.39382v1)** — Zuming Zhang et al. (2026) · relevance 6
+- **[EHR-RobustGym: Benchmarking and Training Agents for Robust Clinical Reasoning](http://arxiv.org/abs/2609.39371v1)** — Yitong Qiao et al. (2026) · relevance 14
+- **[Working Around the Compute Ceiling: Byte-Exact Memory in Galahad Makes LLM Reading a One-Time Cost LLM Reading a One-Time Cost](http://arxiv.org/abs/2609.39358v1)** — Sietse Schelpe (2026) · relevance 7
+- **[Offline Guidance, Online Reasoning: Reusing LLM Feedback for Small Language Models](http://arxiv.org/abs/2609.39346v1)** — Bohan Zhang et al. (2026) · relevance 6
+- **[Taming Speculative Search for Test-Time Scaling in LLM Serving](http://arxiv.org/abs/2609.39334v1)** — Jinwoo Jeong et al. (2026) · relevance 11
+- **[Schema: Discovering Unknown Environments via Agentic Program Induction](http://arxiv.org/abs/2609.39140v1)** — Guanning Zeng et al. (2026) · relevance 12
+- **[RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement](http://arxiv.org/abs/2609.39045v1)** — Wenyi Wu et al. (2026) · relevance 8
+- **[From Verification Failures to Reusable Guidance for Coding Agents](http://arxiv.org/abs/2609.39022v3)** — Yuqing Zhai et al. (2026) · relevance 6
+- **[Composing Task-specific Agent Harnesses at Test Time with Reusable Primitives](http://arxiv.org/abs/2609.38912v1)** — Peng Kuang et al. (2026) · relevance 13
+- **[Doing More with Less Tokens: Hierarchical Reinforcement Learning for Efficient Coding Agents](http://arxiv.org/abs/2609.38885v1)** — Haobin Li et al. (2026) · relevance 6
+- **[PatchHolmes: Agentic Patch Retrieval via Listwise Selection](http://arxiv.org/abs/2609.38807v1)** — Guanqun Yang et al. (2026) · relevance 10
+- **[Blackboard Intelligence Can Surpass Autoregressive on Globally Constrained Problems](http://arxiv.org/abs/2609.38806v2)** — Woosang Jeon et al. (2026) · relevance 7
+- **[Learning to Route in Visual Space via Multi-Step Embedding Retrieval](http://arxiv.org/abs/2609.38743v2)** — Tianyu Chen et al. (2026) · relevance 14 · _cross-tier: Data Creation and Selection_
+- **[Provable Test-Time Scaling for Beam Search in LLM Reasoning](http://arxiv.org/abs/2609.38672v1)** — Qijia He et al. (2026) · relevance 7
+- **[Breaking Babel: A Self-Evolving Multi-Agent System for Long-Form Subtitle Translation](http://arxiv.org/abs/2609.38660v2)** — Haibo Jin et al. (2026) · relevance 10
+- **[VAmoS Part Deux: Harder, More Realistic Voice-Agent Simulation](http://arxiv.org/abs/2609.38512v1)** — Joshua Meyer et al. (2026) · relevance 6
+- **[Role-guided Speaker Deletion Verification in Clinical Psychiatry Speech Recordings with Audio Language Models](http://arxiv.org/abs/2609.38491v1)** — Joseph T Colonel et al. (2026) · relevance 9
+- **[Re-ranking and Late Interaction Drive Retrieval Quality: A Controlled Comparison of RAG Strategies for Scientific Question Answering](http://arxiv.org/abs/2609.38473v1)** — Bhagyesh Rathi et al. (2026) · relevance 13
+- **[AIM: Agentic Idea Management for Automated Research](http://arxiv.org/abs/2609.38445v1)** — Hyeong Kyu Choi et al. (2026) · relevance 7
+- **[What Was Said, Not What Was 'Thought': Type-6 Logic for CoT Verification](http://arxiv.org/abs/2609.38420v1)** — Adrian de Wynter (2026) · relevance 8
+- **[Colorectal Cancer Segmentation with Adaptive Augmentation and Multi-Resolution Ensemble Models](http://arxiv.org/abs/2609.38419v1)** — Ümit Mert Çağlar et al. (2026) · relevance 8
+- **[TALK-Dem: Benchmarking Embodied Task Planning under Dementia-Associated Communication Patterns](http://arxiv.org/abs/2609.38371v1)** — Guangxin Zhao et al. (2026) · relevance 9
+- **[Halluscoring 2026: The first shared task on llms hallucination detection and answer verification](http://arxiv.org/abs/2609.38355v2)** — Aisha Alansari et al. (2026) · relevance 9
+- **[Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning](http://arxiv.org/abs/2609.38147v1)** — Paras Dahal et al. (2026) · relevance 8
+- **[Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution](http://arxiv.org/abs/2609.38108v1)** — Subba Reddy Oota et al. (2026) · relevance 8
+- **[AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks](http://arxiv.org/abs/2609.38288v1)** — Hongjin Qian et al. (2026) · relevance 9
+- **[TabFM: A Zero-Shot Foundation Model for Tabular Data](http://arxiv.org/abs/2609.37959v1)** — Weihao Kong et al. (2026) · relevance 7
+- **[Is manual software optimization a thing of the past?](http://arxiv.org/abs/2609.37849v1)** — Pavlin G. Poličar et al. (2026) · relevance 7
+- **[KUPAS MASTER: Distilling the Tacit Expertise of Master Practitioners into Agent-Ready Experience Corpora](http://arxiv.org/abs/2609.37673v1)** — Changmian Wang et al. (2026) · relevance 6
+- **[Retrieve, Reproduce, Reveal: Dissecting Retrieval-Augmented Software Vulnerability Detection](http://arxiv.org/abs/2609.37669v1)** — Sabrina Kaniewski et al. (2026) · relevance 10
+- **[The Weakest Link: Distilling LLM Reasoning with Worst-Case Constrained Reinforcement Learning](http://arxiv.org/abs/2610.00332v1)** — Matthieu Zimmer et al. (2026) · relevance 7
+- **[FOCUS: Training-Free Decision-Preserving Context Compression for LLM Agents](http://arxiv.org/abs/2609.37590v1)** — Shantanu Dixit et al. (2026) · relevance 15
+- **[DScale: Scaling Block-Diffusion Speculative Decoding with Adaptive Verification](http://arxiv.org/abs/2609.37532v1)** — Rongjian Chen et al. (2026) · relevance 9
+- **[LazySloth: Bounded LLM-based Lazy Tree Search for Fast Long Video Comprehension](http://arxiv.org/abs/2609.37426v1)** — Arka Mukherjee et al. (2026) · relevance 7
+- **[SemOPT: Fixing Semantic Errors in LLM-based Optimization Modeling via Reward-Guided Search](http://arxiv.org/abs/2609.37361v1)** — Zetong Zhou et al. (2026) · relevance 6
+- **[Teaching LLMs to Generate Challenging MILP Instances via Solver Feedback](http://arxiv.org/abs/2609.37356v1)** — Jitin Singla et al. (2026) · relevance 12
+- **[Follow the Entities: A Corpus Map for Agentic Search](http://arxiv.org/abs/2609.37226v1)** — Soyeong Jeong et al. (2026) · relevance 14
+- **[OptiCom : A Unified Framework for State-Conditioned Composition in LLM-Driven Optimization](http://arxiv.org/abs/2609.37221v1)** — Chenxing Wei et al. (2026) · relevance 9
+- **[Learning to Prove, Not Just to Answer: Reinforcement Learning from Formal Verification for Natural-Language Logical Reasoning](http://arxiv.org/abs/2609.37203v1)** — Qili Zhang et al. (2026) · relevance 7
+- **[Bridging Semantic Gaps in RAG through Generated Context Knowledge Fusion](http://arxiv.org/abs/2609.37171v1)** — Xinkai Du et al. (2026) · relevance 7
+- **[AnyAct: Universal Action for Self-Evolving Agents](http://arxiv.org/abs/2609.37025v1)** — Lingrui Xu et al. (2026) · relevance 11
+- **[UpliftMem: Learning Set-Level Uplift for Agent Memory Retrieval](http://arxiv.org/abs/2609.36805v1)** — Mengkun Liang et al. (2026) · relevance 8
+- **[AI as a Compiler: Compiling Triton kernels without the Triton compiler](http://arxiv.org/abs/2609.36800v1)** — François Costa et al. (2026) · relevance 8
+- **[Where Root Cause Analysis Fails: A Retrieval-Reranking Decomposition](http://arxiv.org/abs/2609.36686v1)** — Hada Melino Muhammad et al. (2026) · relevance 8
+- **[Inducing Process Supervision from Outcome-Only Reinforcement Learning](http://arxiv.org/abs/2609.36641v1)** — Shengda Fan et al. (2026) · relevance 12 · _cross-tier: Data Substrates_
+- **[SafeCoEvo: Co-Evolving Safety Harnesses and Guards for LLM Agents at Test-Time](http://arxiv.org/abs/2609.36580v2)** — Yu Cheng et al. (2026) · relevance 11
+- **[ThinkingGuard: Decoding Implicit Hazards via Step-by-Step Risk Attribution in Multimodal Large Language Models](http://arxiv.org/abs/2609.36562v1)** — Ruochen Zhang et al. (2026) · relevance 9
+- **[Grounded Revision vs. Prior Injection: Probing Retrieval-Augmented Patent Claim Amendment](http://arxiv.org/abs/2609.36550v1)** — Josepha Michiko Leo et al. (2026) · relevance 8
+- **[BRIDGE: Bilevel Retrieval-Credit-Aware Agentic Reinforcement Learning](http://arxiv.org/abs/2609.36505v1)** — Quan Xiao et al. (2026) · relevance 13
+- **[AdaptArena: Evaluating Test-Time Personalization of Web Agents](http://arxiv.org/abs/2609.36488v1)** — Dongchan Shin et al. (2026) · relevance 14
+- **[ARCagent: An Adaptive Retrieval Calibration Agent for Clinical Question Answering](http://arxiv.org/abs/2609.36392v1)** — Yuyan Chen (2026) · relevance 7
+- **[LatentSift: Policy-State Filtering for Token-Efficient Verification of Software Engineering Agents](http://arxiv.org/abs/2609.36371v1)** — Yuning Han et al. (2026) · relevance 14
+- **[Strategies for Deploying AI Agents in Production at Scientific User Facilities](http://arxiv.org/abs/2609.36362v1)** — Ming Du et al. (2026) · relevance 6
+- **[Better Nearest Neighbor Graph Indices via (Efficient) LLM-Guided Pruning](http://arxiv.org/abs/2609.36359v1)** — Fangzhou Wu et al. (2026) · relevance 8
+- **[SCOUT: Synergizing Reasoning and Tool-Use for Computer-Use Safety](http://arxiv.org/abs/2609.36201v1)** — Jianxing Chen et al. (2026) · relevance 21 · _cross-tier: Data Substrates_
+- **[Targeting Pivotal Decisions for Credit Assignment in Agentic Reinforcement Learning](http://arxiv.org/abs/2609.36178v1)** — Dongwon Jung et al. (2026) · relevance 11
+- **[When Does Correction Become Repair? Mechanistic Auditing of Internal Interventions in Tool-Using LLMs](http://arxiv.org/abs/2609.36138v1)** — Jiayi Li et al. (2026) · relevance 8
+- **[AerialDojo-200K: A Large-Scale Benchmark Suite for Open-World Aerial Object-Goal Search](http://arxiv.org/abs/2609.36066v1)** — Tongtong Feng et al. (2026) · relevance 10
+- **[Solver Agent: an Agentic AI Framework for Theoretical Physics Computations Applied to F-theory Uplifts of O3-planes and S-folds](http://arxiv.org/abs/2609.35958v1)** — Eliott Morgensztern et al. (2026) · relevance 8
+- **[Harness Learning Enables Generalizable Test-Time Adaptation](http://arxiv.org/abs/2609.35738v1)** — Alvin Zhang et al. (2026) · relevance 13
+- **[Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models](http://arxiv.org/abs/2609.35695v1)** — Qiyao Ma et al. (2026) · relevance 11
+- **[Can LLMs Value the Right Evidence? Evidence-Value Misalignment in Dynamic Medical Diagnosis](http://arxiv.org/abs/2609.35627v1)** — Kehua Feng et al. (2026) · relevance 7
+- **[From Search to Research: Exploring Search Scaling in Autonomous Quantitative Factor Mining](http://arxiv.org/abs/2609.35559v1)** — Kangcheng Deng et al. (2026) · relevance 8
+- **[SRHarness: A Harness for Agentic Symbolic Regression](http://arxiv.org/abs/2609.35501v1)** — Zihan Yu et al. (2026) · relevance 13
+- **[AutoBCI: Forecast-Guided Agentic Neural Architecture Discovery for EEG-Based Brain--Computer Interfaces](http://arxiv.org/abs/2609.35456v1)** — Muyun Jiang et al. (2026) · relevance 9
+- **[Towards Reliable AI Data Scientists: Data Agents with Workflow Harnesses](http://arxiv.org/abs/2609.35255v1)** — Huachi Zhou et al. (2026) · relevance 9
+- **[SCBO: Semantically Coherent Batching and Ordering for LLM-Based Social Surveys](http://arxiv.org/abs/2609.35250v1)** — Yuanzi Li et al. (2026) · relevance 7
+- **[Token-Disentangled Latent Test-Time Scaling for Vision-Language Reasoning](http://arxiv.org/abs/2609.35228v1)** — Hao-Xuan Ma et al. (2026) · relevance 12
+- **[ConRAG: Lightweight inference of multi-hop relations](http://arxiv.org/abs/2609.35193v1)** — Kilian Bänziger et al. (2026) · relevance 6
+- **[EdgeCraft: Automated Model Crafting for Edge IoT](http://arxiv.org/abs/2609.35167v1)** — Genglin Wang et al. (2026) · relevance 7
+- **[CacheRepair: Learning to Repair Cross-Chunk Context in RAG for KV Cache Fusion](http://arxiv.org/abs/2609.35139v1)** — Genglin Wang et al. (2026) · relevance 9
+- **[Using Context Is Not Enough: Test-Time Training for Personalized Reward Modeling](http://arxiv.org/abs/2609.35109v1)** — Bohao Wang et al. (2026) · relevance 7
+- **[VEX-Bench: Benchmarking Verification Complexity of LLM-Generated Misinformation](http://arxiv.org/abs/2609.35028v1)** — Hanxun Huang et al. (2026) · relevance 8
+- **[Before Acting, Change the State: Prospective State Intervention for Web Agents under Deceptive Interfaces](http://arxiv.org/abs/2609.34974v1)** — Ruozhao Yang et al. (2026) · relevance 10
+- **[PDEU-Bench: Benchmarking the Personalized Planning Lifecycle of Tool-Calling LLM Agents](http://arxiv.org/abs/2609.34930v1)** — Huayi Lai et al. (2026) · relevance 10 · _cross-tier: Data Creation and Selection_
+- **[Fewer Assumptions by Design: A Reusable Skill for LLM-Assisted Verus Verification](http://arxiv.org/abs/2609.34886v1)** — Andrada-Livia Antoneac et al. (2026) · relevance 6
+- **[Uniform Race: Parameter-Free Approximate Rejection Sampling](http://arxiv.org/abs/2609.34639v1)** — Seiyun Shin et al. (2026) · relevance 10
+- **[GenMem: Generative Symbolic Memory for Self-Evolving Harness](http://arxiv.org/abs/2609.34633v1)** — Xinke Jiang et al. (2026) · relevance 7
+- **[Learn Now, Use Next, Trust Later: Prequential Test-Time Learning for LLM Agents](http://arxiv.org/abs/2609.35911v1)** — Tong Zhao et al. (2026) · relevance 7
+- **[SEAD: A State-Based Perspective on Attack and Defense in Tool-Using Agents](http://arxiv.org/abs/2609.34518v1)** — Xinjie Shen et al. (2026) · relevance 16 · _cross-tier: Data Substrates_
+- **[Cheap to Hypothesize, Costly to Verify: The Defense Surface of Agentic Vulnerability Discovery](http://arxiv.org/abs/2609.35909v2)** — Kaikai Zhang et al. (2026) · relevance 11
+- **[Correcting to Predict: Pseudo-Value Correction for Multimodal Attribute Value Extraction](http://arxiv.org/abs/2609.34383v1)** — Junhao Zhang et al. (2026) · relevance 8
+- **[Test-Time Scaling via Budgeted Multi-Attribute Verification](http://arxiv.org/abs/2609.34322v1)** — Bo Xue et al. (2026) · relevance 13
+- **[Agentic High-Dimensional Bayesian Optimization with Hypothesis- and Evidence-Guided Search](http://arxiv.org/abs/2609.34281v1)** — Zhixuan Gao et al. (2026) · relevance 8
+- **[SAGE: Symbolic Action-Gating and Editing for LLM Task Planners](http://arxiv.org/abs/2609.34268v1)** — Trung Minh Bui et al. (2026) · relevance 9
+- **[SleuthBench: Benchmarking Statistical LLM Evaluation Using Tabular Hidden Signals](http://arxiv.org/abs/2609.34228v1)** — Jingyun Jia et al. (2026) · relevance 7
+- **[AlphaPareto: Formulaic Alpha Discovery with LLM-Guided Multi-Objective Reinforcement Learning](http://arxiv.org/abs/2609.34188v1)** — Yingbo Zhao et al. (2026) · relevance 7
+- **[TableSeek: Structure-Preserving Agentic Evidence Seeking over Heterogeneous Table Corpora](http://arxiv.org/abs/2609.34157v1)** — Jiaming Tian et al. (2026) · relevance 12
+- **[StateGuard: Analytical-State Management with Validity-Aware Intervention for Long-Horizon Data Agents](http://arxiv.org/abs/2609.34134v1)** — Wenle Liao et al. (2026) · relevance 10
+- **[STITCH-RAG: Spatio-Temporal Influence Tracing over Topic Hypergraphs for Multi-Hop Retrieval-Augmented Generation](http://arxiv.org/abs/2609.34127v1)** — Haodong Yang et al. (2026) · relevance 7
+- **[Reconstructing Implicit Scientific Knowledge: Evaluating LLM Agents through End-to-End Reproduction of Astronomy](http://arxiv.org/abs/2609.35900v1)** — Yuehui Wang et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[Towards Certificate-Driven Software Porting: A Self-Improving Agentic Harness for Scientific Program Optimization](http://arxiv.org/abs/2609.34069v1)** — Piyush Jha et al. (2026) · relevance 6
+- **[Conformal Factuality Control for Multi-Hop Retrieval-Augmented Generation](http://arxiv.org/abs/2609.38222v1)** — Muhammad Aimal Rehman et al. (2026) · relevance 9
+- **[Opera: A Verbal Critic Framework for Long-horizon Coding Agents](http://arxiv.org/abs/2609.33987v1)** — Kai Mei et al. (2026) · relevance 9
+- **[Beyond Solo and Consistency: Vindicating Multi-Agent Debate via Conditional Progressive Pruning](http://arxiv.org/abs/2609.33974v1)** — Ruosong Ye et al. (2026) · relevance 6
+- **[HyperMCTS: Hypergraph-Augmented MCTS for Long-Horizon LLM Agents](http://arxiv.org/abs/2609.33920v1)** — Tingsong Xiao et al. (2026) · relevance 13
+- **[RAISE: Reinforcing Access Control Policy Synthesis in LLMs via Symbolic Evaluation](http://arxiv.org/abs/2609.33796v1)** — Yingming Zhou et al. (2026) · relevance 7
+- **[Relevance Is Not Sufficient Evidence: Detecting Evidence Gaps Before Generation in RAG](http://arxiv.org/abs/2609.37469v1)** — Suting Chen et al. (2026) · relevance 8
+- **[Evidence-Inference Reconstruction: When The Evidence Is Recalled But The Reasoning Goes Wrong](http://arxiv.org/abs/2609.33778v1)** — Megan Diehl et al. (2026) · relevance 12
+- **[SpecRead: A Benchmark for Measuring Whether Language Models Understand Hardware Specifications](http://arxiv.org/abs/2609.33699v1)** — Feilian Huang (2026) · relevance 6
+- **[When Do Agents Help? Embedding, LLM and Agentic Alignment of Classical Texts and Their Translations](http://arxiv.org/abs/2609.33691v1)** — Máté Metzger (2026) · relevance 7
+- **[CompoWorld: Compositional Environment Scaling for General Agents](http://arxiv.org/abs/2609.33665v2)** — Xiao-Wen Yang et al. (2026) · relevance 12
+- **[You Only Edit Once: Incentivizing In-Context Capability of LLMs via Local Demonstration Refinement](http://arxiv.org/abs/2609.33609v1)** — Jiarong Wen et al. (2026) · relevance 6
+- **[TGRL: Temperature-Grouped Reinforcement Learning for Efficient Exploration in LLMs](http://arxiv.org/abs/2609.33589v1)** — Zihan Lin et al. (2026) · relevance 6
+- **[FORUM: Frozen Outputs Reconciled Using Model Agreement for Visual Grounding](http://arxiv.org/abs/2609.37488v1)** — Taiyo Sato et al. (2026) · relevance 7
+- **[MetaBench-Harness: Unlocking End-to-End Optimization of Benchmark Harnesses](http://arxiv.org/abs/2609.33411v1)** — Xuanjun Chen et al. (2026) · relevance 13
+- **[NLPG: Natural-Language Policy Gradients for Self-Evolving Language Agents](http://arxiv.org/abs/2609.33379v1)** — Xu Liu et al. (2026) · relevance 10
+- **[Agentic Multi-Turn Reasoning: A Fairness Approach](http://arxiv.org/abs/2609.33323v1)** — Thanh-Dat Truong et al. (2026) · relevance 13
+- **[The Error You See Is Not the Error You Made: Progression-aware Reasoning Origin for Reasoning Error Localization](http://arxiv.org/abs/2609.33297v1)** — Yiguo Wang et al. (2026) · relevance 6
+- **[Where Do Test-Time Scaling and Training Fall Short in Individual Stance Prediction?](http://arxiv.org/abs/2609.33155v1)** — Yuyang Zhao et al. (2026) · relevance 7
+- **[Multimodal LLMs Outperform Pathology Foundation Models in Cross-Domain Histological Similarity](http://arxiv.org/abs/2609.32876v2)** — Yishu Zhang et al. (2026) · relevance 8
+- **[SkillVine: Agent Skill Evolution via Branching Exploration](http://arxiv.org/abs/2609.32731v1)** — Kaiwei Liu et al. (2026) · relevance 8
+- **[CAIRN: Dynamic Fact-Intent DAGs for Multi-Agent Exploration](http://arxiv.org/abs/2609.32700v1)** — Zuyao Xu et al. (2026) · relevance 6
+- **[PINNMorph: Evolving Online Adaptation Policies for Physics-Informed Neural Networks](http://arxiv.org/abs/2609.32685v1)** — Xu Yang et al. (2026) · relevance 6
+- **[Can Open-Weight Large Language Models (LLMs) Simulate Human Survey Populations? A Cross-Instrument Calibration Study](http://arxiv.org/abs/2609.32638v1)** — Grandee Lee et al. (2026) · relevance 6
+- **[Not Every Term Adds New Structure: Sobolev Novelty for Symbolic Regression](http://arxiv.org/abs/2609.32597v1)** — Boxiao Wang et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[EMIR$^2$: Evolution-Aware Memory with Intent-Guided Multi-Round Retrieval](http://arxiv.org/abs/2609.32584v1)** — Jinlan Liu et al. (2026) · relevance 9
+- **[Fail Loudly: An Auditable Runtime for Agentic Data Analysis](http://arxiv.org/abs/2609.32528v1)** — Hanxu Yan et al. (2026) · relevance 9
+- **[MemAgent: Learning to Manage Heterogeneous Memory Providers for LLM Agents](http://arxiv.org/abs/2609.32521v1)** — Yongxian Wei et al. (2026) · relevance 16 · _cross-tier: Data Creation and Selection_
+- **[Streamlined Reflective Evolution for Task-Adaptive Self-Refinement Pipelines](http://arxiv.org/abs/2609.32458v1)** — Xiaofan Zhou et al. (2026) · relevance 6
+- **[IChart2Code: Benchmarking Multimodal Large Language Models for Interactive Chart Code Generation](http://arxiv.org/abs/2609.32413v1)** — Xu Zhang et al. (2026) · relevance 13
+- **[From Trajectories to Grounded Preferences: Process Preference Synthesis via Interaction Element Graphs for Web PRMs](http://arxiv.org/abs/2609.32351v1)** — Yangzhe Peng et al. (2026) · relevance 19 · _cross-tier: Data Substrates_
+- **[HyperReCo: Retrieving and Connecting Evidence with Hypergraph Neural Networks for LLM Multi-hop Reasoning](http://arxiv.org/abs/2609.32327v1)** — Zicheng Zhao et al. (2026) · relevance 8
+- **[Before Answering: Evidence Sufficiency under Size-Matched Memory Construction](http://arxiv.org/abs/2609.32269v1)** — Joyanta Jyoti Mondal et al. (2026) · relevance 6
+- **[Clarify the User or Verify the World? Uncertainty Routing for Proactive Agents](http://arxiv.org/abs/2609.32255v1)** — Zhaofeng Li et al. (2026) · relevance 6
+- **[AutoPDEBench: Benchmarking LLM Auto-Research for Neural PDE Solver Design](http://arxiv.org/abs/2609.32245v1)** — Ruoyan Li et al. (2026) · relevance 8
+- **[Noisy Test-Time Reinforcement Learning for Code LLMs](http://arxiv.org/abs/2609.32172v1)** — Xikai Yang et al. (2026) · relevance 12
+- **[EngramRAG: Dynamic Usage-Weighted Topology and Synaptic Consolidation for Multi-Hop Agentic Memory](http://arxiv.org/abs/2609.32049v1)** — Bhavyateja Potineni et al. (2026) · relevance 11
+- **[CSI-Agent: LLM-Assisted Few-Shot Adaptation for Cross-Domain Wi-Fi CSI Sensing](http://arxiv.org/abs/2609.31990v1)** — Tianya Zhao et al. (2026) · relevance 9
+- **[BioDyad: Synchronize Biomedical Discovery and Machine Learning Engineering](http://arxiv.org/abs/2609.31939v1)** — Xingbo Du et al. (2026) · relevance 6
+- **[A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services](http://arxiv.org/abs/2609.31877v1)** — Shahrooz Pouryousef et al. (2026) · relevance 6
+- **[COUNTERMEM: World-Model Verified Counter-Factual Memory for Language Agents](http://arxiv.org/abs/2609.31874v1)** — Hongji Pu et al. (2026) · relevance 7
+- **[Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains](http://arxiv.org/abs/2609.31282v1)** — Toqeer Ali Syed et al. (2026) · relevance 7
+- **[Semantic Navigation for Issue Localization in Code Repository](http://arxiv.org/abs/2609.31176v1)** — Yunxiang Wei et al. (2026) · relevance 11
+- **[FAVoR: Measuring and Mitigating Author-Style Homogenization in Federated Personalized Generation](http://arxiv.org/abs/2609.30968v1)** — Lu Han et al. (2026) · relevance 6 · _cross-tier: Data Creation and Selection_
+- **[ToolSearcher: Optimizing Tool Selection at Scale via Reinforcement Learning](http://arxiv.org/abs/2609.30906v1)** — Zhenlong Dai et al. (2026) · relevance 13
+- **[Backbone-Adaptive Evidence Routing for Robust Pairwise LLM Judging](http://arxiv.org/abs/2609.30751v1)** — Zeyan Li et al. (2026) · relevance 7
+- **[ORCA: Evaluating LLMs on Data Science Code Translation](http://arxiv.org/abs/2609.30749v1)** — Xiaolong Li et al. (2026) · relevance 7
+- **[Learning What to Skip: Counterfactual Credit Assignment for Efficient Multi-Agent LLM Workflows](http://arxiv.org/abs/2609.30734v1)** — Jinfeng Xu et al. (2026) · relevance 6
+- **[The Price of Thought: Does Test-Time Reasoning Pay in LLM Trading?](http://arxiv.org/abs/2609.30705v1)** — Jiayi Chen et al. (2026) · relevance 7
+- **[The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge](http://arxiv.org/abs/2609.30604v1)** — Alexander Gill et al. (2026) · relevance 7 · _cross-tier: Data Substrates_
+- **[REALMS: An AI-Assistant Conversational System for Real-Time Exact Audience Sizing over High-Dimensional Nested Profiles](http://arxiv.org/abs/2609.30547v1)** — Haixu Ma et al. (2026) · relevance 6
+- **[CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production](http://arxiv.org/abs/2609.30471v1)** — Mukul Chhabra et al. (2026) · relevance 9
+- **[Where Does Retrieval-Based Open-Ended Evaluation Fail? Automatic Taxonomy Induction from Long-Form Medical Answer Factuality Verification](http://arxiv.org/abs/2609.30467v1)** — Heyuan Huang et al. (2026) · relevance 13
+- **[A Benchmarking Framework for Context-aware XR Interfaces](http://arxiv.org/abs/2609.30466v1)** — Hyunsung Cho et al. (2026) · relevance 9
+- **[RAPID: Robot Agentic Programming from Demonstrations](http://arxiv.org/abs/2609.30249v1)** — Yuyao Liu et al. (2026) · relevance 13
+- **[Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure](http://arxiv.org/abs/2609.30217v1)** — David Schmotz et al. (2026) · relevance 6
+- **[KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization](http://arxiv.org/abs/2609.30059v1)** — Aheli Poddar et al. (2026) · relevance 7
+- **[SciWalker: Synthesizing Scientific Coding Problems with Operator Graphs and Execution Feedback](http://arxiv.org/abs/2609.30054v1)** — Chenxi Li et al. (2026) · relevance 6
+- **[Automated Regulatory Compliance Question Answering in Financial Services with Domain-Adapted Retrieval-Augmented Generation](http://arxiv.org/abs/2609.30009v1)** — Tobias Deußer et al. (2026) · relevance 7
+- **[An Empirical Study of VLM Pipelines for Long-Document QA](http://arxiv.org/abs/2609.29933v1)** — Kenan E. Ak et al. (2026) · relevance 7
+- **[Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents](http://arxiv.org/abs/2609.29892v1)** — Tingyu Qu et al. (2026) · relevance 23 · _cross-tier: Data Creation and Selection_
+- **[Formal Model Construction Guided by Model-Based Proof Sketches](http://arxiv.org/abs/2609.29870v1)** — Hongshu Wang et al. (2026) · relevance 7
+- **[LSF-SR: Latent Semantic Fusion for Sequential Recommendation via Flow-based Conditional Variational Autoencoders](http://arxiv.org/abs/2609.29815v1)** — Shih-Hong Chen et al. (2026) · relevance 6
+- **[Parameters vs. Context: TRACE Fine-Tuning for Robust Retrieval-Augmented Generation](http://arxiv.org/abs/2609.30337v1)** — Zhengchen Huang et al. (2026) · relevance 9
+- **[VidTutorAssistant: Automating Responses to Programming Tutorial Questions](http://arxiv.org/abs/2609.29129v1)** — Ahmad Tayeb et al. (2026) · relevance 7
+- **[CRISS: A Retrieval-Augmented AI Chatbot for Assisting Cancer Registrars](http://arxiv.org/abs/2609.29075v1)** — Vani Seth et al. (2026) · relevance 6
+- **[Seek: Self-Evaluative Exploration for Knowledge Retrieval](http://arxiv.org/abs/2609.28980v1)** — Amin Bigdeli et al. (2026) · relevance 12
+- **[Automatic Harness Evolution for Hardware Design Verification: Can LLMs Consolidate Gains Across Discovered Harnesses?](http://arxiv.org/abs/2609.28908v1)** — Kidus Seyoum et al. (2026) · relevance 9
+- **[System Attribution in LLM Brand Recommendations: Single Responses Identify the System, Aggregated Brand Profiles Do Not Transfer](http://arxiv.org/abs/2610.00253v1)** — Dmitrij Żatuchin (2026) · relevance 6
+- **[Agent-Editing World Model: Rethinking World Modeling for LLM Agents](http://arxiv.org/abs/2609.28416v1)** — Shuang Sun et al. (2026) · relevance 14
+- **[Beyond the Context Window: An Adaptive Entropy-Based Routing Framework for Hybrid Retrieval and Long-Context Language Models](http://arxiv.org/abs/2609.35831v1)** — Isaac Olufadewa et al. (2026) · relevance 7
+- **[Evaluating Open-Weight LLMs for Turkish Domain Documents Under Retrieval and Hardware Constraints](http://arxiv.org/abs/2609.28007v1)** — Imtiaz Ul Hassan et al. (2026) · relevance 7
+- **[SkillGym: Internalizing Human Skills into LLMs for Real-World Problem Solving](http://arxiv.org/abs/2609.27717v2)** — Zhilong Ge et al. (2026) · relevance 7
+- **[Who Is Behind the Harness? Fingerprinting LLMs through Agentic Behavior](http://arxiv.org/abs/2609.28559v1)** — Chuyi Wang et al. (2026) · relevance 11
+- **[Pistis Technical Report](http://arxiv.org/abs/2609.28554v1)** — Heyun Chen et al. (2026) · relevance 13
+- **[Automated Extraction of Records of Processing Activities (RoPA) Using Hybrid RAG and Locally Deployed Large Language Models](http://arxiv.org/abs/2609.27359v1)** — To Duy Hinh et al. (2026) · relevance 6
+- **[Just-in-Time Memory: Learning to Curate Task-Adaptive Memory for LLM Agents](http://arxiv.org/abs/2609.27334v1)** — Yefan Zhou et al. (2026) · relevance 10
+- **[BoundaryMORPH: Budgeted Reranking via Active Set Selection for Diffuse Retrieval](http://arxiv.org/abs/2609.27213v1)** — Eylon Caplan et al. (2026) · relevance 9
+- **[ChartRevive: Reconstructing Data Visualizations from Chart Images Using MLLM](http://arxiv.org/abs/2609.27146v1)** — Yuki Ueno et al. (2026) · relevance 7
+- **[ChipMEM: Verification-Grounded Memory for EDA Agents](http://arxiv.org/abs/2609.27067v1)** — Abdulrahman AlRabah et al. (2026) · relevance 10
+- **[What Changes When Fact-Verification Scores Improve? Evidence and Answer Accounting Across Trained Verifiers and LLMs](http://arxiv.org/abs/2609.27064v1)** — Han Chen et al. (2026) · relevance 9
+- **[LEGO: Synergizing Expert GraphRAG and Expert Chain-of-Thought for Legal Reasoning](http://arxiv.org/abs/2609.27009v1)** — Qingjing Chen et al. (2026) · relevance 8
+- **[Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning](http://arxiv.org/abs/2609.26704v1)** — Ismail Labiad et al. (2026) · relevance 7
+- **[Build2SPARQL: A Large-Scale Text-to-SPARQL Benchmark Dataset for Building Knowledge Graph Querying](http://arxiv.org/abs/2610.00224v1)** — Wooyoung Jung (2026) · relevance 12 · _cross-tier: Data Creation and Selection_
+- **[Domain-Adaptive Pretraining Enhances Water Treatment Semantic Representation for Large-Scale Structured Literature Mining](http://arxiv.org/abs/2609.26034v1)** — Mudi Zhai et al. (2026) · relevance 9
+- **[Knowledge-as-Skill: A Structural Design for Autonomous Knowledge-Base Use by LLM Agents](http://arxiv.org/abs/2609.25991v1)** — Jiangxu Wu (2026) · relevance 10
+- **[ARAFA: An LLM-Generated Arabic Fact-Checking Dataset](http://arxiv.org/abs/2609.25833v1)** — Christophe Khalil et al. (2026) · relevance 8
+- **[Direct Optimization of Generators for Search in Automated Theorem Proving](http://arxiv.org/abs/2609.25575v1)** — Adam Ousherovitch et al. (2026) · relevance 6
+- **[Recovering Agentic Sovereignty: Mitigating the Consensus Paradox via Contrastive Epistemic Decoding](http://arxiv.org/abs/2609.25570v1)** — Dahlia Shehata et al. (2026) · relevance 9
+- **[SambaGraph: Action-Reaction Spatio-Temporal Graphs for Soccer Tactical Response Modeling](http://arxiv.org/abs/2609.25569v1)** — Abel A. Reyes-Angulo et al. (2026) · relevance 8
+- **[Hill Sampling for Test-Time Scaling: A Simple and Better Alternative to Repeated Sampling, Evolution, and Training](http://arxiv.org/abs/2609.25510v2)** — Jacob Beck et al. (2026) · relevance 10
+- **[RAG-NAROK: Retrieval-Aware Knowledge Corpus Poisoning in RAG with Source-specific Refutation](http://arxiv.org/abs/2609.25469v1)** — Abdullahil Kafi et al. (2026) · relevance 10
+- **[Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing](http://arxiv.org/abs/2609.25303v1)** — Brian Wright (2026) · relevance 6
+- **[RRSI: Regularized Recursive Self-Improvement of Agent Harnesses](http://arxiv.org/abs/2609.24972v2)** — Peng Xia et al. (2026) · relevance 8
+- **[Emergent Collusion in Long-Horizon LLM Agent Interaction](http://arxiv.org/abs/2609.24967v1)** — Xinrui Shi et al. (2026) · relevance 9
+- **[Whose Facts Count? A Culturally Responsive Audit of LLM Evaluation Benchmarks](http://arxiv.org/abs/2609.24934v1)** — Fatima Tuz Zahra et al. (2026) · relevance 6
+- **[FinFIRST: Benchmarking Search Agents for Financial Information Retrieval, Sourcing and Traceability](http://arxiv.org/abs/2609.25192v1)** — Wenqing Wang et al. (2026) · relevance 10
+- **[BackTrend: Evaluating Scientific Weak-Signal Prediction via Backward Reconstruction](http://arxiv.org/abs/2609.24921v1)** — Xiao Zhou et al. (2026) · relevance 10
+- **[Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse](http://arxiv.org/abs/2609.26836v1)** — Shreya Gopalan et al. (2026) · relevance 8
+- **[Adapting Tree-Structured Speculative Decoding to DeepSeek-V4 for Efficient Inference](http://arxiv.org/abs/2609.24698v1)** — Changxu Liu et al. (2026) · relevance 7
+- **[RAILS: Retrieval-Augmented Incremental LLM Clustering at Scale](http://arxiv.org/abs/2609.24464v1)** — Armin Oliya et al. (2026) · relevance 7
+- **[URA-NER: A Unified Retrieval-Augmented Framework with Retrieval Alignment and Uncertainty Reduction for Low-Resource NER](http://arxiv.org/abs/2609.24372v1)** — Jingyu Wang et al. (2026) · relevance 12
+- **[Taramandal-GPT: Enhancing Astrodynamics Problem-Solving with Knowledge Retrieval and Structured Thinking](http://arxiv.org/abs/2609.24246v1)** — Akhil Sharma et al. (2026) · relevance 10
+- **[Efficient LLM Distillation for Bangladesh Legal Context: A Smartphone-Compatible Retrieval-Augmented Generation Model](http://arxiv.org/abs/2609.24177v1)** — MD. Nafis Kamal et al. (2026) · relevance 9
+- **[Re:CAP - Auditing Retrieval Coverage in Production RAG Pipelines](http://arxiv.org/abs/2609.24122v2)** — Aviral Joshi et al. (2026) · relevance 7
+- **[Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents](http://arxiv.org/abs/2609.23986v1)** — Dongming Jiang et al. (2026) · relevance 7
+- **[UniK: Universal Knowledge Perception for Digital and Physical AI](http://arxiv.org/abs/2609.23971v1)** — Nirmit Desai et al. (2026) · relevance 6 · _cross-tier: Data Creation and Selection_
+- **[From Tables to Quantified Statements: Evaluating LLM Inference Generation through Executable Verification](http://arxiv.org/abs/2609.23966v1)** — Mai Mohamed Eida et al. (2026) · relevance 6
+- **[FLARE: A Full-Lifecycle Dense Supervision Paradigm for Long-Horizon Coding Agents via Generative Reward Model](http://arxiv.org/abs/2609.23808v1)** — Jingxuan Xu et al. (2026) · relevance 18 · _cross-tier: Data Creation and Selection_
+- **[GRACE: Grounded Adversarial Reasoning over Canadian Law](http://arxiv.org/abs/2609.23726v1)** — Jiakang Xu et al. (2026) · relevance 8
+- **[MuSeR: Scalable Long-sequence Recommendation with Multi-interest Modeling](http://arxiv.org/abs/2609.23677v1)** — Yongkang Fu et al. (2026) · relevance 8
+- **[Rachel: A general-purpose language model directs and revises retrosynthetic routes](http://arxiv.org/abs/2609.25118v1)** — Qisheng Li et al. (2026) · relevance 6
+- **[Listen Then Reason: Perception-Grounded Test-Time Reinforcement Learning for Large Audio-Language Models](http://arxiv.org/abs/2609.23589v1)** — Jiaheng Dong et al. (2026) · relevance 10
+- **[AgentBetta: Verification-Driven Adaptive Configuration of an AI Nano-Agent through Selective Expansion and Verified Contraction](http://arxiv.org/abs/2609.23512v1)** — Md. Ashraful Babu (2026) · relevance 7
+- **[BabelArena: A Large-Scale Multilingual Benchmark for LLM Agents](http://arxiv.org/abs/2609.23490v1)** — Peng Kuang et al. (2026) · relevance 16 · _cross-tier: Data Substrates_
+- **[LLM-Based FORM Code Generation with Verification-Driven Fine-Tuning](http://arxiv.org/abs/2609.23367v1)** — Bakar Chargeishvili (2026) · relevance 14 · _cross-tier: Data Creation and Selection_
+- **[TicTacBench: Benchmarking Timing Closure Capabilities of Coding Agents](http://arxiv.org/abs/2609.23363v1)** — Bowei Wang et al. (2026) · relevance 6
+- **[Semantic Candidate-Job Matching: A Comparative Evaluation of Dense Embedding Models in Hybrid Retrieval](http://arxiv.org/abs/2609.23307v1)** — Sai Yashwant et al. (2026) · relevance 10
+- **[OptiSkill: A Hierarchical and Evolving SkillBank for LLM-Based Optimization Modeling](http://arxiv.org/abs/2609.22987v1)** — Ruiqing Zhao et al. (2026) · relevance 9
+- **[Beyond Similarity: Coverage-Aware Prompt Selection for Time Series Forecasting with LLMs](http://arxiv.org/abs/2609.22977v1)** — Daeun Ji et al. (2026) · relevance 8
+- **[Per-Query Gating of LLM Rerankers for Multi-Hop Retrieval](http://arxiv.org/abs/2609.22880v1)** — Andre Bacellar (2026) · relevance 10
+- **[NLPCC 2026 Task 10: Citation-Level Faithfulness Verification with DeBERTa Ensembles and Class-Wise Calibration](http://arxiv.org/abs/2609.22774v1)** — Yanling Li et al. (2026) · relevance 7
+- **[SEABED: SouthEast Asian Benchmark for Evaluating Audio Reasoning](http://arxiv.org/abs/2609.22586v1)** — Harshit Rajgarhia et al. (2026) · relevance 6
+- **[Semantics Delivery Network: Rethinking Web Retrieval Infrastructure for LLM Agents](http://arxiv.org/abs/2609.22486v1)** — Peichun Hua et al. (2026) · relevance 11
+- **[Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention](http://arxiv.org/abs/2609.22056v1)** — Andre Bacellar (2026) · relevance 10
+- **[An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency](http://arxiv.org/abs/2609.22043v1)** — Yiming Zhang et al. (2026) · relevance 7
+- **[QuranicMMLU: A Cognitively-Aware Benchmark for Evaluating Generative AI Solutions on Quranic Linguistic Knowledge](http://arxiv.org/abs/2609.22038v1)** — Rawan El Ghali et al. (2026) · relevance 9
+- **[A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal](http://arxiv.org/abs/2609.21996v2)** — Hiskias Dingeto (2026) · relevance 6
+- **[AutoViewMem: Self-Configuring Orthogonal Views for Conversational Long-Term Memory](http://arxiv.org/abs/2609.21940v1)** — Zijie Cao et al. (2026) · relevance 6
+- **[ExpBoN: Exponential-Noise Best-of-$n$ for Efficient Test-Time LLM Alignment](http://arxiv.org/abs/2609.21899v1)** — Yanxiao Liu et al. (2026) · relevance 7
+- **[CIBuzzBench: A Benchmark for Cross-Lingual Understanding of Chinese Internet Buzzwords](http://arxiv.org/abs/2609.21722v1)** — Yifan Wang et al. (2026) · relevance 6
+- **[CIPL: A Channel-Aware Framework for Recoverable Privacy Leakage in LLM Agents](http://arxiv.org/abs/2609.21686v1)** — Tao Huang et al. (2026) · relevance 7
+- **[Micro-Collaborative Poisoning: A Distributed Attack on RAG Systems](http://arxiv.org/abs/2609.21573v1)** — Pedro Pereira et al. (2026) · relevance 7
+- **[VidOmni-Bench: A Benchmark for Fine-Grained Video Understanding via Spatio-Temporal Event Verification across Complexity and Duration](http://arxiv.org/abs/2609.21521v1)** — Changbeen Kim et al. (2026) · relevance 8
+- **[LogicTrack: Auditing Reasoning Trajectories of Large Language Models with Formal Logic Solvers](http://arxiv.org/abs/2609.21492v1)** — Jingyu Hu et al. (2026) · relevance 10
+- **[ArenaFlow: From Trajectory Ranking to Hierarchical Credit Propagation for Open-Ended Agent RL](http://arxiv.org/abs/2609.21378v1)** — Qiang Zhang et al. (2026) · relevance 10
+- **[Verify, Don't Trust: Agentic Model Development for Video Discovery Retrieval at Scale](http://arxiv.org/abs/2609.21257v1)** — Hao Fu et al. (2026) · relevance 14
+- **[SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?](http://arxiv.org/abs/2609.21190v2)** — George Ma et al. (2026) · relevance 7
+- **[When AI Reviews Train AI Reviewers: Scientific-Judgment Collapse and Mitigation](http://arxiv.org/abs/2609.20942v1)** — Sy-Tuyen Ho et al. (2026) · relevance 8
+- **[Large Language Models as Falsifiers for Cyber-Physical Systems](http://arxiv.org/abs/2609.20752v1)** — Ali ArjomandBigdeli et al. (2026) · relevance 6
+- **[Reasoning Quality Matters: Combating Reasoning Collapse in LLM-based Embedding Learning](http://arxiv.org/abs/2609.20563v1)** — Zihan Gong et al. (2026) · relevance 7
+- **[SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness](http://arxiv.org/abs/2609.20519v1)** — Haozhe Liu et al. (2026) · relevance 9
+- **[PetriBench: Benchmarking LLM Reasoning over Dynamic State Spaces](http://arxiv.org/abs/2609.19883v1)** — Pyrros Koussios et al. (2026) · relevance 7
+- **[F$^{2}$DR: A Fine-Grained Full-Pipeline Reward Framework for DeepSearch Workflows](http://arxiv.org/abs/2609.19827v2)** — Bojian Xiong et al. (2026) · relevance 11
+- **[AutoData: Agentic Search for Pre-training Data Selection](http://arxiv.org/abs/2609.19754v1)** — Yan Meng et al. (2026) · relevance 20 · _cross-tier: Data Creation and Selection_
+- **[Self-Evolving Search Index](http://arxiv.org/abs/2609.19656v1)** — Sangam Lee et al. (2026) · relevance 6
+- **[FootprintRAG: Visual Analytics for Evidence Context Refinement in RAG-based Scientific Literature Exploration](http://arxiv.org/abs/2609.19601v1)** — Xingyu Liu et al. (2026) · relevance 9
+- **[LLM-as-an-Improver: Turning Verification into Better Candidates](http://arxiv.org/abs/2609.19515v1)** — Akiyoshi Tomihari et al. (2026) · relevance 7
+- **[Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling](http://arxiv.org/abs/2609.19499v2)** — Mobina Kashaniyan et al. (2026) · relevance 7
+- **[Efficiently Linking Unstructured Data for Multi-step Reasoning](http://arxiv.org/abs/2609.19491v1)** — Jiaming Liang et al. (2026) · relevance 7
+- **[BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence](http://arxiv.org/abs/2609.20886v1)** — Chuxuan Hu et al. (2026) · relevance 7
+- **[MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs](http://arxiv.org/abs/2609.19391v1)** — Albert Wu et al. (2026) · relevance 7
+- **[Kinematics-Grounded Agentic AI for Robotic Additive Manufacturing Process Planning](http://arxiv.org/abs/2609.19347v1)** — Jingzhan Ge et al. (2026) · relevance 8
+- **[TeleAntiFraud 2.0: A Refreshable, Profile-Grounded, and Audio-Based Benchmark for Telecom Fraud Detection](http://arxiv.org/abs/2609.18748v2)** — Huiyuan Liu et al. (2026) · relevance 6
+- **[M-SQE: Multilingual Skill Quality Estimation for Enhancing Language Equality in Agentic Skill Use](http://arxiv.org/abs/2609.18445v1)** — Yilun Liu et al. (2026) · relevance 11
+- **[Exploring LLMs and RAG for Plausible and Explainable Material Prediction of Vehicle Components](http://arxiv.org/abs/2609.18437v1)** — Frederik Wagner et al. (2026) · relevance 9
+- **[Knowledge-Graph Based Augmentation versus Retrieval Augmented Generation for Cultural-Related Question Answering](http://arxiv.org/abs/2609.18317v2)** — Pablo Poulenard et al. (2026) · relevance 10
+- **[Behavior2Value: Benchmarking and Empowering LLMs for Consumer Value Measurement from E-commerce Behaviors](http://arxiv.org/abs/2609.18203v1)** — Peixuan Hou et al. (2026) · relevance 12
+- **[WFM: Wiki Foundation Model for Complex Agentic Reasoning](http://arxiv.org/abs/2609.18182v1)** — Junnan Dong et al. (2026) · relevance 9
+- **[When Is Graph Structure Worth Its Cost? The Case for Structure Pricing in Retrieval-Augmented Generation](http://arxiv.org/abs/2609.18099v1)** — Yuzhong Zhang et al. (2026) · relevance 8
+- **[Lexara-RF: Reference-Free Metrics for Evaluating Conversational Visual Analytics Agents](http://arxiv.org/abs/2609.17842v1)** — Srishti Palani et al. (2026) · relevance 8
+- **[CovR: Coverage-Aware Hardware Verification via Reasoning-Guided Reinforcement Learning](http://arxiv.org/abs/2609.19189v2)** — Manar Abdelatty et al. (2026) · relevance 11
+- **[Enhancing Procedural Writing Through Personalized Example Retrieval: A Case Study on Cooking Recipes](http://arxiv.org/abs/2609.17118v1)** — Paola Mejia-Domenzain et al. (2026) · relevance 6 · _cross-tier: Data Creation and Selection_
+- **[Sparse MLLM Anchors, Dense Adaptation: Breaking the Self-Referential Loop in Wild Test-Time Adaptation](http://arxiv.org/abs/2609.17040v1)** — Zhenbin Wang et al. (2026) · relevance 11
+- **[QART: A Quantum-Classical Hybrid Architecture for Long-Horizon Reasoning -- Exploring a Conditional Path toward Quantum Scaling](http://arxiv.org/abs/2609.16887v1)** — Lehao Lin et al. (2026) · relevance 7
+- **[Smarter by the Moment: Environment-Driven Dynamic Policies for Continual LLM Improvement](http://arxiv.org/abs/2609.16800v2)** — Ting-Wei Chang et al. (2026) · relevance 12
+- **[Quantifying Organizational Environmental Action from Web Data and Large Language Models](http://arxiv.org/abs/2609.16627v1)** — Quinn Reynolds et al. (2026) · relevance 12
+- **[AI in Science: Early Insights](http://arxiv.org/abs/2609.28504v2)** — Mihai Codreanu et al. (2026) · relevance 8
+- **[AquiLLM: Evaluating Faithfulness in Open-Weight RAG-LLM Systems for Scientific Research](http://arxiv.org/abs/2609.16519v2)** — Bernie Boscoe et al. (2026) · relevance 6
+- **[Agentic Search Spaces for Tabular Machine Learning](http://arxiv.org/abs/2609.16309v1)** — Renat Sergazinov et al. (2026) · relevance 10
+- **[Evaluating Brand Retrieval and Ranking in Large Language Model Recommendations](http://arxiv.org/abs/2609.16304v1)** — Edward Malthouse et al. (2026) · relevance 6
+- **[Spurious Tool Use: When RL Agents Learn the Wrong Reason to Act](http://arxiv.org/abs/2609.16268v1)** — Yiwei Yang et al. (2026) · relevance 16
+- **[Test-Time Unlearning via Sparse Autoencoder](http://arxiv.org/abs/2609.16229v1)** — Pingzhi Li et al. (2026) · relevance 10
+- **[Artificial intelligence and biosecurity: capabilities, threat pathways, and defense-in-depth governance](http://arxiv.org/abs/2609.16213v1)** — Candace S. Y. Chan et al. (2026) · relevance 6
+- **[LLMs as Master Forgers: Generating Synthetic Time Series Data for Manufacturing](http://arxiv.org/abs/2609.16155v1)** — Mantek Singh et al. (2026) · relevance 10 · _cross-tier: Data Creation and Selection_
+- **[AlgoEvo: Self-Evolving Agentic Search for Automated Algorithm Discovery](http://arxiv.org/abs/2609.15820v1)** — Junhao Qiu et al. (2026) · relevance 10
+- **[RAG-CT: Mitigating Privacy Risks on Retrieval-Augmented Generation Systems via Scanning Prompt Distribution](http://arxiv.org/abs/2609.16095v1)** — Xingyu Lyu et al. (2026) · relevance 11
+- **[Translator vs. Challenger: Adversarial Agentic Learning for C-to-Rust Translation](http://arxiv.org/abs/2609.15381v1)** — Chaofan Wang et al. (2026) · relevance 7
+- **[The Universe of Universes: Benefit Yield Functions, Implosion Thresholds, and Infrastructure-Aware Optimization in Multi-LLM Systems](http://arxiv.org/abs/2609.15314v1)** — Danielle Franklin et al. (2026) · relevance 7
+- **[When Agents Slow Down: Understanding LLM Agents' Test-Time Strategies via Elo-per-token Analysis](http://arxiv.org/abs/2609.15309v1)** — Kaiyuan Liu et al. (2026) · relevance 15
+- **[Empirical Evaluation of Open-Source Large Language Models for Retrieval-Augmented Generation in ESG Domain](http://arxiv.org/abs/2609.15242v1)** — Motaz Saad et al. (2026) · relevance 8
+- **[CWM: Controllable White-Box Meta-Prompting for Adaptive Retrieval-Augmented Generation and Reasoning Ability](http://arxiv.org/abs/2609.15234v1)** — Keuntae Kim et al. (2026) · relevance 7
+- **[Beyond Numerical Time Series: A Unified Benchmark for Multimodal Forecasting with Heterogeneous Context](http://arxiv.org/abs/2609.15087v1)** — Peng Chen et al. (2026) · relevance 6
+- **[MTAC-IFBench: Benchmarking Instruction-Following in Multi-Turn Agentic Coding](http://arxiv.org/abs/2609.14992v1)** — Bosi Wen et al. (2026) · relevance 10
+- **[A Corpus-Aligned Uthmani-to-Standard Quranic Word Mapping and a Deterministic Recitation Validator](http://arxiv.org/abs/2609.14967v1)** — Yahya Mohamed Elnawasany (2026) · relevance 6
+- **[Route Me If You Can: A Benchmark for Query Reformulation Selection](http://arxiv.org/abs/2609.14885v1)** — Hai Son Le et al. (2026) · relevance 7
+- **[EviQE: Evidence Selection for LLM-Based Query Expansion](http://arxiv.org/abs/2609.14875v1)** — Hai Son Le et al. (2026) · relevance 7
+- **[Route, Don't Fix: Regime-Dependent Decoding Correction and a Trajectory-Gated Router for Reliable Clinical LLM Answer Selection](http://arxiv.org/abs/2609.14825v1)** — Zeyu Dong et al. (2026) · relevance 15
+- **[TriCalRAG: A Three-Strategy, Retrieval-Augmented Benchmark for On-Premise LLM-Based Root Cause Analysis in AIOps](http://arxiv.org/abs/2609.14762v1)** — Rohit Patel et al. (2026) · relevance 11
+- **[Building Legal Reward Models for Grounding and Abstention](http://arxiv.org/abs/2609.14739v1)** — Rilton Franzone et al. (2026) · relevance 11 · _cross-tier: Data Substrates_
+- **[AlgoRAG: Retrieval-Augmented Generation for Theoretical Computer Science Education -- A Comprehensive Evaluation Framework for Algorithm Analysis and Complexity Theory](http://arxiv.org/abs/2609.14572v1)** — Sushan Adhikari (2026) · relevance 6
+- **[TATK: Triple-Aware Top-K Learning with Knowledge-Grounded Verification for LLM-based Sequential Recommendation](http://arxiv.org/abs/2609.14565v1)** — Yuchen Guan et al. (2026) · relevance 9
+- **[State of Thought Enables Endogenous Reasoning](http://arxiv.org/abs/2609.16055v1)** — Zhiren Gong et al. (2026) · relevance 11
+- **[LIMBO: Lifelong Inference-Time Memory and Budget Optimization for LLM Agents](http://arxiv.org/abs/2609.14138v1)** — Siddharth Sharma et al. (2026) · relevance 16
+- **[Mizan: A National Benchmark for Evaluating Large Language Models on Iraqi Arabic and the Iraqi Civic Context](http://arxiv.org/abs/2609.13980v1)** — Nawar S. Alseelawi et al. (2026) · relevance 6
+- **[ClinAgent: A ReAct-Based Agent for Conversational Access to Clinical Trial Information](http://arxiv.org/abs/2609.13860v1)** — Antonino Vaccarella et al. (2026) · relevance 12
+- **[DARE: Dialectical Agentic Reasoning for Structured Knowledge Fact Checking](http://arxiv.org/abs/2609.13808v1)** — Yifei Li et al. (2026) · relevance 11
+- **[Positioning manuscripts in the scientific landscape with agentic AI](http://arxiv.org/abs/2609.13760v1)** — Jiawen Chen et al. (2026) · relevance 12
+- **[Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures](http://arxiv.org/abs/2609.13463v1)** — Harsh Raj et al. (2026) · relevance 7
+- **[Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?](http://arxiv.org/abs/2609.13436v1)** — Varun Kaushik et al. (2026) · relevance 7
+- **[Language-Guided Terrain-Adaptive Neural MPC for Autonomous Traversal of Articulated Tracked Robots](http://arxiv.org/abs/2609.13083v3)** — Zhenfeng Gan et al. (2026) · relevance 7
+- **[Autonomous Research for Open-Ended Problems: A Case Study on Telecom Ticket Retrieval](http://arxiv.org/abs/2609.13073v1)** — Junghyun Min et al. (2026) · relevance 12 · _cross-tier: Data Creation and Selection_
+- **[Tasks over Application Manuals: Revealing Gaps in Long-Horizon Procedural Reasoning for Language Models](http://arxiv.org/abs/2609.13005v1)** — Utkarsh Soni et al. (2026) · relevance 6
+- **[Cognition on Graph: Navigating Massive Knowledge Space via Cognitive Cycles and Bidirectional Graph-Text Synergy](http://arxiv.org/abs/2609.12791v1)** — Gengxian Zhou et al. (2026) · relevance 8
+- **[LifeMem: Enabling Lifelong Experience Reuse for LLM Agents](http://arxiv.org/abs/2609.12655v1)** — Yuli Qiu et al. (2026) · relevance 7
+- **[SWARM: A Multilingual Human-Annotated Dataset for Russian Propaganda Detection in Search Engine Results](http://arxiv.org/abs/2609.12653v1)** — Manuel Tonneau et al. (2026) · relevance 9
+- **[Confidence-Gated Transductive Test Generation for Code Reranking](http://arxiv.org/abs/2609.12489v1)** — Sungjae Lee et al. (2026) · relevance 6
+- **[Sampling via Decision-Flow: Training-Free Extraction of Improved Latent Reasoning Paths in Large Language Models](http://arxiv.org/abs/2609.12317v1)** — Zhendong Mi et al. (2026) · relevance 9
+- **[Chopthin-Consensus Power Sampling: A Diversity-Preserving Approach to LLM Decoding](http://arxiv.org/abs/2609.12243v1)** — Minoo Ahmadi et al. (2026) · relevance 6
+- **[Retrieval-Augmented Generation for Scientific Code Understanding](http://arxiv.org/abs/2609.12190v1)** — Aaron Nobile et al. (2026) · relevance 8
+- **[Extracting Dataset Mentions in Forced Displacement and FCV Documents: A Weakly Supervised Framework with LLM-Based Label Refinement](http://arxiv.org/abs/2609.12107v1)** — Rafael Macalaba et al. (2026) · relevance 11 · _cross-tier: Data Substrates_
+- **[RAG-Safety-Bench: Reliable Evaluation of Retrieval-Augmented LLM Safety](http://arxiv.org/abs/2609.11758v1)** — Adithiyan Rajan Indira Saravanan et al. (2026) · relevance 7
+- **[Your Retriever Already Knows: Distribution-Shape QPP for RAG Retrieval Sufficiency](http://arxiv.org/abs/2609.11646v1)** — Matyáš Veselý et al. (2026) · relevance 9
+- **[MAPLE: Memory-Augmented Planning with Language and Evolution](http://arxiv.org/abs/2609.11636v1)** — Kesheng Chen et al. (2026) · relevance 7
+- **[TimelyRAG: Semantic-Temporal Hybrid Retrieval for Time-Critical Question Answering in Overlapping-Evolving Documents](http://arxiv.org/abs/2609.11572v1)** — Youngeun Nam et al. (2026) · relevance 9
+- **[Enabling Knowledge Graph Understanding at Scale with the EXplore Your Graphs ENgine (EXYGEN)](http://arxiv.org/abs/2609.11569v1)** — Harshdeep Singh et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[ActMap: Single-Pass Uncertainty Quantification from Generation-Time Activation Maps](http://arxiv.org/abs/2609.11498v2)** — Jacopo Dardini et al. (2026) · relevance 6
+- **[From Document Silos to Process Intelligence: A Multi-Layer Knowledge Graph for CMC Process Development](http://arxiv.org/abs/2609.11493v1)** — Reza Amirmoshiri et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[Beyond Confidence: Stability-Aware Test-Time Adaptation for LLM Reasoning](http://arxiv.org/abs/2609.11393v1)** — Bincheng Gu et al. (2026) · relevance 12
+- **[Magenta: Closing the Loop Between Mathematical Reasoning and Lean Verification](http://arxiv.org/abs/2609.11319v1)** — Joshua Ong Jun Leang et al. (2026) · relevance 9
+- **[INDRA: A New AI Tool for Exploring Tobacco, Fossil Fuel, and Chemical Industry Archives](http://arxiv.org/abs/2609.11261v1)** — Daniel Akselrad et al. (2026) · relevance 6
+- **[NovGauge: A Fine-Grained Benchmark for Diagnosing LLMs' Capability in Paper Novelty Assessment](http://arxiv.org/abs/2609.11234v1)** — Guoqiang Zhang et al. (2026) · relevance 6
+- **[REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving](http://arxiv.org/abs/2609.11209v1)** — Tuan Nguyen et al. (2026) · relevance 6
+- **[Can LLMs Follow Medical Expert Logic? A Benchmark for Hierarchical Logical Consistency in Risk-of-Bias Assessment](http://arxiv.org/abs/2609.11185v1)** — Jiayu Huang et al. (2026) · relevance 6
+- **[Can LLMs Normalize Databases? A Benchmark and Multi-Agent Framework for Schema Normalization](http://arxiv.org/abs/2609.11141v1)** — Dong-Jae Koh et al. (2026) · relevance 8
+- **[Overview of the NLPCC 2026 Shared Task 11: Agent-Based Experiment Reproduction from Scientific Papers](http://arxiv.org/abs/2609.11117v1)** — Hanhua Hong et al. (2026) · relevance 6
+- **[Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation](http://arxiv.org/abs/2609.11115v2)** — Koutian Wu et al. (2026) · relevance 15
+- **[ProMediConv: Benchmarking Proactive Conversational Agents in Legal Dispute Mediation](http://arxiv.org/abs/2609.11101v1)** — Zesheng Wei et al. (2026) · relevance 6
+- **[MOSAIC: Query-Aware Exploration Policy Adaptation for GraphRAG](http://arxiv.org/abs/2609.11065v1)** — EunKyeong Lee et al. (2026) · relevance 7
+- **[SearchAtlas: Analyzing Agentic Search Strategies via Evidential Query Graphs](http://arxiv.org/abs/2609.10901v1)** — Jiacheng Sang et al. (2026) · relevance 13
+- **[Studying Without a Syllabus: Task-Agnostic Environment Preprocessing](http://arxiv.org/abs/2609.10824v1)** — Vinay Samuel et al. (2026) · relevance 18
+- **[Beyond Static Guarantees: Measuring the Static-Pass Dynamic-Fail Gap in Security-Sensitive and LLM-Generated Python Code](http://arxiv.org/abs/2609.10762v1)** — Jessica Pourleyli et al. (2026) · relevance 9
+- **[Glyph: A Multi-Strategy Agentic System for Column Description and Sensitivity-Ontology Tagging of Enterprise Data Catalogs](http://arxiv.org/abs/2609.10430v1)** — Kostia Kudriavtsev et al. (2026) · relevance 9
+- **[LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation](http://arxiv.org/abs/2609.10239v1)** — Daniel Alejandro Coll Tejeda et al. (2026) · relevance 7
+- **[RAP: Research Attention Prediction Reveals Target-Conditioned Evidence Acquisition Biases](http://arxiv.org/abs/2609.10092v1)** — Yingqian Wu et al. (2026) · relevance 7
+- **[Direct Diversity Optimization for Diverse Successful Trajectories in Preference Post-Training](http://arxiv.org/abs/2609.10052v1)** — Junwon Ko et al. (2026) · relevance 10
+- **[Guaranteeing Faithful Evidence Extraction in Speculative Retrieval-Augmented Generation](http://arxiv.org/abs/2609.10046v2)** — Quentin Signé et al. (2026) · relevance 10
+- **[Leveraging Fine-grained Error Correction in Korean Speech Recognition for Consultation Services](http://arxiv.org/abs/2609.09889v1)** — Yonghyun Jun et al. (2026) · relevance 7
+- **[Proof-Carrying Cognition: Closing the Verification Gap with Reality-Settled Reward](http://arxiv.org/abs/2609.09776v1)** — Eshwar Reddy M et al. (2026) · relevance 10
+- **[CARRE: Counterfactual Action Retrieval and Reason Evaluation for Explainable Churn Prescription](http://arxiv.org/abs/2609.09766v2)** — Minjoo Kim et al. (2026) · relevance 9
+- **[When Auditors Fabricate: Batch-Size Degradation and Confident Hallucination in LLM Detection of Planted Document Contamination](http://arxiv.org/abs/2609.09696v2)** — Karan Parekh et al. (2026) · relevance 6
+- **[PELM: Power Efficient On-Device LLM Inference with Speculative Decoding and Dynamic Voltage Frequency Scaling](http://arxiv.org/abs/2609.09662v1)** — Weisi Yang et al. (2026) · relevance 7
+- **[SWORD: Wikidata-based Distortions Reveal Hidden Cross-Lingual Inconsistencies in LLM Factual Error Rejection](http://arxiv.org/abs/2609.09349v1)** — Sanghyeok Park et al. (2026) · relevance 7
+- **[Transformers as In-Context Samplers: From Closed-Form Diffusion to Estimation-Free Sampling](http://arxiv.org/abs/2609.08981v2)** — Arman Adibi et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[Evaluating and Improving Evidence-Grounded Fact-Checking in LLMs via Multi-Round Evidence Ablation](http://arxiv.org/abs/2609.08943v1)** — Xingyu Deng et al. (2026) · relevance 7
+- **[Q2D-Web: A Large-Scale Benchmark for Retrieval in Agentic RAG Systems](http://arxiv.org/abs/2609.08887v1)** — Maximilian Schall et al. (2026) · relevance 14
+- **[Evidence-Grounded Retrieval for Investigation Hunt Lead Generation from CTI Reports](http://arxiv.org/abs/2609.08790v1)** — Akash Prakash et al. (2026) · relevance 7
+- **[Personalizing LLM Agent Memory Using Biometrics](http://arxiv.org/abs/2609.08558v1)** — Yanhong Qian et al. (2026) · relevance 10 · _cross-tier: Data Creation and Selection_
+- **[Individual Text Corpora Predict User-Specific Knowledge: Benchmarks of Individualized Knowledge Simulation](http://arxiv.org/abs/2609.08532v1)** — Christoph Wigbels et al. (2026) · relevance 7
+- **[SRPO: Setwise Relative Policy Optimization for Multi-Agent LLMs](http://arxiv.org/abs/2609.08452v1)** — Shengtian Yang et al. (2026) · relevance 6
+- **[SentryLine: Evidence-Grounded Question Answering over Evolving Documents in Oncology Care](http://arxiv.org/abs/2609.08364v1)** — Tampu Ravi Kumar et al. (2026) · relevance 7
+- **[Evidence-Aligned Entity Verification for Hallucination Detection in Retrieval-Augmented Generation](http://arxiv.org/abs/2609.08267v1)** — Runsong Jia et al. (2026) · relevance 11
+- **[CIVI: A Framework for Diagnosing Search Agent Failures in Civic Information](http://arxiv.org/abs/2609.08094v1)** — Dingying Liu et al. (2026) · relevance 7
+- **[Automated Design of Inventory Policy with Large Language Models: An Exploratory Study](http://arxiv.org/abs/2609.08071v1)** — Fenghua Yang et al. (2026) · relevance 6
+- **[Distill Globally, Adapt Locally: Reasoning Distillation and Product-Type Test-Time Training for Scalable Trade-Up Recommendation](http://arxiv.org/abs/2609.05363v1)** — Siliang Liu et al. (2026) · relevance 11
+- **[Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness](http://arxiv.org/abs/2609.05314v1)** — Alexander Neubauer et al. (2026) · relevance 7
+- **[How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method](http://arxiv.org/abs/2609.05274v1)** — Konstantin Grotov et al. (2026) · relevance 13
+- **[Embedding Surgery: Localized Updates for Adaptive Ranking Correction in Dense Retrieval](http://arxiv.org/abs/2609.05110v1)** — Maddalena Amendola et al. (2026) · relevance 7
+- **[TROVE: Adaptive Agent Skill Orchestration via Trace-Grounded Route Validation and Editing](http://arxiv.org/abs/2609.05019v1)** — Tianxing Wang et al. (2026) · relevance 6
+- **[From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments](http://arxiv.org/abs/2609.04894v1)** — Linsen Zhu et al. (2026) · relevance 11
+- **[AtomRec: Evolving Atomic Memory for Agentic Recommendation](http://arxiv.org/abs/2609.04882v1)** — Peiyu Hu et al. (2026) · relevance 7
+- **[MABPD: Multi-Agent Bias Probing & Detection via Structured Argument Debate](http://arxiv.org/abs/2609.04841v1)** — Garvit Joshi et al. (2026) · relevance 10
+- **[Persistent Teacher Anchoring for Tool-Using Agents](http://arxiv.org/abs/2609.04773v1)** — Hyun Bin Park et al. (2026) · relevance 13
+- **[Shadow Queries for Private Retrieval in Vector Databases](http://arxiv.org/abs/2609.04767v1)** — Xinguo Feng et al. (2026) · relevance 10
+- **[DCFA: Dual-view Causal-inspired Attribution for Failure Reasoning in LLM-based Multi-agent Systems](http://arxiv.org/abs/2609.04749v1)** — Zehao Wang et al. (2026) · relevance 7
+- **[SiLR: Structure-Preserving Admission and Process Reward for LLM Tool Agents](http://arxiv.org/abs/2609.04629v1)** — Chenyu Zhou et al. (2026) · relevance 9
+- **[PetQA: Benchmarking Veterinary Knowledge and Clinical Reasoning](http://arxiv.org/abs/2609.04598v1)** — Taegyun Kim et al. (2026) · relevance 6
+- **[MaxKernel: Agentic Kernel Generation for TPUs](http://arxiv.org/abs/2609.04523v1)** — Shangkun Wang et al. (2026) · relevance 7
+- **[GRACE: Graph-Grounded Reflective Agent Copilot Engine for Expert-in-the-Loop Knowledge Expansion](http://arxiv.org/abs/2609.04442v1)** — John Seon Keun Yi et al. (2026) · relevance 9
+- **[A Removal Based Approach to Improve LLM Faithfulness at Test-Time](http://arxiv.org/abs/2609.04343v1)** — Qinglan Luo et al. (2026) · relevance 11
+- **[FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models](http://arxiv.org/abs/2609.04021v1)** — Yalun Wu et al. (2026) · relevance 8
+- **[Unlocking Lossless Speedups in LLMs via Discrete Diffusion](http://arxiv.org/abs/2609.04010v1)** — Subham Sekhar Sahoo et al. (2026) · relevance 7
+- **[Investigating the Ability of Large Language Models to Analyze Recipes for Diabetes](http://arxiv.org/abs/2609.03967v1)** — Revathy Venkataramanan et al. (2026) · relevance 6
+- **[STAIR (STructure Aware Information Retriever): A novel dataset and LLM based retriever for document structure augmentation](http://arxiv.org/abs/2609.03874v1)** — Vineet Kumar et al. (2026) · relevance 13
+- **[GRASP: Graph-Retrieval Automated Scoring Pipeline for Label-Free Multi-Topic Essay Grading](http://arxiv.org/abs/2609.03857v1)** — Aafreen Husain et al. (2026) · relevance 6
+- **[SimSkill: A Lifelong Learning AI Agent for Autonomous Mastery of Traffic Simulation](http://arxiv.org/abs/2609.03753v1)** — Qi Liu et al. (2026) · relevance 8
+- **[Synthetic Semantic Supervision for Contrastive Code Representation Learning in Small Transformers: An Empirical Study](http://arxiv.org/abs/2609.03702v1)** — Kenneth Paulsen et al. (2026) · relevance 6 · _cross-tier: Data Substrates_
+- **[KC-Bench: A Dynamic Interactive Benchmark for Evaluating Knowledge Conflicts in LLM Agents](http://arxiv.org/abs/2609.03588v1)** — Yaxing Lyu et al. (2026) · relevance 12
+- **[HalluPeer: A Taxonomy-driven Benchmark for Detecting Hallucinations in Scientific Peer Reviews](http://arxiv.org/abs/2609.03580v1)** — Tzu-Ling Lin et al. (2026) · relevance 6
+- **[From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance](http://arxiv.org/abs/2609.04286v1)** — Ziyi Zhao et al. (2026) · relevance 12 · _cross-tier: Data Creation and Selection_
+- **[From Topical Relevance to Answerability: Entailment Distillation for Conversational Retrieval](http://arxiv.org/abs/2609.03482v1)** — Shuai Qin et al. (2026) · relevance 9
+- **[When Retrieval Helps: Selective Retrieval for Single-Turn Mental-Health QA](http://arxiv.org/abs/2609.03454v1)** — Hyunseo Oh et al. (2026) · relevance 8
+- **[FrameBench:A Language Understanding Benchmark Based on Frame Semantics](http://arxiv.org/abs/2609.03370v1)** — Chihiro Yano et al. (2026) · relevance 9
+- **[HypRQ-VAE: Hyperbolic Item Indexing for Long-Tail-Aware Generative Recommender Systems](http://arxiv.org/abs/2609.03369v1)** — Longfeng Wu et al. (2026) · relevance 6
+- **[TIPCODER: Reinforcement Learning Boosted Test-time Instruction Proposer for Code Generation](http://arxiv.org/abs/2609.03309v1)** — Minyu Chen et al. (2026) · relevance 12
+- **[What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation](http://arxiv.org/abs/2609.03254v1)** — Daisuke Kikuta (2026) · relevance 12
+- **[Large Language Models and Language Server Protocol: a match made in context](http://arxiv.org/abs/2609.03086v1)** — Alessandro Schena et al. (2026) · relevance 7
+- **[Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis](http://arxiv.org/abs/2609.02805v1)** — Hao Zhou et al. (2026) · relevance 9
+- **[CodePoisonRAG: Knowledge Poisoning Attacks on Retrieval-Augmented Code Generation](http://arxiv.org/abs/2609.02774v1)** — Varun Gadey et al. (2026) · relevance 8
+- **[Incremental Pooled LLM Evaluation for Cost-Effective Retrieval Model Selection](http://arxiv.org/abs/2609.02745v1)** — Max Nelson et al. (2026) · relevance 10
+- **[MultiGhostBench: A Multilingual Benchmark for Long-Form LLM-Generated Text Attribution under Distribution Shifts](http://arxiv.org/abs/2609.02379v1)** — Matteo Greco et al. (2026) · relevance 7
+- **[NE-R1: Enhancing Named Entity Recognition Model via Reinforcement Learning](http://arxiv.org/abs/2609.02366v1)** — Meixuan Chen et al. (2026) · relevance 7 · _cross-tier: Data Substrates_
+- **[Adaptive Test-Time Inference for Text2Cypher with Trace Budgeting and Selective Refinement](http://arxiv.org/abs/2609.02324v1)** — Makbule Gulcin Ozsoy (2026) · relevance 8
+- **[Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems](http://arxiv.org/abs/2609.02264v1)** — Jinxi Yu et al. (2026) · relevance 6
+- **[APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering](http://arxiv.org/abs/2609.02253v1)** — Jie Ding et al. (2026) · relevance 12
+- **[OmegaUse-SOP: SOP Engineering for Professional Computer Use from Human Demonstrations](http://arxiv.org/abs/2609.02149v2)** — Yixiong Xiao et al. (2026) · relevance 7
+- **[Compositional Spectral Prompts for LLM-based Online Time Series Forecasting](http://arxiv.org/abs/2609.02093v1)** — Seungyoon Choi et al. (2026) · relevance 9
+- **[Privacy Washing: Detecting Internal Contradictions in Privacy Policies](http://arxiv.org/abs/2609.02055v1)** — Thomas Brackin (2026) · relevance 6
+- **[When Agents Implement Systems: A Case Study in Defects, Detection, and Evaluation Rigor](http://arxiv.org/abs/2609.01985v1)** — Phanindra Reddy Madduru (2026) · relevance 8
+- **[ExecRetrieval: Measuring the Functional-Correctness Gap in Code-Embedding Retrieval](http://arxiv.org/abs/2609.01865v1)** — Aaryan Kapoor et al. (2026) · relevance 11
+- **[Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives](http://arxiv.org/abs/2609.01736v1)** — Haibo Jin et al. (2026) · relevance 9
+- **[TempCloze: Can Video-LLMs Identify the Missing Middle?](http://arxiv.org/abs/2609.01515v1)** — Wenqi Pei et al. (2026) · relevance 6
+- **[LEAP: Likelihood Elicitation and Aggregation for LLM-based Probabilistic Forecasting](http://arxiv.org/abs/2609.01337v1)** — Yufei Chen et al. (2026) · relevance 6
+- **[Bandits in Prod: Hyperparameter Optimization at Inference Time](http://arxiv.org/abs/2609.01335v2)** — Louis Abraham et al. (2026) · relevance 6
+- **[VerTox: Verifiable Reward-Guided Corpus Poisoning Against Neural Ranking Models](http://arxiv.org/abs/2609.01325v1)** — Zhiqi Huang et al. (2026) · relevance 8
+- **[Explore More, Drift Less: Outcome-Only Reinforcement Learning Can Suffice for Long-Horizon Interactive Agents](http://arxiv.org/abs/2609.01245v1)** — Liming Pu et al. (2026) · relevance 12
+- **[EDRAC: Benchmarking Arabic Dialect Reading Comprehension](http://arxiv.org/abs/2609.01113v1)** — Noor Abo Mokh et al. (2026) · relevance 6
+- **[Reliable LLM-Generated Programs for High-Energy Physics Experiments through Graph-Grounded Software Knowledge](http://arxiv.org/abs/2609.01095v1)** — Yue Sun et al. (2026) · relevance 7
+- **[AgentFactory: Towards Automated Agentic System Design and Optimization](http://arxiv.org/abs/2609.01045v1)** — Enci Zhang et al. (2026) · relevance 7
+- **[Spawn Freely, Act Sparingly: Progressive Risk Vesting for Recursive LLM-Agent Trees](http://arxiv.org/abs/2609.01035v1)** — Molly Wang (2026) · relevance 6
+- **[PersianAnonymizer: Evaluating LLM-Labeled Training for Efficient NER-based Anonymization in Persian](http://arxiv.org/abs/2609.00958v1)** — Mohammad Hossein Shalchian et al. (2026) · relevance 8
+- **[One Policy, Any Budget: Internalizing Budget-Aware Search via Reinforcement Learning](http://arxiv.org/abs/2609.00813v1)** — Xiaowei Sun et al. (2026) · relevance 6
+- **[Agentic programs: an emerging form of scientific software in computational materials science](http://arxiv.org/abs/2609.00795v1)** — Yunsung Lim et al. (2026) · relevance 7
+- **[Automated Tree Knowledge Graph Construction using Ontology Expansion and Retrieval from Vietnamese History Textbooks](http://arxiv.org/abs/2609.00763v1)** — Ket Doan Nguyen et al. (2026) · relevance 7 · _cross-tier: Data Creation and Selection_
+- **[SOVER: Formal Certification of Optimization Reformulations via LLM-Assisted SMT Verification](http://arxiv.org/abs/2609.00728v1)** — Swapnil Bhattacharyya et al. (2026) · relevance 7
+- **[SCoNE: Selective Context-aware Neuron Editing for Robust Retrieval-Augmented Generation](http://arxiv.org/abs/2609.00689v1)** — Chaewon Kim et al. (2026) · relevance 7
+- **[Self-Reports Are Not Verification: Environment-Grounded Auditing of LLM Operators in Evolutionary Search](http://arxiv.org/abs/2609.00652v1)** — Enrong Pan et al. (2026) · relevance 10
+- **[It Takes Two to Match: Co-Evolving Generative Retriever with Reinforcement Learning](http://arxiv.org/abs/2609.00638v1)** — Runpeng Dai et al. (2026) · relevance 13 · _cross-tier: Data Creation and Selection_
+- **[Towards Effective Structured Context Modeling for Conversational Recommender Systems via Dual-node Monte Carlo Tree Search](http://arxiv.org/abs/2609.00618v2)** — Jincheng Zhang et al. (2026) · relevance 8
+- **[NeuroGraph: An AI Graph-Driven Neuro-Symbolic Framework for Explainable Threat Reasoning in Advanced Manufacturing](http://arxiv.org/abs/2609.00604v1)** — Padmeswari Nandiya et al. (2026) · relevance 8
+- **[Enoki: Efficient Multi-Level Hallucination Detection](http://arxiv.org/abs/2609.00581v2)** — Elisei Rykov et al. (2026) · relevance 7
+- **[Skill Following: Evaluating Actual Skill Use in Retrieval-Enabled LLM Agents](http://arxiv.org/abs/2609.00549v1)** — Seonghyeon Cho et al. (2026) · relevance 9
+- **[ISO-RAG: Isoperimetric Noise Control for Retrieval-Augmented Generation](http://arxiv.org/abs/2609.00513v1)** — Siyuan Zhang et al. (2026) · relevance 7
+- **[MemeBridge: A Dataset for Benchmarking and Mitigating the Bidirectional Cultural Gap in Meme Interpretation](http://arxiv.org/abs/2609.00491v1)** — Hangxiao Zhu et al. (2026) · relevance 12
+- **[EGT-KG: Evidence-Grounded Typed KG Retrieval for Practical Scientific QA with Small Language Models](http://arxiv.org/abs/2609.00479v1)** — Muran Yu et al. (2026) · relevance 7
+- **[TRIS: A Tri-Layer Retrieval Integrity Sieve Against Knowledge Poisoning](http://arxiv.org/abs/2609.00470v1)** — Muhaimin Bin Munir et al. (2026) · relevance 7
+- **[Workload Identification with Physical Side Channels for AI Governance](http://arxiv.org/abs/2609.00309v1)** — Simone Gargiulo et al. (2026) · relevance 11
+- **[When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning](http://arxiv.org/abs/2608.31118v1)** — Hamed Babaei Giglou et al. (2026) · relevance 7
+- **[InsightToast: Proactive Information Retrieval & Glanceable Visualization in the Side Channel of Data-Rich Meetings](http://arxiv.org/abs/2608.31115v2)** — Mohammad Abolnejadian et al. (2026) · relevance 7
+- **[Aspire: Can Models Self-Evolve from Vague Goals?](http://arxiv.org/abs/2608.31111v1)** — Yuhao Wu et al. (2026) · relevance 6
+- **[PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation](http://arxiv.org/abs/2609.01658v1)** — MinKeon Kim et al. (2026) · relevance 10
+- **[HSRM: Hidden-State Reward Models for Test-Time Verification](http://arxiv.org/abs/2608.30841v1)** — Xianzhi Li et al. (2026) · relevance 19
+- **[Schwarz: Solver-Aware Agentic Program Verification](http://arxiv.org/abs/2608.30803v1)** — Jingyu Ke et al. (2026) · relevance 11
+- **[An Agentic Retrobiosynthesis Framework with Learned Frontier Selection](http://arxiv.org/abs/2608.30702v1)** — Philippe Meyer et al. (2026) · relevance 7
+- **[LCoT-GV: Graph Attention Networks for Verifying Long Reasoning Chains in Large Language Models](http://arxiv.org/abs/2608.30679v1)** — Bérénice Jaulmes et al. (2026) · relevance 8
+- **[LLM-based Hardware Development with Hierarchical IRs and End-to-End Multi-Agent Workflow](http://arxiv.org/abs/2608.30659v1)** — Chenyang Yin et al. (2026) · relevance 6
+- **[Retrieval, Scoring, and Decoding Shape Performance and Stability in LLM-based Conversational Recommendation](http://arxiv.org/abs/2609.00086v1)** — Ante Kapetanovic et al. (2026) · relevance 7
+- **[Two Centuries of Sexism in British Parliament: A Computational Analysis of Women's Representation in the Hansard Corpus](http://arxiv.org/abs/2608.30485v1)** — Mohammad Omar Khursheed et al. (2026) · relevance 8
+- **[DERELAB: Probing Defeasible Reasoning and Confirmation Bias in LLMs with a Generative Benchmark](http://arxiv.org/abs/2608.30413v1)** — Jayanta Sadhu et al. (2026) · relevance 6
+- **[When LLM Meets Tree Search: A Systematic View of Inference as Search in Large Language Models](http://arxiv.org/abs/2608.30395v1)** — Jiaqi Wei et al. (2026) · relevance 7
+- **[PEARL: Front-Loading Relational Chains for Multi-Hop Table Retrieval](http://arxiv.org/abs/2608.30291v1)** — Subeen Ho et al. (2026) · relevance 9
+- **[SimCRAFT: Distilling Remote Sensing Agents via Synthetic Trajectories and Contextual Retrieval-Augmented Fine-Tuning](http://arxiv.org/abs/2608.30277v2)** — Haoran Wang et al. (2026) · relevance 15
+- **[CAMIE: Co-Engagement-Aware Multimodal Item Embeddings for Snap Dynamic Product Ads Retrieval](http://arxiv.org/abs/2608.30255v1)** — Xiaodong Liu et al. (2026) · relevance 6
+- **[Understanding before verifying: Claim normalization for automated citation verification](http://arxiv.org/abs/2608.30145v1)** — Yifan He et al. (2026) · relevance 7
+- **[Verification-Aware Training for Speculative Decoding](http://arxiv.org/abs/2608.30135v1)** — Geonmo Gu et al. (2026) · relevance 7
+- **[Error Detection for PET/CT Radiology Reports: Domain-Specific vs Large Language Models](http://arxiv.org/abs/2608.30021v1)** — Hermione Warr et al. (2026) · relevance 8
+- **[AutoCRAT: Within-trajectory Joint Control of Stochasticity and Compute for LLM Reasoning](http://arxiv.org/abs/2608.29988v1)** — Hanjun Luo et al. (2026) · relevance 8
+- **[Influence Is Not Authority: When Causal Guardrail Signals Make Legitimate Tool Use Look Like an Attack in Tool-Using LLM Agents](http://arxiv.org/abs/2608.29942v1)** — Tanzim Ahad et al. (2026) · relevance 10 · _cross-tier: Data Creation and Selection_
+- **[En-ViMedNER: An English-Vietnamese Parallel Biomedical Corpus with UMLS Semantic Type Annotations](http://arxiv.org/abs/2608.29890v1)** — Nhu Vo et al. (2026) · relevance 12 · _cross-tier: Data Creation and Selection_
+- **[Medical Causal Hypothesis Verification with Large Language Models](http://arxiv.org/abs/2609.00063v1)** — Safiyyah Ahmed et al. (2026) · relevance 7
+- **[CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language](http://arxiv.org/abs/2609.00058v1)** — Qi Fan et al. (2026) · relevance 8
+- **[Conducting Stylistic Analysis of Paintings through an Art-History Agent](http://arxiv.org/abs/2608.29644v1)** — Marc S. Walton et al. (2026) · relevance 7
+- **[AgenticRag-R1: Agentic Reinforcement Learning with Stack Memory for Multi-Step Reasoning, Retrieval and Memorizing](http://arxiv.org/abs/2608.29622v1)** — Xinke Jiang et al. (2026) · relevance 14
+- **[Agent Zero Memory: Provenance-Aware Long-Term Memory for LLM Agents](http://arxiv.org/abs/2608.29606v1)** — Ming Wu et al. (2026) · relevance 7
+- **[Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security](http://arxiv.org/abs/2608.29596v1)** — Sanket Badhe et al. (2026) · relevance 13
+- **[Drive the Thoughts: Runtime Monitoring of VLA Reasoning-Trajectory Consistency](http://arxiv.org/abs/2608.29583v1)** — Tian Yu et al. (2026) · relevance 18
+- **[OASIS: Optimizing Attacker Sequences for Hard-Label Black-Box Text Attacks](http://arxiv.org/abs/2608.29568v2)** — Qian Chen et al. (2026) · relevance 8
+- **[TACS: Trajectory-Aware Candidate Selection for LLM Jailbreak Suffix Optimization](http://arxiv.org/abs/2608.29564v2)** — Shiliang Xiao (2026) · relevance 7 · _cross-tier: Data Substrates_
+- **[AlgoWorlds: Benchmarking Tool Use for Global Optimization in Algorithmic Worlds](http://arxiv.org/abs/2608.29397v1)** — Zixiang Xu et al. (2026) · relevance 17
+- **[BIRD-History: A Benchmark for History-Driven Text-to-SQL with Fine-Grained Knowledge Annotations](http://arxiv.org/abs/2608.29345v1)** — Yunfan Zhou et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[Learning Simple Test-Time Environments for LLM Web Agents](http://arxiv.org/abs/2608.29305v1)** — Junxuan Li et al. (2026) · relevance 16
+- **[Database-Augmented RAG for Automated Repair of REST API Misuses](http://arxiv.org/abs/2608.29290v1)** — Shoei Inoue et al. (2026) · relevance 8
+- **[Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning](http://arxiv.org/abs/2608.29284v1)** — Tatul Danielyan et al. (2026) · relevance 6
+- **[Large Language Models Systematically Favor Popular Options: Evidence and Mitigation Across MCQs](http://arxiv.org/abs/2608.29257v1)** — Abdelrahman Abdallah et al. (2026) · relevance 7
+- **[Validating FKG.in: Soundness Assessment in LLM-Augmented Indian Food Knowledge](http://arxiv.org/abs/2608.29249v2)** — Saransh Kumar Gupta et al. (2026) · relevance 6
+- **[Efficient GPU Retrieval for Semantic Search](http://arxiv.org/abs/2608.28968v1)** — Dhritiman Das et al. (2026) · relevance 8
+- **[CoVA-SFT: A Large-Scale Dataset for Chain of Visual Abstractions](http://arxiv.org/abs/2608.28958v1)** — Tsung-Han Wu et al. (2026) · relevance 15
+- **[ASTRA - Agentic System for Ticket Resolution and Analysis](http://arxiv.org/abs/2608.28790v1)** — Shashidhar Reddy Javaji et al. (2026) · relevance 7
+- **[Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation](http://arxiv.org/abs/2608.28496v2)** — Di Wu et al. (2026) · relevance 7
+- **[Beyond the Answer Key: Robustness Evaluation of Large Language Models for Step-Level Mathematical Verification](http://arxiv.org/abs/2608.28725v1)** — Fateme Mazdarani et al. (2026) · relevance 10
+- **[NL2AGBench: Benchmarking LLM Auto-Formalization for AlphaGeometry](http://arxiv.org/abs/2608.28481v1)** — Samuel Xiao et al. (2026) · relevance 6
+- **[ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL](http://arxiv.org/abs/2608.28476v1)** — Zhuoshi Pan et al. (2026) · relevance 11
+- **[Learning to Use Tools: Reinforcement Learning for Tool-Integrated Mathematical Reasoning](http://arxiv.org/abs/2608.28447v1)** — Minghui Xu et al. (2026) · relevance 14
+- **[Program Learning with Verifiable Rewards: Symbolic Backpropagation for Post-Training LLMs](http://arxiv.org/abs/2608.28421v1)** — Vishvesh Bhat (2026) · relevance 6
+- **[When Verified Source Becomes Attack Input: Defending Smart Contracts Against LLM-Based Vulnerability Scanning](http://arxiv.org/abs/2608.28400v1)** — Mingyuan Huang et al. (2026) · relevance 6
+- **[CamoDocs: A Poisoning Attack Against Retrieval-Augmented Language Models Using Camouflaged Documents](http://arxiv.org/abs/2608.28389v1)** — Jaewon Jung et al. (2026) · relevance 8
+- **[LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering](http://arxiv.org/abs/2608.28281v1)** — Yi Wang et al. (2026) · relevance 6
+- **[Regime-Aware Portfolio Management via Retrieval-Augmented LLM-Guided Expert Switching](http://arxiv.org/abs/2608.28252v1)** — Ahmad Asadi et al. (2026) · relevance 7
+- **[SocialBuddy: Tailoring Search Agent for Social Scenarios](http://arxiv.org/abs/2609.01641v2)** — Mingxuan Li et al. (2026) · relevance 18
+- **[Coverage, Not Credit: Failure-Credit Routing of Zeroth-Order Perturbation Budgets Does Not Improve On-Pool Sample Efficiency for LLM Agents](http://arxiv.org/abs/2608.28011v1)** — Yuxu Ge (2026) · relevance 6
+- **[Automated Analysis Framework for Multilingual Climate-Health Literature Based on Multi-Agent Large Language Model](http://arxiv.org/abs/2608.27998v1)** — Yuze Sun et al. (2026) · relevance 6
+- **[When Evidence Shapes Collaboration: Knowledge-Conditioned Topology Generation for Multi-Agent Systems](http://arxiv.org/abs/2608.27984v2)** — Yangxiao Jiang et al. (2026) · relevance 10
+- **[ITER: Interaction-Aware Retrieval for Agentic Search](http://arxiv.org/abs/2608.27912v1)** — Haodong Chen et al. (2026) · relevance 12
+- **[Decoupling is a Necessity: Transformation-Agnostic Decompiled Code Recovery under Optimization and Obfuscation](http://arxiv.org/abs/2608.27889v1)** — Zhiping Zhou et al. (2026) · relevance 8
+- **[CEDAR: Automata as Verifiable Interfaces for Language-Guided Embodied Action](http://arxiv.org/abs/2608.27797v1)** — Lekai Chen et al. (2026) · relevance 6
+- **[Credo: Reusable Declarative Primitives for Agentic Workflows](http://arxiv.org/abs/2608.27790v1)** — Duo Lu et al. (2026) · relevance 6
+- **[Beyond the Vacuum: Combinatorial Strategy Selection for Competitor-Aware Generative Engine Optimization](http://arxiv.org/abs/2608.27631v1)** — Vaibhav Sourirajan et al. (2026) · relevance 9
+- **[LitCurate: A Configuration-Driven AI-Assisted Framework for Scientific Database Construction with an Application to Lower-Mantle Equation-of-State Data](http://arxiv.org/abs/2608.27629v1)** — Abin Shakya et al. (2026) · relevance 6
+- **[LongGuard: Mechanistic Analysis and Training-Free Mitigation of Long-Context Failure in Safety Guardrails](http://arxiv.org/abs/2608.27580v2)** — Ziyang Chen et al. (2026) · relevance 11 · _cross-tier: Data Creation and Selection_
+- **[CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes](http://arxiv.org/abs/2608.27455v1)** — Yufan Wu et al. (2026) · relevance 6
+- **[TTPO: Test-Time Policy Optimization](http://arxiv.org/abs/2608.27448v1)** — Aozhe Wang et al. (2026) · relevance 9
+- **[RATIO: A Benchmark for Retrieval Across Typed Ideation Operations in Scientific Literature](http://arxiv.org/abs/2608.27394v3)** — Maayan Sharon et al. (2026) · relevance 10
+- **[Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification](http://arxiv.org/abs/2608.27311v1)** — Jinghan Xu et al. (2026) · relevance 9
+- **[What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents](http://arxiv.org/abs/2608.27260v1)** — Xingshan Zeng et al. (2026) · relevance 21 · _cross-tier: Data Creation and Selection_
+- **[LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration](http://arxiv.org/abs/2608.27184v1)** — Matthew Youngman et al. (2026) · relevance 6
+- **[AgentDV: Closed-Loop Agentic AI for Hardware Design Verification](http://arxiv.org/abs/2608.27148v1)** — Navya Goli et al. (2026) · relevance 13
+- **[Research Design Tracking and Assessment for the Social Sciences](http://arxiv.org/abs/2608.27049v1)** — Marco Rovera et al. (2026) · relevance 7
+- **[ProRetrieval: Learning to Orchestrate Hybrid Search via Executable Program Synthesis](http://arxiv.org/abs/2608.27017v2)** — Chengsong You et al. (2026) · relevance 10
+- **[AraMS-28k: The Largest Publicly Released Line-Level Dataset of Historical Arabic Manuscripts with Margin and Insertion-Anchor Annotations](http://arxiv.org/abs/2608.26921v1)** — Mohamed Guechaoui et al. (2026) · relevance 12 · _cross-tier: Data Creation and Selection_
+- **[SymbolLKG: Towards Verifiable Logical Reasoning via Logical Knowledge Graph and Symbolic Solvers](http://arxiv.org/abs/2608.26836v1)** — Haizhao Fan et al. (2026) · relevance 7
+- **[Behavior2Trip: Towards Personalized Travel Planning via User Behavior Trajectory](http://arxiv.org/abs/2608.26807v1)** — Zihao Cheng et al. (2026) · relevance 15 · _cross-tier: Data Creation and Selection_
+- **[Weaving Visual Narratives: Agentic Image Bundle Composition Beyond Atomic Visual Matching](http://arxiv.org/abs/2608.28695v1)** — Rong Shan et al. (2026) · relevance 14
+- **[Beyond Execution: Auditing Experimental Fidelity in LLM-Driven Scientific Research](http://arxiv.org/abs/2608.26753v1)** — Lezhi Yu et al. (2026) · relevance 7
+- **[Rethinking Message Passing as Retrieval for Text-Attributed Graph Learning](http://arxiv.org/abs/2608.26732v1)** — Jintang Li et al. (2026) · relevance 7
+- **[Not Just Reason, Not Just Scan: Reinforcement Learning for Proactive Scientific Error Verification over Academic Paper](http://arxiv.org/abs/2608.26596v1)** — Rongjin Li et al. (2026) · relevance 9
+- **[DuMateBench: Evaluating Autonomous Agents in Complex Real-World Workflows](http://arxiv.org/abs/2608.26546v1)** — Zechun Niu et al. (2026) · relevance 8
+- **[Don't Overthink, Don't Underthink: Toward Adaptive Reasoning in Agentic AI](http://arxiv.org/abs/2608.26442v1)** — Md Jueal Mia et al. (2026) · relevance 12
+- **[Neuro-symbolic PRM: Enhancing Scientific Reasoning via Structured Traces and Symbolic Verification](http://arxiv.org/abs/2608.26329v1)** — Yuxin Zi et al. (2026) · relevance 11
+- **[FaithSieve: Fine-Grained Evaluation of Math Proofs with Faithful Formal Evidence](http://arxiv.org/abs/2608.26310v1)** — Ziyu Wang et al. (2026) · relevance 8
+- **[AsymSpec: Context-Asymmetric Speculative Decoding for Agentic LLMs](http://arxiv.org/abs/2608.26004v1)** — Sheng Liang et al. (2026) · relevance 14
+- **[Multi-Granularity Context-Enhanced RAG over Multimodal Knowledge Graphs](http://arxiv.org/abs/2608.25986v1)** — Zongyu Wu et al. (2026) · relevance 7
+- **[How Robust Are Automated Fact-Checking Systems? A Cross-Benchmark Evaluation](http://arxiv.org/abs/2608.25934v1)** — Aida Usmanova et al. (2026) · relevance 9
+- **[Repair or Resample? Rethinking Failure Debugging in LLM Multi-Agent Systems](http://arxiv.org/abs/2608.25920v2)** — Zhongwen Luan et al. (2026) · relevance 13
+- **[From Passive Response to Proactive Correction: Enhancing LLM Robustness Against Input Fact Perturbations](http://arxiv.org/abs/2608.25894v1)** — Ping Wang et al. (2026) · relevance 8
+- **[Key Point Analysis Needs Structure Recovery: Task Definition, Dataset Diagnosis, and a Structure-Aware Benchmark](http://arxiv.org/abs/2608.25854v1)** — Zhiqiang Shi et al. (2026) · relevance 9
+- **[AI Slop and Hallucinations in Vulnerability Assessment: A Survey on Reasoning Failures and Trustworthy Mitigation](http://arxiv.org/abs/2608.25667v1)** — Junchen Ding et al. (2026) · relevance 7
+- **[Data Citation for Large Language Models: A Challenge](http://arxiv.org/abs/2608.25663v1)** — Gianmaria Silvello (2026) · relevance 10
+- **[From General Agents to RCA Experts: A Self-Evolving Harness for Root Cause Analysis](http://arxiv.org/abs/2608.25661v1)** — Haiyu Huang et al. (2026) · relevance 9
+- **[Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models](http://arxiv.org/abs/2608.25518v1)** — Pengfei Zhou et al. (2026) · relevance 18
+- **[CaSKG: Counterfactual-Causal Skill Graphs for Scalable Agent Skill Retrieval](http://arxiv.org/abs/2608.25500v1)** — Zhiyuan Li et al. (2026) · relevance 11
+- **[ReliableRAG: Combating Misinformation in Retrieval-Augmented Generation via Reliability-Guided Reasoning Chains](http://arxiv.org/abs/2608.25487v1)** — Jinpu Jiang et al. (2026) · relevance 9
+- **[DCGC: Draft-Conditioned Global Correction for Complex Reasoning with Masked Diffusion Models](http://arxiv.org/abs/2608.25428v1)** — Minhae Oh et al. (2026) · relevance 6
+- **[CRAMER: Control via Request-Aware Masking for Editing Recommenders](http://arxiv.org/abs/2608.25370v1)** — Zhiyuan Julian Su et al. (2026) · relevance 6
+- **[InsightSR: Refining Symbolic Regression Search Spaces via Parallel Semantic and Structural LLM Guidance](http://arxiv.org/abs/2608.25291v1)** — Yating Ling et al. (2026) · relevance 6
+- **[BixBench3: Benchmarking AI agents on research-study-scale computational biology tasks](http://arxiv.org/abs/2608.25286v1)** — Zane Koch et al. (2026) · relevance 6
+- **[FLARE: Verifying MILP Reformulations with LLM-Based Theorem Proving](http://arxiv.org/abs/2608.25220v1)** — Henry Robbins et al. (2026) · relevance 7
+- **[LLM-Driven, Datasheet-Aware Automated Hardware Compatibility Verification for Early-Stage, Pre-Schematic Embedded System Design](http://arxiv.org/abs/2608.25217v1)** — Haotian Qiao et al. (2026) · relevance 7
+- **[SelfGraphRAG: Bridging the Supervision Gap in Graph-Based RAG with Synthetic QA Generation](http://arxiv.org/abs/2608.25123v1)** — Ben Lagnese et al. (2026) · relevance 6
+- **[Less can be More: Relieving RAG Bottlenecks via Evidence Frontloading and Pressure-Adaptive Budgeting](http://arxiv.org/abs/2608.25115v1)** — Weibin Cai et al. (2026) · relevance 7
+- **[Retrieved But Not Reliable: A Survey on Attacks, and Defenses in Retrieval-Augmented Generation](http://arxiv.org/abs/2608.24977v2)** — Minh Tran et al. (2026) · relevance 9
+- **[Evidence Blindness in Direct Corpus Interaction: Persistent Navigation with AtlasNav](http://arxiv.org/abs/2608.24764v1)** — Hongyu Guo et al. (2026) · relevance 13
+- **[The RAT: A Unified Bayesian Model for RAG Evaluation](http://arxiv.org/abs/2608.24753v1)** — Pius von Däniken et al. (2026) · relevance 7
+- **[From Natural Language Requirements to Graphical User Interfaces: Automated Prototyping and Verification with Pretrained Language Models](http://arxiv.org/abs/2608.24749v1)** — Kristian Kolthoff (2026) · relevance 12
+- **[SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents](http://arxiv.org/abs/2608.24747v1)** — Shidong Yang et al. (2026) · relevance 9
+- **[Parason: Revealing Subtask and Trial Parallelism in LLM Reasoning](http://arxiv.org/abs/2608.24658v1)** — Zhengyang Zhang et al. (2026) · relevance 9
+- **[A Literate Programming Environment for Human and Machine Agents](http://arxiv.org/abs/2608.24644v1)** — Adam T. Burke (2026) · relevance 6
+- **[Joint Optimization of Tool Creation and Use for Large Language Model Agents](http://arxiv.org/abs/2608.24571v1)** — Zhi Rui Tam et al. (2026) · relevance 6
+- **[When Do Supervised UQ Ensembles Improve LLM Hallucination Detection? A Robustness Study](http://arxiv.org/abs/2608.24492v1)** — Mohit Singh Chauhan et al. (2026) · relevance 7
+- **[Selective Regenerative Decoding: Trajectory-Level Intervention for Inference-Time Reasoning](http://arxiv.org/abs/2608.24338v1)** — Sophia Xiao Pu et al. (2026) · relevance 13
+- **[AHEAD: Adaptive Hindsight with Environment-Augmented Distillation for Agentic RL](http://arxiv.org/abs/2608.24114v1)** — Xiaolong Jin et al. (2026) · relevance 13
+- **[EMRB: A Multi-Level Benchmark for Evaluating LLM Reasoning over Raw Electromagnetic Signals](http://arxiv.org/abs/2608.24086v1)** — Mingxu Zhang et al. (2026) · relevance 7
+- **[When Less Is More: An Empirical Study of Minimal Responses in Counseling Dialogues and the Behavior of LLMs](http://arxiv.org/abs/2608.24080v2)** — Zhiyang Qi (2026) · relevance 12 · _cross-tier: Data Creation and Selection_
+- **[Don't Just Listen, Try Planning: Graph-based Retrieval-Generation Agent for Long-form Audio Meeting Understanding](http://arxiv.org/abs/2608.24048v1)** — Quanwei Tang et al. (2026) · relevance 9
+- **[Beyond Confidence: Test-Time Scaling for Multi-Turn Search Agents via Retrieval Grounding](http://arxiv.org/abs/2608.24024v2)** — Hyunho Kook et al. (2026) · relevance 13
+- **[RAGSentinel: Certifiable Geometric Consensus for Robust Retrieval-Augmented Generation](http://arxiv.org/abs/2608.23965v1)** — Yueyang Quan et al. (2026) · relevance 9
+- **[More Rejective, Not More Discriminative: The Unit of Verification in Pre-Execution LLM Oversight](http://arxiv.org/abs/2608.23941v1)** — Yuchen Han et al. (2026) · relevance 9
+- **[MARS: Multi-Specialist LLM Relay System for Competitive Programming](http://arxiv.org/abs/2608.23918v1)** — Andrei Mikhailov et al. (2026) · relevance 6
+- **[Generating Biomedical Fact-Checking Reports with RL-Enhanced Agentic Search](http://arxiv.org/abs/2608.23811v1)** — Jiongxiao Wang et al. (2026) · relevance 7
+- **[ADE: Agentic Data Evolution Framework for Human-Centered Objectives](http://arxiv.org/abs/2608.23719v1)** — Yang Yu et al. (2026) · relevance 16 · _cross-tier: Data Creation and Selection_
+- **[Prime Agent: A Self-Improving RLM Harness](http://arxiv.org/abs/2608.23552v1)** — Seth Karten et al. (2026) · relevance 9
+- **[An Interactive Agent for Requirement-Driven Candidate Sourcing](http://arxiv.org/abs/2608.23501v1)** — Yuanpeng He et al. (2026) · relevance 7
+- **[Beyond the Stability-Exploration Dilemma: Environmental Regularization for LLM Policy Optimization](http://arxiv.org/abs/2608.23311v2)** — Xianlei Zhou et al. (2026) · relevance 9
+- **[LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks](http://arxiv.org/abs/2608.23200v2)** — Xiao Zhang et al. (2026) · relevance 10
+- **[A Reranker for Orchestrating Heterogeneous Speech and Text Retrievers](http://arxiv.org/abs/2608.26194v1)** — Inho Kim et al. (2026) · relevance 7
+- **[Training-Free Pseudo-Fusion for Composed Image Retrieval with Diffusion Models and Multimodal Large Language Models](http://arxiv.org/abs/2608.23102v1)** — Fan Xu et al. (2026) · relevance 7
+- **[LLM-based Agents for Forecasting and Prediction: Methods, Training, Evaluation, and Applications](http://arxiv.org/abs/2608.23058v1)** — Xiaogang Xu et al. (2026) · relevance 8
+- **[MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks](http://arxiv.org/abs/2608.23035v2)** — Yi Zhu et al. (2026) · relevance 12
+- **[ST$^2$U: Stateful Test-Time Unlearning via Restricted Knowledge Boundary Control](http://arxiv.org/abs/2608.23034v1)** — Xunlei Chen et al. (2026) · relevance 12
+- **[What Proves You Wrong: Benchmarking Language Models on Falsifiable Research Ideation](http://arxiv.org/abs/2608.22948v1)** — Ziyue Wang et al. (2026) · relevance 6
+- **[TSWAP: A Multilingual Retrieval-Augmented Thai Wellness Advisor](http://arxiv.org/abs/2608.22917v1)** — Pornthep Ukosaramig et al. (2026) · relevance 7
+- **[AraDetox: A Multi-Dialect Arabic Detoxification Dataset](http://arxiv.org/abs/2608.22894v1)** — Mo El-Haj (2026) · relevance 10
+- **[DelistBench: Evaluating Search-Enabled LLMs for Auditable Corporate-Event Database Completion](http://arxiv.org/abs/2608.22770v1)** — Xuan Yao et al. (2026) · relevance 7
+- **[Beyond Factual Knowledge: Benchmarking and Learning Step-Level Procedural Rule Reasoning in Large Language Models](http://arxiv.org/abs/2608.22753v1)** — Bohan Yu et al. (2026) · relevance 9
+- **[FashionKG-RAG: Knowledge Graph-Enhanced Retrieval-Augmented Generation for Fashion Question Answering](http://arxiv.org/abs/2608.22688v1)** — Yujuan Ding et al. (2026) · relevance 11
+- **[Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs](http://arxiv.org/abs/2608.22657v1)** — Xinyuan Liu et al. (2026) · relevance 7
+- **[GeoRisk-RAG: A Hierarchy-Aware Risk Framework for Improving RAG Reliability through Selective Answering](http://arxiv.org/abs/2608.22634v1)** — Meenu Ravi et al. (2026) · relevance 7
+- **[Auditing the Synthetic Memoir: Measuring Scene-Level Confabulation in LLM-Generated Autobiography Against the Documented Record of the Life It Describes](http://arxiv.org/abs/2608.23640v1)** — Heather Renze (2026) · relevance 6
+- **[GTA-RAG: Graph-Trajectory-Augmented Reinforcement Learning for Multi-Turn Retrieval-Augmented Reasoning](http://arxiv.org/abs/2608.22479v1)** — Jun Chen et al. (2026) · relevance 18
+- **[FPGAgent: An LLM-Assisted Framework for Autonomous HLS Code Generation and Verification in FPGA Environments](http://arxiv.org/abs/2608.23630v1)** — Tianyu Wang et al. (2026) · relevance 11
+- **[HERO: Human-profile Enhanced Retrieval Optimization Framework for Long-term Agent Memory](http://arxiv.org/abs/2608.22310v1)** — Yuanhua Lin et al. (2026) · relevance 10
+- **[Disagree to Explore, Agree to Commit: Routing-Guided Test-Time Scaling for Software Agents](http://arxiv.org/abs/2608.22191v1)** — Kang Chen et al. (2026) · relevance 14 · _cross-tier: Data Substrates_
+- **[GrOIL: Graph-Grounded Domain Ontology Induction with Constrained LLM Mediation](http://arxiv.org/abs/2608.22135v1)** — Maruf Ahmed Mridul et al. (2026) · relevance 6
+- **[Dissecting Neuro-Symbolic Quality Assurance for Synthetic Oncology Data Generation](http://arxiv.org/abs/2608.22085v1)** — Laxmigayathri Challa et al. (2026) · relevance 15 · _cross-tier: Data Creation and Selection_
+- **[W-RAG: Source-Aware Retrieval for Enterprise Document Generation from Heterogeneous Knowledge Bases](http://arxiv.org/abs/2608.22081v1)** — Hridya Dhulipala et al. (2026) · relevance 9
+- **[More Accurate or More Efficient? Evaluating Locally Deployed Compact Open-Weight Language Models for Mathematical Reasoning](http://arxiv.org/abs/2608.22048v1)** — Orion Powers et al. (2026) · relevance 7
+- **[EDGE: Experience-Distillation for Guided Exploration in Agentic Reinforcement Learning](http://arxiv.org/abs/2608.21946v2)** — Can Xie et al. (2026) · relevance 10
+- **[MemGuard: Persisting Verifier Signals for LLM-Agent Memory Governance](http://arxiv.org/abs/2608.21867v1)** — Haoyu Wang et al. (2026) · relevance 11
+- **[LLM4LLM: Bridging Kernel Benchmarks and Real Deployment via Closed-Loop Agentic Optimization](http://arxiv.org/abs/2608.21836v1)** — Hui Zeng et al. (2026) · relevance 8
+- **[HIRA: A Human-in-the-Loop Retrieval-Augmented Cascade for Document Classification in Regulated Industries](http://arxiv.org/abs/2608.21792v1)** — Shangxuan Tian et al. (2026) · relevance 10
+- **[FCPRAG: Fusion-Controller Parametric Retrieval-Augmented Generation for Stable Multi-Passage LoRA Injection](http://arxiv.org/abs/2608.21750v1)** — Jinchang Zhu et al. (2026) · relevance 9
+- **[From Association to Causation: Improving Retrieval Precision of Retrieval-Augmented Generation via Causal Relations and an Attention Mechanism](http://arxiv.org/abs/2608.21702v1)** — Jing Liu et al. (2026) · relevance 9
+- **[Context as an Environment: Programmatic Context Management for Long-Horizon Agents](http://arxiv.org/abs/2608.21690v1)** — Yin Lin et al. (2026) · relevance 6
+- **[ExploreAI: Agentic Exploration Knowledge Bases for Reproducible Observable-Regression Testing of Black-Box VR and 3D Applications](http://arxiv.org/abs/2608.21628v1)** — Jiajie Wang et al. (2026) · relevance 7
+- **[Semantic Compression Trees: Multi-Resolution Knowledge Retrieval via Hierarchical Semantic Residuals](http://arxiv.org/abs/2608.21610v1)** — Junaid Farooq (2026) · relevance 7
+- **[Automating Multi-Hop RAG Evaluation via TRIAD: From Context Extraction to Validated Dataset Generation](http://arxiv.org/abs/2608.21558v1)** — Lorenz Brehme et al. (2026) · relevance 7
+- **[Forgotten in Weights, Recovered by Tools: Agentic Tool Unlearning for LLM Agents](http://arxiv.org/abs/2608.21544v1)** — Baicheng Chen et al. (2026) · relevance 17
+- **[presto: Efficient, Training-free, and Open-world Object Placement via Imaginary Search](http://arxiv.org/abs/2608.21543v1)** — Weixuan Ding et al. (2026) · relevance 6
+- **[DamageScope: Vision-Language Retrieval at Scale for Disaster Damage Assessment from Satellite Imagery](http://arxiv.org/abs/2608.21529v1)** — Ravi K. Rajendran et al. (2026) · relevance 6
+- **[Neuro-Formal Verification: Agentic Language-Agnostic Formal Program Reasoning](http://arxiv.org/abs/2608.21516v2)** — Shuvendu K. Lahiri (2026) · relevance 15
+- **[Beyond Fault Localization: A Trajectory-Level Study of LLM Agents for Microservice Root Cause Analysis](http://arxiv.org/abs/2608.21310v1)** — Qisheng Lu et al. (2026) · relevance 14
+- **[BeTaL-GBI: Admission-Aware Benchmark Tuning and Full-Stack Verification of Geometric Belief Interfaces](http://arxiv.org/abs/2608.21503v1)** — Alvin Spivey et al. (2026) · relevance 8
+- **[EnSI-RAG: Entity-Structure-Indexed Retrieval-Augmented Generation for Long-Document Question Answering](http://arxiv.org/abs/2608.21252v1)** — Xuanyu Meng et al. (2026) · relevance 8
+- **[Specification Portability Across LLM Development Agents: Cross-Agent Compatibility in Specification-Driven Software Migration](http://arxiv.org/abs/2608.21208v1)** — Oleg Grynets et al. (2026) · relevance 7
+- **[ReFrame: Evidence-Guided Test-Time Safety Alignment in Multimodal Large Language Models](http://arxiv.org/abs/2608.21100v1)** — Wenzheng Jiang et al. (2026) · relevance 12 · _cross-tier: Data Substrates_
+- **[Trustworthy RAG: An Evaluation Agent for Detecting Misinformation and Knowledge Poisoning in Generative AI Systems](http://arxiv.org/abs/2608.21095v1)** — Balkrishna Giri et al. (2026) · relevance 9
+- **[$Z^2$-ACT: End-to-End Verifiable Agentic Intent Control for Open 6G RAN](http://arxiv.org/abs/2608.21049v1)** — Sunder Ali Khowaja et al. (2026) · relevance 7
+- **[TRACE: Agentic Catalog Enrichment with Multi-source Evidence Grounding](http://arxiv.org/abs/2608.20844v1)** — Rohan Kumar et al. (2026) · relevance 9
+- **[Vis-Poison: Poisoning Visual Knowledge in Multimodal Retrieval-Augmented Generation](http://arxiv.org/abs/2608.20756v1)** — Rujin Liang et al. (2026) · relevance 6
+- **[AsmEvo: Agentic Assembly-Level Optimization of AMD GPU Kernels with Functional Equivalence Verification](http://arxiv.org/abs/2608.20711v1)** — Ji Liu et al. (2026) · relevance 10
+- **[Towards Faithful Simulation of Human Shopping Behavior](http://arxiv.org/abs/2608.20707v1)** — Jiakai Tang et al. (2026) · relevance 12
+- **[JuryProbe: An Empirical Consensus-Risk Diagnostic for Routing Reference-Free Factuality Judge Panels to Grounded Verification](http://arxiv.org/abs/2608.20607v1)** — Tianxin Zhou et al. (2026) · relevance 9
+- **[Terminal Agents: A Survey of AI Agents in Command-Line Environments](http://arxiv.org/abs/2608.20485v1)** — Yi Bin et al. (2026) · relevance 17
+- **[Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization](http://arxiv.org/abs/2608.20281v1)** — Qian Kou et al. (2026) · relevance 11
+- **[Decoding silent reading from non-invasive EEG](http://arxiv.org/abs/2608.20186v1)** — Ingo Marquardt et al. (2026) · relevance 7
+- **[FormalTCS: Benchmarking End-to-End Frontier Formal Theoretical Computer Science Research of Large Language Models](http://arxiv.org/abs/2608.20153v1)** — Dingzirui Wang et al. (2026) · relevance 6
+- **[PersonalBench: Measuring the Authorship Gap in LLM Personalization](http://arxiv.org/abs/2608.19746v1)** — Yash Ganpat Sawant (2026) · relevance 7 · _cross-tier: Data Creation and Selection_
+- **[ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents](http://arxiv.org/abs/2608.19662v1)** — Yichu Fang et al. (2026) · relevance 8
+- **[Mitigating Identity Essentialism in LLM Agents with Longitudinal Life Trajectories](http://arxiv.org/abs/2608.19621v2)** — Hexi Wang et al. (2026) · relevance 11
+- **[ProofJudge: Tool-Grounded LLM Evaluation of Formal Proof Quality in Mathlib](http://arxiv.org/abs/2608.20432v1)** — Shane Caldwell (2026) · relevance 6
+- **[Automated Summarization of Financial News Using Large Language Models and Retrieval-Augmented Generation: An Early Empirical Study (Fall 2023)](http://arxiv.org/abs/2608.19526v1)** — Pranav Chandaliya (2026) · relevance 6
+- **[SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution](http://arxiv.org/abs/2608.18933v1)** — Silin Chen et al. (2026) · relevance 7
+- **[Training-Free Inference-Time Self-Reflection and Cost-Bounded Early Stopping for Large Language Models](http://arxiv.org/abs/2608.18884v1)** — Wei Yu et al. (2026) · relevance 7
+- **[Think-to-Personalize: Unifying Reasoning and Retrieval for User-Centric Personalized Dense Retrieval](http://arxiv.org/abs/2608.18855v2)** — Angqing Jiang et al. (2026) · relevance 7 · _cross-tier: Data Creation and Selection_
+- **[ORBITER: Conflict-Aware Decision-Making for Agentic Last-Mile Delivery](http://arxiv.org/abs/2608.18846v1)** — Mingzhao Li et al. (2026) · relevance 8
+- **[RTPO: Reverse-Turn Policy Optimization for Stabilizing Agentic RL Training](http://arxiv.org/abs/2608.18682v2)** — Yugu Li et al. (2026) · relevance 13
+- **[CTIFoundry: An Agent-Native Corpus Scaffold for Cyber Threat Intelligence](http://arxiv.org/abs/2608.18613v1)** — Yutong Cheng et al. (2026) · relevance 12
+- **[From Storage to Access: Verifiable Activation of Parametric Knowledge in LLMs via Explicit Priming and Implicit Reasoning](http://arxiv.org/abs/2608.18581v1)** — Zuocheng Ying et al. (2026) · relevance 6
+- **[SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation](http://arxiv.org/abs/2608.18565v1)** — Yanlun Tu et al. (2026) · relevance 7
+- **[Which Negatives Matter? Ask Your Text Encoder: Adaptive Similarity Margins for Dense-Caption Retrieval](http://arxiv.org/abs/2608.18521v2)** — Haoyue Liu et al. (2026) · relevance 8
+- **[Chain-of-Experience for Continual LLM Improvement](http://arxiv.org/abs/2608.18027v1)** — Haoqin Tu et al. (2026) · relevance 9
+- **[When Writing Style Drifts: Benchmarking Authorship Verification under Distribution Shifts in Genre, Time and the AI-Era](http://arxiv.org/abs/2608.17979v1)** — Lotta Kiefer et al. (2026) · relevance 9
+- **[Do Large Language Models Play Six Degrees of Separation? Measuring Topological Compression in Long-Context Manifolds](http://arxiv.org/abs/2608.17950v2)** — Md. Faiyaz Abdullah Sayeedi (2026) · relevance 7
+- **[EvoTS-Agent: A Self-Evolving LLM Agent for Financial Time Series Change Point Detection](http://arxiv.org/abs/2608.17933v1)** — Lei Jiang et al. (2026) · relevance 12
+- **[SpeechSense: A Paralinguistic-Focused Dataset for Fine-Grained Speech Sentiment Analysis](http://arxiv.org/abs/2608.17931v1)** — Shicheng Ma et al. (2026) · relevance 8
+- **[Leveraging Association Context Retrieval in Knowledge Edit- ing to Build White-Box Attacks on LLMs](http://arxiv.org/abs/2608.17836v1)** — Roman Maksimov et al. (2026) · relevance 9
+- **[TraceSQL: Traceable Answerability Estimation for Reference-Free Text-to-SQL Verification](http://arxiv.org/abs/2608.17795v2)** — Neelesh Kumar Shukla et al. (2026) · relevance 6
+- **[MobileWorldSafety: Benchmarking GUI Agent Safety Against Environmental Injection Attacks in Android Apps](http://arxiv.org/abs/2608.17659v1)** — Sujin Chen et al. (2026) · relevance 10
+- **[DEPT: Document Embedding Preservation Tuning for Unified Query Expansion and Retrieval](http://arxiv.org/abs/2608.17632v1)** — Jingyuan Wang et al. (2026) · relevance 10
+- **[Agent Lightning v1.0: Towards Harnessed Agentic RL](http://arxiv.org/abs/2608.17528v1)** — Zhiyuan He et al. (2026) · relevance 7
+- **[SGHA: Evidence-Grounded Research Problem Discovery with Local Language Models](http://arxiv.org/abs/2608.17501v1)** — Sarvesh Gharat et al. (2026) · relevance 7
+- **[Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements](http://arxiv.org/abs/2608.17310v2)** — Zhi Zheng et al. (2026) · relevance 15
+- **[Polaris: Learning to Generate Table Descriptions from Retrieval Feedback](http://arxiv.org/abs/2608.17171v1)** — Ting Cai et al. (2026) · relevance 8
+- **[Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory](http://arxiv.org/abs/2608.16889v1)** — Bingxin Xu et al. (2026) · relevance 13
+- **[Topological Attribution Distance (TAD): Revealing Segment-Level RAG Influence on LLM Output Geometry for Incident Log Analysis](http://arxiv.org/abs/2608.16775v1)** — Reza Fayyazi et al. (2026) · relevance 6
+- **[LAVA: Logic-Aware Validation and Augmentation Framework for Large-Scale Financial Document Auditing](http://arxiv.org/abs/2608.16763v1)** — Ruoqi Shu et al. (2026) · relevance 8
+- **[PDDLCoder: Agentic PDDL Generation for LLM-Assisted Symbolic Planning](http://arxiv.org/abs/2608.16637v1)** — Veit Laule et al. (2026) · relevance 14
+- **[When Context Misleads: Intent-Guided Decoding for Robust Retrieval-Augmented Generation](http://arxiv.org/abs/2608.16515v1)** — Haolin Jin et al. (2026) · relevance 10
+- **[LLMs for Zero-Shot Threat Detection via Structured Risk Indicators](http://arxiv.org/abs/2608.16508v1)** — Abdullah Alghamdi et al. (2026) · relevance 8
+- **[Evolving Executable Pipeline Programs for AutoML with Language Models](http://arxiv.org/abs/2608.16416v1)** — Sofoklis Kitharidis et al. (2026) · relevance 6
+- **[A Policy Algebra for Trust-Preserving Agentic AI Execution](http://arxiv.org/abs/2608.16402v1)** — Bhaskar Tripathi et al. (2026) · relevance 8
+- **[Think Inside the Chunk: RegulaRAG for Regulation-Compliant Scenario Generation using LLMs: A Case Study of UN Regulation No. 152](http://arxiv.org/abs/2608.16394v1)** — Vahid Zolfaghari et al. (2026) · relevance 9
+- **[Ventor-QTest: Threat-Model-Driven Verification of Vendor-Hosted LLM APIs](http://arxiv.org/abs/2608.16391v1)** — Xiangfan Wu et al. (2026) · relevance 7
+- **[LENS: In-Context Search via Latent Evidence Exploration over Dynamic Raw Documents](http://arxiv.org/abs/2608.16185v2)** — Xingjun Wang et al. (2026) · relevance 6
+- **[TRCA: Transition-wise Rubric Credit Assignment for Long-horizon LLM Agents](http://arxiv.org/abs/2608.16156v1)** — Huan Zhang et al. (2026) · relevance 6
+- **[HyperSkill: Self-Evolving LLM Agents via Hypergraph-Structured Skill Memory](http://arxiv.org/abs/2608.16114v1)** — Ruiyao Xu et al. (2026) · relevance 12
+- **[Skill2Query: Exploiting Skill Structure to Generate Pseudo-Queries for Agent Skill Retrieval](http://arxiv.org/abs/2608.16071v1)** — Lihui Ding et al. (2026) · relevance 8
+- **[SEER: Long-Context Reasoning via Selective Visual-Text Compression](http://arxiv.org/abs/2608.15962v1)** — Jiawei Xu et al. (2026) · relevance 8
+- **[Navigation-Informed Embeddings: Dense-Retriever Adaptation from Agent Search Traces](http://arxiv.org/abs/2608.15956v1)** — Shrey Shah et al. (2026) · relevance 10
+- **[Augmenting Text to Increase Translation Difficulty](http://arxiv.org/abs/2608.15932v1)** — William Kalikman et al. (2026) · relevance 6
+- **[Dear Algo: A Precision-First Agentic Intent Layer for Unified Search and Recommendation](http://arxiv.org/abs/2608.15877v1)** — Rui Wang et al. (2026) · relevance 7
+- **[Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning](http://arxiv.org/abs/2608.15869v1)** — Xiaoyu Zhu et al. (2026) · relevance 8
+- **[AutoSQL: Extracting SQL Templates from Imperative ORM Code in Large-Scale Repositories](http://arxiv.org/abs/2608.15595v1)** — Junsong Pu et al. (2026) · relevance 6
+- **[Kozuchi Agent: A Language-Agnostic Open-Weight Agent for Software Repair](http://arxiv.org/abs/2608.15579v1)** — Mehdi Bahrami et al. (2026) · relevance 9
+- **[Catching Hallucinated Citations in Video-LLM Question Answering: A Self-Verification Pipeline and Verifier Ablation Study](http://arxiv.org/abs/2608.15574v1)** — Yogesh Kumar (2026) · relevance 7
+- **[Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL](http://arxiv.org/abs/2608.15389v1)** — Changruo Zhao et al. (2026) · relevance 7
+- **[Divergent-Convergent Reasoning: Scaling Test-Time Compute through Structured Solution Synthesis](http://arxiv.org/abs/2608.15303v1)** — Bo Wen et al. (2026) · relevance 13
+- **[ACTS-SQL: Agentic and Critic-Oriented Tree-Structured SQL Correctness with Large Language Models](http://arxiv.org/abs/2608.15145v1)** — Xinmei Huang et al. (2026) · relevance 10
+- **[From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems](http://arxiv.org/abs/2608.15127v1)** — Chaokun Chang et al. (2026) · relevance 11
+- **[Beyond Thresholds: A Quality-Aware Decision Intelligence Framework for Cold Chain IoT Systems](http://arxiv.org/abs/2608.15082v1)** — Aashna Sofat et al. (2026) · relevance 6
+- **[S2-MoE: Enabling Efficient Self-Speculative Decoding for Mixture-of-Experts on Edge Devices](http://arxiv.org/abs/2608.15018v2)** — Haochen Huang et al. (2026) · relevance 7
+- **[T-LLM Compiler: Trusted LLM-based Code Optimization and Verification Framework](http://arxiv.org/abs/2608.14953v1)** — Zahra Fazel et al. (2026) · relevance 7
+- **[How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks](http://arxiv.org/abs/2608.14905v2)** — Yanlin Fei et al. (2026) · relevance 8
+- **[Beyond the pale: Assessing prevalence and contents of extremist speech in LLM training data](http://arxiv.org/abs/2608.14813v1)** — Dmitry Nikolaev et al. (2026) · relevance 12 · _cross-tier: Data Substrates, Data Creation and Selection_
+- **[Twin: Playing an Unknown Game with a Test-Time Digital Twin](http://arxiv.org/abs/2608.14490v1)** — Alexy Skoutnev et al. (2026) · relevance 10
+- **[ScienceFlow: A long-horizon agent for ML research, scientific discovery and beyond](http://arxiv.org/abs/2608.14354v1)** — Mingming Zhao et al. (2026) · relevance 6
+- **[APTER: Adaptive Post-Training with Expert-Grounded Rubrics](http://arxiv.org/abs/2608.14212v1)** — Xukai Wang et al. (2026) · relevance 7
+- **[Regime-Conditional Verification: Correctness Estimation for Adapting and Monitoring Safety Classifiers](http://arxiv.org/abs/2608.14089v1)** — Thiago Sandoval et al. (2026) · relevance 10
+- **[Demystifying Agent Skills: Why They Work-Until They Don't](http://arxiv.org/abs/2608.14036v1)** — Zhiyuan Jiang et al. (2026) · relevance 11
+- **[How retriever redundancy and diversity impact RAG effectiveness](http://arxiv.org/abs/2608.13956v1)** — Jonathan J Ross et al. (2026) · relevance 7
+- **[Engineering Reliable Coding Agents: Evaluating and Operating the System Around the Model](http://arxiv.org/abs/2608.13867v1)** — Stephanie Jarmak (2026) · relevance 8
+- **[Do AI chatbots find what experts would? Effects of model, user role, and sample size on study retrieval for medical questions](http://arxiv.org/abs/2608.13786v1)** — Qingfang Liu et al. (2026) · relevance 8
+- **[Second Thought: Reasoning in Parallel as LLM Agents Act and Observe](http://arxiv.org/abs/2608.13667v1)** — Zhensu Sun et al. (2026) · relevance 6
+- **[Structure then Query: Enabling Precise Analytical Queries over Unstructured Documents](http://arxiv.org/abs/2608.13384v1)** — Teng Lin et al. (2026) · relevance 9
+- **[TsuGO: Probing Search Efficiency in LLM Reasoning via Go Life-and-Death Problems](http://arxiv.org/abs/2608.13221v1)** — Shunwen Bai et al. (2026) · relevance 6
+- **[GEM: A Generative Embedding Model Bridging Reasoning and Retrieval](http://arxiv.org/abs/2608.13200v2)** — Zhili Shen et al. (2026) · relevance 8
+- **[LigBench: A Unified and Human-Aligned Benchmark for LLM-based Research Idea Generation](http://arxiv.org/abs/2608.13136v1)** — Chenrun Wang et al. (2026) · relevance 7
+- **[SPADE: Speculative Decoding for Precise and Low Cost Distributed Edge Cloud Inference](http://arxiv.org/abs/2608.13076v1)** — Divya Jyoti Bajpai et al. (2026) · relevance 6
+- **[Reconcile Once, Write Anytime: A Trust-Tiered Librarian and a Multi-Agent Writer for Drift-Free, Point-in-Time Research](http://arxiv.org/abs/2608.12984v1)** — Xing Zhang et al. (2026) · relevance 8
+- **[PROVE-RT: Generating Mechanized Theorem Prover Scripts for Real-Time Systems using LLMs](http://arxiv.org/abs/2608.12762v1)** — Sadat Shahriyar et al. (2026) · relevance 8
+- **[Knowledge Synthesis Review Framework: Task-Level Benchmarking of LLM-Based Systems for Multi-Source Evidence Synthesis](http://arxiv.org/abs/2608.12741v1)** — Wafa Shafqat et al. (2026) · relevance 6
+- **[ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval](http://arxiv.org/abs/2608.12720v1)** — Haolong Chen et al. (2026) · relevance 7
+- **[Beyond the Best Guess: Improving LLM Solution Coverage with Evolution Strategies](http://arxiv.org/abs/2608.12679v1)** — Conor F. Hayes et al. (2026) · relevance 6
+- **[Privacy-Preserving RAG by Concealing Sensitive Information from External LLMs](http://arxiv.org/abs/2608.12675v1)** — Saleh Almohaimeed et al. (2026) · relevance 7
+- **[EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory](http://arxiv.org/abs/2608.12627v3)** — Le Zhang et al. (2026) · relevance 7
+- **[Test-Time Optimization of Query Embeddings with Ranking Aware Reward Maximization](http://arxiv.org/abs/2608.12569v1)** — Tianyu Chen et al. (2026) · relevance 9
+- **[Scaling Automatic Research Agents via World Models](http://arxiv.org/abs/2608.12564v1)** — Xiyuan Yang et al. (2026) · relevance 10
+- **[DIVE: Unlocking Self-Improvement in Frozen Language Models Through Diversity-Driven Skill Evolution](http://arxiv.org/abs/2608.12486v1)** — Siheng Xiong et al. (2026) · relevance 6
+- **[The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development - An Exploratory Case Study](http://arxiv.org/abs/2608.12311v1)** — Carlos Alberto Fernández-y-Fernández et al. (2026) · relevance 8
+- **[A corpus-specific clinical RAG system matches or outperforms newer frontier LLMs on HealthBench](http://arxiv.org/abs/2608.12138v1)** — Praveen Reddy et al. (2026) · relevance 12
+- **[SAG: SQL-Retrieval Augmented Generation with Query-Time Dynamic Hyperedges](http://arxiv.org/abs/2608.12129v1)** — Yuchao Wu et al. (2026) · relevance 7
+- **[From Safety Documentation to Safety Knowledge Support: An Evidence-Grounded LLM Framework for Medical Devices](http://arxiv.org/abs/2608.12025v1)** — Tuhinangshu Gangopadhyay et al. (2026) · relevance 6
+- **[Claim-Level Reliability Assessment for Efficient Test-Time Reasoning](http://arxiv.org/abs/2608.11994v1)** — Sen Xu et al. (2026) · relevance 11
+- **[LoongReflect: Boosting Long-Horizon Reflection in Search Agents via Global Perspective Distillation](http://arxiv.org/abs/2608.11967v1)** — Zhixin Zhang et al. (2026) · relevance 14
+- **[LODESTAR: Robust Entropy-Based Answer Selection in Retrieval-Augmented Generation for Question Answering -- Directing Frozen-LLM Entropy with a Reinforcement-Learned Prompt Polarizer under Misleading Passages](http://arxiv.org/abs/2608.11922v2)** — Hung-Chun Hsu et al. (2026) · relevance 7
+- **[Agent Skills Can Be Harmful: An Empirical Study of Skill-Induced Failures in LLM Agents](http://arxiv.org/abs/2608.11888v1)** — Gen Dong et al. (2026) · relevance 7
+- **[Quantifying the Relationship Between Clinical Safety and Environmental Impact in Therapeutic LLMs](http://arxiv.org/abs/2608.11830v1)** — Alireza A. Safaei et al. (2026) · relevance 8
+- **[Towards Understanding On-Policy Distillation through the Lens of Test-Time Scaling](http://arxiv.org/abs/2608.11829v1)** — Xinmu Ge et al. (2026) · relevance 7
+- **[JieZi: A Large-Scale Expert-Audited Dataset and Benchmark for Ancient Chinese Character Exegesis](http://arxiv.org/abs/2608.11741v1)** — Ran Li et al. (2026) · relevance 14
+- **[Advancing MLLM-based UAV Image Understanding and Reasoning: A Benchmark and a Training-Free Multi-Agent System](http://arxiv.org/abs/2608.11738v1)** — Haoyu Zhang et al. (2026) · relevance 7
+- **[EnterpriseRAG: Benchmarking LLM Instruction Adherence and Robustness under Non-Ideal Enterprise Retrieval](http://arxiv.org/abs/2608.11584v1)** — Huiqi Miao et al. (2026) · relevance 8
+- **[Localizing Safety Alignment: MLP Layers and Mid-Network Blocks Encode Refusal Behavior in Large Language Models](http://arxiv.org/abs/2608.11583v1)** — Mingyu Zong et al. (2026) · relevance 9 · _cross-tier: Data Substrates_
+- **[Gloss-Free Representation Learning for Cross-Dataset Sign Spotting](http://arxiv.org/abs/2608.11332v1)** — Oğuz Akif Tüfekcioğlu et al. (2026) · relevance 10
+- **[Self-Knowledge Retrieval Augmented Generation Framework for Patent Matching](http://arxiv.org/abs/2608.11030v1)** — Jian Zhang et al. (2026) · relevance 11
+- **[Knowledge-Graph-Guided Retrieval-Augmented LLMs for Explainable Root Cause Analysis in Automotive HiL Validation](http://arxiv.org/abs/2608.11277v1)** — Hamza Ouarrad et al. (2026) · relevance 6
+- **[Conversational Orchestration for Organic 6G](http://arxiv.org/abs/2608.10714v1)** — Masoud Shokrnezhad et al. (2026) · relevance 6
+- **[SPIEval: Evaluating Large Language Models as Mobile Assistants over Scattered Personal Information](http://arxiv.org/abs/2608.10692v1)** — Junjie Ye et al. (2026) · relevance 12
+- **[Self-Correcting Long-Horizon Search Agents via Tree-Structured Memory](http://arxiv.org/abs/2608.10676v1)** — Aijun Yang et al. (2026) · relevance 11
+- **[VERDICT: Training-Free Step-Wise Verification of Multimodal Reasoning via Disagreement-Aware Consensus](http://arxiv.org/abs/2608.10665v1)** — Rohit Sinha et al. (2026) · relevance 7
+- **[HexEval: An Evidence-Driven Hexagonal Framework for Multidimensional Scholar Assessment](http://arxiv.org/abs/2608.10584v2)** — Xiaokang Qu et al. (2026) · relevance 7
+- **[GeoForge: Non-Parametric Self-Evolving Agents for Earth-Observation Reasoning](http://arxiv.org/abs/2608.10494v1)** — Xin Xiao et al. (2026) · relevance 15
+- **[Towards Efficient Reasoning in LLM-Based Recommender Systems via Model Merging](http://arxiv.org/abs/2608.10447v1)** — Linh Dieu Le et al. (2026) · relevance 6
+
+### Curriculum / Mid-Training / Replay (187)
+
+- **[ReplayAudit: Auditing Outsourced LLM Fine-Tuning via Sealed Records and Selective Replay](http://arxiv.org/abs/2611.09607v1)** — Yihan Xia et al. (2026) · relevance 10
+- **[AttnSR: Attention Step Reward for Long-Horizon Agentic RL](http://arxiv.org/abs/2611.07932v1)** — Mengsong Wu et al. (2026) · relevance 10
+- **[ServerBench: How can your coding agents design specialized LLM serving systems?](http://arxiv.org/abs/2611.06841v1)** — Xinrui Zhong et al. (2026) · relevance 9
+- **[AgentTrustCI: Build-Time Policy, Grounding, and Trajectory Tests for Java LLM Agents](http://arxiv.org/abs/2611.06674v1)** — Sachin Gupta (2026) · relevance 12
+- **[False Reassurance in LLM Severe-Weather Guidance: A Replayable Evaluation Against Real NWS Alerts](http://arxiv.org/abs/2611.05290v1)** — Kadharmoideen Fadurudeen (2026) · relevance 9
+- **[ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents](http://arxiv.org/abs/2611.05036v1)** — Guanting Dong et al. (2026) · relevance 13 · _cross-tier: Data Creation and Selection_
+- **[DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation](http://arxiv.org/abs/2611.04196v1)** — Yuxuan Wang et al. (2026) · relevance 7
+- **[Dory1.0-4B: A Looped Normalized-GPT](http://arxiv.org/abs/2611.03998v1)** — Maxim Fishman et al. (2026) · relevance 7
+- **[CAREFUL-Bench: Effect-Aware, Judge-Free Evaluation of Multi-Turn LLM Function Calling](http://arxiv.org/abs/2611.02978v2)** — Alexander Kovalenko et al. (2026) · relevance 6 · _cross-tier: Data Substrates_
+- **[Replay for LLM Continual Learning with Multi-Teacher On-Policy Distillation](http://arxiv.org/abs/2611.02746v2)** — Yiqiao Qiu (2026) · relevance 7
+- **[Agentic Context Management for Multi-Turn Human-AI Conversations](http://arxiv.org/abs/2611.00518v1)** — Matthew Ho et al. (2026) · relevance 10
+- **[AStockArena: Beyond Returns, Can We Entrust Real Capital to the Decisions of Financial Agents?](http://arxiv.org/abs/2611.00515v1)** — Zeyu Liu et al. (2026) · relevance 7
+- **[Quantization of Large Models with Weight Outliers and Sparsity](http://arxiv.org/abs/2611.00286v1)** — Leonidas Tsigkounakis et al. (2026) · relevance 6
+- **[ReplayRCA: Measuring Post-hoc Diagnosis and Live Oversight of Agent Failures by Counterfactual Replay](http://arxiv.org/abs/2610.41025v1)** — Jeremy Canale et al. (2026) · relevance 8
+- **[The Athlete as a Scientist of One: Agentic Bayesian Experimental Design for Individualized Physiology from Consumer Wearables](http://arxiv.org/abs/2610.40370v1)** — Behnam Moradi (2026) · relevance 10
+- **[PAPERBENCHX: Can AI Reproduce Science Across Disciplines?](http://arxiv.org/abs/2610.39744v1)** — Ruoyu Wu et al. (2026) · relevance 6
+- **[When Does Closed-Loop Curriculum Adaptation Help GRPO? An Analysis on Countdown](http://arxiv.org/abs/2610.39056v1)** — Yuv Raj Pant et al. (2026) · relevance 7
+- **[Gold vs.~Translation: Are We Measuring Language, Knowledge, or Locality in Translated Benchmarks?](http://arxiv.org/abs/2610.38788v1)** — Klaudia-Doris Thellmann et al. (2026) · relevance 7
+- **[Repairs for Whom? Evaluator-Executor Mismatch in Selecting Repairs for Failed LLM Agents](http://arxiv.org/abs/2610.38610v1)** — Yijun Liao et al. (2026) · relevance 9
+- **[CaLLM: Continual Adaptation of LLMs via Non-Parametric Adapter Routing](http://arxiv.org/abs/2610.36994v1)** — Bilge Celik et al. (2026) · relevance 6
+- **[Proactive Memory for Event-Driven LLM Agents](http://arxiv.org/abs/2610.36967v1)** — Jinyang Li et al. (2026) · relevance 13
+- **[Dream-COP: Guiding Algorithm Discovery for Combinatorial Optimization Problems in an Experience World](http://arxiv.org/abs/2610.36618v1)** — Kuan Xu et al. (2026) · relevance 6
+- **[Curriculum-Guided Acquisition of Hierarchical Task Knowledge from LLM-Generated Experience](http://arxiv.org/abs/2610.34677v1)** — Yuesheng Xu et al. (2026) · relevance 7
+- **[The Price of Scale in Proactive Memory Recall](http://arxiv.org/abs/2610.34507v2)** — Yichuan Chen et al. (2026) · relevance 6
+- **[SHIFT-JEV: Certified Abstention and Gain-Gated Continual Adaptation for LLM-Based Decision Models under Distribution Shift](http://arxiv.org/abs/2610.34329v1)** — Muhammad Atif Saeed et al. (2026) · relevance 7
+- **[On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models](http://arxiv.org/abs/2610.32770v1)** — Leon Sick et al. (2026) · relevance 8
+- **[Adaptive Control of Scientific Instruments with Nonstationary Responses through Multimodal Agents](http://arxiv.org/abs/2610.32370v1)** — Guoyang Shi et al. (2026) · relevance 6
+- **[From Faulty Claims to Incorrect Patches: An Empirical Study of Task-Grounded Reasoning in Coding Agents](http://arxiv.org/abs/2610.32338v1)** — You Wang et al. (2026) · relevance 10
+- **[GIFT: Gradient Informed Filtering for Distillation Augmented Reasoning RL](http://arxiv.org/abs/2610.30796v1)** — Shijie Li et al. (2026) · relevance 6
+- **[OneLatent: Latent Reasoning for Efficient Foundation Recommendation Models](http://arxiv.org/abs/2610.30675v1)** — Hao Jiang et al. (2026) · relevance 9
+- **[VeruSteer: Learning What to Repair Next in Verus](http://arxiv.org/abs/2610.29755v1)** — Chao Jiang et al. (2026) · relevance 11
+- **[TraceForge: Distilling with Your Own Thinking](http://arxiv.org/abs/2610.29680v3)** — Yan Wang (2026) · relevance 6
+- **[Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation](http://arxiv.org/abs/2610.28586v1)** — Shu Zhao et al. (2026) · relevance 12
+- **[SimHack: Predicting the onset of detectable reward hacking before RL training](http://arxiv.org/abs/2610.28707v1)** — Junwei Deng et al. (2026) · relevance 6
+- **[AudiPsy: Evidence-Grounded Multimodal Reasoning over Spoken Counseling Conversations for Depression Assessment](http://arxiv.org/abs/2610.27567v1)** — Chuanbo Zhu et al. (2026) · relevance 7
+- **[Safety Mid-Training: Internalizing LLM Safety as a Foundational Capability](http://arxiv.org/abs/2610.26809v1)** — Zhengyue Zhao et al. (2026) · relevance 8
+- **[WhatIf-Bench: Benchmarking Intervention-Aware Time Series Forecasting](http://arxiv.org/abs/2610.26582v2)** — Arjun Ashok et al. (2026) · relevance 7
+- **[Reliable Before Profitable: QuantHarness for Governing Financial Strategy Development with LLM Agents](http://arxiv.org/abs/2610.26101v1)** — Jiasheng Mao et al. (2026) · relevance 11
+- **[Curriculum Learning Teaches LLMs Long-Horizon Implicit Reasoning, Up To A Limit](http://arxiv.org/abs/2610.25612v1)** — Jimson Huang et al. (2026) · relevance 15
+- **[Narrow Decision Models: A System-1 Architecture for Calibrated, Typed Decisions](http://arxiv.org/abs/2610.25553v1)** — Carlos André Antunes et al. (2026) · relevance 7
+- **[Explore or Confirm? LLM Agents Misallocate Measurements Under Noise](http://arxiv.org/abs/2610.25111v1)** — Abdul Karim et al. (2026) · relevance 8
+- **[PRECOCIAL: Pretraining with Code Curriculums via Iterative Search for Accelerated Learning](http://arxiv.org/abs/2610.24970v1)** — Edward Gu et al. (2026) · relevance 12
+- **[Preserving Reasoning Diversity in Reinforcement Learning with Verifiable Rewards via Adaptive Replay](http://arxiv.org/abs/2610.24236v1)** — Wen-Zhi Li et al. (2026) · relevance 7
+- **[Are You Sure Your LLM Is Sure? Repairing and Auditing Confidence](http://arxiv.org/abs/2610.22139v1)** — Arijit Dey et al. (2026) · relevance 6
+- **[Human Interventions as Labels: Localizing, Steering, and (Sometimes) Editing the Computations Behind LLM Agent Failures](http://arxiv.org/abs/2610.21708v1)** — Cesare Zavattari et al. (2026) · relevance 7
+- **[ReFlow: Replay-Driven Decoupling for Efficient RL Post-Training](http://arxiv.org/abs/2610.21640v1)** — Yukun Tian et al. (2026) · relevance 14
+- **[Incentivizing Tool-Use Reinforcement Learning for Post-Arrival Emergency Care Prediction](http://arxiv.org/abs/2610.21449v2)** — Pengfei Hu et al. (2026) · relevance 10
+- **[CASI: Credit Assignment via Set Intervention for Agentic Retrieval](http://arxiv.org/abs/2610.20293v1)** — Xinyi Cheng et al. (2026) · relevance 11
+- **[Temporal Adaptive Fine-Tuning for Code Comprehension](http://arxiv.org/abs/2610.19970v1)** — Alex Wolf et al. (2026) · relevance 9 · _cross-tier: Data Substrates_
+- **[Explorer-Zero: Improving Self-Play for Long-Horizon Tasks with Decomposable Verifiable Rewards](http://arxiv.org/abs/2610.19868v1)** — Tianyu Liu et al. (2026) · relevance 18 · _cross-tier: Data Creation and Selection_
+- **[Where to Start, How to Move: Analyzing Curricula under GRPO for Long-Horizon LLM Agents](http://arxiv.org/abs/2610.19349v1)** — Minchan Kim et al. (2026) · relevance 6
+- **[TRAP: Tool-result Replay Attack for Probing Misbinding in LLM Agents](http://arxiv.org/abs/2610.16333v1)** — Yutong Zhi et al. (2026) · relevance 9
+- **[REVEAL: Reverse Engineering Agentic Latents from Frontier-Model Traces](http://arxiv.org/abs/2610.16288v2)** — Yuetian Du et al. (2026) · relevance 15
+- **[When Skills Remain But Access Fails: Factorized Skill Memory for Continual Skill Internalization](http://arxiv.org/abs/2610.15492v1)** — Haomiao Qiu et al. (2026) · relevance 9
+- **[Anchor-and-Harvest Curriculum: A Fully Unmasked Non-LLM Curriculum for Craftax](http://arxiv.org/abs/2610.15328v1)** — Jiayu Zhu et al. (2026) · relevance 7
+- **[ClinEdge: An Expert-Graded Benchmark of Real Patient Edge Cases Where Frontier Multimodal Models Fail](http://arxiv.org/abs/2610.15239v1)** — Anurag Sharma et al. (2026) · relevance 6
+- **[Bridging Risk Approximation Gaps in Model Predictive Task Sampling via In-Context Modeling](http://arxiv.org/abs/2610.14913v1)** — Jiarong Wen et al. (2026) · relevance 7
+- **[MARL-BattleGrounds: A Novel JAX-native Benchmark for Heterogeneous and Competitive Multi-agent RL](http://arxiv.org/abs/2610.14883v1)** — Ulixes Tariq Hawili et al. (2026) · relevance 12
+- **[SciCurateBench: Curating Experimental Data from Heterogeneous Scientific Literature with Verbal-Action Agents](http://arxiv.org/abs/2610.14393v1)** — Minuk Ma et al. (2026) · relevance 14 · _cross-tier: Data Creation and Selection_
+- **[Agentic Evolution of SQL Test Generators](http://arxiv.org/abs/2610.14161v1)** — Suyang Zhong et al. (2026) · relevance 8
+- **[AdaC-GRPO: Towards Mastering Long-Horizon Visual Sudoku Puzzles via Adaptive Curriculum Learning](http://arxiv.org/abs/2610.13184v1)** — Sida Li et al. (2026) · relevance 9
+- **[Recurrent Harness for Agentic Continual Learning](http://arxiv.org/abs/2610.12668v1)** — Yuxin Xiao et al. (2026) · relevance 12
+- **[Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks](http://arxiv.org/abs/2610.11794v1)** — Haoyu Zhao et al. (2026) · relevance 8
+- **[NOMOS: Compiling Written Policies into Statically Verified Tool-Call Gates for LLM Agents](http://arxiv.org/abs/2610.11030v2)** — Min-Young Yu et al. (2026) · relevance 7
+- **[Mid-Training Language Models on Raw Video](http://arxiv.org/abs/2610.11019v1)** — Jaedong Hwang et al. (2026) · relevance 12
+- **[Omni-Diffusion-Distill: Few-Step Distillation of Unified Multimodal Diffusion Large Language Models](http://arxiv.org/abs/2610.10990v1)** — Hong Huang et al. (2026) · relevance 6
+- **[A Deafening Silence: Catastrophic Forgetting Lives in the Output Embeddings of Tokens the Data Never Speaks](http://arxiv.org/abs/2610.09835v1)** — Jonghyun Han et al. (2026) · relevance 8
+- **[Algorithmic Scratchpads and Curriculum Staging for Arithmetic Reasoning in Tiny Transformers](http://arxiv.org/abs/2610.09003v1)** — Sourabh Kasliwal (2026) · relevance 15
+- **[GraphOPD: Graph-Augmented On-Policy Distillation for LLM Agents](http://arxiv.org/abs/2610.08959v2)** — Bohan Lin et al. (2026) · relevance 12
+- **[ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences](http://arxiv.org/abs/2610.08691v1)** — Mingda Zhang et al. (2026) · relevance 14
+- **[Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents](http://arxiv.org/abs/2610.08668v1)** — Suxin Ji et al. (2026) · relevance 11 · _cross-tier: Data Creation and Selection_
+- **[LOGIC: An LLM Benchmark for Intent-Grounded Change Impact in Aerospace Electrical Systems](http://arxiv.org/abs/2610.07580v1)** — Muhammad Faraz Shoaib et al. (2026) · relevance 6
+- **[SpatialChain: A Benchmark for Auditing Spatial Reasoning Faithfulness in VLMs](http://arxiv.org/abs/2610.06413v1)** — Rafael Teixeira Sousa et al. (2026) · relevance 10
+- **[From Benchmark to Bench: Can Agents Survive Real-World Drug Discovery?](http://arxiv.org/abs/2610.06411v2)** — Pierre Llompart et al. (2026) · relevance 6
+- **[Learning to Simulate Individuals from Macro Social Signals](http://arxiv.org/abs/2610.07062v1)** — Yining Zhao et al. (2026) · relevance 11 · _cross-tier: Data Creation and Selection_
+- **[SEA-LM: Egocentric Spatial Audio Understanding for Wearable Microphone Arrays](http://arxiv.org/abs/2610.05610v2)** — Sonal Kumar et al. (2026) · relevance 6
+- **[AECG: Asymmetric Experience Consolidation and Governance In Multi-Agent Systems](http://arxiv.org/abs/2610.05176v1)** — Ao Tian et al. (2026) · relevance 10
+- **[EVISKILL: Grounding Skill Evolution in Replayable Evidence](http://arxiv.org/abs/2610.05030v1)** — Yan Zhou et al. (2026) · relevance 7
+- **[DART-ES: Difficulty-Aware Reweighting and Targeted Replay for Fine-Tuning LLMs with Evolution Strategies](http://arxiv.org/abs/2610.06993v1)** — Zhishen Sun et al. (2026) · relevance 10
+- **[TrajLong: Co-Designing Agentic and Long-Context Supervision for Mid-Training](http://arxiv.org/abs/2610.04973v1)** — Miao Peng et al. (2026) · relevance 20 · _cross-tier: Data Substrates_
+- **[Asymmetric Repository Lineage Modeling and Verifier-Guided Coordination in Concurrent AI Coding Agents](http://arxiv.org/abs/2610.04779v1)** — Arjun Subramanian et al. (2026) · relevance 8
+- **[Anticipating the Consequences of Curriculum Decisions with Large Language Models](http://arxiv.org/abs/2610.04604v1)** — Octavio Pappalardo et al. (2026) · relevance 9
+- **[Label Agreement Does Not Measure Authorization](http://arxiv.org/abs/2610.04544v1)** — Amir Sabbaghziarani et al. (2026) · relevance 6
+- **[RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway](http://arxiv.org/abs/2610.06923v1)** — Caiwen Jiang et al. (2026) · relevance 8
+- **[OptiSelect: How does the Optimizer Shape Data Curriculum?](http://arxiv.org/abs/2610.03432v1)** — Simin Fan et al. (2026) · relevance 14 · _cross-tier: Data Creation and Selection_
+- **[Follow the Winners: Conservative Policy Improvement with the Cross-Entropy Method for Critic-Free RFT](http://arxiv.org/abs/2610.03361v1)** — Joery Ariën de Vries et al. (2026) · relevance 10
+- **[OLMo-Detect: A Multi-Stage, Confounder-Controlled Benchmark for Membership Inference on Large Language Models](http://arxiv.org/abs/2610.02986v1)** — Tao Shi et al. (2026) · relevance 10 · _cross-tier: Data Substrates_
+- **[Tropical Reinforcement Learning](http://arxiv.org/abs/2610.02478v1)** — Arip Asadulaev et al. (2026) · relevance 10
+- **[CUEing User Simulators: Calibrated User Embeddings for Multi-Turn Benchmarking](http://arxiv.org/abs/2610.02460v1)** — Anjali Kantharuban et al. (2026) · relevance 6
+- **[Mimir: Physics-Grounded LLM Agents for Long-Horizon Irrigation Control](http://arxiv.org/abs/2610.02038v1)** — Yimeng Liu et al. (2026) · relevance 7
+- **[Auditing Action Settlement in LLM Agent Environments: Order, Progress, and Replay](http://arxiv.org/abs/2610.01138v1)** — Haotian Chen et al. (2026) · relevance 10
+- **[RISED: RubrIcs for agentic multi-environment Selection and sElf-Distillation](http://arxiv.org/abs/2610.00979v1)** — Jingtan Wang et al. (2026) · relevance 19 · _cross-tier: Data Creation and Selection_
+- **[ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization](http://arxiv.org/abs/2610.00906v1)** — Sungho Park et al. (2026) · relevance 7
+- **[ReLiveGym: Evaluating Long-Lived Agents over Weeks of Replayed Reality](http://arxiv.org/abs/2610.00710v1)** — Xisen Jin et al. (2026) · relevance 8
+- **[Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training](http://arxiv.org/abs/2609.40111v2)** — Kunlun Zhu et al. (2026) · relevance 14
+- **[Multi-LLM Collaborative Alignment via Stackelberg Games](http://arxiv.org/abs/2609.39076v2)** — Christina Hahn et al. (2026) · relevance 6
+- **[StateTree: Enhancing Long-Term Dialogue Reasoning via Reinforcement Learning](http://arxiv.org/abs/2609.38809v1)** — Naen Xu et al. (2026) · relevance 7
+- **[ArgGYM: A Procedural, Engine-Verified Benchmark for Structured Defeasible Reasoning](http://arxiv.org/abs/2609.38409v1)** — İbrahim Ethem Deveci et al. (2026) · relevance 9
+- **[Trajectory Soup: Pushing the Compute-Scaling Frontier of LLM Mid-training via Diverse Trajectories](http://arxiv.org/abs/2609.37169v1)** — Zhehao Huang et al. (2026) · relevance 19
+- **[ER-JEPA: Experience Replay Improves Joint-Embedding Predictive Learning in Language Models](http://arxiv.org/abs/2609.36952v1)** — Jingnan Pu et al. (2026) · relevance 9
+- **[Replay the Curvature: Accurate and Scalable NVFP4 Quantization for Large Language Model Inference](http://arxiv.org/abs/2609.36654v1)** — Ruiyi Ding et al. (2026) · relevance 7
+- **[Planarian: Managing Agent State with Statepoints](http://arxiv.org/abs/2609.35366v1)** — Jinnan Guo et al. (2026) · relevance 6
+- **[Teach to Learn: Hint Annealing for Self-improving LLM Reasoning](http://arxiv.org/abs/2609.34975v1)** — Zile Wang et al. (2026) · relevance 12
+- **[CoDeL: Co-Evolutionary Defense against Indirect Prompt Injection in LLM-based Agents](http://arxiv.org/abs/2609.34463v1)** — Xiao Yang et al. (2026) · relevance 6
+- **[ControlScope: Workflow Revision and Reliability in LLM Agents](http://arxiv.org/abs/2609.34313v1)** — Jingjie Ning et al. (2026) · relevance 8
+- **[GlyphBench: A Playground for Language-Model Reinforcement Learning](http://arxiv.org/abs/2609.34214v1)** — Roger Creus Castanyer et al. (2026) · relevance 8
+- **[Curating Merchant-Matching Training Data with Two Confidence-Gated Local LLM Judges](http://arxiv.org/abs/2609.33878v1)** — Donghao Huang et al. (2026) · relevance 9 · _cross-tier: Data Creation and Selection_
+- **[Climbing the Hill: Prompt Injection Red-Teaming Against Frontier Models with Curriculum Reinforcement Learning](http://arxiv.org/abs/2609.33628v2)** — Chenlong Yin et al. (2026) · relevance 7
+- **[Graph-Guided Repository Environment Construction](http://arxiv.org/abs/2609.33429v1)** — Jianying Pan et al. (2026) · relevance 8
+- **[TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces](http://arxiv.org/abs/2609.33295v1)** — Dehai Min et al. (2026) · relevance 13
+- **["You're Right, Let Me Fix It": How LLM Agents Damage Correct Work When Falsely Accused](http://arxiv.org/abs/2609.32616v1)** — Xutao Mao et al. (2026) · relevance 10
+- **[Fewer Tokens, More Self-Teaching: On-Policy Self-Distillation for Extreme Visual Token Reduction](http://arxiv.org/abs/2609.32353v2)** — Junxian Li et al. (2026) · relevance 9
+- **[IndustryLLM: Failure-Driven LLM Training for Industrial Procurement](http://arxiv.org/abs/2609.31871v1)** — Liang Ding et al. (2026) · relevance 6
+- **[Feeding BabyLMs Macaroni: Code-Switching Curricula Cause Cross-Lingual Convergence](http://arxiv.org/abs/2609.30535v1)** — Dries Rooryck et al. (2026) · relevance 10
+- **[Learning and interpreting policies for simultaneous entanglement requests in quantum networks](http://arxiv.org/abs/2609.30157v1)** — Leon Rode et al. (2026) · relevance 6
+- **[SkinAgent AI: A Safety-Grounded Multimodal Agentic Framework for Non-Diagnostic Skincare Support](http://arxiv.org/abs/2609.29341v1)** — Muhammad Muhtasim Shahriar et al. (2026) · relevance 13
+- **[Forecast-Dojo: Replayable Environments for Benchmarking and Training LLM Forecasting Agents](http://arxiv.org/abs/2609.28876v1)** — Liqin Ye et al. (2026) · relevance 14
+- **[Adversarial Closed-Loop Curriculum for Evolving Role-Playing Agents](http://arxiv.org/abs/2609.28609v1)** — Zheng Zhang et al. (2026) · relevance 9
+- **[Persistent Billable State: Denial-of-Wallet Attacks and Defenses in Tool-Calling LLM Agents](http://arxiv.org/abs/2609.28585v1)** — Jinqian Zhang et al. (2026) · relevance 7
+- **[FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration](http://arxiv.org/abs/2609.27571v1)** — Weihang Ding et al. (2026) · relevance 8
+- **[Math Reasoning in LLMs is Organized by Approach, Not Topic](http://arxiv.org/abs/2609.27041v2)** — Sajad Goudarzi et al. (2026) · relevance 8
+- **[Escaping Python Dependency Hell: A Hybrid Replay-and-Repair Pipeline for Python Dependency Resolution](http://arxiv.org/abs/2609.26952v1)** — Veronica Poweska et al. (2026) · relevance 8
+- **[Ladders of Thought: A Self-Evolving Curriculum of Progressively Simplified Reasoning Traces](http://arxiv.org/abs/2609.25643v1)** — Minghui Liu et al. (2026) · relevance 11
+- **[Self-Healing Harness for Runtime Oversight of Agent Self-Modification](http://arxiv.org/abs/2609.24130v1)** — Sina Tayebati et al. (2026) · relevance 6
+- **[Towards Full Pipeline FP8 Reinforcement Learning for LLMs](http://arxiv.org/abs/2609.22870v1)** — Fanchao Chen et al. (2026) · relevance 6
+- **[ParA-LLM: A Unified Approach to Paralinguistic and Acoustic Speech Understanding](http://arxiv.org/abs/2609.22771v1)** — Nishit Anand et al. (2026) · relevance 11
+- **[AutoGym: Blueprint-First Generation of Verifiable Agent Gyms](http://arxiv.org/abs/2609.22592v1)** — Aarati Andrea Noronha et al. (2026) · relevance 11
+- **[Chronicle: Cut-Point Replay for Regression Testing of LLM Agents](http://arxiv.org/abs/2609.20625v1)** — Tisha Chawla et al. (2026) · relevance 10
+- **[MATCH: Model-Aware Tool Learning with Curriculum Scheduling and Hierarchically Gated Rewards](http://arxiv.org/abs/2609.20082v1)** — Shihao Liu et al. (2026) · relevance 7
+- **[DeliveryGym: An RL Environment for Long-Horizon Embodied Agent Planning with Adaptive Curriculum](http://arxiv.org/abs/2609.19801v2)** — Haoqiang Kang et al. (2026) · relevance 15 · _cross-tier: Data Substrates_
+- **[Learn Your Own Thoughts: Abstract Token Curriculum](http://arxiv.org/abs/2609.19717v2)** — Khashayar Gatmiry et al. (2026) · relevance 8
+- **[ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks](http://arxiv.org/abs/2609.18805v1)** — Jeonghye Kim et al. (2026) · relevance 7
+- **[Layer-wise Curriculum Learning for Efficient LLM Compression](http://arxiv.org/abs/2609.19213v1)** — Donggeon Lee et al. (2026) · relevance 11
+- **[MiST: Mid-Training LLMs for Cybersecurity](http://arxiv.org/abs/2609.18496v1)** — Oded Ovadia et al. (2026) · relevance 20 · _cross-tier: Data Creation and Selection_
+- **[Unlocking the Unsolvable: Teacher-Guided Curriculum for Data-Efficient RLVR](http://arxiv.org/abs/2609.13997v1)** — Yukang Zhu et al. (2026) · relevance 13
+- **[EvolveScaler: Synthesizing Information-Evolution Contexts via Executable State Machines and Natural-Language Rendering](http://arxiv.org/abs/2609.08435v2)** — Ziliang Zhao et al. (2026) · relevance 6
+- **[Forgetting Without Restarting: Execution-State Unlearning for Stateful LLM Agents](http://arxiv.org/abs/2609.04875v1)** — Chao Yao et al. (2026) · relevance 7
+- **[Editable Visual Design](http://arxiv.org/abs/2609.04034v2)** — Junyan Ye et al. (2026) · relevance 6
+- **[TIGPO: Temporal Instance-Graph Policy Optimization for Long-Horizon LLM Agents](http://arxiv.org/abs/2609.03383v1)** — Jinwei Gan (2026) · relevance 7
+- **[PRACTICE: From Experience to Expertise in Self-Evolving Embodied Agents](http://arxiv.org/abs/2608.30760v1)** — Ziyi Bai et al. (2026) · relevance 9
+- **[ATLAS: Dual-Horizon Diagnostic Evaluation for Industrial Tool-Use Agents](http://arxiv.org/abs/2608.30685v1)** — Wei Chen et al. (2026) · relevance 16
+- **[Reading the News: Adapting Large Language Models to Swedish Journalism Through Continued Pre-Training](http://arxiv.org/abs/2608.30609v1)** — Lukas Borggren et al. (2026) · relevance 8
+- **[PAC: Progress-Augmented Advantage Curriculum for Multi-Task Reinforcement Learning of LLMs](http://arxiv.org/abs/2608.30528v1)** — Yuanqiang Yu et al. (2026) · relevance 8
+- **[Tail-Replay: Escaping the Curse of Linear Attention in Prefix Caching for Hybrid LLMs](http://arxiv.org/abs/2608.30310v1)** — Yirui Liu et al. (2026) · relevance 7
+- **[CineForge: Self-Improving Agents for Long-Horizon Video Generation](http://arxiv.org/abs/2608.29621v1)** — Junxiang Liu et al. (2026) · relevance 12
+- **[Hindsight Memory-PRM: Supervising Memory Management with Auditable Hindsight Credit](http://arxiv.org/abs/2608.29605v1)** — Haoxuan Jia et al. (2026) · relevance 9
+- **[SIC-Agents: Benchmarking and Building an Adaptive Simulator for Pediatric Serious Illness Communication Training](http://arxiv.org/abs/2608.29481v1)** — Zihan Wang et al. (2026) · relevance 7
+- **[Localizing Emergent Failures in Agentic AI: Recovering Minimal Repair Families via Counterfactual Replay](http://arxiv.org/abs/2608.29228v1)** — Bingjie Li et al. (2026) · relevance 11
+- **[Deriving Scaling Laws for OpenEuroLLM Models: Learning Rate, Batch Size and Loss](http://arxiv.org/abs/2608.28308v2)** — Niccolò Ajroldi et al. (2026) · relevance 8
+- **[Embedding Models for Stance-Aware Argument Retrieval](http://arxiv.org/abs/2608.28283v1)** — Angelo Sparacino et al. (2026) · relevance 9
+- **[Astar: Learning to Propose Evolution Directions for Self-Evolving Industrial AI Systems](http://arxiv.org/abs/2608.27287v1)** — Jinxin Hu et al. (2026) · relevance 10
+- **[Evaluating Confidence-Gated Retrieval with Matched Trajectory Replay](http://arxiv.org/abs/2608.26846v1)** — Prateek Chhikara (2026) · relevance 18
+- **[Approved Too Late: Verdict Staleness in LLM-Guarded Self-Adaptive Systems](http://arxiv.org/abs/2608.26306v1)** — Ilai Shraga et al. (2026) · relevance 8
+- **[Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems](http://arxiv.org/abs/2608.26036v1)** — Srimonti Dutta et al. (2026) · relevance 9
+- **[FinRiskAtlas: Decision-Aligned Evaluation of Large Language Models for Financial Risk Review](http://arxiv.org/abs/2608.25325v1)** — Suyang Zhong et al. (2026) · relevance 11
+- **[Beyond the Mandate: A Systematic Security Analysis of the Agent Payments Protocol (AP2)](http://arxiv.org/abs/2608.23858v1)** — Avital Aviv et al. (2026) · relevance 6
+- **[Discovering Cross-Language Reasoning Invariance in LLMs with Geometry-Invariant Sparse Autoencoders](http://arxiv.org/abs/2608.23809v1)** — Igor Bogdanov et al. (2026) · relevance 7
+- **[Automata from Agent Traces: Failure and Next-Step Prediction](http://arxiv.org/abs/2608.23670v1)** — Seonglae Cho et al. (2026) · relevance 9
+- **[Buried in Textual Debt: Context Pruning with Visual Evidence Preservation for MLLM Agents](http://arxiv.org/abs/2608.22963v2)** — Yuchen Huang et al. (2026) · relevance 11
+- **[BLADE: Bilevel Low-rank Augmented-Lagrangian Erasure for LLM Unlearning](http://arxiv.org/abs/2608.22557v1)** — Md Toufikuzzaman et al. (2026) · relevance 6
+- **[When May an Agent Stop? Evidence-Carrying Termination for Tool-Using LLMs](http://arxiv.org/abs/2608.23623v1)** — Jason Liu (2026) · relevance 12
+- **[The Chase Is the Curriculum, the Capture Anchors the Credit: Pursuit-Evasion Self-Play for Zero-Data LLM Reasoning](http://arxiv.org/abs/2608.21871v1)** — Jing Yu et al. (2026) · relevance 20 · _cross-tier: Data Creation and Selection_
+- **[UpgradeBench: A Decision-Centric Benchmark for Upgrading Fine-Tuned LLM Specialists](http://arxiv.org/abs/2608.20918v1)** — Ye Chen et al. (2026) · relevance 8
+- **[Knowing but Not Saying: Preventing Factual Access Failures in LLM SFT via Recall-Anchored Distillation](http://arxiv.org/abs/2608.20794v1)** — Haodong Chen et al. (2026) · relevance 6
+- **[MidTool: Mid-training Data Synthesis for Agentic Tool Use](http://arxiv.org/abs/2608.20314v1)** — Fengqing Jiang et al. (2026) · relevance 34 · _cross-tier: Data Creation and Selection_
+- **[EchoCoT: Extracting Hidden Chain-of-Thought from Large Reasoning Models](http://arxiv.org/abs/2608.20055v1)** — Yiting Qu et al. (2026) · relevance 10
+- **[Credit Without Ground Truth: Auditing Step-Level Credit Assignment in LLM Agents Against Executed Replay](http://arxiv.org/abs/2608.19760v2)** — Haiyue Zhang (2026) · relevance 11 · _cross-tier: Data Substrates_
+- **[Contract-Aware Rescue of a Drifted Isabelle Development: The Double-Tank Case Study](http://arxiv.org/abs/2608.18822v1)** — Jim Woodcock et al. (2026) · relevance 6
+- **[Efficient RLVR Scheduling via Graph-Structured Online Difficulty Estimation](http://arxiv.org/abs/2608.17941v1)** — Zhizhao Liu et al. (2026) · relevance 6
+- **[D$^2$ACCI: A Dual-Loop Diagnostic Protocol for Evidence-Preserving Agent Memory](http://arxiv.org/abs/2608.17756v2)** — Xule Liu et al. (2026) · relevance 7
+- **[Beyond Suspicious Steps: Ontological Trust in Long-Horizon Agents](http://arxiv.org/abs/2608.17718v1)** — An He et al. (2026) · relevance 9
+- **[When to Review: Spaced Repetition for Continual Pre-Training of Language Models](http://arxiv.org/abs/2608.17530v1)** — Alankar Atreya et al. (2026) · relevance 6
+- **[Understanding Curriculum Learning in Large Language Models via Cross-Difficulty Optimization Dynamics](http://arxiv.org/abs/2608.17268v1)** — Zhikai Ding et al. (2026) · relevance 10
+- **[ORCA: Observability-Grounded Program Repair for Microservice Incidents](http://arxiv.org/abs/2608.17018v1)** — Yuanchen Gao et al. (2026) · relevance 7
+- **[Dense Expands, Sparse Anchors: Channel-Asymmetric Query Expansion for Hybrid Retrieval](http://arxiv.org/abs/2608.15851v1)** — Chunran Zhang (2026) · relevance 11
+- **[L3Cube-IndicQuest v2: A Large-Scale Multilingual Benchmark for Evaluating Factual Knowledge of Large Language Models Across Indic Languages](http://arxiv.org/abs/2608.15535v1)** — Rinit Jain et al. (2026) · relevance 12 · _cross-tier: Data Creation and Selection_
+- **[Hierarchical Agentic Incident Response with Digital-Twin-Validated Attack Inference](http://arxiv.org/abs/2608.15016v1)** — Yiran Gao et al. (2026) · relevance 9
+- **[Fine-Tuning Qwen3-27B for C-to-Rust Code Translation: A Three-Stage Curriculum of Pretraining, Debugging-Aware SFT, and Task-Specific SFT](http://arxiv.org/abs/2608.13681v1)** — Pu Zhao et al. (2026) · relevance 15
+- **[Rethinking Normalization Placement for LLMs: Post-Norm under Curriculum Depth Growing](http://arxiv.org/abs/2608.13156v1)** — Sheng Ren et al. (2026) · relevance 7
+- **[Dual-Stream Cross-Anchor Correction Grounding Long-Form Captions and the Domain Limits of Object-Level Anchors](http://arxiv.org/abs/2608.12746v3)** — Lingkai Bu et al. (2026) · relevance 11
+- **[Retry, Switch, or Abstain? Learning Strategy-Aware Tool-Use Policies via Controlled Error Injection](http://arxiv.org/abs/2608.11977v1)** — Chaoran Chen et al. (2026) · relevance 17
+- **[AI Guardrail Survival under Single-Cycle Agentic Self-Summarization](http://arxiv.org/abs/2608.11392v2)** — Ted Kwartler et al. (2026) · relevance 7
+- **[Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost](http://arxiv.org/abs/2608.11338v1)** — Zixi Huang et al. (2026) · relevance 9
+- **[Evidence-Grounded Trustworthy Multimodal Reasoning and Evaluation Benchmark in Complex Urban Scenes](http://arxiv.org/abs/2608.10954v1)** — Zhaoyang Wei et al. (2026) · relevance 7
+- **[DashArena: Benchmarking LLMs on Interactive Analytic Dashboard Generation](http://arxiv.org/abs/2608.10567v1)** — Xiaotong Wang et al. (2026) · relevance 10
+- **[From Faulty Memories to Corrected Actions: Dependency-Guided Rollback Repair for Memory-Augmented Agents](http://arxiv.org/abs/2608.10502v1)** — Caili Yu et al. (2026) · relevance 14
+- **[MERA: Model Evolution and Routing with Skill Adaptation for Agentic Systems at Scale](http://arxiv.org/abs/2608.10333v1)** — Yuhang Yao et al. (2026) · relevance 7
+
+### Other (24)
+
+- **[The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI](http://arxiv.org/abs/2611.08428v1)** — Julian Kunkel et al. (2026) · relevance 6
+- **[Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent Adjudication](http://arxiv.org/abs/2611.03826v1)** — Heejoon Koo (2026) · relevance 8
+- **[CompSkill: Compiling Execution Experience for Skill Retrieval](http://arxiv.org/abs/2611.01115v1)** — Qi Shen et al. (2026) · relevance 6
+- **[When 200 OK Is Not an Answer: Silent Fetch Failures in Agentic Web Content Acquisition](http://arxiv.org/abs/2611.00884v1)** — Shuyang Zhang (2026) · relevance 6
+- **[ItemCompass: Real-Time Edge-AI Wearable Vision for Tag-Free Domestic Object Retrieval](http://arxiv.org/abs/2610.38629v1)** — Tsz Lok Cheung et al. (2026) · relevance 6
+- **[GEPA-Curator: Curated Learning for Self Improving Agents](http://arxiv.org/abs/2610.37651v1)** — Zack Yu et al. (2026) · relevance 10
+- **[FlexA-Mem: Budget-Adaptive Agentic Memory for LLM Agents](http://arxiv.org/abs/2610.33274v1)** — Wujiang Xu et al. (2026) · relevance 7
+- **[Signals and Queries: Token-Efficient Agentic Context Discovery](http://arxiv.org/abs/2610.29326v1)** — Yam Marcovitz (2026) · relevance 7
+- **[Building Telecom Language Models with RSOD: Domain Data, Specialist Post-Training, Memory-Conscious Distillation, and Networking Evaluation](http://arxiv.org/abs/2610.27993v1)** — Anil Srirangapatna Nagesh et al. (2026) · relevance 9
+- **[A Study of Prior Case Retrieval Using Lexical, Semantic, and Rhetorical Role Information in Indian Legal Documents](http://arxiv.org/abs/2610.07437v1)** — Sayed Ayaan Ahmed Sha et al. (2026) · relevance 6
+- **[X-Tree: Tokenizing Reusable Experience for Efficient Agent Generalization](http://arxiv.org/abs/2609.32993v1)** — Sitao Cheng et al. (2026) · relevance 7
+- **[LAM: Efficient Lossy Agent Memory Framework With A Retrieval-Score Error Bound](http://arxiv.org/abs/2609.32256v1)** — Baixi Sun et al. (2026) · relevance 8
+- **[IROH: Insightful Ranking Of Humor using Multi-Stage Hybrid Retrieval with Rationale-Distilled LLM Judges for JOKER 2026 Track Task 1 English](http://arxiv.org/abs/2609.15618v1)** — Ana-Maria Luisa Mocanu et al. (2026) · relevance 6
+- **[BusMA: A Bus Communication Substrate for Multi-Agent Systems](http://arxiv.org/abs/2609.15054v1)** — Yanwen Peng et al. (2026) · relevance 6
+- **[GeoSkill:Experience-Driven Hierarchical Skill Learning with Collaborative Revision forGeospatialAgents](http://arxiv.org/abs/2609.13667v1)** — Han Luo et al. (2026) · relevance 6
+- **[ClinTraceBench: Source-Verifiable Longitudinal Clinical Reasoning over EHR-Derived Dialogues](http://arxiv.org/abs/2609.01111v1)** — Huimin Wang et al. (2026) · relevance 8
+- **[CoBRA: Learning Tool-Use Boundaries via Counterfactual Margins](http://arxiv.org/abs/2609.00967v1)** — Wenhao Zou et al. (2026) · relevance 16
+- **[RePair: Turning Retrieval Failures into Counterfactual Hard Pairs](http://arxiv.org/abs/2608.29604v1)** — Siyi Liu et al. (2026) · relevance 6
+- **[Cross-Session Decomposition Attacks: Scaling Risk and Intent-Aligned Retrieval Defense](http://arxiv.org/abs/2608.27945v1)** — Disen Liao et al. (2026) · relevance 7
+- **[Conversational Recommendation over Live E-Commerce Catalogues with Self-Refreshing Retrieval](http://arxiv.org/abs/2608.27006v1)** — Ante Kapetanovic et al. (2026) · relevance 7
+- **[DeepSAGE: Stage-Aware Reinforcement Learning for Structured CBT Counseling Dialogue](http://arxiv.org/abs/2608.22615v1)** — Qi Zhang et al. (2026) · relevance 6
+- **[Coalition-Aware Skill Reliability for Self-Evolving Agents](http://arxiv.org/abs/2608.22610v1)** — Qiyan Zhao et al. (2026) · relevance 9
+- **[ARASH: Adaptive Retrieval And Shot Selection for Tabular Prediction](http://arxiv.org/abs/2608.17856v1)** — Samirasadat Jamalidinan et al. (2026) · relevance 6
+- **[Competing at Every Price Point with Agentic Evolution over a Menu of LLMs](http://arxiv.org/abs/2608.16207v1)** — Andrew Borthwick (2026) · relevance 7
+
+### Data Mixing (11)
+
+- **[Guardrail Erosion in Domain Fine-Tuned Large Language Models: A Paired Audit of Knowledge-Centric Abstention in Biomedical LLMs](http://arxiv.org/abs/2611.08780v1)** — Stephen Peng et al. (2026) · relevance 8
+- **[A Night at the LLM Zoo: Data Conditioned Flow Matching for Generating Pretrained LLM Weights](http://arxiv.org/abs/2611.07103v1)** — Scott Biggs et al. (2026) · relevance 9
+- **[Entropic Control for Homeostatic Optimization: Pre-empting Catastrophic Forgetting via Dynamic Feedback](http://arxiv.org/abs/2610.34182v1)** — Shangxi Wu et al. (2026) · relevance 8
+- **[Beyond Data Schedule: Fast LLM Pretraining on Data Mixtures by Loss-Reweighting](http://arxiv.org/abs/2610.32141v1)** — Jiazheng Li et al. (2026) · relevance 16
+- **[Data Schedules and Learning Rate Schedules Should Be Designed Together](http://arxiv.org/abs/2610.29348v2)** — Haodong Wen et al. (2026) · relevance 13
+- **[Scaling Laws for Multimodal Data Mixtures](http://arxiv.org/abs/2610.14423v1)** — Aditi Khandelwal et al. (2026) · relevance 15
+- **[CATCH: A Controllable Analysis Testbed for Reward Hacking in Coding RL](http://arxiv.org/abs/2609.39533v3)** — Shouli Wang et al. (2026) · relevance 11
+- **[CORTEX: Learning to Share and Specialize in Dense Language Models](http://arxiv.org/abs/2609.34449v1)** — Chuiyang Meng et al. (2026) · relevance 6
+- **[Fine-Tuning LLMs for Translation: General Forgetting Mitigation Does Not Preserve MT-Specific Instruction Following](http://arxiv.org/abs/2609.28395v1)** — Niklas Scholz et al. (2026) · relevance 8
+- **[Data Mixing as Mixture Experiment: Response Surface Methodology and Optimal Design for Large Language Model Pretraining](http://arxiv.org/abs/2608.23922v1)** — Yicheng Mao et al. (2026) · relevance 11
+- **[TranslatePsy-AfriSLM: High-Quality Data Scaling For Low-Resource Machine Translation](http://arxiv.org/abs/2608.18655v2)** — Milan Gritta et al. (2026) · relevance 12 · _cross-tier: Data Creation and Selection_
+
+### Sample Organization / Conditioning (8)
+
+- **[When Do Summaries Become Instructions? Unsupported Policy in LLM Agents' Self-Written Handoff Summaries](http://arxiv.org/abs/2611.06545v1)** — Wenhui Chu (2026) · relevance 8
+- **[Which Long Documents Matter? A Controlled Study of Data Selection for Context Extension](http://arxiv.org/abs/2610.24469v1)** — Junlong Jia et al. (2026) · relevance 14 · _cross-tier: Data Creation and Selection_
+- **[Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents](http://arxiv.org/abs/2610.02204v1)** — Yen-Jen Wang et al. (2026) · relevance 8
+- **[API Secrets Should Never Become Tokens in the LLM's Vocabulary: A Threat Analysis of API Credential Handling in LLM Agent Systems and an Empirical Evaluation of a Vault-Mediated Execution Boundary](http://arxiv.org/abs/2609.33371v1)** — Patrick Kenney et al. (2026) · relevance 6
+- **[Total Cost of Agency: Exact Attribution of Memory Injection Cost in Multi-Agent LLM Workflows](http://arxiv.org/abs/2609.23790v1)** — Vivek Kumar Singh et al. (2026) · relevance 6
+- **[HarnessBandit: Joint Learnability-Transferability Scheduling for Multi-Harness Agentic Reinforcement Learning](http://arxiv.org/abs/2609.13739v1)** — Hongliang Wei et al. (2026) · relevance 9
+- **[Benchmarking AI Agents for Hardware Design Automation via MCP Tool Calling](http://arxiv.org/abs/2608.26199v1)** — Leonardo Liparulo et al. (2026) · relevance 8
+- **[TaoLive Digital Avatar Agent Technical Report: Training Agents to Evolve with Their Harness](http://arxiv.org/abs/2608.15763v1)** — TaoLive AIGC LLM Team et al. (2026) · relevance 7
