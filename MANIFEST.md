@@ -1,7 +1,10 @@
 # Package contents
 
 - `.github/workflows/update-papers.yml` — scheduled/manual GitHub Actions workflow
+- `.github/workflows/backfill-papers.yml` — exact-date historical backfill workflow
+- `.github/workflows/update-repo-status.yml` — PR + Actions history → README status block
 - `scripts/paper_bot.py` — fetch/filter/deduplicate/classify/render pipeline
+- `scripts/update_repo_status.py` — GitHub REST API → PR/run statistics → Markdown block (stdlib only)
 - `config/paper_bot.yaml` — search queries, taxonomy keywords, thresholds
 - `data/papers.json` — persistent bot-curated paper database
 - `requirements.txt` — Python dependencies

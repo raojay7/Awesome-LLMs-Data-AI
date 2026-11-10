@@ -24,13 +24,32 @@ Awesome-LLMs-Data-AI/
 ├── data/
 │   └── papers.json
 ├── scripts/
-│   └── paper_bot.py
+│   ├── paper_bot.py
+│   └── update_repo_status.py         # stdlib-only PR/Actions status generator
 ├── updates/                         # created automatically by backfill
 └── .github/
     └── workflows/
         ├── update-papers.yml        # weekly/live mode
-        └── backfill-papers.yml      # exact historical range → new Markdown file
+        ├── backfill-papers.yml      # exact historical range → new Markdown file
+        └── update-repo-status.yml   # PR + Actions history → README status block
 ```
+
+## Repository status sync (stdlib only)
+
+`update-repo-status.yml` refreshes the `AUTO-STATUS` block in `README.md` from the
+GitHub PR list and Actions run history. It runs weekly, after the literature bot
+finishes, when PRs open/close, and on manual dispatch. Only the marked block is
+rewritten, and the generated commit is skipped by CI triggers.
+
+To preview locally:
+
+```bash
+python scripts/update_repo_status.py --readme README.md --dry-run
+python scripts/update_repo_status.py --readme README.md   # writes the block
+```
+
+Unauthenticated requests work for public repositories (60 requests/hour); set
+`GITHUB_TOKEN` for private repositories or higher limits.
 
 ## 1. Upgrade from v1
 

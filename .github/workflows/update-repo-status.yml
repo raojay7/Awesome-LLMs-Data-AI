@@ -1,0 +1,77 @@
+name: Repository Status Sync
+
+# Keeps the README.md AUTO-STATUS block in sync with the repository's pull
+# requests and GitHub Actions run history.
+#
+# Safety notes:
+#   * The job always checks out the default branch. It never checks out or
+#     executes code from a pull request head, which is why pull_request_target
+#     can safely be used here to obtain a write-capable token.
+#   * Only the AUTO-STATUS block is rewritten; the curated README content and
+#     the AUTO-LITERATURE block are left untouched.
+#   * The generated commit carries [skip ci] and the push trigger ignores
+#     README.md, so a status commit cannot retrigger this workflow.
+
+on:
+  schedule:
+    # GitHub cron is UTC. The weekly literature bot has been running around
+    # 09:50 UTC on Mondays, so this runs shortly afterwards.
+    - cron: "45 10 * * 1"
+  workflow_run:
+    workflows: ["Weekly LLM Data Literature Bot"]
+    types: [completed]
+  pull_request_target:
+    types: [opened, closed, reopened]
+  push:
+    branches: [main]
+    paths-ignore:
+      - README.md
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+  actions: read
+
+concurrency:
+  group: repository-status-sync
+  cancel-in-progress: false
+
+jobs:
+  refresh-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate status block from PRs and Actions history
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/update_repo_status.py \
+            --readme README.md \
+            --database data/papers.json \
+            --repo "${GITHUB_REPOSITORY}"
+
+      - name: Commit and push when the status changed
+        env:
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "Status block unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "repo-status-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh repository automation status [skip ci]"
+          git push origin "HEAD:${TARGET_BRANCH}"
