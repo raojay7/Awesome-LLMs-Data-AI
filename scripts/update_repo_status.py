@@ -116,6 +116,11 @@ def is_bot_pr(pr: dict) -> bool:
 def collect(repo: str, token: str | None, max_runs: int, max_prs: int) -> dict:
     pulls = api_all_pages(f"/repos/{repo}/pulls", token, {"state": "all", "sort": "updated", "direction": "desc"})
     runs = api_all_pages(f"/repos/{repo}/actions/runs", token, max_pages=3, key="workflow_runs")
+    # Inside Actions the current run is already listed as "in_progress".
+    # Excluding it keeps the generated table from describing itself mid-flight.
+    current_run_id = os.environ.get("GITHUB_RUN_ID")
+    if current_run_id:
+        runs = [r for r in runs if str(r.get("id")) != str(current_run_id)]
     workflows_resp = api_get(f"/repos/{repo}/actions/workflows", token)
     workflows = workflows_resp.get("workflows", []) if isinstance(workflows_resp, dict) else []
 
@@ -124,9 +129,15 @@ def collect(repo: str, token: str | None, max_runs: int, max_prs: int) -> dict:
     open_prs.sort(key=lambda p: p.get("number", 0), reverse=True)
     merged_prs = [p for p in pulls if p.get("merged_at")]
     bot_open = [p for p in open_prs if is_bot_pr(p)]
-    completed = [r for r in runs if r.get("status") == "completed"]
+    # A cancelled run is not an execution outcome, so keep it out of the
+    # success-rate denominator and report it separately instead.
+    completed = [
+        r for r in runs
+        if r.get("status") == "completed" and r.get("conclusion") != "cancelled"
+    ]
     succeeded = [r for r in completed if r.get("conclusion") == "success"]
-    latest = runs[0] if runs else {}
+    cancelled_total = sum(1 for r in runs if r.get("conclusion") == "cancelled")
+    latest = completed[0] if completed else (runs[0] if runs else {})
     oldest_open = min(open_prs, key=lambda p: p.get("created_at") or "") if open_prs else None
 
     return {
@@ -143,6 +154,7 @@ def collect(repo: str, token: str | None, max_runs: int, max_prs: int) -> dict:
         "recent_runs": runs[:max_runs],
         "completed_total": len(completed),
         "succeeded_total": len(succeeded),
+        "cancelled_total": cancelled_total,
         "latest": latest,
         "workflows": workflows,
     }
@@ -165,6 +177,7 @@ def render(data: dict, readme: str, papers_count: int | None) -> str:
         f" ({100.0 * data['succeeded_total'] / data['completed_total']:.1f}%) |"
         if data["completed_total"]
         else "| Successful / completed runs | — |",
+        f"| Cancelled runs (not counted above) | {data['cancelled_total']} |",
         f"| Latest run | {md_cell(data['latest'].get('name', '-'), 40)} · "
         f"{data['latest'].get('conclusion') or data['latest'].get('status') or '-'} · "
         f"{fmt_dt(data['latest'].get('created_at'))} |",
