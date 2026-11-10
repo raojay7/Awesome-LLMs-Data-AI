@@ -166,8 +166,8 @@ data/
 | Metric | Value |
 | --- | --- |
 | Workflow runs recorded | 15 |
-| Successful / completed runs | 12 / 13 (92.3%) |
-| Latest run | Repository Status Sync · pending · 2026-11-10 08:06 UTC |
+| Successful / completed runs | 13 / 14 (92.9%) |
+| Latest run | Repository Status Sync · in_progress · 2026-11-10 08:06 UTC |
 | Registered workflows | 3 (3 active) |
 | Pull requests (all / open / merged) | 15 / 11 / 4 |
 | Open PRs (bot / human) | 10 / 1 |
@@ -179,9 +179,9 @@ data/
 
 | Workflow | Trigger | Result | Started (UTC) |
 | --- | --- | --- | --- |
-| Repository Status Sync | pull_request_targ… | pending | 2026-11-10 08:06 UTC |
+| Repository Status Sync | pull_request_targ… | in_progress | 2026-11-10 08:06 UTC |
 | Repository Status Sync | pull_request_targ… | cancelled | 2026-11-10 08:06 UTC |
-| Repository Status Sync | push | in_progress | 2026-11-10 08:06 UTC |
+| Repository Status Sync | push | success | 2026-11-10 08:06 UTC |
 | Weekly LLM Data Literature Bot | schedule | success | 2026-11-09 09:50 UTC |
 | Weekly LLM Data Literature Bot | schedule | success | 2026-11-02 09:32 UTC |
 
