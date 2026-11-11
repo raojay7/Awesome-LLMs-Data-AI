@@ -26,7 +26,8 @@ Awesome-LLMs-Data-AI/
 ├── scripts/
 │   ├── paper_bot.py
 │   ├── update_repo_status.py         # stdlib-only PR/Actions status generator
-│   └── render_paper_index.py         # paper database → PAPERS.md index
+│   ├── render_paper_index.py         # paper database → PAPERS.md index
+│   └── extract_ideas.py              # abstract → one-sentence idea
 ├── updates/                         # created automatically by backfill
 └── .github/
     └── workflows/
@@ -69,6 +70,19 @@ papers discovered that week. Merge those branches (or merge their
 `data/papers.json` files, deduplicated by arXiv ID) so the discoveries are
 not lost — the bot otherwise starts every run from the stale main-branch
 database and rediscovers the same papers.
+
+## One-sentence ideas
+
+`scripts/extract_ideas.py` deterministically selects the contribution sentence
+("We introduce ...", "This work proposes ...") from each arXiv abstract and
+stores it as the `idea` field of `data/papers.json`; `PAPERS.md` renders it under
+every entry. `update-repo-status.yml` fills the field for newly discovered
+papers on each run. This is extraction, not a model-generated summary.
+
+`PAPER_IDEAS_ZH.md` is the human-written layer: a systematic review of the
+corpus (tier/subcategory distribution, title-term hotspots, four research
+threads) plus Chinese one-sentence summaries for the 60 highest-relevance
+papers. Extend it manually when the curation scope grows.
 
 ## 1. Upgrade from v1
 

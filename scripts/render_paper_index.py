@@ -56,6 +56,9 @@ def entry_line(paper: dict) -> str:
     cross = paper.get("cross_tiers") or []
     if cross:
         line += f" · _cross-tier: {', '.join(cross)}_"
+    idea = " ".join(str(paper.get("idea") or "").split())
+    if idea:
+        line += f"\n  _Idea: {idea}_"
     return line
 
 
@@ -87,6 +90,8 @@ def render(db: dict) -> str:
         f"**{len(papers):,} unique papers** · published {span} · grouped by the repository's primary tier and subcategory.",
         "",
         "This is a **discovery archive**: entries were proposed by the weekly literature bot, grouped by its deterministic taxonomy, and have **not** been human-reviewed. The curated reading list lives in [README.md](README.md); the newest entries also appear there in the recent-paper block.",
+        "",
+        "Each entry carries a one-sentence **Idea** extracted deterministically from its arXiv abstract by `scripts/extract_ideas.py` (the contribution sentence, not a model-generated summary). Chinese one-sentence summaries for the highest-relevance papers are in [`PAPER_IDEAS_ZH.md`](PAPER_IDEAS_ZH.md).",
         "",
         "## Contents",
         "",

@@ -1,14 +1,16 @@
 name: Repository Status Sync
 
-# Keeps the README.md AUTO-STATUS block and PAPERS.md in sync with the
-# repository's pull requests, Actions run history, and paper database.
+# Keeps the README.md AUTO-STATUS block, the per-paper one-sentence ideas in
+# data/papers.json, and PAPERS.md in sync with the repository's pull requests,
+# Actions run history, and paper database.
 #
 # Safety notes:
 #   * The job always checks out the default branch. It never checks out or
 #     executes code from a pull request head, which is why pull_request_target
 #     can safely be used here to obtain a write-capable token.
-#   * Only the AUTO-STATUS block and the generated PAPERS.md are rewritten;
-#     the curated README content and the AUTO-LITERATURE block stay untouched.
+#   * Only the AUTO-STATUS block, the `idea` field of newly discovered papers,
+#     and the generated PAPERS.md are rewritten; the curated README content and
+#     the AUTO-LITERATURE block stay untouched.
 #   * The generated commit carries [skip ci] and the push trigger ignores both
 #     generated files, so an automated commit cannot retrigger this workflow.
 
@@ -27,6 +29,7 @@ on:
     paths-ignore:
       - README.md
       - PAPERS.md
+      - data/papers.json
   workflow_dispatch:
 
 permissions:
@@ -62,6 +65,9 @@ jobs:
             --database data/papers.json \
             --repo "${GITHUB_REPOSITORY}"
 
+      - name: Fill in missing one-sentence ideas
+        run: python scripts/extract_ideas.py --database data/papers.json
+
       - name: Rebuild the complete paper index
         run: |
           python scripts/render_paper_index.py \
@@ -73,12 +79,12 @@ jobs:
           TARGET_BRANCH: ${{ github.event.repository.default_branch }}
         shell: bash
         run: |
-          if git diff --quiet -- README.md PAPERS.md; then
+          if git diff --quiet -- README.md PAPERS.md data/papers.json; then
             echo "Generated docs unchanged; nothing to commit."
             exit 0
           fi
           git config user.name "repo-status-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md PAPERS.md
-          git commit -m "chore: refresh automation status and paper index [skip ci]"
+          git add README.md PAPERS.md data/papers.json
+          git commit -m "chore: refresh automation status, ideas and paper index [skip ci]"
           git push origin "HEAD:${TARGET_BRANCH}"

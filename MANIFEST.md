@@ -6,7 +6,9 @@
 - `scripts/paper_bot.py` — fetch/filter/deduplicate/classify/render pipeline
 - `scripts/update_repo_status.py` — GitHub REST API → PR/run statistics → Markdown block (stdlib only)
 - `scripts/render_paper_index.py` — paper database → complete grouped index (stdlib only)
-- `PAPERS.md` — auto-generated full index of every discovered paper
+- `scripts/extract_ideas.py` — arXiv abstract → one-sentence idea for every paper (stdlib only)
+- `PAPERS.md` — auto-generated full index of every discovered paper, with one-sentence ideas
+- `PAPER_IDEAS_ZH.md` — systematic corpus review + Chinese one-sentence summaries of the top 60 papers
 - `config/paper_bot.yaml` — search queries, taxonomy keywords, thresholds
 - `data/papers.json` — persistent bot-curated paper database
 - `requirements.txt` — Python dependencies

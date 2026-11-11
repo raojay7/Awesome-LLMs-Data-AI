@@ -157,7 +157,7 @@ data/
 └── papers.json             # persistent bot-curated paper history
 ```
 
-Every unique paper the bot has discovered is listed in [`PAPERS.md`](PAPERS.md), grouped by primary tier and subcategory with a month-by-month breakdown. The recent-paper block below shows only the newest entries; the archive is regenerated automatically so discoveries are never lost while weekly PRs await review. Neither the archive nor the recent-paper block is human-curated — the curated reading list is the main taxonomy above.
+Every unique paper the bot has discovered is listed in [`PAPERS.md`](PAPERS.md), grouped by primary tier and subcategory with a month-by-month breakdown, and each entry carries a one-sentence **Idea** extracted from its arXiv abstract. [`PAPER_IDEAS_ZH.md`](PAPER_IDEAS_ZH.md) provides a systematic review of the corpus plus hand-written Chinese one-sentence summaries for the 60 highest-relevance papers. The recent-paper block below shows only the newest entries; the archive is regenerated automatically so discoveries are never lost while weekly PRs await review. Neither the archive nor the recent-paper block is human-curated — the curated reading list is the main taxonomy above.
 
 <!-- AUTO-STATUS:START -->
 ### Repository Automation Status
