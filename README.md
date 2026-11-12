@@ -509,6 +509,7 @@ We organize the LLM data lifecycle through an **operation-centered, three-tier t
 - [Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction](https://arxiv.org/abs/2512.04987). arXiv 2025.
 - [ClawEnvKit: Automatic Environment Generation for Claw-Like Agents](https://arxiv.org/abs/2604.18543). arXiv 2026.
 - [AgentFrontier: Expanding the Capability Frontier of LLM Agents with ZPD-Guided Data Synthesis](https://arxiv.org/abs/2510.24695). arXiv 2025.
+- [EC²-Bench (EC2-Bench): Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution](https://arxiv.org/abs/2610.17816). arXiv 2026.
 ### 3.3 Summary: Substrate Dynamics and Trade-offs
 
 The substrate view highlights a shift from **raw scale toward curated information density**, and—especially for agents—from **stored text/trajectories toward executable environments** that can generate tasks, observations, failures, recovery paths, and verification signals on demand.
@@ -546,6 +547,7 @@ The substrate view highlights a shift from **raw scale toward curated informatio
 - [Synthetic Data RL: Task Definition Is All You Need](https://arxiv.org/abs/2505.17063). arXiv 2025.
 - [Condor: Enhance LLM Alignment with Knowledge-Driven Data Synthesis and Refinement](https://aclanthology.org/2025.acl-long.1091/). ACL 2025.
 - [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://arxiv.org/pdf/2406.08464). ICLR 2025.
+- [LongMab-PO: Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization](https://aclanthology.org/2026.acl-long.161/). ACL 2026.
 
 #### 4.2.2 Data Transformation
 - [SODA: Million-Scale Dialogue Distillation with Social Commonsense Contextualization](https://aclanthology.org/2023.emnlp-main.799/). EMNLP 2023.
