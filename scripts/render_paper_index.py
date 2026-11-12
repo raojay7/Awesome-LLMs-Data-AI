@@ -53,6 +53,8 @@ def entry_line(paper: dict) -> str:
         f"- **[{title}]({url})** — {author_short(paper.get('authors') or [])} "
         f"({year_of(paper)}) · relevance {paper.get('relevance_score', '-')}"
     )
+    if paper.get("quality_score") is not None:
+        line += f" · quality {paper.get('quality_score')} ({paper.get('quality_grade', '-')})"
     cross = paper.get("cross_tiers") or []
     if cross:
         line += f" · _cross-tier: {', '.join(cross)}_"
@@ -93,6 +95,8 @@ def render(db: dict) -> str:
         "",
         "Each entry carries a one-sentence **Idea** extracted deterministically from its arXiv abstract by `scripts/extract_ideas.py` (the contribution sentence, not a model-generated summary). Chinese one-sentence summaries for the highest-relevance papers are in [`PAPER_IDEAS_ZH.md`](PAPER_IDEAS_ZH.md).",
         "",
+        "Within every subcategory, papers are **ranked by the quality proxy score** (ties broken by publication date); the rules and the global ranking are in [`PAPER_QUALITY_RANKING.md`](PAPER_QUALITY_RANKING.md). `relevance` measures topical keyword fit, `quality` measures how much evidence the paper reports — they are different things.",
+        "",
         "## Contents",
         "",
         "| Tier | Papers | Subcategories |",
@@ -118,7 +122,12 @@ def render(db: dict) -> str:
         for p in group:
             buckets[p.get("subcategory") or "Other"].append(p)
         for subcat in sorted(buckets, key=lambda s: (-len(buckets[s]), s)):
-            items = sorted(buckets[subcat], key=lambda p: p.get("published", ""), reverse=True)
+            # Rank by the quality proxy first, then by recency within a tie.
+            items = sorted(
+                buckets[subcat],
+                key=lambda p: (p.get("quality_score") or 0, p.get("published") or ""),
+                reverse=True,
+            )
             lines += [f"### {subcat} ({len(items)})", ""]
             lines.extend(entry_line(p) for p in items)
             lines.append("")

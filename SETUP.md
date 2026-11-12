@@ -20,14 +20,16 @@ Awesome-LLMs-Data-AI/
 ├── README.md
 ├── requirements.txt
 ├── config/
-│   └── paper_bot.yaml
+│   ├── paper_bot.yaml
+│   └── quality_ranking.yaml           # quality proxy rules
 ├── data/
 │   └── papers.json
 ├── scripts/
 │   ├── paper_bot.py
 │   ├── update_repo_status.py         # stdlib-only PR/Actions status generator
 │   ├── render_paper_index.py         # paper database → PAPERS.md index
-│   └── extract_ideas.py              # abstract → one-sentence idea
+│   ├── extract_ideas.py              # abstract → one-sentence idea
+│   └── rank_papers.py                # quality proxy → ranked report
 ├── updates/                         # created automatically by backfill
 └── .github/
     └── workflows/
@@ -83,6 +85,42 @@ papers on each run. This is extraction, not a model-generated summary.
 corpus (tier/subcategory distribution, title-term hotspots, four research
 threads) plus Chinese one-sentence summaries for the 60 highest-relevance
 papers. Extend it manually when the curation scope grows.
+
+## Quality ranking rules
+
+`relevance_score` comes from keyword rules and measures **topical fit**; it says
+nothing about how much evidence a paper reports. `config/quality_ranking.yaml`
+defines a separate, fully auditable **quality proxy** (0–100):
+
+```
+score = evidence(30) + reproducibility(25) + maturity(15)
+      + fit(20) + clarity(10) - penalty
+```
+
+Each dimension is a sum of boolean signals — numeric results, baselines,
+ablations, code links, open-source statements, benchmarks/datasets, DOI or
+journal reference, revisions, named methods, abstract length, plus a bounded
+`relevance_norm`. Signals are regexes in the config; the exact hits for each
+paper are stored in `quality_evidence` inside `data/papers.json`, so any score
+can be traced. Grades A/B/C/D use absolute thresholds calibrated on this corpus.
+
+```bash
+python scripts/rank_papers.py --sample 5          # inspect without writing
+python scripts/rank_papers.py                    # score new papers + rebuild report
+python scripts/rank_papers.py --force            # recompute everything
+python scripts/render_paper_index.py --database data/papers.json --output PAPERS.md
+```
+
+`PAPERS.md` orders papers by this score within every subcategory, and
+`PAPER_QUALITY_RANKING.md` contains the rules, distribution and global Top 100.
+To change the weights or thresholds, edit the YAML and **bump its `version`** —
+the workflow then invalidates all stored scores. Locally, `--force` does the
+same. `update-repo-status.yml` runs `rank_papers.py` on every refresh (it
+installs PyYAML for the rule file).
+
+This is a proxy, not a quality judgement: there are no citation counts, review
+scores or full texts. A polished abstract can score well regardless of
+correctness, and mentioning a benchmark is not the same as releasing one.
 
 ## 1. Upgrade from v1
 

@@ -117,3 +117,5 @@
 ---
 
 全量 2,807 篇的英文一句话 idea 见 [`PAPERS.md`](PAPERS.md)；自动抽取逻辑见 `scripts/extract_ideas.py`。若需要把中文概括扩展到 score ≥15（160 篇）或 ≥12（443 篇），按同一体例续写即可。
+
+> 补充：本节按**主题相关性**排序（与 `relevance_score` 一致）。若要看按**质量代理分**排序的全量榜单与规则，见 [`PAPER_QUALITY_RANKING.md`](PAPER_QUALITY_RANKING.md) 与 [`config/quality_ranking.yaml`](config/quality_ranking.yaml)。两套分数衡量的是不同东西。

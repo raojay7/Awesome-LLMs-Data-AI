@@ -1,0 +1,82 @@
+# Quality ranking rules for the discovered-paper corpus.
+#
+# This is a REPRODUCIBLE PROXY SCORE, not a judgement of scientific quality:
+# there are no citation counts, review scores, or full texts in this repository.
+# It estimates how much a paper is worth reading / curating from metadata only.
+# Every signal is a boolean regex hit or a bounded numeric normalisation, so a
+# score can always be traced back to the exact evidence that produced it.
+#
+# Total = evidence + reproducibility + maturity + fit + clarity - penalties,
+# clipped to 0..100. Dimension weights sum to 100 by construction.
+
+version: 1
+
+patterns:
+  numeric_result: '\d+(?:\.\d+)?\s*(?:%|percentage points?|points?)\b|\bimprov\w+\b[^.]{0,50}\b\d+(?:\.\d+)?\b'
+  sota_claim: 'outperform\w*|state-of-the-art|\bSOTA\b|surpass\w*|\bnew best\b'
+  experiments: '\bexperiments?\b|\bevaluat\w*|\bwe (test|compare|measure|conduct)\b|\bempirical\b'
+  baseline: '\bbaselines?\b|compared (with|to)|\bversus\b|\bvs\.'
+  ablation: '\bablation\b|\bsensitivity analysis\b|\bcomponent.?wise\b'
+  code_link: 'github\.com|huggingface\.co|anonymous\.4open|codeberg\.org'
+  release_claim: '\bwe (release|open.?source|make (publicly )?available|publicly release)\b|\b(code|data|models?|artifacts?) (is|are|will be) (available|released|public)\b'
+  artifact: '\bbenchmark|\bdatasets?\b|\bcorpus\b|\benvironment suite\b'
+  named_method: '\b[A-Z][A-Z0-9]{2,7}\b|^\S+[-:]'
+  contribution_sentence: '\b(we|this (paper|work|study))\b[^.]{0,60}\b(introduce|propose|present|develop|design|build|release|construct|demonstrate|show|find|provide|establish|create)\w*\b'
+
+dimensions:
+  evidence:
+    label: 实证强度
+    signals:
+      numeric_result: 10
+      sota_claim: 6
+      experiments: 6
+      baseline: 5
+      ablation: 3
+  reproducibility:
+    label: 可复现性
+    signals:
+      code_link: 10
+      release_claim: 8
+      artifact: 7
+  maturity:
+    label: 文稿成熟度
+    signals:
+      peer_reviewed: 8
+      revised: 4
+      multi_author: 3
+  fit:
+    label: 主题契合与广度
+    signals:
+      relevance_norm: 12
+      families: 4
+      cross_tier: 2
+      categories: 2
+  clarity:
+    label: 贡献明确度
+    signals:
+      contribution_sentence: 4
+      named_method: 3
+      abstract_length: 3
+
+settings:
+  relevance_cap: 20          # relevance_score above this counts as full marks
+  abstract_min: 1000         # informative abstracts fall in this length band
+  abstract_max: 2200
+  families_threshold: 2      # source_families >= 2 -> full breadth marks
+  categories_threshold: 3    # arXiv categories >= 3 -> full breadth marks
+
+penalties:
+  borderline_other:          # classified as "Other" and weakly relevant
+    score: -5
+    subcategory: Other
+    relevance_below: 8
+
+# Thresholds calibrated against the 2,807-paper corpus (score p50=36.2,
+# p90=52.2, max=76.6). They are absolute scores, not percentiles, so adding
+# papers does not silently regrade existing ones; recalibrate when the corpus
+# changes substantially.
+grades:
+  A: 55                      # ~p95 · high-priority curation candidate
+  B: 45                      # ~p75
+  C: 32                      # ~p40
+  # anything lower is grade D

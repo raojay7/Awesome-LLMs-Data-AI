@@ -7,7 +7,10 @@
 - `scripts/update_repo_status.py` — GitHub REST API → PR/run statistics → Markdown block (stdlib only)
 - `scripts/render_paper_index.py` — paper database → complete grouped index (stdlib only)
 - `scripts/extract_ideas.py` — arXiv abstract → one-sentence idea for every paper (stdlib only)
-- `PAPERS.md` — auto-generated full index of every discovered paper, with one-sentence ideas
+- `scripts/rank_papers.py` — configurable quality proxy score + ranked report (needs PyYAML)
+- `config/quality_ranking.yaml` — quality ranking rules (dimensions, signal regexes, weights, grades)
+- `PAPERS.md` — auto-generated full index, ranked by quality within each subcategory, with one-sentence ideas
+- `PAPER_QUALITY_RANKING.md` — the rules, score distribution and global ranked lists
 - `PAPER_IDEAS_ZH.md` — systematic corpus review + Chinese one-sentence summaries of the top 60 papers
 - `config/paper_bot.yaml` — search queries, taxonomy keywords, thresholds
 - `data/papers.json` — persistent bot-curated paper database
